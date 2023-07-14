@@ -1,0 +1,75 @@
+[2023-07-15 00:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18895896]
+[2023-07-15 00:05:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sagemaker-rightline
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langroid
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-interpreter
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meerschaum
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trame-server
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hatch-conda-build
+[2023-07-15 00:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indipydriver
+[2023-07-15 00:05:42] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.222] Old Version: [0.0.221]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [sagemaker-rightline]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [trame-server]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [meerschaum]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/12/29/6ed6d47d54a5a901c5609713f04e93588b55e9e0a61b9f3f037ea7d08726/open_interpreter-0.0.221.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [indipydriver]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 00:05:42] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/dd/93/9d445d4c459893320db4924b066f91b5953f057d377f23e43ea7a18ee127/meerschaum-1.6.8.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [sagemaker-rightline]: Downloading https://files.pythonhosted.org/packages/fc/0e/e2f3a6f7e4bd7cc634997a8e9d21e6f0dd57460ce813f2e36b417d6a33a9/sagemaker-rightline-0.3.5.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/b2/a7/c83220c3f0248820cc5f556d3d49459672be76eeb1fc51f21d71612b32ba/hatch_conda_build-0.0.1.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/ff/21/1f6fe85842c2868c759cc0fe6afd775c1cf48d14a7bde3c0d3fa846bcfb6/trame-server-2.9.0.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/5c/25/727c398dc3765114528b417670c5c4803f94b76f7fa55ca2d2f98628bc84/indipydriver-0.0.6.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a6/c8/264de2682296df9bf57a5457d5d9f7c5d72a544a6fc7f4fb967a4c8bb757/open_interpreter-0.0.222.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/e7/a5/daf418e71bd16350c5ee45dedb45a0d0d3f4e01cfff517a1cb6e26ffcb96/meerschaum-1.6.9.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-15 00:05:42] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.221.tar.gz tmp/open_interpreter-0.0.222.tar.gz --markdown 20230715/o/open-interpreter/0.0.221-0.0.222/diff.md --exclude *.pyd
+[2023-07-15 00:05:42] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/02/dd/183cccad656f7147eebc1f0a6c7d0f222558c83d6cee52d98711b68b2b1e/hatch_conda_build-0.0.2.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [sagemaker-rightline]: Downloading https://files.pythonhosted.org/packages/70/8e/46d33d3befab59a2d33dbc204d59330a65e4b33400997d6f941b89d661a9/sagemaker-rightline-0.3.6.tar.gz
+[2023-07-15 00:05:42] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-15 00:05:42] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230715/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-15 00:05:42] INFO root fetch - processPackages [trame-server]: Downloading https://files.pythonhosted.org/packages/26/e2/4a78771f17ab649d699d0f84fef5416b02ee3f59e5642211b013061adde0/trame-server-2.9.1.tar.gz
+[2023-07-15 00:05:43] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230715/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.8.tar.gz tmp/meerschaum-1.6.9.tar.gz --markdown 20230715/m/meerschaum/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [trame-server]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [trame-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-server-2.9.0.tar.gz tmp/trame-server-2.9.1.tar.gz --markdown 20230715/t/trame-server/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/b1/b2/2c3b7ba4ea5d23c3f7bab399dd6381ad32c5cd569e4522807d83fe7d0fb4/indipydriver-0.0.7.tar.gz
+[2023-07-15 00:05:43] INFO root fetch - processPackages [sagemaker-rightline]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [sagemaker-rightline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-rightline-0.3.5.tar.gz tmp/sagemaker-rightline-0.3.6.tar.gz --markdown 20230715/s/sagemaker-rightline/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.1.tar.gz tmp/hatch_conda_build-0.0.2.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2023-07-15 00:05:43] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-0.0.6.tar.gz tmp/indipydriver-0.0.7.tar.gz --markdown 20230715/i/indipydriver/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 00:05:43] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.221.tar.gz]
+[2023-07-15 00:05:43] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.222.tar.gz]
+[2023-07-15 00:05:43] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.1.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.2.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-2.9.0.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [trame-server]: Remove: archive file [/home/abi/fetcher/tmp/trame-server-2.9.1.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [trame-server]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [sagemaker-rightline]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-rightline-0.3.5.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [sagemaker-rightline]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-rightline-0.3.6.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [sagemaker-rightline]: success
+[2023-07-15 00:05:44] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.6.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.7.tar.gz]
+[2023-07-15 00:05:44] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2023-07-15 00:05:45] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.6.8.tar.gz]
+[2023-07-15 00:05:45] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.6.9.tar.gz]
+[2023-07-15 00:05:45] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-07-15 00:05:45] INFO root fetch - main [MainThread]: Store serial: [18895925]
