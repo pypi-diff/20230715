@@ -742,3 +742,83 @@
 [2023-07-15 00:52:45] INFO root fetch - processPackages [gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-0.29.0.tar.gz]
 [2023-07-15 00:52:45] INFO root fetch - main [MainThread]: End processing [gymnasium]: success
 [2023-07-15 00:52:45] INFO root fetch - main [MainThread]: Store serial: [18896201]
+[2023-07-15 00:57:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896201]
+[2023-07-15 00:57:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psiexperiment
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: council-ai
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aicodebot
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDecision
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orso
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anarchy-bot
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spyctl
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: souJpg-comm
+[2023-07-15 00:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: q2rad
+[2023-07-15 00:57:54] INFO root fetch - processPackages [psiexperiment]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [council-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [pyDecision]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [anarchy-bot]: New version: [23.0.4] Old Version: [23.0.3]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [souJpg-comm]: New version: [1.1.3] Old Version: [1.1.0]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-15 00:57:54] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 00:57:55] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/c0/dc/b744d4645f58bf06535dc8e5486a3f3f44117b10951fdce92570eb28dd3b/pyDecision-2.9.2.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/d8/61/335b557a77a788e1957df362491ca21e7c8cc1ae42e97da45567217c50ac/souJpg-comm-1.1.0.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [psiexperiment]: Downloading https://files.pythonhosted.org/packages/e3/02/8ddf0312a53a2dac9f434a033a5899cda217968655ed517bae863c49f44b/psiexperiment-0.4.1.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/13/cc/d4b1f8bb63b4cbe7b78cfd271a9a7b5a889dbfe33ab57358dcbd28564a59/orso-0.0.82.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/b5/f2/c7b2c18a18b902de1228a69e94625bef4c537fe47840fb8f29c92945596c/council_ai-0.0.5.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/0f/b5/607e7a6010810b54e6a35f92393ee1fdccb18cae92a0d26aa3a5c033fc24/anarchy_bot-23.0.3.tar.gz
+[2023-07-15 00:57:55] WARNING root fetch - processPackages [psiexperiment]: Skipping package: exceeds size limit 37179189>=10485760
+[2023-07-15 00:57:55] INFO root fetch - main [MainThread]: End processing [psiexperiment] error
+[2023-07-15 00:57:55] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/5c/e6/4fee6128c48fa54dd9c5a5909069a1652129099c4744c582a22fc56c610c/souJpg-comm-1.1.3.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/c0/be/6c5ad7830ab186fbd3d2d6b2b36219a5001b5e6d36cbe2811f424908d1b8/pyDecision-2.9.3.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230715/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-15 00:57:55] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.1.0.tar.gz tmp/souJpg-comm-1.1.3.tar.gz --markdown 20230715/s/souJpg-comm/1.1.0-1.1.3/diff.md --exclude *.pyd
+[2023-07-15 00:57:55] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/4e/8d/1104c4ed9104efb2177f88f049119eb4f6f0faeaa08c97ee889db0f36dfc/council_ai-0.0.6.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-2.9.2.tar.gz tmp/pyDecision-2.9.3.tar.gz --markdown 20230715/p/pyDecision/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-15 00:57:55] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.82.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230715/o/orso/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:57:55] INFO root fetch - processPackages [anarchy-bot]: Downloading https://files.pythonhosted.org/packages/2c/a2/d0ceea84bd49bcb77e32b37775b57087a5f2fed32cb58328d9a28ef6cf1c/anarchy_bot-23.0.4.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [council-ai]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [council-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/council_ai-0.0.5.tar.gz tmp/council_ai-0.0.6.tar.gz --markdown 20230715/c/council-ai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 00:57:55] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2023-07-15 00:57:55] INFO root fetch - processPackages [anarchy-bot]: executing diffoscope
+[2023-07-15 00:57:55] INFO root fetch - processPackages [anarchy-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anarchy_bot-23.0.3.tar.gz tmp/anarchy_bot-23.0.4.tar.gz --markdown 20230715/a/anarchy-bot/23.0.3-23.0.4/diff.md --exclude *.pyd
+[2023-07-15 00:57:56] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-15 00:57:56] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2023-07-15 00:57:56] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20230715/s/spyctl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 00:57:56] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-15 00:57:56] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230715/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 00:57:56] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-15 00:57:56] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-15 00:57:56] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.82.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg-comm-1.1.0.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg-comm-1.1.3.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.2.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.3.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.3.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [anarchy-bot]: Remove: archive file [/home/abi/fetcher/tmp/anarchy_bot-23.0.4.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [anarchy-bot]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.5.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.6.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [council-ai]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.8.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.9.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2023-07-15 00:57:57] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-15 00:57:57] INFO root fetch - main [MainThread]: Store serial: [18896242]
