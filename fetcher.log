@@ -695,3 +695,50 @@
 [2023-07-15 00:47:32] INFO root fetch - processPackages [django-jet-new]: Remove: archive file [/home/abi/fetcher/tmp/django-jet-new-2.3.3.tar.gz]
 [2023-07-15 00:47:32] INFO root fetch - main [MainThread]: End processing [django-jet-new]: success
 [2023-07-15 00:47:32] INFO root fetch - main [MainThread]: Store serial: [18896173]
+[2023-07-15 00:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896173]
+[2023-07-15 00:52:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gymnasium
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: souJpg-comm
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipr
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protomodel
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WhisperSpeech
+[2023-07-15 00:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psiexperiment
+[2023-07-15 00:52:42] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 00:52:42] INFO root fetch - processPackages [souJpg-comm]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-07-15 00:52:42] INFO root fetch - processPackages [WhisperSpeech]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 00:52:42] INFO root fetch - processPackages [psiexperiment]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-15 00:52:42] WARNING root fetch - processPackages [pyclipr]: Skipping, unable to determine old version
+[2023-07-15 00:52:42] INFO root fetch - processPackages [gymnasium]: New version: [0.29.0] Old Version: [0.28.1]
+[2023-07-15 00:52:42] INFO root fetch - main [MainThread]: End processing [pyclipr] error
+[2023-07-15 00:52:42] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 00:52:42] INFO root fetch - processPackages [psiexperiment]: Downloading https://files.pythonhosted.org/packages/5b/03/45cf8da026834c17f98b24ef5e3a48912a904c962ce3c97443dd8203e1ea/psiexperiment-0.4.0.tar.gz
+[2023-07-15 00:52:42] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/d8/61/335b557a77a788e1957df362491ca21e7c8cc1ae42e97da45567217c50ac/souJpg-comm-1.1.0.tar.gz
+[2023-07-15 00:52:42] WARNING root fetch - processPackages [psiexperiment]: Skipping package: exceeds size limit 37178969>=10485760
+[2023-07-15 00:52:42] INFO root fetch - main [MainThread]: End processing [psiexperiment] error
+[2023-07-15 00:52:42] INFO root fetch - processPackages [WhisperSpeech]: Downloading https://files.pythonhosted.org/packages/d1/60/2dfb17085f0769e3d210049b0c978296655785d480040d12a5ee16ca3671/whisperspeech-0.0.1.tar.gz
+[2023-07-15 00:52:42] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 00:52:42] INFO root fetch - processPackages [gymnasium]: Downloading https://files.pythonhosted.org/packages/58/6a/c304954dc009648a21db245a8f56f63c8da8a025d446dd0fd67319726003/gymnasium-0.28.1.tar.gz
+[2023-07-15 00:52:43] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 00:52:43] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/36/98/d83919168026e26d9e91ca742f91cf7a5a097e8b0f8b50464aa31a4ca20b/souJpg-comm-1.1.2.tar.gz
+[2023-07-15 00:52:43] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:52:43] INFO root fetch - processPackages [WhisperSpeech]: Downloading https://files.pythonhosted.org/packages/ba/b7/6968bfabb92328f58adaace88ef172a013f8dff62b3763c84a97cb8fd0ec/WhisperSpeech-0.0.2.tar.gz
+[2023-07-15 00:52:43] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-07-15 00:52:43] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.1.0.tar.gz tmp/souJpg-comm-1.1.2.tar.gz --markdown 20230715/s/souJpg-comm/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-07-15 00:52:43] INFO root fetch - processPackages [WhisperSpeech]: executing diffoscope
+[2023-07-15 00:52:43] INFO root fetch - processPackages [WhisperSpeech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisperspeech-0.0.1.tar.gz tmp/WhisperSpeech-0.0.2.tar.gz --markdown 20230715/W/WhisperSpeech/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 00:52:43] INFO root fetch - processPackages [gymnasium]: Downloading https://files.pythonhosted.org/packages/5a/40/77566cb53866adba5ab91f7d59e3d10c8d0cbab59ae0839b05f60c797b6c/gymnasium-0.29.0.tar.gz
+[2023-07-15 00:52:43] INFO root fetch - processPackages [gymnasium]: executing diffoscope
+[2023-07-15 00:52:43] INFO root fetch - processPackages [gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium-0.28.1.tar.gz tmp/gymnasium-0.29.0.tar.gz --markdown 20230715/g/gymnasium/0.28.1-0.29.0/diff.md --exclude *.pyd
+[2023-07-15 00:52:43] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 00:52:43] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 00:52:43] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 00:52:44] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg-comm-1.1.0.tar.gz]
+[2023-07-15 00:52:44] INFO root fetch - processPackages [souJpg-comm]: Remove: archive file [/home/abi/fetcher/tmp/souJpg-comm-1.1.2.tar.gz]
+[2023-07-15 00:52:44] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-07-15 00:52:44] INFO root fetch - processPackages [WhisperSpeech]: Remove: archive file [/home/abi/fetcher/tmp/whisperspeech-0.0.1.tar.gz]
+[2023-07-15 00:52:44] INFO root fetch - processPackages [WhisperSpeech]: Remove: archive file [/home/abi/fetcher/tmp/WhisperSpeech-0.0.2.tar.gz]
+[2023-07-15 00:52:44] INFO root fetch - main [MainThread]: End processing [WhisperSpeech]: success
+[2023-07-15 00:52:45] INFO root fetch - processPackages [gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-0.28.1.tar.gz]
+[2023-07-15 00:52:45] INFO root fetch - processPackages [gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium-0.29.0.tar.gz]
+[2023-07-15 00:52:45] INFO root fetch - main [MainThread]: End processing [gymnasium]: success
+[2023-07-15 00:52:45] INFO root fetch - main [MainThread]: Store serial: [18896201]
