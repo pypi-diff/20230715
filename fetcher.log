@@ -238,3 +238,87 @@
 [2023-07-15 00:16:10] INFO root fetch - processPackages [labelbase]: Remove: archive file [/home/abi/fetcher/tmp/labelbase-0.1.2.tar.gz]
 [2023-07-15 00:16:10] INFO root fetch - main [MainThread]: End processing [labelbase]: success
 [2023-07-15 00:16:10] INFO root fetch - main [MainThread]: Store serial: [18895999]
+[2023-07-15 00:21:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18895999]
+[2023-07-15 00:21:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build.tools
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-spy
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: malbrid
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyroostermoney
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-registries
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labelspark
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3settings
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ggml-python
+[2023-07-15 00:21:19] INFO root fetch - processPackages [aws-spy]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [py3settings]: New version: [2.0.1] Old Version: [1.0.0]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [malbrid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ork.build.tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [pyroostermoney]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [django-registries]: New version: [0.0.2] Old Version: [0.0.1rc0]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ggml-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [labelspark]: New version: [0.7.33] Old Version: [0.7.32]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-15 00:21:19] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/df/0b/15f3f24fd754c647ecd1387c37783ffe14599040017695bc9d38b62ec302/aws_spy-0.2.6.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/16/3d/40708be47a9569048257e905297aef62596d5fb77c78974ac69f2c689691/py3settings-1.0.0.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [django-registries]: Downloading https://files.pythonhosted.org/packages/29/48/5ab852eba9d9c5b22d9906a2e89ca587be32ea7939dd799119c6c3aa9c34/django_registries-0.0.1rc0.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/43/2f/569d5e55044c6b69f90fa9913c21a579ee147ea21f9d4a75acdb2d5e1fe3/ork.build.tools-0.0.6.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/86/ee/74d67df0d832168140de59d7880751529808fb2f80d936a592980fa521f0/malbrid-0.0.8.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/a7/64/be7922d277f69fe9c82e35f2c7870a9648627aa6f55bfcd3311db73fbdd4/pyroostermoney-0.0.1.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [labelspark]: Downloading https://files.pythonhosted.org/packages/68/8b/137116baa45e0ad97427d86a6f7363dfb7c133dc6fa86da35a6e032042c5/labelspark-0.7.32.tar.gz
+[2023-07-15 00:21:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fd/03/964565757f9023311b007bfb68c2c75fb86725cbefb71f1dcd87e5ca877e/aws_spy-0.2.7.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/99/50/945d917b1788c49ccd86df68e9c45d79c07d0e536e21051a607d8ee83806/py3settings-2.0.1.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [django-registries]: Downloading https://files.pythonhosted.org/packages/ed/3e/22358ff429e472d096ac65e94488ada4f527792c334731365521e6aa753d/django_registries-0.0.2.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a0/03/ddddac6caff850b83571ae83647e2da367b79168d84b90d423f01d4e12bc/ggml-python-0.0.9.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230715/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/c2/bd/402163a741eecef6e3f0357caaec9a04bf19fb10c9e5ca4a2406250f7439/pyroostermoney-0.0.2.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/9c/5a/7e50f890599c93239fd23eb2d91070d48f17afe5454620f4270cc38d9f31/ork.build.tools-0.0.7.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [malbrid]: Downloading https://files.pythonhosted.org/packages/8c/2c/a74c00ba3fc23e1c486622ae0ade2eff5b7ea34b642fa6ff8aa7ab7b128a/malbrid-0.0.9.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [labelspark]: Downloading https://files.pythonhosted.org/packages/7f/8d/10ce7616d4e5ec763354377c2a2f8d6ea599209ddbd2f3539c35e929fd86/labelspark-0.7.33.tar.gz
+[2023-07-15 00:21:20] INFO root fetch - processPackages [py3settings]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [py3settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3settings-1.0.0.tar.gz tmp/py3settings-2.0.1.tar.gz --markdown 20230715/p/py3settings/1.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.6.tar.gz tmp/aws_spy-0.2.7.tar.gz --markdown 20230715/a/aws-spy/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [django-registries]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [django-registries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_registries-0.0.1rc0.tar.gz tmp/django_registries-0.0.2.tar.gz --markdown 20230715/d/django-registries/0.0.1rc0-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [malbrid]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [malbrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbrid-0.0.8.tar.gz tmp/malbrid-0.0.9.tar.gz --markdown 20230715/m/malbrid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.0.1.tar.gz tmp/pyroostermoney-0.0.2.tar.gz --markdown 20230715/p/pyroostermoney/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ork.build.tools]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ork.build.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build.tools-0.0.6.tar.gz tmp/ork.build.tools-0.0.7.tar.gz --markdown 20230715/o/ork.build.tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.8.tar.gz tmp/ggml-python-0.0.9.tar.gz --markdown 20230715/g/ggml-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:21:20] INFO root fetch - processPackages [labelspark]: executing diffoscope
+[2023-07-15 00:21:20] INFO root fetch - processPackages [labelspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelspark-0.7.32.tar.gz tmp/labelspark-0.7.33.tar.gz --markdown 20230715/l/labelspark/0.7.32-0.7.33/diff.md --exclude *.pyd
+[2023-07-15 00:21:21] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-1.0.0.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.1.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [py3settings]: success
+[2023-07-15 00:21:21] INFO root fetch - processPackages [django-registries]: Remove: archive file [/home/abi/fetcher/tmp/django_registries-0.0.1rc0.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [django-registries]: Remove: archive file [/home/abi/fetcher/tmp/django_registries-0.0.2.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [django-registries]: success
+[2023-07-15 00:21:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-15 00:21:21] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.8.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [malbrid]: Remove: archive file [/home/abi/fetcher/tmp/malbrid-0.0.9.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [malbrid]: success
+[2023-07-15 00:21:21] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.0.1.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.0.2.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-15 00:21:21] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.6.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.7.tar.gz]
+[2023-07-15 00:21:21] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-15 00:21:22] INFO root fetch - processPackages [labelspark]: Remove: archive file [/home/abi/fetcher/tmp/labelspark-0.7.32.tar.gz]
+[2023-07-15 00:21:22] INFO root fetch - processPackages [labelspark]: Remove: archive file [/home/abi/fetcher/tmp/labelspark-0.7.33.tar.gz]
+[2023-07-15 00:21:22] INFO root fetch - main [MainThread]: End processing [labelspark]: success
+[2023-07-15 00:21:22] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.6.tar.gz]
+[2023-07-15 00:21:22] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
+[2023-07-15 00:21:22] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
+[2023-07-15 00:21:23] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2023-07-15 00:21:23] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
+[2023-07-15 00:21:23] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-07-15 00:21:23] INFO root fetch - main [MainThread]: Store serial: [18896033]
