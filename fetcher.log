@@ -1008,3 +1008,51 @@
 [2023-07-15 01:13:43] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-base-0.0.5.tar.gz]
 [2023-07-15 01:13:43] INFO root fetch - main [MainThread]: End processing [pz-rail-base]: success
 [2023-07-15 01:13:43] INFO root fetch - main [MainThread]: Store serial: [18896305]
+[2023-07-15 01:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896305]
+[2023-07-15 01:18:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 01:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiftyone
+[2023-07-15 01:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPT4Readability
+[2023-07-15 01:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfp-tekton-server-api
+[2023-07-15 01:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastopendata_client
+[2023-07-15 01:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tg-botting
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:18:53] INFO root fetch - processPackages [GPT4Readability]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 01:18:53] INFO root fetch - processPackages [kfp-tekton-server-api]: New version: [1.8.0rc5] Old Version: [1.8.0rc4]
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fiftyone]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-15 01:18:53] INFO root fetch - processPackages [tg-botting]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-15 01:18:53] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/ef/78/6c22a579c5022cc1d9e760db7412c06a5bcc03604868502ecca02730f66f/tg-botting-2.1.3.tar.gz
+[2023-07-15 01:18:53] INFO root fetch - processPackages [kfp-tekton-server-api]: Downloading https://files.pythonhosted.org/packages/68/ea/6015337244ebf09d410a5263ddc5d4780cb37570c9ee1c0825e810099c71/kfp-tekton-server-api-1.8.0rc4.tar.gz
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/3e/6b/4f00edad5ff8f41f3fffc7a3200dd9cfb53214fb7a00fc0a8e15b0847572/fiftyone-0.9.3-py3-none-any.whl
+[2023-07-15 01:18:53] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/c2/33/5dc208b51b4d5fd1e44b3757e67ac26508008badac1c5161202d46007198/GPT4Readability-0.0.3.tar.gz
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-15 01:18:53] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230715/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:18:53] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/0b/4b/a201b534a173733012858f3deb3c097aaf0614822c89689920fb6591eaaf/tg-botting-2.1.4.tar.gz
+[2023-07-15 01:18:54] INFO root fetch - processPackages [kfp-tekton-server-api]: Downloading https://files.pythonhosted.org/packages/e9/9e/f361412c4fa0ca2e57798ebdb3df63f631977f81e1db9082bfb6ebbbfa0a/kfp-tekton-server-api-1.8.0rc5.tar.gz
+[2023-07-15 01:18:54] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/2a/1d/7449a72be0fa8f70cfb89aa2a653f908290986dccf4c4de9ec3d571fa771/GPT4Readability-0.0.4.tar.gz
+[2023-07-15 01:18:54] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-15 01:18:54] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.1.3.tar.gz tmp/tg-botting-2.1.4.tar.gz --markdown 20230715/t/tg-botting/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-15 01:18:54] INFO root fetch - processPackages [GPT4Readability]: executing diffoscope
+[2023-07-15 01:18:54] INFO root fetch - processPackages [GPT4Readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPT4Readability-0.0.3.tar.gz tmp/GPT4Readability-0.0.4.tar.gz --markdown 20230715/G/GPT4Readability/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 01:18:54] INFO root fetch - processPackages [kfp-tekton-server-api]: executing diffoscope
+[2023-07-15 01:18:54] INFO root fetch - processPackages [kfp-tekton-server-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfp-tekton-server-api-1.8.0rc4.tar.gz tmp/kfp-tekton-server-api-1.8.0rc5.tar.gz --markdown 20230715/k/kfp-tekton-server-api/1.8.0rc4-1.8.0rc5/diff.md --exclude *.pyd
+[2023-07-15 01:18:54] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-15 01:18:54] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-15 01:18:54] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-15 01:18:54] INFO root fetch - processPackages [fiftyone]: Downloading https://files.pythonhosted.org/packages/35/07/cd886e684c80920dfc6b8fea4ac8fc9e2c36be66848d2e8dc2508552d529/fiftyone-0.9.4-py3-none-any.whl
+[2023-07-15 01:18:55] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.3.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.4.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-15 01:18:55] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.3.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.4.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - main [MainThread]: End processing [GPT4Readability]: success
+[2023-07-15 01:18:55] INFO root fetch - processPackages [fiftyone]: executing diffoscope
+[2023-07-15 01:18:55] INFO root fetch - processPackages [fiftyone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone-0.9.3-py3-none-any.whl.zip tmp/fiftyone-0.9.4-py3-none-any.whl.zip --markdown 20230715/f/fiftyone/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-15 01:18:55] INFO root fetch - processPackages [kfp-tekton-server-api]: Remove: archive file [/home/abi/fetcher/tmp/kfp-tekton-server-api-1.8.0rc4.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - processPackages [kfp-tekton-server-api]: Remove: archive file [/home/abi/fetcher/tmp/kfp-tekton-server-api-1.8.0rc5.tar.gz]
+[2023-07-15 01:18:55] INFO root fetch - main [MainThread]: End processing [kfp-tekton-server-api]: success
+[2023-07-15 01:19:08] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.3-py3-none-any.whl.zip]
+[2023-07-15 01:19:08] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.4-py3-none-any.whl.zip]
+[2023-07-15 01:19:08] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
+[2023-07-15 01:19:08] INFO root fetch - main [MainThread]: Store serial: [18896319]
