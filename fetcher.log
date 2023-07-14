@@ -1233,3 +1233,90 @@
 [2023-07-15 01:34:56] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.2.tar.gz]
 [2023-07-15 01:34:56] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-07-15 01:34:56] INFO root fetch - main [MainThread]: Store serial: [18896420]
+[2023-07-15 01:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896420]
+[2023-07-15 01:40:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomap
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volttron-lib-tagging
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-core
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridappsd-python
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridappsd-field-bus
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: globalomnium
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flake8-import-restrictions
+[2023-07-15 01:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prompt-graph-sdk
+[2023-07-15 01:40:07] INFO root fetch - processPackages [genomap]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [volttron-lib-tagging]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [globalomnium]: New version: [2023.7.1] Old Version: [1.0.1a0]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [gridappsd-field-bus]: New version: [2023.7.1a2] Old Version: [2023.7.1a1]
+[2023-07-15 01:40:07] WARNING root fetch - processPackages [prompt-graph-sdk]: Skipping, unable to determine old version
+[2023-07-15 01:40:07] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk] error
+[2023-07-15 01:40:07] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.7.1a2] Old Version: [2023.7.1a1]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [flake8-import-restrictions]: New version: [2.0] Old Version: [1.1.1]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 01:40:07] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/c7/d9/0ee9138194ff24490931f0e836468916b4640d85061b67101a148bcb68b2/genomap-1.0.8.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/6f/42/7fd09d9a8e60bd4a3252760460546c6be83ec87086c61841a12b0fb50579/gridappsd_python-2023.7.1a1.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [volttron-lib-tagging]: Downloading https://files.pythonhosted.org/packages/99/01/6eba46a23cbd2cced7b56dce9ed7eabf3e6082bbbc91ae2b8eb7880d7f66/volttron_lib_tagging-0.1.1a0.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/d1/fe5aa244816bd654d6f010f8fad25c5dbc0011ebdb7ef6560fe683f241d2/cjm-yolox-pytorch-0.0.96.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/63/07/001267f95416df67c77fe226d03cd9d916437b73fa25986859220312a11b/globalomnium-1.0.1a0.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/84/54/d443b52665bab73f136a337692ca4b5b385e405248452293225f5d8e6f92/gridappsd_field_bus-2023.7.1a1.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [flake8-import-restrictions]: Downloading https://files.pythonhosted.org/packages/4e/68/379c6692e3a795ad9556da360b625cea41deae00e48811cc61453942b8d4/flake8-import-restrictions-1.1.1.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/5e/89/fa65ccf48f85549199758a8d055a951e0b746d89419dab81335351b99d12/genomap-1.0.9.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-15 01:40:07] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-15 01:40:07] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.0.8.tar.gz tmp/genomap-1.0.9.tar.gz --markdown 20230715/g/genomap/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:40:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/2b/d0/a83ea460b1d4db0db46bf25e60143b2357a6dc192484e80a679bc233cf38/cjm-yolox-pytorch-0.0.97.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [volttron-lib-tagging]: Downloading https://files.pythonhosted.org/packages/6e/4a/28216bea3203769b20a4391a8acec0b93dc9701b3a4d3ff7a1e3f9d79cbf/volttron_lib_tagging-0.1.1a1.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-field-bus]: Downloading https://files.pythonhosted.org/packages/bd/57/49875dce2570e6fcf1dd387cfe4f94381e97e4cb1b09896ee0e95292564d/gridappsd_field_bus-2023.7.1a2.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230715/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/12/fe/740f07a3db709c6dd2e3c738939b1b838f772db7e2da35b42e69aa15875f/globalomnium-2023.7.1.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230715/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.96.tar.gz tmp/cjm-yolox-pytorch-0.0.97.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/b4/76/0e08d63eeb9521fe33b3b3d06c4e147e04470e8e8b38a2721fd364191860/gridappsd_python-2023.7.1a2.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [flake8-import-restrictions]: Downloading https://files.pythonhosted.org/packages/42/3d/ffef83231103c2b3a8894947f986deb549bdf5ad0547cae5d554901778f5/flake8-import-restrictions-2.0.tar.gz
+[2023-07-15 01:40:08] INFO root fetch - processPackages [globalomnium]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [globalomnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalomnium-1.0.1a0.tar.gz tmp/globalomnium-2023.7.1.tar.gz --markdown 20230715/g/globalomnium/1.0.1a0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [flake8-import-restrictions]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [flake8-import-restrictions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-import-restrictions-1.1.1.tar.gz tmp/flake8-import-restrictions-2.0.tar.gz --markdown 20230715/f/flake8-import-restrictions/1.1.1-2.0/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-field-bus]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-field-bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_field_bus-2023.7.1a1.tar.gz tmp/gridappsd_field_bus-2023.7.1a2.tar.gz --markdown 20230715/g/gridappsd-field-bus/2023.7.1a1-2023.7.1a2/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [volttron-lib-tagging]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [volttron-lib-tagging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_tagging-0.1.1a0.tar.gz tmp/volttron_lib_tagging-0.1.1a1.tar.gz --markdown 20230715/v/volttron-lib-tagging/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-07-15 01:40:08] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2023.7.1a1.tar.gz tmp/gridappsd_python-2023.7.1a2.tar.gz --markdown 20230715/g/gridappsd-python/2023.7.1a1-2023.7.1a2/diff.md --exclude *.pyd
+[2023-07-15 01:40:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.96.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.97.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.8.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.9.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [gridappsd-field-bus]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_field_bus-2023.7.1a2.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [gridappsd-field-bus]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-1.0.1a0.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-2023.7.1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [globalomnium]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [volttron-lib-tagging]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_tagging-0.1.1a0.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [volttron-lib-tagging]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_tagging-0.1.1a1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [volttron-lib-tagging]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [flake8-import-restrictions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-import-restrictions-1.1.1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [flake8-import-restrictions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-import-restrictions-2.0.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [flake8-import-restrictions]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-15 01:40:09] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a1.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - processPackages [gridappsd-python]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd_python-2023.7.1a2.tar.gz]
+[2023-07-15 01:40:09] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-07-15 01:40:10] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-15 01:40:10] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-15 01:40:10] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-15 01:40:10] INFO root fetch - main [MainThread]: Store serial: [18896459]
