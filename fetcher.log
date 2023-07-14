@@ -1418,3 +1418,102 @@
 [2023-07-15 01:45:22] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz]
 [2023-07-15 01:45:22] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-07-15 01:45:22] INFO root fetch - main [MainThread]: Store serial: [18896505]
+[2023-07-15 01:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896505]
+[2023-07-15 01:50:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoCarver
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wasmpy-build
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yd-base
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: globalomnium
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastopendata_client
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prompt-graph-sdk
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-github
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linkml-runtime
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-07-15 01:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protomodel
+[2023-07-15 01:50:32] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [fastopendata_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [wasmpy-build]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [yd-base]: New version: [1.0.1] Old Version: [1.0.0rc0]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [prompt-graph-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [globalomnium]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [linkml-runtime]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 01:50:32] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/26/23/96766258ec55c101f7e9943b26351ffe163218de5bfc9a22b5ab42dd67ee/fastopendata_client-0.0.8.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/ae/6b/9c61b47c1605df7d2d0a946dfc54fea03ba0e53455ebd42e0d32cc1c4825/wasmpy-build-0.3.2.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/1d/bd/1e0b2417a9b363f9ac75a5dc63120f544f22ba74496b879cab5aa56a4cab/AutoCarver-5.0.3.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/12/fe/740f07a3db709c6dd2e3c738939b1b838f772db7e2da35b42e69aa15875f/globalomnium-2023.7.1.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/89/cc/4709b1b6e0da2dfcf931aa61cf45c0f33689ab81534bb3bb15745e980cdc/prompt_graph_sdk-0.1.0.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/35/8d/db7307b93adc71461969de8c66885fd856d481fe666e54e37c0cb5eb16de/linkml_runtime-1.5.4.tar.gz
+[2023-07-15 01:50:32] INFO root fetch - processPackages [yd-base]: Downloading https://files.pythonhosted.org/packages/ac/de/922a971d34a3c6d6dbab39ed21744df55fe62170d5fdc58ea3266bcbbc1b/yd_base-1.0.0rc0-py3-none-any.whl
+[2023-07-15 01:50:32] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [fastopendata_client]: Downloading https://files.pythonhosted.org/packages/e4/b5/07bdb74c5d8a57155d86563bb8c85fb3c7f5945629ec5af36869b4f4b08d/fastopendata_client-0.0.9.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [wasmpy-build]: Downloading https://files.pythonhosted.org/packages/64/f8/9e57bb943e827f65ab9e071311c682b5ea4d7581cba239b7bb16e2351ad6/wasmpy-build-0.3.3.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/0c/52/c8b2426d0cb45f67b19d6933d093e63f95b95ad2ce2f3fa6158ab244603f/AutoCarver-5.0.4.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/da/64/5859680857d9dca2b4c79d2782b30d1020d2c3ec22c76e8b328ead996dd9/globalomnium-2023.7.2.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [fastopendata_client]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [fastopendata_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata_client-0.0.8.tar.gz tmp/fastopendata_client-0.0.9.tar.gz --markdown 20230715/f/fastopendata_client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230715/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/9d/6e/8c3c4bcacfcbe3df4b436676a33480ec8398b79372072703fc267b01062c/prompt_graph_sdk-0.1.1-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-15 01:50:33] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [wasmpy-build]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [wasmpy-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-build-0.3.2.tar.gz tmp/wasmpy-build-0.3.3.tar.gz --markdown 20230715/w/wasmpy-build/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] WARNING root fetch - processPackages [prompt-graph-sdk]: Skipping package: exceeds size limit 20855294>=10485760
+[2023-07-15 01:50:33] INFO root fetch - processPackages [yd-base]: Downloading https://files.pythonhosted.org/packages/47/ab/4425423b266d58d88ce2fd3f030cfcf26e3052b4cae2206defada88b0ef7/yd_base-1.0.1-py3-none-any.whl
+[2023-07-15 01:50:33] INFO root fetch - processPackages [prompt-graph-sdk]: Start processing: honeybee-radiance
+[2023-07-15 01:50:33] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk] error
+[2023-07-15 01:50:33] INFO root fetch - processPackages [globalomnium]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [globalomnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalomnium-2023.7.1.tar.gz tmp/globalomnium-2023.7.2.tar.gz --markdown 20230715/g/globalomnium/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.3.tar.gz tmp/AutoCarver-5.0.4.tar.gz --markdown 20230715/A/AutoCarver/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/53/4b/ef20768b69010b9d172f3ec372347320d355c5cf91fd3479e916e891f501/linkml_runtime-1.5.5.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-15 01:50:33] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-15 01:50:33] INFO root fetch - processPackages [yd-base]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [yd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yd_base-1.0.0rc0-py3-none-any.whl.zip tmp/yd_base-1.0.1-py3-none-any.whl.zip --markdown 20230715/y/yd-base/1.0.0rc0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [linkml-runtime]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [linkml-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_runtime-1.5.4.tar.gz tmp/linkml_runtime-1.5.5.tar.gz --markdown 20230715/l/linkml-runtime/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-15 01:50:33] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230715/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 01:50:33] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-15 01:50:34] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-15 01:50:34] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-15 01:50:34] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230715/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-15 01:50:34] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.8.tar.gz]
+[2023-07-15 01:50:34] INFO root fetch - processPackages [fastopendata_client]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata_client-0.0.9.tar.gz]
+[2023-07-15 01:50:34] INFO root fetch - main [MainThread]: End processing [fastopendata_client]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-2023.7.1.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-2023.7.2.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [globalomnium]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [yd-base]: Remove: archive file [/home/abi/fetcher/tmp/yd_base-1.0.0rc0-py3-none-any.whl.zip]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [yd-base]: Remove: archive file [/home/abi/fetcher/tmp/yd_base-1.0.1-py3-none-any.whl.zip]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [yd-base]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.3.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.4.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-15 01:50:35] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-15 01:50:35] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-15 01:50:36] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.4.tar.gz]
+[2023-07-15 01:50:36] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.5.tar.gz]
+[2023-07-15 01:50:36] INFO root fetch - main [MainThread]: End processing [linkml-runtime]: success
+[2023-07-15 01:50:36] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-15 01:50:36] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-15 01:50:36] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-15 01:50:38] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.2.tar.gz]
+[2023-07-15 01:50:38] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.3.tar.gz]
+[2023-07-15 01:50:38] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
+[2023-07-15 01:50:38] INFO root fetch - main [MainThread]: Store serial: [18896545]
