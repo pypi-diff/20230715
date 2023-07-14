@@ -1056,3 +1056,45 @@
 [2023-07-15 01:19:08] INFO root fetch - processPackages [fiftyone]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone-0.9.4-py3-none-any.whl.zip]
 [2023-07-15 01:19:08] INFO root fetch - main [MainThread]: End processing [fiftyone]: success
 [2023-07-15 01:19:08] INFO root fetch - main [MainThread]: Store serial: [18896319]
+[2023-07-15 01:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896319]
+[2023-07-15 01:24:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 01:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WhisperSpeech
+[2023-07-15 01:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-s3-delta
+[2023-07-15 01:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingai
+[2023-07-15 01:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml-tasks-azure-computervision
+[2023-07-15 01:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: example-package-Lu
+[2023-07-15 01:24:17] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:24:17] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-15 01:24:17] INFO root fetch - processPackages [landingai]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-15 01:24:17] INFO root fetch - processPackages [WhisperSpeech]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 01:24:17] WARNING root fetch - processPackages [example-package-Lu]: Skipping, unable to determine old version
+[2023-07-15 01:24:17] INFO root fetch - main [MainThread]: End processing [example-package-Lu] error
+[2023-07-15 01:24:17] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-15 01:24:17] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/1f/01/a196bbd523bf03f673946c5a4b1331d4320861c5ef7e91192656e9a8ae1e/landingai-0.2.5.tar.gz
+[2023-07-15 01:24:17] INFO root fetch - processPackages [WhisperSpeech]: Downloading https://files.pythonhosted.org/packages/ba/b7/6968bfabb92328f58adaace88ef172a013f8dff62b3763c84a97cb8fd0ec/WhisperSpeech-0.0.2.tar.gz
+[2023-07-15 01:24:17] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/2f/03/588a6b30bca749f2a8ce716a3974e8cb987429c374d368bdaa5866f6e35e/irisml-tasks-azure-computervision-0.0.1.tar.gz
+[2023-07-15 01:24:18] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-15 01:24:18] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-15 01:24:18] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230715/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:24:18] INFO root fetch - processPackages [WhisperSpeech]: Downloading https://files.pythonhosted.org/packages/fb/58/7eca37f4106b9fc2c768bd65c6b47c6a02dc5ab2d8fa8935f320980e6888/WhisperSpeech-0.0.3.tar.gz
+[2023-07-15 01:24:18] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/de/c1/26b69575dca3280b4b53e4705a1c4aca5172af0eccf97ec85657939f3edb/landingai-0.2.6.tar.gz
+[2023-07-15 01:24:18] INFO root fetch - processPackages [WhisperSpeech]: executing diffoscope
+[2023-07-15 01:24:18] INFO root fetch - processPackages [WhisperSpeech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WhisperSpeech-0.0.2.tar.gz tmp/WhisperSpeech-0.0.3.tar.gz --markdown 20230715/W/WhisperSpeech/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 01:24:18] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Downloading https://files.pythonhosted.org/packages/67/52/a216829d30e544e885ddeb9dc618a96c9143482e7bf40acfa7a2392270d9/irisml-tasks-azure-computervision-0.0.3.tar.gz
+[2023-07-15 01:24:18] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-15 01:24:18] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.5.tar.gz tmp/landingai-0.2.6.tar.gz --markdown 20230715/l/landingai/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 01:24:18] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: executing diffoscope
+[2023-07-15 01:24:18] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-azure-computervision-0.0.1.tar.gz tmp/irisml-tasks-azure-computervision-0.0.3.tar.gz --markdown 20230715/i/irisml-tasks-azure-computervision/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 01:24:19] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-15 01:24:19] INFO root fetch - processPackages [WhisperSpeech]: Remove: archive file [/home/abi/fetcher/tmp/WhisperSpeech-0.0.2.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - processPackages [WhisperSpeech]: Remove: archive file [/home/abi/fetcher/tmp/WhisperSpeech-0.0.3.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - main [MainThread]: End processing [WhisperSpeech]: success
+[2023-07-15 01:24:19] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.1.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - processPackages [irisml-tasks-azure-computervision]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-azure-computervision-0.0.3.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - main [MainThread]: End processing [irisml-tasks-azure-computervision]: success
+[2023-07-15 01:24:19] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.5.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.6.tar.gz]
+[2023-07-15 01:24:19] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-15 01:24:19] INFO root fetch - main [MainThread]: Store serial: [18896336]
