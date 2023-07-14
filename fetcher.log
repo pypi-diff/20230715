@@ -1320,3 +1320,101 @@
 [2023-07-15 01:40:10] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
 [2023-07-15 01:40:10] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-07-15 01:40:10] INFO root fetch - main [MainThread]: Store serial: [18896459]
+[2023-07-15 01:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896459]
+[2023-07-15 01:45:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxenai
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canopy-platform
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylance
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statsplotly
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geneplexus
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lean
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codeinterpreterapi
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyplane-nightly
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: example-package-Lu
+[2023-07-15 01:45:18] INFO root fetch - processPackages [oxenai]: New version: [0.1.9] Old Version: [0.1.3]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [codeinterpreterapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [statsplotly]: New version: [0.1.2] Old Version: [0.0.0]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [geneplexus]: New version: [1.0.0.dev5] Old Version: [1.0.0.dev4]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [lean]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 01:45:18] INFO root fetch - processPackages [pylance]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-15 01:45:19] WARNING root fetch - processPackages [example-package-Lu]: Skipping, unable to determine old version
+[2023-07-15 01:45:19] INFO root fetch - processPackages [example-package-Lu]: Start processing: pileoffeather
+[2023-07-15 01:45:19] INFO root fetch - main [MainThread]: End processing [example-package-Lu] error
+[2023-07-15 01:45:19] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/36/a5/8ce0ee364c64ec0070924c5ae8393fd54bd6a8b814881147ca515878a401/codeinterpreterapi-0.0.1.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230714] Old Version: [0.3.2.dev20230713]
+[2023-07-15 01:45:19] INFO root fetch - processPackages [statsplotly]: Downloading https://files.pythonhosted.org/packages/56/34/45019a8ea8a37e084d844d6ea112a24e3e326bc466329ad7cf0896f9df43/statsplotly-0.0.0.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [pileoffeather]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 01:45:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [geneplexus]: Downloading https://files.pythonhosted.org/packages/25/17/f021ed422e3b76b2a1a3a84e9a1418cd0079ea53dc55d7d30ab6ce46708c/geneplexus-1.0.0.dev4.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/01/07/f5cf35f2f764a8fb0ca1cf996c00e73d20af5680ac80c3238ebc2aed601c/canopy-platform-0.0.7.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/81/84/aa7a74f65750436a15b38183f9eefe7f25e7578b5617ab6ccf158e947080/lean-1.0.98.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/5b/cf/6ac007e3142fb46dd2fcf8712d9922f6280280b4413b684dca79cc09fd5e/pylance-0.5.6-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 01:45:19] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/63/2e/ddba7d1ea897c92aaa91965cfc7d6d1c490728c146c55cffaef42bef6b78/oxenai-0.1.3.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/37/30/baac5ff2d35ee399cb68f1e706ee4bb06d2ca2a68595f3f973fc6c0801b4/codeinterpreterapi-0.0.2.tar.gz
+[2023-07-15 01:45:19] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 27644412>=10485760
+[2023-07-15 01:45:19] INFO root fetch - processPackages [pylance]: Start processing: werkit
+[2023-07-15 01:45:19] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-07-15 01:45:19] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/1b/40/6d8cabdfa79fb57a67c089c029732113ebcfef0c4afbaf43d7d0cfacb4a9/skyplane_nightly-0.3.2.dev20230713.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/cf/41/11ece94f4d21222920d5b520c7cda9403322e137717113b47bfd2923a0a8/pileoffeather-0.2.0.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [werkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 01:45:19] INFO root fetch - processPackages [codeinterpreterapi]: executing diffoscope
+[2023-07-15 01:45:19] INFO root fetch - processPackages [codeinterpreterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeinterpreterapi-0.0.1.tar.gz tmp/codeinterpreterapi-0.0.2.tar.gz --markdown 20230715/c/codeinterpreterapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 01:45:19] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/e3/51/1ea7eede424899d026571ae4cbd9c2c412a7b4424276e16a37a4900423d9/werkit-0.9.0.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [statsplotly]: Downloading https://files.pythonhosted.org/packages/72/d5/0a6445b6f2b6c94a549e9bf4a9168a746c2a31dc479f70bf6fd3d42d9f95/statsplotly-0.1.2.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/3e/2f/0bee377e322251efe06c06a9769bd227936117bc32f26bc970e1580283b2/lean-1.0.99.tar.gz
+[2023-07-15 01:45:19] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/2f/5d/2cd75caf7771ab5fe07dbe20dc3f66d04d9374a9627e548c923dd37a1f8f/canopy-platform-0.0.9.tar.gz
+[2023-07-15 01:45:20] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230715/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/ef/3a/44595ad883da21add49a14a76c0f9548e01f5c05031fad79ba03473ace4a/pileoffeather-0.3.0.tar.gz
+[2023-07-15 01:45:20] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/aa/83/5f32832b54a73f1d771cb1ae97151534d808a1568e3c6b5e46db074f2ad5/werkit-0.9.1.tar.gz
+[2023-07-15 01:45:20] INFO root fetch - processPackages [statsplotly]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [statsplotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statsplotly-0.0.0.tar.gz tmp/statsplotly-0.1.2.tar.gz --markdown 20230715/s/statsplotly/0.0.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [lean]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [lean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean-1.0.98.tar.gz tmp/lean-1.0.99.tar.gz --markdown 20230715/l/lean/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230715/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/5a/09/330bf9b45b673f48ea514f0ef0e82772e1f8e118f266d308393a39bcc699/skyplane_nightly-0.3.2.dev20230714.tar.gz
+[2023-07-15 01:45:20] INFO root fetch - processPackages [pileoffeather]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [pileoffeather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pileoffeather-0.2.0.tar.gz tmp/pileoffeather-0.3.0.tar.gz --markdown 20230715/p/pileoffeather/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/f9/07/9b84496c51d7eb0978a7122e0246eb47d8118ed65cba24367d0ffec0ae9e/oxenai-0.1.9-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-15 01:45:20] INFO root fetch - processPackages [werkit]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [werkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkit-0.9.0.tar.gz tmp/werkit-0.9.1.tar.gz --markdown 20230715/w/werkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [geneplexus]: Downloading https://files.pythonhosted.org/packages/4e/64/75550d25a2cc2a8981daa25bdebfca857689d647345bf5cb7df187e38f95/geneplexus-1.0.0.dev5.tar.gz
+[2023-07-15 01:45:20] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230713.tar.gz tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz --markdown 20230715/s/skyplane-nightly/0.3.2.dev20230713-0.3.2.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.1.tar.gz]
+[2023-07-15 01:45:20] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.2.tar.gz]
+[2023-07-15 01:45:20] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi]: success
+[2023-07-15 01:45:20] INFO root fetch - processPackages [geneplexus]: executing diffoscope
+[2023-07-15 01:45:20] INFO root fetch - processPackages [geneplexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneplexus-1.0.0.dev4.tar.gz tmp/geneplexus-1.0.0.dev5.tar.gz --markdown 20230715/g/geneplexus/1.0.0.dev4-1.0.0.dev5/diff.md --exclude *.pyd
+[2023-07-15 01:45:20] WARNING root fetch - processPackages [oxenai]: Skipping package: exceeds size limit 14827494>=10485760
+[2023-07-15 01:45:20] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-07-15 01:45:21] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.2.0.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.3.0.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - main [MainThread]: End processing [pileoffeather]: success
+[2023-07-15 01:45:21] INFO root fetch - processPackages [statsplotly]: Remove: archive file [/home/abi/fetcher/tmp/statsplotly-0.0.0.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - processPackages [statsplotly]: Remove: archive file [/home/abi/fetcher/tmp/statsplotly-0.1.2.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - main [MainThread]: End processing [statsplotly]: success
+[2023-07-15 01:45:21] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.7.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.9.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-07-15 01:45:21] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.0.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.1.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - main [MainThread]: End processing [werkit]: success
+[2023-07-15 01:45:21] INFO root fetch - processPackages [geneplexus]: Remove: archive file [/home/abi/fetcher/tmp/geneplexus-1.0.0.dev4.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - processPackages [geneplexus]: Remove: archive file [/home/abi/fetcher/tmp/geneplexus-1.0.0.dev5.tar.gz]
+[2023-07-15 01:45:21] INFO root fetch - main [MainThread]: End processing [geneplexus]: success
+[2023-07-15 01:45:22] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-15 01:45:22] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.98.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - processPackages [lean]: Remove: archive file [/home/abi/fetcher/tmp/lean-1.0.99.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - main [MainThread]: End processing [lean]: success
+[2023-07-15 01:45:22] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230713.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz]
+[2023-07-15 01:45:22] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-15 01:45:22] INFO root fetch - main [MainThread]: Store serial: [18896505]
