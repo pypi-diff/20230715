@@ -1140,3 +1140,96 @@
 [2023-07-15 01:29:31] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.8.0.tar.gz]
 [2023-07-15 01:29:31] INFO root fetch - main [MainThread]: End processing [zen-engine]: success
 [2023-07-15 01:29:31] INFO root fetch - main [MainThread]: Store serial: [18896390]
+[2023-07-15 01:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896390]
+[2023-07-15 01:34:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unigui
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoengine
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeboxapi
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flake8-classmethod-staticmethod
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-typing-collections
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flake8-multiline-conditionals-comprehensions
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onvif-zeep-async
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [unigui]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [onvif-zeep-async]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: New version: [2.0] Old Version: [1.0]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: New version: [2.0] Old Version: [1.1]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-typing-collections]: New version: [2.0] Old Version: [1.0.1]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-15 01:34:40] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/b9/f9/ed3fc2a940df492b1193fe64fb4c2dea596d72562e99ffbaf17a82ff8a42/codeboxapi-0.0.5.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/40/cd/30b13de376eadf7a11efd205fed9ca62d0d46def5c35d372b77765301fe1/unigui-1.8.1.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-typing-collections]: Downloading https://files.pythonhosted.org/packages/fc/d2/1b4d7a8fad4212fbd39852fab2dda6514ecbdc3a168673938816d6059875/flake8-typing-collections-1.0.1.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: Downloading https://files.pythonhosted.org/packages/b2/ac/c224abdb8d5b1e71e7fea5c9cf956b4e6ce83fe8a5a325a10ee618955f7a/flake8-multiline-conditionals-comprehensions-1.1.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/c5/de/86ab61374f58917aeadbad84de2bb6d3cd1ef3ad4d0764f910f00ab77ec1/onvif-zeep-async-3.1.8.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: Downloading https://files.pythonhosted.org/packages/06/b6/2f584bd887088bff70ccde09600b1351565ecb18444c0af4d34b16020889/flake8-classmethod-staticmethod-1.0.tar.gz
+[2023-07-15 01:34:40] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230715/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/81/31/8fe48da7da1905181c29996f000aa4a73c01683e0b3f8bc9dff7aacd05d3/codeboxapi-0.0.6.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/68/9c/2894192ccd5d32c81ad9ecf251a5b231e288dd3e0bf71b89d50c162c9f45/unigui-1.8.2.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: Downloading https://files.pythonhosted.org/packages/44/3c/782f8e5a96daccb8405ed1013f4d11c2335eda226160e78f1ded7898b69d/flake8-multiline-conditionals-comprehensions-2.0.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.5.tar.gz tmp/codeboxapi-0.0.6.tar.gz --markdown 20230715/c/codeboxapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-typing-collections]: Downloading https://files.pythonhosted.org/packages/20/c2/79a2b45f8321a2ca48fca355c41c07ddacbe78108703b82e0e30f709bb20/flake8-typing-collections-2.0.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/8f/8c/1d7321700cb782e731903854c2b5ac90fa21838efdead7ac8b0ac29ecd7f/onvif-zeep-async-3.1.9.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230715/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.8.1.tar.gz tmp/unigui-1.8.2.tar.gz --markdown 20230715/u/unigui/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-multiline-conditionals-comprehensions-1.1.tar.gz tmp/flake8-multiline-conditionals-comprehensions-2.0.tar.gz --markdown 20230715/f/flake8-multiline-conditionals-comprehensions/1.1-2.0/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: Downloading https://files.pythonhosted.org/packages/da/b0/0c1d0f9269c956ba89f9ef608647be4178a7e083a1459e3d1167b3b2334a/flake8-classmethod-staticmethod-2.0.tar.gz
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-typing-collections]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-typing-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-typing-collections-1.0.1.tar.gz tmp/flake8-typing-collections-2.0.tar.gz --markdown 20230715/f/flake8-typing-collections/1.0.1-2.0/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230715/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-classmethod-staticmethod-1.0.tar.gz tmp/flake8-classmethod-staticmethod-2.0.tar.gz --markdown 20230715/f/flake8-classmethod-staticmethod/1.0-2.0/diff.md --exclude *.pyd
+[2023-07-15 01:34:41] INFO root fetch - processPackages [onvif-zeep-async]: executing diffoscope
+[2023-07-15 01:34:41] INFO root fetch - processPackages [onvif-zeep-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-zeep-async-3.1.8.tar.gz tmp/onvif-zeep-async-3.1.9.tar.gz --markdown 20230715/o/onvif-zeep-async/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-15 01:34:42] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-15 01:34:42] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-15 01:34:42] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230715/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-15 01:34:42] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-15 01:34:42] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.5.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.6.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-07-15 01:34:42] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-multiline-conditionals-comprehensions-1.1.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - processPackages [flake8-multiline-conditionals-comprehensions]: Remove: archive file [/home/abi/fetcher/tmp/flake8-multiline-conditionals-comprehensions-2.0.tar.gz]
+[2023-07-15 01:34:42] INFO root fetch - main [MainThread]: End processing [flake8-multiline-conditionals-comprehensions]: success
+[2023-07-15 01:34:43] INFO root fetch - processPackages [flake8-typing-collections]: Remove: archive file [/home/abi/fetcher/tmp/flake8-typing-collections-1.0.1.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - processPackages [flake8-typing-collections]: Remove: archive file [/home/abi/fetcher/tmp/flake8-typing-collections-2.0.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - main [MainThread]: End processing [flake8-typing-collections]: success
+[2023-07-15 01:34:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-15 01:34:43] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: Remove: archive file [/home/abi/fetcher/tmp/flake8-classmethod-staticmethod-1.0.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - processPackages [flake8-classmethod-staticmethod]: Remove: archive file [/home/abi/fetcher/tmp/flake8-classmethod-staticmethod-2.0.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - main [MainThread]: End processing [flake8-classmethod-staticmethod]: success
+[2023-07-15 01:34:43] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-07-15 01:34:43] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.8.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.9.tar.gz]
+[2023-07-15 01:34:43] INFO root fetch - main [MainThread]: End processing [onvif-zeep-async]: success
+[2023-07-15 01:34:45] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-15 01:34:45] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-15 01:34:45] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-15 01:34:56] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.1.tar.gz]
+[2023-07-15 01:34:56] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.2.tar.gz]
+[2023-07-15 01:34:56] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-15 01:34:56] INFO root fetch - main [MainThread]: Store serial: [18896420]
