@@ -822,3 +822,90 @@
 [2023-07-15 00:57:57] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
 [2023-07-15 00:57:57] INFO root fetch - main [MainThread]: End processing [q2rad]: success
 [2023-07-15 00:57:57] INFO root fetch - main [MainThread]: Store serial: [18896242]
+[2023-07-15 01:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896242]
+[2023-07-15 01:03:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymatunits
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxsimulator
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genomap
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: virtualenv
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: universi
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkthechain
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: socscikit
+[2023-07-15 01:03:06] WARNING root fetch - processPackages [pymatunits]: Skipping, unable to determine old version
+[2023-07-15 01:03:06] INFO root fetch - main [MainThread]: End processing [pymatunits] error
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [cvxsimulator]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [checkthechain]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [genomap]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [socscikit]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [universi]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230714] Old Version: [0.7.0b20230713]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [virtualenv]: New version: [20.9.0] Old Version: [20.8.1]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230713] Old Version: [1.5.0.dev20230712]
+[2023-07-15 01:03:06] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/4f/9a/b7870173192e9685a3e3534253c26f9130f38065d092746750c3404b1bb0/genomap-1.0.6.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/80/19/e7fada6ec899c225259275a5a3402ca3b5089fd60986d627a63dbf0d071b/checkthechain-0.3.8.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/06/2f/c1ad993d676431d306e26b705ff32036ac5fd99a4b4e6128ffca4e3636cd/flwr_nightly-1.5.0.dev20230712.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/8d/17/655c7c7496b06e23a0ce466955b30cadfbf8b15f0f9f223326350553ffd4/socscikit-0.0.4.1.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/ac/cc/39820429d94ddbbde418f1410493c1d1b76e7623949559c7dd678bf61bca/cvxsimulator-0.6.1.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [virtualenv]: Downloading https://files.pythonhosted.org/packages/dd/40/9bc1b32521f78c293c1f8ca423c725737dfa9d09640dbeec61cebca7c5f2/virtualenv-20.8.1.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/06/d7/76cf3d48ceceaa53cd348d768b36949fa2dde04f593765143ca5ba6458b0/universi-0.3.0.tar.gz
+[2023-07-15 01:03:06] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/3d/51/939eee4d9d6d32f5d2d8152ed896a92f54ccafe96794abd9c1483f57d2c7/tmnt-cu101-0.7.0b20230713.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/69/79/951a61322020978df9a2ec6d894657d11892785a02854b98094db859d0cc/checkthechain-0.3.9.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/61/64/3c463175a6f3bf753db8ba39cb998e1a02fe1a6962d6e327c61622d6da22/genomap-1.0.7.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/b7/63/1cf84d642dff1010244102fe4a4f0fc2c25f00c55ddeaaba2033af6f1ea1/cvxsimulator-0.6.2.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [checkthechain]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [checkthechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkthechain-0.3.8.tar.gz tmp/checkthechain-0.3.9.tar.gz --markdown 20230715/c/checkthechain/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/d1/08/12ab8a20e92388283cb7fb7d8e87cc70d1ae14ea3b4717421a928efa35ba/universi-0.4.0.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/b2/53/e1fd024b44a4c85873d7098c419c47a1d1111bc07c9f099e5fc0c9d99909/socscikit-0.0.4.2.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.0.6.tar.gz tmp/genomap-1.0.7.tar.gz --markdown 20230715/g/genomap/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/6f/03/a2152784ac28664d3c9fec5d5f3ed5e1245b6604cfa47672a63a40f30e49/flwr_nightly-1.5.0.dev20230713.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230715/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ba/31/be7eef7c8733a9a2b424915eb09e6cf1f1fcf05558deb0784304d46e5085/tmnt-cu101-0.7.0b20230714.tar.gz
+[2023-07-15 01:03:07] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.6.1.tar.gz tmp/cvxsimulator-0.6.2.tar.gz --markdown 20230715/c/cvxsimulator/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.3.0.tar.gz tmp/universi-0.4.0.tar.gz --markdown 20230715/u/universi/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.4.1.tar.gz tmp/socscikit-0.0.4.2.tar.gz --markdown 20230715/s/socscikit/0.0.4.1-0.0.4.2/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230712.tar.gz tmp/flwr_nightly-1.5.0.dev20230713.tar.gz --markdown 20230715/f/flwr-nightly/1.5.0.dev20230712-1.5.0.dev20230713/diff.md --exclude *.pyd
+[2023-07-15 01:03:07] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-15 01:03:07] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230713.tar.gz tmp/tmnt-cu101-0.7.0b20230714.tar.gz --markdown 20230715/t/tmnt-cu101/0.7.0b20230713-0.7.0b20230714/diff.md --exclude *.pyd
+[2023-07-15 01:03:08] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.3.0.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.4.0.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-15 01:03:08] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.6.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.7.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-15 01:03:08] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230713.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230714.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-15 01:03:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-15 01:03:08] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-15 01:03:09] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.6.1.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.6.2.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-07-15 01:03:09] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230712.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230713.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-15 01:03:09] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.1.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.2.tar.gz]
+[2023-07-15 01:03:09] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-15 01:03:10] INFO root fetch - processPackages [virtualenv]: Downloading https://files.pythonhosted.org/packages/8b/67/67e5dd2d1676c3fa8a67c707114325d713feadb7824d9aaf2396be5401d3/virtualenv-20.9.0.tar.gz
+[2023-07-15 01:03:11] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.8.tar.gz]
+[2023-07-15 01:03:11] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.9.tar.gz]
+[2023-07-15 01:03:11] INFO root fetch - main [MainThread]: End processing [checkthechain]: success
+[2023-07-15 01:03:12] INFO root fetch - processPackages [virtualenv]: executing diffoscope
+[2023-07-15 01:03:12] INFO root fetch - processPackages [virtualenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv-20.8.1.tar.gz tmp/virtualenv-20.9.0.tar.gz --markdown 20230715/v/virtualenv/20.8.1-20.9.0/diff.md --exclude *.pyd
+[2023-07-15 01:03:17] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.8.1.tar.gz]
+[2023-07-15 01:03:17] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.9.0.tar.gz]
+[2023-07-15 01:03:17] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
+[2023-07-15 01:03:17] INFO root fetch - main [MainThread]: Store serial: [18896272]
