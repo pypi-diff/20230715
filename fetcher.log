@@ -379,3 +379,114 @@
 [2023-07-15 00:26:35] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
 [2023-07-15 00:26:35] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
 [2023-07-15 00:26:35] INFO root fetch - main [MainThread]: Store serial: [18896056]
+[2023-07-15 00:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896056]
+[2023-07-15 00:31:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jedutils
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nope-py
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orso
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iambic-core
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkdb
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgp-report-creditos
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openapi-server-test
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3settings
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyMenus
+[2023-07-15 00:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qvsed
+[2023-07-15 00:31:44] INFO root fetch - processPackages [py3settings]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [PyMenus]: New version: [66.0.0] Old Version: [0.2.0]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [qvsed]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [nope-py]: New version: [1.7.8rc3] Old Version: [1.7.8rc2]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [jgp-report-creditos]: New version: [0.0.9] Old Version: [0.0.13]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [iambic-core]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [itkdb]: New version: [0.4.5] Old Version: [0.4.4rc0]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [Jedutils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 00:31:44] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d8/3e/bf1ec651a59f98cf5b60515df0727cdb139ea2e2fffdaa01c91b13535e99/qvsed-1.5.9.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/76/41/3ffce1cbd79d389e877ce888ebe3fc366a53f80a4324735cc3ebe44b753c/nope_py-1.7.8rc2.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/99/50/945d917b1788c49ccd86df68e9c45d79c07d0e536e21051a607d8ee83806/py3settings-2.0.1.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/0d/8d/720a5a0650676726b6f23a0aa7fa391679229263978b7a17fd619871f054/openapi_server_test-1.0.5.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [PyMenus]: Downloading https://files.pythonhosted.org/packages/63/a0/64ef1bac31cf1a2581e6431ca7cfc0f66828a47e52543bf92f209e97393d/PyMenus-0.2.0.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/f5/72/85a3ffe970b85466716dba26ecb8d3602c1211f26981072f70167d640c22/jgp_report_creditos-0.0.13.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/a5/60/d3a010dd5f7562a3959f08a57e385fe2e57e8f5a45d3d019e5422fcdb752/itkdb-0.4.4rc0.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/ee/7a/27adc1386967a881cfbd62f5a721bd028295d5deb7e551b9c07581e26c21/orso-0.0.81.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/c8/71/e965ac62f4caf0fdd801e3f23ab489f7af0b2ecbfadfa682893dce8d4823/Jedutils-0.1.3.tar.gz
+[2023-07-15 00:31:44] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/a2/b7/889dd0d4d43a0595194eafda6e62ff265ed1f3a6e4a048083ed75f59530e/jgp_report_creditos-0.0.9.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/1d/08/8465fde9741a0551715dd148470e992eb0cac96cd64c4d0dae37de52b516/nope_py-1.7.8rc3.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/d9/53/e9a669a2b48549ef7e75f46bedcd5cbdbd77d27cd165b7811e66ddea6526/qvsed-1.6.0.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/c5/bc/4df5908592f029b1be7588c57e98c5beb3bbcd1e78c2b58e60944fd87a55/openapi_server_test-1.0.6.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/2b/0a/07421e3eba83aefff378967de58d9c9e1692b2cf0826e0401efb4b410906/Jedutils-0.1.4.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [PyMenus]: Downloading https://files.pythonhosted.org/packages/da/4e/7a9db5f76903c7d8062082dcce582f9b85f4b8e0ac6790fcf587aabe4bc8/PyMenus-66.0.0.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [jgp-report-creditos]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [jgp-report-creditos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgp_report_creditos-0.0.13.tar.gz tmp/jgp_report_creditos-0.0.9.tar.gz --markdown 20230715/j/jgp-report-creditos/0.0.13-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.5.9.tar.gz tmp/qvsed-1.6.0.tar.gz --markdown 20230715/q/qvsed/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.81.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230715/o/orso/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-0.9.8.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/48/4c/871df97b930aaf1cbd6f7163b58dd2076d8e95c0e32a7ed3feeac8a0cd32/py3settings-2.0.2.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.5.tar.gz tmp/openapi_server_test-1.0.6.tar.gz --markdown 20230715/o/openapi-server-test/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.8rc2.tar.gz tmp/nope_py-1.7.8rc3.tar.gz --markdown 20230715/n/nope-py/1.7.8rc2-1.7.8rc3/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [PyMenus]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [PyMenus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMenus-0.2.0.tar.gz tmp/PyMenus-66.0.0.tar.gz --markdown 20230715/P/PyMenus/0.2.0-66.0.0/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [Jedutils]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [Jedutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jedutils-0.1.3.tar.gz tmp/Jedutils-0.1.4.tar.gz --markdown 20230715/J/Jedutils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [py3settings]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [py3settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3settings-2.0.1.tar.gz tmp/py3settings-2.0.2.tar.gz --markdown 20230715/p/py3settings/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.6.tar.gz tmp/iambic_core-0.9.8.tar.gz --markdown 20230715/i/iambic-core/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-07-15 00:31:45] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/99/99/144986293db6d19425db64b236af286b45f19037c502eb0d1b12e3aff7f4/itkdb-0.4.5.tar.gz
+[2023-07-15 00:31:45] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-07-15 00:31:45] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.4rc0.tar.gz tmp/itkdb-0.4.5.tar.gz --markdown 20230715/i/itkdb/0.4.4rc0-0.4.5/diff.md --exclude *.pyd
+[2023-07-15 00:31:46] INFO root fetch - processPackages [PyMenus]: Remove: archive file [/home/abi/fetcher/tmp/PyMenus-0.2.0.tar.gz]
+[2023-07-15 00:31:46] INFO root fetch - processPackages [PyMenus]: Remove: archive file [/home/abi/fetcher/tmp/PyMenus-66.0.0.tar.gz]
+[2023-07-15 00:31:46] INFO root fetch - processPackages [PyMenus]: Start processing: fastplotlib
+[2023-07-15 00:31:46] INFO root fetch - main [MainThread]: End processing [PyMenus]: success
+[2023-07-15 00:31:46] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.81.tar.gz]
+[2023-07-15 00:31:46] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-15 00:31:46] INFO root fetch - processPackages [orso]: Start processing: cim-graph
+[2023-07-15 00:31:46] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [cim-graph]: New version: [2023.7.1a0] Old Version: [2023.5.1a3]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [fastplotlib]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.5.9.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.6.0.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.3.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.4.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [Jedutils]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.1.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.2.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [py3settings]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/05/c7/a33846ccdf60be8e7a4674d439953339792227efb4c5fd01c875cba43dc3/cim_graph-2023.5.1a3.tar.gz
+[2023-07-15 00:31:47] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.13.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.9.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [jgp-report-creditos]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [fastplotlib]: Downloading https://files.pythonhosted.org/packages/0b/84/898acb72a2a1145f0c580e234b444b40eb062afa3ac4f62746f258a09d84/fastplotlib-0.1.0a8.tar.gz
+[2023-07-15 00:31:47] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.5.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.6.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.8rc2.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.8rc3.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [cim-graph]: Downloading https://files.pythonhosted.org/packages/58/10/48fb44c94eabc25839b5cfe288127a57527569a1258f9c6fc3e984d6261e/cim_graph-2023.7.1a0.tar.gz
+[2023-07-15 00:31:47] INFO root fetch - processPackages [cim-graph]: executing diffoscope
+[2023-07-15 00:31:47] INFO root fetch - processPackages [cim-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cim_graph-2023.5.1a3.tar.gz tmp/cim_graph-2023.7.1a0.tar.gz --markdown 20230715/c/cim-graph/2023.5.1a3-2023.7.1a0/diff.md --exclude *.pyd
+[2023-07-15 00:31:47] INFO root fetch - processPackages [fastplotlib]: Downloading https://files.pythonhosted.org/packages/62/32/95d7703ea95c3576435ba54e0a389c244fd3befb0ef51d3319919a75bf27/fastplotlib-0.1.0a9.tar.gz
+[2023-07-15 00:31:47] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.4.4rc0.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.4.5.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-07-15 00:31:47] INFO root fetch - processPackages [fastplotlib]: executing diffoscope
+[2023-07-15 00:31:47] INFO root fetch - processPackages [fastplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastplotlib-0.1.0a8.tar.gz tmp/fastplotlib-0.1.0a9.tar.gz --markdown 20230715/f/fastplotlib/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-15 00:31:47] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
+[2023-07-15 00:31:47] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-07-15 00:31:48] INFO root fetch - processPackages [cim-graph]: Remove: archive file [/home/abi/fetcher/tmp/cim_graph-2023.5.1a3.tar.gz]
+[2023-07-15 00:31:48] INFO root fetch - processPackages [cim-graph]: Remove: archive file [/home/abi/fetcher/tmp/cim_graph-2023.7.1a0.tar.gz]
+[2023-07-15 00:31:48] INFO root fetch - main [MainThread]: End processing [cim-graph]: success
+[2023-07-15 00:31:49] INFO root fetch - processPackages [fastplotlib]: Remove: archive file [/home/abi/fetcher/tmp/fastplotlib-0.1.0a8.tar.gz]
+[2023-07-15 00:31:49] INFO root fetch - processPackages [fastplotlib]: Remove: archive file [/home/abi/fetcher/tmp/fastplotlib-0.1.0a9.tar.gz]
+[2023-07-15 00:31:49] INFO root fetch - main [MainThread]: End processing [fastplotlib]: success
+[2023-07-15 00:31:49] INFO root fetch - main [MainThread]: Store serial: [18896098]
