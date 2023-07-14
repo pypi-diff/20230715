@@ -561,3 +561,84 @@
 [2023-07-15 00:37:02] INFO root fetch - processPackages [antgen]: Remove: archive file [/home/abi/fetcher/tmp/antgen-0.4.1-py3-none-any.whl.zip]
 [2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [antgen]: success
 [2023-07-15 00:37:02] INFO root fetch - main [MainThread]: Store serial: [18896122]
+[2023-07-15 00:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896122]
+[2023-07-15 00:42:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textmatchertoolkit
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crustypy-instance
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkthechain
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-server-test
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geeViz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDecision
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voicegain-speech
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-07-15 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: textmatchertoolkit
+[2023-07-15 00:42:12] INFO root fetch - processPackages [crustypy-instance]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 00:42:12] WARNING root fetch - processPackages [textmatchertoolkit]: Skipping, unable to determine old version
+[2023-07-15 00:42:12] INFO root fetch - main [MainThread]: End processing [textmatchertoolkit] error
+[2023-07-15 00:42:12] INFO root fetch - processPackages [pyDecision]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [checkthechain]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [voicegain-speech]: New version: [1.86.1] Old Version: [1.86.0]
+[2023-07-15 00:42:12] WARNING root fetch - processPackages [textmatchertoolkit]: Skipping, unable to determine old version
+[2023-07-15 00:42:12] INFO root fetch - main [MainThread]: End processing [textmatchertoolkit] error
+[2023-07-15 00:42:12] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [geeViz]: New version: [2023.7.1] Old Version: [2023.6.1]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-15 00:42:12] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/10/d4/e2742d636efc9ad0e68cad03cfd921e85fa8ea24837aaf32904a807823a0/pyDecision-2.9.1.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/1f/34/90ea0f3f6f745070611c324250a4ae163596d0da09a0bd59ab7c01bd6ebf/voicegain-speech-1.86.0.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/c5/bc/4df5908592f029b1be7588c57e98c5beb3bbcd1e78c2b58e60944fd87a55/openapi_server_test-1.0.6.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [crustypy-instance]: Downloading https://files.pythonhosted.org/packages/26/67/30c20b8a8f92ea70c3dd28821ec61d7589fb5a6ccd641c8fa4c8050889f6/crustypy_instance-0.1.0.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/2a/16/0df4076911caaab2ca418070faff6b761703cb6446b24199e70d332c1c99/checkthechain-0.3.7.tar.gz
+[2023-07-15 00:42:12] INFO root fetch - processPackages [geeViz]: Downloading https://files.pythonhosted.org/packages/47/f0/f9ac0e6cebcf198168b06e8777c096bf8748037c983cbe4761998cd22299/geeViz-2023.6.1.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/c0/dc/b744d4645f58bf06535dc8e5486a3f3f44117b10951fdce92570eb28dd3b/pyDecision-2.9.2.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/3f/0a/288fc075b71cbe52231213a2cac72ac55a1ad0cc2e23e17e064e13f6c889/openapi_server_test-1.0.7.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [crustypy-instance]: Downloading https://files.pythonhosted.org/packages/11/c6/77ea50c15c7b294c4995221170492bfb6cb755e989b40555194e22530b85/crustypy_instance-0.1.1.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [voicegain-speech]: Downloading https://files.pythonhosted.org/packages/03/42/93ffaac62b6212992e42cfa9801a1381affc17338365c35b06df84dbe30c/voicegain-speech-1.86.1.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230715/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230715/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [crustypy-instance]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [crustypy-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crustypy_instance-0.1.0.tar.gz tmp/crustypy_instance-0.1.1.tar.gz --markdown 20230715/c/crustypy-instance/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-2.9.1.tar.gz tmp/pyDecision-2.9.2.tar.gz --markdown 20230715/p/pyDecision/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.6.tar.gz tmp/openapi_server_test-1.0.7.tar.gz --markdown 20230715/o/openapi-server-test/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [geeViz]: Downloading https://files.pythonhosted.org/packages/ca/27/546aaaa43f2976ab8a45d3ad0407353690b2b872b886fbd5edd0eeffc7dc/geeViz-2023.7.1.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/80/19/e7fada6ec899c225259275a5a3402ca3b5089fd60986d627a63dbf0d071b/checkthechain-0.3.8.tar.gz
+[2023-07-15 00:42:13] INFO root fetch - processPackages [voicegain-speech]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [voicegain-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicegain-speech-1.86.0.tar.gz tmp/voicegain-speech-1.86.1.tar.gz --markdown 20230715/v/voicegain-speech/1.86.0-1.86.1/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [checkthechain]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [checkthechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkthechain-0.3.7.tar.gz tmp/checkthechain-0.3.8.tar.gz --markdown 20230715/c/checkthechain/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-15 00:42:13] INFO root fetch - processPackages [geeViz]: executing diffoscope
+[2023-07-15 00:42:13] INFO root fetch - processPackages [geeViz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geeViz-2023.6.1.tar.gz tmp/geeViz-2023.7.1.tar.gz --markdown 20230715/g/geeViz/2023.6.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-15 00:42:14] INFO root fetch - processPackages [crustypy-instance]: Remove: archive file [/home/abi/fetcher/tmp/crustypy_instance-0.1.0.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - processPackages [crustypy-instance]: Remove: archive file [/home/abi/fetcher/tmp/crustypy_instance-0.1.1.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - main [MainThread]: End processing [crustypy-instance]: success
+[2023-07-15 00:42:14] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-15 00:42:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-15 00:42:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-15 00:42:15] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.6.tar.gz]
+[2023-07-15 00:42:15] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.7.tar.gz]
+[2023-07-15 00:42:15] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-07-15 00:42:15] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.1.tar.gz]
+[2023-07-15 00:42:15] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.2.tar.gz]
+[2023-07-15 00:42:15] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-15 00:42:16] INFO root fetch - processPackages [geeViz]: Remove: archive file [/home/abi/fetcher/tmp/geeViz-2023.6.1.tar.gz]
+[2023-07-15 00:42:16] INFO root fetch - processPackages [geeViz]: Remove: archive file [/home/abi/fetcher/tmp/geeViz-2023.7.1.tar.gz]
+[2023-07-15 00:42:16] INFO root fetch - main [MainThread]: End processing [geeViz]: success
+[2023-07-15 00:42:17] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.7.tar.gz]
+[2023-07-15 00:42:17] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.8.tar.gz]
+[2023-07-15 00:42:17] INFO root fetch - main [MainThread]: End processing [checkthechain]: success
+[2023-07-15 00:42:19] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.86.0.tar.gz]
+[2023-07-15 00:42:19] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.86.1.tar.gz]
+[2023-07-15 00:42:19] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
+[2023-07-15 00:42:19] INFO root fetch - main [MainThread]: Store serial: [18896157]
