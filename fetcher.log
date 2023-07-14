@@ -73,3 +73,48 @@
 [2023-07-15 00:05:45] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.6.9.tar.gz]
 [2023-07-15 00:05:45] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2023-07-15 00:05:45] INFO root fetch - main [MainThread]: Store serial: [18895925]
+[2023-07-15 00:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18895925]
+[2023-07-15 00:10:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muvinai
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-server-test
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nope-py
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shillelagh
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lvmgort
+[2023-07-15 00:10:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3settings
+[2023-07-15 00:10:54] WARNING root fetch - processPackages [openapi-server-test]: Skipping, unable to determine old version
+[2023-07-15 00:10:54] INFO root fetch - main [MainThread]: End processing [openapi-server-test] error
+[2023-07-15 00:10:54] INFO root fetch - processPackages [nope-py]: New version: [1.7.8rc2] Old Version: [1.7.8rc1]
+[2023-07-15 00:10:54] WARNING root fetch - processPackages [py3settings]: Skipping, unable to determine old version
+[2023-07-15 00:10:54] INFO root fetch - main [MainThread]: End processing [py3settings] error
+[2023-07-15 00:10:54] INFO root fetch - processPackages [lvmgort]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 00:10:54] INFO root fetch - processPackages [shillelagh]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-15 00:10:54] INFO root fetch - processPackages [muvinai]: New version: [0.2.9] Old Version: [0.2.8.dev0]
+[2023-07-15 00:10:54] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/98/d1/c63b2dac17449d42648c6d2c4be18463128920b63b2d0d1772d3e84f1c7e/nope_py-1.7.8rc1.tar.gz
+[2023-07-15 00:10:54] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/af/9e/2457f3c883b262802d607aa0b057621322e25445eb40cf5694f24c667be2/muvinai-0.2.8.dev0.tar.gz
+[2023-07-15 00:10:54] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/be/76/c0ce4623b4d568180fe7966c30fdac0e760658e794b566f0509f4e86ecf0/shillelagh-1.2.4.tar.gz
+[2023-07-15 00:10:54] INFO root fetch - processPackages [lvmgort]: Downloading https://files.pythonhosted.org/packages/48/a7/e869cfd92d56452ffbbfab8eac5b0dce9e036dfe50a16a41384d2624a407/lvmgort-0.1.0.tar.gz
+[2023-07-15 00:10:55] INFO root fetch - processPackages [nope-py]: Downloading https://files.pythonhosted.org/packages/76/41/3ffce1cbd79d389e877ce888ebe3fc366a53f80a4324735cc3ebe44b753c/nope_py-1.7.8rc2.tar.gz
+[2023-07-15 00:10:55] INFO root fetch - processPackages [lvmgort]: Downloading https://files.pythonhosted.org/packages/52/7f/e390af1fdf92c19faf4a85b0f63116d8fa4cbb1ab62a04e0affeb7de3f7a/lvmgort-0.1.1.tar.gz
+[2023-07-15 00:10:55] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/25/2b/14fa831cab12dadb200fbde21f3e8566d301f2b31da4b059a1a4ce132861/muvinai-0.2.9.tar.gz
+[2023-07-15 00:10:55] INFO root fetch - processPackages [lvmgort]: executing diffoscope
+[2023-07-15 00:10:55] INFO root fetch - processPackages [lvmgort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvmgort-0.1.0.tar.gz tmp/lvmgort-0.1.1.tar.gz --markdown 20230715/l/lvmgort/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 00:10:55] INFO root fetch - processPackages [nope-py]: executing diffoscope
+[2023-07-15 00:10:55] INFO root fetch - processPackages [nope-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nope_py-1.7.8rc1.tar.gz tmp/nope_py-1.7.8rc2.tar.gz --markdown 20230715/n/nope-py/1.7.8rc1-1.7.8rc2/diff.md --exclude *.pyd
+[2023-07-15 00:10:55] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/ca/32/14ef007004cc4f6c8757da66f2d10afb1f24fd462ff6c6390f0194d4df80/shillelagh-1.2.5.tar.gz
+[2023-07-15 00:10:55] INFO root fetch - processPackages [shillelagh]: executing diffoscope
+[2023-07-15 00:10:55] INFO root fetch - processPackages [shillelagh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-1.2.4.tar.gz tmp/shillelagh-1.2.5.tar.gz --markdown 20230715/s/shillelagh/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-15 00:10:55] INFO root fetch - processPackages [muvinai]: executing diffoscope
+[2023-07-15 00:10:55] INFO root fetch - processPackages [muvinai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muvinai-0.2.8.dev0.tar.gz tmp/muvinai-0.2.9.tar.gz --markdown 20230715/m/muvinai/0.2.8.dev0-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 00:10:56] INFO root fetch - processPackages [lvmgort]: Remove: archive file [/home/abi/fetcher/tmp/lvmgort-0.1.0.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - processPackages [lvmgort]: Remove: archive file [/home/abi/fetcher/tmp/lvmgort-0.1.1.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - main [MainThread]: End processing [lvmgort]: success
+[2023-07-15 00:10:56] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.8rc1.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - processPackages [nope-py]: Remove: archive file [/home/abi/fetcher/tmp/nope_py-1.7.8rc2.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - main [MainThread]: End processing [nope-py]: success
+[2023-07-15 00:10:56] INFO root fetch - processPackages [muvinai]: Remove: archive file [/home/abi/fetcher/tmp/muvinai-0.2.8.dev0.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - processPackages [muvinai]: Remove: archive file [/home/abi/fetcher/tmp/muvinai-0.2.9.tar.gz]
+[2023-07-15 00:10:56] INFO root fetch - main [MainThread]: End processing [muvinai]: success
+[2023-07-15 00:10:57] INFO root fetch - processPackages [shillelagh]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-1.2.4.tar.gz]
+[2023-07-15 00:10:57] INFO root fetch - processPackages [shillelagh]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-1.2.5.tar.gz]
+[2023-07-15 00:10:57] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
+[2023-07-15 00:10:57] INFO root fetch - main [MainThread]: Store serial: [18895946]
