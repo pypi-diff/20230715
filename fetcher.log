@@ -322,3 +322,60 @@
 [2023-07-15 00:21:23] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2023-07-15 00:21:23] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2023-07-15 00:21:23] INFO root fetch - main [MainThread]: Store serial: [18896033]
+[2023-07-15 00:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896033]
+[2023-07-15 00:26:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: braintrust
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: q2gui
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simc-support
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build.tools
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydelorean
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcqc
+[2023-07-15 00:26:32] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [pydelorean]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ork.build.tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [dcqc]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-15 00:26:32] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-15 00:26:32] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/43/2f/569d5e55044c6b69f90fa9913c21a579ee147ea21f9d4a75acdb2d5e1fe3/ork.build.tools-0.0.6.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/f2/2a/7c51939ccb108431387a296bc5c850bc5de94d88f9f5349f20368b0d95e5/simc_support-9.2.5.2.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/39/76/6d42f260f5c3ba9efe7c53ac0cf6ad15b5ba824ace1dcd69d98913a001c9/pydelorean-1.3.4.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [dcqc]: Downloading https://files.pythonhosted.org/packages/ab/df/f52c4ca87dfbd692c5c1197d254e05333662d7311c52eb15b97152b48082/dcqc-1.6.2.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/9c/5a/7e50f890599c93239fd23eb2d91070d48f17afe5454620f4270cc38d9f31/ork.build.tools-0.0.7.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-15 00:26:33] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230715/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:26:33] INFO root fetch - processPackages [ork.build.tools]: executing diffoscope
+[2023-07-15 00:26:33] INFO root fetch - processPackages [ork.build.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build.tools-0.0.6.tar.gz tmp/ork.build.tools-0.0.7.tar.gz --markdown 20230715/o/ork.build.tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 00:26:33] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/7f/f2/94679bd3aff7cfce75541c456a83745c5be1b451e014726a9dceb888be9e/simc_support-9.2.5.3.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/01/c3/b0fbb5c65700f9a2f83f02107e6ea67c7a5a28d6cc8543dbc8e7c6b300fe/pydelorean-1.3.5.tar.gz
+[2023-07-15 00:26:33] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2023-07-15 00:26:33] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20230715/s/simc-support/9.2.5.2-9.2.5.3/diff.md --exclude *.pyd
+[2023-07-15 00:26:33] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-15 00:26:33] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230715/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 00:26:33] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-07-15 00:26:33] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-1.3.4.tar.gz tmp/pydelorean-1.3.5.tar.gz --markdown 20230715/p/pydelorean/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-15 00:26:33] INFO root fetch - processPackages [dcqc]: Downloading https://files.pythonhosted.org/packages/a6/15/46ba6019a0307e8337d262362753cc0eb140ab9d923193bc216c9a40d85e/dcqc-1.6.3.tar.gz
+[2023-07-15 00:26:34] INFO root fetch - processPackages [dcqc]: executing diffoscope
+[2023-07-15 00:26:34] INFO root fetch - processPackages [dcqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcqc-1.6.2.tar.gz tmp/dcqc-1.6.3.tar.gz --markdown 20230715/d/dcqc/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-15 00:26:34] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-15 00:26:34] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.3.4.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-1.3.5.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-07-15 00:26:34] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-15 00:26:34] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.2.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.3.tar.gz]
+[2023-07-15 00:26:34] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2023-07-15 00:26:35] INFO root fetch - processPackages [dcqc]: Remove: archive file [/home/abi/fetcher/tmp/dcqc-1.6.2.tar.gz]
+[2023-07-15 00:26:35] INFO root fetch - processPackages [dcqc]: Remove: archive file [/home/abi/fetcher/tmp/dcqc-1.6.3.tar.gz]
+[2023-07-15 00:26:35] INFO root fetch - main [MainThread]: End processing [dcqc]: success
+[2023-07-15 00:26:35] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.6.tar.gz]
+[2023-07-15 00:26:35] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
+[2023-07-15 00:26:35] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
+[2023-07-15 00:26:35] INFO root fetch - main [MainThread]: Store serial: [18896056]
