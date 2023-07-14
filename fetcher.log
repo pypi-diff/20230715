@@ -1517,3 +1517,96 @@
 [2023-07-15 01:50:38] INFO root fetch - processPackages [wasmpy-build]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-build-0.3.3.tar.gz]
 [2023-07-15 01:50:38] INFO root fetch - main [MainThread]: End processing [wasmpy-build]: success
 [2023-07-15 01:50:38] INFO root fetch - main [MainThread]: Store serial: [18896545]
+[2023-07-15 01:55:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896545]
+[2023-07-15 01:55:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-energy
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geospacelab
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: letsbuilda-pypi
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pz-rail-gpz-v1
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pz-rail-flexzboost
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pileoffeather
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pz-rail-bpz
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biolink-model
+[2023-07-15 01:55:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: protomodel
+[2023-07-15 01:55:47] INFO root fetch - processPackages [geospacelab]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [pileoffeather]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [letsbuilda-pypi]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [pz-rail-gpz-v1]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [pz-rail-bpz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [pz-rail-flexzboost]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [biolink-model]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-07-15 01:55:47] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-15 01:55:47] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/cf/41/11ece94f4d21222920d5b520c7cda9403322e137717113b47bfd2923a0a8/pileoffeather-0.2.0.tar.gz
+[2023-07-15 01:55:47] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 01:55:47] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/ca/92/1ba1c70b52c653e232469759cfedc4b7568467a41cdbc55a15c596b6dc13/geospacelab-0.6.3.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [letsbuilda-pypi]: Downloading https://files.pythonhosted.org/packages/b1/83/24480c240b0dfc1e33cd319d03895572e5b00c66d5beb3840cc5724b4dc1/letsbuilda-pypi-5.0.0b1.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-bpz]: Downloading https://files.pythonhosted.org/packages/55/9b/abe77ded2bdcf387d0651a7871bf8775cdf65e4ea7ba1bee4b7d171d60b2/pz-rail-bpz-0.1.0.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-gpz-v1]: Downloading https://files.pythonhosted.org/packages/be/a4/d4174f07a7613896b8da0ea62b6c5d1d72d7d190a48944479b6ceae11054/pz-rail-gpz-v1-0.1.2.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/2a/f1/80f0c7f6cb129532e5ede2a73b52d782fcc9a1be0b9417aae8db73d081a6/pz-rail-flexzboost-0.1.1.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/bf/8f/dbaa615a27e41aa77b54802319edbb21320d4198eb3be60ee9b4f25480ea/biolink-model-3.5.0.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pileoffeather]: Downloading https://files.pythonhosted.org/packages/ef/3a/44595ad883da21add49a14a76c0f9548e01f5c05031fad79ba03473ace4a/pileoffeather-0.3.0.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pileoffeather]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pileoffeather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pileoffeather-0.2.0.tar.gz tmp/pileoffeather-0.3.0.tar.gz --markdown 20230715/p/pileoffeather/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 01:55:48] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:55:48] INFO root fetch - processPackages [letsbuilda-pypi]: Downloading https://files.pythonhosted.org/packages/0d/03/7aa04b6fda87541da49be63235c14fbcb3cc8298dfd09281dc8f2ee0d811/letsbuilda-pypi-5.0.0b2.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [geospacelab]: Downloading https://files.pythonhosted.org/packages/e8/8a/2eee78fe307bbc826e51263841f07b5d52f83a3b85fae5411304b1ac0d40/geospacelab-0.6.4.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230715/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 01:55:48] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230715/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-15 01:55:48] INFO root fetch - processPackages [geospacelab]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [geospacelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geospacelab-0.6.3.tar.gz tmp/geospacelab-0.6.4.tar.gz --markdown 20230715/g/geospacelab/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-bpz]: Downloading https://files.pythonhosted.org/packages/a5/d5/a514c2e9d31895ebbe34a5169380df075b867fd29ec66db3aaa3a987584a/pz-rail-bpz-0.1.1.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [biolink-model]: Downloading https://files.pythonhosted.org/packages/d5/8a/16801a505ea18e22dc1cd796b9f587e0f6f064d36bdd5ea0d84f2a2d0082/biolink-model-3.5.1.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-flexzboost]: Downloading https://files.pythonhosted.org/packages/55/0c/23ea7ed60dbc10e066331ab411b2b8cab38dda1c7d2934a0573689550996/pz-rail-flexzboost-0.1.2.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [pz-rail-gpz-v1]: Downloading https://files.pythonhosted.org/packages/72/28/d21215dc45c97c1ec230f25236bfc5bf17dc5f6e5c7f11ef5b99be0984e4/pz-rail-gpz-v1-0.1.3.tar.gz
+[2023-07-15 01:55:48] INFO root fetch - processPackages [letsbuilda-pypi]: executing diffoscope
+[2023-07-15 01:55:48] INFO root fetch - processPackages [letsbuilda-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letsbuilda-pypi-5.0.0b1.tar.gz tmp/letsbuilda-pypi-5.0.0b2.tar.gz --markdown 20230715/l/letsbuilda-pypi/5.0.0b1-5.0.0b2/diff.md --exclude *.pyd
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-flexzboost]: executing diffoscope
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-flexzboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-flexzboost-0.1.1.tar.gz tmp/pz-rail-flexzboost-0.1.2.tar.gz --markdown 20230715/p/pz-rail-flexzboost/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-gpz-v1]: executing diffoscope
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-gpz-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-gpz-v1-0.1.2.tar.gz tmp/pz-rail-gpz-v1-0.1.3.tar.gz --markdown 20230715/p/pz-rail-gpz-v1/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 01:55:49] INFO root fetch - processPackages [biolink-model]: executing diffoscope
+[2023-07-15 01:55:49] INFO root fetch - processPackages [biolink-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biolink-model-3.5.0.tar.gz tmp/biolink-model-3.5.1.tar.gz --markdown 20230715/b/biolink-model/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-bpz]: executing diffoscope
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pz-rail-bpz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-bpz-0.1.0.tar.gz tmp/pz-rail-bpz-0.1.1.tar.gz --markdown 20230715/p/pz-rail-bpz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 01:55:49] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 01:55:49] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 01:55:49] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.2.0.tar.gz]
+[2023-07-15 01:55:49] INFO root fetch - processPackages [pileoffeather]: Remove: archive file [/home/abi/fetcher/tmp/pileoffeather-0.3.0.tar.gz]
+[2023-07-15 01:55:49] INFO root fetch - main [MainThread]: End processing [pileoffeather]: success
+[2023-07-15 01:55:50] INFO root fetch - processPackages [letsbuilda-pypi]: Remove: archive file [/home/abi/fetcher/tmp/letsbuilda-pypi-5.0.0b1.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - processPackages [letsbuilda-pypi]: Remove: archive file [/home/abi/fetcher/tmp/letsbuilda-pypi-5.0.0b2.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - main [MainThread]: End processing [letsbuilda-pypi]: success
+[2023-07-15 01:55:50] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-flexzboost]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-flexzboost-0.1.1.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-flexzboost]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-flexzboost-0.1.2.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - main [MainThread]: End processing [pz-rail-flexzboost]: success
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-gpz-v1]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-gpz-v1-0.1.2.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-gpz-v1]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-gpz-v1-0.1.3.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - main [MainThread]: End processing [pz-rail-gpz-v1]: success
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-bpz]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-bpz-0.1.0.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - processPackages [pz-rail-bpz]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-bpz-0.1.1.tar.gz]
+[2023-07-15 01:55:50] INFO root fetch - main [MainThread]: End processing [pz-rail-bpz]: success
+[2023-07-15 01:55:51] INFO root fetch - processPackages [biolink-model]: Remove: archive file [/home/abi/fetcher/tmp/biolink-model-3.5.0.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - processPackages [biolink-model]: Remove: archive file [/home/abi/fetcher/tmp/biolink-model-3.5.1.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - main [MainThread]: End processing [biolink-model]: success
+[2023-07-15 01:55:51] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-15 01:55:51] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.3.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.4.tar.gz]
+[2023-07-15 01:55:51] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
+[2023-07-15 01:55:51] INFO root fetch - main [MainThread]: Store serial: [18896574]
