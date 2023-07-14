@@ -909,3 +909,33 @@
 [2023-07-15 01:03:17] INFO root fetch - processPackages [virtualenv]: Remove: archive file [/home/abi/fetcher/tmp/virtualenv-20.9.0.tar.gz]
 [2023-07-15 01:03:17] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
 [2023-07-15 01:03:17] INFO root fetch - main [MainThread]: Store serial: [18896272]
+[2023-07-15 01:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896272]
+[2023-07-15 01:08:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 01:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2023-07-15 01:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: werkit
+[2023-07-15 01:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socscikit
+[2023-07-15 01:08:28] INFO root fetch - processPackages [socscikit]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2023-07-15 01:08:28] INFO root fetch - processPackages [werkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 01:08:28] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230714] Old Version: [0.7.0b20230713]
+[2023-07-15 01:08:28] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/b2/53/e1fd024b44a4c85873d7098c419c47a1d1111bc07c9f099e5fc0c9d99909/socscikit-0.0.4.2.tar.gz
+[2023-07-15 01:08:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4d/db/de541bcd5fc5a7fd820d13a2c9f8a3c9451bed6f9fc2deba143710469fd0/tmnt-0.7.0b20230713.tar.gz
+[2023-07-15 01:08:28] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/e3/51/1ea7eede424899d026571ae4cbd9c2c412a7b4424276e16a37a4900423d9/werkit-0.9.0.tar.gz
+[2023-07-15 01:08:28] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/21/e3/898135bbe5bd900f52cf970dcd821a3ba0e315d1ce7e62950201a8ea082f/tmnt-0.7.0b20230714.tar.gz
+[2023-07-15 01:08:28] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/aa/83/5f32832b54a73f1d771cb1ae97151534d808a1568e3c6b5e46db074f2ad5/werkit-0.9.1.tar.gz
+[2023-07-15 01:08:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-15 01:08:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230713.tar.gz tmp/tmnt-0.7.0b20230714.tar.gz --markdown 20230715/t/tmnt/0.7.0b20230713-0.7.0b20230714/diff.md --exclude *.pyd
+[2023-07-15 01:08:29] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/69/86/068eb6f3839e55c362002a6c68d25af3a1a855f98379d8d1544c91f0c3c1/socscikit-0.0.4.3.tar.gz
+[2023-07-15 01:08:29] INFO root fetch - processPackages [werkit]: executing diffoscope
+[2023-07-15 01:08:29] INFO root fetch - processPackages [werkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkit-0.9.0.tar.gz tmp/werkit-0.9.1.tar.gz --markdown 20230715/w/werkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 01:08:29] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-15 01:08:29] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.4.2.tar.gz tmp/socscikit-0.0.4.3.tar.gz --markdown 20230715/s/socscikit/0.0.4.2-0.0.4.3/diff.md --exclude *.pyd
+[2023-07-15 01:08:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230713.tar.gz]
+[2023-07-15 01:08:29] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230714.tar.gz]
+[2023-07-15 01:08:29] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-15 01:08:29] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.0.tar.gz]
+[2023-07-15 01:08:29] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.1.tar.gz]
+[2023-07-15 01:08:29] INFO root fetch - main [MainThread]: End processing [werkit]: success
+[2023-07-15 01:08:31] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.2.tar.gz]
+[2023-07-15 01:08:31] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.3.tar.gz]
+[2023-07-15 01:08:31] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-15 01:08:31] INFO root fetch - main [MainThread]: Store serial: [18896280]
