@@ -490,3 +490,74 @@
 [2023-07-15 00:31:49] INFO root fetch - processPackages [fastplotlib]: Remove: archive file [/home/abi/fetcher/tmp/fastplotlib-0.1.0a9.tar.gz]
 [2023-07-15 00:31:49] INFO root fetch - main [MainThread]: End processing [fastplotlib]: success
 [2023-07-15 00:31:49] INFO root fetch - main [MainThread]: Store serial: [18896098]
+[2023-07-15 00:36:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896098]
+[2023-07-15 00:36:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preset-cli
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antgen
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-spy
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipdeptree
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyDecision
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotPython
+[2023-07-15 00:36:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3settings
+[2023-07-15 00:37:00] INFO root fetch - processPackages [preset-cli]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pyDecision]: New version: [2.9.1] Old Version: [2.8.7]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [py3settings]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [aws-spy]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [antgen]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.396] Old Version: [0.3.395]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1c/e1/d8bb07d01a55a94030c14b23d39046073ebcea5b317ad11f102de5c88767/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/48/4c/871df97b930aaf1cbd6f7163b58dd2076d8e95c0e32a7ed3feeac8a0cd32/py3settings-2.0.2.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fd/03/964565757f9023311b007bfb68c2c75fb86725cbefb71f1dcd87e5ca877e/aws_spy-0.2.7.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [antgen]: Downloading https://files.pythonhosted.org/packages/03/29/7dceb142335836a438fc690070a59a5e9c0d969b6881fca40bff575780de/antgen-0.4.0-py3-none-any.whl
+[2023-07-15 00:37:00] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/b2/e9/b0dcc957dc406c3bba8643a774dff8adf04ee66bfc59cc6f892e9e2711a7/preset-cli-0.2.2.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/03/fa/7157188c1126b9b1740da8504a5b731481cf9d4c48661d4c563e2bba07d8/pyDecision-2.8.7.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1d/fd/560f9f8d2eb4194e2cd478de89f587dc133f7d0b44fe6c4915f7db603cd9/pepperize.cdk-ses-smtp-credentials-0.3.396.tar.gz
+[2023-07-15 00:37:00] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-15 00:37:00] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-15 00:37:00] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/c0/3c/b15169f8e095d9f236bc0df7e721964e3812d69c31d2afe5ac0666401ca1/py3settings-2.0.3.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/ac/d8/905bd848213e368f1a3b35fc042398707bec40ef118774c7b2bfcc49e6f8/aws_spy-0.2.8.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [antgen]: Downloading https://files.pythonhosted.org/packages/0e/fb/63fbc40261d4e797d6fc6dd07f467a6925cbfd9ae174ca0e5a1056647342/antgen-0.4.1-py3-none-any.whl
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.396.tar.gz --markdown 20230715/p/pepperize.cdk-ses-smtp-credentials/0.3.395-0.3.396/diff.md --exclude *.pyd
+[2023-07-15 00:37:00] INFO root fetch - processPackages [py3settings]: executing diffoscope
+[2023-07-15 00:37:00] INFO root fetch - processPackages [py3settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3settings-2.0.2.tar.gz tmp/py3settings-2.0.3.tar.gz --markdown 20230715/p/py3settings/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-15 00:37:00] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/0e/f6/c00b7e2c7a5758592febafc9bd6497643b8294374947c0b73264672834cc/preset-cli-0.2.3.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-15 00:37:00] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.7.tar.gz tmp/aws_spy-0.2.8.tar.gz --markdown 20230715/a/aws-spy/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-15 00:37:00] INFO root fetch - processPackages [antgen]: executing diffoscope
+[2023-07-15 00:37:00] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/10/d4/e2742d636efc9ad0e68cad03cfd921e85fa8ea24837aaf32904a807823a0/pyDecision-2.9.1.tar.gz
+[2023-07-15 00:37:00] INFO root fetch - processPackages [antgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgen-0.4.0-py3-none-any.whl.zip tmp/antgen-0.4.1-py3-none-any.whl.zip --markdown 20230715/a/antgen/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20230715/p/pipdeptree/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-15 00:37:01] INFO root fetch - processPackages [preset-cli]: executing diffoscope
+[2023-07-15 00:37:01] INFO root fetch - processPackages [preset-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preset-cli-0.2.2.tar.gz tmp/preset-cli-0.2.3.tar.gz --markdown 20230715/p/preset-cli/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-2.8.7.tar.gz tmp/pyDecision-2.9.1.tar.gz --markdown 20230715/p/pyDecision/2.8.7-2.9.1/diff.md --exclude *.pyd
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.395.tar.gz]
+[2023-07-15 00:37:01] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.396.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.2.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.3.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [py3settings]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.7.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.8.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.8.7.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.1.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.2.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.3.tar.gz]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [preset-cli]: success
+[2023-07-15 00:37:02] INFO root fetch - processPackages [antgen]: Remove: archive file [/home/abi/fetcher/tmp/antgen-0.4.0-py3-none-any.whl.zip]
+[2023-07-15 00:37:02] INFO root fetch - processPackages [antgen]: Remove: archive file [/home/abi/fetcher/tmp/antgen-0.4.1-py3-none-any.whl.zip]
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: End processing [antgen]: success
+[2023-07-15 00:37:02] INFO root fetch - main [MainThread]: Store serial: [18896122]
