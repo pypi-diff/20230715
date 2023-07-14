@@ -118,3 +118,123 @@
 [2023-07-15 00:10:57] INFO root fetch - processPackages [shillelagh]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-1.2.5.tar.gz]
 [2023-07-15 00:10:57] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
 [2023-07-15 00:10:57] INFO root fetch - main [MainThread]: Store serial: [18895946]
+[2023-07-15 00:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18895946]
+[2023-07-15 00:16:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mltable
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ignition-api
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytheus
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez-a-sync
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3settings
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sshfs
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qh3
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: askedith
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ignition-api-stubs
+[2023-07-15 00:16:06] INFO root fetch - processPackages [mltable]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ignition-api-stubs]: New version: [8.1.30] Old Version: [8.1.29]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [pytheus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [qh3]: New version: [0.11.2] Old Version: [0.11.1]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [py3settings]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [sshfs]: New version: [2023.7.0] Old Version: [2023.4.1]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230714215331] Old Version: [1.0.0.dev20230714184257]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ignition-api]: New version: [8.1.9] Old Version: [8.1.30]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev1] Old Version: [0.6.1.dev9]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-15 00:16:06] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/8a/7c/776a91224ff9142da841afcaa045329588f529ccca311eecdc7b785e1e80/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714184257.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/16/3d/40708be47a9569048257e905297aef62596d5fb77c78974ac69f2c689691/py3settings-1.0.0.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [mltable]: Downloading https://files.pythonhosted.org/packages/1b/75/0a6e6cf6a85d37165b7f4d313dab6d815e7414cd84614a6ba890ee15d811/mltable-1.4.0-py3-none-any.whl
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/d1/20/e94d40619847c42c9816770681f86ec733b7dcbe86d143d93c0269586c7c/ignition-api-stubs-8.1.29.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-07-15 00:16:06] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/12/64/8310444f71b38203a6ed8b4847435bd03632dbff7396d838834a657acff9/qh3-0.11.1.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/61/bd/36b86a1926a58e90d5f54c7370781e045734e03a1fcd2069edaf90dd979a/ignition_api-8.1.30.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/01/00/0bf64326637e6d10c82a80125233c351de0801a9228229847160442fcb52/pytheus-0.1.0.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/cc/4f/8c521a64a24a1bdf3eb9a9d1a36662b66f690a0513797ea66ea988b2c2fd/ez-a-sync-0.6.1.dev9.tar.gz
+[2023-07-15 00:16:06] INFO root fetch - processPackages [sshfs]: Downloading https://files.pythonhosted.org/packages/01/a1/20f5ed702a87b3c2b501698613e8b4d8ce3fa61722c937937658dfd78249/sshfs-2023.4.1.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [py3settings]: Downloading https://files.pythonhosted.org/packages/19/10/0b346bdc41ca18e8a2acdda767930ada23007a789bef34f3043168775d97/py3settings-2.0.0.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [mltable]: Downloading https://files.pythonhosted.org/packages/8b/19/a5db18633b1756fd97b94ddd457372e35bc53f0ce807ee8d863d8526ede8/mltable-1.4.1-py3-none-any.whl
+[2023-07-15 00:16:07] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/eb/ec/c90c1b371142d413ef4d718d53c5b12f17208571279e4c21603d941664f9/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/80/93/51194008d69c4999837a8ec8f9fa57707b0d05db54f9a13d9d2436d66aeb/ignition-api-stubs-8.1.30.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api]: Downloading https://files.pythonhosted.org/packages/90/68/ddf6042aee141433036f926329fb0750b3a023c97d52bf185c4190ad9f4c/ignition-api-8.1.9.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [py3settings]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [py3settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3settings-1.0.0.tar.gz tmp/py3settings-2.0.0.tar.gz --markdown 20230715/p/py3settings/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/a6/21/9ba09e3f81e1ebf613032723f2f5f540612e1d4c2d56dcc0a64e147be098/ez-a-sync-0.6.2.dev1.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [mltable]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [mltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltable-1.4.0-py3-none-any.whl.zip tmp/mltable-1.4.1-py3-none-any.whl.zip --markdown 20230715/m/mltable/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/57/d6/14e0e2a742f8941aecfda0e6de5cd5fc6f96208d3e95a2f6197c7f1471cc/pytheus-0.2.0.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [sshfs]: Downloading https://files.pythonhosted.org/packages/71/18/fa440e1b4cb83c9179b07ffb6ce78a6ed751945350601a3342c2b842d60d/sshfs-2023.7.0.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api-stubs]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition-api-stubs-8.1.29.tar.gz tmp/ignition-api-stubs-8.1.30.tar.gz --markdown 20230715/i/ignition-api-stubs/8.1.29-8.1.30/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714184257.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz --markdown 20230715/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230714184257-1.0.0.dev20230714215331/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/55/2a/08dce9df6ee8a9919af53530c9c2bb0d6d45252b289a95c337f91f72df2b/qh3-0.11.2.tar.gz
+[2023-07-15 00:16:07] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230715/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [sshfs]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [sshfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshfs-2023.4.1.tar.gz tmp/sshfs-2023.7.0.tar.gz --markdown 20230715/s/sshfs/2023.4.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.1.0.tar.gz tmp/pytheus-0.2.0.tar.gz --markdown 20230715/p/pytheus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ignition-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api-8.1.30.tar.gz tmp/ignition-api-8.1.9.tar.gz --markdown 20230715/i/ignition-api/8.1.30-8.1.9/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev9.tar.gz tmp/ez-a-sync-0.6.2.dev1.tar.gz --markdown 20230715/e/ez-a-sync/0.6.1.dev9-0.6.2.dev1/diff.md --exclude *.pyd
+[2023-07-15 00:16:07] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2023-07-15 00:16:07] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-0.11.1.tar.gz tmp/qh3-0.11.2.tar.gz --markdown 20230715/q/qh3/0.11.1-0.11.2/diff.md --exclude *.pyd
+[2023-07-15 00:16:08] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-1.0.0.tar.gz]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [py3settings]: Remove: archive file [/home/abi/fetcher/tmp/py3settings-2.0.0.tar.gz]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [py3settings]: Start processing: flojoy
+[2023-07-15 00:16:08] INFO root fetch - main [MainThread]: End processing [py3settings]: success
+[2023-07-15 00:16:08] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714184257.tar.gz]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Start processing: labelbase
+[2023-07-15 00:16:08] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-15 00:16:08] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-15 00:16:08] INFO root fetch - processPackages [labelbase]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.6-py3-none-any.whl.zip]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.7-py3-none-any.whl.zip]
+[2023-07-15 00:16:08] INFO root fetch - processPackages [askedith]: Start processing: protomodel
+[2023-07-15 00:16:08] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-07-15 00:16:08] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.1.0.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [pytheus]: Remove: archive file [/home/abi/fetcher/tmp/pytheus-0.2.0.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-07-15 00:16:09] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 00:16:09] INFO root fetch - processPackages [labelbase]: Downloading https://files.pythonhosted.org/packages/e4/90/31f2522b61e680d49cedc4ce8f98d1b1e8cd1c42abea1528decc62a890b3/labelbase-0.1.1.tar.gz
+[2023-07-15 00:16:09] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-15 00:16:09] INFO root fetch - processPackages [sshfs]: Remove: archive file [/home/abi/fetcher/tmp/sshfs-2023.4.1.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [sshfs]: Remove: archive file [/home/abi/fetcher/tmp/sshfs-2023.7.0.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [sshfs]: success
+[2023-07-15 00:16:09] INFO root fetch - processPackages [mltable]: Remove: archive file [/home/abi/fetcher/tmp/mltable-1.4.0-py3-none-any.whl.zip]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [mltable]: Remove: archive file [/home/abi/fetcher/tmp/mltable-1.4.1-py3-none-any.whl.zip]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [mltable]: success
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev9.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev1.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-15 00:16:09] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-15 00:16:09] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230715/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 00:16:09] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 00:16:09] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 00:16:09] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 00:16:09] INFO root fetch - processPackages [labelbase]: Downloading https://files.pythonhosted.org/packages/11/2a/00067d80182b47b1ffa1db52d945e2e9372ce9f9389d5e695e8d743caa4f/labelbase-0.1.2.tar.gz
+[2023-07-15 00:16:09] INFO root fetch - processPackages [labelbase]: executing diffoscope
+[2023-07-15 00:16:09] INFO root fetch - processPackages [labelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelbase-0.1.1.tar.gz tmp/labelbase-0.1.2.tar.gz --markdown 20230715/l/labelbase/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ignition-api-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ignition-api-stubs-8.1.29.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ignition-api-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ignition-api-stubs-8.1.30.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [ignition-api-stubs]: success
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ignition-api]: Remove: archive file [/home/abi/fetcher/tmp/ignition_api-8.1.30.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - processPackages [ignition-api]: Remove: archive file [/home/abi/fetcher/tmp/ignition-api-8.1.9.tar.gz]
+[2023-07-15 00:16:09] INFO root fetch - main [MainThread]: End processing [ignition-api]: success
+[2023-07-15 00:16:10] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 00:16:10] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-15 00:16:10] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.1.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-0.11.2.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2023-07-15 00:16:10] INFO root fetch - processPackages [labelbase]: Remove: archive file [/home/abi/fetcher/tmp/labelbase-0.1.1.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - processPackages [labelbase]: Remove: archive file [/home/abi/fetcher/tmp/labelbase-0.1.2.tar.gz]
+[2023-07-15 00:16:10] INFO root fetch - main [MainThread]: End processing [labelbase]: success
+[2023-07-15 00:16:10] INFO root fetch - main [MainThread]: Store serial: [18895999]
