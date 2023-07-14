@@ -1098,3 +1098,45 @@
 [2023-07-15 01:24:19] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.6.tar.gz]
 [2023-07-15 01:24:19] INFO root fetch - main [MainThread]: End processing [landingai]: success
 [2023-07-15 01:24:19] INFO root fetch - main [MainThread]: Store serial: [18896336]
+[2023-07-15 01:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896336]
+[2023-07-15 01:29:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orso
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigacolors
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zen-engine
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ac-infinity-ble
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RelayMe
+[2023-07-15 01:29:29] WARNING root fetch - processPackages [gigacolors]: Skipping, unable to determine old version
+[2023-07-15 01:29:29] INFO root fetch - main [MainThread]: End processing [gigacolors] error
+[2023-07-15 01:29:29] INFO root fetch - processPackages [zen-engine]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-15 01:29:29] INFO root fetch - processPackages [RelayMe]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ac-infinity-ble]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-15 01:29:29] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ac-infinity-ble]: Downloading https://files.pythonhosted.org/packages/3c/82/57ffaec11280b25d84a69bc25665d364ab5f0f7cf9a3a6f74e2d2b1d5fcf/ac_infinity_ble-0.4.0.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/ff/94/9892ca2339ea849faaceb68eb89412175123c26015d975b1543ae33ee6fd/RelayMe-0.0.5.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/94/06/05950a81edfff1175410b7a7e6fa7f6f83fb5619f9bfb0f2a97c4568bc00/orso-0.0.83.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/53/08/366cb0cf84f0966013ca14fb4b731e155e74a24f278760facba2ae134303/zen_engine-0.7.0.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ac-infinity-ble]: Downloading https://files.pythonhosted.org/packages/23/7a/b1fa4c83d458cb64e21aaf96fbba9e55cde963dde2652cd1981110a40f04/ac_infinity_ble-0.4.1.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [RelayMe]: Downloading https://files.pythonhosted.org/packages/fa/c6/399af990d564917cdd64702d214b2537f7f64690aee3dfa376c5cc5c9756/RelayMe-0.0.6.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ac-infinity-ble]: executing diffoscope
+[2023-07-15 01:29:29] INFO root fetch - processPackages [ac-infinity-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ac_infinity_ble-0.4.0.tar.gz tmp/ac_infinity_ble-0.4.1.tar.gz --markdown 20230715/a/ac-infinity-ble/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-15 01:29:29] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/32/24/35c58785755b4c0274b233fcd28ab191ce11433ac4b2ab637c25f77ba5d5/zen_engine-0.8.0.tar.gz
+[2023-07-15 01:29:30] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-15 01:29:30] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.83.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230715/o/orso/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 01:29:30] INFO root fetch - processPackages [RelayMe]: executing diffoscope
+[2023-07-15 01:29:30] INFO root fetch - processPackages [RelayMe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RelayMe-0.0.5.tar.gz tmp/RelayMe-0.0.6.tar.gz --markdown 20230715/R/RelayMe/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 01:29:30] INFO root fetch - processPackages [zen-engine]: executing diffoscope
+[2023-07-15 01:29:30] INFO root fetch - processPackages [zen-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen_engine-0.7.0.tar.gz tmp/zen_engine-0.8.0.tar.gz --markdown 20230715/z/zen-engine/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-15 01:29:30] INFO root fetch - processPackages [ac-infinity-ble]: Remove: archive file [/home/abi/fetcher/tmp/ac_infinity_ble-0.4.0.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - processPackages [ac-infinity-ble]: Remove: archive file [/home/abi/fetcher/tmp/ac_infinity_ble-0.4.1.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - main [MainThread]: End processing [ac-infinity-ble]: success
+[2023-07-15 01:29:30] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.5.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - processPackages [RelayMe]: Remove: archive file [/home/abi/fetcher/tmp/RelayMe-0.0.6.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - main [MainThread]: End processing [RelayMe]: success
+[2023-07-15 01:29:30] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.83.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-15 01:29:30] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-15 01:29:31] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.7.0.tar.gz]
+[2023-07-15 01:29:31] INFO root fetch - processPackages [zen-engine]: Remove: archive file [/home/abi/fetcher/tmp/zen_engine-0.8.0.tar.gz]
+[2023-07-15 01:29:31] INFO root fetch - main [MainThread]: End processing [zen-engine]: success
+[2023-07-15 01:29:31] INFO root fetch - main [MainThread]: Store serial: [18896390]
