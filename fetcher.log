@@ -642,3 +642,56 @@
 [2023-07-15 00:42:19] INFO root fetch - processPackages [voicegain-speech]: Remove: archive file [/home/abi/fetcher/tmp/voicegain-speech-1.86.1.tar.gz]
 [2023-07-15 00:42:19] INFO root fetch - main [MainThread]: End processing [voicegain-speech]: success
 [2023-07-15 00:42:19] INFO root fetch - main [MainThread]: Store serial: [18896157]
+[2023-07-15 00:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896157]
+[2023-07-15 00:47:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-sagemaker-jupyter-scheduler
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wcferry
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomap
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oking
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdxbasics
+[2023-07-15 00:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-jet-new
+[2023-07-15 00:47:28] INFO root fetch - processPackages [oking]: New version: [4.1.203] Old Version: [4.1.202]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [wcferry]: New version: [39.0.0.1] Old Version: [39.0.0.0a3]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [genomap]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [django-jet-new]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-15 00:47:28] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/5d/60/48b2f1fe322067f3379b4c0e6f569f205bac45a5233ae3474f78585c254c/oking-4.1.202.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/4f/0b/dde961afc09e769deaf97e23d1faf671ceff7beb1732040bac1c3d358614/wcferry-39.0.0.0a3.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/fc/93/691c9d88a0b15c0db31117f2a98311f7efacd03ac322c60fb802798e12aa/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/7d/66/0b03f092a0135e412e676ac667f6eee979993d0e3353e8fdda9c2944056d/genomap-1.0.5.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-07-15 00:47:29] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82502698>=10485760
+[2023-07-15 00:47:29] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-15 00:47:29] INFO root fetch - processPackages [django-jet-new]: Downloading https://files.pythonhosted.org/packages/cf/c6/02489f974ef11156b92184d5367d39b63293a277b9bf4322cbe78871a33c/django-jet-new-2.3.2.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/4f/9a/b7870173192e9685a3e3534253c26f9130f38065d092746750c3404b1bb0/genomap-1.0.6.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/6d/5d/d6f727c4080b407f9eca8e6646582ccc2f88e513f5213903896669f91254/wcferry-39.0.0.1.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/91/ef/90b26e5216da17bf5b24eaa2821d8a22743faa2a02f30797e482e4b559b6/amazon_sagemaker_jupyter_scheduler-2.1.0.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [django-jet-new]: Downloading https://files.pythonhosted.org/packages/2f/e3/007c74cd5505c972159e7bf3cb703c7e386be37f5522b7a87552295f746f/django-jet-new-2.3.3.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-07-15 00:47:29] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-15 00:47:29] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.0.5.tar.gz tmp/genomap-1.0.6.tar.gz --markdown 20230715/g/genomap/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-15 00:47:29] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-07-15 00:47:29] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230715/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 00:47:29] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-07-15 00:47:29] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-39.0.0.0a3.tar.gz tmp/wcferry-39.0.0.1.tar.gz --markdown 20230715/w/wcferry/39.0.0.0a3-39.0.0.1/diff.md --exclude *.pyd
+[2023-07-15 00:47:29] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: executing diffoscope
+[2023-07-15 00:47:29] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz tmp/amazon_sagemaker_jupyter_scheduler-2.1.0.tar.gz --markdown 20230715/a/amazon-sagemaker-jupyter-scheduler/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-07-15 00:47:29] INFO root fetch - processPackages [django-jet-new]: executing diffoscope
+[2023-07-15 00:47:29] INFO root fetch - processPackages [django-jet-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jet-new-2.3.2.tar.gz tmp/django-jet-new-2.3.3.tar.gz --markdown 20230715/d/django-jet-new/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-15 00:47:30] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-07-15 00:47:30] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-07-15 00:47:30] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-07-15 00:47:30] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.5.tar.gz]
+[2023-07-15 00:47:30] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.6.tar.gz]
+[2023-07-15 00:47:30] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-15 00:47:31] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.0.0a3.tar.gz]
+[2023-07-15 00:47:31] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.0.1.tar.gz]
+[2023-07-15 00:47:31] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-07-15 00:47:32] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/amazon_sagemaker_jupyter_scheduler-2.0.2.tar.gz]
+[2023-07-15 00:47:32] INFO root fetch - processPackages [amazon-sagemaker-jupyter-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/amazon_sagemaker_jupyter_scheduler-2.1.0.tar.gz]
+[2023-07-15 00:47:32] INFO root fetch - main [MainThread]: End processing [amazon-sagemaker-jupyter-scheduler]: success
+[2023-07-15 00:47:32] INFO root fetch - processPackages [django-jet-new]: Remove: archive file [/home/abi/fetcher/tmp/django-jet-new-2.3.2.tar.gz]
+[2023-07-15 00:47:32] INFO root fetch - processPackages [django-jet-new]: Remove: archive file [/home/abi/fetcher/tmp/django-jet-new-2.3.3.tar.gz]
+[2023-07-15 00:47:32] INFO root fetch - main [MainThread]: End processing [django-jet-new]: success
+[2023-07-15 00:47:32] INFO root fetch - main [MainThread]: Store serial: [18896173]
