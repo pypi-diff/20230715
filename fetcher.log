@@ -2293,3 +2293,122 @@
 [2023-07-15 02:22:07] INFO root fetch - processPackages [colossalai-nightly]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-nightly-2023.7.8.tar.gz]
 [2023-07-15 02:22:07] INFO root fetch - main [MainThread]: End processing [colossalai-nightly]: success
 [2023-07-15 02:22:07] INFO root fetch - main [MainThread]: Store serial: [18896840]
+[2023-07-15 02:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896840]
+[2023-07-15 02:27:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-surreal-backend
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyDecision
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yd-base-1.0.2
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-valheim
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abiparser
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-tweet-queue
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-cr-constructs
+[2023-07-15 02:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cjm-yolox-pytorch
+[2023-07-15 02:27:17] WARNING root fetch - processPackages [yd-base-1.0.2]: Skipping, unable to determine old version
+[2023-07-15 02:27:17] INFO root fetch - processPackages [yd-base-1.0.2]: Start processing: cdk-aurora-globaldatabase
+[2023-07-15 02:27:17] INFO root fetch - main [MainThread]: End processing [yd-base-1.0.2] error
+[2023-07-15 02:27:17] INFO root fetch - processPackages [abiparser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [pyDecision]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 02:27:17] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/af/0a/69799007323bc5c0e8204540c5a142d64fc5cd2f29c66be149fee2cace03/pyDecision-2.9.4.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [abiparser]: Downloading https://files.pythonhosted.org/packages/16/f9/23573ae38c08b3342fb732d10b3d03c22ee98d05db1aafeb17bd0528363f/abiparser-1.0.0.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-07-15 02:27:18] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: abiparser
+[2023-07-15 02:27:18] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-07-15 02:27:18] INFO root fetch - processPackages [abiparser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/a9/df/a6f2a4a487727b65a3dedd50ae7b04deee582abfa91c6b3c220417f38e54/pyDecision-2.9.5.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230715/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:18] INFO root fetch - processPackages [abiparser]: Downloading https://files.pythonhosted.org/packages/77/dc/29cb6a644f05022d650cd8a438d3ccdf9f75951e8ffb3036ad6c06f4316c/abiparser-1.0.1.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [abiparser]: Downloading https://files.pythonhosted.org/packages/77/dc/29cb6a644f05022d650cd8a438d3ccdf9f75951e8ffb3036ad6c06f4316c/abiparser-1.0.1.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230715/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-07-15 02:27:18] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230715/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:18] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-15 02:27:18] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-2.9.4.tar.gz tmp/pyDecision-2.9.5.tar.gz --markdown 20230715/p/pyDecision/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230715/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230715/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230715/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [abiparser]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [abiparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abiparser-1.0.0.tar.gz tmp/abiparser-1.0.1.tar.gz --markdown 20230715/a/abiparser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 02:27:19] INFO root fetch - processPackages [abiparser]: executing diffoscope
+[2023-07-15 02:27:19] INFO root fetch - processPackages [abiparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abiparser-1.0.0.tar.gz tmp/abiparser-1.0.1.tar.gz --markdown 20230715/a/abiparser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: yd-base-1.0.3
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-tweet-queue]: Start processing: twscrape
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [twscrape]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-15 02:27:20] WARNING root fetch - processPackages [yd-base-1.0.3]: Skipping, unable to determine old version
+[2023-07-15 02:27:20] INFO root fetch - processPackages [yd-base-1.0.3]: Start processing: prompt-graph-sdk
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [yd-base-1.0.3] error
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [prompt-graph-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/6b/a6/677790dbab4d09348c7e87c03b4a75849e22ef4dada68324d6b71e056acf/twscrape-0.5.0.tar.gz
+[2023-07-15 02:27:20] INFO root fetch - processPackages [abiparser]: Remove: archive file [/home/abi/fetcher/tmp/abiparser-1.0.0.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [abiparser]: Remove: archive file [/home/abi/fetcher/tmp/abiparser-1.0.1.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [abiparser]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/41/8a/3ddb76c2244302451e0f1f295db7575b8b5edeaa8c091be2835c06916a86/prompt_graph_sdk-0.1.2.tar.gz
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [abiparser]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.98.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.99.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-07-15 02:27:20] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.4.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.5.tar.gz]
+[2023-07-15 02:27:20] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-15 02:27:21] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/95/4f/46570b152c8df77abfa305010161035f13abc2087b0294db814bbeef8790/twscrape-0.6.0.tar.gz
+[2023-07-15 02:27:21] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/f6/4d/e1e373f065fa6aae221c018590436f4b0076448a71ec9f76d3ec9925380a/prompt_graph_sdk-0.1.3.tar.gz
+[2023-07-15 02:27:21] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-07-15 02:27:21] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.5.0.tar.gz tmp/twscrape-0.6.0.tar.gz --markdown 20230715/t/twscrape/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-15 02:27:21] INFO root fetch - processPackages [prompt-graph-sdk]: executing diffoscope
+[2023-07-15 02:27:21] INFO root fetch - processPackages [prompt-graph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_graph_sdk-0.1.2.tar.gz tmp/prompt_graph_sdk-0.1.3.tar.gz --markdown 20230715/p/prompt-graph-sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 02:27:22] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.2.tar.gz]
+[2023-07-15 02:27:22] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.3.tar.gz]
+[2023-07-15 02:27:22] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk]: success
+[2023-07-15 02:27:23] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.5.0.tar.gz]
+[2023-07-15 02:27:23] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.6.0.tar.gz]
+[2023-07-15 02:27:23] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-07-15 02:27:23] INFO root fetch - main [MainThread]: Store serial: [18896900]
