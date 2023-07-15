@@ -12031,3 +12031,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.35.tar.gz]
 [2023-07-15 18:16:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:16:07] INFO root fetch - main [MainThread]: Store serial: [18901675]
+[2023-07-15 18:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901675]
+[2023-07-15 18:21:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 18:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kognic-keyring
+[2023-07-15 18:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: league-client
+[2023-07-15 18:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryptogameapi
+[2023-07-15 18:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py3make
+[2023-07-15 18:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyclipr
+[2023-07-15 18:21:16] WARNING root fetch - processPackages [cryptogameapi]: Skipping, unable to determine old version
+[2023-07-15 18:21:16] INFO root fetch - main [MainThread]: End processing [cryptogameapi] error
+[2023-07-15 18:21:16] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 18:21:16] INFO root fetch - processPackages [pyclipr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 18:21:16] WARNING root fetch - processPackages [kognic-keyring]: Skipping, unable to determine old version
+[2023-07-15 18:21:16] INFO root fetch - main [MainThread]: End processing [kognic-keyring] error
+[2023-07-15 18:21:16] INFO root fetch - processPackages [py3make]: New version: [1.0.1] Old Version: [1.0.0b1]
+[2023-07-15 18:21:16] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-15 18:21:16] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/d3/0a/d0ad84919cd42ee373ba40644b5020d31c268230173ab34283f0f35a82df/py3make-1.0.0b1.tar.gz
+[2023-07-15 18:21:16] INFO root fetch - processPackages [pyclipr]: Downloading https://files.pythonhosted.org/packages/07/11/2b743f51c13db945e54678dc6be03b71e2651f5b96118b035905bcda8d04/pyclipr-0.1.0-cp39-cp39-win_amd64.whl
+[2023-07-15 18:21:16] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-15 18:21:17] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-15 18:21:17] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230715/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:21:17] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/76/61/1ef6babd03fd0fdbce563277f4e05205e5b4a6225a27d567b074ff7e128e/py3make-1.0.1.tar.gz
+[2023-07-15 18:21:17] INFO root fetch - processPackages [pyclipr]: Downloading https://files.pythonhosted.org/packages/df/b5/b20605cafb1f9e467cacf38872f415c59fcb5676a7b72ecd524c5280f5e2/pyclipr-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-15 18:21:17] INFO root fetch - processPackages [py3make]: executing diffoscope
+[2023-07-15 18:21:17] INFO root fetch - processPackages [py3make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3make-1.0.0b1.tar.gz tmp/py3make-1.0.1.tar.gz --markdown 20230715/p/py3make/1.0.0b1-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 18:21:17] INFO root fetch - processPackages [pyclipr]: executing diffoscope
+[2023-07-15 18:21:17] INFO root fetch - processPackages [pyclipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipr-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/pyclipr-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230715/p/pyclipr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 18:21:17] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-15 18:21:17] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-15 18:21:17] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-15 18:21:18] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.0b1.tar.gz]
+[2023-07-15 18:21:18] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.1.tar.gz]
+[2023-07-15 18:21:18] INFO root fetch - main [MainThread]: End processing [py3make]: success
+[2023-07-15 18:21:18] INFO root fetch - processPackages [pyclipr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipr-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 18:21:18] INFO root fetch - processPackages [pyclipr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipr-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 18:21:18] INFO root fetch - main [MainThread]: End processing [pyclipr]: success
+[2023-07-15 18:21:18] INFO root fetch - main [MainThread]: Store serial: [18901722]
