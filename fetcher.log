@@ -4656,3 +4656,100 @@
 [2023-07-15 06:32:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.4-py3-none-any.whl.zip]
 [2023-07-15 06:32:07] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-07-15 06:32:07] INFO root fetch - main [MainThread]: Store serial: [18897914]
+[2023-07-15 06:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897914]
+[2023-07-15 06:37:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python-nightly
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-cloud-client
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysqlx
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-common
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-data-client
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zenlib-zenzenwang
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-comfort
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysqlx
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hatch-conda-build
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SQLite4
+[2023-07-15 06:37:16] WARNING root fetch - processPackages [zenlib-zenzenwang]: Skipping, unable to determine old version
+[2023-07-15 06:37:16] INFO root fetch - processPackages [zenlib-zenzenwang]: Start processing: odoo14-addon-website-product-configurator-mrp
+[2023-07-15 06:37:16] INFO root fetch - main [MainThread]: End processing [zenlib-zenzenwang] error
+[2023-07-15 06:37:16] INFO root fetch - processPackages [mysqlx]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [SQLite4]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.33] Old Version: [0.1.32]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [mysqlx]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 06:37:16] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 06:37:17] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-07-15 06:37:17] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.7.8] Old Version: [2023.7.6]
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ae/28/37b262a01105ff2a47a8f33165e5abc5e12b4fdfda63054569181043b07c/threemystic_cloud_client-0.1.32.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/79/c9/12745a1f0b2a8ac816508c73451290c451f6ef8c38265ba800a381aa2575/hatch_conda_build-0.0.5.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [SQLite4]: Downloading https://files.pythonhosted.org/packages/8b/cf/39b8d00dbced5b6dbc712ee0a56151187dfe41fb1d5b7467ee53c96d2070/SQLite4-0.1.0.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/55/40/b4982da7b89c3448e5842b2332bf02edae49d6b1a0814ae538ee4a8c594a/mysqlx-1.5.2.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/55/40/b4982da7b89c3448e5842b2332bf02edae49d6b1a0814ae538ee4a8c594a/mysqlx-1.5.2.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/0c/5f/6708f2fd28a7b9f21a7464123eb1d45d233eb8d86f9d5d790d02e8de1988/threemystic_cloud_data_client-0.1.8.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: Downloading https://files.pythonhosted.org/packages/ed/a7/28de3e32aad6f305e7ba40739ac7059246f93e56c50d18a85af516ff779a/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-07-15 06:37:17] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/c9/81/c4d9965bfca21c8ac1ee47fa96c6efeeb51fa6f29adea9b6c656c1e1186f/snowflake-connector-python-nightly-2023.7.6.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b9/ca/5d06a676406db7cd8c68d45931420d1cf76aa87e961f9067c799a66ecd0c/threemystic_common-0.1.8.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/55/d8/6ba8203a8677e1e537011c1af48c102693fd175e7e153925a8233c91ff51/threemystic_cloud_client-0.1.33.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [SQLite4]: Downloading https://files.pythonhosted.org/packages/fd/ff/6cb2101490ade1b07cd00a94ea7f0319f2e95567be925fcaf30b4110efa2/SQLite4-0.1.1.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/41/0d/d3e51864f7d58413fecb0bcd29f20ad5c34f26534ef9a2be927e2c932916/hatch_conda_build-0.0.6.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/4e/ee/40e005ab5c850ffb01640619776b89b0d92084c61267ff925cb195305bcb/mysqlx-1.5.3.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/4e/ee/40e005ab5c850ffb01640619776b89b0d92084c61267ff925cb195305bcb/mysqlx-1.5.3.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.32.tar.gz tmp/threemystic_cloud_client-0.1.33.tar.gz --markdown 20230715/t/threemystic-cloud-client/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2023-07-15 06:37:17] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.5.tar.gz tmp/hatch_conda_build-0.0.6.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 06:37:17] INFO root fetch - processPackages [SQLite4]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [SQLite4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLite4-0.1.0.tar.gz tmp/SQLite4-0.1.1.tar.gz --markdown 20230715/S/SQLite4/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c9/97/631c0ee28d7ceb7a64ff1bc8abcc240de4d9237b56f224843e0811062dc7/threemystic_cloud_data_client-0.1.9.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.2.tar.gz tmp/mysqlx-1.5.3.tar.gz --markdown 20230715/m/mysqlx/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.5.2.tar.gz tmp/mysqlx-1.5.3.tar.gz --markdown 20230715/m/mysqlx/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-15 06:37:17] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: Downloading https://files.pythonhosted.org/packages/0b/80/bade7fcb4da89af5d2840cf9da60db93bd6436a8c30a6078209dc739ef30/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-15 06:37:17] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/12/15/03c72da1e69a84fa41077540a44769e5c5cf51729b1635be1286bd10a547/threemystic_common-0.1.9.tar.gz
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-15 06:37:17] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.8.tar.gz tmp/threemystic_cloud_data_client-0.1.9.tar.gz --markdown 20230715/t/threemystic-cloud-data-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 06:37:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/40/16/80ea6fef1c1c6972dd25b43e5e7b1a2c889d92d33fd7e8988c16dd4d98be/snowflake-connector-python-nightly-2023.7.8.tar.gz
+[2023-07-15 06:37:18] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-15 06:37:18] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.8.tar.gz tmp/threemystic_common-0.1.9.tar.gz --markdown 20230715/t/threemystic-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 06:37:18] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2023-07-15 06:37:18] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: executing diffoscope
+[2023-07-15 06:37:18] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20230715/l/ladybug-comfort/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 06:37:18] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-website-product-configurator-mrp/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-15 06:37:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-07-15 06:37:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz --markdown 20230715/s/snowflake-connector-python-nightly/2023.7.6-2023.7.8/diff.md --exclude *.pyd
+[2023-07-15 06:37:19] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.5.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.6.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [hatch-conda-build]: Start processing: lbstanza-wrappers
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [SQLite4]: Remove: archive file [/home/abi/fetcher/tmp/SQLite4-0.1.0.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [SQLite4]: Remove: archive file [/home/abi/fetcher/tmp/SQLite4-0.1.1.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [SQLite4]: success
+[2023-07-15 06:37:19] WARNING root fetch - processPackages [lbstanza-wrappers]: Skipping, unable to determine old version
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [lbstanza-wrappers] error
+[2023-07-15 06:37:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.2.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.5.3.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.32.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.33.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.8.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.9.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [odoo14-addon-website-product-configurator-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_product_configurator_mrp-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-product-configurator-mrp]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.8.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.9.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-15 06:37:19] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2023-07-15 06:37:19] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2023-07-15 06:37:20] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.6.tar.gz]
+[2023-07-15 06:37:20] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
+[2023-07-15 06:37:20] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-07-15 06:37:20] INFO root fetch - main [MainThread]: Store serial: [18897978]
