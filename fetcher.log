@@ -2731,3 +2731,29 @@
 [2023-07-15 02:48:17] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307140045.tar.gz]
 [2023-07-15 02:48:17] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-15 02:48:17] INFO root fetch - main [MainThread]: Store serial: [18897049]
+[2023-07-15 02:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897049]
+[2023-07-15 02:53:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubric-nightly
+[2023-07-15 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openssm
+[2023-07-15 02:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-07-15 02:53:27] INFO root fetch - processPackages [openssm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 02:53:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 02:53:27] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 02:53:27] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/8d/af/70860e062c2e3420c1da4174adc7b2c823c0b15bb94399be330cbbec7e58/openssm-0.1.1.tar.gz
+[2023-07-15 02:53:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-15 02:53:28] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-15 02:53:28] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-15 02:53:28] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-15 02:53:28] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/fa/34/3eb7fb8b554ca9f2b9bb6c5390b6d9562243bb80617c67d3f0ccbefffba6/openssm-0.1.2.tar.gz
+[2023-07-15 02:53:28] INFO root fetch - processPackages [openssm]: executing diffoscope
+[2023-07-15 02:53:28] INFO root fetch - processPackages [openssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssm-0.1.1.tar.gz tmp/openssm-0.1.2.tar.gz --markdown 20230715/o/openssm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 02:53:28] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-15 02:53:28] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-15 02:53:28] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230715/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 02:53:29] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.1.tar.gz]
+[2023-07-15 02:53:29] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.2.tar.gz]
+[2023-07-15 02:53:29] INFO root fetch - main [MainThread]: End processing [openssm]: success
+[2023-07-15 02:53:29] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-15 02:53:29] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-15 02:53:29] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-15 02:53:29] INFO root fetch - main [MainThread]: Store serial: [18897060]
