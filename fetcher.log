@@ -4335,3 +4335,79 @@
 [2023-07-15 05:53:02] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.9-py3-none-any.whl.zip]
 [2023-07-15 05:53:02] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-07-15 05:53:02] INFO root fetch - main [MainThread]: Store serial: [18897787]
+[2023-07-15 05:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897787]
+[2023-07-15 05:58:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mayan-edms
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdbotlite
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdrpa
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webuiapi
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mastodon-2-album
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepllm
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdselector
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: candlelite
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fuo-ytmusic
+[2023-07-15 05:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mastodon-2-album
+[2023-07-15 05:58:11] INFO root fetch - processPackages [candlelite]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-15 05:58:11] INFO root fetch - processPackages [deepllm]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-15 05:58:11] INFO root fetch - processPackages [webuiapi]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-15 05:58:11] WARNING root fetch - processPackages [tdselector]: Skipping, unable to determine old version
+[2023-07-15 05:58:11] INFO root fetch - processPackages [tdselector]: Start processing: tdapi
+[2023-07-15 05:58:11] INFO root fetch - main [MainThread]: End processing [tdselector] error
+[2023-07-15 05:58:11] WARNING root fetch - processPackages [tdbotlite]: Skipping, unable to determine old version
+[2023-07-15 05:58:11] INFO root fetch - main [MainThread]: End processing [tdbotlite] error
+[2023-07-15 05:58:11] INFO root fetch - processPackages [fuo-ytmusic]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 05:58:11] WARNING root fetch - processPackages [tdrpa]: Skipping, unable to determine old version
+[2023-07-15 05:58:11] INFO root fetch - main [MainThread]: End processing [tdrpa] error
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mayan-edms]: New version: [4.4.8] Old Version: [4.4.7]
+[2023-07-15 05:58:11] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/f2/ae/01c2547ce503d95afdf3e790f5605a654fb83f6c4fa40e8e0303055600d9/candlelite-1.0.8.tar.gz
+[2023-07-15 05:58:11] WARNING root fetch - processPackages [tdapi]: Skipping, unable to determine old version
+[2023-07-15 05:58:11] INFO root fetch - main [MainThread]: End processing [tdapi] error
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/3f/94/189ae670be7feeaff60659adda560b73936afc502590f1bdd83824682999/mastodon_2_album-0.0.7.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/a5/56/d873fa88ae56196d74913d7ed40ead46e3c25234d97a5061ed14408f285e/webuiapi-0.9.3-py3-none-any.whl
+[2023-07-15 05:58:11] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/ce/95/281bbb7c715f5487bdaf007f1285fdb064946d30434ef5a212968f667d09/deepllm-0.6.1.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/d9/97/46bf2818af1721a4ad27ff4f517fec6f597fc8b9640a8891298df052887c/mayan-edms-4.4.7.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [fuo-ytmusic]: Downloading https://files.pythonhosted.org/packages/a8/19/8e037823218c561e78ff5a50a6918140eda9b198a603e713fbc43d241a39/fuo-ytmusic-0.2.2.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/b7/76/75dd067fe2c2973abdf8af2ef66c1a99d0ab5342207536cee0b96b23bdc1/candlelite-1.0.9.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-15 05:58:11] INFO root fetch - processPackages [mastodon-2-album]: Downloading https://files.pythonhosted.org/packages/81/35/cda2db4539e0d00cd668ff1fdcb9609acca3e52464a6c85739fa5c684c1e/mastodon_2_album-0.0.9.tar.gz
+[2023-07-15 05:58:12] INFO root fetch - processPackages [webuiapi]: Downloading https://files.pythonhosted.org/packages/c2/2e/a286d7414f286d79696775bc420a408b2de9feab574dee1f5f07e48f2e0d/webuiapi-0.9.4-py3-none-any.whl
+[2023-07-15 05:58:12] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/cb/ac/9107d6e27eab83e9abf94d36ccfc4ae81e3e1058a431ad648e51109b7469/deepllm-0.6.2.tar.gz
+[2023-07-15 05:58:12] INFO root fetch - processPackages [candlelite]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [candlelite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candlelite-1.0.8.tar.gz tmp/candlelite-1.0.9.tar.gz --markdown 20230715/c/candlelite/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:58:12] INFO root fetch - processPackages [fuo-ytmusic]: Downloading https://files.pythonhosted.org/packages/69/cb/936e050e1f7ba57d9690982125103d6b513ab5985bbdd9b5b1343c620c62/fuo-ytmusic-0.2.3.tar.gz
+[2023-07-15 05:58:12] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230715/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:58:12] INFO root fetch - processPackages [mastodon-2-album]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [mastodon-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_2_album-0.0.7.tar.gz tmp/mastodon_2_album-0.0.9.tar.gz --markdown 20230715/m/mastodon-2-album/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:58:12] INFO root fetch - processPackages [webuiapi]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [webuiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webuiapi-0.9.3-py3-none-any.whl.zip tmp/webuiapi-0.9.4-py3-none-any.whl.zip --markdown 20230715/w/webuiapi/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-15 05:58:12] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/1e/8e/1b129ba00486b182845788cc4da729feb79ad2a580f67ecbdaff847184d0/mayan-edms-4.4.8.tar.gz
+[2023-07-15 05:58:12] INFO root fetch - processPackages [fuo-ytmusic]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [fuo-ytmusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo-ytmusic-0.2.2.tar.gz tmp/fuo-ytmusic-0.2.3.tar.gz --markdown 20230715/f/fuo-ytmusic/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 05:58:12] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-15 05:58:12] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.6.1.tar.gz tmp/deepllm-0.6.2.tar.gz --markdown 20230715/d/deepllm/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-15 05:58:13] INFO root fetch - processPackages [mayan-edms]: executing diffoscope
+[2023-07-15 05:58:13] INFO root fetch - processPackages [mayan-edms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-edms-4.4.7.tar.gz tmp/mayan-edms-4.4.8.tar.gz --markdown 20230715/m/mayan-edms/4.4.7-4.4.8/diff.md --exclude *.pyd
+[2023-07-15 05:58:13] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.7.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - processPackages [mastodon-2-album]: Remove: archive file [/home/abi/fetcher/tmp/mastodon_2_album-0.0.9.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-15 05:58:13] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.8.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.9.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [candlelite]: success
+[2023-07-15 05:58:13] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.3-py3-none-any.whl.zip]
+[2023-07-15 05:58:13] INFO root fetch - processPackages [webuiapi]: Remove: archive file [/home/abi/fetcher/tmp/webuiapi-0.9.4-py3-none-any.whl.zip]
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [webuiapi]: success
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [mastodon-2-album]: success
+[2023-07-15 05:58:13] INFO root fetch - processPackages [fuo-ytmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo-ytmusic-0.2.2.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - processPackages [fuo-ytmusic]: Remove: archive file [/home/abi/fetcher/tmp/fuo-ytmusic-0.2.3.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [fuo-ytmusic]: success
+[2023-07-15 05:58:13] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.1.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.2.tar.gz]
+[2023-07-15 05:58:13] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-15 05:59:03] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.4.7.tar.gz]
+[2023-07-15 05:59:03] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.4.8.tar.gz]
+[2023-07-15 05:59:03] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
+[2023-07-15 05:59:03] INFO root fetch - main [MainThread]: Store serial: [18897823]
