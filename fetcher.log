@@ -14240,3 +14240,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:49:08] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_carbonblack-0.1.4.tar.gz]
 [2023-07-15 21:49:08] INFO root fetch - main [MainThread]: End processing [pysigma-backend-carbonblack]: success
 [2023-07-15 21:49:08] INFO root fetch - main [MainThread]: Store serial: [18902618]
+[2023-07-15 21:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902618]
+[2023-07-15 21:54:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flashcam
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedpy
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stitchnet
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stitchnet
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: render-thumbnail
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tuidbtv
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiggler-studiorabota
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatdocs
+[2023-07-15 21:54:17] INFO root fetch - processPackages [stitchnet]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [stitchnet]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [ork.build]: New version: [0.0.48] Old Version: [0.0.47]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [tuidbtv]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-15 21:54:17] INFO root fetch - processPackages [chatdocs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-15 21:54:18] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/b8/77/d97ad131aef60363296e94a12005bc5aa3c3e18999b0d0636e0c3a1433fc/ork.build-0.0.47.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: Downloading https://files.pythonhosted.org/packages/9a/aa/d193cb9b1f3f88538438711f6ffa2b0fb50e6779c6fe854e184084b04a99/stitchnet-0.2.1.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: Downloading https://files.pythonhosted.org/packages/9a/aa/d193cb9b1f3f88538438711f6ffa2b0fb50e6779c6fe854e184084b04a99/stitchnet-0.2.1.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [tuidbtv]: Downloading https://files.pythonhosted.org/packages/ba/4e/d57202f2cd5acda62be57a6ceb9db6186d07fa474e897f775f889056926f/tuidbtv-0.1.8.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/39/68/bd451a54f40c565e03d067d6f9c094d09322d83e9a8da860a1ecdb174e60/chatdocs-0.2.4.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/35/59/3686ee0ec5837806d197e0687a3dcc82622f0280774d3c5a24cc15ee66f4/ork.build-0.0.48.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: Downloading https://files.pythonhosted.org/packages/59/81/8588c0ddab755e8358d892c442e3c569be8ee73122f94484c21cb9f62a0e/stitchnet-0.2.2.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: Downloading https://files.pythonhosted.org/packages/59/81/8588c0ddab755e8358d892c442e3c569be8ee73122f94484c21cb9f62a0e/stitchnet-0.2.2.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-15 21:54:18] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230715/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:54:18] INFO root fetch - processPackages [tuidbtv]: Downloading https://files.pythonhosted.org/packages/b6/c6/9d8fa04f06eef4a5bce2c295fb5c616c46de666a714f6c5314f053ce90ba/tuidbtv-0.1.9.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 21:54:18] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:54:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 21:54:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 21:54:18] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [chatdocs]: Downloading https://files.pythonhosted.org/packages/e7/48/b722232ec679cb360603f79bce99739d214c994f8bae316f5d8bf2f9ccec/chatdocs-0.2.5.tar.gz
+[2023-07-15 21:54:18] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-15 21:54:18] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230715/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: executing diffoscope
+[2023-07-15 21:54:18] INFO root fetch - processPackages [stitchnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stitchnet-0.2.1.tar.gz tmp/stitchnet-0.2.2.tar.gz --markdown 20230715/s/stitchnet/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 21:54:19] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-07-15 21:54:19] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230715/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-15 21:54:19] INFO root fetch - processPackages [tuidbtv]: executing diffoscope
+[2023-07-15 21:54:19] INFO root fetch - processPackages [tuidbtv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuidbtv-0.1.8.tar.gz tmp/tuidbtv-0.1.9.tar.gz --markdown 20230715/t/tuidbtv/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:54:19] INFO root fetch - processPackages [stitchnet]: executing diffoscope
+[2023-07-15 21:54:19] INFO root fetch - processPackages [stitchnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stitchnet-0.2.1.tar.gz tmp/stitchnet-0.2.2.tar.gz --markdown 20230715/s/stitchnet/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 21:54:19] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 21:54:19] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.47.tar.gz tmp/ork.build-0.0.48.tar.gz --markdown 20230715/o/ork.build/0.0.47-0.0.48/diff.md --exclude *.pyd
+[2023-07-15 21:54:19] INFO root fetch - processPackages [chatdocs]: executing diffoscope
+[2023-07-15 21:54:19] INFO root fetch - processPackages [chatdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatdocs-0.2.4.tar.gz tmp/chatdocs-0.2.5.tar.gz --markdown 20230715/c/chatdocs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-15 21:54:20] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [stitchnet]: Remove: archive file [/home/abi/fetcher/tmp/stitchnet-0.2.1.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [stitchnet]: Remove: archive file [/home/abi/fetcher/tmp/stitchnet-0.2.2.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [stitchnet]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [tuidbtv]: Remove: archive file [/home/abi/fetcher/tmp/tuidbtv-0.1.8.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [tuidbtv]: Remove: archive file [/home/abi/fetcher/tmp/tuidbtv-0.1.9.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [tuidbtv]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.4.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [chatdocs]: Remove: archive file [/home/abi/fetcher/tmp/chatdocs-0.2.5.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [chatdocs]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-15 21:54:20] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-07-15 21:54:20] INFO root fetch - main [MainThread]: End processing [stitchnet]: success
+[2023-07-15 21:54:21] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.47.tar.gz]
+[2023-07-15 21:54:21] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.48.tar.gz]
+[2023-07-15 21:54:21] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 21:54:21] INFO root fetch - main [MainThread]: Store serial: [18902647]
