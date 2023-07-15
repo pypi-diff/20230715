@@ -13193,3 +13193,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:00:08] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
 [2023-07-15 20:00:08] INFO root fetch - main [MainThread]: End processing [pyutils]: success
 [2023-07-15 20:00:08] INFO root fetch - main [MainThread]: Store serial: [18902185]
+[2023-07-15 20:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902185]
+[2023-07-15 20:05:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrainbird
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eznet-keras
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: banking-system
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otter-grader-labextension
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmoran0032
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revealjs
+[2023-07-15 20:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eznet-torch
+[2023-07-15 20:05:17] WARNING root fetch - processPackages [banking-system]: Skipping, unable to determine old version
+[2023-07-15 20:05:17] INFO root fetch - main [MainThread]: End processing [banking-system] error
+[2023-07-15 20:05:17] WARNING root fetch - processPackages [otter-grader-labextension]: Skipping, unable to determine old version
+[2023-07-15 20:05:17] INFO root fetch - main [MainThread]: End processing [otter-grader-labextension] error
+[2023-07-15 20:05:17] WARNING root fetch - processPackages [mmoran0032]: Skipping, unable to determine old version
+[2023-07-15 20:05:17] INFO root fetch - main [MainThread]: End processing [mmoran0032] error
+[2023-07-15 20:05:17] INFO root fetch - processPackages [pyrainbird]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-keras]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-07-15 20:05:17] INFO root fetch - processPackages [revealjs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-torch]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-15 20:05:17] INFO root fetch - processPackages [pyrainbird]: Downloading https://files.pythonhosted.org/packages/c9/9c/93b4a1ba8521c36236b4f9d6a91da25ccf3b4fc11c5c15a3f4ca5bd7b750/pyrainbird-2.1.1.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/36/af/814e52d489de8bf9ffea424a128b555f83ab337a8f0420a1e884fbb3d55b/revealjs-0.0.1.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/ee/2a/e2fc8cbfbefe09b76d3b0935c5312b74b062cc76f9dfb6b4f71d6e2394d5/eznet_keras-0.0.3.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-torch]: Downloading https://files.pythonhosted.org/packages/1f/3c/7c9f5daefbdff4a2686abc8271ee561329023d04f54ff264d9074beae397/eznet_torch-0.0.0.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [pyrainbird]: Downloading https://files.pythonhosted.org/packages/09/98/615fda251b288904946d5d8811adc02269c10920c1eab12b1d276e1d969c/pyrainbird-3.0.0.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/6b/16/6b5d5fee885bf0b68c2eaf04764b3b9b8bdaee7822b79fa096998837369d/revealjs-0.0.2.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/23/c8/117e97b85f2466581f5a55df9c2492fe52a153f27f2cd8314116946710a9/eznet_keras-1.0.0.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [eznet-torch]: Downloading https://files.pythonhosted.org/packages/a5/58/4f04db43c80912e2c86282275d42cbd04a2fb568de6a84fe7f58f972c75b/eznet_torch-0.0.1.tar.gz
+[2023-07-15 20:05:17] INFO root fetch - processPackages [pyrainbird]: executing diffoscope
+[2023-07-15 20:05:17] INFO root fetch - processPackages [pyrainbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrainbird-2.1.1.tar.gz tmp/pyrainbird-3.0.0.tar.gz --markdown 20230715/p/pyrainbird/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-15 20:05:18] INFO root fetch - processPackages [revealjs]: executing diffoscope
+[2023-07-15 20:05:18] INFO root fetch - processPackages [revealjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revealjs-0.0.1.tar.gz tmp/revealjs-0.0.2.tar.gz --markdown 20230715/r/revealjs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:05:18] INFO root fetch - processPackages [eznet-keras]: executing diffoscope
+[2023-07-15 20:05:18] INFO root fetch - processPackages [eznet-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznet_keras-0.0.3.tar.gz tmp/eznet_keras-1.0.0.tar.gz --markdown 20230715/e/eznet-keras/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 20:05:18] INFO root fetch - processPackages [eznet-torch]: executing diffoscope
+[2023-07-15 20:05:18] INFO root fetch - processPackages [eznet-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznet_torch-0.0.0.tar.gz tmp/eznet_torch-0.0.1.tar.gz --markdown 20230715/e/eznet-torch/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-15 20:05:18] INFO root fetch - processPackages [pyrainbird]: Remove: archive file [/home/abi/fetcher/tmp/pyrainbird-2.1.1.tar.gz]
+[2023-07-15 20:05:18] INFO root fetch - processPackages [pyrainbird]: Remove: archive file [/home/abi/fetcher/tmp/pyrainbird-3.0.0.tar.gz]
+[2023-07-15 20:05:18] INFO root fetch - main [MainThread]: End processing [pyrainbird]: success
+[2023-07-15 20:05:18] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.1.tar.gz]
+[2023-07-15 20:05:18] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.2.tar.gz]
+[2023-07-15 20:05:18] INFO root fetch - main [MainThread]: End processing [revealjs]: success
+[2023-07-15 20:05:19] INFO root fetch - processPackages [eznet-torch]: Remove: archive file [/home/abi/fetcher/tmp/eznet_torch-0.0.0.tar.gz]
+[2023-07-15 20:05:19] INFO root fetch - processPackages [eznet-torch]: Remove: archive file [/home/abi/fetcher/tmp/eznet_torch-0.0.1.tar.gz]
+[2023-07-15 20:05:19] INFO root fetch - main [MainThread]: End processing [eznet-torch]: success
+[2023-07-15 20:05:19] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-0.0.3.tar.gz]
+[2023-07-15 20:05:19] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.0.tar.gz]
+[2023-07-15 20:05:19] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
+[2023-07-15 20:05:19] INFO root fetch - main [MainThread]: Store serial: [18902209]
