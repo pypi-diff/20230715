@@ -12888,3 +12888,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:23:42] INFO root fetch - processPackages [getajob]: Remove: archive file [/home/abi/fetcher/tmp/getajob-0.3.0.tar.gz]
 [2023-07-15 19:23:42] INFO root fetch - main [MainThread]: End processing [getajob]: success
 [2023-07-15 19:23:42] INFO root fetch - main [MainThread]: Store serial: [18902073]
+[2023-07-15 19:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902073]
+[2023-07-15 19:28:50] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: birdroid.aws-secure-bucket
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muse-maskgit-pytorch
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hawthorn
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gallery-dl
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghastoolkit
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lycium-rest
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reprim
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gddecoder
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morphoaap
+[2023-07-15 19:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scale-llm-engine
+[2023-07-15 19:28:50] INFO root fetch - processPackages [hawthorn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 19:28:50] WARNING root fetch - processPackages [gddecoder]: Skipping, unable to determine old version
+[2023-07-15 19:28:50] INFO root fetch - processPackages [gddecoder]: Start processing: Code-Ocean-Aux-Tools
+[2023-07-15 19:28:50] INFO root fetch - main [MainThread]: End processing [gddecoder] error
+[2023-07-15 19:28:51] INFO root fetch - processPackages [muse-maskgit-pytorch]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [lycium-rest]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [ghastoolkit]: New version: [0.5.0] Old Version: [0.4.7]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [reprim]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b0] Old Version: [0.0.0a1]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [morphoaap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [gallery-dl]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-15 19:28:51] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/a5/a9/35955a068d1d49bbee903dadd28d17289abc37b5c2d6492cec330d1b361c/muse-maskgit-pytorch-0.2.1.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/04/7a/4e95cf6af5766c0c6d4ad8f866637741648dbaaf47f3fbc33371038e3d9b/ghastoolkit-0.4.7.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [morphoaap]: Downloading https://files.pythonhosted.org/packages/84/d9/5dcd740973833b4204fae6dd7c84244f202b938fcd2801c70b9e95631f1e/morphoaap-0.0.3.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [hawthorn]: Downloading https://files.pythonhosted.org/packages/54/ea/bd2d6260c1fb6d9c8fa23f8a35b6e7bca9e4f0ce4cd572da7c06a976b3b9/hawthorn-0.0.3.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [lycium-rest]: Downloading https://files.pythonhosted.org/packages/6a/f9/97f54814dd84d90afd5234a61ad403f9c63b848d0705c9d7967d527f57b0/lycium-rest-0.0.1.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/16/72/541f33173c504f0d248eaec01e19b8f7a2ae0d921cec2d38a4f0e785c6c4/birdroid.aws-secure-bucket-0.8.1.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/41/88/b4cd2267da2697f52de66005574b54aa978688263bef92332e1cbd0e2ccc/scale_llm_engine-0.0.0a1.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/64/83/be474e3d087ef65de018e539d13f75529ac927c3491e06386510c0585041/reprim-0.1.0.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/5d/1c/09cf02a5b984e19ad70eef4b0546aef2c2642861044e7d619f393e8c8b9a/gallery_dl-1.8.7.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: Downloading https://files.pythonhosted.org/packages/84/34/96aa5d4fb1670f057bb2753deb9414dde38f8aedccb855fd34706eb273a1/code_ocean_aux_tools-1.0.2.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/4b/41/412367109b99bbd48044770bbb09a7f7f67118fb38f9bdfad5aca4fcf38c/muse-maskgit-pytorch-0.2.2.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/30/f9/1beb70ac15fa410cfa8a573c2b4253b6dd08245b99c0a944f4fc434c79e0/ghastoolkit-0.5.0.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [morphoaap]: Downloading https://files.pythonhosted.org/packages/a2/58/a30bf843e1fd6917232b76879eaf8de5652803483d9794cf207cbcdb1405/morphoaap-0.0.4.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [lycium-rest]: Downloading https://files.pythonhosted.org/packages/ff/ac/973a6e5c97b7aa07d2133f1bb63a821b44ea6c6dec1b3fbf9a9b16360ffe/lycium-rest-0.0.2.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/7f/79/a96791c075e179cf68d01a7edfcea32a706e85e32c9a9384e2a6611ae40c/scale_llm_engine-0.0.0b0.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/c9/5d/e18526fc5b5d9f6d42ae14bab9d219c7d1780c572d08202cf7a34671a301/reprim-0.1.1.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/1e/b5/862b53972c415d83a9731e5a396eb9ecca2c6943fd69d990f8729effee00/birdroid.aws-secure-bucket-0.8.2.tar.gz
+[2023-07-15 19:28:51] INFO root fetch - processPackages [muse-maskgit-pytorch]: executing diffoscope
+[2023-07-15 19:28:51] INFO root fetch - processPackages [muse-maskgit-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muse-maskgit-pytorch-0.2.1.tar.gz tmp/muse-maskgit-pytorch-0.2.2.tar.gz --markdown 20230715/m/muse-maskgit-pytorch/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: Downloading https://files.pythonhosted.org/packages/a5/72/01403df668bdb44b70ac07ad4dd3bc32fdadb46ab443928757bd98808721/code_ocean_aux_tools-1.0.3.tar.gz
+[2023-07-15 19:28:52] INFO root fetch - processPackages [hawthorn]: Downloading https://files.pythonhosted.org/packages/29/4a/f71d3964bd253c4fbbb33e428d481f1446748fffa46fdf044ed22ab6602b/hawthorn-0.0.4.tar.gz
+[2023-07-15 19:28:52] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.4.7.tar.gz tmp/ghastoolkit-0.5.0.tar.gz --markdown 20230715/g/ghastoolkit/0.4.7-0.5.0/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [morphoaap]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [morphoaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphoaap-0.0.3.tar.gz tmp/morphoaap-0.0.4.tar.gz --markdown 20230715/m/morphoaap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [gallery-dl]: Downloading https://files.pythonhosted.org/packages/c5/b2/1405454a6bfc347687a5b389bf788d050a0f09cf6f56e4409b54a6571334/gallery_dl-1.9.0.tar.gz
+[2023-07-15 19:28:52] INFO root fetch - processPackages [lycium-rest]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [lycium-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycium-rest-0.0.1.tar.gz tmp/lycium-rest-0.0.2.tar.gz --markdown 20230715/l/lycium-rest/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.1.0.tar.gz tmp/reprim-0.1.1.tar.gz --markdown 20230715/r/reprim/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdroid.aws-secure-bucket-0.8.1.tar.gz tmp/birdroid.aws-secure-bucket-0.8.2.tar.gz --markdown 20230715/b/birdroid.aws-secure-bucket/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [hawthorn]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [hawthorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hawthorn-0.0.3.tar.gz tmp/hawthorn-0.0.4.tar.gz --markdown 20230715/h/hawthorn/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0a1.tar.gz tmp/scale_llm_engine-0.0.0b0.tar.gz --markdown 20230715/s/scale-llm-engine/0.0.0a1-0.0.0b0/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_ocean_aux_tools-1.0.2.tar.gz tmp/code_ocean_aux_tools-1.0.3.tar.gz --markdown 20230715/C/Code-Ocean-Aux-Tools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-15 19:28:52] INFO root fetch - processPackages [gallery-dl]: executing diffoscope
+[2023-07-15 19:28:52] INFO root fetch - processPackages [gallery-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gallery_dl-1.8.7.tar.gz tmp/gallery_dl-1.9.0.tar.gz --markdown 20230715/g/gallery-dl/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 19:28:53] INFO root fetch - processPackages [muse-maskgit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/muse-maskgit-pytorch-0.2.1.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [muse-maskgit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/muse-maskgit-pytorch-0.2.2.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [muse-maskgit-pytorch]: Start processing: morphoaap
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [muse-maskgit-pytorch]: success
+[2023-07-15 19:28:53] INFO root fetch - processPackages [morphoaap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [morphoaap]: Remove: archive file [/home/abi/fetcher/tmp/morphoaap-0.0.3.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [morphoaap]: Remove: archive file [/home/abi/fetcher/tmp/morphoaap-0.0.4.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [morphoaap]: Start processing: CartiMorph-vxm
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [morphoaap]: success
+[2023-07-15 19:28:53] WARNING root fetch - processPackages [CartiMorph-vxm]: Skipping, unable to determine old version
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [CartiMorph-vxm] error
+[2023-07-15 19:28:53] INFO root fetch - processPackages [morphoaap]: Downloading https://files.pythonhosted.org/packages/92/c1/d54fa05e147574319b31fe007171e01c35e0fa332e3a4c01fdb30082957a/morphoaap-0.0.5.tar.gz
+[2023-07-15 19:28:53] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.4.7.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.5.0.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-07-15 19:28:53] INFO root fetch - processPackages [lycium-rest]: Remove: archive file [/home/abi/fetcher/tmp/lycium-rest-0.0.1.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [lycium-rest]: Remove: archive file [/home/abi/fetcher/tmp/lycium-rest-0.0.2.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [lycium-rest]: success
+[2023-07-15 19:28:53] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.1.0.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.1.1.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-15 19:28:53] INFO root fetch - processPackages [hawthorn]: Remove: archive file [/home/abi/fetcher/tmp/hawthorn-0.0.3.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - processPackages [hawthorn]: Remove: archive file [/home/abi/fetcher/tmp/hawthorn-0.0.4.tar.gz]
+[2023-07-15 19:28:53] INFO root fetch - main [MainThread]: End processing [hawthorn]: success
+[2023-07-15 19:28:54] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0a1.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b0.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-15 19:28:54] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/birdroid.aws-secure-bucket-0.8.1.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/birdroid.aws-secure-bucket-0.8.2.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [birdroid.aws-secure-bucket]: success
+[2023-07-15 19:28:54] INFO root fetch - processPackages [morphoaap]: executing diffoscope
+[2023-07-15 19:28:54] INFO root fetch - processPackages [morphoaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphoaap-0.0.4.tar.gz tmp/morphoaap-0.0.5.tar.gz --markdown 20230715/m/morphoaap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 19:28:54] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: Remove: archive file [/home/abi/fetcher/tmp/code_ocean_aux_tools-1.0.2.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - processPackages [Code-Ocean-Aux-Tools]: Remove: archive file [/home/abi/fetcher/tmp/code_ocean_aux_tools-1.0.3.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [Code-Ocean-Aux-Tools]: success
+[2023-07-15 19:28:54] ERROR root fetch - processPackages [morphoaap]: Diffoscope failed: time="2023-07-15T19:28:54+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/morphoaap-0.0.4.tar.gz: No such file or directory
+
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [morphoaap] error
+[2023-07-15 19:28:54] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.8.7.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.9.0.tar.gz]
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [gallery-dl]: success
+[2023-07-15 19:28:54] INFO root fetch - main [MainThread]: Store serial: [18902109]
