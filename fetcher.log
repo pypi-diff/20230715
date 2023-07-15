@@ -12163,3 +12163,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:26:30] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.3.tar.gz]
 [2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
 [2023-07-15 18:26:30] INFO root fetch - main [MainThread]: Store serial: [18901760]
+[2023-07-15 18:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901760]
+[2023-07-15 18:31:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tg-botting
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prolog-primitives
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rysk-client
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rysk-client
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copydetect
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LIFR
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apicrypto
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FRETpredict
+[2023-07-15 18:31:39] INFO root fetch - processPackages [rysk-client]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [tg-botting]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [rysk-client]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [FRETpredict]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [prolog-primitives]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-15 18:31:39] WARNING root fetch - processPackages [apicrypto]: Skipping, unable to determine old version
+[2023-07-15 18:31:39] INFO root fetch - processPackages [apicrypto]: Start processing: ork.build
+[2023-07-15 18:31:39] INFO root fetch - main [MainThread]: End processing [apicrypto] error
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ork.build]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [copydetect]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-15 18:31:39] WARNING root fetch - processPackages [LIFR]: Skipping, unable to determine old version
+[2023-07-15 18:31:39] INFO root fetch - processPackages [LIFR]: Start processing: wiggler-studiorabota
+[2023-07-15 18:31:39] INFO root fetch - main [MainThread]: End processing [LIFR] error
+[2023-07-15 18:31:39] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ork.build]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-07-15 18:31:39] INFO root fetch - processPackages [FRETpredict]: Downloading https://files.pythonhosted.org/packages/0d/9c/438e91cb2cfac03f1c5a2c62450425578fb2b1fc171a1003cc7b4fb134b5/FRETpredict-0.1.3.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/5b/16/74dd86959ba6ca1a094ff8e1d5fa7e746ab7e9ee03b1edc5ad5f09929364/tg-botting-2.1.5.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/3e/22/1536ccde1552f08bb5d8e59dfaeaeeddfc4a97f88e33446e5a6e0ac0a9db/rysk_client-0.2.4.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0f/f4/06eb9257dd173e5772c78ecc241e710f6c3c73f843662b36dceb31b2a8d1/wiggler_studiorabota-0.0.7.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/3e/22/1536ccde1552f08bb5d8e59dfaeaeeddfc4a97f88e33446e5a6e0ac0a9db/rysk_client-0.2.4.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/20/23/21ee469cc9b393337a525fff95f568288b0a83e63d764c19d314eb01ad21/ork.build-0.0.36.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/20/23/21ee469cc9b393337a525fff95f568288b0a83e63d764c19d314eb01ad21/ork.build-0.0.36.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [copydetect]: Downloading https://files.pythonhosted.org/packages/01/41/f9f77499a9150da2a1ec33aa836b06a3a8b410fe84fd1fe7d2d354bfe715/copydetect-0.4.5.tar.gz
+[2023-07-15 18:31:39] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/59/03/a59f3878048ac56af1395db92a3c2131042b477020ccaf8403973fcc356e/prolog_primitives-1.1.2.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/26/fd/71f567da61b3175985796e8547db2c5c0be0240fc1694825f41034c94ae2/tg-botting-2.1.6.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [FRETpredict]: Downloading https://files.pythonhosted.org/packages/75/e6/7fcd9d460c8d44fe5a40ba63c6bed81a1785e71294cd466c0ee62fdb3ec9/FRETpredict-0.1.4.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/c9/e3/d874fda02f217cd960bb2353fa8b486523ab57e2859b23920e22336ce3e7/prolog_primitives-1.2.0.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.7.tar.gz tmp/wiggler_studiorabota-0.0.8.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/9a/6d/ea23d6fec355b51fd915a3447dc1bbcda62c1919faf7762a8d2bde4b411c/ork.build-0.0.37.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/73/11/76e9b366019d7c5410af1ea9169a3311e6d040be55203f64d346cae1a431/rysk_client-0.2.5.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/73/11/76e9b366019d7c5410af1ea9169a3311e6d040be55203f64d346cae1a431/rysk_client-0.2.5.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [copydetect]: Downloading https://files.pythonhosted.org/packages/c1/d8/672292cf74ee0306aed5eae545a1f82210ac1f480aaaf9cb742b8f67a2c0/copydetect-0.4.6.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.1.5.tar.gz tmp/tg-botting-2.1.6.tar.gz --markdown 20230715/t/tg-botting/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [FRETpredict]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [FRETpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FRETpredict-0.1.3.tar.gz tmp/FRETpredict-0.1.4.tar.gz --markdown 20230715/F/FRETpredict/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230715/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/9a/6d/ea23d6fec355b51fd915a3447dc1bbcda62c1919faf7762a8d2bde4b411c/ork.build-0.0.37.tar.gz
+[2023-07-15 18:31:40] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-1.1.2.tar.gz tmp/prolog_primitives-1.2.0.tar.gz --markdown 20230715/p/prolog-primitives/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.4.tar.gz tmp/rysk_client-0.2.5.tar.gz --markdown 20230715/r/rysk-client/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.36.tar.gz tmp/ork.build-0.0.37.tar.gz --markdown 20230715/o/ork.build/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.4.tar.gz tmp/rysk_client-0.2.5.tar.gz --markdown 20230715/r/rysk-client/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [copydetect]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [copydetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copydetect-0.4.5.tar.gz tmp/copydetect-0.4.6.tar.gz --markdown 20230715/c/copydetect/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:31:40] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.36.tar.gz tmp/ork.build-0.0.37.tar.gz --markdown 20230715/o/ork.build/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-07-15 18:31:41] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.7.tar.gz]
+[2023-07-15 18:31:41] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 18:31:41] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.5.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.6.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [FRETpredict]: Remove: archive file [/home/abi/fetcher/tmp/FRETpredict-0.1.3.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [FRETpredict]: Remove: archive file [/home/abi/fetcher/tmp/FRETpredict-0.1.4.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [FRETpredict]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.1.2.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-1.2.0.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [copydetect]: Remove: archive file [/home/abi/fetcher/tmp/copydetect-0.4.5.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [copydetect]: Remove: archive file [/home/abi/fetcher/tmp/copydetect-0.4.6.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [copydetect]: success
+[2023-07-15 18:31:42] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.4.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.5.tar.gz]
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-07-15 18:31:42] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-07-15 18:31:43] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.36.tar.gz]
+[2023-07-15 18:31:43] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.37.tar.gz]
+[2023-07-15 18:31:43] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:31:43] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:31:43] INFO root fetch - main [MainThread]: Store serial: [18901815]
