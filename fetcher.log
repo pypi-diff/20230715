@@ -11515,3 +11515,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:21:05] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.7.tar.gz]
 [2023-07-15 17:21:05] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-07-15 17:21:05] INFO root fetch - main [MainThread]: Store serial: [18901448]
+[2023-07-15 17:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901448]
+[2023-07-15 17:26:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 17:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: longalpha-utils
+[2023-07-15 17:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faradaysec
+[2023-07-15 17:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMCTranslate
+[2023-07-15 17:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cwepr
+[2023-07-15 17:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reprim
+[2023-07-15 17:26:15] INFO root fetch - processPackages [PyMCTranslate]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-15 17:26:15] INFO root fetch - processPackages [faradaysec]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-07-15 17:26:15] INFO root fetch - processPackages [cwepr]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-15 17:26:15] INFO root fetch - processPackages [reprim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 17:26:15] INFO root fetch - processPackages [longalpha-utils]: New version: [0.62] Old Version: [0.61]
+[2023-07-15 17:26:15] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/56/7c/85e488d46aa3f74b165ae6b0e56d64292091f15bf494be24f65f7a112f48/reprim-0.0.7.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [cwepr]: Downloading https://files.pythonhosted.org/packages/d7/41/82cc7729b7eb28f6631a3824ff310d0610e5aabf601a3bb29880a1c88d07/cwepr-0.3.0.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [PyMCTranslate]: Downloading https://files.pythonhosted.org/packages/7d/40/6543e537185d054bd09f98ebe547d3b2c315951f80440dfdeb591366e597/PyMCTranslate-1.2.8.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [faradaysec]: Downloading https://files.pythonhosted.org/packages/45/9d/aa763c86f292802d7e6382344457b7360687db1584aa36507bf13d40acf3/faradaysec-4.5.0.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/db/d5/5135fb52d1844115f42c6d1656d34a696247c4fa6e2081b29f808d262fd7/longalpha_utils-0.61.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/4a/68/455ce9d5e100d1519ce65d17318933b8ef761aa9b261c455bba3127e48be/reprim-0.0.8.tar.gz
+[2023-07-15 17:26:15] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-15 17:26:15] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.0.7.tar.gz tmp/reprim-0.0.8.tar.gz --markdown 20230715/r/reprim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 17:26:16] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/37/ed/91c8e0cdcb24f8e323e810763e0a5530fe14452954fad6152ef36622c728/longalpha_utils-0.62.tar.gz
+[2023-07-15 17:26:16] INFO root fetch - processPackages [faradaysec]: Downloading https://files.pythonhosted.org/packages/26/e7/82c338b19c29efdaba1eb3954a92146f9b8db7ee88cb337f2d152d1c5bec/faradaysec-4.5.1.tar.gz
+[2023-07-15 17:26:16] INFO root fetch - processPackages [cwepr]: Downloading https://files.pythonhosted.org/packages/7a/67/c091b50fd65dc415badcf6ebc01f1e387fe2e33dff80c94a286ee93ae568/cwepr-0.4.0.tar.gz
+[2023-07-15 17:26:16] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-07-15 17:26:16] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.61.tar.gz tmp/longalpha_utils-0.62.tar.gz --markdown 20230715/l/longalpha-utils/0.61-0.62/diff.md --exclude *.pyd
+[2023-07-15 17:26:16] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.7.tar.gz]
+[2023-07-15 17:26:16] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.8.tar.gz]
+[2023-07-15 17:26:16] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-15 17:26:16] INFO root fetch - processPackages [PyMCTranslate]: Downloading https://files.pythonhosted.org/packages/f4/c4/6588459ff7f5052b11c7be4b0e56195f0ad0a3b908f078ada0f859ef6b31/PyMCTranslate-1.2.9.tar.gz
+[2023-07-15 17:26:17] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.61.tar.gz]
+[2023-07-15 17:26:17] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.62.tar.gz]
+[2023-07-15 17:26:17] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-07-15 17:26:17] INFO root fetch - processPackages [cwepr]: executing diffoscope
+[2023-07-15 17:26:17] INFO root fetch - processPackages [cwepr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwepr-0.3.0.tar.gz tmp/cwepr-0.4.0.tar.gz --markdown 20230715/c/cwepr/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-15 17:26:17] INFO root fetch - processPackages [faradaysec]: executing diffoscope
+[2023-07-15 17:26:17] INFO root fetch - processPackages [faradaysec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faradaysec-4.5.0.tar.gz tmp/faradaysec-4.5.1.tar.gz --markdown 20230715/f/faradaysec/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-07-15 17:26:19] INFO root fetch - processPackages [PyMCTranslate]: executing diffoscope
+[2023-07-15 17:26:19] INFO root fetch - processPackages [PyMCTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMCTranslate-1.2.8.tar.gz tmp/PyMCTranslate-1.2.9.tar.gz --markdown 20230715/P/PyMCTranslate/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-15 17:26:19] INFO root fetch - processPackages [cwepr]: Remove: archive file [/home/abi/fetcher/tmp/cwepr-0.3.0.tar.gz]
+[2023-07-15 17:26:19] INFO root fetch - processPackages [cwepr]: Remove: archive file [/home/abi/fetcher/tmp/cwepr-0.4.0.tar.gz]
+[2023-07-15 17:26:19] INFO root fetch - main [MainThread]: End processing [cwepr]: success
+[2023-07-15 17:26:21] INFO root fetch - processPackages [faradaysec]: Remove: archive file [/home/abi/fetcher/tmp/faradaysec-4.5.0.tar.gz]
+[2023-07-15 17:26:21] INFO root fetch - processPackages [faradaysec]: Remove: archive file [/home/abi/fetcher/tmp/faradaysec-4.5.1.tar.gz]
+[2023-07-15 17:26:21] INFO root fetch - main [MainThread]: End processing [faradaysec]: success
+[2023-07-15 17:29:19] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
+[2023-07-15 17:29:19] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
+[2023-07-15 17:29:19] INFO root fetch - main [MainThread]: Store serial: [18901463]
