@@ -8497,3 +8497,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:52:37] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.4.tar.gz]
 [2023-07-15 12:52:37] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
 [2023-07-15 12:52:37] INFO root fetch - main [MainThread]: Store serial: [18899857]
+[2023-07-15 12:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899857]
+[2023-07-15 12:57:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 12:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jayshreeram
+[2023-07-15 12:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cicinlang
+[2023-07-15 12:57:46] INFO root fetch - processPackages [jayshreeram]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 12:57:46] INFO root fetch - processPackages [cicinlang]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 12:57:46] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/b7/60/e05722cd0d408b500ecec098496646dd7f0955bfdc7ad2ec85cea8b28b7b/jayshreeram-0.0.7-py3-none-any.whl
+[2023-07-15 12:57:46] INFO root fetch - processPackages [cicinlang]: Downloading https://files.pythonhosted.org/packages/49/83/433b7d1e4d51aac18e3a40c2706979657ae90962614344d70992cf51e4e3/cicinlang-0.1.1.tar.gz
+[2023-07-15 12:57:46] INFO root fetch - processPackages [cicinlang]: Downloading https://files.pythonhosted.org/packages/58/1b/067b2d9770d33812b84773ba07d76e7a934e22dfeba498fb6477a4643b02/cicinlang-0.1.2.tar.gz
+[2023-07-15 12:57:46] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/30/13/8e0c0904f54cfac1aafbe4d1c9e6d8d95591ef0e8920378dba9b5df12091/jayshreeram-0.0.8-py3-none-any.whl
+[2023-07-15 12:57:46] INFO root fetch - processPackages [cicinlang]: executing diffoscope
+[2023-07-15 12:57:46] INFO root fetch - processPackages [cicinlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicinlang-0.1.1.tar.gz tmp/cicinlang-0.1.2.tar.gz --markdown 20230715/c/cicinlang/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 12:57:46] INFO root fetch - processPackages [jayshreeram]: executing diffoscope
+[2023-07-15 12:57:46] INFO root fetch - processPackages [jayshreeram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jayshreeram-0.0.7-py3-none-any.whl.zip tmp/jayshreeram-0.0.8-py3-none-any.whl.zip --markdown 20230715/j/jayshreeram/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 12:57:47] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.7-py3-none-any.whl.zip]
+[2023-07-15 12:57:47] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.8-py3-none-any.whl.zip]
+[2023-07-15 12:57:47] INFO root fetch - main [MainThread]: End processing [jayshreeram]: success
+[2023-07-15 12:57:47] INFO root fetch - processPackages [cicinlang]: Remove: archive file [/home/abi/fetcher/tmp/cicinlang-0.1.1.tar.gz]
+[2023-07-15 12:57:47] INFO root fetch - processPackages [cicinlang]: Remove: archive file [/home/abi/fetcher/tmp/cicinlang-0.1.2.tar.gz]
+[2023-07-15 12:57:47] INFO root fetch - main [MainThread]: End processing [cicinlang]: success
+[2023-07-15 12:57:47] INFO root fetch - main [MainThread]: Store serial: [18899863]
