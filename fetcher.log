@@ -3428,3 +3428,18 @@
 [2023-07-15 04:29:44] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-07-15 04:29:44] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-07-15 04:29:44] INFO root fetch - main [MainThread]: Store serial: [18897345]
+[2023-07-15 04:34:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897345]
+[2023-07-15 04:34:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 04:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumiress
+[2023-07-15 04:34:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-conda-build
+[2023-07-15 04:34:54] WARNING root fetch - processPackages [lumiress]: Skipping, unable to determine old version
+[2023-07-15 04:34:54] INFO root fetch - main [MainThread]: End processing [lumiress] error
+[2023-07-15 04:34:54] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 04:34:54] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/02/dd/183cccad656f7147eebc1f0a6c7d0f222558c83d6cee52d98711b68b2b1e/hatch_conda_build-0.0.2.tar.gz
+[2023-07-15 04:34:54] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/b2/d8/a2535aee5461b3d434c691e90724e93062249fcbf83db1fa3900cfb0f92f/hatch_conda_build-0.0.3.tar.gz
+[2023-07-15 04:34:55] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 04:34:55] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.2.tar.gz tmp/hatch_conda_build-0.0.3.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 04:34:55] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.2.tar.gz]
+[2023-07-15 04:34:55] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.3.tar.gz]
+[2023-07-15 04:34:55] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 04:34:55] INFO root fetch - main [MainThread]: Store serial: [18897358]
