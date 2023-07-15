@@ -6658,3 +6658,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:39:43] INFO root fetch - processPackages [foliolib]: Remove: archive file [/home/abi/fetcher/tmp/foliolib-0.3.9a1.tar.gz]
 [2023-07-15 09:39:43] INFO root fetch - main [MainThread]: End processing [foliolib]: success
 [2023-07-15 09:39:43] INFO root fetch - main [MainThread]: Store serial: [18898938]
+[2023-07-15 09:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898938]
+[2023-07-15 09:44:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunhu
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxlib
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arctix
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxlib
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lea-pi
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysoem
+[2023-07-15 09:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bzip3
+[2023-07-15 09:44:52] INFO root fetch - processPackages [lea-pi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [yunhu]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [arctix]: New version: [0.0.0a19] Old Version: [0.0.0a14]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [pysoem]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [dxlib]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [dxlib]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [bzip3]: New version: [0.1.3rc2] Old Version: [0.1.3rc1]
+[2023-07-15 09:44:52] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/05/54/d58d42390a54bccf50ff8e1c5d9960b52d54240db2b2f9496b1671e0f8cd/lea_pi-0.1.1.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/fb/1c/bf78c4a6eb0be3bd9a7d675f76bd93b3afb6ab69f4fb7e13b6d4ff1446e2/yunhu-0.0.5.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/04/60/cb8a027bf7cec06f9afb8be2758ddfe6955dea6bdc0295278a922a363220/dxlib-0.1.3.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/04/60/cb8a027bf7cec06f9afb8be2758ddfe6955dea6bdc0295278a922a363220/dxlib-0.1.3.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/69/eb/818027eff77b484f02059dc412d38be89b230ea1e392a62c9df5560d1c97/arctix-0.0.0a14.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [pysoem]: Downloading https://files.pythonhosted.org/packages/b8/4a/af6fd568b502dc2c6d57027177ca5efb86d512084267e967f3eeaf79d2ae/pysoem-1.1.2.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [bzip3]: Downloading https://files.pythonhosted.org/packages/d7/c1/5362052b028c4a6310877eaec907018751ab7263509f8bb6d0e31b326ee3/bzip3-0.1.3rc1.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/da/44/a9706eb70a42e4004485e3fd0f72cd3a81857c199f898ad8c4f1f10f3a7c/lea_pi-0.1.2.tar.gz
+[2023-07-15 09:44:52] INFO root fetch - processPackages [lea-pi]: executing diffoscope
+[2023-07-15 09:44:52] INFO root fetch - processPackages [lea-pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lea_pi-0.1.1.tar.gz tmp/lea_pi-0.1.2.tar.gz --markdown 20230715/l/lea-pi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 09:44:52] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/db/b2/c12a899a9c55a2a87d99359d63ea15d2c8903e805cbd5a06f54f7884a127/yunhu-0.0.6.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/28/ae/c3f8fdb8a06bc6fd339f1bb8825a08e7e7a23653847c798c6a612e7f092a/arctix-0.0.0a19.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/d2/66/458caec59b19cf78a206db402d3c50f8c55aedc01c442d5b0d8dbbc96b7e/dxlib-0.2.0.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/d2/66/458caec59b19cf78a206db402d3c50f8c55aedc01c442d5b0d8dbbc96b7e/dxlib-0.2.0.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.5.tar.gz tmp/yunhu-0.0.6.tar.gz --markdown 20230715/y/yunhu/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.1.3.tar.gz tmp/dxlib-0.2.0.tar.gz --markdown 20230715/d/dxlib/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.1.3.tar.gz tmp/dxlib-0.2.0.tar.gz --markdown 20230715/d/dxlib/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.0a14.tar.gz tmp/arctix-0.0.0a19.tar.gz --markdown 20230715/a/arctix/0.0.0a14-0.0.0a19/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [bzip3]: Downloading https://files.pythonhosted.org/packages/bd/12/8b93c6b39c848fe611c846d11ae662e43a2f78cdd2480a2272b7f68a8b04/bzip3-0.1.3rc2.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [pysoem]: Downloading https://files.pythonhosted.org/packages/de/73/fb9f789a9589c690bb8d8aa2c1155f0e46eb031db65f1bf1ee138b0580b6/pysoem-1.1.3.tar.gz
+[2023-07-15 09:44:53] INFO root fetch - processPackages [pysoem]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [pysoem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysoem-1.1.2.tar.gz tmp/pysoem-1.1.3.tar.gz --markdown 20230715/p/pysoem/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [bzip3]: executing diffoscope
+[2023-07-15 09:44:53] INFO root fetch - processPackages [bzip3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bzip3-0.1.3rc1.tar.gz tmp/bzip3-0.1.3rc2.tar.gz --markdown 20230715/b/bzip3/0.1.3rc1-0.1.3rc2/diff.md --exclude *.pyd
+[2023-07-15 09:44:53] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.1.tar.gz]
+[2023-07-15 09:44:53] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.2.tar.gz]
+[2023-07-15 09:44:53] INFO root fetch - main [MainThread]: End processing [lea-pi]: success
+[2023-07-15 09:44:54] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.5.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.6.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-07-15 09:44:54] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.1.3.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.0.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-15 09:44:54] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-15 09:44:54] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a14.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a19.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2023-07-15 09:44:54] INFO root fetch - processPackages [bzip3]: Remove: archive file [/home/abi/fetcher/tmp/bzip3-0.1.3rc1.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - processPackages [bzip3]: Remove: archive file [/home/abi/fetcher/tmp/bzip3-0.1.3rc2.tar.gz]
+[2023-07-15 09:44:54] INFO root fetch - main [MainThread]: End processing [bzip3]: success
+[2023-07-15 09:44:55] INFO root fetch - processPackages [pysoem]: Remove: archive file [/home/abi/fetcher/tmp/pysoem-1.1.2.tar.gz]
+[2023-07-15 09:44:55] INFO root fetch - processPackages [pysoem]: Remove: archive file [/home/abi/fetcher/tmp/pysoem-1.1.3.tar.gz]
+[2023-07-15 09:44:55] INFO root fetch - main [MainThread]: End processing [pysoem]: success
+[2023-07-15 09:44:55] INFO root fetch - main [MainThread]: Store serial: [18898997]
