@@ -3310,3 +3310,24 @@
 [2023-07-15 03:58:14] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230715.dev0-py3-none-any.whl.zip]
 [2023-07-15 03:58:14] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
 [2023-07-15 03:58:14] INFO root fetch - main [MainThread]: Store serial: [18897280]
+[2023-07-15 04:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897280]
+[2023-07-15 04:03:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 04:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-07-15 04:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web-2-album
+[2023-07-15 04:03:23] INFO root fetch - processPackages [web-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 04:03:23] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 04:03:23] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-15 04:03:23] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/e2/56/6ad41e27a2b4cb22151449f4c371edca14b0ded11c1a30023e8768e5bb51/web_2_album-0.0.8.tar.gz
+[2023-07-15 04:03:23] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-15 04:03:23] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-15 04:03:23] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230715/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 04:03:23] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/3c/b4/db33274effe3dedf1f115b7cc172b70792edc416c89b0a0bc5c1ee85078f/web_2_album-0.0.9.tar.gz
+[2023-07-15 04:03:23] INFO root fetch - processPackages [web-2-album]: executing diffoscope
+[2023-07-15 04:03:23] INFO root fetch - processPackages [web-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_2_album-0.0.8.tar.gz tmp/web_2_album-0.0.9.tar.gz --markdown 20230715/w/web-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 04:03:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-15 04:03:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-15 04:03:24] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-15 04:03:24] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.8.tar.gz]
+[2023-07-15 04:03:24] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.9.tar.gz]
+[2023-07-15 04:03:24] INFO root fetch - main [MainThread]: End processing [web-2-album]: success
+[2023-07-15 04:03:24] INFO root fetch - main [MainThread]: Store serial: [18897291]
