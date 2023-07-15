@@ -7535,3 +7535,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:13:21] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.32.tar.gz]
 [2023-07-15 11:13:21] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 11:13:21] INFO root fetch - main [MainThread]: Store serial: [18899427]
+[2023-07-15 11:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899427]
+[2023-07-15 11:18:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-15 11:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inventree-brother-plugin
+[2023-07-15 11:18:30] INFO root fetch - processPackages [inventree-brother-plugin]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-15 11:18:30] INFO root fetch - processPackages [inventree-brother-plugin]: Downloading https://files.pythonhosted.org/packages/62/e0/be5017469a37255f2ebf2b064f89eacdffa1d4cb5aa8b48904423b35c26a/inventree-brother-plugin-0.6.1.tar.gz
+[2023-07-15 11:18:30] INFO root fetch - processPackages [inventree-brother-plugin]: Downloading https://files.pythonhosted.org/packages/6f/e9/52f74b33544128bbd5dda2647b18ed6223813d4c6b74ea15f0e6970bbcaf/inventree-brother-plugin-0.7.0.tar.gz
+[2023-07-15 11:18:31] INFO root fetch - processPackages [inventree-brother-plugin]: executing diffoscope
+[2023-07-15 11:18:31] INFO root fetch - processPackages [inventree-brother-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-brother-plugin-0.6.1.tar.gz tmp/inventree-brother-plugin-0.7.0.tar.gz --markdown 20230715/i/inventree-brother-plugin/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-15 11:18:31] INFO root fetch - processPackages [inventree-brother-plugin]: Remove: archive file [/home/abi/fetcher/tmp/inventree-brother-plugin-0.6.1.tar.gz]
+[2023-07-15 11:18:31] INFO root fetch - processPackages [inventree-brother-plugin]: Remove: archive file [/home/abi/fetcher/tmp/inventree-brother-plugin-0.7.0.tar.gz]
+[2023-07-15 11:18:31] INFO root fetch - main [MainThread]: End processing [inventree-brother-plugin]: success
+[2023-07-15 11:18:31] INFO root fetch - main [MainThread]: Store serial: [18899439]
