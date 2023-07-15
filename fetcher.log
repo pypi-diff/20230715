@@ -4411,3 +4411,54 @@
 [2023-07-15 05:59:03] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.4.8.tar.gz]
 [2023-07-15 05:59:03] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
 [2023-07-15 05:59:03] INFO root fetch - main [MainThread]: Store serial: [18897823]
+[2023-07-15 06:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897823]
+[2023-07-15 06:04:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SQLite4
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqttapi
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cyberdrop-dl
+[2023-07-15 06:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-l10n-spain
+[2023-07-15 06:04:12] INFO root fetch - processPackages [mqttapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230707.0] Old Version: [16.0.20230628.0]
+[2023-07-15 06:04:12] WARNING root fetch - processPackages [SQLite4]: Skipping, unable to determine old version
+[2023-07-15 06:04:12] INFO root fetch - main [MainThread]: End processing [SQLite4] error
+[2023-07-15 06:04:12] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-07-15 06:04:12] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230714] Old Version: [1.0.3.dev20230713]
+[2023-07-15 06:04:12] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a1/60/f2ed749072ece8f90164873fec8fa42156287cb59c19b80377d18d6c84e2/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl
+[2023-07-15 06:04:12] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/91/86/5120f0c5938f6eac6616686782fda927d780e45f16a0eb6bb7ded02f1737/mqttapi-0.1.0.tar.gz
+[2023-07-15 06:04:12] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/b8/6c/57eab36d8890f2007b9c50caf45f3a24855206cdbc320dd700063e6ca71c/evals-nightly-1.0.3.dev20230713.tar.gz
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-15 06:04:12] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230715/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-07-15 06:04:12] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/a9/c9/0bf70992f68425f3726ad40222a425ef102bb63f1073cde43d10932e58a3/mqttapi-0.1.1.tar.gz
+[2023-07-15 06:04:12] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/44/9e/335921ad8ccf6552dd97ebc8aab4a372e3bb3e6b53edda82e91cb09d26a2/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl
+[2023-07-15 06:04:12] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-15 06:04:12] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230715/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-15 06:04:12] INFO root fetch - processPackages [mqttapi]: executing diffoscope
+[2023-07-15 06:04:12] INFO root fetch - processPackages [mqttapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttapi-0.1.0.tar.gz tmp/mqttapi-0.1.1.tar.gz --markdown 20230715/m/mqttapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 06:04:13] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-15 06:04:13] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip --markdown 20230715/o/odoo-addons-oca-l10n-spain/16.0.20230628.0-16.0.20230707.0/diff.md --exclude *.pyd
+[2023-07-15 06:04:13] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/3c/41/2d8f3397b066de7a7b3c25f3b20c162e89286dad104a5599912df1d825bb/evals-nightly-1.0.3.dev20230714.tar.gz
+[2023-07-15 06:04:13] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-15 06:04:13] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230713.tar.gz tmp/evals-nightly-1.0.3.dev20230714.tar.gz --markdown 20230715/e/evals-nightly/1.0.3.dev20230713-1.0.3.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 06:04:13] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.0.tar.gz]
+[2023-07-15 06:04:13] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.1.tar.gz]
+[2023-07-15 06:04:13] INFO root fetch - main [MainThread]: End processing [mqttapi]: success
+[2023-07-15 06:04:14] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-15 06:04:14] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-15 06:04:14] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-15 06:04:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-07-15 06:04:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230707.0-py3-none-any.whl.zip]
+[2023-07-15 06:04:14] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-07-15 06:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-15 06:04:14] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-15 06:04:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-15 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230713.tar.gz]
+[2023-07-15 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230714.tar.gz]
+[2023-07-15 06:04:15] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-15 06:04:15] INFO root fetch - main [MainThread]: Store serial: [18897842]
