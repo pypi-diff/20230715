@@ -9698,3 +9698,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:04:01] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.2.tar.gz]
 [2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
 [2023-07-15 15:04:01] INFO root fetch - main [MainThread]: Store serial: [18900504]
+[2023-07-15 15:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900504]
+[2023-07-15 15:09:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-search
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rechtspraak-citations-extractor
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyBio
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easybio
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SQLAlchemy
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dl-hf-model
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miauw-base-service
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-07-15 15:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkit
+[2023-07-15 15:09:10] INFO root fetch - processPackages [easybio]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [python-search]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [rechtspraak-citations-extractor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [dl-hf-model]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [miauw-base-service]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [easyBio]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [SQLAlchemy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.15] Old Version: [2023.7.14]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:09:10] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/a4/47/c0dd971444af6bc6573728bd093f2a2ab20b123bcf9567da4361da8f3c65/miauw-base-service-1.0.0.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [easyBio]: Downloading https://files.pythonhosted.org/packages/45/a3/99bc3bca01edc4a87d412fabf334e6bdb62f8fc2f67167257a21c608439b/easyBio-0.4.2.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/45/a3/99bc3bca01edc4a87d412fabf334e6bdb62f8fc2f67167257a21c608439b/easyBio-0.4.2.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Downloading https://files.pythonhosted.org/packages/1d/04/2bd13c195bc97b17d919d809a770e911edd161e5296b2cb36ef52da7c4a3/rechtspraak_citations_extractor-1.0.8.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fb/f3/7cb5d761098dcf87f1500cf7484a987709f8b4094f9ba787acf0882d5350/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 15:09:10] INFO root fetch - processPackages [dl-hf-model]: Downloading https://files.pythonhosted.org/packages/9b/d0/dc56f85d1ffdbedfddc5b50dc3318e967d2d86c3a0be63ebdcc3f82fbc6c/dl-hf-model-0.1.0a0.tar.gz
+[2023-07-15 15:09:10] INFO root fetch - processPackages [python-search]: Downloading https://files.pythonhosted.org/packages/db/4b/b4287e91d0259a2fc3e1748db1767aefef5986584287c828e612a3cf4041/python_search-0.9.8.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/0f/73/b76a2c8dbe035791e54da29cefaa22c166f875b24da844dc0f16b66e47bb/SQLAlchemy-2.0.8.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/bf/df/eff323d39278bc653dc33abffa21a37270a33e5f26bdbc03a19e69c17e0f/miauw-base-service-1.0.1.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easybio]: Downloading https://files.pythonhosted.org/packages/8a/08/0440cc38efa0a24b5c5405dae458582931def178e74abd67a6d61f249bbd/easybio-0.4.3.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Downloading https://files.pythonhosted.org/packages/58/c3/aead21ff8233959adf408b8f293a3dccdf17fc097c2ea5965b268fa7a08f/rechtspraak_citations_extractor-1.0.9.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easyBio]: Downloading https://files.pythonhosted.org/packages/8a/08/0440cc38efa0a24b5c5405dae458582931def178e74abd67a6d61f249bbd/easybio-0.4.3.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230715/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [python-search]: Downloading https://files.pythonhosted.org/packages/fa/fd/c4e39b116bed9289129bb33d93116ff452c1fe46ea696b4caa2d8ddb73a5/python_search-0.9.9.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [dl-hf-model]: Downloading https://files.pythonhosted.org/packages/80/21/c14857e1fcfa5aa991e4abdaee85fead996021b8443a8f2da0939e779a03/dl-hf-model-0.1.0a1.tar.gz
+[2023-07-15 15:09:11] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.0.0.tar.gz tmp/miauw-base-service-1.0.1.tar.gz --markdown 20230715/m/miauw-base-service/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easybio]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easybio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyBio-0.4.2.tar.gz tmp/easybio-0.4.3.tar.gz --markdown 20230715/e/easybio/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easyBio]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [easyBio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyBio-0.4.2.tar.gz tmp/easybio-0.4.3.tar.gz --markdown 20230715/e/easyBio/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/07/e2/cfd9fbd72783e68efca37d1b28181287f8f1b4ddc0abbdd891e7087382c6/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 15:09:11] INFO root fetch - processPackages [python-search]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [python-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_search-0.9.8.tar.gz tmp/python_search-0.9.9.tar.gz --markdown 20230715/p/python-search/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [rechtspraak-citations-extractor]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [rechtspraak-citations-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_citations_extractor-1.0.8.tar.gz tmp/rechtspraak_citations_extractor-1.0.9.tar.gz --markdown 20230715/r/rechtspraak-citations-extractor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:09:11] INFO root fetch - processPackages [dl-hf-model]: executing diffoscope
+[2023-07-15 15:09:11] INFO root fetch - processPackages [dl-hf-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl-hf-model-0.1.0a0.tar.gz tmp/dl-hf-model-0.1.0a1.tar.gz --markdown 20230715/d/dl-hf-model/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-07-15 15:09:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-15 15:09:12] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230715/f/fbgemm-gpu-nightly-cpu/2023.7.14-2023.7.15/diff.md --exclude *.pyd
+[2023-07-15 15:09:12] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.0.0.tar.gz]
+[2023-07-15 15:09:12] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.0.1.tar.gz]
+[2023-07-15 15:09:12] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-15 15:09:12] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-15 15:09:12] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-15 15:09:12] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-15 15:09:13] INFO root fetch - processPackages [easyBio]: Remove: archive file [/home/abi/fetcher/tmp/easyBio-0.4.2.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [easyBio]: Remove: archive file [/home/abi/fetcher/tmp/easybio-0.4.3.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [easyBio]: success
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [easybio]: success
+[2023-07-15 15:09:13] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [dl-hf-model]: Remove: archive file [/home/abi/fetcher/tmp/dl-hf-model-0.1.0a0.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [dl-hf-model]: Remove: archive file [/home/abi/fetcher/tmp/dl-hf-model-0.1.0a1.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [dl-hf-model]: success
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 15:09:13] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_citations_extractor-1.0.8.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_citations_extractor-1.0.9.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [rechtspraak-citations-extractor]: success
+[2023-07-15 15:09:13] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/74/2c/2316a7a0d8b03e34741b3763604d180423f79730010dd7ed61d0f2854d8d/SQLAlchemy-2.0.9.tar.gz
+[2023-07-15 15:09:13] INFO root fetch - processPackages [python-search]: Remove: archive file [/home/abi/fetcher/tmp/python_search-0.9.8.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - processPackages [python-search]: Remove: archive file [/home/abi/fetcher/tmp/python_search-0.9.9.tar.gz]
+[2023-07-15 15:09:13] INFO root fetch - main [MainThread]: End processing [python-search]: success
+[2023-07-15 15:09:15] INFO root fetch - processPackages [SQLAlchemy]: executing diffoscope
+[2023-07-15 15:09:15] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230715/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:09:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-15 15:09:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-15 15:09:39] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-15 15:09:46] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.8.tar.gz]
+[2023-07-15 15:09:46] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.9.tar.gz]
+[2023-07-15 15:09:46] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
+[2023-07-15 15:09:46] INFO root fetch - main [MainThread]: Store serial: [18900538]
