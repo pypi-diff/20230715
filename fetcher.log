@@ -8993,3 +8993,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:49:48] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.6.tar.gz]
 [2023-07-15 13:49:48] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-07-15 13:49:48] INFO root fetch - main [MainThread]: Store serial: [18900075]
+[2023-07-15 13:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900075]
+[2023-07-15 13:54:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graia-broadcast
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bovine-process
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seunggabi-core-python
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: element-sdk
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bovine-tool
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microcat
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bovine-pubsub
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythorhead
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lfinancial
+[2023-07-15 13:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bovine-herd
+[2023-07-15 13:54:57] INFO root fetch - processPackages [bovine-herd]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [microcat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [bovine-process]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [element-sdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [lfinancial]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [pythorhead]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [bovine-pubsub]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-15 13:54:57] INFO root fetch - processPackages [bovine-tool]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 13:54:58] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/18/2f/456369ccd9932827e14aa73c1cbffffaaf70eb3335d94a0fa077fe1df8bb/element_sdk-0.2.7-py3.9.egg
+[2023-07-15 13:54:58] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/49/15/aea378d4d4e85b3e6c2c1042b5c1f51f9328340bbc85c946e808e6c5fd1b/pythorhead-0.9.2.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-herd]: Downloading https://files.pythonhosted.org/packages/9e/60/3fb3c0b2130ffc27c21b29f5f235bcd560b220fce04b7b4a354a4dfdb5e8/bovine_herd-0.2.6.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/1e/bd/70e10e2aa64636d6d5b75e3e7d4321311dc3177456c1797eacc6dd2121ae/microcat-0.2.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-process]: Downloading https://files.pythonhosted.org/packages/7b/5d/33e8f7f69e1d032e9bbf20d257c0ffe1aa6f8f2ff2d7eb3a943a6d28350a/bovine_process-0.2.6.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-tool]: Downloading https://files.pythonhosted.org/packages/51/be/86b3315a804c9ff43c50299707bde4ffdf682541216e78aa0b007e590865/bovine_tool-0.2.6.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/58/bd/e84b7f9f738815583670f114ea03606d95a303924b7dab90c22f6c7bde21/lfinancial-0.2.9.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-pubsub]: Downloading https://files.pythonhosted.org/packages/ca/0d/87c63280daa143a82b9d77930d4dbdecc9d606c0054b28b6704bc6338de4/bovine_pubsub-0.2.6.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/1a/e9/77fd793d95455d669e6454fe42eb12b3eccd18f81210b04649d4ccc71a0f/element_sdk-0.2.8-py3.9.egg
+[2023-07-15 13:54:58] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/88/df/6de121f176000c375aa2ca25c6b2d525af420c09a38131ffe98aeab2fc63/seunggabi_core_python-0.9.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-process]: Downloading https://files.pythonhosted.org/packages/89/eb/7d50a5036074c9d6f01d1285d715e200d36fde796b0375dad61c766e0a31/bovine_process-0.3.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [element-sdk]: executing diffoscope
+[2023-07-15 13:54:58] INFO root fetch - processPackages [element-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element_sdk-0.2.7-py3.9.egg tmp/element_sdk-0.2.8-py3.9.egg --markdown 20230715/e/element-sdk/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-herd]: Downloading https://files.pythonhosted.org/packages/27/c6/34614353787348c1f91fe5e717de2e796936dca4b91ce26fa4773fa8faea/bovine_herd-0.3.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/90/f7/486f60cdf19c92a94688f50aca530e51d8db9bfcd9c97dc9d8019f37bdab/microcat-0.2.1.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/e0/84/f74e5e0fe250106473f8f45cdc35a6eb4b22bdbd764ce421e0ecf0c3358b/lfinancial-0.3.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c1/fa/85c3735e3c50c153ffc2c378a1fddb2f33d95bc334d4a415d7db6589fd8a/pythorhead-0.9.3.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-tool]: Downloading https://files.pythonhosted.org/packages/79/3d/c3f27cbb3de88e63a65f861597b74f0ba616e5c720d0362ed41a1ca08418/bovine_tool-0.3.0.tar.gz
+[2023-07-15 13:54:58] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-15 13:54:58] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.8.0.tar.gz tmp/seunggabi_core_python-0.9.0.tar.gz --markdown 20230715/s/seunggabi-core-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:58] INFO root fetch - processPackages [bovine-pubsub]: Downloading https://files.pythonhosted.org/packages/15/b8/1f55f46e7e4ebbb55c07ed39e7b5e3cdbaccdef51189af7f6dfd4cb253b7/bovine_pubsub-0.3.0.tar.gz
+[2023-07-15 13:54:59] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-process]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine_process-0.2.6.tar.gz tmp/bovine_process-0.3.0.tar.gz --markdown 20230715/b/bovine-process/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-herd]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-herd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine_herd-0.2.6.tar.gz tmp/bovine_herd-0.3.0.tar.gz --markdown 20230715/b/bovine-herd/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.9.tar.gz tmp/lfinancial-0.3.0.tar.gz --markdown 20230715/l/lfinancial/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.2.0.tar.gz tmp/microcat-0.2.1.tar.gz --markdown 20230715/m/microcat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.2.tar.gz tmp/pythorhead-0.9.3.tar.gz --markdown 20230715/p/pythorhead/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-tool]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine_tool-0.2.6.tar.gz tmp/bovine_tool-0.3.0.tar.gz --markdown 20230715/b/bovine-tool/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-pubsub]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [bovine-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine_pubsub-0.2.6.tar.gz tmp/bovine_pubsub-0.3.0.tar.gz --markdown 20230715/b/bovine-pubsub/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:54:59] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-07-15 13:54:59] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230715/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.7-py3.9.egg]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.8-py3.9.egg]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: Start processing: element-sdk
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [element-sdk]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/1a/e9/77fd793d95455d669e6454fe42eb12b3eccd18f81210b04649d4ccc71a0f/element_sdk-0.2.8-py3.9.egg
+[2023-07-15 13:55:00] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.9.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [seunggabi-core-python]: Start processing: pysamosa
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-herd]: Remove: archive file [/home/abi/fetcher/tmp/bovine_herd-0.2.6.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-herd]: Remove: archive file [/home/abi/fetcher/tmp/bovine_herd-0.3.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-herd]: Start processing: pysimx
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [bovine-herd]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/8f/8b/0a285be03dc16d1ef1853779eafc59ef4d5a4c8e98d90905cf9b40a6f933/element_sdk-0.2.9-py3.9.egg
+[2023-07-15 13:55:00] ERROR root fetch - processPackages [pysimx]: Unable to get metadata: No such project 'pysimx'
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [pysimx] error
+[2023-07-15 13:55:00] INFO root fetch - processPackages [pysamosa]: New version: [0.5.8] Old Version: [0.5.10]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.9.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.3.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-process]: Remove: archive file [/home/abi/fetcher/tmp/bovine_process-0.2.6.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-process]: Remove: archive file [/home/abi/fetcher/tmp/bovine_process-0.3.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [bovine-process]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: executing diffoscope
+[2023-07-15 13:55:00] INFO root fetch - processPackages [element-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element_sdk-0.2.8-py3.9.egg tmp/element_sdk-0.2.9-py3.9.egg --markdown 20230715/e/element-sdk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/bovine_pubsub-0.2.6.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/bovine_pubsub-0.3.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [bovine-pubsub]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-tool]: Remove: archive file [/home/abi/fetcher/tmp/bovine_tool-0.2.6.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [bovine-tool]: Remove: archive file [/home/abi/fetcher/tmp/bovine_tool-0.3.0.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [bovine-tool]: success
+[2023-07-15 13:55:00] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/9f/70/80c270912670fb0cbde660e19e4cfc85fd8b7983f4ee6db550ee53d81ef2/pysamosa-0.5.10-cp38-cp38-musllinux_1_1_i686.whl
+[2023-07-15 13:55:00] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.2.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.3.tar.gz]
+[2023-07-15 13:55:00] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-07-15 13:55:01] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.0.tar.gz]
+[2023-07-15 13:55:01] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.1.tar.gz]
+[2023-07-15 13:55:01] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-07-15 13:55:01] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.8-py3.9.egg]
+[2023-07-15 13:55:01] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.9-py3.9.egg]
+[2023-07-15 13:55:01] INFO root fetch - main [MainThread]: End processing [element-sdk]: success
+[2023-07-15 13:55:02] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/30/aa/e6c11fbe23990ff145e0bf005025fd3ed961964dd2420d48bbfbe81de01e/pysamosa-0.5.8.tar.gz
+[2023-07-15 13:55:03] INFO root fetch - processPackages [pysamosa]: executing diffoscope
+[2023-07-15 13:55:03] INFO root fetch - processPackages [pysamosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysamosa-0.5.10-cp38-cp38-musllinux_1_1_i686.whl.zip tmp/pysamosa-0.5.8.tar.gz --markdown 20230715/p/pysamosa/0.5.10-0.5.8/diff.md --exclude *.pyd
+[2023-07-15 13:55:07] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.5.10-cp38-cp38-musllinux_1_1_i686.whl.zip]
+[2023-07-15 13:55:07] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.5.8.tar.gz]
+[2023-07-15 13:55:07] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
+[2023-07-15 13:55:07] INFO root fetch - main [MainThread]: Store serial: [18900133]
