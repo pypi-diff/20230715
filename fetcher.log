@@ -3695,3 +3695,81 @@
 [2023-07-15 04:50:35] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
 [2023-07-15 04:50:35] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-15 04:50:35] INFO root fetch - main [MainThread]: Store serial: [18897445]
+[2023-07-15 04:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897445]
+[2023-07-15 04:55:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastlabel
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findpython
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wnb
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-radiance
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-energy
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dev-assistant-client
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-uwg
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htmxpy
+[2023-07-15 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: capsula
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [findpython]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [wnb]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 04:55:50] WARNING root fetch - processPackages [htmxpy]: Skipping, unable to determine old version
+[2023-07-15 04:55:50] INFO root fetch - main [MainThread]: End processing [htmxpy] error
+[2023-07-15 04:55:50] INFO root fetch - processPackages [fastlabel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e8/7b/ad6989cc75c17f4b90d7612e1578c8cfda896132aecb162fa9d9f719fdab/dev-assistant-client-0.1.6.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/66/4f/b66907843af4dceeb4045f63e69f36b7c93b2aa38bc735e9cddd2916e991/findpython-1.0.0a2.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [wnb]: Downloading https://files.pythonhosted.org/packages/ae/33/3d6772392fec7688c7e65d29cbad72e69a7c6aa54315352b340f8913370d/wnb-0.1.14.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/57/be/7f95f0710f3736b944abf8635802ed7c4fa9ed908af29b88814533d5d1aa/fastlabel-0.9.8.tar.gz
+[2023-07-15 04:55:50] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/40/24/eba4a6d89c40eac8edba09ff0530be76a03b837ea725475f46053a59f1d6/dev-assistant-client-0.1.8.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230715/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/ab/fe/9a940da77097423a57e1f18f6ce837728d60ef3178b7ddf7175412259eab/findpython-1.0.0a3.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [wnb]: Downloading https://files.pythonhosted.org/packages/b2/70/67da871e7205cff702737c5c1c6da4d108c4b628cee207876177a8d9797a/wnb-0.1.15.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230715/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-1.0.0a2.tar.gz tmp/findpython-1.0.0a3.tar.gz --markdown 20230715/f/findpython/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.6.tar.gz tmp/dev-assistant-client-0.1.8.tar.gz --markdown 20230715/d/dev-assistant-client/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [wnb]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [wnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnb-0.1.14.tar.gz tmp/wnb-0.1.15.tar.gz --markdown 20230715/w/wnb/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [fastlabel]: Downloading https://files.pythonhosted.org/packages/d0/e5/f18c001dc7450d962af6e6925a6600fb1877e202166062e99e6d1fadf36b/fastlabel-0.9.9.tar.gz
+[2023-07-15 04:55:51] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230715/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230715/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-15 04:55:51] INFO root fetch - processPackages [fastlabel]: executing diffoscope
+[2023-07-15 04:55:51] INFO root fetch - processPackages [fastlabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlabel-0.9.8.tar.gz tmp/fastlabel-0.9.9.tar.gz --markdown 20230715/f/fastlabel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 04:55:52] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-15 04:55:52] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.6.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.8.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-15 04:55:52] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a2.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [findpython]: Remove: archive file [/home/abi/fetcher/tmp/findpython-1.0.0a3.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-07-15 04:55:52] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.8.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [fastlabel]: Remove: archive file [/home/abi/fetcher/tmp/fastlabel-0.9.9.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [fastlabel]: success
+[2023-07-15 04:55:52] INFO root fetch - processPackages [wnb]: Remove: archive file [/home/abi/fetcher/tmp/wnb-0.1.14.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [wnb]: Remove: archive file [/home/abi/fetcher/tmp/wnb-0.1.15.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [wnb]: success
+[2023-07-15 04:55:52] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-15 04:55:52] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-15 04:55:53] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-15 04:55:53] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-15 04:55:53] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-15 04:55:53] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-07-15 04:55:53] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-07-15 04:55:53] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-07-15 04:55:53] INFO root fetch - main [MainThread]: Store serial: [18897483]
