@@ -3602,3 +3602,96 @@
 [2023-07-15 04:45:21] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-07-15 04:45:21] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-07-15 04:45:21] INFO root fetch - main [MainThread]: Store serial: [18897418]
+[2023-07-15 04:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897418]
+[2023-07-15 04:50:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-graph
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-25
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctransformers-langdash
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-due-list-payment-mode
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omgpt
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-mass-reconcile
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonpath-extractor
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sortedness
+[2023-07-15 04:50:30] INFO root fetch - processPackages [ctransformers-langdash]: New version: [0.2.9] Old Version: [0.2.11]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [jsonpath-extractor]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [notion-graph]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [sortedness]: New version: [1.230712.2] Old Version: [1.230712.1]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [omgpt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 04:50:30] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.90] Old Version: [2.8.9]
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Downloading https://files.pythonhosted.org/packages/98/17/7400cc099ca8e8b465fa0b4b2c25b4bbf08cc01400cf88f5b9b642a305ab/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-15 04:50:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/e3/e7/131eca949faf16caf8c27035fff2e13e7e1c8740c386aafacc6202e69105/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/ae/29/030f192d931ddd796476a9e0769ee3ea12716736423ffdf9c66c45b07051/omgpt-0.0.2.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [ctransformers-langdash]: Downloading https://files.pythonhosted.org/packages/2a/76/ddc85573be6b4f267eba54e30e0d528a7d44a5ed22b4a4968f9c0cc73628/ctransformers-langdash-0.2.11.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [jsonpath-extractor]: Downloading https://files.pythonhosted.org/packages/55/a9/7fd1caf41753e984862ac41541a4dd864f283b05189572816bd53ece6d34/jsonpath-extractor-0.8.0.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/1d/cc/bcca0db24564c13666f03a64f1761627f2c3e1917cc114da7d15c651090c/sortedness-1.230712.1.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/a6/c4/2493e2c92633362502345f6b7e69ed937d431dcd67162af4af1759aefd9a/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-15 04:50:31] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/cd/1d/cc01659744b9d1ddbb276a18618750b7d8014e969c25d9b99d99f94362e6/notion-graph-0.2.5.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Downloading https://files.pythonhosted.org/packages/99/f9/50f5bf3c1845ba7ddc4ef78c5c0b4be2f98636ef81e494d982c7748b55a5/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-15 04:50:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/bf/af/aac31f48ccd6c97f9cfc6b41caeeee7f30c2a73f3d29302dc55faed201f4/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/f2/46/ad719eff5911889b5ad4cb996574e3ccb2ce6bdb067bec13792d3eed0468/omgpt-0.0.3.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [ctransformers-langdash]: Downloading https://files.pythonhosted.org/packages/de/d8/1d9e5ddca496d8dca7cce1bef5bd11320693af3e71cef3df53ea8be2b1ee/ctransformers-langdash-0.2.9.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [notion-graph]: Downloading https://files.pythonhosted.org/packages/d8/3d/51c25919d0ee68cb43f559edee74b369f421d1bd7a841849cad3d23090e9/notion-graph-0.2.6.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/f2/7f/7e728aafcec2864162e921882def0cb2f6b2920e14510ac7e4c71aa8e70e/cdk8s-plus-25-2.8.90.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [jsonpath-extractor]: Downloading https://files.pythonhosted.org/packages/3f/f2/547953c67690818d7e02894059bcd782f1631e125daafdec553c9cf2f4ef/jsonpath-extractor-0.9.0.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/a8/c0/c25f5799c57185827076f7fa3efdd619c5e50328684f6862b841da067071/sortedness-1.230712.2.tar.gz
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: executing diffoscope
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230715/o/odoo-addon-account-due-list-payment-mode/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-15 04:50:31] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Downloading https://files.pythonhosted.org/packages/27/d3/7ac17cd1c757add571e218d0c6317236ed5c8fb64916e88c8a821cfcf317/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-15 04:50:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-15 04:50:31] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz --markdown 20230715/n/nonebot-plugin-stable-diffusion-diao/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [notion-graph]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [notion-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-graph-0.2.5.tar.gz tmp/notion-graph-0.2.6.tar.gz --markdown 20230715/n/notion-graph/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [ctransformers-langdash]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [ctransformers-langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-langdash-0.2.11.tar.gz tmp/ctransformers-langdash-0.2.9.tar.gz --markdown 20230715/c/ctransformers-langdash/0.2.11-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.2.tar.gz tmp/omgpt-0.0.3.tar.gz --markdown 20230715/o/omgpt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-15 04:50:32] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230715/o/odoo-addon-account-mass-reconcile/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [jsonpath-extractor]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [jsonpath-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonpath-extractor-0.8.0.tar.gz tmp/jsonpath-extractor-0.9.0.tar.gz --markdown 20230715/j/jsonpath-extractor/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [sortedness]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [sortedness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortedness-1.230712.1.tar.gz tmp/sortedness-1.230712.2.tar.gz --markdown 20230715/s/sortedness/1.230712.1-1.230712.2/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.9.tar.gz tmp/cdk8s-plus-25-2.8.90.tar.gz --markdown 20230715/c/cdk8s-plus-25/2.8.9-2.8.90/diff.md --exclude *.pyd
+[2023-07-15 04:50:32] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-15 04:50:32] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230715/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 04:50:33] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-15 04:50:33] INFO root fetch - processPackages [odoo-addon-account-due-list-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list_payment_mode-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-15 04:50:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-due-list-payment-mode]: success
+[2023-07-15 04:50:33] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.5.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - processPackages [notion-graph]: Remove: archive file [/home/abi/fetcher/tmp/notion-graph-0.2.6.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - main [MainThread]: End processing [notion-graph]: success
+[2023-07-15 04:50:33] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.2.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.3.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 04:50:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.1.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-15 04:50:33] INFO root fetch - processPackages [jsonpath-extractor]: Remove: archive file [/home/abi/fetcher/tmp/jsonpath-extractor-0.8.0.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - processPackages [jsonpath-extractor]: Remove: archive file [/home/abi/fetcher/tmp/jsonpath-extractor-0.9.0.tar.gz]
+[2023-07-15 04:50:33] INFO root fetch - main [MainThread]: End processing [jsonpath-extractor]: success
+[2023-07-15 04:50:34] INFO root fetch - processPackages [sortedness]: Remove: archive file [/home/abi/fetcher/tmp/sortedness-1.230712.1.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - processPackages [sortedness]: Remove: archive file [/home/abi/fetcher/tmp/sortedness-1.230712.2.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - main [MainThread]: End processing [sortedness]: success
+[2023-07-15 04:50:34] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.90.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-15 04:50:34] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-15 04:50:34] INFO root fetch - processPackages [odoo-addon-account-mass-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_mass_reconcile-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-15 04:50:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
+[2023-07-15 04:50:34] INFO root fetch - processPackages [ctransformers-langdash]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-langdash-0.2.11.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - processPackages [ctransformers-langdash]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-langdash-0.2.9.tar.gz]
+[2023-07-15 04:50:34] INFO root fetch - main [MainThread]: End processing [ctransformers-langdash]: success
+[2023-07-15 04:50:35] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-15 04:50:35] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-15 04:50:35] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-15 04:50:35] INFO root fetch - main [MainThread]: Store serial: [18897445]
