@@ -14331,3 +14331,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:54:21] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.48.tar.gz]
 [2023-07-15 21:54:21] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 21:54:21] INFO root fetch - main [MainThread]: Store serial: [18902647]
+[2023-07-15 21:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902647]
+[2023-07-15 21:59:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clear-skies
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nd2
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: together
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clear-skies-aws
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-binary-tree
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiutils
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roblox-pyc
+[2023-07-15 21:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thebeat
+[2023-07-15 21:59:30] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.7.7] Old Version: [1.7.6]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [together]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-15 21:59:30] WARNING root fetch - processPackages [thebeat]: Skipping, unable to determine old version
+[2023-07-15 21:59:30] INFO root fetch - main [MainThread]: End processing [thebeat] error
+[2023-07-15 21:59:30] INFO root fetch - processPackages [kiutils]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [nd2]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-15 21:59:30] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/da/88/0eef50aef5b451b136632a3bb7e9662f398bb3293df3406c019c1979f1ef/streamlit-binary-tree-0.2.5.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/7f/9f/558dc17092dc79bdf3a1c264ef81acd4060df6cc16f9c89eca07cd12328d/clear_skies_aws-1.7.6.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/4a/9c/af73febe57f0053f4766c7d786cc104645f25f3fc1653673888cced29db5/together-0.0.6.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [kiutils]: Downloading https://files.pythonhosted.org/packages/b4/1d/7b9de4386880842d465b1a4dc48e30ebab30289678d141d06a6f9d4661de/kiutils-1.4.2.tar.gz
+[2023-07-15 21:59:30] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/2c/74/6517fee72cdce54c8602bc651b0a2e7812ad497dab1fdc9a8b4abe10234b/nd2-0.7.0.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230715/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/89/2f/12e8b7bac003750c2a895da05d3a1551d672f06ebb6fb4f87a5d4b850b8a/streamlit-binary-tree-0.2.6.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/ac/22/5ca72caaf6f4913244cf820656473a545c49561695f0f656f0ab2337875a/together-0.0.7.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/f3/29/15ebb77bc2d2c37d4794514e5bd319fae57bf9b2a5777b6fba3e54e99349/clear_skies_aws-1.7.7.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.5.tar.gz tmp/streamlit-binary-tree-0.2.6.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [together]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together-0.0.6.tar.gz tmp/together-0.0.7.tar.gz --markdown 20230715/t/together/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [nd2]: Downloading https://files.pythonhosted.org/packages/53/80/9e7666400a6ad09d3525eb5beb8d55e258f0f944990a815c85df2d5a741a/nd2-0.7.1.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [kiutils]: Downloading https://files.pythonhosted.org/packages/ff/4d/d24a622d9c4513cd286d0643210c63fa65d66f68dd1bee07ab60283e88c0/kiutils-1.4.3.tar.gz
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_aws-1.7.6.tar.gz tmp/clear_skies_aws-1.7.7.tar.gz --markdown 20230715/c/clear-skies-aws/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230715/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [nd2]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nd2-0.7.0.tar.gz tmp/nd2-0.7.1.tar.gz --markdown 20230715/n/nd2/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230715/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 21:59:31] INFO root fetch - processPackages [kiutils]: executing diffoscope
+[2023-07-15 21:59:31] INFO root fetch - processPackages [kiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiutils-1.4.2.tar.gz tmp/kiutils-1.4.3.tar.gz --markdown 20230715/k/kiutils/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-15 21:59:32] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-15 21:59:32] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-0.0.6.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-0.0.7.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - main [MainThread]: End processing [together]: success
+[2023-07-15 21:59:32] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.5.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.6.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 21:59:32] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-15 21:59:32] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.7.6.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - processPackages [clear-skies-aws]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_aws-1.7.7.tar.gz]
+[2023-07-15 21:59:32] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-07-15 21:59:33] INFO root fetch - processPackages [kiutils]: Remove: archive file [/home/abi/fetcher/tmp/kiutils-1.4.2.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - processPackages [kiutils]: Remove: archive file [/home/abi/fetcher/tmp/kiutils-1.4.3.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - main [MainThread]: End processing [kiutils]: success
+[2023-07-15 21:59:33] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-07-15 21:59:33] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.7.0.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.7.1.tar.gz]
+[2023-07-15 21:59:33] INFO root fetch - main [MainThread]: End processing [nd2]: success
+[2023-07-15 21:59:33] INFO root fetch - main [MainThread]: Store serial: [18902676]
