@@ -7632,3 +7632,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:23:45] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-15 11:23:45] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-15 11:23:45] INFO root fetch - main [MainThread]: Store serial: [18899470]
+[2023-07-15 11:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899470]
+[2023-07-15 11:28:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hata
+[2023-07-15 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zoho-client-django
+[2023-07-15 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-15 11:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiggler-studiorabota
+[2023-07-15 11:28:53] WARNING root fetch - processPackages [zoho-client-django]: Skipping, unable to determine old version
+[2023-07-15 11:28:53] INFO root fetch - main [MainThread]: End processing [zoho-client-django] error
+[2023-07-15 11:28:53] INFO root fetch - processPackages [crypto-screening]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-07-15 11:28:53] INFO root fetch - processPackages [hata]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-15 11:28:54] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 11:28:54] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0a/4e/b8380d227ae772bb2ad0b30dba8fb7b16dd746b0db63a6f066cfa2ab3c35/crypto-screening-5.1.1.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/4a/f2/c0100f2b17527fd7c8a6216f876eb9b3db8fd117f96ff46478b7b23e990e/hata-1.3.8.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/9b/01/57bb34778386799d05dfb15fad7e77e92ca2ca1bdcd7e1dc7bce0e8e8a19/wiggler_studiorabota-0.0.2.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/14/f6/08a399d968982d938b2362e844bbd2c8e3f868a9f3f0f400a75da57769c9/crypto-screening-5.1.2.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-15 11:28:54] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.1.1.tar.gz tmp/crypto-screening-5.1.2.tar.gz --markdown 20230715/c/crypto-screening/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-07-15 11:28:54] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/05/42/34053dbc292e491a0989ad0d983b4fa12bbafd4eb8590cba518c21cb0d42/wiggler_studiorabota-0.0.3.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [hata]: Downloading https://files.pythonhosted.org/packages/b5/e0/4cb0546a643922b80592e8b745ce9b6d33d9a414e9540b749a0e2eea2045/hata-1.3.9.tar.gz
+[2023-07-15 11:28:54] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 11:28:54] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.2.tar.gz tmp/wiggler_studiorabota-0.0.3.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 11:28:54] INFO root fetch - processPackages [hata]: executing diffoscope
+[2023-07-15 11:28:54] INFO root fetch - processPackages [hata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hata-1.3.8.tar.gz tmp/hata-1.3.9.tar.gz --markdown 20230715/h/hata/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-15 11:28:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.1.tar.gz]
+[2023-07-15 11:28:55] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.2.tar.gz]
+[2023-07-15 11:28:55] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-15 11:28:55] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.2.tar.gz]
+[2023-07-15 11:28:55] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.3.tar.gz]
+[2023-07-15 11:28:55] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 11:28:58] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.8.tar.gz]
+[2023-07-15 11:28:58] INFO root fetch - processPackages [hata]: Remove: archive file [/home/abi/fetcher/tmp/hata-1.3.9.tar.gz]
+[2023-07-15 11:28:58] INFO root fetch - main [MainThread]: End processing [hata]: success
+[2023-07-15 11:28:58] INFO root fetch - main [MainThread]: Store serial: [18899482]
