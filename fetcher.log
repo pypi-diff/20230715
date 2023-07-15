@@ -11696,3 +11696,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:44:55] INFO root fetch - processPackages [reader]: Remove: archive file [/home/abi/fetcher/tmp/reader-3.7.tar.gz]
 [2023-07-15 17:44:55] INFO root fetch - main [MainThread]: End processing [reader]: success
 [2023-07-15 17:44:55] INFO root fetch - main [MainThread]: Store serial: [18901509]
+[2023-07-15 17:49:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901509]
+[2023-07-15 17:50:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3make
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-menu
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-grama
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openctp-ctp
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PHX
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checkatlas
+[2023-07-15 17:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amulet-map-editor
+[2023-07-15 17:50:04] INFO root fetch - processPackages [py-grama]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-15 17:50:04] WARNING root fetch - processPackages [py3make]: Skipping, unable to determine old version
+[2023-07-15 17:50:04] INFO root fetch - main [MainThread]: End processing [py3make] error
+[2023-07-15 17:50:04] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 17:50:04] WARNING root fetch - processPackages [quick-menu]: Skipping, unable to determine old version
+[2023-07-15 17:50:04] INFO root fetch - main [MainThread]: End processing [quick-menu] error
+[2023-07-15 17:50:04] INFO root fetch - processPackages [checkatlas]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-15 17:50:04] INFO root fetch - processPackages [openctp-ctp]: New version: [6.6.9] Old Version: [6.6.7]
+[2023-07-15 17:50:04] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-15 17:50:04] INFO root fetch - processPackages [py-grama]: Downloading https://files.pythonhosted.org/packages/3e/3c/ebf9a5d863f1bf07e27ffe107acaf18f6919ac500368d15dc800f0ad8811/py_grama-0.3.4.tar.gz
+[2023-07-15 17:50:04] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/8e/d0/9054c1ec6ec5971e445d67f0c558c6207b9ccec2f4823b689b99c3a1ac4f/checkatlas-0.3.2.tar.gz
+[2023-07-15 17:50:04] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-15 17:50:04] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2023-07-15 17:50:04] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/1c/bc/1c0cd945b71c5efcbb2446bc81ef74b3cb690273efa6f354c3ff95743cfe/openctp_ctp-6.6.7.tar.gz
+[2023-07-15 17:50:04] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/83/6f/f4fb1f1f9e9863ad27c4aa0b6a26006ae0200b10e979011f236f4924724b/checkatlas-0.3.3.tar.gz
+[2023-07-15 17:50:05] INFO root fetch - processPackages [py-grama]: Downloading https://files.pythonhosted.org/packages/78/77/cdbfbe121fb7f8b60a5ac81d4360ed92d62808282b772c0a8c528b8a8bba/py_grama-0.3.5.tar.gz
+[2023-07-15 17:50:05] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-15 17:50:05] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-15 17:50:05] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.3.2.tar.gz tmp/checkatlas-0.3.3.tar.gz --markdown 20230715/c/checkatlas/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-15 17:50:05] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2023-07-15 17:50:05] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-15 17:50:05] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230715/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 17:50:05] INFO root fetch - processPackages [py-grama]: executing diffoscope
+[2023-07-15 17:50:05] INFO root fetch - processPackages [py-grama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_grama-0.3.4.tar.gz tmp/py_grama-0.3.5.tar.gz --markdown 20230715/p/py-grama/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-15 17:50:05] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2023-07-15 17:50:05] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20230715/a/amulet-map-editor/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-15 17:50:05] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/f7/ae/550558edb6d13f9416290b4b0492414cc3499307f94964cfef1465e82767/openctp_ctp-6.6.9.0-cp39-cp39-win_amd64.whl
+[2023-07-15 17:50:06] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.2.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.3.3.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-15 17:50:06] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2023-07-15 17:50:06] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.6.7.tar.gz tmp/openctp_ctp-6.6.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230715/o/openctp-ctp/6.6.7-6.6.9/diff.md --exclude *.pyd
+[2023-07-15 17:50:06] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-15 17:50:06] INFO root fetch - processPackages [py-grama]: Remove: archive file [/home/abi/fetcher/tmp/py_grama-0.3.4.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - processPackages [py-grama]: Remove: archive file [/home/abi/fetcher/tmp/py_grama-0.3.5.tar.gz]
+[2023-07-15 17:50:06] INFO root fetch - main [MainThread]: End processing [py-grama]: success
+[2023-07-15 17:50:07] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.6.7.tar.gz]
+[2023-07-15 17:50:07] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.6.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 17:50:07] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2023-07-15 17:50:08] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2023-07-15 17:50:08] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2023-07-15 17:50:08] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2023-07-15 17:50:08] INFO root fetch - main [MainThread]: Store serial: [18901542]
