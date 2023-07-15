@@ -11980,3 +11980,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:10:55] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:10:55] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:10:55] INFO root fetch - main [MainThread]: Store serial: [18901639]
+[2023-07-15 18:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901639]
+[2023-07-15 18:16:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-grama
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miauw-base-service
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easifem
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywhispercpp
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winappbuilder
+[2023-07-15 18:16:04] INFO root fetch - processPackages [easifem]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ork.build]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-07-15 18:16:04] INFO root fetch - processPackages [miauw-base-service]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-07-15 18:16:04] INFO root fetch - processPackages [py-grama]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-15 18:16:04] WARNING root fetch - processPackages [winappbuilder]: Skipping, unable to determine old version
+[2023-07-15 18:16:04] INFO root fetch - main [MainThread]: End processing [winappbuilder] error
+[2023-07-15 18:16:04] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/20/59/fa94c8874c17640a255d28eb67147236e4de69ca7caa7354e8216ef88836/ork.build-0.0.34.tar.gz
+[2023-07-15 18:16:04] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/bf/df/eff323d39278bc653dc33abffa21a37270a33e5f26bdbc03a19e69c17e0f/miauw-base-service-1.0.1.tar.gz
+[2023-07-15 18:16:04] INFO root fetch - processPackages [py-grama]: Downloading https://files.pythonhosted.org/packages/78/77/cdbfbe121fb7f8b60a5ac81d4360ed92d62808282b772c0a8c528b8a8bba/py_grama-0.3.5.tar.gz
+[2023-07-15 18:16:04] INFO root fetch - processPackages [pywhispercpp]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-15 18:16:05] INFO root fetch - processPackages [easifem]: Downloading https://files.pythonhosted.org/packages/26/10/5ada71643ddb6c21362e0585600a87e9ee446b200ccaba56d1cc81532938/easifem-23.6.0.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/f2/c7/73c012264859dd66700ab637258cf54f2d26871e9726ac0975d94641a1c3/pywhispercpp-1.1.0.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/01/23/5b867f76ae7c04ee7e03467e6d0ed4e5525cf090a685dc7cfc1b0090ce1d/miauw-base-service-1.1.1.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/6a/7a/8ebfbbcd7548adc05b0fdc47b326dc3ef3fc6dadd8354c21be304f9909e3/ork.build-0.0.35.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [easifem]: Downloading https://files.pythonhosted.org/packages/db/42/f60a9acd7f06542cfa1c7e4203603019cbc188f8acd64897337e760d3b4f/easifem-23.7.0.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [py-grama]: Downloading https://files.pythonhosted.org/packages/d3/91/429dc3a7425fedc7e26f757f4bf53a810421e10e867fbb84542b41b90001/py_grama-0.3.6.tar.gz
+[2023-07-15 18:16:05] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-15 18:16:05] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.0.1.tar.gz tmp/miauw-base-service-1.1.1.tar.gz --markdown 20230715/m/miauw-base-service/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-15 18:16:05] INFO root fetch - processPackages [easifem]: executing diffoscope
+[2023-07-15 18:16:05] INFO root fetch - processPackages [easifem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easifem-23.6.0.tar.gz tmp/easifem-23.7.0.tar.gz --markdown 20230715/e/easifem/23.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-15 18:16:05] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:16:05] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.34.tar.gz tmp/ork.build-0.0.35.tar.gz --markdown 20230715/o/ork.build/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-07-15 18:16:05] INFO root fetch - processPackages [pywhispercpp]: Downloading https://files.pythonhosted.org/packages/34/f6/ccb5fc1cb1ed3b810de577b87101ff1d616ed35ac6e4db1651ee58a4a9cb/pywhispercpp-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 18:16:05] INFO root fetch - processPackages [py-grama]: executing diffoscope
+[2023-07-15 18:16:05] INFO root fetch - processPackages [py-grama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_grama-0.3.5.tar.gz tmp/py_grama-0.3.6.tar.gz --markdown 20230715/p/py-grama/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-15 18:16:06] INFO root fetch - processPackages [easifem]: Remove: archive file [/home/abi/fetcher/tmp/easifem-23.6.0.tar.gz]
+[2023-07-15 18:16:06] INFO root fetch - processPackages [easifem]: Remove: archive file [/home/abi/fetcher/tmp/easifem-23.7.0.tar.gz]
+[2023-07-15 18:16:06] INFO root fetch - main [MainThread]: End processing [easifem]: success
+[2023-07-15 18:16:06] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.0.1.tar.gz]
+[2023-07-15 18:16:06] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.1.1.tar.gz]
+[2023-07-15 18:16:06] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-15 18:16:06] INFO root fetch - processPackages [pywhispercpp]: executing diffoscope
+[2023-07-15 18:16:06] INFO root fetch - processPackages [pywhispercpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhispercpp-1.1.0.tar.gz tmp/pywhispercpp-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230715/p/pywhispercpp/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-15 18:16:07] INFO root fetch - processPackages [py-grama]: Remove: archive file [/home/abi/fetcher/tmp/py_grama-0.3.5.tar.gz]
+[2023-07-15 18:16:07] INFO root fetch - processPackages [py-grama]: Remove: archive file [/home/abi/fetcher/tmp/py_grama-0.3.6.tar.gz]
+[2023-07-15 18:16:07] INFO root fetch - main [MainThread]: End processing [py-grama]: success
+[2023-07-15 18:16:07] INFO root fetch - processPackages [pywhispercpp]: Remove: archive file [/home/abi/fetcher/tmp/pywhispercpp-1.1.0.tar.gz]
+[2023-07-15 18:16:07] INFO root fetch - processPackages [pywhispercpp]: Remove: archive file [/home/abi/fetcher/tmp/pywhispercpp-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 18:16:07] INFO root fetch - main [MainThread]: End processing [pywhispercpp]: success
+[2023-07-15 18:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.34.tar.gz]
+[2023-07-15 18:16:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.35.tar.gz]
+[2023-07-15 18:16:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:16:07] INFO root fetch - main [MainThread]: Store serial: [18901675]
