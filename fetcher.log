@@ -14725,3 +14725,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:20:26] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.51.tar.gz]
 [2023-07-15 22:20:26] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 22:20:26] INFO root fetch - main [MainThread]: Store serial: [18902848]
+[2023-07-15 22:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902848]
+[2023-07-15 22:25:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 22:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: render-thumbnail
+[2023-07-15 22:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: todoist-tree
+[2023-07-15 22:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-15 22:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-15 22:25:35] INFO root fetch - processPackages [todoist-tree]: New version: [0.4.0] Old Version: [0.2.2]
+[2023-07-15 22:25:35] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 22:25:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-15 22:25:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-15 22:25:35] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-15 22:25:35] INFO root fetch - processPackages [todoist-tree]: Downloading https://files.pythonhosted.org/packages/53/9b/0a7bc216e89614850f7d11d5e7a3d64e05552af8595873593ec025bbf0e9/todoist_tree-0.2.2.tar.gz
+[2023-07-15 22:25:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-15 22:25:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-15 22:25:36] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-15 22:25:36] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-15 22:25:36] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230715/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 22:25:36] INFO root fetch - processPackages [todoist-tree]: Downloading https://files.pythonhosted.org/packages/dc/aa/e21b8b2e9222a3bc034094ed93e098cd884b93fbc9ee22a60b2510cca4af/todoist_tree-0.4.0.tar.gz
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230715/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-15 22:25:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230715/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-15 22:25:36] INFO root fetch - processPackages [todoist-tree]: executing diffoscope
+[2023-07-15 22:25:36] INFO root fetch - processPackages [todoist-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoist_tree-0.2.2.tar.gz tmp/todoist_tree-0.4.0.tar.gz --markdown 20230715/t/todoist-tree/0.2.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-15 22:25:37] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-15 22:25:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-15 22:25:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-15 22:25:37] INFO root fetch - processPackages [todoist-tree]: Remove: archive file [/home/abi/fetcher/tmp/todoist_tree-0.2.2.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - processPackages [todoist-tree]: Remove: archive file [/home/abi/fetcher/tmp/todoist_tree-0.4.0.tar.gz]
+[2023-07-15 22:25:37] INFO root fetch - main [MainThread]: End processing [todoist-tree]: success
+[2023-07-15 22:25:37] INFO root fetch - main [MainThread]: Store serial: [18902870]
