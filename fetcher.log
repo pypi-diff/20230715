@@ -5915,3 +5915,33 @@
 [2023-07-15 08:32:01] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
 [2023-07-15 08:32:01] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
 [2023-07-15 08:32:01] INFO root fetch - main [MainThread]: Store serial: [18898584]
+[2023-07-15 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898584]
+[2023-07-15 08:37:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splatnet3-scraper
+[2023-07-15 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-aiobotocore-dynamodb
+[2023-07-15 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbix-plus
+[2023-07-15 08:37:11] INFO root fetch - processPackages [pbix-plus]: New version: [23.7.1] Old Version: [23.7]
+[2023-07-15 08:37:11] INFO root fetch - processPackages [splatnet3-scraper]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-15 08:37:11] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-15 08:37:11] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/98/c1/08fc734e057ba82084de29a835791704f121c41c42fa6d01688fb1597d44/pbix_plus-23.7.tar.gz
+[2023-07-15 08:37:11] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/a8/b1/e812b7f294776c343fba9a78d5c763aa2a7f888579e5b383ae5f4f3aa46b/types-aiobotocore-dynamodb-2.5.1.tar.gz
+[2023-07-15 08:37:12] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/07/94/0f0c2b596925d9a25c51ce5e3e7898387492bb267e27a401fe6f82aa319c/splatnet3_scraper-0.9.3.tar.gz
+[2023-07-15 08:37:12] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/db/87/5c2f3eed05708656e0a4215079e2bc90e7445e10faf2a4d77f41e2e5117c/pbix_plus-23.7.1.tar.gz
+[2023-07-15 08:37:12] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/e0/95/6985e71763974abfc8064276347b499dcdc602a84274c20860b23e765fd5/types-aiobotocore-dynamodb-2.5.2.tar.gz
+[2023-07-15 08:37:12] INFO root fetch - processPackages [pbix-plus]: executing diffoscope
+[2023-07-15 08:37:12] INFO root fetch - processPackages [pbix-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_plus-23.7.tar.gz tmp/pbix_plus-23.7.1.tar.gz --markdown 20230715/p/pbix-plus/23.7-23.7.1/diff.md --exclude *.pyd
+[2023-07-15 08:37:12] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: executing diffoscope
+[2023-07-15 08:37:12] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-dynamodb-2.5.1.tar.gz tmp/types-aiobotocore-dynamodb-2.5.2.tar.gz --markdown 20230715/t/types-aiobotocore-dynamodb/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-15 08:37:12] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/6a/1d/1ce027dec5ecd41f9e9eb42c0d9676e679c3ef11c33963e6528829e2c53d/splatnet3_scraper-0.9.4.tar.gz
+[2023-07-15 08:37:12] INFO root fetch - processPackages [splatnet3-scraper]: executing diffoscope
+[2023-07-15 08:37:12] INFO root fetch - processPackages [splatnet3-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splatnet3_scraper-0.9.3.tar.gz tmp/splatnet3_scraper-0.9.4.tar.gz --markdown 20230715/s/splatnet3-scraper/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-15 08:37:13] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.1.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - main [MainThread]: End processing [pbix-plus]: success
+[2023-07-15 08:37:13] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.1.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.2.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-dynamodb]: success
+[2023-07-15 08:37:13] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.3.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.4.tar.gz]
+[2023-07-15 08:37:13] INFO root fetch - main [MainThread]: End processing [splatnet3-scraper]: success
+[2023-07-15 08:37:13] INFO root fetch - main [MainThread]: Store serial: [18898597]
