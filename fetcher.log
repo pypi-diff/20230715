@@ -14032,3 +14032,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:28:23] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.47.tar.gz]
 [2023-07-15 21:28:23] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 21:28:23] INFO root fetch - main [MainThread]: Store serial: [18902520]
+[2023-07-15 21:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902520]
+[2023-07-15 21:33:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 21:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htmxapp
+[2023-07-15 21:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yahooquery
+[2023-07-15 21:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-diagnostics
+[2023-07-15 21:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carica-dynamodb-tools
+[2023-07-15 21:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: examon-core
+[2023-07-15 21:33:32] INFO root fetch - processPackages [model-diagnostics]: New version: [1.0.0rc0] Old Version: [0.2.0]
+[2023-07-15 21:33:32] INFO root fetch - processPackages [examon-core]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 21:33:32] WARNING root fetch - processPackages [htmxapp]: Skipping, unable to determine old version
+[2023-07-15 21:33:32] INFO root fetch - main [MainThread]: End processing [htmxapp] error
+[2023-07-15 21:33:32] INFO root fetch - processPackages [carica-dynamodb-tools]: New version: [1.5] Old Version: [1.4]
+[2023-07-15 21:33:32] INFO root fetch - processPackages [yahooquery]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-15 21:33:32] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/f6/0a/b054f73efc09fff843c0aac55b65713bfd00e19993edac5d3db1548227ac/model_diagnostics-0.2.0.tar.gz
+[2023-07-15 21:33:32] INFO root fetch - processPackages [carica-dynamodb-tools]: Downloading https://files.pythonhosted.org/packages/fa/bb/49a0a507295d692586982635f1884c2acc3b397990f7285ded33c54c6b98/carica_dynamodb_tools-1.4.tar.gz
+[2023-07-15 21:33:32] INFO root fetch - processPackages [yahooquery]: Downloading https://files.pythonhosted.org/packages/ae/fa/609da85338f2d7cd02c6220afd8abf451ce2db3e701b227d516262580c64/yahooquery-2.3.1.tar.gz
+[2023-07-15 21:33:32] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/a6/18/403508fd5f2aced17612ca3e736e09446bee4c57648634d4181708dd8b89/examon_core-1.0.0.tar.gz
+[2023-07-15 21:33:32] INFO root fetch - processPackages [carica-dynamodb-tools]: Downloading https://files.pythonhosted.org/packages/ed/45/4b3ca990f1bb7ec090fc57696907f7dc88c0ffae34f9cacc85502f0f2d40/carica_dynamodb_tools-1.5.tar.gz
+[2023-07-15 21:33:33] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/d5/75/5235f4d9516780e6f798e10f931b52a9a4af3245ff9b19b575594641280c/examon_core-1.0.1.tar.gz
+[2023-07-15 21:33:33] INFO root fetch - processPackages [carica-dynamodb-tools]: executing diffoscope
+[2023-07-15 21:33:33] INFO root fetch - processPackages [carica-dynamodb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carica_dynamodb_tools-1.4.tar.gz tmp/carica_dynamodb_tools-1.5.tar.gz --markdown 20230715/c/carica-dynamodb-tools/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-15 21:33:33] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/ed/16/06a4739931fe7711169f184d3d9b784f593a9a41fd4e8bb42c0987452e8c/model_diagnostics-1.0.0rc0.tar.gz
+[2023-07-15 21:33:33] INFO root fetch - processPackages [yahooquery]: Downloading https://files.pythonhosted.org/packages/ba/7d/7fb3bc5d8524f1fd8375b9a2022c336046f2ca9f0b09c01ab4325fd5260d/yahooquery-2.3.2.tar.gz
+[2023-07-15 21:33:33] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-15 21:33:33] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.0.0.tar.gz tmp/examon_core-1.0.1.tar.gz --markdown 20230715/e/examon-core/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 21:33:33] INFO root fetch - processPackages [model-diagnostics]: executing diffoscope
+[2023-07-15 21:33:33] INFO root fetch - processPackages [model-diagnostics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_diagnostics-0.2.0.tar.gz tmp/model_diagnostics-1.0.0rc0.tar.gz --markdown 20230715/m/model-diagnostics/0.2.0-1.0.0rc0/diff.md --exclude *.pyd
+[2023-07-15 21:33:33] INFO root fetch - processPackages [yahooquery]: executing diffoscope
+[2023-07-15 21:33:33] INFO root fetch - processPackages [yahooquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yahooquery-2.3.1.tar.gz tmp/yahooquery-2.3.2.tar.gz --markdown 20230715/y/yahooquery/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-15 21:33:33] INFO root fetch - processPackages [carica-dynamodb-tools]: Remove: archive file [/home/abi/fetcher/tmp/carica_dynamodb_tools-1.4.tar.gz]
+[2023-07-15 21:33:33] INFO root fetch - processPackages [carica-dynamodb-tools]: Remove: archive file [/home/abi/fetcher/tmp/carica_dynamodb_tools-1.5.tar.gz]
+[2023-07-15 21:33:33] INFO root fetch - main [MainThread]: End processing [carica-dynamodb-tools]: success
+[2023-07-15 21:33:34] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.0.tar.gz]
+[2023-07-15 21:33:34] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.1.tar.gz]
+[2023-07-15 21:33:34] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-15 21:33:34] INFO root fetch - processPackages [yahooquery]: Remove: archive file [/home/abi/fetcher/tmp/yahooquery-2.3.1.tar.gz]
+[2023-07-15 21:33:34] INFO root fetch - processPackages [yahooquery]: Remove: archive file [/home/abi/fetcher/tmp/yahooquery-2.3.2.tar.gz]
+[2023-07-15 21:33:34] INFO root fetch - main [MainThread]: End processing [yahooquery]: success
+[2023-07-15 21:33:35] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-0.2.0.tar.gz]
+[2023-07-15 21:33:35] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.0.0rc0.tar.gz]
+[2023-07-15 21:33:35] INFO root fetch - main [MainThread]: End processing [model-diagnostics]: success
+[2023-07-15 21:33:35] INFO root fetch - main [MainThread]: Store serial: [18902547]
