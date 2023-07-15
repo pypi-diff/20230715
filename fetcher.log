@@ -8446,3 +8446,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:47:26] INFO root fetch - processPackages [plover-regenpfeifer]: Remove: archive file [/home/abi/fetcher/tmp/plover_regenpfeifer-1.1.1.tar.gz]
 [2023-07-15 12:47:26] INFO root fetch - main [MainThread]: End processing [plover-regenpfeifer]: success
 [2023-07-15 12:47:26] INFO root fetch - main [MainThread]: Store serial: [18899814]
+[2023-07-15 12:52:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899814]
+[2023-07-15 12:52:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psusigner
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-sky
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cicinlang
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-binary-tree
+[2023-07-15 12:52:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wiggler-studiorabota
+[2023-07-15 12:52:34] WARNING root fetch - processPackages [image-sky]: Skipping, unable to determine old version
+[2023-07-15 12:52:34] INFO root fetch - main [MainThread]: End processing [image-sky] error
+[2023-07-15 12:52:35] INFO root fetch - processPackages [psusigner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 12:52:35] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-15 12:52:35] INFO root fetch - processPackages [cicinlang]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 12:52:35] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 12:52:35] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-15 12:52:35] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/4f/70/a8b2a178b510dff80daa5010461696343194fb33fb41f8eb1a36902badcc/streamlit-binary-tree-0.2.3.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/b1/a6/57080e144d8222c5f1cd07379751d533d78662dc1a9a329cfb2f2f1f6fdd/wiggler_studiorabota-0.0.5.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [psusigner]: Downloading https://files.pythonhosted.org/packages/17/39/31c6f4ee985a759cf05fc9d50da508e383c82508bb1f061dfc7319c5e4fa/psusigner-0.1.1.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [cicinlang]: Downloading https://files.pythonhosted.org/packages/30/2b/80ebe70ded98d186b4aca29430e16be7d6e20e2b8a8fc68630949acd7cc8/cicinlang-0.1.0.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/24/fa/2aafc18fcdeb27d28fce7e0f49ae45142e950d00511dbadb7ddae6ef9db4/wiggler_studiorabota-0.0.6.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-15 12:52:35] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230715/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-15 12:52:35] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/af/de/0e91c59e474bd5ec84fb1360d75065f2e3bbd54751ff0d0632e7f758b9ae/streamlit-binary-tree-0.2.4.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [psusigner]: Downloading https://files.pythonhosted.org/packages/cc/b1/e1380fd71fda8756258df6ac9d666dd8d60d220fbadb0bd4d62f58b41811/psusigner-0.1.2.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 12:52:35] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.5.tar.gz tmp/wiggler_studiorabota-0.0.6.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 12:52:35] INFO root fetch - processPackages [cicinlang]: Downloading https://files.pythonhosted.org/packages/49/83/433b7d1e4d51aac18e3a40c2706979657ae90962614344d70992cf51e4e3/cicinlang-0.1.1.tar.gz
+[2023-07-15 12:52:35] INFO root fetch - processPackages [psusigner]: executing diffoscope
+[2023-07-15 12:52:35] INFO root fetch - processPackages [psusigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psusigner-0.1.1.tar.gz tmp/psusigner-0.1.2.tar.gz --markdown 20230715/p/psusigner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 12:52:35] INFO root fetch - processPackages [cicinlang]: executing diffoscope
+[2023-07-15 12:52:35] INFO root fetch - processPackages [cicinlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cicinlang-0.1.0.tar.gz tmp/cicinlang-0.1.1.tar.gz --markdown 20230715/c/cicinlang/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 12:52:35] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 12:52:35] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.3.tar.gz tmp/streamlit-binary-tree-0.2.4.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-15 12:52:36] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.5.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.6.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 12:52:36] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-15 12:52:36] INFO root fetch - processPackages [psusigner]: Remove: archive file [/home/abi/fetcher/tmp/psusigner-0.1.1.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - processPackages [psusigner]: Remove: archive file [/home/abi/fetcher/tmp/psusigner-0.1.2.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - main [MainThread]: End processing [psusigner]: success
+[2023-07-15 12:52:36] INFO root fetch - processPackages [cicinlang]: Remove: archive file [/home/abi/fetcher/tmp/cicinlang-0.1.0.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - processPackages [cicinlang]: Remove: archive file [/home/abi/fetcher/tmp/cicinlang-0.1.1.tar.gz]
+[2023-07-15 12:52:36] INFO root fetch - main [MainThread]: End processing [cicinlang]: success
+[2023-07-15 12:52:36] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.3.tar.gz]
+[2023-07-15 12:52:37] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.4.tar.gz]
+[2023-07-15 12:52:37] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 12:52:37] INFO root fetch - main [MainThread]: Store serial: [18899857]
