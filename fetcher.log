@@ -11798,3 +11798,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:55:19] INFO root fetch - processPackages [city-score]: Remove: archive file [/home/abi/fetcher/tmp/city_score-0.2.0.tar.gz]
 [2023-07-15 17:55:19] INFO root fetch - main [MainThread]: End processing [city-score]: success
 [2023-07-15 17:55:19] INFO root fetch - main [MainThread]: Store serial: [18901559]
+[2023-07-15 18:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901559]
+[2023-07-15 18:00:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pqp
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bardapi
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyVersioning
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnspython
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciphertrust-sdk
+[2023-07-15 18:00:27] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 18:00:27] INFO root fetch - processPackages [dnspython]: New version: [2.4.0rc1] Old Version: [2.4.0]
+[2023-07-15 18:00:27] INFO root fetch - processPackages [pyVersioning]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 18:00:27] INFO root fetch - processPackages [pqp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-15 18:00:27] INFO root fetch - processPackages [ciphertrust-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 18:00:27] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/9a/3e/25fac80f306855672b07980d6943411c81c462270986dc2efca3fba31d6e/pqp-0.3.3.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [dnspython]: Downloading https://files.pythonhosted.org/packages/bd/5f/45f60fd7b03a1bef883a0eb4f9b6465628c1977393be45802eef1962571d/dnspython-2.4.0.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pyVersioning]: Downloading https://files.pythonhosted.org/packages/65/23/acc3b65cd5f77fe2ee8ff435f909fad619645e40262567cad3c31e46c92b/pyVersioning-0.8.0.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/35/d5/34406768df0e4f3cc8f14fb6fa627c2a69b48f84e52b6d1474ceab92bac8/ciphertrust-sdk-1.0.8.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-07-15 18:00:28] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230715/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 18:00:28] INFO root fetch - processPackages [ciphertrust-sdk]: Downloading https://files.pythonhosted.org/packages/e7/28/dc2e782ff4280375ab3eb5f4e387a289be5d329d75f84209c36813864af7/ciphertrust-sdk-1.0.9.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [dnspython]: Downloading https://files.pythonhosted.org/packages/6a/e2/7ab413200561d83e89ca09357a42da9e42507b091e489b28355c2bde7566/dnspython-2.4.0rc1.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/17/22/3926739b942b0394494aab1ed57844367e93c110cbd62f97923a869c2d57/pqp-0.3.4.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pyVersioning]: Downloading https://files.pythonhosted.org/packages/d4/8a/bdc672f5336295b86f570e3c23fa563f500edf8fd388e8e2a6e5d412adb0/pyVersioning-0.9.0.tar.gz
+[2023-07-15 18:00:28] INFO root fetch - processPackages [ciphertrust-sdk]: executing diffoscope
+[2023-07-15 18:00:28] INFO root fetch - processPackages [ciphertrust-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciphertrust-sdk-1.0.8.tar.gz tmp/ciphertrust-sdk-1.0.9.tar.gz --markdown 20230715/c/ciphertrust-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:00:28] INFO root fetch - processPackages [dnspython]: executing diffoscope
+[2023-07-15 18:00:28] INFO root fetch - processPackages [dnspython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnspython-2.4.0.tar.gz tmp/dnspython-2.4.0rc1.tar.gz --markdown 20230715/d/dnspython/2.4.0-2.4.0rc1/diff.md --exclude *.pyd
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pyVersioning]: executing diffoscope
+[2023-07-15 18:00:28] INFO root fetch - processPackages [pyVersioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVersioning-0.8.0.tar.gz tmp/pyVersioning-0.9.0.tar.gz --markdown 20230715/p/pyVersioning/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 18:00:29] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-07-15 18:00:29] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-07-15 18:00:29] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.3.tar.gz tmp/pqp-0.3.4.tar.gz --markdown 20230715/p/pqp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-15 18:00:29] INFO root fetch - processPackages [pyVersioning]: Remove: archive file [/home/abi/fetcher/tmp/pyVersioning-0.8.0.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - processPackages [pyVersioning]: Remove: archive file [/home/abi/fetcher/tmp/pyVersioning-0.9.0.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - main [MainThread]: End processing [pyVersioning]: success
+[2023-07-15 18:00:29] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.8.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - processPackages [ciphertrust-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ciphertrust-sdk-1.0.9.tar.gz]
+[2023-07-15 18:00:29] INFO root fetch - main [MainThread]: End processing [ciphertrust-sdk]: success
+[2023-07-15 18:00:30] INFO root fetch - processPackages [dnspython]: Remove: archive file [/home/abi/fetcher/tmp/dnspython-2.4.0.tar.gz]
+[2023-07-15 18:00:30] INFO root fetch - processPackages [dnspython]: Remove: archive file [/home/abi/fetcher/tmp/dnspython-2.4.0rc1.tar.gz]
+[2023-07-15 18:00:30] INFO root fetch - main [MainThread]: End processing [dnspython]: success
+[2023-07-15 18:00:31] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.3.tar.gz]
+[2023-07-15 18:00:31] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.4.tar.gz]
+[2023-07-15 18:00:31] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-07-15 18:00:31] INFO root fetch - main [MainThread]: Store serial: [18901589]
