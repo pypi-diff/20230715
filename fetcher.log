@@ -10652,3 +10652,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:07:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-15 16:07:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-15 16:07:50] INFO root fetch - main [MainThread]: Store serial: [18900990]
+[2023-07-15 16:12:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900990]
+[2023-07-15 16:13:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daves-utilities
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: league-ranker
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testmy-toollib
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-binary-tree
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yet-another-wizz
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faviorm
+[2023-07-15 16:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: real-estate-realtor.com-imp-local
+[2023-07-15 16:13:02] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-15 16:13:02] WARNING root fetch - processPackages [faviorm]: Skipping, unable to determine old version
+[2023-07-15 16:13:02] INFO root fetch - main [MainThread]: End processing [faviorm] error
+[2023-07-15 16:13:02] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-15 16:13:02] INFO root fetch - processPackages [testmy-toollib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 16:13:02] INFO root fetch - processPackages [league-ranker]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 16:13:02] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5.post0] Old Version: [2.5.4]
+[2023-07-15 16:13:02] WARNING root fetch - processPackages [real-estate-realtor.com-imp-local]: Skipping, unable to determine old version
+[2023-07-15 16:13:02] INFO root fetch - main [MainThread]: End processing [real-estate-realtor.com-imp-local] error
+[2023-07-15 16:13:02] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2023-07-15 16:13:02] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/af/de/0e91c59e474bd5ec84fb1360d75065f2e3bbd54751ff0d0632e7f758b9ae/streamlit-binary-tree-0.2.4.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [testmy-toollib]: Downloading https://files.pythonhosted.org/packages/5e/d8/405f3e0ac1bd30328ba92c75e383019a8e7a4e104fae608ef9e8e4883a84/testmy_toollib-0.0.1.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/7b/16/3e299cd3f5b01651c62011645c39fcedd238e2be0cafc671a5939738d5eb/yet_another_wizz-2.5.4.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [league-ranker]: Downloading https://files.pythonhosted.org/packages/06/9d/43f356bccbc2b20a6548b7b99d6ca878dc27fd065f2ad65513411199f96e/league-ranker-1.0.1.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cf/e0/f413e701522077db439a83f07e84dbe103cb1682a26eeb96166c6aaf7b18/daves_utilities-0.1.8.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [testmy-toollib]: Downloading https://files.pythonhosted.org/packages/04/4b/3bf854f961adc1ff5b064c93276544fa7107caf4466b00b2694e662c2020/testmy_toollib-0.0.2.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/da/88/0eef50aef5b451b136632a3bb7e9662f398bb3293df3406c019c1979f1ef/streamlit-binary-tree-0.2.5.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [league-ranker]: Downloading https://files.pythonhosted.org/packages/1b/c5/739a8cc2cd5aa8be2f72c1ac7057e85c765a45d2bd006f5d5c8dfcf39003/league-ranker-1.0.2.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 16:13:03] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.7.tar.gz tmp/daves_utilities-0.1.8.tar.gz --markdown 20230715/d/daves-utilities/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-15 16:13:03] INFO root fetch - processPackages [testmy-toollib]: executing diffoscope
+[2023-07-15 16:13:03] INFO root fetch - processPackages [testmy-toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmy_toollib-0.0.1.tar.gz tmp/testmy_toollib-0.0.2.tar.gz --markdown 20230715/t/testmy-toollib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 16:13:03] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 16:13:03] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.4.tar.gz tmp/streamlit-binary-tree-0.2.5.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-15 16:13:03] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/22/77/13f66c1f947d8aa062564534678703b9c9d4a8f640323aa54a9bc8525113/yet_another_wizz-2.5.post0.tar.gz
+[2023-07-15 16:13:03] INFO root fetch - processPackages [league-ranker]: executing diffoscope
+[2023-07-15 16:13:03] INFO root fetch - processPackages [league-ranker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-ranker-1.0.1.tar.gz tmp/league-ranker-1.0.2.tar.gz --markdown 20230715/l/league-ranker/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 16:13:03] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-15 16:13:03] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.5.4.tar.gz tmp/yet_another_wizz-2.5.post0.tar.gz --markdown 20230715/y/yet-another-wizz/2.5.4-2.5.post0/diff.md --exclude *.pyd
+[2023-07-15 16:13:04] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.7.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.8.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 16:13:04] INFO root fetch - processPackages [testmy-toollib]: Remove: archive file [/home/abi/fetcher/tmp/testmy_toollib-0.0.1.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - processPackages [testmy-toollib]: Remove: archive file [/home/abi/fetcher/tmp/testmy_toollib-0.0.2.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - main [MainThread]: End processing [testmy-toollib]: success
+[2023-07-15 16:13:04] INFO root fetch - processPackages [league-ranker]: Remove: archive file [/home/abi/fetcher/tmp/league-ranker-1.0.1.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - processPackages [league-ranker]: Remove: archive file [/home/abi/fetcher/tmp/league-ranker-1.0.2.tar.gz]
+[2023-07-15 16:13:04] INFO root fetch - main [MainThread]: End processing [league-ranker]: success
+[2023-07-15 16:13:05] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.4.tar.gz]
+[2023-07-15 16:13:05] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.5.tar.gz]
+[2023-07-15 16:13:05] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 16:13:05] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.4.tar.gz]
+[2023-07-15 16:13:05] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
+[2023-07-15 16:13:05] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-15 16:13:05] INFO root fetch - main [MainThread]: Store serial: [18901044]
