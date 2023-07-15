@@ -13947,3 +13947,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:18:00] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
 [2023-07-15 21:18:00] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
 [2023-07-15 21:18:00] INFO root fetch - main [MainThread]: Store serial: [18902493]
+[2023-07-15 21:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902493]
+[2023-07-15 21:23:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 21:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniteai
+[2023-07-15 21:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-ec2-instance-running-scheduler
+[2023-07-15 21:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjm-yolox-pytorch
+[2023-07-15 21:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-xmodules
+[2023-07-15 21:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: banking-system
+[2023-07-15 21:23:09] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:23:09] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-15 21:23:09] INFO root fetch - processPackages [banking-system]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-15 21:23:09] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:23:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 21:23:09] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 21:23:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 21:23:09] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/ed/d9/389025f6356c68f76b7df4e52553adfc4fc83ea3022ed090ae1ef67f1864/aws-ec2-instance-running-scheduler-0.3.2.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/e3/63/d7ad84479364b15927de06d44536652476906d28d48e0ad0c958fe05eb65/banking_system-1.0.3.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/58/ea/0e9f4cac83cca3b6688ec6b4863ca0ba5bcc4f7bfc6703d33584ac28ae99/banking_system-1.0.4.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/27/97/e3e676059ac49d5e234aed76439dab9d8a1190c731806b01a9becb3561cb/aws-ec2-instance-running-scheduler-0.3.3.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 21:23:10] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 21:23:10] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 21:23:10] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:23:10] INFO root fetch - processPackages [banking-system]: executing diffoscope
+[2023-07-15 21:23:10] INFO root fetch - processPackages [banking-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_system-1.0.3.tar.gz tmp/banking_system-1.0.4.tar.gz --markdown 20230715/b/banking-system/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-15 21:23:10] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-15 21:23:10] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-07-15 21:23:10] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ec2-instance-running-scheduler-0.3.2.tar.gz tmp/aws-ec2-instance-running-scheduler-0.3.3.tar.gz --markdown 20230715/a/aws-ec2-instance-running-scheduler/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-15 21:23:10] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-15 21:23:10] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230715/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:23:11] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.3.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.4.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [banking-system]: success
+[2023-07-15 21:23:11] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 21:23:11] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-running-scheduler-0.3.2.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-running-scheduler-0.3.3.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [aws-ec2-instance-running-scheduler]: success
+[2023-07-15 21:23:11] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 21:23:11] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-15 21:23:11] INFO root fetch - main [MainThread]: Store serial: [18902508]
