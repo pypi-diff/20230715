@@ -5630,3 +5630,42 @@
 [2023-07-15 07:55:41] INFO root fetch - processPackages [pydomotic]: Remove: archive file [/home/abi/fetcher/tmp/pydomotic-1.2.0.tar.gz]
 [2023-07-15 07:55:41] INFO root fetch - main [MainThread]: End processing [pydomotic]: success
 [2023-07-15 07:55:41] INFO root fetch - main [MainThread]: Store serial: [18898435]
+[2023-07-15 08:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898435]
+[2023-07-15 08:00:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 08:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi-template
+[2023-07-15 08:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenbitlib
+[2023-07-15 08:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nomenklatura
+[2023-07-15 08:00:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycppjson
+[2023-07-15 08:00:50] INFO root fetch - processPackages [pycppjson]: New version: [1.2] Old Version: [1.0]
+[2023-07-15 08:00:50] INFO root fetch - processPackages [hyfi-template]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-15 08:00:50] INFO root fetch - processPackages [zenbitlib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 08:00:50] INFO root fetch - processPackages [nomenklatura]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-07-15 08:00:50] INFO root fetch - processPackages [pycppjson]: Downloading https://files.pythonhosted.org/packages/4d/dc/050c88aab01a05ecbd6c51096963356148276ef2f4ba79eb0818518fa8cb/pycppjson-1.0.tar.gz
+[2023-07-15 08:00:50] INFO root fetch - processPackages [zenbitlib]: Downloading https://files.pythonhosted.org/packages/29/0a/425cbe6010aea90aa979049b6f93af093f3c224e61b6661e33470954d85f/zenbitlib-0.0.2.tar.gz
+[2023-07-15 08:00:50] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/88/c7/c468f4902bb05e0e93e6b014cc31164c1c77194b0cbaf4d0f10b4b70a656/hyfi_template-0.4.3.tar.gz
+[2023-07-15 08:00:50] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/76/7c/b4279d9df51173fb9c758a3181ea1c96b61f93ba5c78abb69bf9119a67b3/nomenklatura-3.2.2.tar.gz
+[2023-07-15 08:00:50] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/e1/cd/f29994ea09eb08be80dded39ab4b44e7af61cdd600b2db6e7cdf36c85f29/hyfi_template-0.4.4.tar.gz
+[2023-07-15 08:00:51] INFO root fetch - processPackages [zenbitlib]: Downloading https://files.pythonhosted.org/packages/fc/2b/bbeb13ff19b42422cb8ebb6680d47f32fa37828ac874edf48af8353ec728/zenbitlib-0.0.3.tar.gz
+[2023-07-15 08:00:51] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-15 08:00:51] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.3.tar.gz tmp/hyfi_template-0.4.4.tar.gz --markdown 20230715/h/hyfi-template/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-15 08:00:51] INFO root fetch - processPackages [pycppjson]: Downloading https://files.pythonhosted.org/packages/36/c0/1418476300e35fdf331baab9efc08402fa8577dde27f89666e3d12658a43/pycppjson-1.2.tar.gz
+[2023-07-15 08:00:51] INFO root fetch - processPackages [zenbitlib]: executing diffoscope
+[2023-07-15 08:00:51] INFO root fetch - processPackages [zenbitlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenbitlib-0.0.2.tar.gz tmp/zenbitlib-0.0.3.tar.gz --markdown 20230715/z/zenbitlib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 08:00:51] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/d1/02/3add097e44ddfb3b1cc66ffe92c7bf02135e51212d172f966dfeaf6f61d7/nomenklatura-3.3.0.tar.gz
+[2023-07-15 08:00:51] INFO root fetch - processPackages [pycppjson]: executing diffoscope
+[2023-07-15 08:00:51] INFO root fetch - processPackages [pycppjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycppjson-1.0.tar.gz tmp/pycppjson-1.2.tar.gz --markdown 20230715/p/pycppjson/1.0-1.2/diff.md --exclude *.pyd
+[2023-07-15 08:00:51] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-07-15 08:00:51] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.2.2.tar.gz tmp/nomenklatura-3.3.0.tar.gz --markdown 20230715/n/nomenklatura/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-07-15 08:00:52] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.3.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.4.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-15 08:00:52] INFO root fetch - processPackages [zenbitlib]: Remove: archive file [/home/abi/fetcher/tmp/zenbitlib-0.0.2.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - processPackages [zenbitlib]: Remove: archive file [/home/abi/fetcher/tmp/zenbitlib-0.0.3.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - main [MainThread]: End processing [zenbitlib]: success
+[2023-07-15 08:00:52] INFO root fetch - processPackages [pycppjson]: Remove: archive file [/home/abi/fetcher/tmp/pycppjson-1.0.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - processPackages [pycppjson]: Remove: archive file [/home/abi/fetcher/tmp/pycppjson-1.2.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - main [MainThread]: End processing [pycppjson]: success
+[2023-07-15 08:00:52] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.2.2.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.0.tar.gz]
+[2023-07-15 08:00:52] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-07-15 08:00:52] INFO root fetch - main [MainThread]: Store serial: [18898457]
