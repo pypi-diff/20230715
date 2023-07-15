@@ -8281,3 +8281,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:31:38] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev548330978-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-07-15 12:31:38] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-07-15 12:31:38] INFO root fetch - main [MainThread]: Store serial: [18899722]
+[2023-07-15 12:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899722]
+[2023-07-15 12:36:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 12:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoCarver
+[2023-07-15 12:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-07-15 12:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-07-15 12:36:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytensor
+[2023-07-15 12:36:48] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-15 12:36:48] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 12:36:48] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-07-15 12:36:48] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-15 12:36:48] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-15 12:36:48] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/0c/52/c8b2426d0cb45f67b19d6933d093e63f95b95ad2ce2f3fa6158ab244603f/AutoCarver-5.0.4.tar.gz
+[2023-07-15 12:36:48] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-15 12:36:48] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-07-15 12:36:49] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/d8/82/f35dd001c8a276beb38ad6d4e9a81506a522c7279a814dcdb539dbefae84/AutoCarver-5.0.5.tar.gz
+[2023-07-15 12:36:49] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-15 12:36:49] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-15 12:36:49] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.4.tar.gz tmp/AutoCarver-5.0.5.tar.gz --markdown 20230715/A/AutoCarver/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-15 12:36:49] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-15 12:36:49] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-15 12:36:49] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230715/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 12:36:49] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-15 12:36:49] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230715/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-15 12:36:49] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-07-15 12:36:49] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-07-15 12:36:49] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230715/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-07-15 12:36:50] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.4.tar.gz]
+[2023-07-15 12:36:50] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.5.tar.gz]
+[2023-07-15 12:36:50] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-15 12:36:50] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-15 12:36:50] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-15 12:36:50] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-15 12:36:53] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.8.11.tar.gz]
+[2023-07-15 12:36:53] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
+[2023-07-15 12:36:53] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-07-15 12:37:03] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-15 12:37:03] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-15 12:37:03] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-15 12:37:03] INFO root fetch - main [MainThread]: Store serial: [18899767]
