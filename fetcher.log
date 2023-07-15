@@ -7329,3 +7329,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:57:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.30.tar.gz]
 [2023-07-15 10:57:44] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 10:57:44] INFO root fetch - main [MainThread]: Store serial: [18899345]
+[2023-07-15 11:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899345]
+[2023-07-15 11:02:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 11:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tldr-news
+[2023-07-15 11:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oblate
+[2023-07-15 11:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-freq-ldpy
+[2023-07-15 11:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trustedtwin
+[2023-07-15 11:02:53] INFO root fetch - processPackages [tldr-news]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 11:02:53] WARNING root fetch - processPackages [oblate]: Skipping, unable to determine old version
+[2023-07-15 11:02:53] INFO root fetch - main [MainThread]: End processing [oblate] error
+[2023-07-15 11:02:53] INFO root fetch - processPackages [multi-freq-ldpy]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-15 11:02:53] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230715090125] Old Version: [0.4.9]
+[2023-07-15 11:02:53] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/30/25/03d308a4ad9e801bb05dcd1c075435ca48f50ff32ab4917f413f357155c3/tldr_news-0.2.1.tar.gz
+[2023-07-15 11:02:53] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/ce/28/f3af45ad2474127d80fb70b3ac1e28ff4b45dff893aaf73cf85359e039eb/trustedtwin-0.4.9.tar.gz
+[2023-07-15 11:02:53] INFO root fetch - processPackages [multi-freq-ldpy]: Downloading https://files.pythonhosted.org/packages/97/18/41e395dd099fd43bd0ff725479f948b03da2d1d2cd7c06d1f059272ab949/multi-freq-ldpy-0.2.4.tar.gz
+[2023-07-15 11:02:53] INFO root fetch - processPackages [tldr-news]: Downloading https://files.pythonhosted.org/packages/f8/68/9ee45e354461419bae2aaddf3013f4985652cd3835798bdb4499c6ecf815/tldr_news-0.2.2.tar.gz
+[2023-07-15 11:02:54] INFO root fetch - processPackages [tldr-news]: executing diffoscope
+[2023-07-15 11:02:54] INFO root fetch - processPackages [tldr-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldr_news-0.2.1.tar.gz tmp/tldr_news-0.2.2.tar.gz --markdown 20230715/t/tldr-news/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 11:02:54] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/b5/29/b5e8aecf8cf2901c6b8c450123e545e61600874ec358150ef48e51c368f1/trustedtwin-3.3.20230715090125.tar.gz
+[2023-07-15 11:02:54] INFO root fetch - processPackages [multi-freq-ldpy]: Downloading https://files.pythonhosted.org/packages/c4/df/5bfc7afd4aef00d802b0ae184272a3ff967a402cccf576cc71cd7ce89983/multi-freq-ldpy-0.2.5.tar.gz
+[2023-07-15 11:02:54] INFO root fetch - processPackages [multi-freq-ldpy]: executing diffoscope
+[2023-07-15 11:02:54] INFO root fetch - processPackages [multi-freq-ldpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi-freq-ldpy-0.2.4.tar.gz tmp/multi-freq-ldpy-0.2.5.tar.gz --markdown 20230715/m/multi-freq-ldpy/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-15 11:02:54] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-15 11:02:54] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-0.4.9.tar.gz tmp/trustedtwin-3.3.20230715090125.tar.gz --markdown 20230715/t/trustedtwin/0.4.9-3.3.20230715090125/diff.md --exclude *.pyd
+[2023-07-15 11:02:54] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.1.tar.gz]
+[2023-07-15 11:02:54] INFO root fetch - processPackages [tldr-news]: Remove: archive file [/home/abi/fetcher/tmp/tldr_news-0.2.2.tar.gz]
+[2023-07-15 11:02:54] INFO root fetch - main [MainThread]: End processing [tldr-news]: success
+[2023-07-15 11:02:55] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.9.tar.gz]
+[2023-07-15 11:02:55] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230715090125.tar.gz]
+[2023-07-15 11:02:55] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-15 11:02:55] INFO root fetch - processPackages [multi-freq-ldpy]: Remove: archive file [/home/abi/fetcher/tmp/multi-freq-ldpy-0.2.4.tar.gz]
+[2023-07-15 11:02:55] INFO root fetch - processPackages [multi-freq-ldpy]: Remove: archive file [/home/abi/fetcher/tmp/multi-freq-ldpy-0.2.5.tar.gz]
+[2023-07-15 11:02:55] INFO root fetch - main [MainThread]: End processing [multi-freq-ldpy]: success
+[2023-07-15 11:02:55] INFO root fetch - main [MainThread]: Store serial: [18899360]
