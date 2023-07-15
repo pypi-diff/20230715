@@ -5945,3 +5945,171 @@
 [2023-07-15 08:37:13] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.4.tar.gz]
 [2023-07-15 08:37:13] INFO root fetch - main [MainThread]: End processing [splatnet3-scraper]: success
 [2023-07-15 08:37:13] INFO root fetch - main [MainThread]: Store serial: [18898597]
+[2023-07-15 08:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898597]
+[2023-07-15 08:42:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypy-boto3-cognito-idp
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3-datasync
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-iam
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-ec2
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-connect
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-proton
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-sagemaker
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypy-boto3-secretsmanager
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3-mediatailor
+[2023-07-15 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-personalize
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-proton]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-mediatailor]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-sagemaker]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-iam]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-ec2]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-proton]: Downloading https://files.pythonhosted.org/packages/8e/70/045b70bafcdc05f7d83fb66db241d46e5ed45f060fde8e3907afa6c257cc/mypy-boto3-proton-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-connect]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-personalize]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-datasync]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-mediatailor]: Downloading https://files.pythonhosted.org/packages/40/b2/30946950180c6358302966f614fcd82e8e840360036409a4b53961f5e974/mypy-boto3-mediatailor-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/d5/58/61fd170ce438bd9f4b28b4e8ddccd3c5c22050fe19f2d2a0359c649a9535/mypy-boto3-ec2-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: Downloading https://files.pythonhosted.org/packages/06/2a/b277b354c551600db31a3f83dfcf03f8163d91b1cc447b2bbce7a7237192/mypy-boto3-secretsmanager-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/55/2d/5234c577dcd26f61efe6a7a72fa1951aef09d9c3430c1034995821aa733f/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-datasync]: Downloading https://files.pythonhosted.org/packages/96/5b/b87159ac1257f2191c9b80fe72ae52b833b645399c2f61ccfbdd02c6592b/mypy-boto3-datasync-1.28.3.post1.tar.gz
+[2023-07-15 08:42:22] INFO root fetch - processPackages [mypy-boto3-iam]: Downloading https://files.pythonhosted.org/packages/78/b0/07e2da896c4b1296342847590e914881a828c9e432381b0a35fb81422696/mypy-boto3-iam-1.28.3.post1.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-personalize]: Downloading https://files.pythonhosted.org/packages/3c/17/fd01e5979acca1c6a38dcf43c03ce55d04c566edd13b62af345c9094deb8/mypy-boto3-personalize-1.28.3.post1.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Downloading https://files.pythonhosted.org/packages/54/ae/10d29046e77d692e865bdcf2abbe55c6df610f7a76ef6fe9a13cbefe3a9b/mypy-boto3-sagemaker-1.28.3.post1.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-connect]: Downloading https://files.pythonhosted.org/packages/cd/bc/fdf9060a2a03ed2ad814169bc9bce513783ddec14821d787f5177fb0d0a5/mypy-boto3-connect-1.28.3.post1.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-proton]: Downloading https://files.pythonhosted.org/packages/9b/e8/5a2531247a6e5ea71af8a8b1f47c9cbf96834d3940c9c00c7c35261178f2/mypy-boto3-proton-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-mediatailor]: Downloading https://files.pythonhosted.org/packages/f2/82/a77b46aba03ca308302bb9adb9fd20db4911db117098a2a44eb3e290b4d1/mypy-boto3-mediatailor-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: Downloading https://files.pythonhosted.org/packages/73/c4/d22419fe1f789a0fbb20e07b0e3b66f6ed2e0bff4a11964e2cfef8186816/mypy-boto3-secretsmanager-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-datasync]: Downloading https://files.pythonhosted.org/packages/96/70/03b4c2c5f650516d298e199262390cad1cb6998ea8485f093d4af2632c76/mypy-boto3-datasync-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/e0/e4/bfc52931d8148def24fc8091102ddf6d2ff63815130c5efcfb9f2dfa2a4a/mypy_boto3_ec2-1.28.3.post2-py3-none-any.whl
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/66/89/302eefe2e135ce14db75c3e663f4e777a30ec6f94d317450db6edf1fc315/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-iam]: Downloading https://files.pythonhosted.org/packages/58/da/95bb112f2c614b31ac685b59ca6ce423b13be53be167957e5f83a6ea65c7/mypy-boto3-iam-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-personalize]: Downloading https://files.pythonhosted.org/packages/36/45/79c23fffec67717834da4503911cda9c907f3033593892307825e9c6bf25/mypy-boto3-personalize-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-proton]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-proton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-proton-1.28.3.post1.tar.gz tmp/mypy-boto3-proton-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-proton/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-mediatailor]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-mediatailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-mediatailor-1.28.3.post1.tar.gz tmp/mypy-boto3-mediatailor-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-mediatailor/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-secretsmanager-1.28.3.post1.tar.gz tmp/mypy-boto3-secretsmanager-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-secretsmanager/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-ec2]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ec2-1.28.3.post1.tar.gz tmp/mypy_boto3_ec2-1.28.3.post2-py3-none-any.whl.zip --markdown 20230715/m/mypy-boto3-ec2/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Downloading https://files.pythonhosted.org/packages/49/59/8b2e31300d53137f3295dfc9cf6fdf26b551aafa42093dedbf9aa178c721/mypy-boto3-sagemaker-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-connect]: Downloading https://files.pythonhosted.org/packages/75/89/7ec45de69e924c78f79c567bd0d6e8e92c015ab606e72179872017bc2312/mypy-boto3-connect-1.28.3.post2.tar.gz
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-datasync]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-datasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-datasync-1.28.3.post1.tar.gz tmp/mypy-boto3-datasync-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-datasync/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz tmp/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-cognito-idp/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-personalize]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-personalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-personalize-1.28.3.post1.tar.gz tmp/mypy-boto3-personalize-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-personalize/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-iam]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-iam-1.28.3.post1.tar.gz tmp/mypy-boto3-iam-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-iam/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-sagemaker]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-1.28.3.post1.tar.gz tmp/mypy-boto3-sagemaker-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-sagemaker/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-connect]: executing diffoscope
+[2023-07-15 08:42:23] INFO root fetch - processPackages [mypy-boto3-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-connect-1.28.3.post1.tar.gz tmp/mypy-boto3-connect-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-connect/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-proton]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-proton-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-proton]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-proton-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-proton]: Start processing: mypy-boto3-dms
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-proton]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-dms]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-mediatailor]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-mediatailor-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-mediatailor]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-mediatailor-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-mediatailor]: Start processing: mypy-boto3-s3
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-mediatailor]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-ec2]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-ec2-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-ec2]: Remove: archive file [/home/abi/fetcher/tmp/mypy_boto3_ec2-1.28.3.post2-py3-none-any.whl.zip]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-ec2]: Start processing: mypy-boto3-fsx
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ec2]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-dms]: Downloading https://files.pythonhosted.org/packages/86/b1/f409565f5142506ac194380abb9dca27991a7cbb7507924b18c651db7c11/mypy-boto3-dms-1.28.3.post1.tar.gz
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-s3]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Start processing: mypy-boto3
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cognito-idp]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-fsx]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-secretsmanager-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-secretsmanager-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-secretsmanager]: Start processing: boto3-stubs
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-secretsmanager]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-personalize]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-personalize-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-personalize]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-personalize-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-personalize]: Start processing: boto3-stubs-lite
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-personalize]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-datasync]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-datasync-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-datasync]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-datasync-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-datasync]: Start processing: pyciy
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-datasync]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-fsx]: Downloading https://files.pythonhosted.org/packages/a1/8a/deea0f103b10de8693ac132efd81c71d38817740f30d27cf8a6a1eff3148/mypy-boto3-fsx-1.28.3.post1.tar.gz
+[2023-07-15 08:42:25] INFO root fetch - processPackages [boto3-stubs]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] WARNING root fetch - processPackages [pyciy]: Skipping, unable to determine old version
+[2023-07-15 08:42:25] INFO root fetch - processPackages [pyciy]: Start processing: sqldao-generator
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [pyciy] error
+[2023-07-15 08:42:25] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-iam]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-iam-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-iam]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-iam-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-iam]: Start processing: mypy-boto3-cognito-idp
+[2023-07-15 08:42:25] INFO root fetch - main [MainThread]: End processing [mypy-boto3-iam]: success
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/39/9b/56c8024e487482f8dce122ade2b3636d7a2edb9338ee7b7151f8e12c0e37/mypy-boto3-1.28.3.post1.tar.gz
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/c5/75/86d3dd0adc1432ae87a8c642e265f2630d562d2a4946d64f1a258c8bbb04/mypy-boto3-s3-1.28.3.post1.tar.gz
+[2023-07-15 08:42:25] INFO root fetch - processPackages [sqldao-generator]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/8f/7d/6bd52e409bb57cb78ec60a0e3674dee6e2cc7ae034a832eea3e12e5eeef5/boto3-stubs-1.28.3.post1.tar.gz
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-connect]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-connect-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:25] INFO root fetch - processPackages [mypy-boto3-connect]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-connect-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:26] INFO root fetch - main [MainThread]: End processing [mypy-boto3-connect]: success
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/e4/58/44487698dc1b27b0969499ac540f54af8f2da034575e3d53fac03979510e/boto3-stubs-lite-1.28.3.post1.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-dms]: Downloading https://files.pythonhosted.org/packages/0e/e4/85f117a35d8646e545ac918876e02fc05dca64dfa0e436365c41c6ba033b/mypy-boto3-dms-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/55/2d/5234c577dcd26f61efe6a7a72fa1951aef09d9c3430c1034995821aa733f/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:26] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker]: success
+[2023-07-15 08:42:26] INFO root fetch - processPackages [sqldao-generator]: Downloading https://files.pythonhosted.org/packages/43/b2/207087a361132ce2c2d594e43cc7946aceca677424b7c05cd5abcabca305/sqldao-generator-0.1.2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-fsx]: Downloading https://files.pythonhosted.org/packages/32/9c/09fe738b184b65ebe933752cb13e809be1cf8135f2379f7d16d72419aaec/mypy-boto3-fsx-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-dms]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dms-1.28.3.post1.tar.gz tmp/mypy-boto3-dms-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-dms/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/c1/cd/00c82296394bc0aa95cabcc1719d802a0c4382401c095f7daddd8646e09e/boto3-stubs-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/8f/f6/f13931886901b628fa85f3472ce67449a92bf5e3d30f5f4e22e5e58d2ed9/mypy-boto3-s3-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/42/9b/684d34e9d57fa5aea4ec96a475d1deea6ec6ece8d190a86e79f9d6ed19c4/mypy-boto3-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/68/8c/4db4bd5a59617766406374c7be63ae020ee1e9f594d648d1edd0aa32b275/boto3-stubs-lite-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Downloading https://files.pythonhosted.org/packages/66/89/302eefe2e135ce14db75c3e663f4e777a30ec6f94d317450db6edf1fc315/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [sqldao-generator]: Downloading https://files.pythonhosted.org/packages/d4/f0/dd05e7767819af3d4d97ed0c1dfa38bfa996cdd3b9f83e32dbb650a4bab8/sqldao-generator-0.2.0.tar.gz
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-fsx]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-fsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-fsx-1.28.3.post1.tar.gz tmp/mypy-boto3-fsx-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-fsx/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-s3]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-s3-1.28.3.post1.tar.gz tmp/mypy-boto3-s3-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-s3/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.28.3.post1.tar.gz tmp/boto3-stubs-1.28.3.post2.tar.gz --markdown 20230715/b/boto3-stubs/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.28.3.post1.tar.gz tmp/mypy-boto3-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.28.3.post1.tar.gz tmp/boto3-stubs-lite-1.28.3.post2.tar.gz --markdown 20230715/b/boto3-stubs-lite/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz tmp/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3-cognito-idp/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:42:26] INFO root fetch - processPackages [sqldao-generator]: executing diffoscope
+[2023-07-15 08:42:26] INFO root fetch - processPackages [sqldao-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldao-generator-0.1.2.tar.gz tmp/sqldao-generator-0.2.0.tar.gz --markdown 20230715/s/sqldao-generator/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 08:42:27] INFO root fetch - processPackages [mypy-boto3-dms]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dms-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:27] INFO root fetch - processPackages [mypy-boto3-dms]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dms-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:27] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dms]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-fsx]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-fsx-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-fsx]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-fsx-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3-fsx]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3-s3]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [sqldao-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqldao-generator-0.1.2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [sqldao-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqldao-generator-0.2.0.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [sqldao-generator]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cognito-idp-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3-cognito-idp]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cognito-idp-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cognito-idp]: success
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.3.post1.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.3.post2.tar.gz]
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-07-15 08:42:28] INFO root fetch - main [MainThread]: Store serial: [18898664]
