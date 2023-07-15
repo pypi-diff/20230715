@@ -15420,3 +15420,33 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:38:28] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-15 23:38:28] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-15 23:38:28] INFO root fetch - main [MainThread]: Store serial: [18903161]
+[2023-07-15 23:43:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903161]
+[2023-07-15 23:43:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 23:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osmapi
+[2023-07-15 23:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DateTimeTools
+[2023-07-15 23:43:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panda-python
+[2023-07-15 23:43:37] INFO root fetch - processPackages [panda-python]: New version: [0.5.0] Old Version: [0.0.0]
+[2023-07-15 23:43:37] INFO root fetch - processPackages [osmapi]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-07-15 23:43:37] INFO root fetch - processPackages [DateTimeTools]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-15 23:43:38] INFO root fetch - processPackages [panda-python]: Downloading https://files.pythonhosted.org/packages/de/f3/79edb078c0596c8972d612c233d68963400ee0bfe326a8d1952129cc3b1f/panda_python-0.0.0.tar.gz
+[2023-07-15 23:43:38] INFO root fetch - processPackages [DateTimeTools]: Downloading https://files.pythonhosted.org/packages/3c/1d/94a8a28135fe259de2a2f5b443df283853722a6a37494fcef254aef9a580/DateTimeTools-1.1.1-py3-none-any.whl
+[2023-07-15 23:43:38] INFO root fetch - processPackages [osmapi]: Downloading https://files.pythonhosted.org/packages/96/d5/2fe30c6cf2559672bb752b5832f2ae0f080b45dd6842dd3527b97641ac67/osmapi-3.1.0.tar.gz
+[2023-07-15 23:43:38] INFO root fetch - processPackages [panda-python]: Downloading https://files.pythonhosted.org/packages/1f/05/733a30bef64bc32607dd7015f0edbab145c4721ffed37e6e383800730129/panda-python-0.5.0.tar.gz
+[2023-07-15 23:43:38] INFO root fetch - processPackages [DateTimeTools]: Downloading https://files.pythonhosted.org/packages/49/89/a32ad9e9b697f77a3d1a2c4f9ebb2ead2736268a166f70ac8955c6ab20d0/DateTimeTools-1.2.0.tar.gz
+[2023-07-15 23:43:38] INFO root fetch - processPackages [osmapi]: Downloading https://files.pythonhosted.org/packages/15/66/84ab34a214a32577d4c295c91e9b7063ba331b16668d713ec7ffa77b8f27/osmapi-4.0.0.tar.gz
+[2023-07-15 23:43:38] INFO root fetch - processPackages [DateTimeTools]: executing diffoscope
+[2023-07-15 23:43:38] INFO root fetch - processPackages [DateTimeTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DateTimeTools-1.1.1-py3-none-any.whl.zip tmp/DateTimeTools-1.2.0.tar.gz --markdown 20230715/D/DateTimeTools/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 23:43:38] INFO root fetch - processPackages [panda-python]: executing diffoscope
+[2023-07-15 23:43:38] INFO root fetch - processPackages [panda-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_python-0.0.0.tar.gz tmp/panda-python-0.5.0.tar.gz --markdown 20230715/p/panda-python/0.0.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-15 23:43:38] INFO root fetch - processPackages [osmapi]: executing diffoscope
+[2023-07-15 23:43:38] INFO root fetch - processPackages [osmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmapi-3.1.0.tar.gz tmp/osmapi-4.0.0.tar.gz --markdown 20230715/o/osmapi/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-15 23:43:39] INFO root fetch - processPackages [panda-python]: Remove: archive file [/home/abi/fetcher/tmp/panda_python-0.0.0.tar.gz]
+[2023-07-15 23:43:39] INFO root fetch - processPackages [panda-python]: Remove: archive file [/home/abi/fetcher/tmp/panda-python-0.5.0.tar.gz]
+[2023-07-15 23:43:39] INFO root fetch - main [MainThread]: End processing [panda-python]: success
+[2023-07-15 23:43:39] INFO root fetch - processPackages [DateTimeTools]: Remove: archive file [/home/abi/fetcher/tmp/DateTimeTools-1.1.1-py3-none-any.whl.zip]
+[2023-07-15 23:43:39] INFO root fetch - processPackages [DateTimeTools]: Remove: archive file [/home/abi/fetcher/tmp/DateTimeTools-1.2.0.tar.gz]
+[2023-07-15 23:43:39] INFO root fetch - main [MainThread]: End processing [DateTimeTools]: success
+[2023-07-15 23:43:39] INFO root fetch - processPackages [osmapi]: Remove: archive file [/home/abi/fetcher/tmp/osmapi-3.1.0.tar.gz]
+[2023-07-15 23:43:39] INFO root fetch - processPackages [osmapi]: Remove: archive file [/home/abi/fetcher/tmp/osmapi-4.0.0.tar.gz]
+[2023-07-15 23:43:39] INFO root fetch - main [MainThread]: End processing [osmapi]: success
+[2023-07-15 23:43:39] INFO root fetch - main [MainThread]: Store serial: [18903173]
