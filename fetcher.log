@@ -4955,3 +4955,48 @@
 [2023-07-15 06:52:56] INFO root fetch - processPackages [myFBGcommunication]: Remove: archive file [/home/abi/fetcher/tmp/myFBGcommunication-0.0.4-py3-none-any.whl.zip]
 [2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [myFBGcommunication]: success
 [2023-07-15 06:52:56] INFO root fetch - main [MainThread]: Store serial: [18898097]
+[2023-07-15 06:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898097]
+[2023-07-15 06:58:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-latex-ocr
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiopypiserver
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylywsdxx
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-uwg
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2023-07-15 06:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymysqleasy
+[2023-07-15 06:58:05] INFO root fetch - processPackages [rapid-latex-ocr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 06:58:05] WARNING root fetch - processPackages [aiopypiserver]: Skipping, unable to determine old version
+[2023-07-15 06:58:05] WARNING root fetch - processPackages [pymysqleasy]: Skipping, unable to determine old version
+[2023-07-15 06:58:05] INFO root fetch - main [MainThread]: End processing [aiopypiserver] error
+[2023-07-15 06:58:05] INFO root fetch - main [MainThread]: End processing [pymysqleasy] error
+[2023-07-15 06:58:05] INFO root fetch - processPackages [pylywsdxx]: New version: [1.8.1] Old Version: [1.6.1]
+[2023-07-15 06:58:05] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-15 06:58:05] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-15 06:58:05] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/ec/9a/5c0706ec3e54db47e3ead9d7558cf1b1d66a20b0a79d2f01a21e5797ed0a/pylywsdxx-1.6.1.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [rapid-latex-ocr]: Downloading https://files.pythonhosted.org/packages/e6/df/376e5d3b0220a33c2d3302e8dbf8edd34a84589e05828fb5fe36b744af0b/rapid_latex_ocr-0.0.2-py3-none-any.whl
+[2023-07-15 06:58:05] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/da/d4/01089c84dc0115e3667fc178a875b59e268a3253fe6e8ceb63d15eb302f2/pylywsdxx-1.8.1.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [rapid-latex-ocr]: Downloading https://files.pythonhosted.org/packages/19/f1/44e440c82a87f7657c109f9129dc52c8204524ef557ba706649f42db1629/rapid_latex_ocr-0.0.3-py3-none-any.whl
+[2023-07-15 06:58:05] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-15 06:58:05] INFO root fetch - processPackages [pylywsdxx]: executing diffoscope
+[2023-07-15 06:58:05] INFO root fetch - processPackages [pylywsdxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylywsdxx-1.6.1.tar.gz tmp/pylywsdxx-1.8.1.tar.gz --markdown 20230715/p/pylywsdxx/1.6.1-1.8.1/diff.md --exclude *.pyd
+[2023-07-15 06:58:05] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-15 06:58:05] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230715/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-15 06:58:05] INFO root fetch - processPackages [rapid-latex-ocr]: executing diffoscope
+[2023-07-15 06:58:05] INFO root fetch - processPackages [rapid-latex-ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_latex_ocr-0.0.2-py3-none-any.whl.zip tmp/rapid_latex_ocr-0.0.3-py3-none-any.whl.zip --markdown 20230715/r/rapid-latex-ocr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 06:58:06] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-15 06:58:06] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230715/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-15 06:58:06] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.6.1.tar.gz]
+[2023-07-15 06:58:06] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.8.1.tar.gz]
+[2023-07-15 06:58:06] INFO root fetch - main [MainThread]: End processing [pylywsdxx]: success
+[2023-07-15 06:58:06] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-15 06:58:06] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-15 06:58:06] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-15 06:58:06] INFO root fetch - processPackages [rapid-latex-ocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_latex_ocr-0.0.2-py3-none-any.whl.zip]
+[2023-07-15 06:58:06] INFO root fetch - processPackages [rapid-latex-ocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_latex_ocr-0.0.3-py3-none-any.whl.zip]
+[2023-07-15 06:58:06] INFO root fetch - main [MainThread]: End processing [rapid-latex-ocr]: success
+[2023-07-15 06:58:07] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-15 06:58:07] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-15 06:58:07] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-15 06:58:07] INFO root fetch - main [MainThread]: Store serial: [18898118]
