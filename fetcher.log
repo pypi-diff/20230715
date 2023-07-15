@@ -5380,3 +5380,36 @@
 [2023-07-15 07:29:39] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1rc2.tar.gz]
 [2023-07-15 07:29:39] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
 [2023-07-15 07:29:39] INFO root fetch - main [MainThread]: Store serial: [18898325]
+[2023-07-15 07:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898325]
+[2023-07-15 07:34:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 07:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenbitlib
+[2023-07-15 07:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irene-pro
+[2023-07-15 07:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-15 07:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-07-15 07:34:48] WARNING root fetch - processPackages [zenbitlib]: Skipping, unable to determine old version
+[2023-07-15 07:34:48] INFO root fetch - main [MainThread]: End processing [zenbitlib] error
+[2023-07-15 07:34:48] INFO root fetch - processPackages [irene-pro]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 07:34:48] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-15 07:34:48] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-15 07:34:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-15 07:34:48] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-15 07:34:48] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/2b/1d/9e6c894519972f3f30534320ee7ba895f080e420e047e6327cbcbdd961a6/irene_pro-0.0.98.tar.gz
+[2023-07-15 07:34:49] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-15 07:34:49] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-15 07:34:49] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-15 07:34:49] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230715/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-15 07:34:49] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a8/43/89d0471b291263b7acedcabe8641f0a703247d4b4c02b02836e0ee6603b9/irene_pro-0.0.99.tar.gz
+[2023-07-15 07:34:49] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-15 07:34:49] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230715/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-15 07:34:49] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-15 07:34:49] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.98.tar.gz tmp/irene_pro-0.0.99.tar.gz --markdown 20230715/i/irene-pro/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 07:34:50] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-15 07:34:50] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.98.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.99.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-15 07:34:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-15 07:34:50] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-15 07:34:50] INFO root fetch - main [MainThread]: Store serial: [18898349]
