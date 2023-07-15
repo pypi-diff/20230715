@@ -6384,3 +6384,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:08:23] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
 [2023-07-15 09:08:23] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
 [2023-07-15 09:08:23] INFO root fetch - main [MainThread]: Store serial: [18898757]
+[2023-07-15 09:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898757]
+[2023-07-15 09:13:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maco
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maco-model
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-edubarse-attempt-3
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scinode
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-draughts
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ishanmath
+[2023-07-15 09:13:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco-model]: New version: [1.0.8] Old Version: [1.0.2.dev0]
+[2023-07-15 09:13:32] WARNING root fetch - processPackages [example-package-edubarse-attempt-3]: Skipping, unable to determine old version
+[2023-07-15 09:13:32] INFO root fetch - main [MainThread]: End processing [example-package-edubarse-attempt-3] error
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-15 09:13:32] WARNING root fetch - processPackages [ishanmath]: Skipping, unable to determine old version
+[2023-07-15 09:13:32] INFO root fetch - main [MainThread]: End processing [ishanmath] error
+[2023-07-15 09:13:32] WARNING root fetch - processPackages [scinode]: Skipping, unable to determine old version
+[2023-07-15 09:13:32] INFO root fetch - main [MainThread]: End processing [scinode] error
+[2023-07-15 09:13:32] INFO root fetch - processPackages [py-draughts]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-07-15 09:13:32] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco-model]: Downloading https://files.pythonhosted.org/packages/2d/da/8f9bfaae0bacb1c8c3f2ec5f4eb073037c4958337a7e1cbd45a43582abbd/maco-model-1.0.2.dev0.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco]: Downloading https://files.pythonhosted.org/packages/07/5b/a12276f70ac7e29729d360036aa966ceb3f850b661dd51417e1a8cfdaa4c/maco-1.0.7.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/f6/81/0f0cefbf47ee745e5a5513555eaece18b877797046b35675cde047da181e/py-draughts-1.0.4.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco]: Downloading https://files.pythonhosted.org/packages/86/99/82fac72bebc47c5ed4cbcd1ff34b03558bcdcfa3ffb1fc6900e6b81be1aa/maco-1.0.8.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/15/a0/3b74d8496abf666909cc523cc079f79a11d05b9c67d038f65964da3cf2c6/py-draughts-1.0.6.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco]: executing diffoscope
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maco-1.0.7.tar.gz tmp/maco-1.0.8.tar.gz --markdown 20230715/m/maco/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco-model]: Downloading https://files.pythonhosted.org/packages/17/4d/fc6a0c0e28fbebb3e1038c7185214fbcaed6e0e98c2bbaff55f21ff5d4c2/maco-model-1.0.8.tar.gz
+[2023-07-15 09:13:32] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-15 09:13:32] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-1.0.4.tar.gz tmp/py-draughts-1.0.6.tar.gz --markdown 20230715/p/py-draughts/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco-model]: executing diffoscope
+[2023-07-15 09:13:32] INFO root fetch - processPackages [maco-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maco-model-1.0.2.dev0.tar.gz tmp/maco-model-1.0.8.tar.gz --markdown 20230715/m/maco-model/1.0.2.dev0-1.0.8/diff.md --exclude *.pyd
+[2023-07-15 09:13:33] INFO root fetch - processPackages [maco]: Remove: archive file [/home/abi/fetcher/tmp/maco-1.0.7.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - processPackages [maco]: Remove: archive file [/home/abi/fetcher/tmp/maco-1.0.8.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - main [MainThread]: End processing [maco]: success
+[2023-07-15 09:13:33] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.0.4.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.0.6.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-15 09:13:33] INFO root fetch - processPackages [maco-model]: Remove: archive file [/home/abi/fetcher/tmp/maco-model-1.0.2.dev0.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - processPackages [maco-model]: Remove: archive file [/home/abi/fetcher/tmp/maco-model-1.0.8.tar.gz]
+[2023-07-15 09:13:33] INFO root fetch - main [MainThread]: End processing [maco-model]: success
+[2023-07-15 09:13:34] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-15 09:13:37] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-15 09:13:37] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230715/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-15 09:13:45] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-15 09:13:45] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-15 09:13:45] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-15 09:13:45] INFO root fetch - main [MainThread]: Store serial: [18898786]
