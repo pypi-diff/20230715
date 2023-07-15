@@ -6170,3 +6170,33 @@
 [2023-07-15 08:47:40] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.3.post2.tar.gz]
 [2023-07-15 08:47:40] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
 [2023-07-15 08:47:40] INFO root fetch - main [MainThread]: Store serial: [18898697]
+[2023-07-15 08:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898697]
+[2023-07-15 08:52:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 08:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuo-kuwo
+[2023-07-15 08:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betfair-parser
+[2023-07-15 08:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-defer
+[2023-07-15 08:52:49] INFO root fetch - processPackages [betfair-parser]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-15 08:52:49] INFO root fetch - processPackages [fuo-kuwo]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 08:52:49] INFO root fetch - processPackages [python-defer]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 08:52:49] INFO root fetch - processPackages [fuo-kuwo]: Downloading https://files.pythonhosted.org/packages/83/40/96c9177a4781990fc780cdbefb21f4496b9790a9cb5a6beebe43d55c28bc/fuo-kuwo-0.2.0.tar.gz
+[2023-07-15 08:52:49] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/89/1a/aec8b9568f1179741f8dd354deaf4db019e212d3230154d899074a962206/betfair_parser-0.4.4.tar.gz
+[2023-07-15 08:52:49] INFO root fetch - processPackages [python-defer]: Downloading https://files.pythonhosted.org/packages/2e/9b/631536f30c6528d30881cbcf7e80672ee41252d4fe2ddd7e21f7240e916e/python_defer-0.2.0.tar.gz
+[2023-07-15 08:52:49] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/96/c7/1f53a90ac3f8c3cacaed101de333a57da71d125d6c3f75abc2dcc760c103/betfair_parser-0.4.5.tar.gz
+[2023-07-15 08:52:49] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2023-07-15 08:52:49] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.4.4.tar.gz tmp/betfair_parser-0.4.5.tar.gz --markdown 20230715/b/betfair-parser/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-15 08:52:49] INFO root fetch - processPackages [fuo-kuwo]: Downloading https://files.pythonhosted.org/packages/f1/68/ab38dad61ac864a3ce8a815491682a6bc955ee018b4f10d06c9809ad8386/fuo-kuwo-0.2.1.tar.gz
+[2023-07-15 08:52:49] INFO root fetch - processPackages [fuo-kuwo]: executing diffoscope
+[2023-07-15 08:52:49] INFO root fetch - processPackages [fuo-kuwo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo-kuwo-0.2.0.tar.gz tmp/fuo-kuwo-0.2.1.tar.gz --markdown 20230715/f/fuo-kuwo/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 08:52:50] INFO root fetch - processPackages [python-defer]: Downloading https://files.pythonhosted.org/packages/9a/11/0f00a8d598eccef9ef0435cf1deafc4592a552ba4dc73ea8a72a00ab8b79/python_defer-0.2.1.tar.gz
+[2023-07-15 08:52:50] INFO root fetch - processPackages [python-defer]: executing diffoscope
+[2023-07-15 08:52:50] INFO root fetch - processPackages [python-defer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_defer-0.2.0.tar.gz tmp/python_defer-0.2.1.tar.gz --markdown 20230715/p/python-defer/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 08:52:50] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.4.tar.gz]
+[2023-07-15 08:52:50] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.5.tar.gz]
+[2023-07-15 08:52:50] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2023-07-15 08:52:50] INFO root fetch - processPackages [fuo-kuwo]: Remove: archive file [/home/abi/fetcher/tmp/fuo-kuwo-0.2.0.tar.gz]
+[2023-07-15 08:52:50] INFO root fetch - processPackages [fuo-kuwo]: Remove: archive file [/home/abi/fetcher/tmp/fuo-kuwo-0.2.1.tar.gz]
+[2023-07-15 08:52:50] INFO root fetch - main [MainThread]: End processing [fuo-kuwo]: success
+[2023-07-15 08:52:51] INFO root fetch - processPackages [python-defer]: Remove: archive file [/home/abi/fetcher/tmp/python_defer-0.2.0.tar.gz]
+[2023-07-15 08:52:51] INFO root fetch - processPackages [python-defer]: Remove: archive file [/home/abi/fetcher/tmp/python_defer-0.2.1.tar.gz]
+[2023-07-15 08:52:51] INFO root fetch - main [MainThread]: End processing [python-defer]: success
+[2023-07-15 08:52:51] INFO root fetch - main [MainThread]: Store serial: [18898706]
