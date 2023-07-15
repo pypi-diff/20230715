@@ -14858,3 +14858,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:41:14] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
 [2023-07-15 22:41:14] INFO root fetch - main [MainThread]: End processing [guify]: success
 [2023-07-15 22:41:14] INFO root fetch - main [MainThread]: Store serial: [18902935]
+[2023-07-15 22:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902935]
+[2023-07-15 22:46:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sign-language-translator
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Upgrade-OC
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-coordinator
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-engine
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-include
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dj-beatcloud
+[2023-07-15 22:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azuredevopsX
+[2023-07-15 22:46:23] INFO root fetch - processPackages [sign-language-translator]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-15 22:46:23] WARNING root fetch - processPackages [Upgrade-OC]: Skipping, unable to determine old version
+[2023-07-15 22:46:23] INFO root fetch - main [MainThread]: End processing [Upgrade-OC] error
+[2023-07-15 22:46:23] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230715] Old Version: [0.24.0a20230714]
+[2023-07-15 22:46:23] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230715] Old Version: [0.24.0a20230714]
+[2023-07-15 22:46:23] INFO root fetch - processPackages [dj-beatcloud]: New version: [2.6.0b0] Old Version: [2.5.1b5]
+[2023-07-15 22:46:23] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230715] Old Version: [0.24.0a20230714]
+[2023-07-15 22:46:23] INFO root fetch - processPackages [azuredevopsX]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/87/02/4580e11e1b35d516f78499400c89cc657e2195be4a85f60acc557589f3da/gs_engine-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/d6/96/9461ce082e23d4dd521152a8841894f520527ab1aab19265e10ca8262104/sign_language_translator-0.4.2.tar.gz
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/7e/63/e2aecda7be5438c427dc3c033d9d8f7763d76f7aad1161f1f6db849e010e/gs_coordinator-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/10/52/b0cb60c7779cf5448845eac70ef0f0c22b919bb0d3a9bb98f6d77bc9c90d/gs_include-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/3b/b8/3f091c0ea7f85dcb07385576f098d6e103f65d1a0bfe8de4e5a637444a72/azuredevopsX-0.0.18-py3-none-any.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/1b/50/5d758d8bede75e6c3a88cf0969674e2df75999445b3c60eae6cb20a1653b/dj_beatcloud-2.5.1b5.tar.gz
+[2023-07-15 22:46:24] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32290235>=10485760
+[2023-07-15 22:46:24] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/fc/a3/480dcb19990b00066ebecc522ad04f560f83284eda81ac3897c67de8e707/gs_engine-0.24.0a20230715-py2.py3-none-any.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [sign-language-translator]: Downloading https://files.pythonhosted.org/packages/70/d7/962894f21b47d7cac652ec69e95734b1717bb04e76511cbab7fa14340c6f/sign_language_translator-0.5.0.tar.gz
+[2023-07-15 22:46:24] INFO root fetch - processPackages [sign-language-translator]: executing diffoscope
+[2023-07-15 22:46:24] INFO root fetch - processPackages [sign-language-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sign_language_translator-0.4.2.tar.gz tmp/sign_language_translator-0.5.0.tar.gz --markdown 20230715/s/sign-language-translator/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-15 22:46:24] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/dd/d5/ce059492bc2220c3fa300920d548a97ea53eb75a1942f31ca09ae32bdc6d/azuredevopsX-0.0.19-py3-none-any.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/28/f8/0cd47967e8290a56c0efa06be6f1bb48695747300a4ece1fa552d9e4ce79/gs_coordinator-0.24.0a20230715-py2.py3-none-any.whl
+[2023-07-15 22:46:24] INFO root fetch - processPackages [dj-beatcloud]: Downloading https://files.pythonhosted.org/packages/2c/68/802a0d1708f0aab27573712567863f8d4a7f14f972a6cde52068cc8f7ca4/dj_beatcloud-2.6.0b0.tar.gz
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230715-py2.py3-none-any.whl.zip --markdown 20230715/g/gs-engine/0.24.0a20230714-0.24.0a20230715/diff.md --exclude *.pyd
+[2023-07-15 22:46:24] INFO root fetch - processPackages [azuredevopsX]: executing diffoscope
+[2023-07-15 22:46:24] INFO root fetch - processPackages [azuredevopsX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuredevopsX-0.0.18-py3-none-any.whl.zip tmp/azuredevopsX-0.0.19-py3-none-any.whl.zip --markdown 20230715/a/azuredevopsX/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-15 22:46:24] INFO root fetch - processPackages [dj-beatcloud]: executing diffoscope
+[2023-07-15 22:46:24] INFO root fetch - processPackages [dj-beatcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_beatcloud-2.5.1b5.tar.gz tmp/dj_beatcloud-2.6.0b0.tar.gz --markdown 20230715/d/dj-beatcloud/2.5.1b5-2.6.0b0/diff.md --exclude *.pyd
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-15 22:46:24] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230715-py2.py3-none-any.whl.zip --markdown 20230715/g/gs-coordinator/0.24.0a20230714-0.24.0a20230715/diff.md --exclude *.pyd
+[2023-07-15 22:46:25] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-15 22:46:25] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230715-py2.py3-none-any.whl.zip]
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-15 22:46:25] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.4.2.tar.gz]
+[2023-07-15 22:46:25] INFO root fetch - processPackages [sign-language-translator]: Remove: archive file [/home/abi/fetcher/tmp/sign_language_translator-0.5.0.tar.gz]
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [sign-language-translator]: success
+[2023-07-15 22:46:25] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.18-py3-none-any.whl.zip]
+[2023-07-15 22:46:25] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.19-py3-none-any.whl.zip]
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [azuredevopsX]: success
+[2023-07-15 22:46:25] ERROR root fetch - processPackages [gs-coordinator]: Diffoscope failed: time="2023-07-15T22:46:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 138, in compare_files
+    and (file1.as_container is None or file2.as_container is None)
+         ^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 285, in as_container
+    self._as_container = klass(self)
+                         ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 43, in __init__
+    self._archive = self.open_archive()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 179, in open_archive
+    return zipfile.ZipFile(self.source.path, "r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.11/zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [gs-coordinator] error
+[2023-07-15 22:46:25] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.5.1b5.tar.gz]
+[2023-07-15 22:46:25] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b0.tar.gz]
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
+[2023-07-15 22:46:25] INFO root fetch - main [MainThread]: Store serial: [18902963]
