@@ -15380,3 +15380,43 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:33:05] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.4.tar.gz]
 [2023-07-15 23:33:05] INFO root fetch - main [MainThread]: End processing [tuck]: success
 [2023-07-15 23:33:05] INFO root fetch - main [MainThread]: Store serial: [18903136]
+[2023-07-15 23:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903136]
+[2023-07-15 23:38:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 23:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PHX
+[2023-07-15 23:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pqp
+[2023-07-15 23:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dotabase
+[2023-07-15 23:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-07-15 23:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2023-07-15 23:38:13] INFO root fetch - processPackages [pqp]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-15 23:38:13] INFO root fetch - processPackages [dotabase]: New version: [7.4.5] Old Version: [7.4.4]
+[2023-07-15 23:38:14] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 23:38:14] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-15 23:38:14] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-15 23:38:14] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/17/22/3926739b942b0394494aab1ed57844367e93c110cbd62f97923a869c2d57/pqp-0.3.4.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-15 23:38:14] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-15 23:38:14] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-15 23:38:14] INFO root fetch - processPackages [dotabase]: Downloading https://files.pythonhosted.org/packages/b5/5e/3fc907cdb6acb1cdffdb54c12268684eb9a72ada022c2a12b3a6011f5b59/dotabase-7.4.4.tar.gz
+[2023-07-15 23:38:14] WARNING root fetch - processPackages [dotabase]: Skipping package: exceeds size limit 16219943>=10485760
+[2023-07-15 23:38:14] INFO root fetch - main [MainThread]: End processing [dotabase] error
+[2023-07-15 23:38:14] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-07-15 23:38:14] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230715/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 23:38:14] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/11/b2/dd642e7148164ca98373d3e99e8023ef56a645cf0f6337527a7a30188178/pqp-0.3.5.tar.gz
+[2023-07-15 23:38:14] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-15 23:38:14] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230715/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-15 23:38:14] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-07-15 23:38:14] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.4.tar.gz tmp/pqp-0.3.5.tar.gz --markdown 20230715/p/pqp/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-15 23:38:16] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2023-07-15 23:38:16] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2023-07-15 23:38:16] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-07-15 23:38:16] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.4.tar.gz]
+[2023-07-15 23:38:16] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.5.tar.gz]
+[2023-07-15 23:38:16] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-07-15 23:38:28] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-15 23:38:28] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-15 23:38:28] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-15 23:38:28] INFO root fetch - main [MainThread]: Store serial: [18903161]
