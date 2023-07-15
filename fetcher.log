@@ -13311,3 +13311,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:15:40] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.7-py3-none-any.whl.zip]
 [2023-07-15 20:15:40] INFO root fetch - main [MainThread]: End processing [mostats]: success
 [2023-07-15 20:15:40] INFO root fetch - main [MainThread]: Store serial: [18902234]
+[2023-07-15 20:20:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902234]
+[2023-07-15 20:20:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-secure-log-bucket
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mostats
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkinter-map
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-blocker
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiYahya
+[2023-07-15 20:20:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revealjs
+[2023-07-15 20:20:49] WARNING root fetch - processPackages [hiYahya]: Skipping, unable to determine old version
+[2023-07-15 20:20:49] INFO root fetch - main [MainThread]: End processing [hiYahya] error
+[2023-07-15 20:20:49] INFO root fetch - processPackages [aws-secure-log-bucket]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-15 20:20:49] INFO root fetch - processPackages [mostats]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-15 20:20:49] INFO root fetch - processPackages [revealjs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 20:20:49] INFO root fetch - processPackages [nonebot-plugin-blocker]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 20:20:49] WARNING root fetch - processPackages [tkinter-map]: Skipping, unable to determine old version
+[2023-07-15 20:20:49] INFO root fetch - main [MainThread]: End processing [tkinter-map] error
+[2023-07-15 20:20:49] INFO root fetch - processPackages [aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/d3/25/d87e2b7196b2c544f2229a2541a705d017390e02fcfe470b830f63c462ff/aws-secure-log-bucket-0.8.1.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/3e/a0/0ae1102668605310485ea8135203c3c6bb4dd2ddb7d15418631d374ab098/mostats-1.0.7-py3-none-any.whl
+[2023-07-15 20:20:49] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/c6/f2/b4d931159706f2b903a763298fb3d6e91f2b6a9c0c8624964127bcfdb7e3/nonebot-plugin-blocker-0.2.0.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/6b/16/6b5d5fee885bf0b68c2eaf04764b3b9b8bdaee7822b79fa096998837369d/revealjs-0.0.2.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/4d/d5/9737916cb01fc3200ddc5da2fd490309beeb71c18c200ecc00df1bd51d39/mostats-1.0.8-py3-none-any.whl
+[2023-07-15 20:20:49] INFO root fetch - processPackages [aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/e3/72/5dcd1ca7860907e2a3359691dc2ba592d80fd4ace31993b045bfcf7a5f8c/aws-secure-log-bucket-0.8.2.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [nonebot-plugin-blocker]: Downloading https://files.pythonhosted.org/packages/ba/e1/4bee2c4af9032c4960e2f53a32ebe909a5c07145746ac2838c494901a898/nonebot-plugin-blocker-0.2.1.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/df/78/d56cfc87837a81e08fc4756702b7664909baf2bb11d558d1a87bda950d29/revealjs-0.0.3.tar.gz
+[2023-07-15 20:20:49] INFO root fetch - processPackages [aws-secure-log-bucket]: executing diffoscope
+[2023-07-15 20:20:49] INFO root fetch - processPackages [aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-secure-log-bucket-0.8.1.tar.gz tmp/aws-secure-log-bucket-0.8.2.tar.gz --markdown 20230715/a/aws-secure-log-bucket/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-15 20:20:49] INFO root fetch - processPackages [nonebot-plugin-blocker]: executing diffoscope
+[2023-07-15 20:20:49] INFO root fetch - processPackages [nonebot-plugin-blocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-blocker-0.2.0.tar.gz tmp/nonebot-plugin-blocker-0.2.1.tar.gz --markdown 20230715/n/nonebot-plugin-blocker/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 20:20:49] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-15 20:20:49] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.7-py3-none-any.whl.zip tmp/mostats-1.0.8-py3-none-any.whl.zip --markdown 20230715/m/mostats/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-15 20:20:49] INFO root fetch - processPackages [revealjs]: executing diffoscope
+[2023-07-15 20:20:49] INFO root fetch - processPackages [revealjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revealjs-0.0.2.tar.gz tmp/revealjs-0.0.3.tar.gz --markdown 20230715/r/revealjs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 20:20:50] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.2.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.3.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - main [MainThread]: End processing [revealjs]: success
+[2023-07-15 20:20:50] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.7-py3-none-any.whl.zip]
+[2023-07-15 20:20:50] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.8-py3-none-any.whl.zip]
+[2023-07-15 20:20:50] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-15 20:20:50] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.2.0.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - processPackages [nonebot-plugin-blocker]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-blocker-0.2.1.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blocker]: success
+[2023-07-15 20:20:50] INFO root fetch - processPackages [aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/aws-secure-log-bucket-0.8.1.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - processPackages [aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/aws-secure-log-bucket-0.8.2.tar.gz]
+[2023-07-15 20:20:50] INFO root fetch - main [MainThread]: End processing [aws-secure-log-bucket]: success
+[2023-07-15 20:20:50] INFO root fetch - main [MainThread]: Store serial: [18902256]
