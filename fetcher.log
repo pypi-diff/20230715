@@ -10583,3 +10583,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz]
 [2023-07-15 16:02:33] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-07-15 16:02:33] INFO root fetch - main [MainThread]: Store serial: [18900961]
+[2023-07-15 16:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900961]
+[2023-07-15 16:07:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loco-hd
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graph-cordinates
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongoclasses
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testmy-toollib
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-toys
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotior-sensus
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klassez
+[2023-07-15 16:07:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-07-15 16:07:43] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 16:07:43] INFO root fetch - processPackages [loco-hd]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 16:07:44] WARNING root fetch - processPackages [testmy-toollib]: Skipping, unable to determine old version
+[2023-07-15 16:07:44] INFO root fetch - main [MainThread]: End processing [testmy-toollib] error
+[2023-07-15 16:07:44] INFO root fetch - processPackages [mongoclasses]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-15 16:07:44] INFO root fetch - processPackages [graph-cordinates]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 16:07:44] INFO root fetch - processPackages [llm-toys]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 16:07:44] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-15 16:07:44] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [klassez]: New version: [0.3a1] Old Version: [0.2a0]
+[2023-07-15 16:07:44] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/f9/5b/3c0762aa2528d2c2ed47089fd72948e516b89e893a8515190e44aea3f3f6/graph_cordinates-0.0.2.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [loco-hd]: Downloading https://files.pythonhosted.org/packages/af/3e/d1cd2cd98e4ca9510f69bea2be74921ad2be2816f51fe7217bf8b230e566/loco_hd-0.1.2.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/2b/6d/308ea0741abab21ab9b7872e8fcc44079649e01841690482694634287d8b/llm-toys-0.0.3.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [mongoclasses]: Downloading https://files.pythonhosted.org/packages/3c/ba/d063e76475cdafca361e2fe368ea7acac72d882552e7eb00a0e62d9fa668/mongoclasses-0.3.0.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [klassez]: Downloading https://files.pythonhosted.org/packages/ad/d6/623d3298ab4312ed68a7d79eb4e79df687f05fe78f7deedc150dc5bac989/klassez-0.2a0-py3-none-any.whl
+[2023-07-15 16:07:44] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/82/4d/b41f63e65d720132da33b050b5ca19259802d997dfd554d066c7dd266fbe/graph_cordinates-0.0.3.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [loco-hd]: Downloading https://files.pythonhosted.org/packages/e4/07/a0b0548e67dc9b0e48fcd11fc662cc59222ded4243213b1a1455401befce/loco_hd-0.1.3.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/ee/29/9b4d1aa6a7de06a0245f20e43391abb5100a6166d14e6b0739ec8c2fa595/llm-toys-0.0.4.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [graph-cordinates]: executing diffoscope
+[2023-07-15 16:07:44] INFO root fetch - processPackages [graph-cordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_cordinates-0.0.2.tar.gz tmp/graph_cordinates-0.0.3.tar.gz --markdown 20230715/g/graph-cordinates/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 16:07:44] INFO root fetch - processPackages [loco-hd]: executing diffoscope
+[2023-07-15 16:07:44] INFO root fetch - processPackages [loco-hd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loco_hd-0.1.2.tar.gz tmp/loco_hd-0.1.3.tar.gz --markdown 20230715/l/loco-hd/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 16:07:44] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-15 16:07:44] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230715/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 16:07:44] INFO root fetch - processPackages [mongoclasses]: Downloading https://files.pythonhosted.org/packages/55/a4/b27508a320a9caaaae507d937db1a47fa20a8e8c8c5cd655f2570bd549a0/mongoclasses-0.4.0.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 16:07:44] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.3.tar.gz tmp/llm-toys-0.0.4.tar.gz --markdown 20230715/l/llm-toys/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 16:07:44] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-15 16:07:44] INFO root fetch - processPackages [mongoclasses]: executing diffoscope
+[2023-07-15 16:07:44] INFO root fetch - processPackages [mongoclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoclasses-0.3.0.tar.gz tmp/mongoclasses-0.4.0.tar.gz --markdown 20230715/m/mongoclasses/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-15 16:07:45] INFO root fetch - processPackages [klassez]: Downloading https://files.pythonhosted.org/packages/cf/a3/c169520a8cf0104509f60e8c1cc7e6c67b58cec666963df7bc17abb9b353/klassez-0.3a1.tar.gz
+[2023-07-15 16:07:45] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-15 16:07:45] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230715/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-15 16:07:45] INFO root fetch - processPackages [klassez]: executing diffoscope
+[2023-07-15 16:07:45] INFO root fetch - processPackages [klassez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klassez-0.2a0-py3-none-any.whl.zip tmp/klassez-0.3a1.tar.gz --markdown 20230715/k/klassez/0.2a0-0.3a1/diff.md --exclude *.pyd
+[2023-07-15 16:07:45] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.3.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.4.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 16:07:45] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.2.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.3.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - main [MainThread]: End processing [graph-cordinates]: success
+[2023-07-15 16:07:45] INFO root fetch - processPackages [mongoclasses]: Remove: archive file [/home/abi/fetcher/tmp/mongoclasses-0.3.0.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - processPackages [mongoclasses]: Remove: archive file [/home/abi/fetcher/tmp/mongoclasses-0.4.0.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - main [MainThread]: End processing [mongoclasses]: success
+[2023-07-15 16:07:45] INFO root fetch - processPackages [loco-hd]: Remove: archive file [/home/abi/fetcher/tmp/loco_hd-0.1.2.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - processPackages [loco-hd]: Remove: archive file [/home/abi/fetcher/tmp/loco_hd-0.1.3.tar.gz]
+[2023-07-15 16:07:45] INFO root fetch - main [MainThread]: End processing [loco-hd]: success
+[2023-07-15 16:07:46] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-15 16:07:46] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-15 16:07:46] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-15 16:07:47] INFO root fetch - processPackages [klassez]: Remove: archive file [/home/abi/fetcher/tmp/klassez-0.2a0-py3-none-any.whl.zip]
+[2023-07-15 16:07:47] INFO root fetch - processPackages [klassez]: Remove: archive file [/home/abi/fetcher/tmp/klassez-0.3a1.tar.gz]
+[2023-07-15 16:07:47] INFO root fetch - main [MainThread]: End processing [klassez]: success
+[2023-07-15 16:07:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-15 16:07:50] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-15 16:07:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-15 16:07:50] INFO root fetch - main [MainThread]: Store serial: [18900990]
