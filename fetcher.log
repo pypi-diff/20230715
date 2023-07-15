@@ -6473,3 +6473,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:24:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.18.tar.gz]
 [2023-07-15 09:24:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 09:24:07] INFO root fetch - main [MainThread]: Store serial: [18898836]
+[2023-07-15 09:29:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898836]
+[2023-07-15 09:29:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lea-pi
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phoning-home
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: target-s3-delta
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbix-plus
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: factool
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magentic
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lea-pi
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ishanmath
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: srai-core
+[2023-07-15 09:29:16] INFO root fetch - processPackages [lea-pi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 09:29:16] INFO root fetch - processPackages [factool]: New version: [0.0.7] Old Version: [0.0.1]
+[2023-07-15 09:29:16] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ishanmath]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 09:29:16] INFO root fetch - processPackages [lea-pi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 09:29:16] WARNING root fetch - processPackages [magentic]: Skipping, unable to determine old version
+[2023-07-15 09:29:16] INFO root fetch - main [MainThread]: End processing [magentic] error
+[2023-07-15 09:29:16] WARNING root fetch - processPackages [phoning-home]: Skipping, unable to determine old version
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ork.build]: New version: [0.0.20] Old Version: [0.0.18]
+[2023-07-15 09:29:16] INFO root fetch - main [MainThread]: End processing [phoning-home] error
+[2023-07-15 09:29:16] INFO root fetch - processPackages [pbix-plus]: New version: [23.7.2] Old Version: [23.7.1]
+[2023-07-15 09:29:16] WARNING root fetch - processPackages [srai-core]: Skipping, unable to determine old version
+[2023-07-15 09:29:16] INFO root fetch - main [MainThread]: End processing [srai-core] error
+[2023-07-15 09:29:16] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/a2/52/b37b284743c5e2ad6fad60d0207af0b6292a900dd6904696c6750d9e6500/lea_pi-0.1.0.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/a2/52/b37b284743c5e2ad6fad60d0207af0b6292a900dd6904696c6750d9e6500/lea_pi-0.1.0.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/c3/6c/f8cb9940607173f87d4e04c29bda96f7dad49bf545b32b455d2309f01175/ork.build-0.0.18.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/2b/2f/dec71ba016fd7974ee279e7da58e80af6e391097ca122c23e572ad681f2b/factool-0.0.1.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [ishanmath]: Downloading https://files.pythonhosted.org/packages/79/43/1cb3dfa98534194b0316fa5c8686a423e7008506a38c130c3657e611a471/ishanmath-0.1.0.tar.gz
+[2023-07-15 09:29:16] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/db/87/5c2f3eed05708656e0a4215079e2bc90e7445e10faf2a4d77f41e2e5117c/pbix_plus-23.7.1.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/68/05/b2599aef4a0b0f03959ac7505ccc7813294d2577717612ef5b05d33d04fd/ork.build-0.0.20.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/9e/27/a4b6dd10dce0a1dbeab306d545b617ff7f02e205ee31c7c0a1373db73010/factool-0.0.7.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/05/54/d58d42390a54bccf50ff8e1c5d9960b52d54240db2b2f9496b1671e0f8cd/lea_pi-0.1.1.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/e1/4b/6a3c6eb80c0f4b674c6c051d7d9a881d1e01320fad7e63b3cb23d8885db6/pbix_plus-23.7.2.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/05/54/d58d42390a54bccf50ff8e1c5d9960b52d54240db2b2f9496b1671e0f8cd/lea_pi-0.1.1.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ishanmath]: Downloading https://files.pythonhosted.org/packages/d2/ce/4bafe8538be53801f5fb77091d2c52e1e5791be0f4547a56ae615fefe725/ishanmath-0.1.1.tar.gz
+[2023-07-15 09:29:17] INFO root fetch - processPackages [factool]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [factool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factool-0.0.1.tar.gz tmp/factool-0.0.7.tar.gz --markdown 20230715/f/factool/0.0.1-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [pbix-plus]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [pbix-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_plus-23.7.1.tar.gz tmp/pbix_plus-23.7.2.tar.gz --markdown 20230715/p/pbix-plus/23.7.1-23.7.2/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230715/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.18.tar.gz tmp/ork.build-0.0.20.tar.gz --markdown 20230715/o/ork.build/0.0.18-0.0.20/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lea_pi-0.1.0.tar.gz tmp/lea_pi-0.1.1.tar.gz --markdown 20230715/l/lea-pi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [lea-pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lea_pi-0.1.0.tar.gz tmp/lea_pi-0.1.1.tar.gz --markdown 20230715/l/lea-pi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ishanmath]: executing diffoscope
+[2023-07-15 09:29:17] INFO root fetch - processPackages [ishanmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ishanmath-0.1.0.tar.gz tmp/ishanmath-0.1.1.tar.gz --markdown 20230715/i/ishanmath/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 09:29:18] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-15 09:29:18] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.0.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.1.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [lea-pi]: success
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [lea-pi]: success
+[2023-07-15 09:29:18] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.1.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.2.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [pbix-plus]: success
+[2023-07-15 09:29:18] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.0.1.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.0.7.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [factool]: success
+[2023-07-15 09:29:18] INFO root fetch - processPackages [ishanmath]: Remove: archive file [/home/abi/fetcher/tmp/ishanmath-0.1.0.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - processPackages [ishanmath]: Remove: archive file [/home/abi/fetcher/tmp/ishanmath-0.1.1.tar.gz]
+[2023-07-15 09:29:18] INFO root fetch - main [MainThread]: End processing [ishanmath]: success
+[2023-07-15 09:29:19] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.18.tar.gz]
+[2023-07-15 09:29:19] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.20.tar.gz]
+[2023-07-15 09:29:19] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 09:29:19] INFO root fetch - main [MainThread]: Store serial: [18898872]
