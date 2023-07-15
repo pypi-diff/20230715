@@ -7547,3 +7547,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:18:31] INFO root fetch - processPackages [inventree-brother-plugin]: Remove: archive file [/home/abi/fetcher/tmp/inventree-brother-plugin-0.7.0.tar.gz]
 [2023-07-15 11:18:31] INFO root fetch - main [MainThread]: End processing [inventree-brother-plugin]: success
 [2023-07-15 11:18:31] INFO root fetch - main [MainThread]: Store serial: [18899439]
+[2023-07-15 11:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899439]
+[2023-07-15 11:23:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmtuner
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unasyncd
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phpf
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomenklatura
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: summers
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tbp-nightly
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threads-net
+[2023-07-15 11:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stadata
+[2023-07-15 11:23:40] INFO root fetch - processPackages [unasyncd]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [phpf]: New version: [3.7.15918] Old Version: [3.7.15256]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [summers]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [llmtuner]: New version: [0.0.9] Old Version: [0.0.1]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [nomenklatura]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-15 11:23:40] WARNING root fetch - processPackages [stadata]: Skipping, unable to determine old version
+[2023-07-15 11:23:40] INFO root fetch - main [MainThread]: End processing [stadata] error
+[2023-07-15 11:23:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-15 11:23:40] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/d1/02/3add097e44ddfb3b1cc66ffe92c7bf02135e51212d172f966dfeaf6f61d7/nomenklatura-3.3.0.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/0c/24/8e33aaf08f6d949b1ecfdde4e938543913f802cfbbe85afc52a5193a4715/summers-0.1.1-py3-none-any.whl
+[2023-07-15 11:23:40] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/03/d4/77cabbc96ab6a157d7e752a7adf060e50dc79fe6a5b3b5e6b2485ff785b0/phpf-3.7.15256.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/67/48/2152dae7d23cb67773250f70d2496946d6883629271e3f8d5639ff4987b4/unasyncd-0.5.0.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/05/0c/e61cbb90e4565f6013fb2fae557d7e62ac9869093b3abd02d11b04aacdac/llmtuner-0.0.1.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/f0/a6/25c90d14b020704c2240ca46047c5fa4cad2ab5e66dec6454542d936bf1f/nomenklatura-3.3.1.tar.gz
+[2023-07-15 11:23:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/10/fb/f04b2e44024092ed36e9e78ccf96e0a027d54e0a1343d90af8b214f740f2/phpf-3.7.15918.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [unasyncd]: Downloading https://files.pythonhosted.org/packages/1d/d8/d3505fa747ceee5c23138381d2b5346341357017c7d8afcb88f6f42aac83/unasyncd-0.6.0.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [summers]: Downloading https://files.pythonhosted.org/packages/77/ec/7befc574de7889c69ff21ad063426e3d97cf1ce59d10a06a794f72ad2070/summers-0.1.3-py3-none-any.whl
+[2023-07-15 11:23:41] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/e0/e3/356696cc9cc07dcbaefb096ddf8a85ebe14a6da7cad59623d5ac16b5ef9d/llmtuner-0.0.9.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230715/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.3.0.tar.gz tmp/nomenklatura-3.3.1.tar.gz --markdown 20230715/n/nomenklatura/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [unasyncd]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [unasyncd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unasyncd-0.5.0.tar.gz tmp/unasyncd-0.6.0.tar.gz --markdown 20230715/u/unasyncd/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-15 11:23:41] INFO root fetch - processPackages [llmtuner]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [llmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmtuner-0.0.1.tar.gz tmp/llmtuner-0.0.9.tar.gz --markdown 20230715/l/llmtuner/0.0.1-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230715/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-3.7.15256.tar.gz tmp/phpf-3.7.15918.tar.gz --markdown 20230715/p/phpf/3.7.15256-3.7.15918/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [summers]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [summers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summers-0.1.1-py3-none-any.whl.zip tmp/summers-0.1.3-py3-none-any.whl.zip --markdown 20230715/s/summers/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 11:23:41] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-15 11:23:41] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230715/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 11:23:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-15 11:23:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.15256.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.15918.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.5.0.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [unasyncd]: Remove: archive file [/home/abi/fetcher/tmp/unasyncd-0.6.0.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [unasyncd]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.0.1.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.0.9.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [llmtuner]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [summers]: Remove: archive file [/home/abi/fetcher/tmp/summers-0.1.1-py3-none-any.whl.zip]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [summers]: Remove: archive file [/home/abi/fetcher/tmp/summers-0.1.3-py3-none-any.whl.zip]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [summers]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-15 11:23:42] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230715/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-15 11:23:42] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.0.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.1.tar.gz]
+[2023-07-15 11:23:42] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-07-15 11:23:45] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-15 11:23:45] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-15 11:23:45] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-15 11:23:45] INFO root fetch - main [MainThread]: Store serial: [18899470]
