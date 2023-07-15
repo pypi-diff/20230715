@@ -13481,3 +13481,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:36:24] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.31.tar.gz]
 [2023-07-15 20:36:24] INFO root fetch - main [MainThread]: End processing [climatePy]: success
 [2023-07-15 20:36:24] INFO root fetch - main [MainThread]: Store serial: [18902316]
+[2023-07-15 20:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902316]
+[2023-07-15 20:41:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 20:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WixOS
+[2023-07-15 20:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: read5
+[2023-07-15 20:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-api-admin
+[2023-07-15 20:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WixOS
+[2023-07-15 20:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uniteai
+[2023-07-15 20:41:33] INFO root fetch - processPackages [read5]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-15 20:41:33] WARNING root fetch - processPackages [WixOS]: Skipping, unable to determine old version
+[2023-07-15 20:41:33] INFO root fetch - main [MainThread]: End processing [WixOS] error
+[2023-07-15 20:41:33] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 20:41:33] INFO root fetch - processPackages [django-api-admin]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-15 20:41:33] WARNING root fetch - processPackages [WixOS]: Skipping, unable to determine old version
+[2023-07-15 20:41:33] INFO root fetch - main [MainThread]: End processing [WixOS] error
+[2023-07-15 20:41:33] INFO root fetch - processPackages [read5]: Downloading https://files.pythonhosted.org/packages/7f/d3/66786788e814af01da32eb85343c495af80bba4c8270d4ee1013472faa00/read5-1.1.7.tar.gz
+[2023-07-15 20:41:33] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 20:41:33] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/eb/d1/105d18bd96804ebaa6c4e577472206e2fdc8ef720da7c48665ad5a38cd17/django-api-admin-1.1.4.tar.gz
+[2023-07-15 20:41:33] INFO root fetch - processPackages [read5]: Downloading https://files.pythonhosted.org/packages/81/48/27f455644414ce065d96b58cba1e48c6b0d7b356e23c22d2fc3757b909e3/read5-1.1.8.tar.gz
+[2023-07-15 20:41:33] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 20:41:33] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/c2/72/4ba3d007db1a5b1baa9765ba3d5fdc33d807f7e59abce852bda3bf879e90/django-api-admin-1.1.5.tar.gz
+[2023-07-15 20:41:34] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 20:41:34] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 20:41:34] INFO root fetch - processPackages [django-api-admin]: executing diffoscope
+[2023-07-15 20:41:34] INFO root fetch - processPackages [django-api-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-api-admin-1.1.4.tar.gz tmp/django-api-admin-1.1.5.tar.gz --markdown 20230715/d/django-api-admin/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-15 20:41:34] INFO root fetch - processPackages [read5]: executing diffoscope
+[2023-07-15 20:41:34] INFO root fetch - processPackages [read5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read5-1.1.7.tar.gz tmp/read5-1.1.8.tar.gz --markdown 20230715/r/read5/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-15 20:41:34] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 20:41:34] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 20:41:34] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 20:41:35] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.4.tar.gz]
+[2023-07-15 20:41:35] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.5.tar.gz]
+[2023-07-15 20:41:35] INFO root fetch - main [MainThread]: End processing [django-api-admin]: success
+[2023-07-15 20:41:35] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.7.tar.gz]
+[2023-07-15 20:41:35] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.8.tar.gz]
+[2023-07-15 20:41:35] INFO root fetch - main [MainThread]: End processing [read5]: success
+[2023-07-15 20:41:35] INFO root fetch - main [MainThread]: Store serial: [18902335]
