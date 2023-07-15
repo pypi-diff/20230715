@@ -1926,3 +1926,212 @@
 [2023-07-15 02:11:32] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
 [2023-07-15 02:11:32] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
 [2023-07-15 02:11:32] INFO root fetch - main [MainThread]: Store serial: [18896681]
+[2023-07-15 02:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896681]
+[2023-07-15 02:16:41] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-operator
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjm-yolox-pytorch
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structio
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genomap
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.codepipeline-extensions
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-grafana
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CrossPy
+[2023-07-15 02:16:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apit212
+[2023-07-15 02:16:41] INFO root fetch - processPackages [apit212]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [structio]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [genomap]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.1.0.20230714.post1233] Old Version: [1.1.0.20230713.post1147]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 02:16:41] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/5e/89/fa65ccf48f85549199758a8d055a951e0b746d89419dab81335351b99d12/genomap-1.0.9.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2b/d0/84fb54961488d08f17e52462eaf481e615c0b9ad91ba209d31cd2fb31111/mct-quantizers-nightly-1.1.0.20230713.post1147.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/e1/47/fd0b283aae221ea6440f885b13978d95aa178e8cab33166411788503248b/structio-1.3.3.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/91/0e/3f204d17052e792f0652bf37c44d8dd8d6ea453217b44fc2f43231e36831/apit212-0.0.7.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/2b/d0/a83ea460b1d4db0db46bf25e60143b2357a6dc192484e80a679bc233cf38/cjm-yolox-pytorch-0.0.97.tar.gz
+[2023-07-15 02:16:41] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-15 02:16:41] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-07-15 02:16:41] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: abi-parser
+[2023-07-15 02:16:41] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-07-15 02:16:41] WARNING root fetch - processPackages [abi-parser]: Skipping, unable to determine old version
+[2023-07-15 02:16:41] INFO root fetch - processPackages [abi-parser]: Start processing: cdk-events-notify
+[2023-07-15 02:16:41] INFO root fetch - main [MainThread]: End processing [abi-parser] error
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 02:16:42] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/2b/24/ebaa1bc4f94d28a149c80027d9c06beafe3933c17213c29be5381485d736/genomap-1.1.0.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [apit212]: Downloading https://files.pythonhosted.org/packages/82/89/161613e95d047d6cfd55f725b75e0dd0be4facb848f7935d7ab91bc9f8a0/apit212-0.0.8.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/9a/cd/a6a8bf8fa33e658b9e40d094ea7ef702b6a975538c39b2f4b42559161b94/mct-quantizers-nightly-1.1.0.20230714.post1233.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/dd/e5/69f9ee225c40787166059ff80cf52e05d0b1a39f15a7f38d59f8d2277cb3/structio-1.3.4.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230715/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.0.9.tar.gz tmp/genomap-1.1.0.tar.gz --markdown 20230715/g/genomap/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [apit212]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [apit212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apit212-0.0.7.tar.gz tmp/apit212-0.0.8.tar.gz --markdown 20230715/a/apit212/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230715/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [structio]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [structio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structio-1.3.3.tar.gz tmp/structio-1.3.4.tar.gz --markdown 20230715/s/structio/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230715/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.1.0.20230713.post1147.tar.gz tmp/mct-quantizers-nightly-1.1.0.20230714.post1233.tar.gz --markdown 20230715/m/mct-quantizers-nightly/1.1.0.20230713.post1147-1.1.0.20230714.post1233/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.97.tar.gz tmp/cjm-yolox-pytorch-0.0.98.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-15 02:16:42] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230715/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-15 02:16:42] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230715/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:44] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.7.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [apit212]: Remove: archive file [/home/abi/fetcher/tmp/apit212-0.0.8.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [apit212]: Start processing: ExoJAX
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [apit212]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [ExoJAX]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-operator]: Start processing: yd-base
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.0.9.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.1.0.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [genomap]: Start processing: volttron-lib-boptest-integration
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [volttron-lib-boptest-integration]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.97.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: volttron-boptest
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [yd-base]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: UAVReaders
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [CrossPy]: Start processing: cdk-skylight
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [volttron-boptest]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [UAVReaders]: New version: [0.6.2] Old Version: [0.5.6]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-events-notify]: Start processing: rss-parser
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: cdktf-gitlab-runner
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/c8/1e/0f544fc64ae2d9f180e2cce9368e2f02225e35cd84102662aa07fa0dcf93/ExoJAX-1.3.1-py3.8.egg
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [rss-parser]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.3.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [structio]: Remove: archive file [/home/abi/fetcher/tmp/structio-1.3.4.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [structio]: Start processing: cdk-events-notify
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [structio]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230713.post1147.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.1.0.20230714.post1233.tar.gz]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Start processing: cdk8s-grafana
+[2023-07-15 02:16:44] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-07-15 02:16:44] INFO root fetch - processPackages [yd-base]: Downloading https://files.pythonhosted.org/packages/47/ab/4425423b266d58d88ce2fd3f030cfcf26e3052b4cae2206defada88b0ef7/yd_base-1.0.1-py3-none-any.whl
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/a8/68/33e479fdb34b2477a39d7a6b25ea2f1ae1566596216e198349d1aa18f40e/volttron_lib_boptest_integration-0.1.1a0.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/8d/e5/32ede48788e919f476258f0d9c5958f8686d4fc5d412f5b339d6fd6e3899/volttron_boptest-0.1.1a0.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [UAVReaders]: Downloading https://files.pythonhosted.org/packages/fb/97/4947332c96cd5466d03dc2909a9849c184da1a9ff9e22196cfd1b310e062/UAVReaders-0.5.6.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 02:16:44] INFO root fetch - processPackages [rss-parser]: Downloading https://files.pythonhosted.org/packages/d1/bf/662e818701a03cc46c4557576c72ac46c9681bb4e4e04c8874b583f92e86/rss_parser-1.0.0.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-07-15 02:16:44] INFO root fetch - processPackages [yd-base]: Downloading https://files.pythonhosted.org/packages/c8/43/fde5bc5db0fb42b0297e4cbfb27961446423745d002cab5fe18e8ce0b353/yd_base-1.0.2-py3-none-any.whl
+[2023-07-15 02:16:44] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [yd-base]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [yd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yd_base-1.0.1-py3-none-any.whl.zip tmp/yd_base-1.0.2-py3-none-any.whl.zip --markdown 20230715/y/yd-base/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/ff/cf/063662558d4fa630f4e32d5d4c48121f0c29f226d2383bc65a012f8c0926/volttron_lib_boptest_integration-0.1.1a1.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230715/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/db/76/94c2915d03318f36c3810ea0dfc3fe3e9979bc0047cc9ba66c0090e28897/volttron_boptest-0.1.1a1.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [UAVReaders]: Downloading https://files.pythonhosted.org/packages/78/45/96ec9a6a4402d4a7a1477e03a1c2655a626cbc361b54d59077edad299968/UAVReaders-0.6.2.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [rss-parser]: Downloading https://files.pythonhosted.org/packages/0c/b9/094ad48a5cbeb5763e36142ae2f321e4a19019061861e05d8b01e0c63fce/rss_parser-1.1.0.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230715/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230715/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [rss-parser]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [rss-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rss_parser-1.0.0.tar.gz tmp/rss_parser-1.1.0.tar.gz --markdown 20230715/r/rss-parser/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-lib-boptest-integration]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-lib-boptest-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_boptest_integration-0.1.1a0.tar.gz tmp/volttron_lib_boptest_integration-0.1.1a1.tar.gz --markdown 20230715/v/volttron-lib-boptest-integration/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [UAVReaders]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [UAVReaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UAVReaders-0.5.6.tar.gz tmp/UAVReaders-0.6.2.tar.gz --markdown 20230715/U/UAVReaders/0.5.6-0.6.2/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230715/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-boptest]: executing diffoscope
+[2023-07-15 02:16:45] INFO root fetch - processPackages [volttron-boptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_boptest-0.1.1a0.tar.gz tmp/volttron_boptest-0.1.1a1.tar.gz --markdown 20230715/v/volttron-boptest/0.1.1a0-0.1.1a1/diff.md --exclude *.pyd
+[2023-07-15 02:16:45] INFO root fetch - processPackages [ExoJAX]: Downloading https://files.pythonhosted.org/packages/e3/d2/538a61dca8df29846b8f11c8f04284ef6ae5ac799b78c6982a342ac911c2/ExoJAX-1.4.0-py3.10.egg
+[2023-07-15 02:16:46] INFO root fetch - processPackages [ExoJAX]: executing diffoscope
+[2023-07-15 02:16:46] INFO root fetch - processPackages [ExoJAX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExoJAX-1.3.1-py3.8.egg tmp/ExoJAX-1.4.0-py3.10.egg --markdown 20230715/E/ExoJAX/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: pytorch-ignite
+[2023-07-15 02:16:46] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-07-15 02:16:46] INFO root fetch - processPackages [yd-base]: Remove: archive file [/home/abi/fetcher/tmp/yd_base-1.0.1-py3-none-any.whl.zip]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [yd-base]: Remove: archive file [/home/abi/fetcher/tmp/yd_base-1.0.2-py3-none-any.whl.zip]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [yd-base]: Start processing: cdk-common
+[2023-07-15 02:16:46] INFO root fetch - main [MainThread]: End processing [yd-base]: success
+[2023-07-15 02:16:46] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230714] Old Version: [0.5.0.dev20230713]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-07-15 02:16:46] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1a0.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1a1.tar.gz]
+[2023-07-15 02:16:46] INFO root fetch - main [MainThread]: End processing [volttron-lib-boptest-integration]: success
+[2023-07-15 02:16:46] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/95/55/4761117f747e925f5d6381ee02e1a805fab60f0829c08d6dec621e380ca4/pytorch-ignite-0.5.0.dev20230713.tar.gz
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-07-15 02:16:47] INFO root fetch - processPackages [rss-parser]: Remove: archive file [/home/abi/fetcher/tmp/rss_parser-1.0.0.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - processPackages [rss-parser]: Remove: archive file [/home/abi/fetcher/tmp/rss_parser-1.1.0.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - main [MainThread]: End processing [rss-parser]: success
+[2023-07-15 02:16:47] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1a0.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1a1.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-07-15 02:16:47] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-07-15 02:16:47] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/0f/6b/c69d4381e8a446d81f174aabeb7392321fa84ae93d35827c478708ed042e/pytorch-ignite-0.5.0.dev20230714.tar.gz
+[2023-07-15 02:16:47] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-07-15 02:16:47] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230713.tar.gz tmp/pytorch-ignite-0.5.0.dev20230714.tar.gz --markdown 20230715/p/pytorch-ignite/0.5.0.dev20230713-0.5.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 02:16:47] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-07-15 02:16:48] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230713.tar.gz]
+[2023-07-15 02:16:48] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.dev20230714.tar.gz]
+[2023-07-15 02:16:48] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-07-15 02:16:48] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-07-15 02:16:48] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230715/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 02:16:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-07-15 02:16:50] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-07-15 02:16:50] INFO root fetch - processPackages [ExoJAX]: Remove: archive file [/home/abi/fetcher/tmp/ExoJAX-1.3.1-py3.8.egg]
+[2023-07-15 02:16:50] INFO root fetch - processPackages [ExoJAX]: Remove: archive file [/home/abi/fetcher/tmp/ExoJAX-1.4.0-py3.10.egg]
+[2023-07-15 02:16:50] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-07-15 02:16:50] INFO root fetch - main [MainThread]: End processing [ExoJAX]: success
+[2023-07-15 02:16:51] INFO root fetch - processPackages [UAVReaders]: Remove: archive file [/home/abi/fetcher/tmp/UAVReaders-0.5.6.tar.gz]
+[2023-07-15 02:16:51] INFO root fetch - processPackages [UAVReaders]: Remove: archive file [/home/abi/fetcher/tmp/UAVReaders-0.6.2.tar.gz]
+[2023-07-15 02:16:51] INFO root fetch - main [MainThread]: End processing [UAVReaders]: success
+[2023-07-15 02:16:51] INFO root fetch - main [MainThread]: Store serial: [18896782]
