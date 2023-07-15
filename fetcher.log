@@ -12258,3 +12258,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:31:43] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:31:43] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:31:43] INFO root fetch - main [MainThread]: Store serial: [18901815]
+[2023-07-15 18:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901815]
+[2023-07-15 18:36:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 18:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3make
+[2023-07-15 18:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-gitlab
+[2023-07-15 18:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryptogameapi
+[2023-07-15 18:36:52] INFO root fetch - processPackages [mkdocs-gitlab]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-15 18:36:52] INFO root fetch - processPackages [py3make]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-15 18:36:53] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/76/61/1ef6babd03fd0fdbce563277f4e05205e5b4a6225a27d567b074ff7e128e/py3make-1.0.1.tar.gz
+[2023-07-15 18:36:53] WARNING root fetch - processPackages [cryptogameapi]: Skipping, unable to determine old version
+[2023-07-15 18:36:53] INFO root fetch - main [MainThread]: End processing [cryptogameapi] error
+[2023-07-15 18:36:53] INFO root fetch - processPackages [mkdocs-gitlab]: Downloading https://files.pythonhosted.org/packages/f1/54/804257f6fe1a7301ad0d46f0a696a98e90005ebb967008af13de0f1a6ef8/mkdocs_gitlab-1.1.0.tar.gz
+[2023-07-15 18:36:53] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/c0/cf/dde6bb6adb06d949fe1e9ddd6704bd58ae0e476e02e044eb34cc5c8059ab/py3make-1.0.3.tar.gz
+[2023-07-15 18:36:53] INFO root fetch - processPackages [mkdocs-gitlab]: Downloading https://files.pythonhosted.org/packages/85/04/a29bd3b859a019a96a1695b5dc7acdef57f54f960251d5a6c5f4a3a7f9a9/mkdocs_gitlab-1.1.1.tar.gz
+[2023-07-15 18:36:53] INFO root fetch - processPackages [py3make]: executing diffoscope
+[2023-07-15 18:36:53] INFO root fetch - processPackages [py3make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3make-1.0.1.tar.gz tmp/py3make-1.0.3.tar.gz --markdown 20230715/p/py3make/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-15 18:36:53] INFO root fetch - processPackages [mkdocs-gitlab]: executing diffoscope
+[2023-07-15 18:36:53] INFO root fetch - processPackages [mkdocs-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_gitlab-1.1.0.tar.gz tmp/mkdocs_gitlab-1.1.1.tar.gz --markdown 20230715/m/mkdocs-gitlab/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-15 18:36:54] INFO root fetch - processPackages [mkdocs-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_gitlab-1.1.0.tar.gz]
+[2023-07-15 18:36:54] INFO root fetch - processPackages [mkdocs-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_gitlab-1.1.1.tar.gz]
+[2023-07-15 18:36:54] INFO root fetch - main [MainThread]: End processing [mkdocs-gitlab]: success
+[2023-07-15 18:36:54] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.1.tar.gz]
+[2023-07-15 18:36:54] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.3.tar.gz]
+[2023-07-15 18:36:54] INFO root fetch - main [MainThread]: End processing [py3make]: success
+[2023-07-15 18:36:54] INFO root fetch - main [MainThread]: Store serial: [18901839]
