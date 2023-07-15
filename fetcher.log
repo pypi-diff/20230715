@@ -3041,3 +3041,114 @@
 [2023-07-15 03:35:23] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.8.tar.gz]
 [2023-07-15 03:35:23] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2023-07-15 03:35:23] INFO root fetch - main [MainThread]: Store serial: [18897165]
+[2023-07-15 03:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897165]
+[2023-07-15 03:40:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tally-token
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-api-admin
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nriapp
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crypto-screening
+[2023-07-15 03:40:33] INFO root fetch - processPackages [tally-token]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [nriapp]: New version: [1.1.21] Old Version: [1.1.19]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [django-api-admin]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [crypto-screening]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-15 03:40:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/a2/63/40c3c16a284f5db33a9e527669de063893ccdd29e259332505e37dbebba8/crypto-screening-5.1.0.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [tally-token]: Downloading https://files.pythonhosted.org/packages/59/7c/162b9f88f6b7322b1cb2c8a04027d5a566665836bae7accb709baa848dc6/tally-token-0.1.0.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-15 03:40:33] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/c7/e7/148cf9119e783f8d3a5f996a8dfc0247cf80033c456ca8ce8a65cbfbb424/django-api-admin-1.1.3.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/62/0e/d16b37711350cd5a8361c8a3f254374d6ddf8d555175c55807824e38cc2e/nriapp-1.1.19.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0a/4e/b8380d227ae772bb2ad0b30dba8fb7b16dd746b0db63a6f066cfa2ab3c35/crypto-screening-5.1.1.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [tally-token]: Downloading https://files.pythonhosted.org/packages/2a/f3/35278e2202b8d7ce6ed682418e31e90f40c47d439b3ec468d82df47baa26/tally-token-0.2.0.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230715/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230715/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [django-api-admin]: Downloading https://files.pythonhosted.org/packages/eb/d1/105d18bd96804ebaa6c4e577472206e2fdc8ef720da7c48665ad5a38cd17/django-api-admin-1.1.4.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.1.0.tar.gz tmp/crypto-screening-5.1.1.tar.gz --markdown 20230715/c/crypto-screening/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nriapp]: Downloading https://files.pythonhosted.org/packages/66/12/abf863dc71ec4ab49dd06e83a2dd8c718542234f378f5a7668490a6aa5b7/nriapp-1.1.21.tar.gz
+[2023-07-15 03:40:34] INFO root fetch - processPackages [tally-token]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [tally-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tally-token-0.1.0.tar.gz tmp/tally-token-0.2.0.tar.gz --markdown 20230715/t/tally-token/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230715/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [django-api-admin]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [django-api-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-api-admin-1.1.3.tar.gz tmp/django-api-admin-1.1.4.tar.gz --markdown 20230715/d/django-api-admin/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nriapp]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [nriapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nriapp-1.1.19.tar.gz tmp/nriapp-1.1.21.tar.gz --markdown 20230715/n/nriapp/1.1.19-1.1.21/diff.md --exclude *.pyd
+[2023-07-15 03:40:34] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-15 03:40:34] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230715/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230715/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-15 03:40:35] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: nbdev-pandas
+[2023-07-15 03:40:35] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-15 03:40:35] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-15 03:40:35] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-15 03:40:35] INFO root fetch - processPackages [nbdev-numpy]: Start processing: ovos-core
+[2023-07-15 03:40:35] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-15 03:40:35] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-15 03:40:36] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-15 03:40:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.0.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.1.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-15 03:40:36] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-15 03:40:36] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/dd/9c/0945c96587052dea91a0ceedf6f8aca8fb29db6717064aa852e7e73917ad/ovos_core-0.0.8a8-py3-none-any.whl
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nriapp]: Remove: archive file [/home/abi/fetcher/tmp/nriapp-1.1.19.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.3.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nriapp]: Remove: archive file [/home/abi/fetcher/tmp/nriapp-1.1.21.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - processPackages [django-api-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-api-admin-1.1.4.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - main [MainThread]: End processing [nriapp]: success
+[2023-07-15 03:40:36] INFO root fetch - processPackages [tally-token]: Remove: archive file [/home/abi/fetcher/tmp/tally-token-0.1.0.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - main [MainThread]: End processing [django-api-admin]: success
+[2023-07-15 03:40:36] INFO root fetch - processPackages [tally-token]: Remove: archive file [/home/abi/fetcher/tmp/tally-token-0.2.0.tar.gz]
+[2023-07-15 03:40:36] INFO root fetch - main [MainThread]: End processing [tally-token]: success
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-15 03:40:36] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230715/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:40:36] INFO root fetch - processPackages [ovos-core]: Downloading https://files.pythonhosted.org/packages/51/ee/52ce34726935c8c4c45d526690a3c83e2b71585a918b26cc886d29b8bf0b/ovos_core-0.0.8a9-py3-none-any.whl
+[2023-07-15 03:40:36] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-07-15 03:40:36] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230715/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-07-15 03:40:37] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-15 03:40:37] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-15 03:40:37] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-15 03:40:39] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-15 03:40:39] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230715/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 03:40:39] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-15 03:40:39] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-15 03:40:39] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-15 03:40:40] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-15 03:40:40] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-15 03:40:40] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-15 03:40:41] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip]
+[2023-07-15 03:40:41] INFO root fetch - processPackages [ovos-core]: Remove: archive file [/home/abi/fetcher/tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip]
+[2023-07-15 03:40:41] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-07-15 03:42:37] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-15 03:42:37] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-15 03:42:37] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-15 03:42:37] INFO root fetch - main [MainThread]: Store serial: [18897203]
