@@ -12773,3 +12773,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:13:19] INFO root fetch - processPackages [niacin]: Remove: archive file [/home/abi/fetcher/tmp/niacin-0.5.2.tar.gz]
 [2023-07-15 19:13:19] INFO root fetch - main [MainThread]: End processing [niacin]: success
 [2023-07-15 19:13:19] INFO root fetch - main [MainThread]: Store serial: [18902033]
+[2023-07-15 19:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902033]
+[2023-07-15 19:18:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-honeybee
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchmark-runner
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagen-pytorch
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grepros
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ork.build]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-07-15 19:18:27] INFO root fetch - processPackages [imagen-pytorch]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-15 19:18:27] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 19:18:27] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-15 19:18:27] INFO root fetch - processPackages [grepros]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 19:18:27] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-07-15 19:18:27] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-15 19:18:27] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/bc/b7/9c1d535afa7a698265f083ca2ebd05211d2bbe1dbf19380269c5912972b3/ork.build-0.0.40.tar.gz
+[2023-07-15 19:18:27] INFO root fetch - processPackages [imagen-pytorch]: Downloading https://files.pythonhosted.org/packages/95/5a/938ac965e87b49870e957284b455d2436327c8540007bf10e3accc2c5e02/imagen-pytorch-1.9.6.tar.gz
+[2023-07-15 19:18:27] INFO root fetch - processPackages [grepros]: Downloading https://files.pythonhosted.org/packages/cc/d8/52fbce858f68e0166f236cd282b1923410d9d9f72d4163945ca916169728/grepros-1.0.0-py2.py3-none-any.whl
+[2023-07-15 19:18:27] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-15 19:18:28] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-15 19:18:28] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230715/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-15 19:18:28] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-07-15 19:18:28] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/38/a0/3a9d78ae64d61ee9cf73fec3dc88f54e45af43dec2e70e66aae7530a430a/ork.build-0.0.41.tar.gz
+[2023-07-15 19:18:28] INFO root fetch - processPackages [imagen-pytorch]: Downloading https://files.pythonhosted.org/packages/7e/6d/250293a0593cd824ef8578a96061c59bb36cb69a54a697b41469b4f6aa46/imagen-pytorch-1.9.7.tar.gz
+[2023-07-15 19:18:28] INFO root fetch - processPackages [grepros]: Downloading https://files.pythonhosted.org/packages/77/27/ae7b8d2b9a8bfb12c00a95d0ed9452679616a01734572fc5d2440452c2e4/grepros-1.0.1-py2.py3-none-any.whl
+[2023-07-15 19:18:28] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-07-15 19:18:28] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230715/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 19:18:28] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 19:18:28] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.40.tar.gz tmp/ork.build-0.0.41.tar.gz --markdown 20230715/o/ork.build/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-07-15 19:18:28] INFO root fetch - processPackages [grepros]: executing diffoscope
+[2023-07-15 19:18:28] INFO root fetch - processPackages [grepros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepros-1.0.0-py2.py3-none-any.whl.zip tmp/grepros-1.0.1-py2.py3-none-any.whl.zip --markdown 20230715/g/grepros/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 19:18:28] INFO root fetch - processPackages [imagen-pytorch]: executing diffoscope
+[2023-07-15 19:18:28] INFO root fetch - processPackages [imagen-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagen-pytorch-1.9.6.tar.gz tmp/imagen-pytorch-1.9.7.tar.gz --markdown 20230715/i/imagen-pytorch/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-15 19:18:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-15 19:18:29] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-07-15 19:18:29] INFO root fetch - processPackages [imagen-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/imagen-pytorch-1.9.6.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - processPackages [imagen-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/imagen-pytorch-1.9.7.tar.gz]
+[2023-07-15 19:18:29] INFO root fetch - main [MainThread]: End processing [imagen-pytorch]: success
+[2023-07-15 19:18:29] INFO root fetch - processPackages [grepros]: Remove: archive file [/home/abi/fetcher/tmp/grepros-1.0.0-py2.py3-none-any.whl.zip]
+[2023-07-15 19:18:29] INFO root fetch - processPackages [grepros]: Remove: archive file [/home/abi/fetcher/tmp/grepros-1.0.1-py2.py3-none-any.whl.zip]
+[2023-07-15 19:18:29] INFO root fetch - main [MainThread]: End processing [grepros]: success
+[2023-07-15 19:18:30] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.40.tar.gz]
+[2023-07-15 19:18:30] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.41.tar.gz]
+[2023-07-15 19:18:30] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 19:18:30] INFO root fetch - main [MainThread]: Store serial: [18902047]
