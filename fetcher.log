@@ -6200,3 +6200,51 @@
 [2023-07-15 08:52:51] INFO root fetch - processPackages [python-defer]: Remove: archive file [/home/abi/fetcher/tmp/python_defer-0.2.1.tar.gz]
 [2023-07-15 08:52:51] INFO root fetch - main [MainThread]: End processing [python-defer]: success
 [2023-07-15 08:52:51] INFO root fetch - main [MainThread]: Store serial: [18898706]
+[2023-07-15 08:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898706]
+[2023-07-15 08:57:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featdist
+[2023-07-15 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betfair-parser
+[2023-07-15 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxlib
+[2023-07-15 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RoInfo
+[2023-07-15 08:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latte-classifier
+[2023-07-15 08:58:00] INFO root fetch - processPackages [featdist]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-15 08:58:00] INFO root fetch - processPackages [dxlib]: New version: [0.1.209] Old Version: [0.1.1]
+[2023-07-15 08:58:00] INFO root fetch - processPackages [betfair-parser]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-15 08:58:00] INFO root fetch - processPackages [latte-classifier]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 08:58:00] INFO root fetch - processPackages [RoInfo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 08:58:00] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/96/c7/1f53a90ac3f8c3cacaed101de333a57da71d125d6c3f75abc2dcc760c103/betfair_parser-0.4.5.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [featdist]: Downloading https://files.pythonhosted.org/packages/a3/5e/596493970ffcfe2c27bf53a2baa628fa0421bbb4c9ff3bf31713dfbc1d08/featdist-0.1.5.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/b7/78/d6aec851d8d7ed7f719f7430b2a94b12902f6f79c7b20356960d926d94ae/dxlib-0.1.1.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [latte-classifier]: Downloading https://files.pythonhosted.org/packages/d6/2f/1a242ef6552aecdd76ab1794e4b64cc98eb62b20406de1b74aaf226cabd4/latte_classifier-0.0.1.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [RoInfo]: Downloading https://files.pythonhosted.org/packages/78/78/601eca9e48bd197c074d55212e380cca4f5b80e6149a36cf0d76c3ae1baa/RoInfo-0.0.3.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/22/af/995b2916c6e882aa44a7e44e5b9f668724822503d918664e0144f2ac80cb/betfair_parser-0.4.6.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2023-07-15 08:58:00] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.4.5.tar.gz tmp/betfair_parser-0.4.6.tar.gz --markdown 20230715/b/betfair-parser/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-15 08:58:00] INFO root fetch - processPackages [latte-classifier]: Downloading https://files.pythonhosted.org/packages/dc/2e/02bbe94738d6220e2cba62d1ca91c29d917c3a68a5d5afa8187a81d4fa32/latte_classifier-0.0.2.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [RoInfo]: Downloading https://files.pythonhosted.org/packages/7d/1b/bd924cc9e0867e92ce32478986362b4b6c7bfcdf8102148ff5429285c931/RoInfo-0.0.4.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [featdist]: Downloading https://files.pythonhosted.org/packages/3d/75/a47c631b1fcd41176e9a3083d29598ac713a2ddd0d81b7ff556450db47f9/featdist-0.1.6.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/e1/df/07a7e2939a854c9a107dc498fe7b6db4e63096f3dca3e6867270febeb3c7/dxlib-0.1.209.tar.gz
+[2023-07-15 08:58:00] INFO root fetch - processPackages [latte-classifier]: executing diffoscope
+[2023-07-15 08:58:00] INFO root fetch - processPackages [latte-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latte_classifier-0.0.1.tar.gz tmp/latte_classifier-0.0.2.tar.gz --markdown 20230715/l/latte-classifier/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 08:58:00] INFO root fetch - processPackages [RoInfo]: executing diffoscope
+[2023-07-15 08:58:00] INFO root fetch - processPackages [RoInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RoInfo-0.0.3.tar.gz tmp/RoInfo-0.0.4.tar.gz --markdown 20230715/R/RoInfo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 08:58:00] INFO root fetch - processPackages [featdist]: executing diffoscope
+[2023-07-15 08:58:00] INFO root fetch - processPackages [featdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featdist-0.1.5.tar.gz tmp/featdist-0.1.6.tar.gz --markdown 20230715/f/featdist/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-15 08:58:00] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-15 08:58:00] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.1.1.tar.gz tmp/dxlib-0.1.209.tar.gz --markdown 20230715/d/dxlib/0.1.1-0.1.209/diff.md --exclude *.pyd
+[2023-07-15 08:58:01] INFO root fetch - processPackages [RoInfo]: Remove: archive file [/home/abi/fetcher/tmp/RoInfo-0.0.3.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - processPackages [RoInfo]: Remove: archive file [/home/abi/fetcher/tmp/RoInfo-0.0.4.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [RoInfo]: success
+[2023-07-15 08:58:01] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.5.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.6.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2023-07-15 08:58:01] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.1.1.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.1.209.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-15 08:58:01] INFO root fetch - processPackages [latte-classifier]: Remove: archive file [/home/abi/fetcher/tmp/latte_classifier-0.0.1.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - processPackages [latte-classifier]: Remove: archive file [/home/abi/fetcher/tmp/latte_classifier-0.0.2.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [latte-classifier]: success
+[2023-07-15 08:58:01] INFO root fetch - processPackages [featdist]: Remove: archive file [/home/abi/fetcher/tmp/featdist-0.1.5.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - processPackages [featdist]: Remove: archive file [/home/abi/fetcher/tmp/featdist-0.1.6.tar.gz]
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [featdist]: success
+[2023-07-15 08:58:01] INFO root fetch - main [MainThread]: Store serial: [18898721]
