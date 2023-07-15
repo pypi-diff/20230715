@@ -8518,3 +8518,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:57:47] INFO root fetch - processPackages [cicinlang]: Remove: archive file [/home/abi/fetcher/tmp/cicinlang-0.1.2.tar.gz]
 [2023-07-15 12:57:47] INFO root fetch - main [MainThread]: End processing [cicinlang]: success
 [2023-07-15 12:57:47] INFO root fetch - main [MainThread]: Store serial: [18899863]
+[2023-07-15 13:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899863]
+[2023-07-15 13:02:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openHySim
+[2023-07-15 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scale-llm-engine
+[2023-07-15 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clophfit
+[2023-07-15 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphractal
+[2023-07-15 13:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiggler-studiorabota
+[2023-07-15 13:02:56] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 13:02:56] INFO root fetch - processPackages [openHySim]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 13:02:56] WARNING root fetch - processPackages [scale-llm-engine]: Skipping, unable to determine old version
+[2023-07-15 13:02:56] INFO root fetch - main [MainThread]: End processing [scale-llm-engine] error
+[2023-07-15 13:02:56] INFO root fetch - processPackages [clophfit]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-15 13:02:56] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/b1/a6/57080e144d8222c5f1cd07379751d533d78662dc1a9a329cfb2f2f1f6fdd/wiggler_studiorabota-0.0.5.tar.gz
+[2023-07-15 13:02:56] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 13:02:56] INFO root fetch - processPackages [openHySim]: Downloading https://files.pythonhosted.org/packages/71/d3/f1aceba7c562d1bca6e72dd53a5b776bb3c0b4cd3ccc202af8c06a108dba/openHySim-0.0.2.tar.gz
+[2023-07-15 13:02:56] WARNING root fetch - processPackages [openHySim]: Skipping package: exceeds size limit 16194948>=10485760
+[2023-07-15 13:02:56] INFO root fetch - main [MainThread]: End processing [openHySim] error
+[2023-07-15 13:02:56] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/24/fa/2aafc18fcdeb27d28fce7e0f49ae45142e950d00511dbadb7ddae6ef9db4/wiggler_studiorabota-0.0.6.tar.gz
+[2023-07-15 13:02:56] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/69/76/0c9fd97fd66bebf487d618a85f4e8ef92983a28dd8a54907c6138512dd5c/clophfit-0.8.1.tar.gz
+[2023-07-15 13:02:56] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-07-15 13:02:56] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 13:02:56] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.5.tar.gz tmp/wiggler_studiorabota-0.0.6.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 13:02:57] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-07-15 13:02:57] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-15 13:02:57] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230715/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 13:02:57] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.5.tar.gz]
+[2023-07-15 13:02:57] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.6.tar.gz]
+[2023-07-15 13:02:57] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 13:02:57] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/50/c6/344dd41a6180fbd538764b119b4d84a806ade6231955b808ed242214c526/clophfit-0.9.0.tar.gz
+[2023-07-15 13:02:57] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-07-15 13:02:57] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-07-15 13:02:58] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-15 13:02:59] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-07-15 13:02:59] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.8.1.tar.gz tmp/clophfit-0.9.0.tar.gz --markdown 20230715/c/clophfit/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 13:03:02] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.8.1.tar.gz]
+[2023-07-15 13:03:02] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.0.tar.gz]
+[2023-07-15 13:03:02] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-07-15 13:03:02] INFO root fetch - main [MainThread]: Store serial: [18899876]
