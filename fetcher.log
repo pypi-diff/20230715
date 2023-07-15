@@ -13517,3 +13517,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:41:35] INFO root fetch - processPackages [read5]: Remove: archive file [/home/abi/fetcher/tmp/read5-1.1.8.tar.gz]
 [2023-07-15 20:41:35] INFO root fetch - main [MainThread]: End processing [read5]: success
 [2023-07-15 20:41:35] INFO root fetch - main [MainThread]: Store serial: [18902335]
+[2023-07-15 20:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902335]
+[2023-07-15 20:46:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medisynth
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oras
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-hatchway
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrubi
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypura
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: serra
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stromer-api
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mercoa
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HelloWorldHelloWorldHello
+[2023-07-15 20:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qis
+[2023-07-15 20:46:44] INFO root fetch - processPackages [medisynth]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 20:46:44] WARNING root fetch - processPackages [HelloWorldHelloWorldHello]: Skipping, unable to determine old version
+[2023-07-15 20:46:44] INFO root fetch - main [MainThread]: End processing [HelloWorldHelloWorldHello] error
+[2023-07-15 20:46:44] INFO root fetch - processPackages [stromer-api]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [oras]: New version: [0.1.2] Old Version: [0.1.19]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [django-hatchway]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-15 20:46:44] WARNING root fetch - processPackages [serra]: Skipping, unable to determine old version
+[2023-07-15 20:46:44] INFO root fetch - main [MainThread]: End processing [serra] error
+[2023-07-15 20:46:44] INFO root fetch - processPackages [pyrubi]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [mercoa]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [pypura]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [qis]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-15 20:46:44] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/b9/4d/044115b540f13350442230b44d7f472214906f4cc99028593da21a96bdee/medisynth-0.0.3.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/49/47/3043249f49f7b804fcfebd81ab6149df3454e89adeec6c03eea687833f1b/oras-0.1.19.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [pypura]: Downloading https://files.pythonhosted.org/packages/b7/70/5eec3217e90a0accb3fd150ff4cc12a4f0e78916bcd9f77e00f6d3d4326b/pypura-0.1.6.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [django-hatchway]: Downloading https://files.pythonhosted.org/packages/4a/4c/0e58646d94c487c6ee5d3c96429909ef11cd3c5278304ba2dd917d8d0a44/django-hatchway-0.5.1.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [pyrubi]: Downloading https://files.pythonhosted.org/packages/c3/d2/f66fb78575fbbf57ea6d18f7ff19108e3b6115b088b81718782f468c5c12/pyrubi-2.3.0.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e7/d0/3a85fd36b4fc494ac2be3e46c59fc76840099596d1fe5f4e74802f6ac264/mercoa-0.2.1.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [stromer-api]: Downloading https://files.pythonhosted.org/packages/c1/27/e6422f03a6f0c99ced3a60995ce4ac67ec4d39ebb7a6f9b4e16e47c574f9/stromer_api-2.0.3.tar.gz
+[2023-07-15 20:46:44] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/c0/57/f775a6f7fd30c614f370dd7cb14a16e76b7a3ab91a373664dfeab513f6f6/qis-2.0.1.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/c9/16/47de617593bff1bebf53a3c566891ec7c9ea22867191203343a5e787704d/medisynth-0.0.4.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/8a/e5/e005ee22ea547ac24082854abd110661dc97f69226038ef47a2d88cc958c/oras-0.1.2.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/39/2b/cbf8acecb3e16b9349c43e0c6b502cd52504e62d7d09f0f4dbdaf4544dea/mercoa-0.2.2.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [medisynth]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [medisynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisynth-0.0.3.tar.gz tmp/medisynth-0.0.4.tar.gz --markdown 20230715/m/medisynth/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pypura]: Downloading https://files.pythonhosted.org/packages/91/49/12356dc1bdeaa061c5007ccd00a3238e84abf1968d92ff80b42b04e3cfbf/pypura-0.1.7.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pyrubi]: Downloading https://files.pythonhosted.org/packages/52/e0/8c20a1238ec3c9261091a7012899393b2c20490a0dbae0a8af6e194ed66e/pyrubi-2.3.1.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.2.1.tar.gz tmp/mercoa-0.2.2.tar.gz --markdown 20230715/m/mercoa/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [django-hatchway]: Downloading https://files.pythonhosted.org/packages/a4/94/b2b2f6a14fdda658ee8ae51d45cdd6a69fbdda7cc154302469aebbea3e51/django-hatchway-0.5.2.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [stromer-api]: Downloading https://files.pythonhosted.org/packages/f5/68/9d99d8ab7c0c8684bfaf296881bb4ea1a563b38f7062baaafefb41e9b542/stromer_api-2.0.4.tar.gz
+[2023-07-15 20:46:45] INFO root fetch - processPackages [oras]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [oras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oras-0.1.19.tar.gz tmp/oras-0.1.2.tar.gz --markdown 20230715/o/oras/0.1.19-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pypura]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pypura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypura-0.1.6.tar.gz tmp/pypura-0.1.7.tar.gz --markdown 20230715/p/pypura/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pyrubi]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [pyrubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubi-2.3.0.tar.gz tmp/pyrubi-2.3.1.tar.gz --markdown 20230715/p/pyrubi/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [django-hatchway]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [django-hatchway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hatchway-0.5.1.tar.gz tmp/django-hatchway-0.5.2.tar.gz --markdown 20230715/d/django-hatchway/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-15 20:46:45] INFO root fetch - processPackages [stromer-api]: executing diffoscope
+[2023-07-15 20:46:45] INFO root fetch - processPackages [stromer-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stromer_api-2.0.3.tar.gz tmp/stromer_api-2.0.4.tar.gz --markdown 20230715/s/stromer-api/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-15 20:46:46] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/09/47/afc09dc08e50fa6f8d618ea101cf22610f31549dcd2f2bc1268be079b203/qis-2.0.2.tar.gz
+[2023-07-15 20:46:46] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.3.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.4.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - main [MainThread]: End processing [medisynth]: success
+[2023-07-15 20:46:46] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.19.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.2.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - main [MainThread]: End processing [oras]: success
+[2023-07-15 20:46:46] INFO root fetch - processPackages [django-hatchway]: Remove: archive file [/home/abi/fetcher/tmp/django-hatchway-0.5.1.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - processPackages [django-hatchway]: Remove: archive file [/home/abi/fetcher/tmp/django-hatchway-0.5.2.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - main [MainThread]: End processing [django-hatchway]: success
+[2023-07-15 20:46:46] INFO root fetch - processPackages [stromer-api]: Remove: archive file [/home/abi/fetcher/tmp/stromer_api-2.0.3.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - processPackages [stromer-api]: Remove: archive file [/home/abi/fetcher/tmp/stromer_api-2.0.4.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - main [MainThread]: End processing [stromer-api]: success
+[2023-07-15 20:46:46] INFO root fetch - processPackages [pyrubi]: Remove: archive file [/home/abi/fetcher/tmp/pyrubi-2.3.0.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - processPackages [pyrubi]: Remove: archive file [/home/abi/fetcher/tmp/pyrubi-2.3.1.tar.gz]
+[2023-07-15 20:46:46] INFO root fetch - main [MainThread]: End processing [pyrubi]: success
+[2023-07-15 20:46:47] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.1.tar.gz]
+[2023-07-15 20:46:47] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.2.tar.gz]
+[2023-07-15 20:46:47] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-07-15 20:46:47] INFO root fetch - processPackages [pypura]: Remove: archive file [/home/abi/fetcher/tmp/pypura-0.1.6.tar.gz]
+[2023-07-15 20:46:47] INFO root fetch - processPackages [pypura]: Remove: archive file [/home/abi/fetcher/tmp/pypura-0.1.7.tar.gz]
+[2023-07-15 20:46:47] INFO root fetch - main [MainThread]: End processing [pypura]: success
+[2023-07-15 20:46:47] INFO root fetch - processPackages [qis]: executing diffoscope
+[2023-07-15 20:46:47] INFO root fetch - processPackages [qis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qis-2.0.1.tar.gz tmp/qis-2.0.2.tar.gz --markdown 20230715/q/qis/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:46:48] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.1.tar.gz]
+[2023-07-15 20:46:48] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.2.tar.gz]
+[2023-07-15 20:46:48] INFO root fetch - main [MainThread]: End processing [qis]: success
+[2023-07-15 20:46:48] INFO root fetch - main [MainThread]: Store serial: [18902369]
