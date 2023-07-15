@@ -5838,3 +5838,80 @@
 [2023-07-15 08:26:49] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230715.tar.gz]
 [2023-07-15 08:26:49] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-15 08:26:49] INFO root fetch - main [MainThread]: Store serial: [18898551]
+[2023-07-15 08:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898551]
+[2023-07-15 08:31:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uvicorn
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sgd-dstc8-data-model
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botastico
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragas
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RFIDUP
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nicegui
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-builder
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shibuya
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ork.build
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omgpt
+[2023-07-15 08:31:58] INFO root fetch - processPackages [uvicorn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 08:31:58] WARNING root fetch - processPackages [ork.build]: Skipping, unable to determine old version
+[2023-07-15 08:31:58] INFO root fetch - main [MainThread]: End processing [ork.build] error
+[2023-07-15 08:31:58] INFO root fetch - processPackages [shibuya]: New version: [2023.7.15] Old Version: [2023.7.14]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [sgd-dstc8-data-model]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [botastico]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [nicegui]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [ragas]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [omgpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 08:31:58] WARNING root fetch - processPackages [RFIDUP]: Skipping, unable to determine old version
+[2023-07-15 08:31:58] INFO root fetch - main [MainThread]: End processing [RFIDUP] error
+[2023-07-15 08:31:58] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-15 08:31:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/14/2b/4e4acdf7c2e6917560e55b77c9252651c213119580383d7c76bc27abccdc/omgpt-0.0.5.tar.gz
+[2023-07-15 08:31:58] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/2b/97/17d11b9a81d0aeff06827f8cc3f7f9aa7be3efe8cfac649c97304922f5cf/shibuya-2023.7.14.tar.gz
+[2023-07-15 08:31:58] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/4a/69/fe2317ed901d4f70ea443ff9ed144acc452d55cbc3b8ce50c483c7e7e37f/botastico-0.1.3.tar.gz
+[2023-07-15 08:31:58] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-15 08:31:58] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/5a/a9/2ab492155d9b76cf109c2370e201822ba3c7f4aed85f5a1b4d22907e7206/uvicorn-0.9.0.tar.gz
+[2023-07-15 08:31:58] INFO root fetch - processPackages [sgd-dstc8-data-model]: Downloading https://files.pythonhosted.org/packages/8c/d6/712d8043eedf42e05391deae6bb8bc1f22057c3793c996bde8ae8a5c5ab6/sgd_dstc8_data_model-0.1.3.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/8e/8e/cfc6e0d7fbaf73f219283ac11f022fd5799c3ea26262d5ece8afb5fcc543/ragas-0.0.5.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/fb/96/a5f0a7972ff67038c0d85a5a27c1af0dd5c25f9004df1b4bc270b1e900ff/nicegui-1.3.2.tar.gz
+[2023-07-15 08:31:59] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 12576973>=10485760
+[2023-07-15 08:31:59] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2023-07-15 08:31:59] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/44/56/8106a59cd4d5951263c3f1a024b572a803301d168502052478dda5677bc7/omgpt-0.0.6.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [botastico]: Downloading https://files.pythonhosted.org/packages/47/85/54aa0a155eee9c1f693e90be6bb8af8573e62129d8b484c8ad43b36790f0/botastico-0.1.4.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/1c/fd/bfcec1e66932a545e2dbfd460196ee5ecfb1f5aceed31245060be705dcea/shibuya-2023.7.15.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [sgd-dstc8-data-model]: Downloading https://files.pythonhosted.org/packages/5e/77/1f35d28db9a0c566dcdee1679aae5540a21a4def6266ed7944202783c3f9/sgd_dstc8_data_model-0.1.4.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [uvicorn]: Downloading https://files.pythonhosted.org/packages/37/b6/ceaccbf4af91bb6331ef8818fd845b3370fdca178f29b1d253406a284219/uvicorn-0.9.1.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.5.tar.gz tmp/omgpt-0.0.6.tar.gz --markdown 20230715/o/omgpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230715/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/6c/0d/f532148b7b4770088b5d8a2d130d45b62c689b350dfe25b82b9ace4e12fe/ragas-0.0.6.tar.gz
+[2023-07-15 08:31:59] INFO root fetch - processPackages [botastico]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [botastico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botastico-0.1.3.tar.gz tmp/botastico-0.1.4.tar.gz --markdown 20230715/b/botastico/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [sgd-dstc8-data-model]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [sgd-dstc8-data-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgd_dstc8_data_model-0.1.3.tar.gz tmp/sgd_dstc8_data_model-0.1.4.tar.gz --markdown 20230715/s/sgd-dstc8-data-model/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.7.14.tar.gz tmp/shibuya-2023.7.15.tar.gz --markdown 20230715/s/shibuya/2023.7.14-2023.7.15/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [uvicorn]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [uvicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvicorn-0.9.0.tar.gz tmp/uvicorn-0.9.1.tar.gz --markdown 20230715/u/uvicorn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 08:31:59] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-07-15 08:31:59] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.5.tar.gz tmp/ragas-0.0.6.tar.gz --markdown 20230715/r/ragas/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 08:32:00] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.3.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [botastico]: Remove: archive file [/home/abi/fetcher/tmp/botastico-0.1.4.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [botastico]: success
+[2023-07-15 08:32:00] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.5.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.6.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 08:32:00] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.7.14.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.7.15.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-07-15 08:32:00] INFO root fetch - processPackages [sgd-dstc8-data-model]: Remove: archive file [/home/abi/fetcher/tmp/sgd_dstc8_data_model-0.1.3.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [sgd-dstc8-data-model]: Remove: archive file [/home/abi/fetcher/tmp/sgd_dstc8_data_model-0.1.4.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [sgd-dstc8-data-model]: success
+[2023-07-15 08:32:00] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.0.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [uvicorn]: Remove: archive file [/home/abi/fetcher/tmp/uvicorn-0.9.1.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [uvicorn]: success
+[2023-07-15 08:32:00] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.5.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.6.tar.gz]
+[2023-07-15 08:32:00] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-07-15 08:32:01] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-15 08:32:01] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-15 08:32:01] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-15 08:32:01] INFO root fetch - main [MainThread]: Store serial: [18898584]
