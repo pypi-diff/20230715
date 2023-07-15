@@ -7988,3 +7988,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:55:20] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-15 11:55:20] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
 [2023-07-15 11:55:20] INFO root fetch - main [MainThread]: Store serial: [18899610]
+[2023-07-15 12:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899610]
+[2023-07-15 12:00:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 12:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anodb
+[2023-07-15 12:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu118
+[2023-07-15 12:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu117
+[2023-07-15 12:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-15 12:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dxlib
+[2023-07-15 12:00:29] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-15 12:00:29] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-15 12:00:29] INFO root fetch - processPackages [anodb]: New version: [8.2] Old Version: [8.1]
+[2023-07-15 12:00:29] INFO root fetch - processPackages [dxlib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 12:00:29] INFO root fetch - processPackages [crypto-screening]: New version: [5.2.1] Old Version: [5.2.0]
+[2023-07-15 12:00:29] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/42/df/42168d26816bad2c22e3fd24073cca9d5dae72940f7758d74472d6799644/crypto-screening-5.2.0.tar.gz
+[2023-07-15 12:00:29] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 12:00:29] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/fd/b5/2349539f53e1dbed649ac3cac6730c7f644a69cd116d0f95932cd8394376/dxlib-0.2.2.tar.gz
+[2023-07-15 12:00:29] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 12:00:30] INFO root fetch - processPackages [anodb]: Downloading https://files.pythonhosted.org/packages/20/67/dbda0ac71145825517fc00328b3ca8ec1dd7668dc9d587603543e15219fd/anodb-8.1.tar.gz
+[2023-07-15 12:00:30] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/3b/eb/fde94c65175f13adf0577911810c6b0b607855860932c1a4d48a5ddf6c1d/dxlib-0.2.3.tar.gz
+[2023-07-15 12:00:30] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/00/4a/fa2eaed5191264f765545cf8ec7d1a9fbae4d92487fced7d2c62f731a77d/crypto-screening-5.2.1.tar.gz
+[2023-07-15 12:00:30] INFO root fetch - processPackages [anodb]: Downloading https://files.pythonhosted.org/packages/53/35/25d3b483c52b5ba2a46a76c8a42d156a7f01622f14910afd09e102b29007/anodb-8.2.tar.gz
+[2023-07-15 12:00:30] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-15 12:00:30] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.2.0.tar.gz tmp/crypto-screening-5.2.1.tar.gz --markdown 20230715/c/crypto-screening/5.2.0-5.2.1/diff.md --exclude *.pyd
+[2023-07-15 12:00:30] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 12:00:30] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 12:00:30] INFO root fetch - processPackages [anodb]: executing diffoscope
+[2023-07-15 12:00:30] INFO root fetch - processPackages [anodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anodb-8.1.tar.gz tmp/anodb-8.2.tar.gz --markdown 20230715/a/anodb/8.1-8.2/diff.md --exclude *.pyd
+[2023-07-15 12:00:30] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-15 12:00:30] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.2.2.tar.gz tmp/dxlib-0.2.3.tar.gz --markdown 20230715/d/dxlib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 12:00:31] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-15 12:00:31] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230715/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-15 12:00:31] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-15 12:00:31] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230715/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-15 12:00:31] INFO root fetch - processPackages [anodb]: Remove: archive file [/home/abi/fetcher/tmp/anodb-8.1.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - processPackages [anodb]: Remove: archive file [/home/abi/fetcher/tmp/anodb-8.2.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - main [MainThread]: End processing [anodb]: success
+[2023-07-15 12:00:31] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.2.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.3.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-15 12:00:31] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.0.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.1.tar.gz]
+[2023-07-15 12:00:31] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-15 12:00:32] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 12:00:32] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 12:00:32] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-15 12:00:32] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 12:00:32] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 12:00:32] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-15 12:00:32] INFO root fetch - main [MainThread]: Store serial: [18899622]
