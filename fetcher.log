@@ -3773,3 +3773,58 @@
 [2023-07-15 04:55:53] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
 [2023-07-15 04:55:53] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
 [2023-07-15 04:55:53] INFO root fetch - main [MainThread]: Store serial: [18897483]
+[2023-07-15 05:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897483]
+[2023-07-15 05:01:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phpf
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phpf
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-dragonfly
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2023-07-15 05:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-eskiz-sms
+[2023-07-15 05:01:01] INFO root fetch - processPackages [phpf]: New version: [3.7.6611] Old Version: [3.7.15256]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230715] Old Version: [1.2.20230714]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [django-eskiz-sms]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [phpf]: New version: [3.7.6611] Old Version: [3.7.15256]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-15 05:01:01] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/03/d4/77cabbc96ab6a157d7e752a7adf060e50dc79fe6a5b3b5e6b2485ff785b0/phpf-3.7.15256.tar.gz
+[2023-07-15 05:01:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-15 05:01:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-15 05:01:01] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d3/36/e08220cb23633b4f1051f1ecd76b501168918732e06596eacfc4df48598a/iam_actions-1.2.20230714.tar.gz
+[2023-07-15 05:01:01] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/03/d4/77cabbc96ab6a157d7e752a7adf060e50dc79fe6a5b3b5e6b2485ff785b0/phpf-3.7.15256.tar.gz
+[2023-07-15 05:01:01] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/66/48/76425807c5649f4af63387741cefb412aedae908c68398a42d51af557205/django-eskiz-sms-0.1.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230715/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/4a/40/4a3c92d3f1f879aa0520cb5bbafc5f07ad96669b0c25b3a33519e788bad3/phpf-3.7.6611.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/4a/40/4a3c92d3f1f879aa0520cb5bbafc5f07ad96669b0c25b3a33519e788bad3/phpf-3.7.6611.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230715/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-15 05:01:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/9f/86/8d399b4e3f1c481f10dca3212b828fedd99282951f5d1aa9d0db896cbfd2/iam_actions-1.2.20230715.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [django-eskiz-sms]: Downloading https://files.pythonhosted.org/packages/e0/a6/e308292e58e4cc80ee71d106bcfcbf7054f841422d68ee9cf8067f8a12f7/django-eskiz-sms-0.1.1.tar.gz
+[2023-07-15 05:01:02] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230714.tar.gz tmp/iam_actions-1.2.20230715.tar.gz --markdown 20230715/i/iam-actions/1.2.20230714-1.2.20230715/diff.md --exclude *.pyd
+[2023-07-15 05:01:02] INFO root fetch - processPackages [django-eskiz-sms]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [django-eskiz-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-eskiz-sms-0.1.tar.gz tmp/django-eskiz-sms-0.1.1.tar.gz --markdown 20230715/d/django-eskiz-sms/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-3.7.15256.tar.gz tmp/phpf-3.7.6611.tar.gz --markdown 20230715/p/phpf/3.7.15256-3.7.6611/diff.md --exclude *.pyd
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-15 05:01:02] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-3.7.15256.tar.gz tmp/phpf-3.7.6611.tar.gz --markdown 20230715/p/phpf/3.7.15256-3.7.6611/diff.md --exclude *.pyd
+[2023-07-15 05:01:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-15 05:01:03] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.15256.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.6611.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-15 05:01:03] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - processPackages [django-eskiz-sms]: Remove: archive file [/home/abi/fetcher/tmp/django-eskiz-sms-0.1.1.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - main [MainThread]: End processing [django-eskiz-sms]: success
+[2023-07-15 05:01:03] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-15 05:01:03] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-15 05:01:03] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-15 05:01:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230714.tar.gz]
+[2023-07-15 05:01:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230715.tar.gz]
+[2023-07-15 05:01:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-15 05:01:07] INFO root fetch - main [MainThread]: Store serial: [18897501]
