@@ -1694,3 +1694,65 @@
 [2023-07-15 02:01:04] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.9.tar.gz]
 [2023-07-15 02:01:04] INFO root fetch - main [MainThread]: End processing [onvif-zeep-async]: success
 [2023-07-15 02:01:04] INFO root fetch - main [MainThread]: Store serial: [18896605]
+[2023-07-15 02:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896605]
+[2023-07-15 02:06:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-graph-sdk
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchdatasets-nightly
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onvif-zeep-async
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-nightly
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-uwg
+[2023-07-15 02:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-15 02:06:13] INFO root fetch - processPackages [prompt-graph-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [onvif-zeep-async]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230714.post447] Old Version: [1.9.0.20230713.post451]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689293035] Old Version: [1689206639]
+[2023-07-15 02:06:13] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/c5/de/86ab61374f58917aeadbad84de2bb6d3cd1ef3ad4d0764f910f00ab77ec1/onvif-zeep-async-3.1.8.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/54/d6/dc93d8deb7033aa618a42687371072a11368dc13f31df7b66306b8594b6d/mct-nightly-1.9.0.20230713.post451.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/9d/6e/8c3c4bcacfcbe3df4b436676a33480ec8398b79372072703fc267b01062c/prompt_graph_sdk-0.1.1-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/7a/8d/2237b9a972584551539e9f25e857f496e8c26f10889735fa766da10cae86/torchdatasets-nightly-1689206639.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-15 02:06:13] WARNING root fetch - processPackages [prompt-graph-sdk]: Skipping package: exceeds size limit 20855294>=10485760
+[2023-07-15 02:06:13] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk] error
+[2023-07-15 02:06:13] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/8f/8c/1d7321700cb782e731903854c2b5ac90fa21838efdead7ac8b0ac29ecd7f/onvif-zeep-async-3.1.9.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/be/93/84dc4c2826b86d97893bdafbfc2f98e7dc848b3048bb10fd8f5e4321de3e/torchdatasets-nightly-1689293035.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d1/89/9b196aa0cfe84afe91316bac44dc3a2bd0e916f70d0652c7575fb7e117ea/mct-nightly-1.9.0.20230714.post447.tar.gz
+[2023-07-15 02:06:13] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230715/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-15 02:06:13] INFO root fetch - processPackages [onvif-zeep-async]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [onvif-zeep-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-zeep-async-3.1.8.tar.gz tmp/onvif-zeep-async-3.1.9.tar.gz --markdown 20230715/o/onvif-zeep-async/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230715/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230715/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 02:06:13] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689206639.tar.gz tmp/torchdatasets-nightly-1689293035.tar.gz --markdown 20230715/t/torchdatasets-nightly/1689206639-1689293035/diff.md --exclude *.pyd
+[2023-07-15 02:06:13] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-15 02:06:13] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230713.post451.tar.gz tmp/mct-nightly-1.9.0.20230714.post447.tar.gz --markdown 20230715/m/mct-nightly/1.9.0.20230713.post451-1.9.0.20230714.post447/diff.md --exclude *.pyd
+[2023-07-15 02:06:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-15 02:06:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-15 02:06:14] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-15 02:06:14] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-15 02:06:14] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-15 02:06:14] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-15 02:06:15] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689206639.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689293035.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-15 02:06:15] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-07-15 02:06:15] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.8.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.9.tar.gz]
+[2023-07-15 02:06:15] INFO root fetch - main [MainThread]: End processing [onvif-zeep-async]: success
+[2023-07-15 02:06:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230713.post451.tar.gz]
+[2023-07-15 02:06:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230714.post447.tar.gz]
+[2023-07-15 02:06:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-15 02:06:16] INFO root fetch - main [MainThread]: Store serial: [18896627]
