@@ -15032,3 +15032,70 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 22:56:47] INFO root fetch - processPackages [pymodconn]: Remove: archive file [/home/abi/fetcher/tmp/pymodconn-2.0.0.tar.gz]
 [2023-07-15 22:56:47] INFO root fetch - main [MainThread]: End processing [pymodconn]: success
 [2023-07-15 22:56:47] INFO root fetch - main [MainThread]: Store serial: [18902985]
+[2023-07-15 23:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902985]
+[2023-07-15 23:01:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkit
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winbundle
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-wekan
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjm-yolox-pytorch
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speedtools
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: potoo
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdkit
+[2023-07-15 23:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepllm
+[2023-07-15 23:01:56] INFO root fetch - processPackages [python-wekan]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [speedtools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [winbundle]: New version: [0.1.0.post1] Old Version: [0.1.0]
+[2023-07-15 23:01:56] WARNING root fetch - processPackages [potoo]: Skipping, unable to determine old version
+[2023-07-15 23:01:56] INFO root fetch - main [MainThread]: End processing [potoo] error
+[2023-07-15 23:01:56] INFO root fetch - processPackages [deepllm]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 23:01:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/ce/95/281bbb7c715f5487bdaf007f1285fdb064946d30434ef5a212968f667d09/deepllm-0.6.1.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [speedtools]: Downloading https://files.pythonhosted.org/packages/9e/fc/c574893f827248f7d1ae65ec10e547fefb8895512e81c62ef288b1a15f5a/speedtools-0.2.0.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [python-wekan]: Downloading https://files.pythonhosted.org/packages/10/f7/efc95c640bd87cb409a8433d5902a7b66703009d013bbd326f9a19a51529/python-wekan-0.1.5.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [winbundle]: Downloading https://files.pythonhosted.org/packages/d6/da/999535e9521abbaa6cffa9d64e9d0a6e26d44125ed1cefc6c43354840a55/winbundle-0.1.0.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/cb/ac/9107d6e27eab83e9abf94d36ccfc4ae81e3e1058a431ad648e51109b7469/deepllm-0.6.2.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [speedtools]: Downloading https://files.pythonhosted.org/packages/43/25/718d8a53d881e82b5c0bbdc308daf3f643e12447763cd8d2a77e963f300f/speedtools-0.3.0.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [python-wekan]: Downloading https://files.pythonhosted.org/packages/74/b2/156223ebc95a387a86551c32ed94c99901b0766b1403a56d8ff8b5bd0a25/python-wekan-0.1.6.tar.gz
+[2023-07-15 23:01:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 23:01:56] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-0.6.1.tar.gz tmp/deepllm-0.6.2.tar.gz --markdown 20230715/d/deepllm/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [winbundle]: Downloading https://files.pythonhosted.org/packages/f4/1e/db2ae160dd51798d9fb907b072d113aefad02450941c0b84c617dcfc9600/winbundle-0.1.0.post1.tar.gz
+[2023-07-15 23:01:57] INFO root fetch - processPackages [speedtools]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [speedtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtools-0.2.0.tar.gz tmp/speedtools-0.3.0.tar.gz --markdown 20230715/s/speedtools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [python-wekan]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [python-wekan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-wekan-0.1.5.tar.gz tmp/python-wekan-0.1.6.tar.gz --markdown 20230715/p/python-wekan/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-15 23:01:57] INFO root fetch - processPackages [winbundle]: executing diffoscope
+[2023-07-15 23:01:57] INFO root fetch - processPackages [winbundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winbundle-0.1.0.tar.gz tmp/winbundle-0.1.0.post1.tar.gz --markdown 20230715/w/winbundle/0.1.0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-07-15 23:01:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 23:01:58] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.1.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-0.6.2.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2023-07-15 23:01:58] INFO root fetch - processPackages [speedtools]: Remove: archive file [/home/abi/fetcher/tmp/speedtools-0.2.0.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [speedtools]: Remove: archive file [/home/abi/fetcher/tmp/speedtools-0.3.0.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [speedtools]: success
+[2023-07-15 23:01:58] INFO root fetch - processPackages [winbundle]: Remove: archive file [/home/abi/fetcher/tmp/winbundle-0.1.0.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [winbundle]: Remove: archive file [/home/abi/fetcher/tmp/winbundle-0.1.0.post1.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [winbundle]: success
+[2023-07-15 23:01:58] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 23:01:58] INFO root fetch - processPackages [python-wekan]: Remove: archive file [/home/abi/fetcher/tmp/python-wekan-0.1.5.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - processPackages [python-wekan]: Remove: archive file [/home/abi/fetcher/tmp/python-wekan-0.1.6.tar.gz]
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: End processing [python-wekan]: success
+[2023-07-15 23:01:58] INFO root fetch - main [MainThread]: Store serial: [18903013]
