@@ -3373,3 +3373,11 @@
 [2023-07-15 04:08:35] INFO root fetch - processPackages [python-sat]: Remove: archive file [/home/abi/fetcher/tmp/python-sat-0.1.8.dev9.tar.gz]
 [2023-07-15 04:08:35] INFO root fetch - main [MainThread]: End processing [python-sat]: success
 [2023-07-15 04:08:35] INFO root fetch - main [MainThread]: Store serial: [18897326]
+[2023-07-15 04:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897326]
+[2023-07-15 04:13:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-15 04:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-next-cdk
+[2023-07-15 04:13:44] INFO root fetch - processPackages [open-next-cdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 04:13:44] INFO root fetch - processPackages [open-next-cdk]: Downloading https://files.pythonhosted.org/packages/75/65/15f08bde2bf6d22ac65433ab6d45ec17700555441291e17a7913c67c5673/open-next-cdk-0.0.2.tar.gz
+[2023-07-15 04:13:44] WARNING root fetch - processPackages [open-next-cdk]: Skipping package: exceeds size limit 19169089>=10485760
+[2023-07-15 04:13:44] INFO root fetch - main [MainThread]: End processing [open-next-cdk] error
+[2023-07-15 04:13:44] INFO root fetch - main [MainThread]: Store serial: [18897329]
