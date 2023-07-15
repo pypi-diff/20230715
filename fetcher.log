@@ -8661,3 +8661,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:18:37] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.686.tar.gz]
 [2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
 [2023-07-15 13:18:37] INFO root fetch - main [MainThread]: Store serial: [18899920]
+[2023-07-15 13:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899920]
+[2023-07-15 13:23:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymoebot
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ames-model
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: offat
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hak
+[2023-07-15 13:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chdev-tool
+[2023-07-15 13:23:46] WARNING root fetch - processPackages [chdev-tool]: Skipping, unable to determine old version
+[2023-07-15 13:23:46] INFO root fetch - main [MainThread]: End processing [chdev-tool] error
+[2023-07-15 13:23:46] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 13:23:46] WARNING root fetch - processPackages [ames-model]: Skipping, unable to determine old version
+[2023-07-15 13:23:46] INFO root fetch - main [MainThread]: End processing [ames-model] error
+[2023-07-15 13:23:46] WARNING root fetch - processPackages [pymoebot]: Skipping, unable to determine old version
+[2023-07-15 13:23:46] INFO root fetch - main [MainThread]: End processing [pymoebot] error
+[2023-07-15 13:23:46] INFO root fetch - processPackages [offat]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 13:23:46] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-15 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-15 13:23:46] INFO root fetch - processPackages [offat]: Downloading https://files.pythonhosted.org/packages/16/13/f2e644c515503f4757221978b7d4404548cc4480f4eb8a37c9fa56d0b135/offat-0.2.0.tar.gz
+[2023-07-15 13:23:46] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-15 13:23:46] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-15 13:23:46] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-15 13:23:46] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230715/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 13:23:47] INFO root fetch - processPackages [offat]: Downloading https://files.pythonhosted.org/packages/8d/dc/e4c0b968c2819b709986ceb49c6c83a4279c97cd3e4cef6a3ff7c25ba3bd/offat-0.3.0.tar.gz
+[2023-07-15 13:23:47] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-15 13:23:47] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230715/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 13:23:47] INFO root fetch - processPackages [offat]: executing diffoscope
+[2023-07-15 13:23:47] INFO root fetch - processPackages [offat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offat-0.2.0.tar.gz tmp/offat-0.3.0.tar.gz --markdown 20230715/o/offat/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:23:48] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-15 13:23:48] INFO root fetch - processPackages [offat]: Remove: archive file [/home/abi/fetcher/tmp/offat-0.2.0.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - processPackages [offat]: Remove: archive file [/home/abi/fetcher/tmp/offat-0.3.0.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - main [MainThread]: End processing [offat]: success
+[2023-07-15 13:23:48] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-15 13:23:48] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-15 13:23:48] INFO root fetch - main [MainThread]: Store serial: [18899943]
