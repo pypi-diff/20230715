@@ -13146,3 +13146,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:54:57] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.5.tar.gz]
 [2023-07-15 19:54:57] INFO root fetch - main [MainThread]: End processing [unqlite]: success
 [2023-07-15 19:54:57] INFO root fetch - main [MainThread]: Store serial: [18902168]
+[2023-07-15 20:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902168]
+[2023-07-15 20:00:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyutils
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyGitInfo
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-interpreter
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maelzel
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shellexec
+[2023-07-15 20:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkit
+[2023-07-15 20:00:06] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 20:00:06] WARNING root fetch - processPackages [shellexec]: Skipping, unable to determine old version
+[2023-07-15 20:00:06] INFO root fetch - main [MainThread]: End processing [shellexec] error
+[2023-07-15 20:00:06] INFO root fetch - processPackages [maelzel]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 20:00:06] INFO root fetch - processPackages [pyGitInfo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 20:00:06] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.226] Old Version: [0.0.225]
+[2023-07-15 20:00:06] INFO root fetch - processPackages [pyutils]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-07-15 20:00:06] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 20:00:06] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/53/4f/0bd5dec43a6b6ff30acce7cd8f48d8535275d349bd8e04ebee7f4f7d0b26/open_interpreter-0.0.225.tar.gz
+[2023-07-15 20:00:06] INFO root fetch - processPackages [pyGitInfo]: Downloading https://files.pythonhosted.org/packages/a6/44/2cf4ae3d0ecf00b5f9478731fe33702be079f569c6a2886e7dcd9baae54f/pyGitInfo-0.0.4.tar.gz
+[2023-07-15 20:00:06] INFO root fetch - processPackages [maelzel]: Downloading https://files.pythonhosted.org/packages/e1/df/3a0f8019b2dde14ee16f9af7a559c1a084128924c3eb3826d3da87bdc1ec/maelzel-0.9.0.tar.gz
+[2023-07-15 20:00:06] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/27/50/3ae892a4bd4fcdaa42f4a04d9bd0076733357c659cf7c794bdc24883d3cf/pyutils-0.0.1b8-py3-none-any.whl
+[2023-07-15 20:00:06] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 20:00:06] WARNING root fetch - processPackages [maelzel]: Skipping package: exceeds size limit 17210322>=10485760
+[2023-07-15 20:00:06] INFO root fetch - main [MainThread]: End processing [maelzel] error
+[2023-07-15 20:00:06] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/5c/0d/ee15a99c75c9475a097e906a3a13aea9f552046725d60f7cb1cea3dd5472/open_interpreter-0.0.226.tar.gz
+[2023-07-15 20:00:06] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 20:00:06] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyGitInfo]: Downloading https://files.pythonhosted.org/packages/c3/9f/3e51f8a2f9cc5cf440b18442937072fc102457f9d1245fdf9aa64869f5d2/pyGitInfo-0.0.5.tar.gz
+[2023-07-15 20:00:07] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-15 20:00:07] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.225.tar.gz tmp/open_interpreter-0.0.226.tar.gz --markdown 20230715/o/open-interpreter/0.0.225-0.0.226/diff.md --exclude *.pyd
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyGitInfo]: executing diffoscope
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyGitInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGitInfo-0.0.4.tar.gz tmp/pyGitInfo-0.0.5.tar.gz --markdown 20230715/p/pyGitInfo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/c8/9a/0d17bafc8102fc91fad611435c794bf7de1fd2751d1710ad8a41f99a4da1/pyutils-0.0.1b9-py3-none-any.whl
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyutils]: executing diffoscope
+[2023-07-15 20:00:07] INFO root fetch - processPackages [pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils-0.0.1b8-py3-none-any.whl.zip tmp/pyutils-0.0.1b9-py3-none-any.whl.zip --markdown 20230715/p/pyutils/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-07-15 20:00:08] INFO root fetch - processPackages [pyGitInfo]: Remove: archive file [/home/abi/fetcher/tmp/pyGitInfo-0.0.4.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - processPackages [pyGitInfo]: Remove: archive file [/home/abi/fetcher/tmp/pyGitInfo-0.0.5.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - main [MainThread]: End processing [pyGitInfo]: success
+[2023-07-15 20:00:08] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 20:00:08] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.225.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.226.tar.gz]
+[2023-07-15 20:00:08] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-15 20:00:08] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b8-py3-none-any.whl.zip]
+[2023-07-15 20:00:08] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
+[2023-07-15 20:00:08] INFO root fetch - main [MainThread]: End processing [pyutils]: success
+[2023-07-15 20:00:08] INFO root fetch - main [MainThread]: Store serial: [18902185]
