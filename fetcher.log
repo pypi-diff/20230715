@@ -8377,3 +8377,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:42:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230714.tar.gz]
 [2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2023-07-15 12:42:14] INFO root fetch - main [MainThread]: Store serial: [18899791]
+[2023-07-15 12:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899791]
+[2023-07-15 12:47:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plover-regenpfeifer
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-advanced-pages
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shil
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yunhu
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zdatabase
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ebtorch
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psusigner
+[2023-07-15 12:47:23] INFO root fetch - processPackages [zdatabase]: New version: [0.5.5] Old Version: [0.5.3]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [yunhu]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [plover-regenpfeifer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [django-advanced-pages]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-15 12:47:23] WARNING root fetch - processPackages [shil]: Skipping, unable to determine old version
+[2023-07-15 12:47:23] INFO root fetch - main [MainThread]: End processing [shil] error
+[2023-07-15 12:47:23] INFO root fetch - processPackages [ebtorch]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/34/90/320016d3090d90335ab62ba16789ed8e2c4dc2f3f8bc7528b6a9d3e4dfab/nonebot_plugin_game_collection-2.3.7.tar.gz
+[2023-07-15 12:47:23] INFO root fetch - processPackages [psusigner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 12:47:23] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/db/b2/c12a899a9c55a2a87d99359d63ea15d2c8903e805cbd5a06f54f7884a127/yunhu-0.0.6.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/6c/07/641b887046f6602a9146ece26e6953c188e1dc60fae2d2eb983f4d27286b/zdatabase-0.5.3.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [django-advanced-pages]: Downloading https://files.pythonhosted.org/packages/71/28/1befe80e01f2f9d7d48b8dec661d58730101b4f46cd8d8b712bb31a56b8a/django-advanced-pages-0.8.5.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [plover-regenpfeifer]: Downloading https://files.pythonhosted.org/packages/cb/cc/0b9c2d333ef8a95871cbc07f893cae21cc9a92bf1f04926e1d85090655ac/plover_regenpfeifer-1.1.0.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/91/f4/e820b3ab4aedcf104b4a7df186b38235909fc72e7ca05663201a7aed5ca6/ebtorch-0.9.0.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [psusigner]: Downloading https://files.pythonhosted.org/packages/17/39/31c6f4ee985a759cf05fc9d50da508e383c82508bb1f061dfc7319c5e4fa/psusigner-0.1.1.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [yunhu]: Downloading https://files.pythonhosted.org/packages/83/45/7827c18d8781d1121bbcd782209761d65b1bda97d84eb41222e258f75d3f/yunhu-0.0.7.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [yunhu]: executing diffoscope
+[2023-07-15 12:47:24] INFO root fetch - processPackages [yunhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunhu-0.0.6.tar.gz tmp/yunhu-0.0.7.tar.gz --markdown 20230715/y/yunhu/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 12:47:24] INFO root fetch - processPackages [django-advanced-pages]: Downloading https://files.pythonhosted.org/packages/be/b3/3ae83e5038e238ef3563e3006e4a9c9f7ed05275d4b486a11ceed9842785/django-advanced-pages-0.8.6.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/39/ae/37963bc225564ad0c174736283aa9d38b0a2ee655ba0532af46462b6aa53/zdatabase-0.5.5.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/84/d0/9756b475c89e90f289dd488e646aab16021f2f9b1a84db560d84a4bfb7b9/ebtorch-0.9.1.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [psusigner]: Downloading https://files.pythonhosted.org/packages/cc/b1/e1380fd71fda8756258df6ac9d666dd8d60d220fbadb0bd4d62f58b41811/psusigner-0.1.2.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-15 12:47:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.7.tar.gz tmp/nonebot_plugin_game_collection-2.3.8.tar.gz --markdown 20230715/n/nonebot-plugin-game-collection/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-07-15 12:47:24] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-07-15 12:47:24] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.3.tar.gz tmp/zdatabase-0.5.5.tar.gz --markdown 20230715/z/zdatabase/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2023-07-15 12:47:24] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2023-07-15 12:47:24] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.0.tar.gz tmp/ebtorch-0.9.1.tar.gz --markdown 20230715/e/ebtorch/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 12:47:24] INFO root fetch - processPackages [plover-regenpfeifer]: Downloading https://files.pythonhosted.org/packages/e7/5c/6d1770109d2b749a6e5fa6a5fc709e0b4d68a592caf12d29a29dfe72952c/plover_regenpfeifer-1.1.1.tar.gz
+[2023-07-15 12:47:24] INFO root fetch - processPackages [django-advanced-pages]: executing diffoscope
+[2023-07-15 12:47:24] INFO root fetch - processPackages [django-advanced-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pages-0.8.5.tar.gz tmp/django-advanced-pages-0.8.6.tar.gz --markdown 20230715/d/django-advanced-pages/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-15 12:47:25] INFO root fetch - processPackages [plover-regenpfeifer]: executing diffoscope
+[2023-07-15 12:47:25] INFO root fetch - processPackages [plover-regenpfeifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover_regenpfeifer-1.1.0.tar.gz tmp/plover_regenpfeifer-1.1.1.tar.gz --markdown 20230715/p/plover-regenpfeifer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-15 12:47:25] INFO root fetch - processPackages [psusigner]: executing diffoscope
+[2023-07-15 12:47:25] INFO root fetch - processPackages [psusigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psusigner-0.1.1.tar.gz tmp/psusigner-0.1.2.tar.gz --markdown 20230715/p/psusigner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 12:47:25] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.6.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - processPackages [yunhu]: Remove: archive file [/home/abi/fetcher/tmp/yunhu-0.0.7.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - main [MainThread]: End processing [yunhu]: success
+[2023-07-15 12:47:25] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.3.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.5.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-07-15 12:47:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.7.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-15 12:47:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-15 12:47:26] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.0.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.1.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2023-07-15 12:47:26] INFO root fetch - processPackages [django-advanced-pages]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pages-0.8.5.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - processPackages [django-advanced-pages]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pages-0.8.6.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - main [MainThread]: End processing [django-advanced-pages]: success
+[2023-07-15 12:47:26] INFO root fetch - processPackages [psusigner]: Remove: archive file [/home/abi/fetcher/tmp/psusigner-0.1.1.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - processPackages [psusigner]: Remove: archive file [/home/abi/fetcher/tmp/psusigner-0.1.2.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - main [MainThread]: End processing [psusigner]: success
+[2023-07-15 12:47:26] INFO root fetch - processPackages [plover-regenpfeifer]: Remove: archive file [/home/abi/fetcher/tmp/plover_regenpfeifer-1.1.0.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - processPackages [plover-regenpfeifer]: Remove: archive file [/home/abi/fetcher/tmp/plover_regenpfeifer-1.1.1.tar.gz]
+[2023-07-15 12:47:26] INFO root fetch - main [MainThread]: End processing [plover-regenpfeifer]: success
+[2023-07-15 12:47:26] INFO root fetch - main [MainThread]: Store serial: [18899814]
