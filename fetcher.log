@@ -14074,3 +14074,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:33:35] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.0.0rc0.tar.gz]
 [2023-07-15 21:33:35] INFO root fetch - main [MainThread]: End processing [model-diagnostics]: success
 [2023-07-15 21:33:35] INFO root fetch - main [MainThread]: Store serial: [18902547]
+[2023-07-15 21:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902547]
+[2023-07-15 21:38:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crateman
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-xmodules
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oras
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: global-tonemapping
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flashcam
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: big-query-testing-xyz
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: render-thumbnail
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mojo-xmodules
+[2023-07-15 21:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: safrs
+[2023-07-15 21:38:44] INFO root fetch - processPackages [oras]: New version: [0.1.20] Old Version: [0.1.2]
+[2023-07-15 21:38:44] WARNING root fetch - processPackages [global-tonemapping]: Skipping, unable to determine old version
+[2023-07-15 21:38:44] INFO root fetch - main [MainThread]: End processing [global-tonemapping] error
+[2023-07-15 21:38:44] INFO root fetch - processPackages [big-query-testing-xyz]: New version: [0.3] Old Version: [0.2]
+[2023-07-15 21:38:44] INFO root fetch - processPackages [safrs]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-15 21:38:44] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:38:44] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:38:44] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-15 21:38:44] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:38:44] WARNING root fetch - processPackages [crateman]: Skipping, unable to determine old version
+[2023-07-15 21:38:44] INFO root fetch - main [MainThread]: End processing [crateman] error
+[2023-07-15 21:38:44] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/8a/e5/e005ee22ea547ac24082854abd110661dc97f69226038ef47a2d88cc958c/oras-0.1.2.tar.gz
+[2023-07-15 21:38:44] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/0f/5a/88128c2094cdf415df2f1bf2fbc6838e41ea247de1dab4f8a37d76f69f90/big_query_testing_xyz-0.2.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/15/93/e879defaefcebecddb55a4c62db1b8f75b9caa22a85e678c866f01a7cfbe/safrs-3.1.0.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/d0/70/2955060285d60bfcdf43980837db2fa9bf7d834489220b9499e5793880ba/big_query_testing_xyz-0.3.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/00/8e/77af2361e0c66ce9b8ccb89c1896b7806e2641e06a3d11d0124eb8480d4c/oras-0.1.20.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [big-query-testing-xyz]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [big-query-testing-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_query_testing_xyz-0.2.tar.gz tmp/big_query_testing_xyz-0.3.tar.gz --markdown 20230715/b/big-query-testing-xyz/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230715/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [oras]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [oras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oras-0.1.2.tar.gz tmp/oras-0.1.20.tar.gz --markdown 20230715/o/oras/0.1.2-0.1.20/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230715/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230715/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [safrs]: Downloading https://files.pythonhosted.org/packages/b4/5e/9d6a80d8c0e657e310d59a43e46e572300e329ba02e76cce266de2362da8/safrs-3.1.1.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-15 21:38:45] INFO root fetch - processPackages [safrs]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [safrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safrs-3.1.0.tar.gz tmp/safrs-3.1.1.tar.gz --markdown 20230715/s/safrs/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-15 21:38:45] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-15 21:38:45] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230715/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:38:46] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.2.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.3.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - main [MainThread]: End processing [big-query-testing-xyz]: success
+[2023-07-15 21:38:46] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-15 21:38:46] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.2.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.20.tar.gz]
+[2023-07-15 21:38:46] INFO root fetch - main [MainThread]: End processing [oras]: success
+[2023-07-15 21:38:47] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-15 21:38:47] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-15 21:38:47] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-07-15 21:38:47] INFO root fetch - processPackages [safrs]: Remove: archive file [/home/abi/fetcher/tmp/safrs-3.1.0.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - processPackages [safrs]: Remove: archive file [/home/abi/fetcher/tmp/safrs-3.1.1.tar.gz]
+[2023-07-15 21:38:47] INFO root fetch - main [MainThread]: End processing [safrs]: success
+[2023-07-15 21:38:47] INFO root fetch - main [MainThread]: Store serial: [18902576]
