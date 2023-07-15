@@ -8036,3 +8036,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:00:32] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-15 12:00:32] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-07-15 12:00:32] INFO root fetch - main [MainThread]: Store serial: [18899622]
+[2023-07-15 12:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899622]
+[2023-07-15 12:05:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runpandarun
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: earhorn
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krml
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyriddle
+[2023-07-15 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm
+[2023-07-15 12:05:41] INFO root fetch - processPackages [earhorn]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-07-15 12:05:41] INFO root fetch - processPackages [runpandarun]: New version: [0.2.1] Old Version: [0.1rc4]
+[2023-07-15 12:05:41] WARNING root fetch - processPackages [krml]: Skipping, unable to determine old version
+[2023-07-15 12:05:41] INFO root fetch - main [MainThread]: End processing [krml] error
+[2023-07-15 12:05:41] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-15 12:05:41] INFO root fetch - processPackages [pyriddle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 12:05:41] INFO root fetch - processPackages [pdm]: New version: [2.8.0a2] Old Version: [2.8.0a1]
+[2023-07-15 12:05:41] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [earhorn]: Downloading https://files.pythonhosted.org/packages/54/ad/57c2a4cf35c8d3c75dfd5929c8b11bc1fcd0bc4a536b0949b4c073e3fac8/earhorn-0.9.0a2.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [runpandarun]: Downloading https://files.pythonhosted.org/packages/f5/9e/4199d1cca22c9774a4aff40b3921e64e4da7977e3a7ed411afdd62f83232/runpandarun-0.1rc4.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [pyriddle]: Downloading https://files.pythonhosted.org/packages/bf/1c/c5328e80156328e4d651abf7ca24b5c6d83457454f71033c3d7d0f4b6437/pyriddle-0.0.2.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/53/df/f263ed7edcdfbee49c8aa3b69534cdcf171330cb4cef2256f6d1c589a505/pdm-2.8.0a1.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [runpandarun]: Downloading https://files.pythonhosted.org/packages/98/5f/5a10e7a40705f91b70010f7732b9fbba392fa44252d9f38e46497e098317/runpandarun-0.2.1.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [earhorn]: Downloading https://files.pythonhosted.org/packages/6e/11/c846c14e2ede9e6a0fbddfd4fcdf5d09870f85af00f2ef574b90bf3296f3/earhorn-0.9.0a3.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [pyriddle]: Downloading https://files.pythonhosted.org/packages/0b/c1/cb07ce794f5c6a095bd1e43a84bb56e28e750732f93b473df160a9d03de4/pyriddle-0.0.3.tar.gz
+[2023-07-15 12:05:41] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-15 12:05:41] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230715/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-15 12:05:41] INFO root fetch - processPackages [runpandarun]: executing diffoscope
+[2023-07-15 12:05:41] INFO root fetch - processPackages [runpandarun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpandarun-0.1rc4.tar.gz tmp/runpandarun-0.2.1.tar.gz --markdown 20230715/r/runpandarun/0.1rc4-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 12:05:41] INFO root fetch - processPackages [earhorn]: executing diffoscope
+[2023-07-15 12:05:41] INFO root fetch - processPackages [earhorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earhorn-0.9.0a2.tar.gz tmp/earhorn-0.9.0a3.tar.gz --markdown 20230715/e/earhorn/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pyriddle]: executing diffoscope
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pyriddle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriddle-0.0.2.tar.gz tmp/pyriddle-0.0.3.tar.gz --markdown 20230715/p/pyriddle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/c6/38/25016493fadc24352042f22a7ea1b00055ddc9c8cf6202b14abc06be1a8b/pdm-2.8.0a2.tar.gz
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.8.0a1.tar.gz tmp/pdm-2.8.0a2.tar.gz --markdown 20230715/p/pdm/2.8.0a1-2.8.0a2/diff.md --exclude *.pyd
+[2023-07-15 12:05:42] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.1rc4.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.2.1.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - main [MainThread]: End processing [runpandarun]: success
+[2023-07-15 12:05:42] INFO root fetch - processPackages [earhorn]: Remove: archive file [/home/abi/fetcher/tmp/earhorn-0.9.0a2.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - processPackages [earhorn]: Remove: archive file [/home/abi/fetcher/tmp/earhorn-0.9.0a3.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - main [MainThread]: End processing [earhorn]: success
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pyriddle]: Remove: archive file [/home/abi/fetcher/tmp/pyriddle-0.0.2.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - processPackages [pyriddle]: Remove: archive file [/home/abi/fetcher/tmp/pyriddle-0.0.3.tar.gz]
+[2023-07-15 12:05:42] INFO root fetch - main [MainThread]: End processing [pyriddle]: success
+[2023-07-15 12:05:43] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-15 12:05:43] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-15 12:05:43] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-15 12:05:44] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.0a1.tar.gz]
+[2023-07-15 12:05:44] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.8.0a2.tar.gz]
+[2023-07-15 12:05:44] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-07-15 12:05:44] INFO root fetch - main [MainThread]: Store serial: [18899642]
