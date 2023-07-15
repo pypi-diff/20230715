@@ -13376,3 +13376,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:26:00] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.4.dev1.tar.gz]
 [2023-07-15 20:26:00] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
 [2023-07-15 20:26:00] INFO root fetch - main [MainThread]: Store serial: [18902266]
+[2023-07-15 20:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902266]
+[2023-07-15 20:31:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-nexus
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xhibit
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lavlab-python-utils
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secret-checker
+[2023-07-15 20:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluegenes
+[2023-07-15 20:31:09] INFO root fetch - processPackages [xhibit]: New version: [9.8.0] Old Version: [9.7.0]
+[2023-07-15 20:31:09] WARNING root fetch - processPackages [reflex-nexus]: Skipping, unable to determine old version
+[2023-07-15 20:31:09] INFO root fetch - processPackages [bluegenes]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 20:31:09] INFO root fetch - main [MainThread]: End processing [reflex-nexus] error
+[2023-07-15 20:31:09] INFO root fetch - processPackages [lavlab-python-utils]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-07-15 20:31:09] WARNING root fetch - processPackages [secret-checker]: Skipping, unable to determine old version
+[2023-07-15 20:31:09] INFO root fetch - main [MainThread]: End processing [secret-checker] error
+[2023-07-15 20:31:09] INFO root fetch - processPackages [yetl-framework]: New version: [1.7.4.dev1] Old Version: [1.7.4]
+[2023-07-15 20:31:09] INFO root fetch - processPackages [bluegenes]: Downloading https://files.pythonhosted.org/packages/71/fc/cbb0a97d0f946e6442ae2ceb2d9851c92262e24a4cbf24df13bcc7a4aef4/bluegenes-0.0.2.tar.gz
+[2023-07-15 20:31:09] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/0d/09/d55a8f65d4db48786da67585992bd3124eb446b9e4a83537e0e2c93e8bbb/xhibit-9.7.0.tar.gz
+[2023-07-15 20:31:09] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/4a/f3/d20b77017c81043eb8a3b369d4835a3ecb7342944ed48199d0ea7e7b02a2/yetl-framework-1.7.4.tar.gz
+[2023-07-15 20:31:09] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/ba/f0/3e085d998c1cd44a20d004ba691ef6efd1d09f3b1fae71a39829368758aa/lavlab-python-utils-1.1.4.tar.gz
+[2023-07-15 20:31:10] INFO root fetch - processPackages [bluegenes]: Downloading https://files.pythonhosted.org/packages/2d/c7/677de0c3d37c324bc4444c9954fc24e38f39b8d9e7cc371c3727c5686453/bluegenes-0.0.3.tar.gz
+[2023-07-15 20:31:10] INFO root fetch - processPackages [xhibit]: Downloading https://files.pythonhosted.org/packages/13/c7/08e184c73e2c2527a5a6b577a172e0209d2606fe5ff1e2b3d91ab94aea3d/xhibit-9.8.0.tar.gz
+[2023-07-15 20:31:10] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/9f/5e/5e9c34c43c0297499befe0e39f16f427c9b7253687f428eb667f8acb4e4a/yetl-framework-1.7.4.dev1.tar.gz
+[2023-07-15 20:31:10] INFO root fetch - processPackages [lavlab-python-utils]: Downloading https://files.pythonhosted.org/packages/6a/d5/762226bd9b1f54fefeeafe553d208c63eef4e338d9b80216b7f92ee21ef3/lavlab-python-utils-1.2.0.tar.gz
+[2023-07-15 20:31:10] INFO root fetch - processPackages [bluegenes]: executing diffoscope
+[2023-07-15 20:31:10] INFO root fetch - processPackages [bluegenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluegenes-0.0.2.tar.gz tmp/bluegenes-0.0.3.tar.gz --markdown 20230715/b/bluegenes/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 20:31:10] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-15 20:31:10] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.7.4.tar.gz tmp/yetl-framework-1.7.4.dev1.tar.gz --markdown 20230715/y/yetl-framework/1.7.4-1.7.4.dev1/diff.md --exclude *.pyd
+[2023-07-15 20:31:10] INFO root fetch - processPackages [xhibit]: executing diffoscope
+[2023-07-15 20:31:10] INFO root fetch - processPackages [xhibit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhibit-9.7.0.tar.gz tmp/xhibit-9.8.0.tar.gz --markdown 20230715/x/xhibit/9.7.0-9.8.0/diff.md --exclude *.pyd
+[2023-07-15 20:31:10] INFO root fetch - processPackages [lavlab-python-utils]: executing diffoscope
+[2023-07-15 20:31:10] INFO root fetch - processPackages [lavlab-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavlab-python-utils-1.1.4.tar.gz tmp/lavlab-python-utils-1.2.0.tar.gz --markdown 20230715/l/lavlab-python-utils/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 20:31:11] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.4.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.4.dev1.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-15 20:31:11] INFO root fetch - processPackages [bluegenes]: Remove: archive file [/home/abi/fetcher/tmp/bluegenes-0.0.2.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - processPackages [bluegenes]: Remove: archive file [/home/abi/fetcher/tmp/bluegenes-0.0.3.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - main [MainThread]: End processing [bluegenes]: success
+[2023-07-15 20:31:11] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.7.0.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - processPackages [xhibit]: Remove: archive file [/home/abi/fetcher/tmp/xhibit-9.8.0.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - main [MainThread]: End processing [xhibit]: success
+[2023-07-15 20:31:11] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.1.4.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.0.tar.gz]
+[2023-07-15 20:31:11] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
+[2023-07-15 20:31:11] INFO root fetch - main [MainThread]: Store serial: [18902291]
