@@ -4614,3 +4614,45 @@
 [2023-07-15 06:25:02] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-07-15 06:25:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-07-15 06:25:02] INFO root fetch - main [MainThread]: Store serial: [18897899]
+[2023-07-15 06:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897899]
+[2023-07-15 06:30:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netron
+[2023-07-15 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpysql
+[2023-07-15 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mqttapi
+[2023-07-15 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-core
+[2023-07-15 06:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgsqlx
+[2023-07-15 06:30:12] INFO root fetch - processPackages [simpysql]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-15 06:30:12] INFO root fetch - processPackages [netron]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-07-15 06:30:12] WARNING root fetch - processPackages [pgsqlx]: Skipping, unable to determine old version
+[2023-07-15 06:30:12] INFO root fetch - main [MainThread]: End processing [pgsqlx] error
+[2023-07-15 06:30:12] INFO root fetch - processPackages [mqttapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 06:30:12] INFO root fetch - processPackages [honeybee-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 06:30:12] INFO root fetch - processPackages [simpysql]: Downloading https://files.pythonhosted.org/packages/2c/03/78c2d6c750eb3cfa4df265b5c9abd5a845e1a8735cec458b83ab44f48d36/simpysql-0.4.7.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/a9/c9/0bf70992f68425f3726ad40222a425ef102bb63f1073cde43d10932e58a3/mqttapi-0.1.1.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/81/97/ff118177537d1e9fbd00ef901b3465254a83b4d26acfe566820011ed15d6/netron-7.0.3-py3-none-any.whl
+[2023-07-15 06:30:12] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/25/88/7ed0aeb6b1cf0d4f003a3d3e96312cea0aff67017d50c5c9cd245c04f048/honeybee-core-1.8.1.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [simpysql]: Downloading https://files.pythonhosted.org/packages/f0/2f/76d4ecac61398ef1321b93effa0e8a602c3283f29988642cf3a4c6938ee3/simpysql-0.4.8.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [mqttapi]: Downloading https://files.pythonhosted.org/packages/75/86/30ee270114e46d6671b63509b7c2bccd6909e0bb21ba4e75ab109eec575d/mqttapi-0.1.2.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [honeybee-core]: Downloading https://files.pythonhosted.org/packages/d8/9b/f2a81f9cdf6c2556a083efabd9c0d69bdf3eb0acefed3b55c9d5ed1bcb15/honeybee-core-1.9.0.tar.gz
+[2023-07-15 06:30:12] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/8a/73/1d4b5cfaa9e4904eb659e2f06ead4b63a1b2a86ee80465a1f10980c66738/netron-7.0.4-py3-none-any.whl
+[2023-07-15 06:30:12] INFO root fetch - processPackages [simpysql]: executing diffoscope
+[2023-07-15 06:30:12] INFO root fetch - processPackages [simpysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpysql-0.4.7.tar.gz tmp/simpysql-0.4.8.tar.gz --markdown 20230715/s/simpysql/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-15 06:30:12] INFO root fetch - processPackages [mqttapi]: executing diffoscope
+[2023-07-15 06:30:12] INFO root fetch - processPackages [mqttapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttapi-0.1.1.tar.gz tmp/mqttapi-0.1.2.tar.gz --markdown 20230715/m/mqttapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 06:30:13] INFO root fetch - processPackages [honeybee-core]: executing diffoscope
+[2023-07-15 06:30:13] INFO root fetch - processPackages [honeybee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-core-1.8.1.tar.gz tmp/honeybee-core-1.9.0.tar.gz --markdown 20230715/h/honeybee-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 06:30:13] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-07-15 06:30:13] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.0.3-py3-none-any.whl.zip tmp/netron-7.0.4-py3-none-any.whl.zip --markdown 20230715/n/netron/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-07-15 06:30:13] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.1.tar.gz]
+[2023-07-15 06:30:13] INFO root fetch - processPackages [mqttapi]: Remove: archive file [/home/abi/fetcher/tmp/mqttapi-0.1.2.tar.gz]
+[2023-07-15 06:30:13] INFO root fetch - main [MainThread]: End processing [mqttapi]: success
+[2023-07-15 06:30:13] INFO root fetch - processPackages [simpysql]: Remove: archive file [/home/abi/fetcher/tmp/simpysql-0.4.7.tar.gz]
+[2023-07-15 06:30:13] INFO root fetch - processPackages [simpysql]: Remove: archive file [/home/abi/fetcher/tmp/simpysql-0.4.8.tar.gz]
+[2023-07-15 06:30:13] INFO root fetch - main [MainThread]: End processing [simpysql]: success
+[2023-07-15 06:30:14] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.8.1.tar.gz]
+[2023-07-15 06:30:14] INFO root fetch - processPackages [honeybee-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-core-1.9.0.tar.gz]
+[2023-07-15 06:30:14] INFO root fetch - main [MainThread]: End processing [honeybee-core]: success
+[2023-07-15 06:32:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.3-py3-none-any.whl.zip]
+[2023-07-15 06:32:07] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.4-py3-none-any.whl.zip]
+[2023-07-15 06:32:07] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-07-15 06:32:07] INFO root fetch - main [MainThread]: Store serial: [18897914]
