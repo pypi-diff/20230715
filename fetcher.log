@@ -10879,3 +10879,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:28:43] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-15 16:28:43] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-15 16:28:43] INFO root fetch - main [MainThread]: Store serial: [18901117]
+[2023-07-15 16:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901117]
+[2023-07-15 16:33:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyjuliusalign
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigtree
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rysk-client
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lolcatt
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: barladb
+[2023-07-15 16:33:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: massivetoollib
+[2023-07-15 16:33:52] INFO root fetch - processPackages [lolcatt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 16:33:52] INFO root fetch - processPackages [barladb]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-15 16:33:52] INFO root fetch - processPackages [rysk-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 16:33:52] INFO root fetch - processPackages [pyjuliusalign]: New version: [4.0.0] Old Version: [3.1.1]
+[2023-07-15 16:33:52] INFO root fetch - processPackages [bigtree]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-15 16:33:52] WARNING root fetch - processPackages [massivetoollib]: Skipping, unable to determine old version
+[2023-07-15 16:33:52] INFO root fetch - main [MainThread]: End processing [massivetoollib] error
+[2023-07-15 16:33:52] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/bd/f3/50e8e742f888821dfbbdabb941dfbcd590816be5a747df37dd39b393b7d0/rysk_client-0.2.2.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/f4/0f/4ef099bbd539573101995681109cb01f146e7529863a0cf87a11fe64bdf4/barladb-0.1.2.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/b8/ef/099d273bca2dff56603ea0edb52876cb15294edefd9c451e69179c831615/lolcatt-0.1.3.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/a3/06/d26933e315119b44cb2b7cfcfde9085578c4bfefd8991b2f226ab875ec4e/bigtree-0.9.4.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [pyjuliusalign]: Downloading https://files.pythonhosted.org/packages/ce/75/9b8b646d29d42f09eff2c7f099e33bbdea3d1d86349debea18e0e83d5778/pyjuliusalign-3.1.1.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/df/07/c3a7b311e976874e5595dfa095fe778cd225ce7f145d72d622c7288f0a51/rysk_client-0.2.3.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/62/a7/1fcd07487f6a0483120319bc36b68f9222b683176e4661f6c35f1b3b4221/barladb-0.1.4.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/27/cc/784921d91ebc6cb3d8a8c8b543c38d966761da439e6d20232fe4dd871041/lolcatt-0.1.4.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-07-15 16:33:52] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.2.tar.gz tmp/rysk_client-0.2.3.tar.gz --markdown 20230715/r/rysk-client/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 16:33:52] INFO root fetch - processPackages [pyjuliusalign]: Downloading https://files.pythonhosted.org/packages/b8/26/8b1696096bfb86d0b1e47426af3cbb62b809491d9e1aa164eab0ae11f260/pyjuliusalign-4.0.0.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/42/d0/c77ad03638442b693d9b328a1e8e77de023a7abc5505af29220b8a68a592/bigtree-0.9.5.tar.gz
+[2023-07-15 16:33:52] INFO root fetch - processPackages [barladb]: executing diffoscope
+[2023-07-15 16:33:52] INFO root fetch - processPackages [barladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barladb-0.1.2.tar.gz tmp/barladb-0.1.4.tar.gz --markdown 20230715/b/barladb/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 16:33:52] INFO root fetch - processPackages [pyjuliusalign]: executing diffoscope
+[2023-07-15 16:33:52] INFO root fetch - processPackages [pyjuliusalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjuliusalign-3.1.1.tar.gz tmp/pyjuliusalign-4.0.0.tar.gz --markdown 20230715/p/pyjuliusalign/3.1.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-15 16:33:53] INFO root fetch - processPackages [lolcatt]: executing diffoscope
+[2023-07-15 16:33:53] INFO root fetch - processPackages [lolcatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolcatt-0.1.3.tar.gz tmp/lolcatt-0.1.4.tar.gz --markdown 20230715/l/lolcatt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 16:33:53] INFO root fetch - processPackages [bigtree]: executing diffoscope
+[2023-07-15 16:33:53] INFO root fetch - processPackages [bigtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtree-0.9.4.tar.gz tmp/bigtree-0.9.5.tar.gz --markdown 20230715/b/bigtree/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-15 16:33:53] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.2.tar.gz]
+[2023-07-15 16:33:53] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.4.tar.gz]
+[2023-07-15 16:33:53] INFO root fetch - main [MainThread]: End processing [barladb]: success
+[2023-07-15 16:33:53] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.2.tar.gz]
+[2023-07-15 16:33:53] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.3.tar.gz]
+[2023-07-15 16:33:53] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-07-15 16:33:54] INFO root fetch - processPackages [pyjuliusalign]: Remove: archive file [/home/abi/fetcher/tmp/pyjuliusalign-3.1.1.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - processPackages [pyjuliusalign]: Remove: archive file [/home/abi/fetcher/tmp/pyjuliusalign-4.0.0.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - main [MainThread]: End processing [pyjuliusalign]: success
+[2023-07-15 16:33:54] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.3.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.4.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - main [MainThread]: End processing [lolcatt]: success
+[2023-07-15 16:33:54] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.4.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.5.tar.gz]
+[2023-07-15 16:33:54] INFO root fetch - main [MainThread]: End processing [bigtree]: success
+[2023-07-15 16:33:54] INFO root fetch - main [MainThread]: Store serial: [18901137]
