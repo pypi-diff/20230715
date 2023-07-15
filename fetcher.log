@@ -2984,3 +2984,21 @@
 [2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [omgpt]: success
 [2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [omgpt]: success
 [2023-07-15 03:24:59] INFO root fetch - main [MainThread]: Store serial: [18897142]
+[2023-07-15 03:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897142]
+[2023-07-15 03:30:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 03:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2023-07-15 03:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secret-checker
+[2023-07-15 03:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Surfactant
+[2023-07-15 03:30:09] WARNING root fetch - processPackages [secret-checker]: Skipping, unable to determine old version
+[2023-07-15 03:30:09] INFO root fetch - main [MainThread]: End processing [secret-checker] error
+[2023-07-15 03:30:09] WARNING root fetch - processPackages [Surfactant]: Skipping, unable to determine old version
+[2023-07-15 03:30:09] INFO root fetch - main [MainThread]: End processing [Surfactant] error
+[2023-07-15 03:30:09] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-15 03:30:09] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-15 03:30:10] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-15 03:30:11] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-15 03:30:11] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230715/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-15 03:30:12] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-15 03:30:12] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-15 03:30:12] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-15 03:30:12] INFO root fetch - main [MainThread]: Store serial: [18897153]
