@@ -7173,3 +7173,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:36:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.28.tar.gz]
 [2023-07-15 10:36:54] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 10:36:54] INFO root fetch - main [MainThread]: Store serial: [18899260]
+[2023-07-15 10:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899260]
+[2023-07-15 10:42:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: howtool
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eztils
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: islpy
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irene-pro
+[2023-07-15 10:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tff-nightly
+[2023-07-15 10:42:02] INFO root fetch - processPackages [islpy]: New version: [2023.1.1] Old Version: [2023.1]
+[2023-07-15 10:42:02] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-15 10:42:02] INFO root fetch - processPackages [eztils]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-15 10:42:02] WARNING root fetch - processPackages [howtool]: Skipping, unable to determine old version
+[2023-07-15 10:42:02] INFO root fetch - main [MainThread]: End processing [howtool] error
+[2023-07-15 10:42:02] INFO root fetch - processPackages [irene-pro]: New version: [0.1.0] Old Version: [0.0.99]
+[2023-07-15 10:42:02] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230714] Old Version: [0.0.1.dev20230713]
+[2023-07-15 10:42:02] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-15 10:42:02] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/3e/d8/fec67dd644e370283e5fe864ff6489690e1bd621c6f5bb77c6cd39d43d85/eztils-0.4.2.tar.gz
+[2023-07-15 10:42:02] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/a8/43/89d0471b291263b7acedcabe8641f0a703247d4b4c02b02836e0ee6603b9/irene_pro-0.0.99.tar.gz
+[2023-07-15 10:42:02] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/2e/2e/a6a043709fe4917783098e1de0d23655df6c063ae3ccd07904bd3e0beefe/tff_nightly-0.0.1.dev20230713-py2.py3-none-any.whl
+[2023-07-15 10:42:02] INFO root fetch - processPackages [islpy]: Downloading https://files.pythonhosted.org/packages/62/7e/1728e19e8b5913938a54fc3ebec0dbd43e2e8a5279bdb2a33a6461dad569/islpy-2023.1.tar.gz
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-15 10:42:03] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/24/c9/da0527597296471ec01f1ecf02ab9c3011c7b3ff9863e24b4b69678e88d1/eztils-0.4.3.tar.gz
+[2023-07-15 10:42:03] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/95/e1/5be3d3d5529a04be44908ccfc42c41fcd53985c12f6fbe4213de119c92de/irene_pro-0.1.0.tar.gz
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/4d/66/60be669ade1dc96f2abb4fe5969a81e582ed0b30481ec4300a4c421bdb56/tff_nightly-0.0.1.dev20230714-py2.py3-none-any.whl
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230715/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-15 10:42:03] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2023-07-15 10:42:03] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.2.tar.gz tmp/eztils-0.4.3.tar.gz --markdown 20230715/e/eztils/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-15 10:42:03] INFO root fetch - processPackages [islpy]: Downloading https://files.pythonhosted.org/packages/90/65/34436c042fe7a23dfc25dbeeea95544e64ee3323b132cc3f36b75fdd5e3d/islpy-2023.1.1.tar.gz
+[2023-07-15 10:42:03] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-15 10:42:03] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.99.tar.gz tmp/irene_pro-0.1.0.tar.gz --markdown 20230715/i/irene-pro/0.0.99-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-15 10:42:03] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230713-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230714-py2.py3-none-any.whl.zip --markdown 20230715/t/tff-nightly/0.0.1.dev20230713-0.0.1.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 10:42:04] INFO root fetch - processPackages [islpy]: executing diffoscope
+[2023-07-15 10:42:04] INFO root fetch - processPackages [islpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islpy-2023.1.tar.gz tmp/islpy-2023.1.1.tar.gz --markdown 20230715/i/islpy/2023.1-2023.1.1/diff.md --exclude *.pyd
+[2023-07-15 10:42:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.99.tar.gz]
+[2023-07-15 10:42:04] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.0.tar.gz]
+[2023-07-15 10:42:04] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-15 10:42:04] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.2.tar.gz]
+[2023-07-15 10:42:04] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.3.tar.gz]
+[2023-07-15 10:42:04] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2023-07-15 10:42:04] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-15 10:42:04] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-15 10:42:04] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-15 10:42:05] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230713-py2.py3-none-any.whl.zip]
+[2023-07-15 10:42:05] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230714-py2.py3-none-any.whl.zip]
+[2023-07-15 10:42:05] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-15 10:42:07] INFO root fetch - processPackages [islpy]: Remove: archive file [/home/abi/fetcher/tmp/islpy-2023.1.tar.gz]
+[2023-07-15 10:42:07] INFO root fetch - processPackages [islpy]: Remove: archive file [/home/abi/fetcher/tmp/islpy-2023.1.1.tar.gz]
+[2023-07-15 10:42:07] INFO root fetch - main [MainThread]: End processing [islpy]: success
+[2023-07-15 10:42:07] INFO root fetch - main [MainThread]: Store serial: [18899303]
