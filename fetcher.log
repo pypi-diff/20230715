@@ -3289,3 +3289,24 @@
 [2023-07-15 03:53:04] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
 [2023-07-15 03:53:04] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-07-15 03:53:04] INFO root fetch - main [MainThread]: Store serial: [18897270]
+[2023-07-15 03:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897270]
+[2023-07-15 03:58:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 03:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rayfed-nightly
+[2023-07-15 03:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipcs
+[2023-07-15 03:58:13] INFO root fetch - processPackages [ipcs]: New version: [0.2.0] Old Version: [0.1.5.post1]
+[2023-07-15 03:58:13] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230715.dev0] Old Version: [0.1.0b20230713.dev0]
+[2023-07-15 03:58:13] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/45/b1/f0b395044806f8452cfe25fdd7c11fcdbe818f95fe7a203ce0d7aaba741d/ipcs-0.1.5.post1.tar.gz
+[2023-07-15 03:58:13] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/ef/e7/5084d6fc8caab43ae717e661acb6e8f3840adc3b8b80ae6af65fa002b36e/rayfed_nightly-0.1.0b20230713.dev0-py3-none-any.whl
+[2023-07-15 03:58:13] INFO root fetch - processPackages [ipcs]: Downloading https://files.pythonhosted.org/packages/88/72/8f5ce888c5298224bfb34096b2c8667b420fe8ebd8fe54645aeec880a48a/ipcs-0.2.0.tar.gz
+[2023-07-15 03:58:13] INFO root fetch - processPackages [ipcs]: executing diffoscope
+[2023-07-15 03:58:13] INFO root fetch - processPackages [ipcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipcs-0.1.5.post1.tar.gz tmp/ipcs-0.2.0.tar.gz --markdown 20230715/i/ipcs/0.1.5.post1-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 03:58:13] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/50/e5/45dea3a1ab4ed76327c7b87314b2665233d79f3014271edead4f44ef4826/rayfed_nightly-0.1.0b20230715.dev0-py3-none-any.whl
+[2023-07-15 03:58:14] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-07-15 03:58:14] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230713.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230715.dev0-py3-none-any.whl.zip --markdown 20230715/r/rayfed-nightly/0.1.0b20230713.dev0-0.1.0b20230715.dev0/diff.md --exclude *.pyd
+[2023-07-15 03:58:14] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.1.5.post1.tar.gz]
+[2023-07-15 03:58:14] INFO root fetch - processPackages [ipcs]: Remove: archive file [/home/abi/fetcher/tmp/ipcs-0.2.0.tar.gz]
+[2023-07-15 03:58:14] INFO root fetch - main [MainThread]: End processing [ipcs]: success
+[2023-07-15 03:58:14] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230713.dev0-py3-none-any.whl.zip]
+[2023-07-15 03:58:14] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230715.dev0-py3-none-any.whl.zip]
+[2023-07-15 03:58:14] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-07-15 03:58:14] INFO root fetch - main [MainThread]: Store serial: [18897280]
