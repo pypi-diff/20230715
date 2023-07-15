@@ -5127,3 +5127,77 @@
 [2023-07-15 07:08:29] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
 [2023-07-15 07:08:29] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
 [2023-07-15 07:08:29] INFO root fetch - main [MainThread]: Store serial: [18898169]
+[2023-07-15 07:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898169]
+[2023-07-15 07:13:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dask-cuda
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volttron-lib-boptest-integration
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volttron-boptest
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysamosa
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbix-plus
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-runtime-nightly
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jayshreeram
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-support-nightly
+[2023-07-15 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymoutility
+[2023-07-15 07:13:38] INFO root fetch - processPackages [pysamosa]: New version: [0.5.8] Old Version: [0.4.0]
+[2023-07-15 07:13:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-15 07:13:38] INFO root fetch - processPackages [volttron-boptest]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-07-15 07:13:38] INFO root fetch - processPackages [pymoutility]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 07:13:38] INFO root fetch - processPackages [jayshreeram]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 07:13:39] WARNING root fetch - processPackages [pbix-plus]: Skipping, unable to determine old version
+[2023-07-15 07:13:39] INFO root fetch - main [MainThread]: End processing [pbix-plus] error
+[2023-07-15 07:13:39] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230715] Old Version: [23.8.0a230714]
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/ff/cf/063662558d4fa630f4e32d5d4c48121f0c29f226d2383bc65a012f8c0926/volttron_lib_boptest_integration-0.1.1a1.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230714] Old Version: [0.4.4.dev20230713]
+[2023-07-15 07:13:39] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/37/e1/d7045acbed5eaec8b8f216ae3a1b6da8bf35954540a551ed31be0368ec2a/dask-cuda-23.8.0a230714.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/5d/6a/392136f5a7688eb4387c4aaafd1637a487a9415160c696f84484883579e2/pysamosa-0.4.0.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/be/b5/eacb591e26f9ca35e34c0a8df2f00ba2831dd5496153c0a594708cf233f4/jayshreeram-0.0.6-py3-none-any.whl
+[2023-07-15 07:13:39] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230714] Old Version: [2.14.0.dev20230713]
+[2023-07-15 07:13:39] INFO root fetch - processPackages [pymoutility]: Downloading https://files.pythonhosted.org/packages/f1/9f/4f433ad4530c4c3382f538cbfed0d1571ba0df8869c8def09d3f613db7f9/pymoutility-0.1.0.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/db/76/94c2915d03318f36c3810ea0dfc3fe3e9979bc0047cc9ba66c0090e28897/volttron_boptest-0.1.1a1.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/eb/32/90561ba2d04558a96c6fe8db718a7dd8a75f671ab13970d853e392d28db0/tflite_support_nightly-0.4.4.dev20230713-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/84/77/6fde40c43695c993b5f6cebe5579d627fde6f37369f3876d8a2a6c16bb25/volttron_lib_boptest_integration-0.1.1a2.tar.gz
+[2023-07-15 07:13:39] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-07-15 07:13:39] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-15 07:13:39] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/dc/d8/6b226b5f77a2f1c84131f1f8857b22c0f6e25a6256f905655a6f6966e91d/dask-cuda-23.8.0a230715.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/4a/bb/6fb21e9a8649abe22540e70e38d51bee554ac4a3312964be3464d18ce28e/tflite_runtime_nightly-2.14.0.dev20230713-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 07:13:39] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/b7/60/e05722cd0d408b500ecec098496646dd7f0955bfdc7ad2ec85cea8b28b7b/jayshreeram-0.0.7-py3-none-any.whl
+[2023-07-15 07:13:39] INFO root fetch - processPackages [pymoutility]: Downloading https://files.pythonhosted.org/packages/0e/5e/06e05743de646427621aad29c6a51242b4a8d429e2a3c583cd8d05121495/pymoutility-0.1.1.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/27/31/e7f2f7e16a1d4569d1f7a6b04336041c77b6c54bb76acd7a131d99ab43c3/volttron_boptest-0.1.1a2.tar.gz
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: executing diffoscope
+[2023-07-15 07:13:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_boptest_integration-0.1.1a1.tar.gz tmp/volttron_lib_boptest_integration-0.1.1a2.tar.gz --markdown 20230715/v/volttron-lib-boptest-integration/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-15 07:13:39] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-15 07:13:39] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230714.tar.gz tmp/dask-cuda-23.8.0a230715.tar.gz --markdown 20230715/d/dask-cuda/23.8.0a230714-23.8.0a230715/diff.md --exclude *.pyd
+[2023-07-15 07:13:39] INFO root fetch - processPackages [jayshreeram]: executing diffoscope
+[2023-07-15 07:13:39] INFO root fetch - processPackages [jayshreeram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jayshreeram-0.0.6-py3-none-any.whl.zip tmp/jayshreeram-0.0.7-py3-none-any.whl.zip --markdown 20230715/j/jayshreeram/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 07:13:39] INFO root fetch - processPackages [pymoutility]: executing diffoscope
+[2023-07-15 07:13:39] INFO root fetch - processPackages [pymoutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymoutility-0.1.0.tar.gz tmp/pymoutility-0.1.1.tar.gz --markdown 20230715/p/pymoutility/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 07:13:40] INFO root fetch - processPackages [volttron-boptest]: executing diffoscope
+[2023-07-15 07:13:40] INFO root fetch - processPackages [volttron-boptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_boptest-0.1.1a1.tar.gz tmp/volttron_boptest-0.1.1a2.tar.gz --markdown 20230715/v/volttron-boptest/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-07-15 07:13:40] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/25/84/7b2ea2036aa5ecff7210b0610483c7346619e243d37bd8ae460dca956109/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 07:13:40] INFO root fetch - processPackages [pysamosa]: Downloading https://files.pythonhosted.org/packages/30/aa/e6c11fbe23990ff145e0bf005025fd3ed961964dd2420d48bbfbe81de01e/pysamosa-0.5.8.tar.gz
+[2023-07-15 07:13:40] INFO root fetch - processPackages [pysamosa]: executing diffoscope
+[2023-07-15 07:13:40] INFO root fetch - processPackages [pysamosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysamosa-0.4.0.tar.gz tmp/pysamosa-0.5.8.tar.gz --markdown 20230715/p/pysamosa/0.4.0-0.5.8/diff.md --exclude *.pyd
+[2023-07-15 07:13:40] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.6-py3-none-any.whl.zip]
+[2023-07-15 07:13:40] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.7-py3-none-any.whl.zip]
+[2023-07-15 07:13:40] INFO root fetch - main [MainThread]: End processing [jayshreeram]: success
+[2023-07-15 07:13:40] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1a1.tar.gz]
+[2023-07-15 07:13:40] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1a2.tar.gz]
+[2023-07-15 07:13:40] INFO root fetch - main [MainThread]: End processing [volttron-lib-boptest-integration]: success
+[2023-07-15 07:13:40] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-15 07:13:40] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230713-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230715/t/tflite-runtime-nightly/2.14.0.dev20230713-2.14.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 07:13:40] INFO root fetch - processPackages [pymoutility]: Remove: archive file [/home/abi/fetcher/tmp/pymoutility-0.1.0.tar.gz]
+[2023-07-15 07:13:40] INFO root fetch - processPackages [pymoutility]: Remove: archive file [/home/abi/fetcher/tmp/pymoutility-0.1.1.tar.gz]
+[2023-07-15 07:13:40] INFO root fetch - main [MainThread]: End processing [pymoutility]: success
+[2023-07-15 07:13:41] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230714.tar.gz]
+[2023-07-15 07:13:41] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230715.tar.gz]
+[2023-07-15 07:13:41] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-15 07:13:41] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1a1.tar.gz]
+[2023-07-15 07:13:41] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1a2.tar.gz]
+[2023-07-15 07:13:41] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
+[2023-07-15 07:13:42] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.4.0.tar.gz]
+[2023-07-15 07:13:42] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.5.8.tar.gz]
+[2023-07-15 07:13:42] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
+[2023-07-15 07:13:59] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230713-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-15 07:13:59] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-15 07:13:59] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-15 07:13:59] INFO root fetch - main [MainThread]: Store serial: [18898249]
