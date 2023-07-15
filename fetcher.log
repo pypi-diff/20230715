@@ -5775,3 +5775,24 @@
 [2023-07-15 08:16:25] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230715.tar.gz]
 [2023-07-15 08:16:25] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-15 08:16:25] INFO root fetch - main [MainThread]: Store serial: [18898527]
+[2023-07-15 08:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898527]
+[2023-07-15 08:21:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 08:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-thumb
+[2023-07-15 08:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rancher2
+[2023-07-15 08:21:34] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 08:21:34] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/39/2c/40ae85751ed109403e2405aef6994a97bfa4647ecce49682f256a3d153c3/nb-thumb-0.0.7.tar.gz
+[2023-07-15 08:21:34] INFO root fetch - processPackages [pulumi-rancher2]: New version: [5.1.0a1689400040] Old Version: [5.1.0a1687973111]
+[2023-07-15 08:21:34] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/78/f7/0139f08bb77f98a544d332b6281b529f17d5e83c693e2db9826effc1051f/pulumi_rancher2-5.1.0a1687973111.tar.gz
+[2023-07-15 08:21:34] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/ab/31/1d264983a9d7de7e9f10edcbc48429da92c985efb6daaf42e4f8af9b9841/nb-thumb-0.0.8.tar.gz
+[2023-07-15 08:21:34] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-15 08:21:34] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.7.tar.gz tmp/nb-thumb-0.0.8.tar.gz --markdown 20230715/n/nb-thumb/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 08:21:35] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/42/f3/477b83f06ba62b21da09207c3acb9966f86157e2111c41606d94d6494195/pulumi_rancher2-5.1.0a1689400040.tar.gz
+[2023-07-15 08:21:35] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-07-15 08:21:35] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-5.1.0a1687973111.tar.gz tmp/pulumi_rancher2-5.1.0a1689400040.tar.gz --markdown 20230715/p/pulumi-rancher2/5.1.0a1687973111-5.1.0a1689400040/diff.md --exclude *.pyd
+[2023-07-15 08:21:35] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.7.tar.gz]
+[2023-07-15 08:21:35] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.8.tar.gz]
+[2023-07-15 08:21:35] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-15 08:21:36] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1687973111.tar.gz]
+[2023-07-15 08:21:36] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-5.1.0a1689400040.tar.gz]
+[2023-07-15 08:21:36] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-07-15 08:21:36] INFO root fetch - main [MainThread]: Store serial: [18898536]
