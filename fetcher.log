@@ -9107,3 +9107,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:55:07] INFO root fetch - processPackages [pysamosa]: Remove: archive file [/home/abi/fetcher/tmp/pysamosa-0.5.8.tar.gz]
 [2023-07-15 13:55:07] INFO root fetch - main [MainThread]: End processing [pysamosa]: success
 [2023-07-15 13:55:07] INFO root fetch - main [MainThread]: Store serial: [18900133]
+[2023-07-15 14:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900133]
+[2023-07-15 14:00:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysimx
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heregpt
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loguru-config
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dl-hf-model
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-stream-rs-tokenizer
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microcat
+[2023-07-15 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codeboxapi
+[2023-07-15 14:00:32] WARNING root fetch - processPackages [loguru-config]: Skipping, unable to determine old version
+[2023-07-15 14:00:32] INFO root fetch - main [MainThread]: End processing [loguru-config] error
+[2023-07-15 14:00:32] INFO root fetch - processPackages [heregpt]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-15 14:00:32] WARNING root fetch - processPackages [pysimx]: Skipping, unable to determine old version
+[2023-07-15 14:00:32] INFO root fetch - main [MainThread]: End processing [pysimx] error
+[2023-07-15 14:00:32] INFO root fetch - processPackages [microcat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 14:00:32] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 14:00:32] WARNING root fetch - processPackages [dl-hf-model]: Skipping, unable to determine old version
+[2023-07-15 14:00:32] INFO root fetch - main [MainThread]: End processing [dl-hf-model] error
+[2023-07-15 14:00:32] INFO root fetch - processPackages [certora-cli]: New version: [4.5.1] Old Version: [4.3.1]
+[2023-07-15 14:00:32] INFO root fetch - processPackages [json-stream-rs-tokenizer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-15 14:00:32] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/90/f7/486f60cdf19c92a94688f50aca530e51d8db9bfcd9c97dc9d8019f37bdab/microcat-0.2.1.tar.gz
+[2023-07-15 14:00:32] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/b9/f9/ed3fc2a940df492b1193fe64fb4c2dea596d72562e99ffbaf17a82ff8a42/codeboxapi-0.0.5.tar.gz
+[2023-07-15 14:00:32] INFO root fetch - processPackages [heregpt]: Downloading https://files.pythonhosted.org/packages/38/7d/5072d309d90aac0efb59cac5e99aa3b16b6ec2699f647eb7d48d85137b48/heregpt-0.1.2.tar.gz
+[2023-07-15 14:00:32] INFO root fetch - processPackages [certora-cli]: Downloading https://files.pythonhosted.org/packages/36/ce/09e4e75149f3c015b79f9031bc5ed490ff002e3f77c9a932678108d68409/certora-cli-4.3.1.tar.gz
+[2023-07-15 14:00:32] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Downloading https://files.pythonhosted.org/packages/24/02/80bea671538eff79f7b425c6e3d0f6f0dbc010939a8becc0299acc67443e/json-stream-rs-tokenizer-0.4.8.tar.gz
+[2023-07-15 14:00:32] WARNING root fetch - processPackages [certora-cli]: Skipping package: exceeds size limit 37099113>=10485760
+[2023-07-15 14:00:32] INFO root fetch - main [MainThread]: End processing [certora-cli] error
+[2023-07-15 14:00:33] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/81/31/8fe48da7da1905181c29996f000aa4a73c01683e0b3f8bc9dff7aacd05d3/codeboxapi-0.0.6.tar.gz
+[2023-07-15 14:00:33] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/49/c0/6d20a6744b89a208b4f990a02a9ec7fb5eac33db4407fb5edb6612ca0aa7/microcat-0.2.2.tar.gz
+[2023-07-15 14:00:33] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-07-15 14:00:33] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.5.tar.gz tmp/codeboxapi-0.0.6.tar.gz --markdown 20230715/c/codeboxapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 14:00:33] INFO root fetch - processPackages [heregpt]: Downloading https://files.pythonhosted.org/packages/c2/f9/b7724066ecb308c1741994627318da262bbf045e6f60cb4534d0309f686b/heregpt-0.2.0.tar.gz
+[2023-07-15 14:00:33] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-07-15 14:00:33] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.2.1.tar.gz tmp/microcat-0.2.2.tar.gz --markdown 20230715/m/microcat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 14:00:33] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Downloading https://files.pythonhosted.org/packages/6c/3d/5661bfd35da970d0dd7755a6f98062334da1e825bbd023c9a47a84006316/json-stream-rs-tokenizer-0.4.9.tar.gz
+[2023-07-15 14:00:33] INFO root fetch - processPackages [heregpt]: executing diffoscope
+[2023-07-15 14:00:33] INFO root fetch - processPackages [heregpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heregpt-0.1.2.tar.gz tmp/heregpt-0.2.0.tar.gz --markdown 20230715/h/heregpt/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 14:00:33] INFO root fetch - processPackages [json-stream-rs-tokenizer]: executing diffoscope
+[2023-07-15 14:00:33] INFO root fetch - processPackages [json-stream-rs-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-stream-rs-tokenizer-0.4.8.tar.gz tmp/json-stream-rs-tokenizer-0.4.9.tar.gz --markdown 20230715/j/json-stream-rs-tokenizer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-15 14:00:33] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.5.tar.gz]
+[2023-07-15 14:00:33] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.6.tar.gz]
+[2023-07-15 14:00:33] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-07-15 14:00:34] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.1.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.2.2.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-07-15 14:00:34] INFO root fetch - processPackages [heregpt]: Remove: archive file [/home/abi/fetcher/tmp/heregpt-0.1.2.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - processPackages [heregpt]: Remove: archive file [/home/abi/fetcher/tmp/heregpt-0.2.0.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - main [MainThread]: End processing [heregpt]: success
+[2023-07-15 14:00:34] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/json-stream-rs-tokenizer-0.4.8.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/json-stream-rs-tokenizer-0.4.9.tar.gz]
+[2023-07-15 14:00:34] INFO root fetch - main [MainThread]: End processing [json-stream-rs-tokenizer]: success
+[2023-07-15 14:00:34] INFO root fetch - main [MainThread]: Store serial: [18900199]
