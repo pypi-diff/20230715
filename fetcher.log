@@ -8700,3 +8700,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:23:48] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-15 13:23:48] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-15 13:23:48] INFO root fetch - main [MainThread]: Store serial: [18899943]
+[2023-07-15 13:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899943]
+[2023-07-15 13:28:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtg-scryfall-grabber
+[2023-07-15 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrl-nightly
+[2023-07-15 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2023-07-15 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2023-07-15 13:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 13:28:57] INFO root fetch - processPackages [mtg-scryfall-grabber]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-15 13:28:57] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 13:28:58] INFO root fetch - processPackages [mtg-scryfall-grabber]: Downloading https://files.pythonhosted.org/packages/5f/9a/7a0e7d8d31e558eaa1abf4e74c0bfe2c09acdd764018230fa5c31b510c5f/mtg_scryfall_grabber-0.1.3.tar.gz
+[2023-07-15 13:28:58] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-15 13:28:58] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230715/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230715/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 13:28:58] INFO root fetch - processPackages [mtg-scryfall-grabber]: Downloading https://files.pythonhosted.org/packages/ba/55/f3844c5fb0e093b7468a4ea2d1d2bf84584eeb30c58e5c709bd5fa836d41/mtg_scryfall_grabber-1.0.0.tar.gz
+[2023-07-15 13:28:58] INFO root fetch - processPackages [mtg-scryfall-grabber]: executing diffoscope
+[2023-07-15 13:28:58] INFO root fetch - processPackages [mtg-scryfall-grabber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtg_scryfall_grabber-0.1.3.tar.gz tmp/mtg_scryfall_grabber-1.0.0.tar.gz --markdown 20230715/m/mtg-scryfall-grabber/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-15 13:28:58] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230715/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-15 13:28:59] INFO root fetch - processPackages [mtg-scryfall-grabber]: Remove: archive file [/home/abi/fetcher/tmp/mtg_scryfall_grabber-0.1.3.tar.gz]
+[2023-07-15 13:28:59] INFO root fetch - processPackages [mtg-scryfall-grabber]: Remove: archive file [/home/abi/fetcher/tmp/mtg_scryfall_grabber-1.0.0.tar.gz]
+[2023-07-15 13:28:59] INFO root fetch - main [MainThread]: End processing [mtg-scryfall-grabber]: success
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 13:28:59] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-15 13:28:59] INFO root fetch - main [MainThread]: Store serial: [18899960]
