@@ -4792,3 +4792,81 @@
 [2023-07-15 06:42:31] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale-llm-engine-1.0.0.tar.gz]
 [2023-07-15 06:42:31] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
 [2023-07-15 06:42:31] INFO root fetch - main [MainThread]: Store serial: [18898018]
+[2023-07-15 06:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898018]
+[2023-07-15 06:47:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-energy
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-core
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-request
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymysqleasy
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linfa-vi
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-ladybug
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbstanza-wrappers
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxtools
+[2023-07-15 06:47:39] INFO root fetch - processPackages [lbt-ladybug]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2023-07-15 06:47:39] WARNING root fetch - processPackages [pymysqleasy]: Skipping, unable to determine old version
+[2023-07-15 06:47:39] INFO root fetch - main [MainThread]: End processing [pymysqleasy] error
+[2023-07-15 06:47:39] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.223] Old Version: [0.0.222]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [lbstanza-wrappers]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [linfa-vi]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ccxtools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 06:47:39] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a6/c8/264de2682296df9bf57a5457d5d9f7c5d72a544a6fc7f4fb967a4c8bb757/open_interpreter-0.0.222.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/e4/ac/474c600d6f495b8d63c49d7689b2b076f0c5f94c22728fe795233852a9e1/lbt-ladybug-0.8.1.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/2f/81/ac3ab54ce686eaf6c2cbf0b6b8845dc3abcd2ca613864b7c6c242ffd3c56/ccxtools-0.0.8.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [lbstanza-wrappers]: Downloading https://files.pythonhosted.org/packages/2e/12/fb00d59dcec3178e7e0c8e958d0a90db9d49da7fde0375650801468293f8/lbstanza-wrappers-0.2.0.tar.gz
+[2023-07-15 06:47:39] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-15 06:47:39] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/93/b3/16b6b077e0ff11671ee3a49a49fa41abc7bb7b538f7788af7618c1b7434a/linfa_vi-1.1.5.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/4b/e9/6ef44c6be3fb7e41208d0e44d2c881fbe5ece1952bea1b3b096a5201e196/ccxtools-0.0.9.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/0c/35/3c29ddd4c26c22a1fbfa6c57c6ccc13eab56c1bffa1a2ed18ee9a3d99639/open_interpreter-0.0.223.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [lbstanza-wrappers]: Downloading https://files.pythonhosted.org/packages/b3/0a/506b0724c2a4f576b65cedf31133db0e4e854dbeb359bf2c2577068b0b57/lbstanza-wrappers-0.2.1.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.8.tar.gz tmp/ccxtools-0.0.9.tar.gz --markdown 20230715/c/ccxtools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.222.tar.gz tmp/open_interpreter-0.0.223.tar.gz --markdown 20230715/o/open-interpreter/0.0.222-0.0.223/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20230715/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [lbstanza-wrappers]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [lbstanza-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbstanza-wrappers-0.2.0.tar.gz tmp/lbstanza-wrappers-0.2.1.tar.gz --markdown 20230715/l/lbstanza-wrappers/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/b5/da/7c952ecb0f49c7efb266f74d08ca3da3fc52e2c90e274d7fe0ec104af01d/linfa_vi-1.1.6.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20230715/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-15 06:47:40] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.1.5.tar.gz tmp/linfa_vi-1.1.6.tar.gz --markdown 20230715/l/linfa-vi/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-15 06:47:40] INFO root fetch - processPackages [lbt-ladybug]: Downloading https://files.pythonhosted.org/packages/6e/e7/a4e6dcfc6b2750475acd6dee9e849a991053471ff22a90aa8f986eaef25b/lbt-ladybug-0.9.0.tar.gz
+[2023-07-15 06:47:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-07-15 06:47:40] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230715/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-15 06:47:41] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.8.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.9.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2023-07-15 06:47:41] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.222.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.223.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-15 06:47:41] INFO root fetch - processPackages [lbstanza-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/lbstanza-wrappers-0.2.0.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - processPackages [lbstanza-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/lbstanza-wrappers-0.2.1.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - main [MainThread]: End processing [lbstanza-wrappers]: success
+[2023-07-15 06:47:41] INFO root fetch - processPackages [lbt-ladybug]: executing diffoscope
+[2023-07-15 06:47:41] INFO root fetch - processPackages [lbt-ladybug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-ladybug-0.8.1.tar.gz tmp/lbt-ladybug-0.9.0.tar.gz --markdown 20230715/l/lbt-ladybug/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 06:47:41] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.5.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.1.6.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-15 06:47:41] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2023-07-15 06:47:41] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2023-07-15 06:47:42] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2023-07-15 06:47:42] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2023-07-15 06:47:42] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2023-07-15 06:47:42] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-15 06:47:42] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-15 06:47:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-07-15 06:47:43] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.8.1.tar.gz]
+[2023-07-15 06:47:43] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
+[2023-07-15 06:47:43] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
+[2023-07-15 06:47:43] INFO root fetch - main [MainThread]: Store serial: [18898059]
