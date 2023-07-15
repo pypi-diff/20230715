@@ -8556,3 +8556,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:03:02] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.0.tar.gz]
 [2023-07-15 13:03:02] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2023-07-15 13:03:02] INFO root fetch - main [MainThread]: Store serial: [18899876]
+[2023-07-15 13:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899876]
+[2023-07-15 13:08:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 13:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-s3-delta
+[2023-07-15 13:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sketchpy
+[2023-07-15 13:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oakvar
+[2023-07-15 13:08:12] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 13:08:12] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-07-15 13:08:12] INFO root fetch - processPackages [sketchpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-15 13:08:12] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-15 13:08:12] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-07-15 13:08:12] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/3b/6c/1b95c734d0b767e4043de32fbea619f42e92045c400a04f2165009f7664c/sketchpy-0.1.6.tar.gz
+[2023-07-15 13:08:12] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-15 13:08:12] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-15 13:08:12] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230715/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 13:08:12] INFO root fetch - processPackages [sketchpy]: Downloading https://files.pythonhosted.org/packages/4c/16/ad4ca3119d8ccfc97c8fb150568cf7ebc68a256594bd297bd1801bd36604/sketchpy-0.1.7.tar.gz
+[2023-07-15 13:08:12] INFO root fetch - processPackages [sketchpy]: executing diffoscope
+[2023-07-15 13:08:12] INFO root fetch - processPackages [sketchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sketchpy-0.1.6.tar.gz tmp/sketchpy-0.1.7.tar.gz --markdown 20230715/s/sketchpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-15 13:08:12] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-07-15 13:08:13] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-15 13:08:13] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-15 13:08:13] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-15 13:08:13] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.6.tar.gz]
+[2023-07-15 13:08:13] INFO root fetch - processPackages [sketchpy]: Remove: archive file [/home/abi/fetcher/tmp/sketchpy-0.1.7.tar.gz]
+[2023-07-15 13:08:13] INFO root fetch - main [MainThread]: End processing [sketchpy]: success
+[2023-07-15 13:08:13] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-07-15 13:08:13] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230715/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-07-15 13:08:16] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.7.tar.gz]
+[2023-07-15 13:08:16] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
+[2023-07-15 13:08:16] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-07-15 13:08:16] INFO root fetch - main [MainThread]: Store serial: [18899889]
