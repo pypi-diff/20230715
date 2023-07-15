@@ -3979,3 +3979,48 @@
 [2023-07-15 05:21:51] INFO root fetch - processPackages [versioned]: Remove: archive file [/home/abi/fetcher/tmp/versioned-0.5.3.tar.gz]
 [2023-07-15 05:21:51] INFO root fetch - main [MainThread]: End processing [versioned]: success
 [2023-07-15 05:21:51] INFO root fetch - main [MainThread]: Store serial: [18897623]
+[2023-07-15 05:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897623]
+[2023-07-15 05:27:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-mysql-easy
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanoCEM
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-pdf-term
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omgpt
+[2023-07-15 05:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coolORM
+[2023-07-15 05:27:00] WARNING root fetch - processPackages [py-mysql-easy]: Skipping, unable to determine old version
+[2023-07-15 05:27:00] INFO root fetch - main [MainThread]: End processing [py-mysql-easy] error
+[2023-07-15 05:27:00] INFO root fetch - processPackages [omgpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 05:27:00] WARNING root fetch - processPackages [coolORM]: Skipping, unable to determine old version
+[2023-07-15 05:27:00] INFO root fetch - main [MainThread]: End processing [coolORM] error
+[2023-07-15 05:27:00] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-07-15 05:27:00] INFO root fetch - processPackages [py-pdf-term]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-15 05:27:00] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230715] Old Version: [0.0.17.dev20230714]
+[2023-07-15 05:27:00] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/f2/46/ad719eff5911889b5ad4cb996574e3ccb2ce6bdb067bec13792d3eed0468/omgpt-0.0.3.tar.gz
+[2023-07-15 05:27:00] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/96/4e/3c8c2e12fbc1a632319e0fcfaca2e9add53739489c570d70ab9e14fa8832/nanoCEM-0.0.2.1.tar.gz
+[2023-07-15 05:27:00] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/84/92/75bfaca9decf44d78cb6660321f3a300e2a7de89515893716a0d0f2a3c6a/GANDLF-0.0.17.dev20230714.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [py-pdf-term]: Downloading https://files.pythonhosted.org/packages/ca/b4/93ab90d86ed5a24da0e98363c05c142c8fe06af716ed6b37c5f867acbffd/py_pdf_term-1.0.2.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/7d/c7/c86e372156bd44d2b7f0bafa3c1ca02a8e153bb469c86fa450a6b96474f8/omgpt-0.0.4.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/bc/47/78e4f5cc37b97a19977e727e8f68e157bbab9489a354e4cda4a89e3c45ae/nanoCEM-0.0.2.2.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 05:27:01] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.3.tar.gz tmp/omgpt-0.0.4.tar.gz --markdown 20230715/o/omgpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 05:27:01] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-15 05:27:01] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.2.1.tar.gz tmp/nanoCEM-0.0.2.2.tar.gz --markdown 20230715/n/nanoCEM/0.0.2.1-0.0.2.2/diff.md --exclude *.pyd
+[2023-07-15 05:27:01] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/58/9e/e91944f643817bd868f756f11dd114bff1ebaffd0eb2cac63169aa51ce51/GANDLF-0.0.17.dev20230715.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [py-pdf-term]: Downloading https://files.pythonhosted.org/packages/4b/bb/1a6470a45ee6be2bb7499ba0fb14008eef83c600dae4d6842d5d91fd907f/py_pdf_term-1.1.0.tar.gz
+[2023-07-15 05:27:01] INFO root fetch - processPackages [py-pdf-term]: executing diffoscope
+[2023-07-15 05:27:01] INFO root fetch - processPackages [py-pdf-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_pdf_term-1.0.2.tar.gz tmp/py_pdf_term-1.1.0.tar.gz --markdown 20230715/p/py-pdf-term/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 05:27:01] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-15 05:27:01] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230714.tar.gz tmp/GANDLF-0.0.17.dev20230715.tar.gz --markdown 20230715/G/GANDLF/0.0.17.dev20230714-0.0.17.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 05:27:02] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.1.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.2.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-15 05:27:02] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.3.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.4.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 05:27:02] INFO root fetch - processPackages [py-pdf-term]: Remove: archive file [/home/abi/fetcher/tmp/py_pdf_term-1.0.2.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - processPackages [py-pdf-term]: Remove: archive file [/home/abi/fetcher/tmp/py_pdf_term-1.1.0.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - main [MainThread]: End processing [py-pdf-term]: success
+[2023-07-15 05:27:02] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230714.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230715.tar.gz]
+[2023-07-15 05:27:02] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-15 05:27:02] INFO root fetch - main [MainThread]: Store serial: [18897646]
