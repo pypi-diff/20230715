@@ -10221,3 +10221,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:36:26] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
 [2023-07-15 15:36:26] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
 [2023-07-15 15:36:26] INFO root fetch - main [MainThread]: Store serial: [18900756]
+[2023-07-15 15:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900756]
+[2023-07-15 15:41:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ensmallen
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrobo
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daves-utilities
+[2023-07-15 15:41:35] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 15:41:35] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-15 15:41:35] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.15] Old Version: [2023.7.14]
+[2023-07-15 15:41:35] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/c8/29/37d16e8553a06006d0e79bf4c5fc6d4c1a521093020e1312ce2d44a840d3/daves_utilities-0.1.1.tar.gz
+[2023-07-15 15:41:35] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-07-15 15:41:35] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-15 15:41:35] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-07-15 15:41:35] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/e2/ab/145d6f10df5809b1d2692dba195b9348cbc9c69a514a2720445358c484b7/fbgemm_gpu_nightly-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-15 15:41:35] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-07-15 15:41:35] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/df/54/e8bd825bc33da87b71e5382fe16a97909267f9ce7632bcb65e63098e3f94/daves_utilities-0.1.2.tar.gz
+[2023-07-15 15:41:35] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218743387>=10485760
+[2023-07-15 15:41:35] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-15 15:41:35] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 15:41:35] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.1.tar.gz tmp/daves_utilities-0.1.2.tar.gz --markdown 20230715/d/daves-utilities/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 15:41:36] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.1.tar.gz]
+[2023-07-15 15:41:36] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.2.tar.gz]
+[2023-07-15 15:41:36] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 15:41:36] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-07-15 15:41:36] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-07-15 15:41:36] INFO root fetch - main [MainThread]: Store serial: [18900774]
