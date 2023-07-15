@@ -11658,3 +11658,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:39:43] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_dynatrace-0.1.1a1689433879.tar.gz]
 [2023-07-15 17:39:43] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-dynatrace]: success
 [2023-07-15 17:39:43] INFO root fetch - main [MainThread]: Store serial: [18901492]
+[2023-07-15 17:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901492]
+[2023-07-15 17:44:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commitizen
+[2023-07-15 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowpark-extensions
+[2023-07-15 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reader
+[2023-07-15 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2023-07-15 17:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py3make
+[2023-07-15 17:44:52] INFO root fetch - processPackages [snowpark-extensions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 17:44:52] INFO root fetch - processPackages [reader]: New version: [3.7] Old Version: [3.6]
+[2023-07-15 17:44:52] INFO root fetch - processPackages [commitizen]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-07-15 17:44:52] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230715] Old Version: [2.14.0.dev20230714]
+[2023-07-15 17:44:52] WARNING root fetch - processPackages [py3make]: Skipping, unable to determine old version
+[2023-07-15 17:44:52] INFO root fetch - main [MainThread]: End processing [py3make] error
+[2023-07-15 17:44:52] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/79/56/bf99588f7f05719a2a5811a5fcc568cdd6523ad26439ea1e031efd932f45/commitizen-3.5.2.tar.gz
+[2023-07-15 17:44:52] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/d0/8e/e59bf3e511fc61c2a133346f75d8c58cd30019aa355d63bbc160411e28ba/snowpark_extensions-0.0.8.tar.gz
+[2023-07-15 17:44:53] INFO root fetch - processPackages [reader]: Downloading https://files.pythonhosted.org/packages/20/3f/db96bdffbce3cb439913f2553bf425a50b6930169d7872732d64feaf2a8d/reader-3.6.tar.gz
+[2023-07-15 17:44:53] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/b9/27/a4a8376c82a9c2d468c1647bdfcfdeb1229e2a0247ccc28e0cde3f76cc3c/tf_nightly_intel-2.14.0.dev20230714-cp39-cp39-win_amd64.whl
+[2023-07-15 17:44:53] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182330793>=10485760
+[2023-07-15 17:44:53] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-15 17:44:53] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/06/c9/2a3450eb2b1611da766fe8a5209eaa873ac6e0de1f23c615dc461364cc3b/commitizen-3.5.3.tar.gz
+[2023-07-15 17:44:53] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/74/2e/37a6bebfa325a001df8c8e0d5909748d9efdbda9de91877f7101bd32c687/snowpark_extensions-0.0.9.tar.gz
+[2023-07-15 17:44:53] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-07-15 17:44:53] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.5.2.tar.gz tmp/commitizen-3.5.3.tar.gz --markdown 20230715/c/commitizen/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-07-15 17:44:53] INFO root fetch - processPackages [reader]: Downloading https://files.pythonhosted.org/packages/bf/ac/1fdaecb7a29078350fa7376ce4c5ec3ab419703f0cbd9919f9f87bef5f56/reader-3.7.tar.gz
+[2023-07-15 17:44:53] INFO root fetch - processPackages [reader]: executing diffoscope
+[2023-07-15 17:44:53] INFO root fetch - processPackages [reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reader-3.6.tar.gz tmp/reader-3.7.tar.gz --markdown 20230715/r/reader/3.6-3.7/diff.md --exclude *.pyd
+[2023-07-15 17:44:54] INFO root fetch - processPackages [snowpark-extensions]: executing diffoscope
+[2023-07-15 17:44:54] INFO root fetch - processPackages [snowpark-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowpark_extensions-0.0.8.tar.gz tmp/snowpark_extensions-0.0.9.tar.gz --markdown 20230715/s/snowpark-extensions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 17:44:54] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.2.tar.gz]
+[2023-07-15 17:44:54] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.3.tar.gz]
+[2023-07-15 17:44:54] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-07-15 17:44:54] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.8.tar.gz]
+[2023-07-15 17:44:54] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.9.tar.gz]
+[2023-07-15 17:44:54] INFO root fetch - main [MainThread]: End processing [snowpark-extensions]: success
+[2023-07-15 17:44:55] INFO root fetch - processPackages [reader]: Remove: archive file [/home/abi/fetcher/tmp/reader-3.6.tar.gz]
+[2023-07-15 17:44:55] INFO root fetch - processPackages [reader]: Remove: archive file [/home/abi/fetcher/tmp/reader-3.7.tar.gz]
+[2023-07-15 17:44:55] INFO root fetch - main [MainThread]: End processing [reader]: success
+[2023-07-15 17:44:55] INFO root fetch - main [MainThread]: Store serial: [18901509]
