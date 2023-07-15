@@ -13673,3 +13673,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:57:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 20:57:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 20:57:12] INFO root fetch - main [MainThread]: Store serial: [18902398]
+[2023-07-15 21:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902398]
+[2023-07-15 21:02:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigagan-pytorch
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oneat
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buteo
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z4d-certified-devices
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loder
+[2023-07-15 21:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oneat
+[2023-07-15 21:02:21] WARNING root fetch - processPackages [loder]: Skipping, unable to determine old version
+[2023-07-15 21:02:21] INFO root fetch - main [MainThread]: End processing [loder] error
+[2023-07-15 21:02:21] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.75] Old Version: [2.74]
+[2023-07-15 21:02:21] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:02:21] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 21:02:21] INFO root fetch - processPackages [buteo]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-15 21:02:21] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 21:02:21] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/f4/2f/647f06ba2f440530554e9a5d18fb373d5f0b6a8792169990a5e615d48888/z4d-certified-devices-2.74.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/30/1f/24a135d7a94d521f7525f83c54b3620b834740839a99f1cb107373bdbec4/buteo-0.9.8.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/51/83/744a229792fbe4d744996798a3eb897f14e1581d2d3924bed2ab5743b2ff/z4d-certified-devices-2.75.tar.gz
+[2023-07-15 21:02:21] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-15 21:02:21] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230715/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:02:21] INFO root fetch - processPackages [buteo]: Downloading https://files.pythonhosted.org/packages/ff/14/50e63a5bd644b443b28af3c2bbe6c1aa1cc7f3e7a03a92253919d541c3de/buteo-0.9.9.tar.gz
+[2023-07-15 21:02:22] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 21:02:22] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-07-15 21:02:22] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.74.tar.gz tmp/z4d-certified-devices-2.75.tar.gz --markdown 20230715/z/z4d-certified-devices/2.74-2.75/diff.md --exclude *.pyd
+[2023-07-15 21:02:22] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-07-15 21:02:22] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.9.8.tar.gz tmp/buteo-0.9.9.tar.gz --markdown 20230715/b/buteo/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-15 21:02:22] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 21:02:22] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 21:02:22] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 21:02:22] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 21:02:22] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-15 21:02:22] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-15 21:02:22] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-15 21:02:23] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.8.tar.gz]
+[2023-07-15 21:02:23] INFO root fetch - processPackages [buteo]: Remove: archive file [/home/abi/fetcher/tmp/buteo-0.9.9.tar.gz]
+[2023-07-15 21:02:23] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-07-15 21:02:24] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-07-15 21:02:24] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-15 21:02:24] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 21:02:24] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 21:02:24] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.74.tar.gz]
+[2023-07-15 21:02:24] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.75.tar.gz]
+[2023-07-15 21:02:24] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-07-15 21:02:24] INFO root fetch - main [MainThread]: Store serial: [18902419]
