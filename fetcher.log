@@ -4753,3 +4753,42 @@
 [2023-07-15 06:37:20] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.7.8.tar.gz]
 [2023-07-15 06:37:20] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-07-15 06:37:20] INFO root fetch - main [MainThread]: Store serial: [18897978]
+[2023-07-15 06:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897978]
+[2023-07-15 06:42:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 06:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch-conda-build
+[2023-07-15 06:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylywsdxx
+[2023-07-15 06:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scale-llm-engine
+[2023-07-15 06:42:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherpa-onnx
+[2023-07-15 06:42:29] INFO root fetch - processPackages [scale-llm-engine]: New version: [1.0.0] Old Version: [0.0.0a2]
+[2023-07-15 06:42:29] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 06:42:29] INFO root fetch - processPackages [pylywsdxx]: New version: [1.8.1] Old Version: [1.6.1]
+[2023-07-15 06:42:29] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-15 06:42:29] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/41/0d/d3e51864f7d58413fecb0bcd29f20ad5c34f26534ef9a2be927e2c932916/hatch_conda_build-0.0.6.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/60/69/19fac047d238d92bb824dc87faf147369a9fb6cf834fc0ca7b8461bae665/scale_llm_engine-0.0.0a2.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/ec/9a/5c0706ec3e54db47e3ead9d7558cf1b1d66a20b0a79d2f01a21e5797ed0a/pylywsdxx-1.6.1.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/9b/78/1e876846d3e41be5f60c510d8ca9cca262f5661c797446c7bd7788a6362a/sherpa-onnx-1.5.1.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/65/53/23daa2f0e2e2952cd385d1510d6d4cc91f5d3aac046a5b70d29f2d51d480/hatch_conda_build-0.0.7.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/12/72/7d7e97df148c971ab1ea6b40445f38b1bcd458add025e65fe5754d602ef5/scale-llm-engine-1.0.0.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 06:42:29] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.6.tar.gz tmp/hatch_conda_build-0.0.7.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 06:42:29] INFO root fetch - processPackages [pylywsdxx]: Downloading https://files.pythonhosted.org/packages/da/d4/01089c84dc0115e3667fc178a875b59e268a3253fe6e8ceb63d15eb302f2/pylywsdxx-1.8.1.tar.gz
+[2023-07-15 06:42:29] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/44/7c/a43e6a46911920abe838d803b64f342a24d22d694e148dd7e812e5d7f653/sherpa-onnx-1.5.2.tar.gz
+[2023-07-15 06:42:30] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-15 06:42:30] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0a2.tar.gz tmp/scale-llm-engine-1.0.0.tar.gz --markdown 20230715/s/scale-llm-engine/0.0.0a2-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 06:42:30] INFO root fetch - processPackages [pylywsdxx]: executing diffoscope
+[2023-07-15 06:42:30] INFO root fetch - processPackages [pylywsdxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylywsdxx-1.6.1.tar.gz tmp/pylywsdxx-1.8.1.tar.gz --markdown 20230715/p/pylywsdxx/1.6.1-1.8.1/diff.md --exclude *.pyd
+[2023-07-15 06:42:30] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-07-15 06:42:30] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.5.1.tar.gz tmp/sherpa-onnx-1.5.2.tar.gz --markdown 20230715/s/sherpa-onnx/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-15 06:42:30] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.6.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.7.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 06:42:30] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.6.1.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - processPackages [pylywsdxx]: Remove: archive file [/home/abi/fetcher/tmp/pylywsdxx-1.8.1.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - main [MainThread]: End processing [pylywsdxx]: success
+[2023-07-15 06:42:30] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.1.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.2.tar.gz]
+[2023-07-15 06:42:30] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-07-15 06:42:31] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0a2.tar.gz]
+[2023-07-15 06:42:31] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale-llm-engine-1.0.0.tar.gz]
+[2023-07-15 06:42:31] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-15 06:42:31] INFO root fetch - main [MainThread]: Store serial: [18898018]
