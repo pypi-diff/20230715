@@ -11895,3 +11895,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:05:42] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.7.tar.gz]
 [2023-07-15 18:05:42] INFO root fetch - main [MainThread]: End processing [statprocon]: success
 [2023-07-15 18:05:42] INFO root fetch - main [MainThread]: Store serial: [18901608]
+[2023-07-15 18:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901608]
+[2023-07-15 18:10:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langsmith
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notification-service-nightly
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-flow-nightly
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-yaml
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audio-ui
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tja2fumen
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ork.build
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strawberry-graphql
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dalle2-pytorch
+[2023-07-15 18:10:50] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ork.build]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [pydantic-yaml]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-07-15 18:10:50] WARNING root fetch - processPackages [audio-ui]: Skipping, unable to determine old version
+[2023-07-15 18:10:50] INFO root fetch - main [MainThread]: End processing [audio-ui] error
+[2023-07-15 18:10:50] INFO root fetch - processPackages [tja2fumen]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [langsmith]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ork.build]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-07-15 18:10:50] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-15 18:10:50] INFO root fetch - processPackages [dalle2-pytorch]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/0b/da/436ca767127702d99360fa1bfbef4fc4f4c7176ad6da9cedf73b445b75cc/ork.build-0.0.33.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/0b/da/436ca767127702d99360fa1bfbef4fc4f4c7176ad6da9cedf73b445b75cc/ork.build-0.0.33.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [pydantic-yaml]: Downloading https://files.pythonhosted.org/packages/b2/ed/41c7e70fb7a7ac326de8eae4a13b623f9a45180f80f984afd2ac71e5ae9c/pydantic_yaml-1.0.0a1.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/05/94/de50e2512caf091895fcd38fb3daeeeb47dabdde17a97d432215a61c1b21/langsmith-0.0.6.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/9b/21/d743618599379fc29e71a39e8b8884fd841bfa5f00080963ffd3b0ef23da/tja2fumen-0.5.1.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/c6/5d/90daf4f8dfb24076900284751b1a79e074ec3210c410b7b1f160fdd17c98/dalle2-pytorch-1.8.4.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/20/59/fa94c8874c17640a255d28eb67147236e4de69ca7caa7354e8216ef88836/ork.build-0.0.34.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/20/59/fa94c8874c17640a255d28eb67147236e4de69ca7caa7354e8216ef88836/ork.build-0.0.34.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/04/26/570ff1a8cbe2bc3494b7d872f34735a17198640faf45f32454423c8f43f0/langsmith-0.0.7.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/a8/e9/28381f10ad815168992a8b098267af855c98b6efea6925ba9762c489a770/tja2fumen-0.5.2.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230715/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [pydantic-yaml]: Downloading https://files.pythonhosted.org/packages/e3/ea/3de105da56fc6e051d49da6772a64695417e4fe2eeae5785f5e70e71d648/pydantic_yaml-1.0.0a2.tar.gz
+[2023-07-15 18:10:51] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230715/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.6.tar.gz tmp/langsmith-0.0.7.tar.gz --markdown 20230715/l/langsmith/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230715/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [pydantic-yaml]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [pydantic-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_yaml-1.0.0a1.tar.gz tmp/pydantic_yaml-1.0.0a2.tar.gz --markdown 20230715/p/pydantic-yaml/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.33.tar.gz tmp/ork.build-0.0.34.tar.gz --markdown 20230715/o/ork.build/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:10:51] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.33.tar.gz tmp/ork.build-0.0.34.tar.gz --markdown 20230715/o/ork.build/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-15 18:10:52] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-07-15 18:10:52] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.5.1.tar.gz tmp/tja2fumen-0.5.2.tar.gz --markdown 20230715/t/tja2fumen/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-15 18:10:52] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/e6/7b/991302a1f9d68a2e03592615022397dc41f8d7cf11248ff571bd2b5ef04b/dalle2-pytorch-1.9.0.tar.gz
+[2023-07-15 18:10:52] INFO root fetch - processPackages [dalle2-pytorch]: executing diffoscope
+[2023-07-15 18:10:52] INFO root fetch - processPackages [dalle2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalle2-pytorch-1.8.4.tar.gz tmp/dalle2-pytorch-1.9.0.tar.gz --markdown 20230715/d/dalle2-pytorch/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 18:10:53] INFO root fetch - processPackages [pydantic-yaml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_yaml-1.0.0a1.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - processPackages [pydantic-yaml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_yaml-1.0.0a2.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - main [MainThread]: End processing [pydantic-yaml]: success
+[2023-07-15 18:10:53] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-15 18:10:53] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.6.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.7.tar.gz]
+[2023-07-15 18:10:53] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-15 18:10:54] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.5.1.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.5.2.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-07-15 18:10:54] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-07-15 18:10:54] INFO root fetch - processPackages [dalle2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dalle2-pytorch-1.8.4.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - processPackages [dalle2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dalle2-pytorch-1.9.0.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - main [MainThread]: End processing [dalle2-pytorch]: success
+[2023-07-15 18:10:54] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-15 18:10:54] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-15 18:10:55] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.33.tar.gz]
+[2023-07-15 18:10:55] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.34.tar.gz]
+[2023-07-15 18:10:55] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:10:55] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:10:55] INFO root fetch - main [MainThread]: Store serial: [18901639]
