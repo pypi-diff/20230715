@@ -4510,3 +4510,42 @@
 [2023-07-15 06:09:26] INFO root fetch - processPackages [ec2-manager]: Remove: archive file [/home/abi/fetcher/tmp/ec2-manager-0.0.9.tar.gz]
 [2023-07-15 06:09:26] INFO root fetch - main [MainThread]: End processing [ec2-manager]: success
 [2023-07-15 06:09:26] INFO root fetch - main [MainThread]: Store serial: [18897856]
+[2023-07-15 06:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897856]
+[2023-07-15 06:14:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydaraja
+[2023-07-15 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-manufacture
+[2023-07-15 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendal
+[2023-07-15 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladybug-core
+[2023-07-15 06:14:34] INFO root fetch - processPackages [pydaraja]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-15 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20230714.0] Old Version: [16.0.20230711.0]
+[2023-07-15 06:14:35] INFO root fetch - processPackages [opendal]: New version: [0.38.1] Old Version: [0.38.0]
+[2023-07-15 06:14:35] INFO root fetch - processPackages [ladybug-core]: New version: [0.41.9] Old Version: [0.41.8]
+[2023-07-15 06:14:35] INFO root fetch - processPackages [pydaraja]: Downloading https://files.pythonhosted.org/packages/08/f7/fdcf557d234ab6e421b7fbb689923626df88cb70fd475927df525a256a42/pydaraja-0.1.2.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/ca/21/661dc6063de44ae62c6340fa98eaaff01f47e484feffd2b76ed3a5749da2/opendal-0.38.0.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/b8/f4/9a3518e2f5cfc6784b95631e465a305b99314ec2627410faec6d64230814/ladybug-core-0.41.8.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/d7/2c/16e194a4ccee6eac6128d536333a9ded5062f5b184d4e1ec3c796238313c/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl
+[2023-07-15 06:14:35] INFO root fetch - processPackages [pydaraja]: Downloading https://files.pythonhosted.org/packages/fa/b2/65ca4f5792da06adcb1699c27f26cb0caa227eb725ba0c823ca1f649be1f/pydaraja-0.2.0.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/1f/64/f50f174779a0f7e6691586753d250690c382e8df530d7a7098e1808441a0/odoo_addons_oca_manufacture-16.0.20230714.0-py3-none-any.whl
+[2023-07-15 06:14:35] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/6d/65/29bb4d946ae26296e729279d47d500f7556978b52de6d9edc9a33f0e8dea/opendal-0.38.1.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [ladybug-core]: Downloading https://files.pythonhosted.org/packages/e0/fe/7b27104ccfd6ad4857ea5a3f5d6b0eb826607d119e0c52e11985cf7016ea/ladybug-core-0.41.9.tar.gz
+[2023-07-15 06:14:35] INFO root fetch - processPackages [pydaraja]: executing diffoscope
+[2023-07-15 06:14:35] INFO root fetch - processPackages [pydaraja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaraja-0.1.2.tar.gz tmp/pydaraja-0.2.0.tar.gz --markdown 20230715/p/pydaraja/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2023-07-15 06:14:35] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20230714.0-py3-none-any.whl.zip --markdown 20230715/o/odoo-addons-oca-manufacture/16.0.20230711.0-16.0.20230714.0/diff.md --exclude *.pyd
+[2023-07-15 06:14:35] INFO root fetch - processPackages [opendal]: executing diffoscope
+[2023-07-15 06:14:35] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.38.0.tar.gz tmp/opendal-0.38.1.tar.gz --markdown 20230715/o/opendal/0.38.0-0.38.1/diff.md --exclude *.pyd
+[2023-07-15 06:14:36] INFO root fetch - processPackages [ladybug-core]: executing diffoscope
+[2023-07-15 06:14:36] INFO root fetch - processPackages [ladybug-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-core-0.41.8.tar.gz tmp/ladybug-core-0.41.9.tar.gz --markdown 20230715/l/ladybug-core/0.41.8-0.41.9/diff.md --exclude *.pyd
+[2023-07-15 06:14:36] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230711.0-py3-none-any.whl.zip]
+[2023-07-15 06:14:36] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20230714.0-py3-none-any.whl.zip]
+[2023-07-15 06:14:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2023-07-15 06:14:36] INFO root fetch - processPackages [pydaraja]: Remove: archive file [/home/abi/fetcher/tmp/pydaraja-0.1.2.tar.gz]
+[2023-07-15 06:14:36] INFO root fetch - processPackages [pydaraja]: Remove: archive file [/home/abi/fetcher/tmp/pydaraja-0.2.0.tar.gz]
+[2023-07-15 06:14:36] INFO root fetch - main [MainThread]: End processing [pydaraja]: success
+[2023-07-15 06:14:37] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.8.tar.gz]
+[2023-07-15 06:14:37] INFO root fetch - processPackages [ladybug-core]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-core-0.41.9.tar.gz]
+[2023-07-15 06:14:37] INFO root fetch - main [MainThread]: End processing [ladybug-core]: success
+[2023-07-15 06:14:39] INFO root fetch - processPackages [opendal]: Remove: archive file [/home/abi/fetcher/tmp/opendal-0.38.0.tar.gz]
+[2023-07-15 06:14:39] INFO root fetch - processPackages [opendal]: Remove: archive file [/home/abi/fetcher/tmp/opendal-0.38.1.tar.gz]
+[2023-07-15 06:14:39] INFO root fetch - main [MainThread]: End processing [opendal]: success
+[2023-07-15 06:14:39] INFO root fetch - main [MainThread]: Store serial: [18897879]
