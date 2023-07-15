@@ -6885,3 +6885,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:05:43] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.1.1.tar.gz]
 [2023-07-15 10:05:43] INFO root fetch - main [MainThread]: End processing [redzoo]: success
 [2023-07-15 10:05:43] INFO root fetch - main [MainThread]: Store serial: [18899081]
+[2023-07-15 10:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899081]
+[2023-07-15 10:10:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafri
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factool
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safemodels
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NearBeach
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxlib
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redzoo
+[2023-07-15 10:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafri
+[2023-07-15 10:10:51] INFO root fetch - processPackages [dxlib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [factool]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [adafri]: New version: [0.0.19.31] Old Version: [0.0.19.3]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [adafri]: New version: [0.0.19.31] Old Version: [0.0.19.3]
+[2023-07-15 10:10:51] WARNING root fetch - processPackages [safemodels]: Skipping, unable to determine old version
+[2023-07-15 10:10:51] INFO root fetch - main [MainThread]: End processing [safemodels] error
+[2023-07-15 10:10:51] INFO root fetch - processPackages [redzoo]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230715] Old Version: [0.4.1.dev20230714]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [NearBeach]: New version: [0.30.2] Old Version: [0.30.1]
+[2023-07-15 10:10:51] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/9e/27/a4b6dd10dce0a1dbeab306d545b617ff7f02e205ee31c7c0a1373db73010/factool-0.0.7.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/30/1f/0d2583ecc58093f4b08d196b9e65ce6df8039a223dca0f73ae8265fa72ec/dxlib-0.2.1.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/04/a5/33fc3694bd843580861beabfe9b1b0984427749c39f8461b9744a3f90e5c/adafri-0.0.19.3.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/04/a5/33fc3694bd843580861beabfe9b1b0984427749c39f8461b9744a3f90e5c/adafri-0.0.19.3.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/4b/b5/f9b12d3c6934d45c1577626d10d98e4e2dfc0b9ec35076f1b4e9c9c240e8/redzoo-0.1.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/2c/7c/149e7201d20a9bf44f69d66cc1b6e89f8c477b70ea2a2712caab1ce24d0a/pyglove-0.4.1.dev20230714.tar.gz
+[2023-07-15 10:10:51] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/ab/c5/9d3dc90514b92ce9a69e4913f7b9ae30d03652d5f76f72480f1dfcf10886/NearBeach-0.30.1.tar.gz
+[2023-07-15 10:10:52] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 15032463>=10485760
+[2023-07-15 10:10:52] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2023-07-15 10:10:52] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/fd/b5/2349539f53e1dbed649ac3cac6730c7f644a69cd116d0f95932cd8394376/dxlib-0.2.2.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [factool]: Downloading https://files.pythonhosted.org/packages/f0/68/cdee055ca6392976d06882e118042095f5bdd2a35baef174438c61ed1348/factool-0.0.8.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/18/92/31670c971e137f017c378e5c9a8ea3241f0181f4dbd1832f5eeb58ebc790/adafri-0.0.19.31.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [redzoo]: Downloading https://files.pythonhosted.org/packages/e4/6b/d329b0e19a703a5c529896bf25f195a61c85195c8eadb905bd088ad34c61/redzoo-0.1.1.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/18/92/31670c971e137f017c378e5c9a8ea3241f0181f4dbd1832f5eeb58ebc790/adafri-0.0.19.31.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [factool]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [factool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factool-0.0.7.tar.gz tmp/factool-0.0.8.tar.gz --markdown 20230715/f/factool/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 10:10:52] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.2.1.tar.gz tmp/dxlib-0.2.2.tar.gz --markdown 20230715/d/dxlib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 10:10:52] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/10/53/71658b7e3bb55c6a1e326252ba38caa4dc5d36225aa0b6f5bfff6d62f6f2/pyglove-0.4.1.dev20230715.tar.gz
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.3.tar.gz tmp/adafri-0.0.19.31.tar.gz --markdown 20230715/a/adafri/0.0.19.3-0.0.19.31/diff.md --exclude *.pyd
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.3.tar.gz tmp/adafri-0.0.19.31.tar.gz --markdown 20230715/a/adafri/0.0.19.3-0.0.19.31/diff.md --exclude *.pyd
+[2023-07-15 10:10:52] INFO root fetch - processPackages [redzoo]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [redzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redzoo-0.1.tar.gz tmp/redzoo-0.1.1.tar.gz --markdown 20230715/r/redzoo/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 10:10:52] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-15 10:10:52] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230714.tar.gz tmp/pyglove-0.4.1.dev20230715.tar.gz --markdown 20230715/p/pyglove/0.4.1.dev20230714-0.4.1.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 10:10:53] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.1.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.2.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-07-15 10:10:53] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.3.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.31.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-15 10:10:53] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-15 10:10:53] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.0.7.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - processPackages [factool]: Remove: archive file [/home/abi/fetcher/tmp/factool-0.0.8.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - main [MainThread]: End processing [factool]: success
+[2023-07-15 10:10:53] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.1.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - processPackages [redzoo]: Remove: archive file [/home/abi/fetcher/tmp/redzoo-0.1.1.tar.gz]
+[2023-07-15 10:10:53] INFO root fetch - main [MainThread]: End processing [redzoo]: success
+[2023-07-15 10:10:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230714.tar.gz]
+[2023-07-15 10:10:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230715.tar.gz]
+[2023-07-15 10:10:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-15 10:10:54] INFO root fetch - main [MainThread]: Store serial: [18899107]
