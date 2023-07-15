@@ -8601,3 +8601,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:13:26] INFO root fetch - processPackages [openttd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openttd-protocol-1.5.0.tar.gz]
 [2023-07-15 13:13:26] INFO root fetch - main [MainThread]: End processing [openttd-protocol]: success
 [2023-07-15 13:13:26] INFO root fetch - main [MainThread]: Store serial: [18899898]
+[2023-07-15 13:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899898]
+[2023-07-15 13:18:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OneOnOne
+[2023-07-15 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tha3
+[2023-07-15 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coursebox
+[2023-07-15 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readsparse
+[2023-07-15 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: home-connect-async
+[2023-07-15 13:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pathgenmap
+[2023-07-15 13:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jayshreeram
+[2023-07-15 13:18:35] INFO root fetch - processPackages [home-connect-async]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-15 13:18:35] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 13:18:35] INFO root fetch - processPackages [readsparse]: New version: [0.1.5.post8] Old Version: [0.1.5.post7]
+[2023-07-15 13:18:35] INFO root fetch - processPackages [jayshreeram]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 13:18:35] INFO root fetch - processPackages [OneOnOne]: New version: [0.686] Old Version: [0.685]
+[2023-07-15 13:18:35] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 13:18:35] WARNING root fetch - processPackages [tha3]: Skipping, unable to determine old version
+[2023-07-15 13:18:35] INFO root fetch - main [MainThread]: End processing [tha3] error
+[2023-07-15 13:18:35] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/30/13/8e0c0904f54cfac1aafbe4d1c9e6d8d95591ef0e8920378dba9b5df12091/jayshreeram-0.0.8-py3-none-any.whl
+[2023-07-15 13:18:35] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [readsparse]: Downloading https://files.pythonhosted.org/packages/ce/42/9dcf37127da3375c5d7734e9ade8f4794dd2eca563e96083eeffd8b5561f/readsparse-0.1.5.post7.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/48/f9/8ad4d9ab1c92b04ac87acc10ce05ead644c3d92fed30d691c877ec7c0338/OneOnOne-0.685.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [home-connect-async]: Downloading https://files.pythonhosted.org/packages/56/88/bbc570b7b1e88c2684261bd7666f69575fa5e52018534bf0496187c07c67/home-connect-async-0.7.8.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [jayshreeram]: Downloading https://files.pythonhosted.org/packages/ad/c2/3394b3d09724c1d8ef4409d81eee3e3f2f6e77537dc5bb96c86223abc70e/jayshreeram-0.0.9-py3-none-any.whl
+[2023-07-15 13:18:35] INFO root fetch - processPackages [readsparse]: Downloading https://files.pythonhosted.org/packages/a5/a2/f75ba73e761a6bda2ce5d63191bffc6dfce37b7fc88ea8b210d69e354ad7/readsparse-0.1.5.post8.tar.gz
+[2023-07-15 13:18:35] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-15 13:18:35] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230715/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 13:18:35] INFO root fetch - processPackages [jayshreeram]: executing diffoscope
+[2023-07-15 13:18:35] INFO root fetch - processPackages [jayshreeram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jayshreeram-0.0.8-py3-none-any.whl.zip tmp/jayshreeram-0.0.9-py3-none-any.whl.zip --markdown 20230715/j/jayshreeram/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 13:18:36] INFO root fetch - processPackages [readsparse]: executing diffoscope
+[2023-07-15 13:18:36] INFO root fetch - processPackages [readsparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readsparse-0.1.5.post7.tar.gz tmp/readsparse-0.1.5.post8.tar.gz --markdown 20230715/r/readsparse/0.1.5.post7-0.1.5.post8/diff.md --exclude *.pyd
+[2023-07-15 13:18:36] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-07-15 13:18:36] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/36/d1/51d923fd3ff8980f76c232c2bfd9e841a89163dc3a17887e273c1c2865b6/OneOnOne-0.686.tar.gz
+[2023-07-15 13:18:36] INFO root fetch - processPackages [home-connect-async]: Downloading https://files.pythonhosted.org/packages/a4/1e/c3b0b8ad11981ce55c203ae72bf77866b77112d4f9e334380ce73fdefac8/home-connect-async-0.7.9.tar.gz
+[2023-07-15 13:18:36] INFO root fetch - processPackages [home-connect-async]: executing diffoscope
+[2023-07-15 13:18:36] INFO root fetch - processPackages [home-connect-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home-connect-async-0.7.8.tar.gz tmp/home-connect-async-0.7.9.tar.gz --markdown 20230715/h/home-connect-async/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-15 13:18:36] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-07-15 13:18:36] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230715/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 13:18:36] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-15 13:18:36] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.685.tar.gz tmp/OneOnOne-0.686.tar.gz --markdown 20230715/O/OneOnOne/0.685-0.686/diff.md --exclude *.pyd
+[2023-07-15 13:18:36] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-15 13:18:36] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-15 13:18:36] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-15 13:18:37] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.8-py3-none-any.whl.zip]
+[2023-07-15 13:18:37] INFO root fetch - processPackages [jayshreeram]: Remove: archive file [/home/abi/fetcher/tmp/jayshreeram-0.0.9-py3-none-any.whl.zip]
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [jayshreeram]: success
+[2023-07-15 13:18:37] INFO root fetch - processPackages [readsparse]: Remove: archive file [/home/abi/fetcher/tmp/readsparse-0.1.5.post7.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - processPackages [readsparse]: Remove: archive file [/home/abi/fetcher/tmp/readsparse-0.1.5.post8.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [readsparse]: success
+[2023-07-15 13:18:37] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-07-15 13:18:37] INFO root fetch - processPackages [home-connect-async]: Remove: archive file [/home/abi/fetcher/tmp/home-connect-async-0.7.8.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - processPackages [home-connect-async]: Remove: archive file [/home/abi/fetcher/tmp/home-connect-async-0.7.9.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [home-connect-async]: success
+[2023-07-15 13:18:37] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.685.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.686.tar.gz]
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-15 13:18:37] INFO root fetch - main [MainThread]: Store serial: [18899920]
