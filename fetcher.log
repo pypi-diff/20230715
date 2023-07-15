@@ -3443,3 +3443,39 @@
 [2023-07-15 04:34:55] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.3.tar.gz]
 [2023-07-15 04:34:55] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
 [2023-07-15 04:34:55] INFO root fetch - main [MainThread]: Store serial: [18897358]
+[2023-07-15 04:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897358]
+[2023-07-15 04:40:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 04:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horde-sdk
+[2023-07-15 04:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-eskiz-sms
+[2023-07-15 04:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omgpt
+[2023-07-15 04:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cz-emoticon
+[2023-07-15 04:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-move-template
+[2023-07-15 04:40:05] WARNING root fetch - processPackages [cz-emoticon]: Skipping, unable to determine old version
+[2023-07-15 04:40:05] INFO root fetch - main [MainThread]: End processing [cz-emoticon] error
+[2023-07-15 04:40:05] INFO root fetch - processPackages [omgpt]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-15 04:40:05] INFO root fetch - processPackages [horde-sdk]: New version: [0.5.2] Old Version: [0.5.0]
+[2023-07-15 04:40:05] WARNING root fetch - processPackages [django-eskiz-sms]: Skipping, unable to determine old version
+[2023-07-15 04:40:05] INFO root fetch - main [MainThread]: End processing [django-eskiz-sms] error
+[2023-07-15 04:40:05] INFO root fetch - processPackages [odoo14-addon-account-move-template]: New version: [14.0.1.1.3.dev9] Old Version: [14.0.1.1.3.dev8]
+[2023-07-15 04:40:05] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/9c/26/2bded64e0195dc4e6367bb67e71625c5a1db36221bf58f86ef16f19bb955/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl
+[2023-07-15 04:40:05] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/ae/29/030f192d931ddd796476a9e0769ee3ea12716736423ffdf9c66c45b07051/omgpt-0.0.2.tar.gz
+[2023-07-15 04:40:05] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/3e/85/53a0c1c0a1c0529eece00f18cae89934620875a769a643a52df5cc537e80/horde_sdk-0.5.0.tar.gz
+[2023-07-15 04:40:05] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/56/eb/f3c337beb846c1bf66c163eca56c51db6db1171e561668b9026b0699ea95/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl
+[2023-07-15 04:40:06] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/42/fa/be1d72a96b1e7eabde1fbb61496995a95e1b355c12a24313eec997b9668c/omgpt-0.1.0.tar.gz
+[2023-07-15 04:40:06] INFO root fetch - processPackages [odoo14-addon-account-move-template]: executing diffoscope
+[2023-07-15 04:40:06] INFO root fetch - processPackages [odoo14-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-account-move-template/14.0.1.1.3.dev8-14.0.1.1.3.dev9/diff.md --exclude *.pyd
+[2023-07-15 04:40:06] INFO root fetch - processPackages [horde-sdk]: Downloading https://files.pythonhosted.org/packages/c8/79/adceb9a4c0459c6198edfb4c60f36a9673e9818ae7b2276d8b8024ac3bc4/horde_sdk-0.5.2.tar.gz
+[2023-07-15 04:40:06] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 04:40:06] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.2.tar.gz tmp/omgpt-0.1.0.tar.gz --markdown 20230715/o/omgpt/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 04:40:06] INFO root fetch - processPackages [horde-sdk]: executing diffoscope
+[2023-07-15 04:40:06] INFO root fetch - processPackages [horde-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_sdk-0.5.0.tar.gz tmp/horde_sdk-0.5.2.tar.gz --markdown 20230715/h/horde-sdk/0.5.0-0.5.2/diff.md --exclude *.pyd
+[2023-07-15 04:40:06] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.2.tar.gz]
+[2023-07-15 04:40:06] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.1.0.tar.gz]
+[2023-07-15 04:40:06] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 04:40:07] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev8-py3-none-any.whl.zip]
+[2023-07-15 04:40:07] INFO root fetch - processPackages [odoo14-addon-account-move-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_template-14.0.1.1.3.dev9-py3-none-any.whl.zip]
+[2023-07-15 04:40:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-template]: success
+[2023-07-15 04:40:07] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.5.0.tar.gz]
+[2023-07-15 04:40:07] INFO root fetch - processPackages [horde-sdk]: Remove: archive file [/home/abi/fetcher/tmp/horde_sdk-0.5.2.tar.gz]
+[2023-07-15 04:40:07] INFO root fetch - main [MainThread]: End processing [horde-sdk]: success
+[2023-07-15 04:40:07] INFO root fetch - main [MainThread]: Store serial: [18897377]
