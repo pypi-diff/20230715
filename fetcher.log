@@ -10930,3 +10930,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:33:54] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.5.tar.gz]
 [2023-07-15 16:33:54] INFO root fetch - main [MainThread]: End processing [bigtree]: success
 [2023-07-15 16:33:54] INFO root fetch - main [MainThread]: Store serial: [18901137]
+[2023-07-15 16:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901137]
+[2023-07-15 16:39:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 16:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeUtils
+[2023-07-15 16:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-toys
+[2023-07-15 16:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-07-15 16:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltalake-redis-lock
+[2023-07-15 16:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MarsGT
+[2023-07-15 16:39:03] WARNING root fetch - processPackages [MarsGT]: Skipping, unable to determine old version
+[2023-07-15 16:39:03] INFO root fetch - main [MainThread]: End processing [MarsGT] error
+[2023-07-15 16:39:03] INFO root fetch - processPackages [deltalake-redis-lock]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-07-15 16:39:03] INFO root fetch - processPackages [llm-toys]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 16:39:03] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-15 16:39:03] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-15 16:39:03] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/e9/ad/cbd0f735c604d2adb8880515762f129bb1501b901f407856a5918d5007d7/llm-toys-0.0.5.tar.gz
+[2023-07-15 16:39:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-15 16:39:03] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/de/7f/23b7573f0899c19acb8531541fe7478db07c787fdb05a15ef682296c13ef/deltalake-redis-lock-0.0.1a0.tar.gz
+[2023-07-15 16:39:03] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-15 16:39:03] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-15 16:39:04] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-15 16:39:04] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/81/6b/35df987d18b500231332fc3edcab70ab72c5980a671e18cdcaf6fa3e66b6/llm-toys-0.0.6.tar.gz
+[2023-07-15 16:39:04] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/59/30/8c5014c06ebec466aba0a55831c74f76c6ee422e355d8b3817fc2e6c63bc/deltalake-redis-lock-0.0.1a1.tar.gz
+[2023-07-15 16:39:04] INFO root fetch - processPackages [deltalake-redis-lock]: executing diffoscope
+[2023-07-15 16:39:04] INFO root fetch - processPackages [deltalake-redis-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-redis-lock-0.0.1a0.tar.gz tmp/deltalake-redis-lock-0.0.1a1.tar.gz --markdown 20230715/d/deltalake-redis-lock/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-07-15 16:39:04] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-15 16:39:04] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-15 16:39:04] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230715/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-15 16:39:05] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a0.tar.gz]
+[2023-07-15 16:39:05] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a1.tar.gz]
+[2023-07-15 16:39:05] INFO root fetch - main [MainThread]: End processing [deltalake-redis-lock]: success
+[2023-07-15 16:39:05] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 16:39:05] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.5.tar.gz tmp/llm-toys-0.0.6.tar.gz --markdown 20230715/l/llm-toys/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 16:39:08] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.5.tar.gz]
+[2023-07-15 16:39:08] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.6.tar.gz]
+[2023-07-15 16:39:08] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 16:39:08] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-15 16:39:08] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-15 16:39:08] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-15 16:39:08] INFO root fetch - main [MainThread]: Store serial: [18901153]
