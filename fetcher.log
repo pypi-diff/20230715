@@ -2829,3 +2829,69 @@
 [2023-07-15 03:09:19] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-15 03:09:19] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-15 03:09:19] INFO root fetch - main [MainThread]: Store serial: [18897083]
+[2023-07-15 03:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897083]
+[2023-07-15 03:14:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notebooklog
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oaklib
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aemcmc-nightly
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atbu-pkg
+[2023-07-15 03:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prompt-graph-sdk
+[2023-07-15 03:14:29] INFO root fetch - processPackages [notebooklog]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230714] Old Version: [0.0.8.dev20230713]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [prompt-graph-sdk]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [atbu-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [oaklib]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 03:14:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/24/a6/a718f5d5e6ffb3b7bf41dc130e3afcccc4ca6a249ea5d465a07a01bd335a/oaklib-0.5.8.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/de/16/5459bb56e7dc46bac114d6913459623eb5420de669a00f3f17a93393d08c/prompt_graph_sdk-0.1.4.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/ba/90/032256ecab42594e4705dd24a61a9afcaa5f400ee35ec150fab5329832b4/aemcmc-nightly-0.0.8.dev20230713.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [notebooklog]: Downloading https://files.pythonhosted.org/packages/b5/7f/55bb056eda88f33d8500d27a4fc82312ba5231acfcc66601614426031edc/notebooklog-0.0.1.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/1e/43/b3e6e693150fa9a54fda96dbac24f19792ba7a45686ff6a62e7bbed9bd5d/atbu-pkg-0.0.8.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/f3/75/5cb1434f8ea202c6d6fe5b009f11f4309ef2a2ba01c83ac789dba5290fe6/prompt_graph_sdk-0.1.6.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/b2/26/d46b70bf3969d963ebfed9bce6900177a67b3bedc3b78c1d1f194f48c4b0/oaklib-0.5.9.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/2d/ed/452069898cdad09c9a646346322748991301e65d0c7fbe8a90a63b0b0122/aemcmc-nightly-0.0.8.dev20230714.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [notebooklog]: Downloading https://files.pythonhosted.org/packages/52/a1/b9d2d1912297274b89209414ba9c6ef5077968eed9b6e79d7c820944c93c/notebooklog-0.0.2.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [prompt-graph-sdk]: executing diffoscope
+[2023-07-15 03:14:29] INFO root fetch - processPackages [prompt-graph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_graph_sdk-0.1.4.tar.gz tmp/prompt_graph_sdk-0.1.6.tar.gz --markdown 20230715/p/prompt-graph-sdk/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-07-15 03:14:29] INFO root fetch - processPackages [notebooklog]: executing diffoscope
+[2023-07-15 03:14:29] INFO root fetch - processPackages [notebooklog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooklog-0.0.1.tar.gz tmp/notebooklog-0.0.2.tar.gz --markdown 20230715/n/notebooklog/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 03:14:29] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2023-07-15 03:14:29] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.5.8.tar.gz tmp/oaklib-0.5.9.tar.gz --markdown 20230715/o/oaklib/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-15 03:14:29] INFO root fetch - processPackages [atbu-pkg]: Downloading https://files.pythonhosted.org/packages/f5/38/dc8d5091ad2ec0108f1b6ca6014651e5e893c7f8f07c961c902e3d5e4b0e/atbu-pkg-0.0.9.tar.gz
+[2023-07-15 03:14:29] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-15 03:14:29] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230713.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230714.tar.gz --markdown 20230715/a/aemcmc-nightly/0.0.8.dev20230713-0.0.8.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 03:14:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-15 03:14:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-15 03:14:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230715/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:14:30] INFO root fetch - processPackages [atbu-pkg]: executing diffoscope
+[2023-07-15 03:14:30] INFO root fetch - processPackages [atbu-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atbu-pkg-0.0.8.tar.gz tmp/atbu-pkg-0.0.9.tar.gz --markdown 20230715/a/atbu-pkg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 03:14:30] INFO root fetch - processPackages [notebooklog]: Remove: archive file [/home/abi/fetcher/tmp/notebooklog-0.0.1.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - processPackages [notebooklog]: Remove: archive file [/home/abi/fetcher/tmp/notebooklog-0.0.2.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - main [MainThread]: End processing [notebooklog]: success
+[2023-07-15 03:14:30] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230713.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230714.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-15 03:14:30] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.4.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.6.tar.gz]
+[2023-07-15 03:14:30] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk]: success
+[2023-07-15 03:14:31] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-15 03:14:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-15 03:14:31] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-15 03:14:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-15 03:14:31] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.8.tar.gz]
+[2023-07-15 03:14:31] INFO root fetch - processPackages [atbu-pkg]: Remove: archive file [/home/abi/fetcher/tmp/atbu-pkg-0.0.9.tar.gz]
+[2023-07-15 03:14:31] INFO root fetch - main [MainThread]: End processing [atbu-pkg]: success
+[2023-07-15 03:14:32] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.5.8.tar.gz]
+[2023-07-15 03:14:32] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.5.9.tar.gz]
+[2023-07-15 03:14:32] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2023-07-15 03:14:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-15 03:14:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230715/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:14:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-15 03:14:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-15 03:14:33] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-15 03:14:33] INFO root fetch - main [MainThread]: Store serial: [18897104]
