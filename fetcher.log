@@ -11610,3 +11610,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:34:30] INFO root fetch - processPackages [dhali-py]: Remove: archive file [/home/abi/fetcher/tmp/dhali-py-0.0.9.tar.gz]
 [2023-07-15 17:34:30] INFO root fetch - main [MainThread]: End processing [dhali-py]: success
 [2023-07-15 17:34:30] INFO root fetch - main [MainThread]: Store serial: [18901479]
+[2023-07-15 17:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901479]
+[2023-07-15 17:39:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flojoy
+[2023-07-15 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-dynatrace
+[2023-07-15 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-botting
+[2023-07-15 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absl-extra
+[2023-07-15 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innerverz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [innerverz]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-15 17:39:40] INFO root fetch - processPackages [tg-botting]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-15 17:39:40] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-15 17:39:40] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: New version: [0.1.1a1689433879] Old Version: [0.1.0]
+[2023-07-15 17:39:40] INFO root fetch - processPackages [flojoy]: New version: [0.2.2.dev9] Old Version: [0.2.2.dev8]
+[2023-07-15 17:39:40] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/9e/52/37df11bad92833e6d6e57590365c3ede1fb75354a55f1b3de24521fbb109/innerverz-0.1.7.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/58/4a/411ed49c4c426bcb70e5ad46561890a01ad521164c31dc1a485ce164a90b/flojoy-0.2.2.dev8.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/0b/4b/a201b534a173733012858f3deb3c097aaf0614822c89689920fb6591eaaf/tg-botting-2.1.4.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: Downloading https://files.pythonhosted.org/packages/7c/cc/407082c7363102195a8a11ee1274b3d9c2672251638336a5962d9318b958/lbrlabs_pulumi_dynatrace-0.1.0.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/cc/89/3ff5e29ecadba4b079382977514617ec281e2d2e2c7c21e5414afc4a99ca/innerverz-0.1.8.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [flojoy]: Downloading https://files.pythonhosted.org/packages/bc/c3/8f34f775e6b17119e5ed320a7df64187257c3d699a70476e77c210160e7f/flojoy-0.2.2.dev9.tar.gz
+[2023-07-15 17:39:40] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-15 17:39:40] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230715/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 17:39:40] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-15 17:39:40] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.1.7.tar.gz tmp/innerverz-0.1.8.tar.gz --markdown 20230715/i/innerverz/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-15 17:39:40] INFO root fetch - processPackages [tg-botting]: Downloading https://files.pythonhosted.org/packages/5b/16/74dd86959ba6ca1a094ff8e1d5fa7e746ab7e9ee03b1edc5ad5f09929364/tg-botting-2.1.5.tar.gz
+[2023-07-15 17:39:41] INFO root fetch - processPackages [flojoy]: executing diffoscope
+[2023-07-15 17:39:41] INFO root fetch - processPackages [flojoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flojoy-0.2.2.dev8.tar.gz tmp/flojoy-0.2.2.dev9.tar.gz --markdown 20230715/f/flojoy/0.2.2.dev8-0.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 17:39:41] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: Downloading https://files.pythonhosted.org/packages/ac/f4/2751b88a15c41c4124506c21f8959b6f899fd6fba2fe5f1273868847b004/lbrlabs_pulumi_dynatrace-0.1.1a1689433879.tar.gz
+[2023-07-15 17:39:41] INFO root fetch - processPackages [tg-botting]: executing diffoscope
+[2023-07-15 17:39:41] INFO root fetch - processPackages [tg-botting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg-botting-2.1.4.tar.gz tmp/tg-botting-2.1.5.tar.gz --markdown 20230715/t/tg-botting/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-15 17:39:41] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: executing diffoscope
+[2023-07-15 17:39:41] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_dynatrace-0.1.0.tar.gz tmp/lbrlabs_pulumi_dynatrace-0.1.1a1689433879.tar.gz --markdown 20230715/l/lbrlabs-pulumi-dynatrace/0.1.0-0.1.1a1689433879/diff.md --exclude *.pyd
+[2023-07-15 17:39:42] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev8.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - processPackages [flojoy]: Remove: archive file [/home/abi/fetcher/tmp/flojoy-0.2.2.dev9.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - main [MainThread]: End processing [flojoy]: success
+[2023-07-15 17:39:42] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-15 17:39:42] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.4.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - processPackages [tg-botting]: Remove: archive file [/home/abi/fetcher/tmp/tg-botting-2.1.5.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - main [MainThread]: End processing [tg-botting]: success
+[2023-07-15 17:39:42] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.7.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.8.tar.gz]
+[2023-07-15 17:39:42] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-15 17:39:43] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_dynatrace-0.1.0.tar.gz]
+[2023-07-15 17:39:43] INFO root fetch - processPackages [lbrlabs-pulumi-dynatrace]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_dynatrace-0.1.1a1689433879.tar.gz]
+[2023-07-15 17:39:43] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-dynatrace]: success
+[2023-07-15 17:39:43] INFO root fetch - main [MainThread]: Store serial: [18901492]
