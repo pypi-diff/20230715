@@ -14816,3 +14816,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:35:57] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.8.0.tar.gz]
 [2023-07-15 22:35:57] INFO root fetch - main [MainThread]: End processing [langdash]: success
 [2023-07-15 22:35:57] INFO root fetch - main [MainThread]: Store serial: [18902916]
+[2023-07-15 22:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902916]
+[2023-07-15 22:41:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auldcommons
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aseprite-ini
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-pretrained
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guify
+[2023-07-15 22:41:06] WARNING root fetch - processPackages [auldcommons]: Skipping, unable to determine old version
+[2023-07-15 22:41:06] INFO root fetch - main [MainThread]: End processing [auldcommons] error
+[2023-07-15 22:41:06] INFO root fetch - processPackages [aseprite-ini]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-15 22:41:06] INFO root fetch - processPackages [guify]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 22:41:06] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-15 22:41:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-15 22:41:06] INFO root fetch - processPackages [aseprite-ini]: Downloading https://files.pythonhosted.org/packages/75/7b/8681178dc35926df7df2a9c7642d596417394c2fdb160bbae2e1c4822257/aseprite-ini-0.0.0.tar.gz
+[2023-07-15 22:41:06] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/7c/4c/13620db0bcd91ab3480714bf5bc330712068fa8bc44ff08dc03b4689171d/guify-0.2.8.tar.gz
+[2023-07-15 22:41:06] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-07-15 22:41:06] INFO root fetch - processPackages [aseprite-ini]: Downloading https://files.pythonhosted.org/packages/f8/0d/7601964c2b647842f74f3bdbb65d76b1ab01c9cf057864121a10c5697247/aseprite-ini-0.0.1.tar.gz
+[2023-07-15 22:41:06] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-15 22:41:07] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b1/9c/10706a21e75844465af6ac2e4dd6f9d0a1f364134a48a6700811521ca152/guify-0.2.9.tar.gz
+[2023-07-15 22:41:07] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-07-15 22:41:07] INFO root fetch - processPackages [aseprite-ini]: executing diffoscope
+[2023-07-15 22:41:07] INFO root fetch - processPackages [aseprite-ini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aseprite-ini-0.0.0.tar.gz tmp/aseprite-ini-0.0.1.tar.gz --markdown 20230715/a/aseprite-ini/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-15 22:41:07] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-15 22:41:07] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230715/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-15 22:41:07] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-07-15 22:41:07] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230715/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 22:41:07] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-07-15 22:41:07] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.8.tar.gz tmp/guify-0.2.9.tar.gz --markdown 20230715/g/guify/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 22:41:07] INFO root fetch - processPackages [aseprite-ini]: Remove: archive file [/home/abi/fetcher/tmp/aseprite-ini-0.0.0.tar.gz]
+[2023-07-15 22:41:07] INFO root fetch - processPackages [aseprite-ini]: Remove: archive file [/home/abi/fetcher/tmp/aseprite-ini-0.0.1.tar.gz]
+[2023-07-15 22:41:07] INFO root fetch - main [MainThread]: End processing [aseprite-ini]: success
+[2023-07-15 22:41:08] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-07-15 22:41:08] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-07-15 22:41:08] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-07-15 22:41:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-15 22:41:08] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-15 22:41:08] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-15 22:41:14] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.8.tar.gz]
+[2023-07-15 22:41:14] INFO root fetch - processPackages [guify]: Remove: archive file [/home/abi/fetcher/tmp/guify-0.2.9.tar.gz]
+[2023-07-15 22:41:14] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-07-15 22:41:14] INFO root fetch - main [MainThread]: Store serial: [18902935]
