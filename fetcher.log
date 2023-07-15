@@ -2614,3 +2614,99 @@
 [2023-07-15 02:37:49] INFO root fetch - processPackages [pz-rail]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-0.99.1.1.tar.gz]
 [2023-07-15 02:37:49] INFO root fetch - main [MainThread]: End processing [pz-rail]: success
 [2023-07-15 02:37:49] INFO root fetch - main [MainThread]: Store serial: [18896971]
+[2023-07-15 02:42:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896971]
+[2023-07-15 02:42:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monarch-py
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDecision
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnstock
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: echofish-aws-raw-to-zarr-lambda
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-26
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caqui
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genomap
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ovos-workshop
+[2023-07-15 02:42:58] INFO root fetch - processPackages [genomap]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [monarch-py]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230714] Old Version: [0.1.5.dev20230713]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: New version: [1.0.0.dev20230715002145] Old Version: [1.0.0.dev20230714215331]
+[2023-07-15 02:42:58] WARNING root fetch - processPackages [pyDecision]: Skipping, unable to determine old version
+[2023-07-15 02:42:58] INFO root fetch - processPackages [pyDecision]: Start processing: semsimian
+[2023-07-15 02:42:58] INFO root fetch - main [MainThread]: End processing [pyDecision] error
+[2023-07-15 02:42:58] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.16.0]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.89]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [vnstock]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.89]
+[2023-07-15 02:42:58] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-07-15 02:42:59] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/2b/24/ebaa1bc4f94d28a149c80027d9c06beafe3933c17213c29be5381485d736/genomap-1.1.0.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [semsimian]: New version: [0.1.17rc4] Old Version: [0.1.17rc3]
+[2023-07-15 02:42:59] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/f1/3a/35c75fbdb765640bc6c7707ea744a2010660b8a6062ca05d35c2285e1681/vnstock-0.1.7.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/59/7f/08c1b28a95f61fe152765f159cd161d24a4a9c18c9b3318b10a6bea80c1a/caqui-1.16.0.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/eb/ec/c90c1b371142d413ef4d718d53c5b12f17208571279e4c21603d941664f9/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/36/c5/f598acd72f9a8795e0a9aaef9cf563295574779f9e2743295b1f98787211/aeppl-nightly-0.1.5.dev20230713.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-07-15 02:42:59] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/6d/48/f8584db7808c58dfe36efe458cdf928f83c7345eafb177d0517f07dac0c4/monarch_py-0.9.4.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/25/10/a89cc61ffbbfcb4be713b7a4a7d85dda5c667fb936a036f1a486d21ee5b9/cdk8s-plus-25-2.8.89.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/36/2d/3eddbcba7e6bffda1a7defebfe2e107629b904b362a6b8d00f4cb85588b1/cdk8s-plus-26-2.4.89.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/43/fa/efb35d0c4d52c01719493cec0fb43b30fb77ac73224925fc64d3738d29e4/semsimian-0.1.17rc3-cp39-none-win_amd64.whl
+[2023-07-15 02:42:59] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-07-15 02:42:59] INFO root fetch - processPackages [genomap]: Downloading https://files.pythonhosted.org/packages/19/43/2c005f91ed808b75d01ee560943226787e8d8bb1b2e31b11b1e2dc5b7bd9/genomap-1.1.1.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Downloading https://files.pythonhosted.org/packages/c3/6a/0fc96876ab54a4467be1d16f8017ad30ab76f5676f96b6d1703f29186bba/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230715002145.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/6c/3d/a395f6bd6e028b0dbcba9e915c45c17768e409da5249aefaf4ff14f6bc3b/vnstock-0.1.8.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/3c/8f/b51bbd34a60cb7a60b9115b5ac5e2eb76627c14fb70fcd41f682c416ce35/aeppl-nightly-0.1.5.dev20230714.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-07-15 02:42:59] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230715/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-07-15 02:42:59] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-15 02:42:59] INFO root fetch - processPackages [genomap]: executing diffoscope
+[2023-07-15 02:42:59] INFO root fetch - processPackages [genomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomap-1.1.0.tar.gz tmp/genomap-1.1.1.tar.gz --markdown 20230715/g/genomap/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-15 02:42:59] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/f2/a8/60e40f29cd6213ebb7999bf65fcc3c1afdcb0e84887f0d2d7736866e4844/monarch_py-0.9.5.tar.gz
+[2023-07-15 02:43:00] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230715002145.tar.gz --markdown 20230715/e/echofish-aws-raw-to-zarr-lambda/1.0.0.dev20230714215331-1.0.0.dev20230715002145/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [vnstock]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [vnstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnstock-0.1.7.tar.gz tmp/vnstock-0.1.8.tar.gz --markdown 20230715/v/vnstock/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.89.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230715/c/cdk8s-plus-26/2.4.89-2.4.9/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.16.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230715/c/caqui/1.16.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230713.tar.gz tmp/aeppl-nightly-0.1.5.dev20230714.tar.gz --markdown 20230715/a/aeppl-nightly/0.1.5.dev20230713-0.1.5.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.89.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230715/c/cdk8s-plus-25/2.8.89-2.8.9/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-07-15 02:43:00] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.9.4.tar.gz tmp/monarch_py-0.9.5.tar.gz --markdown 20230715/m/monarch-py/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-15 02:43:00] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/53/ed/2ef554a961b92b17721187975ebb4726a81db98f07e3eb17f5a4c490321a/semsimian-0.1.17rc4-cp38-none-win_amd64.whl
+[2023-07-15 02:43:01] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [semsimian]: executing diffoscope
+[2023-07-15 02:43:01] INFO root fetch - processPackages [semsimian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsimian-0.1.17rc3-cp39-none-win_amd64.whl.zip tmp/semsimian-0.1.17rc4-cp38-none-win_amd64.whl.zip --markdown 20230715/s/semsimian/0.1.17rc3-0.1.17rc4/diff.md --exclude *.pyd
+[2023-07-15 02:43:01] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.1.0.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [genomap]: Remove: archive file [/home/abi/fetcher/tmp/genomap-1.1.1.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [genomap]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230714215331.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [echofish-aws-raw-to-zarr-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-raw-to-zarr-lambda-1.0.0.dev20230715002145.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [echofish-aws-raw-to-zarr-lambda]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.7.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.8.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [vnstock]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230713.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230714.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.89.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.4.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.5.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.89.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-15 02:43:01] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.16.0.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-07-15 02:43:01] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-15 02:43:02] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.17rc3-cp39-none-win_amd64.whl.zip]
+[2023-07-15 02:43:02] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.17rc4-cp38-none-win_amd64.whl.zip]
+[2023-07-15 02:43:02] INFO root fetch - main [MainThread]: End processing [semsimian]: success
+[2023-07-15 02:43:02] INFO root fetch - main [MainThread]: Store serial: [18897035]
