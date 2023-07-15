@@ -15339,3 +15339,44 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:27:54] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.3.tar.gz]
 [2023-07-15 23:27:54] INFO root fetch - main [MainThread]: End processing [logium]: success
 [2023-07-15 23:27:54] INFO root fetch - main [MainThread]: Store serial: [18903113]
+[2023-07-15 23:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903113]
+[2023-07-15 23:33:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azuredevopsX
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cursesplus
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docwalker
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikGapps
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuck
+[2023-07-15 23:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: device-location-dnac
+[2023-07-15 23:33:03] INFO root fetch - processPackages [azuredevopsX]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-07-15 23:33:03] INFO root fetch - processPackages [NikGapps]: New version: [1.65] Old Version: [1.64]
+[2023-07-15 23:33:03] WARNING root fetch - processPackages [docwalker]: Skipping, unable to determine old version
+[2023-07-15 23:33:03] INFO root fetch - main [MainThread]: End processing [docwalker] error
+[2023-07-15 23:33:03] WARNING root fetch - processPackages [device-location-dnac]: Skipping, unable to determine old version
+[2023-07-15 23:33:03] INFO root fetch - main [MainThread]: End processing [device-location-dnac] error
+[2023-07-15 23:33:03] INFO root fetch - processPackages [tuck]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-15 23:33:03] INFO root fetch - processPackages [cursesplus]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-15 23:33:03] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/dd/d5/ce059492bc2220c3fa300920d548a97ea53eb75a1942f31ca09ae32bdc6d/azuredevopsX-0.0.19-py3-none-any.whl
+[2023-07-15 23:33:03] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/68/90/d3427549bd1283eee38765c165d10965932037ecbcd607b12a693ce7c367/cursesplus-2.4.0.tar.gz
+[2023-07-15 23:33:03] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/77/94/dd4b35513b77952a43bc4587231b02b5dedecd4e6c19f87e1fd44f5a521c/tuck-0.2.3.tar.gz
+[2023-07-15 23:33:03] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/a4/e0/646b250aa0a0f10291d86561df5bae96f8d2729f836f6aa1ea65271c0aa5/NikGapps-1.64.tar.gz
+[2023-07-15 23:33:03] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41565155>=10485760
+[2023-07-15 23:33:03] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-15 23:33:03] INFO root fetch - processPackages [azuredevopsX]: Downloading https://files.pythonhosted.org/packages/e4/27/548590cacf0c337c9e5b3832c71555cc597bcba24d9ba7e1c40bb29016e7/azuredevopsX-0.0.20-py3-none-any.whl
+[2023-07-15 23:33:04] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/2f/12/6f4761c761d93c6742139c16c11bf0846c6d90b2c6d5b7e59c1d89767e01/cursesplus-2.5.0.tar.gz
+[2023-07-15 23:33:04] INFO root fetch - processPackages [azuredevopsX]: executing diffoscope
+[2023-07-15 23:33:04] INFO root fetch - processPackages [azuredevopsX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuredevopsX-0.0.19-py3-none-any.whl.zip tmp/azuredevopsX-0.0.20-py3-none-any.whl.zip --markdown 20230715/a/azuredevopsX/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-07-15 23:33:04] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-07-15 23:33:04] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.4.0.tar.gz tmp/cursesplus-2.5.0.tar.gz --markdown 20230715/c/cursesplus/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-15 23:33:04] INFO root fetch - processPackages [tuck]: Downloading https://files.pythonhosted.org/packages/7e/83/77167c2386152edc0dc282b308910f12a9ef88babbbdb8e4a9652a5a4ed3/tuck-0.2.4.tar.gz
+[2023-07-15 23:33:04] INFO root fetch - processPackages [tuck]: executing diffoscope
+[2023-07-15 23:33:04] INFO root fetch - processPackages [tuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuck-0.2.3.tar.gz tmp/tuck-0.2.4.tar.gz --markdown 20230715/t/tuck/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-15 23:33:04] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.4.0.tar.gz]
+[2023-07-15 23:33:04] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.5.0.tar.gz]
+[2023-07-15 23:33:04] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-07-15 23:33:04] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.19-py3-none-any.whl.zip]
+[2023-07-15 23:33:04] INFO root fetch - processPackages [azuredevopsX]: Remove: archive file [/home/abi/fetcher/tmp/azuredevopsX-0.0.20-py3-none-any.whl.zip]
+[2023-07-15 23:33:04] INFO root fetch - main [MainThread]: End processing [azuredevopsX]: success
+[2023-07-15 23:33:05] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.3.tar.gz]
+[2023-07-15 23:33:05] INFO root fetch - processPackages [tuck]: Remove: archive file [/home/abi/fetcher/tmp/tuck-0.2.4.tar.gz]
+[2023-07-15 23:33:05] INFO root fetch - main [MainThread]: End processing [tuck]: success
+[2023-07-15 23:33:05] INFO root fetch - main [MainThread]: Store serial: [18903136]
