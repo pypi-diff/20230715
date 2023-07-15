@@ -14984,3 +14984,51 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 22:51:36] INFO root fetch - processPackages [berserk]: Remove: archive file [/home/abi/fetcher/tmp/berserk-0.9.0.tar.gz]
 [2023-07-15 22:51:36] INFO root fetch - main [MainThread]: End processing [berserk]: success
 [2023-07-15 22:51:36] INFO root fetch - main [MainThread]: Store serial: [18902971]
+[2023-07-15 22:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902971]
+[2023-07-15 22:56:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 22:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymodconn
+[2023-07-15 22:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cursesplus
+[2023-07-15 22:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bb-dirtree
+[2023-07-15 22:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Jedutils
+[2023-07-15 22:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: equine
+[2023-07-15 22:56:45] INFO root fetch - processPackages [Jedutils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-15 22:56:45] INFO root fetch - processPackages [equine]: New version: [0.1.1rc5] Old Version: [0.1.1rc4]
+[2023-07-15 22:56:45] INFO root fetch - processPackages [cursesplus]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-07-15 22:56:45] INFO root fetch - processPackages [bb-dirtree]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 22:56:45] INFO root fetch - processPackages [pymodconn]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-07-15 22:56:45] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/2b/0a/07421e3eba83aefff378967de58d9c9e1692b2cf0826e0401efb4b410906/Jedutils-0.1.4.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [equine]: Downloading https://files.pythonhosted.org/packages/71/d7/1296f89bf42b2e5a5d8862b44edd17dad8817dc361d10f29f43b0a67f537/equine-0.1.1rc4.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [pymodconn]: Downloading https://files.pythonhosted.org/packages/2d/99/4d4aa80f3332469ed84607daf6da86d73afa6cefc0372c0f39cbf33ffbf2/pymodconn-1.0.1.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/71/ab/3c45ffc8cf391b5868d1a18b249ed549b555058c909de0f2360c0f7840b8/bb_dirtree-0.2.6.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/e5/50/42df2358010c10bc70c3a1386e444ee4e368ab792ed7c9911d8dd9a1be79/cursesplus-2.3.7.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [Jedutils]: Downloading https://files.pythonhosted.org/packages/47/96/852d1f85c01fa4132b4c35f794a2330189fb780420a9331425833e351de9/Jedutils-0.1.5.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [equine]: Downloading https://files.pythonhosted.org/packages/ab/b2/172c59d341c82c24167f650e763fe2b305a76ef9103ea3a2907119948e4a/equine-0.1.1rc5.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [Jedutils]: executing diffoscope
+[2023-07-15 22:56:45] INFO root fetch - processPackages [Jedutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jedutils-0.1.4.tar.gz tmp/Jedutils-0.1.5.tar.gz --markdown 20230715/J/Jedutils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-15 22:56:45] INFO root fetch - processPackages [pymodconn]: Downloading https://files.pythonhosted.org/packages/56/1e/863e95484c45ccb2457048f686304e46329120a2e92797316990b695446e/pymodconn-2.0.0.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/fc/c8/43208ac0c1df3e63fa325e359fef349aed79872234359f01735ded660e99/bb_dirtree-0.3.0.tar.gz
+[2023-07-15 22:56:45] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/68/90/d3427549bd1283eee38765c165d10965932037ecbcd607b12a693ce7c367/cursesplus-2.4.0.tar.gz
+[2023-07-15 22:56:46] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-07-15 22:56:46] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.3.7.tar.gz tmp/cursesplus-2.4.0.tar.gz --markdown 20230715/c/cursesplus/2.3.7-2.4.0/diff.md --exclude *.pyd
+[2023-07-15 22:56:46] INFO root fetch - processPackages [pymodconn]: executing diffoscope
+[2023-07-15 22:56:46] INFO root fetch - processPackages [pymodconn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodconn-1.0.1.tar.gz tmp/pymodconn-2.0.0.tar.gz --markdown 20230715/p/pymodconn/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-15 22:56:46] INFO root fetch - processPackages [equine]: executing diffoscope
+[2023-07-15 22:56:46] INFO root fetch - processPackages [equine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equine-0.1.1rc4.tar.gz tmp/equine-0.1.1rc5.tar.gz --markdown 20230715/e/equine/0.1.1rc4-0.1.1rc5/diff.md --exclude *.pyd
+[2023-07-15 22:56:46] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-15 22:56:46] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.2.6.tar.gz tmp/bb_dirtree-0.3.0.tar.gz --markdown 20230715/b/bb-dirtree/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 22:56:46] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.4.tar.gz]
+[2023-07-15 22:56:46] INFO root fetch - processPackages [Jedutils]: Remove: archive file [/home/abi/fetcher/tmp/Jedutils-0.1.5.tar.gz]
+[2023-07-15 22:56:46] INFO root fetch - main [MainThread]: End processing [Jedutils]: success
+[2023-07-15 22:56:47] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.3.7.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.4.0.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-07-15 22:56:47] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.6.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.3.0.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-15 22:56:47] INFO root fetch - processPackages [equine]: Remove: archive file [/home/abi/fetcher/tmp/equine-0.1.1rc4.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - processPackages [equine]: Remove: archive file [/home/abi/fetcher/tmp/equine-0.1.1rc5.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - main [MainThread]: End processing [equine]: success
+[2023-07-15 22:56:47] INFO root fetch - processPackages [pymodconn]: Remove: archive file [/home/abi/fetcher/tmp/pymodconn-1.0.1.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - processPackages [pymodconn]: Remove: archive file [/home/abi/fetcher/tmp/pymodconn-2.0.0.tar.gz]
+[2023-07-15 22:56:47] INFO root fetch - main [MainThread]: End processing [pymodconn]: success
+[2023-07-15 22:56:47] INFO root fetch - main [MainThread]: Store serial: [18902985]
