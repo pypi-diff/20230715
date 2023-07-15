@@ -13635,3 +13635,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [banking-system]: success
 [2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [banking-system]: success
 [2023-07-15 20:51:59] INFO root fetch - main [MainThread]: Store serial: [18902381]
+[2023-07-15 20:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902381]
+[2023-07-15 20:57:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oneat
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecommerce-scraper-py
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ork.build
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ork.build]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ork.build]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-15 20:57:08] INFO root fetch - processPackages [ork.build]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-15 20:57:08] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 20:57:09] WARNING root fetch - processPackages [ecommerce-scraper-py]: Skipping, unable to determine old version
+[2023-07-15 20:57:09] INFO root fetch - main [MainThread]: End processing [ecommerce-scraper-py] error
+[2023-07-15 20:57:09] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/4b/58/c032dd6e9d86d74332376a9b489677b672314dfb107409939f25837a3937/ork.build-0.0.43.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/4b/58/c032dd6e9d86d74332376a9b489677b672314dfb107409939f25837a3937/ork.build-0.0.43.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/4b/58/c032dd6e9d86d74332376a9b489677b672314dfb107409939f25837a3937/ork.build-0.0.43.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/d3/15/a04a6a814a61a66cd7a195c17d9879828156b4fe6b30cbe2d73d3d6dea13/ork.build-0.0.44.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/d3/15/a04a6a814a61a66cd7a195c17d9879828156b4fe6b30cbe2d73d3d6dea13/ork.build-0.0.44.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/d3/15/a04a6a814a61a66cd7a195c17d9879828156b4fe6b30cbe2d73d3d6dea13/ork.build-0.0.44.tar.gz
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.43.tar.gz tmp/ork.build-0.0.44.tar.gz --markdown 20230715/o/ork.build/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.43.tar.gz tmp/ork.build-0.0.44.tar.gz --markdown 20230715/o/ork.build/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 20:57:09] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.43.tar.gz tmp/ork.build-0.0.44.tar.gz --markdown 20230715/o/ork.build/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-15 20:57:09] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 20:57:09] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 20:57:11] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-07-15 20:57:11] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-15 20:57:11] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 20:57:12] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.43.tar.gz]
+[2023-07-15 20:57:12] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.44.tar.gz]
+[2023-07-15 20:57:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 20:57:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 20:57:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 20:57:12] INFO root fetch - main [MainThread]: Store serial: [18902398]
