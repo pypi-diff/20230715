@@ -2710,3 +2710,24 @@
 [2023-07-15 02:43:02] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.1.17rc4-cp38-none-win_amd64.whl.zip]
 [2023-07-15 02:43:02] INFO root fetch - main [MainThread]: End processing [semsimian]: success
 [2023-07-15 02:43:02] INFO root fetch - main [MainThread]: Store serial: [18897035]
+[2023-07-15 02:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897035]
+[2023-07-15 02:48:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-07-15 02:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-07-15 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 02:48:11] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307140045] Old Version: [4.9.2.dev202307130044]
+[2023-07-15 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-15 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/53/fd/d82c9816eeb14b403c8d5cdfc13e841f0080c4457c1d619ae5941909e773/tfds-nightly-4.9.2.dev202307130044.tar.gz
+[2023-07-15 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-15 02:48:11] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/93/75/813565fb83b3d366f7df6633d27e813af233c9a83fc59da2668f4f0c0179/tfds-nightly-4.9.2.dev202307140045.tar.gz
+[2023-07-15 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-15 02:48:11] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230715/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:48:12] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-15 02:48:12] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307130044.tar.gz tmp/tfds-nightly-4.9.2.dev202307140045.tar.gz --markdown 20230715/t/tfds-nightly/4.9.2.dev202307130044-4.9.2.dev202307140045/diff.md --exclude *.pyd
+[2023-07-15 02:48:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-15 02:48:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-15 02:48:12] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-15 02:48:17] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307130044.tar.gz]
+[2023-07-15 02:48:17] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307140045.tar.gz]
+[2023-07-15 02:48:17] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-15 02:48:17] INFO root fetch - main [MainThread]: Store serial: [18897049]
