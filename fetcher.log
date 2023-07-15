@@ -5745,3 +5745,33 @@
 [2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
 [2023-07-15 08:11:12] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
 [2023-07-15 08:11:12] INFO root fetch - main [MainThread]: Store serial: [18898499]
+[2023-07-15 08:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898499]
+[2023-07-15 08:16:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: estela-requests
+[2023-07-15 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myeasygui
+[2023-07-15 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-thumb
+[2023-07-15 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-07-15 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latte-classifier
+[2023-07-15 08:16:21] WARNING root fetch - processPackages [estela-requests]: Skipping, unable to determine old version
+[2023-07-15 08:16:21] INFO root fetch - main [MainThread]: End processing [estela-requests] error
+[2023-07-15 08:16:21] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 08:16:21] WARNING root fetch - processPackages [myeasygui]: Skipping, unable to determine old version
+[2023-07-15 08:16:21] INFO root fetch - main [MainThread]: End processing [myeasygui] error
+[2023-07-15 08:16:21] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230715] Old Version: [2.4.0.dev20230714]
+[2023-07-15 08:16:21] WARNING root fetch - processPackages [latte-classifier]: Skipping, unable to determine old version
+[2023-07-15 08:16:21] INFO root fetch - main [MainThread]: End processing [latte-classifier] error
+[2023-07-15 08:16:21] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/48/f8/38ee6cfa4dc47f7f620c12c66c978b5e01030a5d705c8767ad07fc8db950/nb-thumb-0.0.6.tar.gz
+[2023-07-15 08:16:21] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/61/a1/75c5ecc7be3827d785e7e6da1ba179214edf92ee98e1f9d16072bc20a190/pyg_nightly-2.4.0.dev20230714.tar.gz
+[2023-07-15 08:16:21] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/39/2c/40ae85751ed109403e2405aef6994a97bfa4647ecce49682f256a3d153c3/nb-thumb-0.0.7.tar.gz
+[2023-07-15 08:16:22] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-15 08:16:22] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.6.tar.gz tmp/nb-thumb-0.0.7.tar.gz --markdown 20230715/n/nb-thumb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 08:16:22] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/a9/d90eebd18da44f617aa3349e3526fd1e640123480c7522680806d38b32aa/pyg_nightly-2.4.0.dev20230715.tar.gz
+[2023-07-15 08:16:22] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-15 08:16:22] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230714.tar.gz tmp/pyg_nightly-2.4.0.dev20230715.tar.gz --markdown 20230715/p/pyg-nightly/2.4.0.dev20230714-2.4.0.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 08:16:22] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.6.tar.gz]
+[2023-07-15 08:16:22] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.7.tar.gz]
+[2023-07-15 08:16:22] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-15 08:16:25] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230714.tar.gz]
+[2023-07-15 08:16:25] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230715.tar.gz]
+[2023-07-15 08:16:25] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-15 08:16:25] INFO root fetch - main [MainThread]: Store serial: [18898527]
