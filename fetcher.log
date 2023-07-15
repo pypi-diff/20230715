@@ -11350,3 +11350,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:10:33] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.3.tar.gz]
 [2023-07-15 17:10:33] INFO root fetch - main [MainThread]: End processing [pqp]: success
 [2023-07-15 17:10:33] INFO root fetch - main [MainThread]: Store serial: [18901325]
+[2023-07-15 17:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901325]
+[2023-07-15 17:15:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-rds20140815
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robyn
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auraxium
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ContactApi
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MRFI
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctransformers
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secret-checker
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: league-client
+[2023-07-15 17:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: decode
+[2023-07-15 17:15:44] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [auraxium]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [secret-checker]: New version: [1000.0] Old Version: [1.0]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-15 17:15:45] WARNING root fetch - processPackages [MRFI]: Skipping, unable to determine old version
+[2023-07-15 17:15:45] INFO root fetch - processPackages [decode]: New version: [1.0.0] Old Version: [0.7.1]
+[2023-07-15 17:15:45] INFO root fetch - main [MainThread]: End processing [MRFI] error
+[2023-07-15 17:15:45] INFO root fetch - processPackages [ContactApi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-15 17:15:45] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-07-15 17:15:45] INFO root fetch - processPackages [decode]: Downloading https://files.pythonhosted.org/packages/fe/f9/8acb6663cecd673242773d8b1d1c25d0fcefc19cd53efffbbe848c4c8d53/decode-0.7.1.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/66/c2/1081fe176e1cea382fd8be06b1626cb8209c876bd15a771605e183725950/secret_checker-1.0.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [auraxium]: Downloading https://files.pythonhosted.org/packages/60/66/68d3ffc9ac19f708597aca32a24717a332596c9550964e45d8d2f6084056/auraxium-0.2.4.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/62/46/bbf736eecfd496430d879cc1864e8f4c0d1331bac09f797085ab59e2d5f3/ContactApi-0.0.2.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/02/77/029c512a8bd102330269dfd996db5632249172a0369ced2df4cd4f70f93b/alibabacloud_rds20140815_py2-1.2.5.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [decode]: Downloading https://files.pythonhosted.org/packages/7e/e6/a5e3dc390eab574390c6f958ef2a7cb7cdd5737225d56563a8e05fc21c65/decode-1.0.0.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/d7/23/57630967b2b0f981b79c4fa6a6117c80652c70e08b0282e0dee69f966645/secret_checker-1000.0.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [auraxium]: Downloading https://files.pythonhosted.org/packages/a9/6f/33c62a8a5ac9b4bd6e787bd7f7c4a2ac0bda675cc90190bec465c5de9ef0/auraxium-0.3.0.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [ContactApi]: Downloading https://files.pythonhosted.org/packages/e8/bc/19a92ea38c235581763e64ec6a22ac099f7f1cab44dea515d4685a39715f/ContactApi-0.0.3.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-07-15 17:15:45] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230715/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 17:15:45] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-15 17:15:45] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-07-15 17:15:46] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/24/f1/bd778b263f908b5ffd029e06f4ffed948956dba33780633ebcc407b3049b/alibabacloud_rds20140815_py2-1.2.6.tar.gz
+[2023-07-15 17:15:46] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-07-15 17:15:46] INFO root fetch - processPackages [decode]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [decode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-0.7.1.tar.gz tmp/decode-1.0.0.tar.gz --markdown 20230715/d/decode/0.7.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [secret-checker]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [secret-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_checker-1.0.tar.gz tmp/secret_checker-1000.0.tar.gz --markdown 20230715/s/secret-checker/1.0-1000.0/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [ContactApi]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [ContactApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ContactApi-0.0.2.tar.gz tmp/ContactApi-0.0.3.tar.gz --markdown 20230715/C/ContactApi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230715/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230715/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [auraxium]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [auraxium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraxium-0.2.4.tar.gz tmp/auraxium-0.3.0.tar.gz --markdown 20230715/a/auraxium/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230715/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 17:15:46] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-15 17:15:46] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.2.5.tar.gz tmp/alibabacloud_rds20140815_py2-1.2.6.tar.gz --markdown 20230715/a/alibabacloud-rds20140815-py2/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-15 17:15:47] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1.0.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1000.0.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [secret-checker]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.2.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [ContactApi]: Remove: archive file [/home/abi/fetcher/tmp/ContactApi-0.0.3.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [ContactApi]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [decode]: Remove: archive file [/home/abi/fetcher/tmp/decode-0.7.1.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [decode]: Remove: archive file [/home/abi/fetcher/tmp/decode-1.0.0.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [decode]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-07-15 17:15:47] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.5.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.6.tar.gz]
+[2023-07-15 17:15:47] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-15 17:15:48] INFO root fetch - processPackages [auraxium]: Remove: archive file [/home/abi/fetcher/tmp/auraxium-0.2.4.tar.gz]
+[2023-07-15 17:15:48] INFO root fetch - processPackages [auraxium]: Remove: archive file [/home/abi/fetcher/tmp/auraxium-0.3.0.tar.gz]
+[2023-07-15 17:15:48] INFO root fetch - main [MainThread]: End processing [auraxium]: success
+[2023-07-15 17:15:48] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-07-15 17:15:48] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-07-15 17:15:48] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-07-15 17:15:48] INFO root fetch - main [MainThread]: Store serial: [18901418]
