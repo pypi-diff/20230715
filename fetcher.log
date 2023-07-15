@@ -14409,3 +14409,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:59:33] INFO root fetch - processPackages [nd2]: Remove: archive file [/home/abi/fetcher/tmp/nd2-0.7.1.tar.gz]
 [2023-07-15 21:59:33] INFO root fetch - main [MainThread]: End processing [nd2]: success
 [2023-07-15 21:59:33] INFO root fetch - main [MainThread]: Store serial: [18902676]
+[2023-07-15 22:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902676]
+[2023-07-15 22:04:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 22:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-07-15 22:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cruiz
+[2023-07-15 22:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon-core
+[2023-07-15 22:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: render-thumbnail
+[2023-07-15 22:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-game-collection
+[2023-07-15 22:04:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 22:04:42] INFO root fetch - processPackages [examon-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 22:04:42] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 22:04:42] INFO root fetch - processPackages [cruiz]: New version: [1.4.0a4] Old Version: [1.4.0a3]
+[2023-07-15 22:04:42] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-15 22:04:43] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/d5/75/5235f4d9516780e6f798e10f931b52a9a4af3245ff9b19b575594641280c/examon_core-1.0.1.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cruiz]: Downloading https://files.pythonhosted.org/packages/88/21/f51ace69bf20dcf4428330c9e903dd15af1461565382a3c1e6d2a9fc0c9d/cruiz-1.4.0a3.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/0c/ca/aee09791a77e4dc4c547f23e7a57671bf257d686dfebbf5b984b3946b10e/examon_core-1.0.2.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-15 22:04:43] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230715/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-15 22:04:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230715/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cruiz]: Downloading https://files.pythonhosted.org/packages/b0/a3/f0390e764b4fea2119c5edb98187c64f26e76d38dd4ed592f78715a46423/cruiz-1.4.0a4.tar.gz
+[2023-07-15 22:04:43] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-15 22:04:43] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.0.1.tar.gz tmp/examon_core-1.0.2.tar.gz --markdown 20230715/e/examon-core/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cruiz]: executing diffoscope
+[2023-07-15 22:04:43] INFO root fetch - processPackages [cruiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruiz-1.4.0a3.tar.gz tmp/cruiz-1.4.0a4.tar.gz --markdown 20230715/c/cruiz/1.4.0a3-1.4.0a4/diff.md --exclude *.pyd
+[2023-07-15 22:04:44] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-15 22:04:44] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-15 22:04:44] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.1.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.2.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-15 22:04:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 22:04:44] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 22:04:45] INFO root fetch - processPackages [cruiz]: Remove: archive file [/home/abi/fetcher/tmp/cruiz-1.4.0a3.tar.gz]
+[2023-07-15 22:04:45] INFO root fetch - processPackages [cruiz]: Remove: archive file [/home/abi/fetcher/tmp/cruiz-1.4.0a4.tar.gz]
+[2023-07-15 22:04:45] INFO root fetch - main [MainThread]: End processing [cruiz]: success
+[2023-07-15 22:04:45] INFO root fetch - main [MainThread]: Store serial: [18902695]
