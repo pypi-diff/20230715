@@ -13062,3 +13062,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:39:22] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.2.tar.gz]
 [2023-07-15 19:39:22] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
 [2023-07-15 19:39:22] INFO root fetch - main [MainThread]: Store serial: [18902138]
+[2023-07-15 19:44:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902138]
+[2023-07-15 19:44:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 19:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_tableaux
+[2023-07-15 19:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytai-hex
+[2023-07-15 19:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-grasshopper-energy
+[2023-07-15 19:44:32] INFO root fetch - processPackages [pytai-hex]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-15 19:44:32] WARNING root fetch - processPackages [django_tableaux]: Skipping, unable to determine old version
+[2023-07-15 19:44:32] INFO root fetch - main [MainThread]: End processing [django_tableaux] error
+[2023-07-15 19:44:32] INFO root fetch - processPackages [honeybee-grasshopper-energy]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-15 19:44:32] INFO root fetch - processPackages [pytai-hex]: Downloading https://files.pythonhosted.org/packages/55/03/83e2bee37101d51601994a1da92a1fe79f9f2aba64c0641a113dad391aa5/pytai-hex-0.2.6.tar.gz
+[2023-07-15 19:44:32] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/8d/41/2b1f8fcb0e971555f5d09037fa11e4fabeb60e1537e6d7116ac16db47a14/honeybee-grasshopper-energy-1.9.1.tar.gz
+[2023-07-15 19:44:32] INFO root fetch - processPackages [pytai-hex]: Downloading https://files.pythonhosted.org/packages/ce/54/a6a53288ba5397acd2866ff653139cdbcca1c541b508c21b6a53cf0e0fce/pytai-hex-0.2.7.tar.gz
+[2023-07-15 19:44:33] INFO root fetch - processPackages [pytai-hex]: executing diffoscope
+[2023-07-15 19:44:33] INFO root fetch - processPackages [pytai-hex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytai-hex-0.2.6.tar.gz tmp/pytai-hex-0.2.7.tar.gz --markdown 20230715/p/pytai-hex/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-15 19:44:33] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Downloading https://files.pythonhosted.org/packages/c0/77/5ea4f5cbf977edd2c2511c83b34d974baf46a246f689d9228b3fb66f7a48/honeybee-grasshopper-energy-1.9.2.tar.gz
+[2023-07-15 19:44:34] INFO root fetch - processPackages [honeybee-grasshopper-energy]: executing diffoscope
+[2023-07-15 19:44:34] INFO root fetch - processPackages [honeybee-grasshopper-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-energy-1.9.1.tar.gz tmp/honeybee-grasshopper-energy-1.9.2.tar.gz --markdown 20230715/h/honeybee-grasshopper-energy/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-15 19:44:36] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.1.tar.gz]
+[2023-07-15 19:44:36] INFO root fetch - processPackages [honeybee-grasshopper-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-energy-1.9.2.tar.gz]
+[2023-07-15 19:44:36] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-energy]: success
+[2023-07-15 19:44:36] INFO root fetch - processPackages [pytai-hex]: Remove: archive file [/home/abi/fetcher/tmp/pytai-hex-0.2.6.tar.gz]
+[2023-07-15 19:44:36] INFO root fetch - processPackages [pytai-hex]: Remove: archive file [/home/abi/fetcher/tmp/pytai-hex-0.2.7.tar.gz]
+[2023-07-15 19:44:36] INFO root fetch - main [MainThread]: End processing [pytai-hex]: success
+[2023-07-15 19:44:36] INFO root fetch - main [MainThread]: Store serial: [18902151]
