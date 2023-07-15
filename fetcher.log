@@ -14789,3 +14789,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:30:47] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.4.tar.gz]
 [2023-07-15 22:30:47] INFO root fetch - main [MainThread]: End processing [magik]: success
 [2023-07-15 22:30:47] INFO root fetch - main [MainThread]: Store serial: [18902900]
+[2023-07-15 22:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902900]
+[2023-07-15 22:35:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 22:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mccalcy
+[2023-07-15 22:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langdash
+[2023-07-15 22:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: big-query-testing-xyz
+[2023-07-15 22:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-lambda-env-modeler
+[2023-07-15 22:35:56] WARNING root fetch - processPackages [mccalcy]: Skipping, unable to determine old version
+[2023-07-15 22:35:56] INFO root fetch - main [MainThread]: End processing [mccalcy] error
+[2023-07-15 22:35:56] INFO root fetch - processPackages [big-query-testing-xyz]: New version: [0.4] Old Version: [0.3]
+[2023-07-15 22:35:56] INFO root fetch - processPackages [langdash]: New version: [1.8.0] Old Version: [1.7.5]
+[2023-07-15 22:35:56] WARNING root fetch - processPackages [aws-lambda-env-modeler]: Skipping, unable to determine old version
+[2023-07-15 22:35:56] INFO root fetch - main [MainThread]: End processing [aws-lambda-env-modeler] error
+[2023-07-15 22:35:56] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/d0/70/2955060285d60bfcdf43980837db2fa9bf7d834489220b9499e5793880ba/big_query_testing_xyz-0.3.tar.gz
+[2023-07-15 22:35:56] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/c7/b1/21bcd5ad46b7c80dac907324f4004e8b59d109331a89b8f674aa6cc76bf5/langdash-1.7.5.tar.gz
+[2023-07-15 22:35:56] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/58/d2/069cd10842c8a711165e4eb6852ecb842177519ed909bd42ff9b7f5e7b3d/big_query_testing_xyz-0.4.tar.gz
+[2023-07-15 22:35:56] INFO root fetch - processPackages [langdash]: Downloading https://files.pythonhosted.org/packages/48/39/eceb0a7225e3b412fdd3028dbee49e83008e4aa89d71175a12e039b23ef8/langdash-1.8.0.tar.gz
+[2023-07-15 22:35:56] INFO root fetch - processPackages [big-query-testing-xyz]: executing diffoscope
+[2023-07-15 22:35:56] INFO root fetch - processPackages [big-query-testing-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_query_testing_xyz-0.3.tar.gz tmp/big_query_testing_xyz-0.4.tar.gz --markdown 20230715/b/big-query-testing-xyz/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-15 22:35:56] INFO root fetch - processPackages [langdash]: executing diffoscope
+[2023-07-15 22:35:56] INFO root fetch - processPackages [langdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langdash-1.7.5.tar.gz tmp/langdash-1.8.0.tar.gz --markdown 20230715/l/langdash/1.7.5-1.8.0/diff.md --exclude *.pyd
+[2023-07-15 22:35:57] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.3.tar.gz]
+[2023-07-15 22:35:57] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.4.tar.gz]
+[2023-07-15 22:35:57] INFO root fetch - main [MainThread]: End processing [big-query-testing-xyz]: success
+[2023-07-15 22:35:57] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.7.5.tar.gz]
+[2023-07-15 22:35:57] INFO root fetch - processPackages [langdash]: Remove: archive file [/home/abi/fetcher/tmp/langdash-1.8.0.tar.gz]
+[2023-07-15 22:35:57] INFO root fetch - main [MainThread]: End processing [langdash]: success
+[2023-07-15 22:35:57] INFO root fetch - main [MainThread]: Store serial: [18902916]
