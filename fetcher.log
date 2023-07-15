@@ -13764,3 +13764,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:07:35] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.45.tar.gz]
 [2023-07-15 21:07:35] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 21:07:35] INFO root fetch - main [MainThread]: Store serial: [18902434]
+[2023-07-15 21:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902434]
+[2023-07-15 21:12:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 21:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: big-query-testing-xyz
+[2023-07-15 21:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: offlinesec-client
+[2023-07-15 21:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oneat
+[2023-07-15 21:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poolcontrolpy
+[2023-07-15 21:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: karrio.server
+[2023-07-15 21:12:44] INFO root fetch - processPackages [poolcontrolpy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 21:12:44] INFO root fetch - processPackages [karrio.server]: New version: [2023.5.1] Old Version: [2023.5]
+[2023-07-15 21:12:44] WARNING root fetch - processPackages [big-query-testing-xyz]: Skipping, unable to determine old version
+[2023-07-15 21:12:44] INFO root fetch - main [MainThread]: End processing [big-query-testing-xyz] error
+[2023-07-15 21:12:44] INFO root fetch - processPackages [offlinesec-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 21:12:44] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 21:12:44] INFO root fetch - processPackages [poolcontrolpy]: Downloading https://files.pythonhosted.org/packages/3c/e7/6c9662c32950047c4eda620544ad209fba4d223a96e3ef03cbe82481ae6d/poolcontrolpy-0.2.8.tar.gz
+[2023-07-15 21:12:44] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 21:12:44] INFO root fetch - processPackages [karrio.server]: Downloading https://files.pythonhosted.org/packages/f7/4f/9b960df39dc9f12cfe362e3dfeee35eda4cc02fdacfadde9ab2fdf146939/karrio.server-2023.5-py3-none-any.whl
+[2023-07-15 21:12:44] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/41/97/ec93622565a5d91ba6b33cce290f57d0078bc58f10398db70c467801fd87/offlinesec_client-1.0.8.tar.gz
+[2023-07-15 21:12:44] INFO root fetch - processPackages [poolcontrolpy]: Downloading https://files.pythonhosted.org/packages/89/ad/9390d47a57934000ca45f8ee44c76999c8a6db32f19b4651ca2a6987bb23/poolcontrolpy-0.2.9.tar.gz
+[2023-07-15 21:12:44] INFO root fetch - processPackages [karrio.server]: Downloading https://files.pythonhosted.org/packages/6f/c4/ad287b6730e4925545ebc3271b379d44ed188598bcf7ce82aaa36b5042ea/karrio.server-2023.5.1-py3-none-any.whl
+[2023-07-15 21:12:45] INFO root fetch - processPackages [offlinesec-client]: Downloading https://files.pythonhosted.org/packages/16/f1/b37b88fa2af3d9759c4f85a7fe202d54f9a09f2b50b37753be30aba74317/offlinesec_client-1.0.9.tar.gz
+[2023-07-15 21:12:45] INFO root fetch - processPackages [poolcontrolpy]: executing diffoscope
+[2023-07-15 21:12:45] INFO root fetch - processPackages [poolcontrolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poolcontrolpy-0.2.8.tar.gz tmp/poolcontrolpy-0.2.9.tar.gz --markdown 20230715/p/poolcontrolpy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 21:12:45] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 21:12:45] INFO root fetch - processPackages [offlinesec-client]: executing diffoscope
+[2023-07-15 21:12:45] INFO root fetch - processPackages [offlinesec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinesec_client-1.0.8.tar.gz tmp/offlinesec_client-1.0.9.tar.gz --markdown 20230715/o/offlinesec-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:12:45] INFO root fetch - processPackages [karrio.server]: executing diffoscope
+[2023-07-15 21:12:45] INFO root fetch - processPackages [karrio.server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.server-2023.5-py3-none-any.whl.zip tmp/karrio.server-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.server/2023.5-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:12:45] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 21:12:45] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 21:12:46] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.8.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - processPackages [offlinesec-client]: Remove: archive file [/home/abi/fetcher/tmp/offlinesec_client-1.0.9.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - main [MainThread]: End processing [offlinesec-client]: success
+[2023-07-15 21:12:46] INFO root fetch - processPackages [poolcontrolpy]: Remove: archive file [/home/abi/fetcher/tmp/poolcontrolpy-0.2.8.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - processPackages [poolcontrolpy]: Remove: archive file [/home/abi/fetcher/tmp/poolcontrolpy-0.2.9.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - main [MainThread]: End processing [poolcontrolpy]: success
+[2023-07-15 21:12:46] INFO root fetch - processPackages [karrio.server]: Remove: archive file [/home/abi/fetcher/tmp/karrio.server-2023.5-py3-none-any.whl.zip]
+[2023-07-15 21:12:46] INFO root fetch - processPackages [karrio.server]: Remove: archive file [/home/abi/fetcher/tmp/karrio.server-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:12:46] INFO root fetch - main [MainThread]: End processing [karrio.server]: success
+[2023-07-15 21:12:46] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-15 21:12:46] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 21:12:46] INFO root fetch - main [MainThread]: Store serial: [18902451]
