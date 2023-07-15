@@ -11037,3 +11037,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:44:20] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.1.0.tar.gz]
 [2023-07-15 16:44:20] INFO root fetch - main [MainThread]: End processing [readthis]: success
 [2023-07-15 16:44:20] INFO root fetch - main [MainThread]: Store serial: [18901180]
+[2023-07-15 16:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901180]
+[2023-07-15 16:49:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readthis
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jesse
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltalake-redis-lock
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlabform
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-toys
+[2023-07-15 16:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pecan
+[2023-07-15 16:49:28] INFO root fetch - processPackages [pecan]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-15 16:49:28] INFO root fetch - processPackages [llm-toys]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 16:49:28] INFO root fetch - processPackages [readthis]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-15 16:49:28] INFO root fetch - processPackages [deltalake-redis-lock]: New version: [0.0.1a3] Old Version: [0.0.1a1]
+[2023-07-15 16:49:28] INFO root fetch - processPackages [gitlabform]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-07-15 16:49:28] INFO root fetch - processPackages [jesse]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-15 16:49:29] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/81/6b/35df987d18b500231332fc3edcab70ab72c5980a671e18cdcaf6fa3e66b6/llm-toys-0.0.6.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/59/30/8c5014c06ebec466aba0a55831c74f76c6ee422e355d8b3817fc2e6c63bc/deltalake-redis-lock-0.0.1a1.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/cb/7e/beb700ed5735ec93141b725f7a0ba117c01bcda9a08325629021433ccba4/readthis-0.0.9.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [pecan]: Downloading https://files.pythonhosted.org/packages/f5/9b/40fe267698a09c83c4e9e16438f425563f4c2b0c38e92789599cc75012b5/pecan-1.5.0.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/e9/76/a351fb767b4c601252febe02f1bb9dd68f96fbe6da7a3fe1abff08be94ff/gitlabform-3.6.1.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/f3/8b/7689a55a65655e4c19cb3540f237237f59fe8714882966c659e89c8cd545/readthis-0.1.0.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/3d/42/48c74d04f47eb581a344bec1702569264a10dc46e09154fe195faff3a76a/jesse-0.9.1.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/e0/59/2d81fbb4954a0b62ad2ca2f68bb784f22206c946ace9aa8598bfc146f23f/deltalake-redis-lock-0.0.1a3.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-07-15 16:49:29] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.9.tar.gz tmp/readthis-0.1.0.tar.gz --markdown 20230715/r/readthis/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 16:49:29] INFO root fetch - processPackages [pecan]: Downloading https://files.pythonhosted.org/packages/11/cb/a0e1972713b25029dd43554da94fdd4a280faa6395218f8f400941e2779b/pecan-1.5.1.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/26/7b/cf54155bd6c0d229aeafdabf71d082a2ac552419bdfe1d5042931fdb746f/gitlabform-3.7.0.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [deltalake-redis-lock]: executing diffoscope
+[2023-07-15 16:49:29] INFO root fetch - processPackages [deltalake-redis-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-redis-lock-0.0.1a1.tar.gz tmp/deltalake-redis-lock-0.0.1a3.tar.gz --markdown 20230715/d/deltalake-redis-lock/0.0.1a1-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-15 16:49:29] INFO root fetch - processPackages [gitlabform]: executing diffoscope
+[2023-07-15 16:49:29] INFO root fetch - processPackages [gitlabform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabform-3.6.1.tar.gz tmp/gitlabform-3.7.0.tar.gz --markdown 20230715/g/gitlabform/3.6.1-3.7.0/diff.md --exclude *.pyd
+[2023-07-15 16:49:29] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/ce/aa/380cab9b1361f2c940ddb903d64f1978a17ed5dd7db36fd68eb6443eb6eb/llm-toys-0.0.7.tar.gz
+[2023-07-15 16:49:29] INFO root fetch - processPackages [pecan]: executing diffoscope
+[2023-07-15 16:49:29] INFO root fetch - processPackages [pecan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pecan-1.5.0.tar.gz tmp/pecan-1.5.1.tar.gz --markdown 20230715/p/pecan/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-15 16:49:30] INFO root fetch - processPackages [jesse]: Downloading https://files.pythonhosted.org/packages/02/58/150ec6c6c6a68ba45091a842e60d38f186d225d3a737941000cf39902f00/jesse-0.9.2.tar.gz
+[2023-07-15 16:49:30] INFO root fetch - processPackages [jesse]: executing diffoscope
+[2023-07-15 16:49:30] INFO root fetch - processPackages [jesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jesse-0.9.1.tar.gz tmp/jesse-0.9.2.tar.gz --markdown 20230715/j/jesse/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-15 16:49:30] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.9.tar.gz]
+[2023-07-15 16:49:30] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.1.0.tar.gz]
+[2023-07-15 16:49:30] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-07-15 16:49:30] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a1.tar.gz]
+[2023-07-15 16:49:30] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a3.tar.gz]
+[2023-07-15 16:49:30] INFO root fetch - main [MainThread]: End processing [deltalake-redis-lock]: success
+[2023-07-15 16:49:30] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 16:49:30] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.6.tar.gz tmp/llm-toys-0.0.7.tar.gz --markdown 20230715/l/llm-toys/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 16:49:31] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.6.1.tar.gz]
+[2023-07-15 16:49:31] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.7.0.tar.gz]
+[2023-07-15 16:49:31] INFO root fetch - main [MainThread]: End processing [gitlabform]: success
+[2023-07-15 16:49:31] INFO root fetch - processPackages [pecan]: Remove: archive file [/home/abi/fetcher/tmp/pecan-1.5.0.tar.gz]
+[2023-07-15 16:49:31] INFO root fetch - processPackages [pecan]: Remove: archive file [/home/abi/fetcher/tmp/pecan-1.5.1.tar.gz]
+[2023-07-15 16:49:31] INFO root fetch - main [MainThread]: End processing [pecan]: success
+[2023-07-15 16:49:32] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.1.tar.gz]
+[2023-07-15 16:49:32] INFO root fetch - processPackages [jesse]: Remove: archive file [/home/abi/fetcher/tmp/jesse-0.9.2.tar.gz]
+[2023-07-15 16:49:32] INFO root fetch - main [MainThread]: End processing [jesse]: success
+[2023-07-15 16:49:41] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.6.tar.gz]
+[2023-07-15 16:49:41] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.7.tar.gz]
+[2023-07-15 16:49:41] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 16:49:41] INFO root fetch - main [MainThread]: Store serial: [18901201]
