@@ -12282,3 +12282,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:36:54] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.3.tar.gz]
 [2023-07-15 18:36:54] INFO root fetch - main [MainThread]: End processing [py3make]: success
 [2023-07-15 18:36:54] INFO root fetch - main [MainThread]: Store serial: [18901839]
+[2023-07-15 18:41:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901839]
+[2023-07-15 18:42:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rule-engine
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipdeptree
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-ui
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiggler-studiorabota
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalle2-pytorch
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swibots
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apicrypto
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Crackerjack
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cidc-api-modules
+[2023-07-15 18:42:03] INFO root fetch - processPackages [pipdeptree]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [rule-engine]: New version: [4.0.0] Old Version: [3.6.0]
+[2023-07-15 18:42:03] WARNING root fetch - processPackages [audio-ui]: Skipping, unable to determine old version
+[2023-07-15 18:42:03] INFO root fetch - processPackages [audio-ui]: Start processing: NLPTextAugmentation
+[2023-07-15 18:42:03] INFO root fetch - main [MainThread]: End processing [audio-ui] error
+[2023-07-15 18:42:03] WARNING root fetch - processPackages [apicrypto]: Skipping, unable to determine old version
+[2023-07-15 18:42:03] INFO root fetch - main [MainThread]: End processing [apicrypto] error
+[2023-07-15 18:42:03] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [swibots]: New version: [1.3.4] Old Version: [1.3.1]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ork.build]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [dalle2-pytorch]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [Crackerjack]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [cidc-api-modules]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-15 18:42:03] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/89/86/cd4899dd11f30802f3ec5631ffc735ad120739c1e93ce51e4392ebc640b7/pipdeptree-2.9.5.tar.gz
+[2023-07-15 18:42:03] WARNING root fetch - processPackages [NLPTextAugmentation]: Skipping, unable to determine old version
+[2023-07-15 18:42:03] INFO root fetch - main [MainThread]: End processing [NLPTextAugmentation] error
+[2023-07-15 18:42:03] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/c6/5d/90daf4f8dfb24076900284751b1a79e074ec3210c410b7b1f160fdd17c98/dalle2-pytorch-1.8.4.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/9a/6d/ea23d6fec355b51fd915a3447dc1bbcda62c1919faf7762a8d2bde4b411c/ork.build-0.0.37.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/e8/df/b28aa0b06c22f2e8585507c0ed0b3ab5337073a92572b3325412dead54bb/rule-engine-3.6.0.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/78/37/6b2f02c67fbe87a9aa309ffbda01268bba8fb02a207fd3d04688e13c959e/swibots-1.3.1.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/79/07/22424cba35a0e3b28dbe23eecd58b3ca4a2ae1137ff0afb126ec8fbf16b7/cidc_api_modules-0.9.4.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [pipdeptree]: Downloading https://files.pythonhosted.org/packages/0a/b2/2508e11f44e0e7b136555175f21c121f20642d43ab2a09797b178e968834/pipdeptree-2.9.6.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [pipdeptree]: executing diffoscope
+[2023-07-15 18:42:03] INFO root fetch - processPackages [pipdeptree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipdeptree-2.9.5.tar.gz tmp/pipdeptree-2.9.6.tar.gz --markdown 20230715/p/pipdeptree/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-15 18:42:03] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/e6/7b/991302a1f9d68a2e03592615022397dc41f8d7cf11248ff571bd2b5ef04b/dalle2-pytorch-1.9.0.tar.gz
+[2023-07-15 18:42:03] INFO root fetch - processPackages [rule-engine]: Downloading https://files.pythonhosted.org/packages/9d/5c/849eed5d3496096a802174cd43689757913a9e40f088a4268e27f534693e/rule-engine-4.0.0.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/cd/ad/76a9fc55cdea6bc30a75d507068fd8ea7644fdda3cca81493a6783fab9a0/ork.build-0.0.38.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ac/eb/05489033164b685b6028f271fac82efac38c8529763b5a695b9a5102ace2/swibots-1.3.4.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [rule-engine]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [rule-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule-engine-3.6.0.tar.gz tmp/rule-engine-4.0.0.tar.gz --markdown 20230715/r/rule-engine/3.6.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c9/34/b62315a1e0edf5a647d6e601467f4c0c4a039f8877c021f1643b04d153e8/cidc_api_modules-0.9.5.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.1.tar.gz tmp/swibots-1.3.4.tar.gz --markdown 20230715/s/swibots/1.3.1-1.3.4/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.37.tar.gz tmp/ork.build-0.0.38.tar.gz --markdown 20230715/o/ork.build/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [dalle2-pytorch]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [dalle2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalle2-pytorch-1.8.4.tar.gz tmp/dalle2-pytorch-1.9.0.tar.gz --markdown 20230715/d/dalle2-pytorch/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/88/30/496e4c7a1e3e54a8d84f939d19f27f981e81e18f5681e008a11fb03dc430/crackerjack-0.3.7.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [cidc-api-modules]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_api_modules-0.9.4.tar.gz tmp/cidc_api_modules-0.9.5.tar.gz --markdown 20230715/c/cidc-api-modules/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-15 18:42:04] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/c0/b8/ef8562373f7b10617252655a3bbddc18f77895a0db6c9344d94eb8435130/crackerjack-0.3.8.tar.gz
+[2023-07-15 18:42:04] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2023-07-15 18:42:04] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.3.7.tar.gz tmp/crackerjack-0.3.8.tar.gz --markdown 20230715/C/Crackerjack/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-15 18:42:05] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.5.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [pipdeptree]: Remove: archive file [/home/abi/fetcher/tmp/pipdeptree-2.9.6.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [pipdeptree]: success
+[2023-07-15 18:42:05] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 18:42:05] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-3.6.0.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [rule-engine]: Remove: archive file [/home/abi/fetcher/tmp/rule-engine-4.0.0.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [rule-engine]: success
+[2023-07-15 18:42:05] INFO root fetch - processPackages [cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/cidc_api_modules-0.9.4.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/cidc_api_modules-0.9.5.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [cidc-api-modules]: success
+[2023-07-15 18:42:05] INFO root fetch - processPackages [dalle2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dalle2-pytorch-1.8.4.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [dalle2-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dalle2-pytorch-1.9.0.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [dalle2-pytorch]: success
+[2023-07-15 18:42:05] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.7.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.8.tar.gz]
+[2023-07-15 18:42:05] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2023-07-15 18:42:06] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.1.tar.gz]
+[2023-07-15 18:42:06] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.4.tar.gz]
+[2023-07-15 18:42:06] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-15 18:42:06] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.37.tar.gz]
+[2023-07-15 18:42:06] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.38.tar.gz]
+[2023-07-15 18:42:06] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 18:42:06] INFO root fetch - main [MainThread]: Store serial: [18901876]
