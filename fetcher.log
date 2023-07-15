@@ -5669,3 +5669,43 @@
 [2023-07-15 08:00:52] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.3.0.tar.gz]
 [2023-07-15 08:00:52] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
 [2023-07-15 08:00:52] INFO root fetch - main [MainThread]: Store serial: [18898457]
+[2023-07-15 08:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898457]
+[2023-07-15 08:06:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-thumb
+[2023-07-15 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-07-15 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-thumb
+[2023-07-15 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatch-conda-build
+[2023-07-15 08:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbix-plus
+[2023-07-15 08:06:00] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 08:06:00] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 08:06:00] INFO root fetch - processPackages [anyon]: New version: [3.7.5] Old Version: [3.6.3]
+[2023-07-15 08:06:00] WARNING root fetch - processPackages [pbix-plus]: Skipping, unable to determine old version
+[2023-07-15 08:06:00] INFO root fetch - main [MainThread]: End processing [pbix-plus] error
+[2023-07-15 08:06:00] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 08:06:01] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/65/53/23daa2f0e2e2952cd385d1510d6d4cc91f5d3aac046a5b70d29f2d51d480/hatch_conda_build-0.0.7.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/7f/d0/05abd12ed01e4e2885ad51f0601d68b25c709e08963bcb3cb0346e21ccd0/anyon-3.6.3-cp311-none-win_amd64.whl
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/ef/19/ef17a22ee76840b72bb3340396c47ce6b99a279ebf8c0b1ccabe42db7091/nb-thumb-0.0.4.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/ef/19/ef17a22ee76840b72bb3340396c47ce6b99a279ebf8c0b1ccabe42db7091/nb-thumb-0.0.4.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/59/97/0610303bfea6b665a583fd6a7975ea38bed0cb660cacbcf6b28545c579ff/hatch_conda_build-0.0.8.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/a1/7a/ae13651a4d8ca4e9f9b1429d0b1d15c3920d6426250ed9e22b1943bcf037/anyon-3.7.5-cp311-none-win_amd64.whl
+[2023-07-15 08:06:01] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 08:06:01] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.7.tar.gz tmp/hatch_conda_build-0.0.8.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/da/55/92b671257b24d5b2ea5f928309b920c865c6499450e6126e82aa8253a83e/nb-thumb-0.0.5.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/da/55/92b671257b24d5b2ea5f928309b920c865c6499450e6126e82aa8253a83e/nb-thumb-0.0.5.tar.gz
+[2023-07-15 08:06:01] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-15 08:06:01] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.5-cp311-none-win_amd64.whl.zip --markdown 20230715/a/anyon/3.6.3-3.7.5/diff.md --exclude *.pyd
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.4.tar.gz tmp/nb-thumb-0.0.5.tar.gz --markdown 20230715/n/nb-thumb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-15 08:06:01] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.4.tar.gz tmp/nb-thumb-0.0.5.tar.gz --markdown 20230715/n/nb-thumb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 08:06:02] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip]
+[2023-07-15 08:06:02] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.5-cp311-none-win_amd64.whl.zip]
+[2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-15 08:06:02] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.7.tar.gz]
+[2023-07-15 08:06:02] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.8.tar.gz]
+[2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 08:06:02] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.4.tar.gz]
+[2023-07-15 08:06:02] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.5.tar.gz]
+[2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-15 08:06:02] INFO root fetch - main [MainThread]: Store serial: [18898476]
