@@ -13722,3 +13722,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:02:24] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.75.tar.gz]
 [2023-07-15 21:02:24] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-07-15 21:02:24] INFO root fetch - main [MainThread]: Store serial: [18902419]
+[2023-07-15 21:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902419]
+[2023-07-15 21:07:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cudagrad
+[2023-07-15 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uniteai
+[2023-07-15 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioabcpapi
+[2023-07-15 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-editor
+[2023-07-15 21:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ork.build
+[2023-07-15 21:07:33] INFO root fetch - processPackages [aioabcpapi]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-15 21:07:33] WARNING root fetch - processPackages [cudagrad]: Skipping, unable to determine old version
+[2023-07-15 21:07:33] INFO root fetch - main [MainThread]: End processing [cudagrad] error
+[2023-07-15 21:07:33] INFO root fetch - processPackages [ork.build]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-15 21:07:33] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:07:33] INFO root fetch - processPackages [auto-editor]: New version: [23.8.1] Old Version: [23.4.1]
+[2023-07-15 21:07:33] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/d3/15/a04a6a814a61a66cd7a195c17d9879828156b4fe6b30cbe2d73d3d6dea13/ork.build-0.0.44.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/85/87/8f99de6aeb76959e4b96af6ab6585a5a270d8717a931910d3f014b6955fd/aioabcpapi-2.0.3.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/61/ce/f2339cfa4e5ff5ec776a3121d3f99050c6d45ec0efa54bdc458fefb12d96/auto-editor-23.4.1.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/93/22/4a8f8d8e53259b6fcab944ece6923917e9fd806a3025c27f489a98d3f67e/ork.build-0.0.45.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/e7/fb/9e13adbe2563601eb876a8bf41e8a249726256383d6908921a631054bde0/aioabcpapi-2.0.4.tar.gz
+[2023-07-15 21:07:33] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 21:07:33] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:07:33] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 21:07:33] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.44.tar.gz tmp/ork.build-0.0.45.tar.gz --markdown 20230715/o/ork.build/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-15 21:07:33] INFO root fetch - processPackages [aioabcpapi]: executing diffoscope
+[2023-07-15 21:07:33] INFO root fetch - processPackages [aioabcpapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioabcpapi-2.0.3.tar.gz tmp/aioabcpapi-2.0.4.tar.gz --markdown 20230715/a/aioabcpapi/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-15 21:07:33] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/81/fb/7d378ea008a385ac90effc7ebdc31a455182328179d84fe7b53a563ef973/auto-editor-23.8.1.tar.gz
+[2023-07-15 21:07:34] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2023-07-15 21:07:34] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-23.4.1.tar.gz tmp/auto-editor-23.8.1.tar.gz --markdown 20230715/a/auto-editor/23.4.1-23.8.1/diff.md --exclude *.pyd
+[2023-07-15 21:07:34] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 21:07:34] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 21:07:34] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 21:07:34] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.3.tar.gz]
+[2023-07-15 21:07:34] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.4.tar.gz]
+[2023-07-15 21:07:34] INFO root fetch - main [MainThread]: End processing [aioabcpapi]: success
+[2023-07-15 21:07:35] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-23.4.1.tar.gz]
+[2023-07-15 21:07:35] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-23.8.1.tar.gz]
+[2023-07-15 21:07:35] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2023-07-15 21:07:35] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.44.tar.gz]
+[2023-07-15 21:07:35] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.45.tar.gz]
+[2023-07-15 21:07:35] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 21:07:35] INFO root fetch - main [MainThread]: Store serial: [18902434]
