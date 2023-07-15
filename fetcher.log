@@ -7868,3 +7868,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:44:54] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.4.tar.gz]
 [2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
 [2023-07-15 11:44:54] INFO root fetch - main [MainThread]: Store serial: [18899545]
+[2023-07-15 11:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899545]
+[2023-07-15 11:50:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-exporter
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fred-Frechet
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phpf
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pathgenmap
+[2023-07-15 11:50:03] INFO root fetch - processPackages [mkdocs-exporter]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [phpf]: New version: [3.7.15946] Old Version: [3.7.15918]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.14] Old Version: [1.1.13]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [Fred-Frechet]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [pip]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-07-15 11:50:03] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/10/fb/f04b2e44024092ed36e9e78ccf96e0a027d54e0a1343d90af8b214f740f2/phpf-3.7.15918.tar.gz
+[2023-07-15 11:50:03] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/0a/d2/da63ce8ba8e6f553f60dddeaebf5249b99c31f86705fd434eff71a934eb2/mkdocs_exporter-4.0.0.tar.gz
+[2023-07-15 11:50:03] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/35/81/17595c869b665747837da1825308030df3087c80e20f26e282781e991ed7/Fred-Frechet-1.9.8.tar.gz
+[2023-07-15 11:50:03] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-15 11:50:03] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/87/be/95d0fa1f8598267a164601179303a99c7bbdb73f63e2d1aa401718121f9d/ExpoSeq-1.1.13.tar.gz
+[2023-07-15 11:50:03] INFO root fetch - processPackages [pip]: Downloading https://files.pythonhosted.org/packages/e5/8f/3fc66461992dc9e9fcf5e005687d5f676729172dda640df2fd8b597a6da7/pip-9.0.2.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [phpf]: Downloading https://files.pythonhosted.org/packages/95/6a/4443807e8b99878afbe8b8c92df75163da788335a03a561646fbbb978355/phpf-3.7.15946.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/9a/38/4e3139e5a188a8508855f70f8a63ed75bafe1f141665f539ff400fb11e7d/mkdocs_exporter-4.0.1.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230715/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 11:50:04] INFO root fetch - processPackages [Fred-Frechet]: Downloading https://files.pythonhosted.org/packages/6e/75/298c88cc23934ff39afe9396676a702e198399c248fb6d9e16da366009d3/Fred-Frechet-1.9.9.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [phpf]: executing diffoscope
+[2023-07-15 11:50:04] INFO root fetch - processPackages [phpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phpf-3.7.15918.tar.gz tmp/phpf-3.7.15946.tar.gz --markdown 20230715/p/phpf/3.7.15918-3.7.15946/diff.md --exclude *.pyd
+[2023-07-15 11:50:04] INFO root fetch - processPackages [Fred-Frechet]: executing diffoscope
+[2023-07-15 11:50:04] INFO root fetch - processPackages [Fred-Frechet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fred-Frechet-1.9.8.tar.gz tmp/Fred-Frechet-1.9.9.tar.gz --markdown 20230715/F/Fred-Frechet/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pip]: Downloading https://files.pythonhosted.org/packages/c4/44/e6b8056b6c8f2bfd1445cc9990f478930d8e3459e9dbf5b8e2d2922d64d3/pip-9.0.3.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-07-15 11:50:04] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-4.0.0.tar.gz tmp/mkdocs_exporter-4.0.1.tar.gz --markdown 20230715/m/mkdocs-exporter/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-07-15 11:50:04] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/68/7d/cdd8be904f699deac8126e464ee3b173c511abbe072f8bd552fb43602e6b/ExpoSeq-1.1.14.tar.gz
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pip]: executing diffoscope
+[2023-07-15 11:50:04] INFO root fetch - processPackages [pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-9.0.2.tar.gz tmp/pip-9.0.3.tar.gz --markdown 20230715/p/pip/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-07-15 11:50:05] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-15 11:50:05] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.15918.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - processPackages [phpf]: Remove: archive file [/home/abi/fetcher/tmp/phpf-3.7.15946.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - main [MainThread]: End processing [phpf]: success
+[2023-07-15 11:50:05] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-4.0.0.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - processPackages [mkdocs-exporter]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_exporter-4.0.1.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-07-15 11:50:05] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.8.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - processPackages [Fred-Frechet]: Remove: archive file [/home/abi/fetcher/tmp/Fred-Frechet-1.9.9.tar.gz]
+[2023-07-15 11:50:05] INFO root fetch - main [MainThread]: End processing [Fred-Frechet]: success
+[2023-07-15 11:50:05] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-15 11:50:05] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.13.tar.gz tmp/ExpoSeq-1.1.14.tar.gz --markdown 20230715/E/ExpoSeq/1.1.13-1.1.14/diff.md --exclude *.pyd
+[2023-07-15 11:50:07] INFO root fetch - processPackages [pip]: Remove: archive file [/home/abi/fetcher/tmp/pip-9.0.2.tar.gz]
+[2023-07-15 11:50:07] INFO root fetch - processPackages [pip]: Remove: archive file [/home/abi/fetcher/tmp/pip-9.0.3.tar.gz]
+[2023-07-15 11:50:07] INFO root fetch - main [MainThread]: End processing [pip]: success
+[2023-07-15 11:50:07] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.13.tar.gz]
+[2023-07-15 11:50:07] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.14.tar.gz]
+[2023-07-15 11:50:07] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-15 11:50:07] INFO root fetch - main [MainThread]: Store serial: [18899564]
