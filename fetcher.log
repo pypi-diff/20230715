@@ -3395,3 +3395,36 @@
 [2023-07-15 04:24:02] INFO root fetch - processPackages [django-splint-kovs]: Remove: archive file [/home/abi/fetcher/tmp/django-splint-kovs-0.0.9.2.tar.gz]
 [2023-07-15 04:24:02] INFO root fetch - main [MainThread]: End processing [django-splint-kovs]: success
 [2023-07-15 04:24:02] INFO root fetch - main [MainThread]: Store serial: [18897331]
+[2023-07-15 04:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897331]
+[2023-07-15 04:29:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 04:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2023-07-15 04:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetanotherpicsearch
+[2023-07-15 04:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dev-assistant-client
+[2023-07-15 04:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumiress
+[2023-07-15 04:29:10] INFO root fetch - processPackages [dev-assistant-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-15 04:29:10] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-15 04:29:10] INFO root fetch - processPackages [yetanotherpicsearch]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-15 04:29:10] WARNING root fetch - processPackages [lumiress]: Skipping, unable to determine old version
+[2023-07-15 04:29:10] INFO root fetch - main [MainThread]: End processing [lumiress] error
+[2023-07-15 04:29:10] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/53/70/4945fb6377a3d35f9ac0a55f887a665a7bd6b8c4fd213863c3d9a3ba40e2/dev-assistant-client-0.1.5.tar.gz
+[2023-07-15 04:29:10] INFO root fetch - processPackages [yetanotherpicsearch]: Downloading https://files.pythonhosted.org/packages/c7/a6/2f1362018560857c0b4e8b11ce36fea9e6927482a1e86bc47ec7f222b17b/yetanotherpicsearch-1.9.3.tar.gz
+[2023-07-15 04:29:10] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-15 04:29:10] INFO root fetch - processPackages [dev-assistant-client]: Downloading https://files.pythonhosted.org/packages/e8/7b/ad6989cc75c17f4b90d7612e1578c8cfda896132aecb162fa9d9f719fdab/dev-assistant-client-0.1.6.tar.gz
+[2023-07-15 04:29:10] INFO root fetch - processPackages [dev-assistant-client]: executing diffoscope
+[2023-07-15 04:29:10] INFO root fetch - processPackages [dev-assistant-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-assistant-client-0.1.5.tar.gz tmp/dev-assistant-client-0.1.6.tar.gz --markdown 20230715/d/dev-assistant-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-15 04:29:11] INFO root fetch - processPackages [yetanotherpicsearch]: Downloading https://files.pythonhosted.org/packages/cd/80/d23a5781863f3b4ee83bbd53fa4635727f79a8321131c3efb96c9956ac00/yetanotherpicsearch-1.9.4.tar.gz
+[2023-07-15 04:29:11] INFO root fetch - processPackages [yetanotherpicsearch]: executing diffoscope
+[2023-07-15 04:29:11] INFO root fetch - processPackages [yetanotherpicsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetanotherpicsearch-1.9.3.tar.gz tmp/yetanotherpicsearch-1.9.4.tar.gz --markdown 20230715/y/yetanotherpicsearch/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-15 04:29:11] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.5.tar.gz]
+[2023-07-15 04:29:11] INFO root fetch - processPackages [dev-assistant-client]: Remove: archive file [/home/abi/fetcher/tmp/dev-assistant-client-0.1.6.tar.gz]
+[2023-07-15 04:29:11] INFO root fetch - main [MainThread]: End processing [dev-assistant-client]: success
+[2023-07-15 04:29:11] INFO root fetch - processPackages [yetanotherpicsearch]: Remove: archive file [/home/abi/fetcher/tmp/yetanotherpicsearch-1.9.3.tar.gz]
+[2023-07-15 04:29:11] INFO root fetch - processPackages [yetanotherpicsearch]: Remove: archive file [/home/abi/fetcher/tmp/yetanotherpicsearch-1.9.4.tar.gz]
+[2023-07-15 04:29:11] INFO root fetch - main [MainThread]: End processing [yetanotherpicsearch]: success
+[2023-07-15 04:29:13] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-15 04:29:15] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-15 04:29:15] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230715/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 04:29:44] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-15 04:29:44] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-15 04:29:44] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-15 04:29:44] INFO root fetch - main [MainThread]: Store serial: [18897345]
