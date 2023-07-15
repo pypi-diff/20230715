@@ -11562,3 +11562,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:29:19] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
 [2023-07-15 17:29:19] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
 [2023-07-15 17:29:19] INFO root fetch - main [MainThread]: Store serial: [18901463]
+[2023-07-15 17:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901463]
+[2023-07-15 17:34:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 17:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secapi-tl
+[2023-07-15 17:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-chat-mate
+[2023-07-15 17:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zoho-client-django
+[2023-07-15 17:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-cisco-support-plugin
+[2023-07-15 17:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dhali-py
+[2023-07-15 17:34:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-07-15 17:34:27] INFO root fetch - processPackages [zoho-client-django]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-15 17:34:27] INFO root fetch - processPackages [gpt-chat-mate]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-15 17:34:27] INFO root fetch - processPackages [secapi-tl]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-15 17:34:27] INFO root fetch - processPackages [dhali-py]: New version: [0.0.9] Old Version: [0.0.14]
+[2023-07-15 17:34:27] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/db/f3/06b399b00009821c6d3608212b3a327de40beec1985b83a1ab7fc2a89457/netbox-cisco-support-plugin-0.0.60.tar.gz
+[2023-07-15 17:34:27] INFO root fetch - processPackages [gpt-chat-mate]: Downloading https://files.pythonhosted.org/packages/ba/80/9461f50ddae1dc1f5eacbcba82c851e8feac4017911fc0c9fe49179f76f7/gpt-chat-mate-1.8.0.tar.gz
+[2023-07-15 17:34:27] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/72/5a/9085ece18b5cbedee523f5d6fdd00b4e406acf994798c67f1cdf44d99d55/zoho-client-django-0.2.0.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/80/83/99fc96c467a56d028eabdea402bf22e1d9314d5b6b23a2b6045c812ef2a2/secapi-tl-1.1.9.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [dhali-py]: Downloading https://files.pythonhosted.org/packages/72/3b/370c06214af1f705c28cce2c1d96f5b5847c7cbe650a1b2cef60a62201e8/dhali-py-0.0.14.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [zoho-client-django]: Downloading https://files.pythonhosted.org/packages/25/fa/e09b9f04f294ae87206c6bf925dc287fc4b385ba7e1f9289f8a54713c89b/zoho-client-django-1.0.0.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [zoho-client-django]: executing diffoscope
+[2023-07-15 17:34:28] INFO root fetch - processPackages [zoho-client-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho-client-django-0.2.0.tar.gz tmp/zoho-client-django-1.0.0.tar.gz --markdown 20230715/z/zoho-client-django/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 17:34:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Downloading https://files.pythonhosted.org/packages/c4/a7/0186e278ed0c33dde63eee5f912abccb11d15f52a95ac1008fe3e573d094/netbox-cisco-support-plugin-0.0.61.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [gpt-chat-mate]: Downloading https://files.pythonhosted.org/packages/26/c4/3d64651319f7fb86103bd62067401e21c3f127d569e6e4ce706b6858a974/gpt-chat-mate-1.9.0.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/73/cc/aabbb9418724a3df80ad7521cf6398669eb54c834cc0227887b117ff0b88/secapi-tl-1.2.0.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: executing diffoscope
+[2023-07-15 17:34:28] INFO root fetch - processPackages [netbox-cisco-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-support-plugin-0.0.60.tar.gz tmp/netbox-cisco-support-plugin-0.0.61.tar.gz --markdown 20230715/n/netbox-cisco-support-plugin/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-07-15 17:34:28] INFO root fetch - processPackages [dhali-py]: Downloading https://files.pythonhosted.org/packages/ba/30/44f4f129c7c6b4802c11a1c3ed53485b2b3b773947ffff0e0778fe207e6e/dhali-py-0.0.9.tar.gz
+[2023-07-15 17:34:28] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-07-15 17:34:28] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.9.tar.gz tmp/secapi-tl-1.2.0.tar.gz --markdown 20230715/s/secapi-tl/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 17:34:28] INFO root fetch - processPackages [gpt-chat-mate]: executing diffoscope
+[2023-07-15 17:34:28] INFO root fetch - processPackages [gpt-chat-mate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-chat-mate-1.8.0.tar.gz tmp/gpt-chat-mate-1.9.0.tar.gz --markdown 20230715/g/gpt-chat-mate/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 17:34:29] INFO root fetch - processPackages [dhali-py]: executing diffoscope
+[2023-07-15 17:34:29] INFO root fetch - processPackages [dhali-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhali-py-0.0.14.tar.gz tmp/dhali-py-0.0.9.tar.gz --markdown 20230715/d/dhali-py/0.0.14-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 17:34:29] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.1.9.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - processPackages [secapi-tl]: Remove: archive file [/home/abi/fetcher/tmp/secapi-tl-1.2.0.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-07-15 17:34:29] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-0.2.0.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - processPackages [zoho-client-django]: Remove: archive file [/home/abi/fetcher/tmp/zoho-client-django-1.0.0.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - main [MainThread]: End processing [zoho-client-django]: success
+[2023-07-15 17:34:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.60.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - processPackages [netbox-cisco-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-support-plugin-0.0.61.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - main [MainThread]: End processing [netbox-cisco-support-plugin]: success
+[2023-07-15 17:34:29] INFO root fetch - processPackages [gpt-chat-mate]: Remove: archive file [/home/abi/fetcher/tmp/gpt-chat-mate-1.8.0.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - processPackages [gpt-chat-mate]: Remove: archive file [/home/abi/fetcher/tmp/gpt-chat-mate-1.9.0.tar.gz]
+[2023-07-15 17:34:29] INFO root fetch - main [MainThread]: End processing [gpt-chat-mate]: success
+[2023-07-15 17:34:30] INFO root fetch - processPackages [dhali-py]: Remove: archive file [/home/abi/fetcher/tmp/dhali-py-0.0.14.tar.gz]
+[2023-07-15 17:34:30] INFO root fetch - processPackages [dhali-py]: Remove: archive file [/home/abi/fetcher/tmp/dhali-py-0.0.9.tar.gz]
+[2023-07-15 17:34:30] INFO root fetch - main [MainThread]: End processing [dhali-py]: success
+[2023-07-15 17:34:30] INFO root fetch - main [MainThread]: Store serial: [18901479]
