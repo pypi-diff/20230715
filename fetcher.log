@@ -15303,3 +15303,39 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:22:44] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
 [2023-07-15 23:22:44] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-07-15 23:22:44] INFO root fetch - main [MainThread]: Store serial: [18903094]
+[2023-07-15 23:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903094]
+[2023-07-15 23:27:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 23:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logium
+[2023-07-15 23:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quick-menu
+[2023-07-15 23:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: device-location-dnac
+[2023-07-15 23:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycis-cli
+[2023-07-15 23:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyroostermoney
+[2023-07-15 23:27:53] INFO root fetch - processPackages [logium]: New version: [0.3] Old Version: [0.2]
+[2023-07-15 23:27:53] INFO root fetch - processPackages [quick-menu]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-15 23:27:53] WARNING root fetch - processPackages [pycis-cli]: Skipping, unable to determine old version
+[2023-07-15 23:27:53] INFO root fetch - main [MainThread]: End processing [pycis-cli] error
+[2023-07-15 23:27:53] INFO root fetch - processPackages [pyroostermoney]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-15 23:27:53] WARNING root fetch - processPackages [device-location-dnac]: Skipping, unable to determine old version
+[2023-07-15 23:27:53] INFO root fetch - main [MainThread]: End processing [device-location-dnac] error
+[2023-07-15 23:27:53] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/c2/bd/402163a741eecef6e3f0357caaec9a04bf19fb10c9e5ca4a2406250f7439/pyroostermoney-0.0.2.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/d2/16/e08998ae1a6d9da0c9dba950658a02a02b570fb8ef18e84824918be99faf/quick_menu-0.4.0.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/a6/a7/d30be42a2f5d7babdcdd9fc39e550c639ab0f83101c758dd6c9b438030c7/logium-0.2.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/57/41/3caa78ddf76f02d608fa4d74d2cf224b55166e461f5f4e83379e84ec02e4/pyroostermoney-0.1.0.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/ab/ca/8c3614f0d1c89ec99f60bc3833bbf170e79f26c8101b00aa5e832f085d1c/quick_menu-0.5.0.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/ad/e6/f1e0e432ef40587f1d6dde0bd593f5f6bdbd3d1adbeb8330bf03e41202f3/logium-0.3.tar.gz
+[2023-07-15 23:27:53] INFO root fetch - processPackages [quick-menu]: executing diffoscope
+[2023-07-15 23:27:53] INFO root fetch - processPackages [quick-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_menu-0.4.0.tar.gz tmp/quick_menu-0.5.0.tar.gz --markdown 20230715/q/quick-menu/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-15 23:27:53] INFO root fetch - processPackages [logium]: executing diffoscope
+[2023-07-15 23:27:53] INFO root fetch - processPackages [logium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logium-0.2.tar.gz tmp/logium-0.3.tar.gz --markdown 20230715/l/logium/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-15 23:27:53] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-15 23:27:53] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.0.2.tar.gz tmp/pyroostermoney-0.1.0.tar.gz --markdown 20230715/p/pyroostermoney/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 23:27:54] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.4.0.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.5.0.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - main [MainThread]: End processing [quick-menu]: success
+[2023-07-15 23:27:54] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.0.2.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.1.0.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-15 23:27:54] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.2.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.3.tar.gz]
+[2023-07-15 23:27:54] INFO root fetch - main [MainThread]: End processing [logium]: success
+[2023-07-15 23:27:54] INFO root fetch - main [MainThread]: Store serial: [18903113]
