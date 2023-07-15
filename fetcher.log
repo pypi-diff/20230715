@@ -8848,3 +8848,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:39:23] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.7-py3.9.egg]
 [2023-07-15 13:39:23] INFO root fetch - main [MainThread]: End processing [element-sdk]: success
 [2023-07-15 13:39:23] INFO root fetch - main [MainThread]: Store serial: [18900022]
+[2023-07-15 13:44:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900022]
+[2023-07-15 13:44:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Coquille
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tha3
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oneat
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ldimbenchmark
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luminesce-sdk-preview
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: html-plot
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bovine
+[2023-07-15 13:44:31] INFO root fetch - processPackages [html-plot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [tha3]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [bovine]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [Coquille]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 13:44:31] INFO root fetch - processPackages [html-plot]: Downloading https://files.pythonhosted.org/packages/87/5e/c34f3580e56c7f753686d512ba199eb69e011326d6d9aa573a85069bdb33/html_plot-0.1.3.tar.gz
+[2023-07-15 13:44:31] INFO root fetch - processPackages [tha3]: Downloading https://files.pythonhosted.org/packages/c6/40/c60b9141de78f5a7a48d74df19a29255ac9e072de671adb86a96091cbce8/tha3-0.1.0.tar.gz
+[2023-07-15 13:44:31] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-15 13:44:31] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/20/2b/98a25d6881c1ff4d992ece0ac4166a1dc51a45e3966bcd125f91560cfa81/Coquille-1.0.1.tar.gz
+[2023-07-15 13:44:31] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-15 13:44:31] WARNING root fetch - processPackages [tha3]: Skipping package: exceeds size limit 55107254>=10485760
+[2023-07-15 13:44:31] INFO root fetch - main [MainThread]: End processing [tha3] error
+[2023-07-15 13:44:32] INFO root fetch - processPackages [bovine]: Downloading https://files.pythonhosted.org/packages/60/af/e792fc81a19e29f8a9b47fc531a7234978af80ff475aaaee1536169eda6e/bovine-0.2.6.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [html-plot]: Downloading https://files.pythonhosted.org/packages/1a/7e/129af2f46efd94f351bf42ddf9efa6d68f0f6a1290aa190a86312991dbb9/html_plot-0.1.4.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [html-plot]: executing diffoscope
+[2023-07-15 13:44:32] INFO root fetch - processPackages [html-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_plot-0.1.3.tar.gz tmp/html_plot-0.1.4.tar.gz --markdown 20230715/h/html-plot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 13:44:32] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/b3/4e/7a32f0551ef05f4ecad5643d6702e82705f83a9d46a9d27cc7cbf13fc0f4/Coquille-1.0.2.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [bovine]: Downloading https://files.pythonhosted.org/packages/1b/2c/cce5e096b6ac950c8f4b880550e91e74637bdbd627449796344c8b9dfbc3/bovine-0.3.0.tar.gz
+[2023-07-15 13:44:32] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-15 13:44:32] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230715/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-15 13:44:32] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-15 13:44:32] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-1.0.1.tar.gz tmp/Coquille-1.0.2.tar.gz --markdown 20230715/C/Coquille/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 13:44:32] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-15 13:44:32] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230715/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 13:44:32] INFO root fetch - processPackages [bovine]: executing diffoscope
+[2023-07-15 13:44:32] INFO root fetch - processPackages [bovine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine-0.2.6.tar.gz tmp/bovine-0.3.0.tar.gz --markdown 20230715/b/bovine/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 13:44:33] INFO root fetch - processPackages [html-plot]: Remove: archive file [/home/abi/fetcher/tmp/html_plot-0.1.3.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - processPackages [html-plot]: Remove: archive file [/home/abi/fetcher/tmp/html_plot-0.1.4.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - main [MainThread]: End processing [html-plot]: success
+[2023-07-15 13:44:33] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.1.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.2.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-15 13:44:33] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-15 13:44:33] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 13:44:33] INFO root fetch - processPackages [bovine]: Remove: archive file [/home/abi/fetcher/tmp/bovine-0.2.6.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - processPackages [bovine]: Remove: archive file [/home/abi/fetcher/tmp/bovine-0.3.0.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - main [MainThread]: End processing [bovine]: success
+[2023-07-15 13:44:33] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-15 13:44:33] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-15 13:44:34] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 13:44:34] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 13:44:35] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-07-15 13:44:35] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-15 13:44:35] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 13:44:35] INFO root fetch - main [MainThread]: Store serial: [18900043]
