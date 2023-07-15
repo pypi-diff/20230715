@@ -4036,3 +4036,39 @@
 [2023-07-15 05:32:12] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.14.tar.gz]
 [2023-07-15 05:32:12] INFO root fetch - main [MainThread]: End processing [flux-burst]: success
 [2023-07-15 05:32:12] INFO root fetch - main [MainThread]: Store serial: [18897663]
+[2023-07-15 05:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897663]
+[2023-07-15 05:37:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 05:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-quality-rules-tools
+[2023-07-15 05:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omgpt
+[2023-07-15 05:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-data-util
+[2023-07-15 05:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exoming
+[2023-07-15 05:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-cpp-kernel
+[2023-07-15 05:37:21] INFO root fetch - processPackages [midas-data-util]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-15 05:37:21] INFO root fetch - processPackages [omgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 05:37:21] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-07-15 05:37:21] WARNING root fetch - processPackages [jupyter-cpp-kernel]: Skipping, unable to determine old version
+[2023-07-15 05:37:21] INFO root fetch - main [MainThread]: End processing [jupyter-cpp-kernel] error
+[2023-07-15 05:37:21] WARNING root fetch - processPackages [exoming]: Skipping, unable to determine old version
+[2023-07-15 05:37:21] INFO root fetch - main [MainThread]: End processing [exoming] error
+[2023-07-15 05:37:21] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/75/b4/f922eafb3cc305417c182baf0bcda2b898b8bd1e80960821cfd867a25199/midas-data-util-0.3.0.tar.gz
+[2023-07-15 05:37:21] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/7d/c7/c86e372156bd44d2b7f0bafa3c1ca02a8e153bb469c86fa450a6b96474f8/omgpt-0.0.4.tar.gz
+[2023-07-15 05:37:21] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/2c/6e/fe86be028b0ac0b8ce8a540f0bd5678933cc4147d0550054732b8324c63e/spark_quality_rules_tools-0.6.5.tar.gz
+[2023-07-15 05:37:22] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/d3/06/d88b8c7dc976f37b358131feba79ab1d23eb6ee6ee0bc726df11ee59fdb8/midas-data-util-0.3.1.tar.gz
+[2023-07-15 05:37:22] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-07-15 05:37:22] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.3.0.tar.gz tmp/midas-data-util-0.3.1.tar.gz --markdown 20230715/m/midas-data-util/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-15 05:37:22] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/14/2b/4e4acdf7c2e6917560e55b77c9252651c213119580383d7c76bc27abccdc/omgpt-0.0.5.tar.gz
+[2023-07-15 05:37:22] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/ce/16/98ba05c5ac4407178ce43154c947ad2edaf88b885b13fe2f2a16f1d0b22c/spark_quality_rules_tools-0.7.0.tar.gz
+[2023-07-15 05:37:22] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 05:37:22] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.4.tar.gz tmp/omgpt-0.0.5.tar.gz --markdown 20230715/o/omgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 05:37:22] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-15 05:37:22] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.6.5.tar.gz tmp/spark_quality_rules_tools-0.7.0.tar.gz --markdown 20230715/s/spark-quality-rules-tools/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-07-15 05:37:22] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.3.0.tar.gz]
+[2023-07-15 05:37:22] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.3.1.tar.gz]
+[2023-07-15 05:37:23] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-07-15 05:37:23] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.4.tar.gz]
+[2023-07-15 05:37:23] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.5.tar.gz]
+[2023-07-15 05:37:23] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 05:37:23] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.6.5.tar.gz]
+[2023-07-15 05:37:23] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.7.0.tar.gz]
+[2023-07-15 05:37:23] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-15 05:37:23] INFO root fetch - main [MainThread]: Store serial: [18897689]
