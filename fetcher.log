@@ -2919,3 +2919,68 @@
 [2023-07-15 03:19:48] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.0a1.tar.gz]
 [2023-07-15 03:19:48] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-07-15 03:19:48] INFO root fetch - main [MainThread]: Store serial: [18897115]
+[2023-07-15 03:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897115]
+[2023-07-15 03:24:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitsandbytes
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdcomp
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysucculent
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cgepy
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omgpt
+[2023-07-15 03:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omgpt
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cgepy]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cmdcomp]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [pysucculent]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [bitsandbytes]: New version: [0.40.1.post1] Old Version: [0.40.1]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1724] Old Version: [0.8.2.dev1573]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [omgpt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/6d/30/26246b5e05526201bf604a14f583294f61f3a99af0b530043d52d5883c81/cmdcomp-1.1.8.tar.gz
+[2023-07-15 03:24:57] INFO root fetch - processPackages [omgpt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-15 03:24:57] INFO root fetch - processPackages [cgepy]: Downloading https://files.pythonhosted.org/packages/28/31/bf5e416a741e45d9ec1153e19b40a2d535f42ba5989cc4132f01bf0f338c/cgepy-0.7.1.tar.gz
+[2023-07-15 03:24:57] INFO root fetch - processPackages [pysucculent]: Downloading https://files.pythonhosted.org/packages/47/b4/bfba4391addbe7498076d77ebda7e53c3f4c6795df1de59c22c20548e7e0/pysucculent-0.0.0.tar.gz
+[2023-07-15 03:24:57] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/1c/47/215f71907f7c48cb7d8ce821c858b09cfa759f64c1e5fa85cef96493dfb3/bitsandbytes-0.40.1.tar.gz
+[2023-07-15 03:24:57] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/1e/e4/7caf81e11abcb95f237a9b5214ef54e6231a8f95a18782bce84aec0a1f30/duckdb-0.8.2.dev1573.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/9c/3e/f5d344cf849f5958ed659dd7597d6abc2b73b14a2517a366879c70f356bf/omgpt-0.0.1.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/9c/3e/f5d344cf849f5958ed659dd7597d6abc2b73b14a2517a366879c70f356bf/omgpt-0.0.1.tar.gz
+[2023-07-15 03:24:58] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 91812044>=10485760
+[2023-07-15 03:24:58] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-15 03:24:58] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10486825>=10485760
+[2023-07-15 03:24:58] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/39/ce/80681975ca5ffb1c93d008504f7941275c460f78d738cf39086df4fcc651/cmdcomp-1.2.0.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230715/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-1.1.8.tar.gz tmp/cmdcomp-1.2.0.tar.gz --markdown 20230715/c/cmdcomp/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 03:24:58] INFO root fetch - processPackages [pysucculent]: Downloading https://files.pythonhosted.org/packages/f6/70/168cedf60b9fd6140534816c3c37f2fec22c01fc069460dc7c7402a26a2d/pysucculent-1.0.0.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [pysucculent]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [pysucculent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysucculent-0.0.0.tar.gz tmp/pysucculent-1.0.0.tar.gz --markdown 20230715/p/pysucculent/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cgepy]: Downloading https://files.pythonhosted.org/packages/42/ba/bfd8a4ad449bc146a9fcad4a77812455a51df0392e34bfaad58c82d61ef1/cgepy-0.7.2.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cgepy]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [cgepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgepy-0.7.1.tar.gz tmp/cgepy-0.7.2.tar.gz --markdown 20230715/c/cgepy/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/42/fa/be1d72a96b1e7eabde1fbb61496995a95e1b355c12a24313eec997b9668c/omgpt-0.1.0.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/42/fa/be1d72a96b1e7eabde1fbb61496995a95e1b355c12a24313eec997b9668c/omgpt-0.1.0.tar.gz
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.1.tar.gz tmp/omgpt-0.1.0.tar.gz --markdown 20230715/o/omgpt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 03:24:58] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.1.tar.gz tmp/omgpt-0.1.0.tar.gz --markdown 20230715/o/omgpt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.8.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.2.0.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-15 03:24:59] INFO root fetch - processPackages [pysucculent]: Remove: archive file [/home/abi/fetcher/tmp/pysucculent-0.0.0.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - processPackages [pysucculent]: Remove: archive file [/home/abi/fetcher/tmp/pysucculent-1.0.0.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [pysucculent]: success
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cgepy]: Remove: archive file [/home/abi/fetcher/tmp/cgepy-0.7.1.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - processPackages [cgepy]: Remove: archive file [/home/abi/fetcher/tmp/cgepy-0.7.2.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [cgepy]: success
+[2023-07-15 03:24:59] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.1.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.1.0.tar.gz]
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 03:24:59] INFO root fetch - main [MainThread]: Store serial: [18897142]
