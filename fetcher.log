@@ -6546,3 +6546,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:29:19] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.20.tar.gz]
 [2023-07-15 09:29:19] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 09:29:19] INFO root fetch - main [MainThread]: Store serial: [18898872]
+[2023-07-15 09:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898872]
+[2023-07-15 09:34:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vagd
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Latte-cls
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbix-plus
+[2023-07-15 09:34:28] WARNING root fetch - processPackages [Latte-cls]: Skipping, unable to determine old version
+[2023-07-15 09:34:28] INFO root fetch - main [MainThread]: End processing [Latte-cls] error
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ork.build]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-15 09:34:28] INFO root fetch - processPackages [vagd]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-15 09:34:28] INFO root fetch - processPackages [pbix-plus]: New version: [23.7.3] Old Version: [23.7.1]
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/68/05/b2599aef4a0b0f03959ac7505ccc7813294d2577717612ef5b05d33d04fd/ork.build-0.0.20.tar.gz
+[2023-07-15 09:34:28] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/db/87/5c2f3eed05708656e0a4215079e2bc90e7445e10faf2a4d77f41e2e5117c/pbix_plus-23.7.1.tar.gz
+[2023-07-15 09:34:28] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/23/ef/6b4065b3ae6f9f19decd4e9ee9a10710a2ffd0eb0a1896ebd6203e22a4db/vagd-0.4.3.tar.gz
+[2023-07-15 09:34:28] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/28/ae/65b3dce13cd32617c89a9421d6c6827fe2d426e167d4e64d4bde09cfe552/ork.build-0.0.21.tar.gz
+[2023-07-15 09:34:29] INFO root fetch - processPackages [pbix-plus]: Downloading https://files.pythonhosted.org/packages/05/78/ecbfabbd54790cd09568e3c071953050c35701b0451df594e89295ce9cad/pbix_plus-23.7.3.tar.gz
+[2023-07-15 09:34:29] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 09:34:29] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.20.tar.gz tmp/ork.build-0.0.21.tar.gz --markdown 20230715/o/ork.build/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-15 09:34:29] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/8e/02/f79154c6377362322c1500d17b42a9c50c819813e0ed5cbcca33badcab61/vagd-0.4.4.tar.gz
+[2023-07-15 09:34:29] INFO root fetch - processPackages [pbix-plus]: executing diffoscope
+[2023-07-15 09:34:29] INFO root fetch - processPackages [pbix-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbix_plus-23.7.1.tar.gz tmp/pbix_plus-23.7.3.tar.gz --markdown 20230715/p/pbix-plus/23.7.1-23.7.3/diff.md --exclude *.pyd
+[2023-07-15 09:34:29] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2023-07-15 09:34:29] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-0.4.3.tar.gz tmp/vagd-0.4.4.tar.gz --markdown 20230715/v/vagd/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-15 09:34:29] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.1.tar.gz]
+[2023-07-15 09:34:29] INFO root fetch - processPackages [pbix-plus]: Remove: archive file [/home/abi/fetcher/tmp/pbix_plus-23.7.3.tar.gz]
+[2023-07-15 09:34:29] INFO root fetch - main [MainThread]: End processing [pbix-plus]: success
+[2023-07-15 09:34:30] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.3.tar.gz]
+[2023-07-15 09:34:30] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-0.4.4.tar.gz]
+[2023-07-15 09:34:30] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2023-07-15 09:34:31] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.20.tar.gz]
+[2023-07-15 09:34:31] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.21.tar.gz]
+[2023-07-15 09:34:31] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 09:34:31] INFO root fetch - main [MainThread]: Store serial: [18898887]
