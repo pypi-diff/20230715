@@ -14144,3 +14144,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:38:47] INFO root fetch - processPackages [safrs]: Remove: archive file [/home/abi/fetcher/tmp/safrs-3.1.1.tar.gz]
 [2023-07-15 21:38:47] INFO root fetch - main [MainThread]: End processing [safrs]: success
 [2023-07-15 21:38:47] INFO root fetch - main [MainThread]: Store serial: [18902576]
+[2023-07-15 21:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902576]
+[2023-07-15 21:43:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: render-thumbnail
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stitchnet
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-game-collection
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owlery
+[2023-07-15 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CodeToCAD
+[2023-07-15 21:43:55] INFO root fetch - processPackages [render-thumbnail]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:43:55] WARNING root fetch - processPackages [stitchnet]: Skipping, unable to determine old version
+[2023-07-15 21:43:55] INFO root fetch - main [MainThread]: End processing [stitchnet] error
+[2023-07-15 21:43:55] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 21:43:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-15 21:43:55] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/b8/21/09c505e143ec0e6ed28dcbc5aff9e445fffba8a0e9aa2e84b0cf5951fc20/render_thumbnail-0.1.8.tar.gz
+[2023-07-15 21:43:55] INFO root fetch - processPackages [owlery]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 21:43:55] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 21:43:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-15 21:43:55] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1689450180]
+[2023-07-15 21:43:56] INFO root fetch - processPackages [render-thumbnail]: Downloading https://files.pythonhosted.org/packages/43/b2/adb27517d948df8772b1547bfa7d7d7c38eacc0b6c2a02febc096cfd1b65/render_thumbnail-0.1.9.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/34/12/1b45b6cf0eb29e9ffe191c515efc7881d73394dc3e3ebdb92422bac9e5a5/owlery-0.2.0.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/5f/44/b0989ca8b6cf2ebf01ca577e86d5eb474bb61385975a4b618d4e92b43af9/CodeToCAD-0.2.1689450180.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [render-thumbnail]: executing diffoscope
+[2023-07-15 21:43:56] INFO root fetch - processPackages [render-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_thumbnail-0.1.8.tar.gz tmp/render_thumbnail-0.1.9.tar.gz --markdown 20230715/r/render-thumbnail/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:43:56] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 21:43:56] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 21:43:56] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-15 21:43:56] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230715/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-15 21:43:56] INFO root fetch - processPackages [owlery]: Downloading https://files.pythonhosted.org/packages/da/04/9e495680b36cea17e9439f19333845f68fbf70795b007f4f3df2dc4c0f4c/owlery-0.3.0.tar.gz
+[2023-07-15 21:43:56] INFO root fetch - processPackages [owlery]: executing diffoscope
+[2023-07-15 21:43:56] INFO root fetch - processPackages [owlery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owlery-0.2.0.tar.gz tmp/owlery-0.3.0.tar.gz --markdown 20230715/o/owlery/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-15 21:43:57] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.8.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - processPackages [render-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/render_thumbnail-0.1.9.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [render-thumbnail]: success
+[2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1689450180.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230715/C/CodeToCAD/0.2.1689450180-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 21:43:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-15 21:43:57] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 21:43:57] INFO root fetch - processPackages [owlery]: Remove: archive file [/home/abi/fetcher/tmp/owlery-0.2.0.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - processPackages [owlery]: Remove: archive file [/home/abi/fetcher/tmp/owlery-0.3.0.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [owlery]: success
+[2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1689450180.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-15 21:43:57] INFO root fetch - main [MainThread]: Store serial: [18902593]
