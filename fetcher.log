@@ -10772,3 +10772,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:18:18] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.30.tar.gz]
 [2023-07-15 16:18:18] INFO root fetch - main [MainThread]: End processing [climatePy]: success
 [2023-07-15 16:18:18] INFO root fetch - main [MainThread]: Store serial: [18901065]
+[2023-07-15 16:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901065]
+[2023-07-15 16:23:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 16:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testmy-toollib
+[2023-07-15 16:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crateman
+[2023-07-15 16:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: barladb
+[2023-07-15 16:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barladb
+[2023-07-15 16:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-15 16:23:27] WARNING root fetch - processPackages [barladb]: Skipping, unable to determine old version
+[2023-07-15 16:23:27] INFO root fetch - main [MainThread]: End processing [barladb] error
+[2023-07-15 16:23:27] WARNING root fetch - processPackages [crateman]: Skipping, unable to determine old version
+[2023-07-15 16:23:27] INFO root fetch - main [MainThread]: End processing [crateman] error
+[2023-07-15 16:23:27] INFO root fetch - processPackages [testmy-toollib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 16:23:27] WARNING root fetch - processPackages [barladb]: Skipping, unable to determine old version
+[2023-07-15 16:23:27] INFO root fetch - main [MainThread]: End processing [barladb] error
+[2023-07-15 16:23:27] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-15 16:23:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-15 16:23:27] INFO root fetch - processPackages [testmy-toollib]: Downloading https://files.pythonhosted.org/packages/04/4b/3bf854f961adc1ff5b064c93276544fa7107caf4466b00b2694e662c2020/testmy_toollib-0.0.2.tar.gz
+[2023-07-15 16:23:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-15 16:23:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-15 16:23:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230715/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-15 16:23:27] INFO root fetch - processPackages [testmy-toollib]: Downloading https://files.pythonhosted.org/packages/88/fa/ced55f4fda43c52b0563716ada40caffc409d4a8519085103303c995ec49/testmy_toollib-0.0.3.tar.gz
+[2023-07-15 16:23:28] INFO root fetch - processPackages [testmy-toollib]: executing diffoscope
+[2023-07-15 16:23:28] INFO root fetch - processPackages [testmy-toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testmy_toollib-0.0.2.tar.gz tmp/testmy_toollib-0.0.3.tar.gz --markdown 20230715/t/testmy-toollib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 16:23:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-15 16:23:28] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-15 16:23:28] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-15 16:23:28] INFO root fetch - processPackages [testmy-toollib]: Remove: archive file [/home/abi/fetcher/tmp/testmy_toollib-0.0.2.tar.gz]
+[2023-07-15 16:23:28] INFO root fetch - processPackages [testmy-toollib]: Remove: archive file [/home/abi/fetcher/tmp/testmy_toollib-0.0.3.tar.gz]
+[2023-07-15 16:23:28] INFO root fetch - main [MainThread]: End processing [testmy-toollib]: success
+[2023-07-15 16:23:28] INFO root fetch - main [MainThread]: Store serial: [18901085]
