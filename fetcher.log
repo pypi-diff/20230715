@@ -5413,3 +5413,54 @@
 [2023-07-15 07:34:50] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
 [2023-07-15 07:34:50] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-15 07:34:50] INFO root fetch - main [MainThread]: Store serial: [18898349]
+[2023-07-15 07:39:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898349]
+[2023-07-15 07:39:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-client
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-common
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-data-client
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-cmdb
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacy-token-parser
+[2023-07-15 07:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-07-15 07:39:58] INFO root fetch - processPackages [threemystic-common]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-07-15 07:39:58] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-07-15 07:39:58] INFO root fetch - processPackages [spacy-token-parser]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 07:39:58] WARNING root fetch - processPackages [threemystic-cloud-cmdb]: Skipping, unable to determine old version
+[2023-07-15 07:39:58] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-cmdb] error
+[2023-07-15 07:39:58] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-07-15 07:39:58] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.7.15.3.6] Old Version: [2023.7.6.9.18.40]
+[2023-07-15 07:39:59] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/03/c2/0074fedd9218c4324bec9cdbb7bc5f7c2c839ea18d1079a715c0d495a660/MeUtils-2023.7.6.9.18.40.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/d5/82/19f0ba7aee159a47b7708a99ce03bf5f35e939b044cd0d0d22b95914f19d/threemystic_cloud_data_client-0.1.11.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/b2/b7/3e225d93b3da27950f567bff606bb28b635500eb35d1483abea42e3d5142/threemystic_common-0.1.14.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/55/d8/6ba8203a8677e1e537011c1af48c102693fd175e7e153925a8233c91ff51/threemystic_cloud_client-0.1.33.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [spacy-token-parser]: Downloading https://files.pythonhosted.org/packages/0a/81/e2e53c52ceca649bf50e398d292b3034d21eccb9c5f12f3e384b866ec238/spacy-token-parser-0.1.8.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/82/3d/b22106a887895aacb02d33ef13ca67f42c7f7f8a550dff975412536cd740/threemystic_cloud_data_client-0.1.12.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/b2/85/6e3ef0590b8fb8f582afc6309e03442f4fd41a72002576ece4c20d20f18f/threemystic_cloud_client-0.1.34-py3-none-any.whl
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-common]: Downloading https://files.pythonhosted.org/packages/29/72/dbf96eb446d92f6e91d554b7dd800f2aaf871c0a44677bb980bf3bf6beb3/threemystic_common-0.1.15.tar.gz
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.11.tar.gz tmp/threemystic_cloud_data_client-0.1.12.tar.gz --markdown 20230715/t/threemystic-cloud-data-client/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.33.tar.gz tmp/threemystic_cloud_client-0.1.34-py3-none-any.whl.zip --markdown 20230715/t/threemystic-cloud-client/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-common]: executing diffoscope
+[2023-07-15 07:39:59] INFO root fetch - processPackages [threemystic-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_common-0.1.14.tar.gz tmp/threemystic_common-0.1.15.tar.gz --markdown 20230715/t/threemystic-common/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-07-15 07:39:59] INFO root fetch - processPackages [spacy-token-parser]: Downloading https://files.pythonhosted.org/packages/8a/ef/f0547dde9f79b13af2ffba14f14417a2fc2aa8cc399f9c87fe1b38a80b02/spacy-token-parser-0.1.9.tar.gz
+[2023-07-15 07:40:00] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1e/99/2f228a790c6fc15f93482f3f0fa7bbad95d15d6e0aa883c7919fe4a66c95/MeUtils-2023.7.7.15.3.6.tar.gz
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.33.tar.gz]
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.34-py3-none-any.whl.zip]
+[2023-07-15 07:40:00] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.14.tar.gz]
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-common]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_common-0.1.15.tar.gz]
+[2023-07-15 07:40:00] INFO root fetch - main [MainThread]: End processing [threemystic-common]: success
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.11.tar.gz]
+[2023-07-15 07:40:00] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.12.tar.gz]
+[2023-07-15 07:40:00] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-15 07:40:00] INFO root fetch - processPackages [spacy-token-parser]: executing diffoscope
+[2023-07-15 07:40:00] INFO root fetch - processPackages [spacy-token-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-token-parser-0.1.8.tar.gz tmp/spacy-token-parser-0.1.9.tar.gz --markdown 20230715/s/spacy-token-parser/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 07:40:01] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-15 07:40:01] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.6.9.18.40.tar.gz tmp/MeUtils-2023.7.7.15.3.6.tar.gz --markdown 20230715/M/MeUtils/2023.7.6.9.18.40-2023.7.7.15.3.6/diff.md --exclude *.pyd
+[2023-07-15 07:40:01] INFO root fetch - processPackages [spacy-token-parser]: Remove: archive file [/home/abi/fetcher/tmp/spacy-token-parser-0.1.8.tar.gz]
+[2023-07-15 07:40:01] INFO root fetch - processPackages [spacy-token-parser]: Remove: archive file [/home/abi/fetcher/tmp/spacy-token-parser-0.1.9.tar.gz]
+[2023-07-15 07:40:01] INFO root fetch - main [MainThread]: End processing [spacy-token-parser]: success
+[2023-07-15 07:40:04] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.6.9.18.40.tar.gz]
+[2023-07-15 07:40:04] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
+[2023-07-15 07:40:04] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-15 07:40:04] INFO root fetch - main [MainThread]: Store serial: [18898371]
