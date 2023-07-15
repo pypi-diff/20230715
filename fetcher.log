@@ -8586,3 +8586,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:08:16] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
 [2023-07-15 13:08:16] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-07-15 13:08:16] INFO root fetch - main [MainThread]: Store serial: [18899889]
+[2023-07-15 13:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899889]
+[2023-07-15 13:13:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 13:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scale-llm-engine
+[2023-07-15 13:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openttd-protocol
+[2023-07-15 13:13:25] WARNING root fetch - processPackages [scale-llm-engine]: Skipping, unable to determine old version
+[2023-07-15 13:13:25] INFO root fetch - main [MainThread]: End processing [scale-llm-engine] error
+[2023-07-15 13:13:25] INFO root fetch - processPackages [openttd-protocol]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-07-15 13:13:25] INFO root fetch - processPackages [openttd-protocol]: Downloading https://files.pythonhosted.org/packages/af/2c/6f463f14c914157ae276be9394704c66684d7f4db4a90e6a05e458e95829/openttd-protocol-1.4.1.tar.gz
+[2023-07-15 13:13:25] INFO root fetch - processPackages [openttd-protocol]: Downloading https://files.pythonhosted.org/packages/82/ef/251e43db4477d5e257826287cf725611eb37093b65fc4d6b8ecde8eb7040/openttd-protocol-1.5.0.tar.gz
+[2023-07-15 13:13:25] INFO root fetch - processPackages [openttd-protocol]: executing diffoscope
+[2023-07-15 13:13:25] INFO root fetch - processPackages [openttd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttd-protocol-1.4.1.tar.gz tmp/openttd-protocol-1.5.0.tar.gz --markdown 20230715/o/openttd-protocol/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-07-15 13:13:26] INFO root fetch - processPackages [openttd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openttd-protocol-1.4.1.tar.gz]
+[2023-07-15 13:13:26] INFO root fetch - processPackages [openttd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openttd-protocol-1.5.0.tar.gz]
+[2023-07-15 13:13:26] INFO root fetch - main [MainThread]: End processing [openttd-protocol]: success
+[2023-07-15 13:13:26] INFO root fetch - main [MainThread]: Store serial: [18899898]
