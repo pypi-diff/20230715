@@ -10706,3 +10706,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:13:05] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
 [2023-07-15 16:13:05] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
 [2023-07-15 16:13:05] INFO root fetch - main [MainThread]: Store serial: [18901044]
+[2023-07-15 16:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901044]
+[2023-07-15 16:18:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morecopy
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: climatePy
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-oscar-newsletter
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-toys
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: absl-extra
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cashflower
+[2023-07-15 16:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talkytrend
+[2023-07-15 16:18:13] INFO root fetch - processPackages [django-oscar-newsletter]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [morecopy]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [talkytrend]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [climatePy]: New version: [0.4.30] Old Version: [0.4.29]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [llm-toys]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 16:18:13] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/74/14/c53a2b8095f53c79a2e9d41a06d7129c84e407465b3276de9e2afe6a77bc/talkytrend-1.7.4.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [cashflower]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-15 16:18:14] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/ee/29/9b4d1aa6a7de06a0245f20e43391abb5100a6166d14e6b0739ec8c2fa595/llm-toys-0.0.4.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/b6/7f/203ac46e52b8c5fc898302b9fd77f8de3cd7a9f8660cb026632085be645c/climatePy-0.4.29.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [django-oscar-newsletter]: Downloading https://files.pythonhosted.org/packages/c9/c0/a39104e1879a3c03d0523c10d2fa3c4b09a79ce90f491c423d39bcded01d/django-oscar-newsletter-0.8.8.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [morecopy]: Downloading https://files.pythonhosted.org/packages/71/42/41167899b04f5274b1e7c94f36e155c9c03f39b94684ba01623e50d93513/morecopy-0.2.4.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/29/92/688b446e3822b3be1951317596cd759c0087642922cd952a1d9bf930d1cd/absl_extra-0.0.2.dev8.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/8c/15/73e22adb97cba566f8d204e3a969012e6ed5c6bbfa734d221c1a4ca2b4ac/cashflower-0.4.3.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/dd/f7/3457ec203b2896c31ae556dad4fa0d4d03d4197b20053cefcbe54077abf4/talkytrend-1.8.0.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/e9/ad/cbd0f735c604d2adb8880515762f129bb1501b901f407856a5918d5007d7/llm-toys-0.0.5.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.7.4.tar.gz tmp/talkytrend-1.8.0.tar.gz --markdown 20230715/t/talkytrend/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-07-15 16:18:14] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/f3/5a/16900f7906b5d959e9e1c0982982ca653372bfdf7dbf4f6d7c4f76537dc3/climatePy-0.4.30.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.4.tar.gz tmp/llm-toys-0.0.5.tar.gz --markdown 20230715/l/llm-toys/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 16:18:14] INFO root fetch - processPackages [morecopy]: Downloading https://files.pythonhosted.org/packages/70/d7/71fe521466c7cde1b773f6c75d8422061616f33753712e5b9177c2ac165b/morecopy-0.3.0.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f7/ad/385040ffc5d1a6c7ce24b748fe7932e7fc6f931c5a98bbd7a4f9c8acacfd/absl_extra-0.0.2.dev9.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.29.tar.gz tmp/climatePy-0.4.30.tar.gz --markdown 20230715/c/climatePy/0.4.29-0.4.30/diff.md --exclude *.pyd
+[2023-07-15 16:18:14] INFO root fetch - processPackages [django-oscar-newsletter]: Downloading https://files.pythonhosted.org/packages/af/4a/142651c999db0dcb5ad872475f61c1f057506be98c2b599da9788fc610d6/django-oscar-newsletter-0.8.9.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [morecopy]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [morecopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morecopy-0.2.4.tar.gz tmp/morecopy-0.3.0.tar.gz --markdown 20230715/m/morecopy/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 16:18:14] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev8.tar.gz tmp/absl_extra-0.0.2.dev9.tar.gz --markdown 20230715/a/absl-extra/0.0.2.dev8-0.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 16:18:14] INFO root fetch - processPackages [cashflower]: Downloading https://files.pythonhosted.org/packages/47/cc/460784428ea52f3934d39c6dd03cefc345093928475869a0aef2e16afa75/cashflower-0.4.4.tar.gz
+[2023-07-15 16:18:14] INFO root fetch - processPackages [django-oscar-newsletter]: executing diffoscope
+[2023-07-15 16:18:14] INFO root fetch - processPackages [django-oscar-newsletter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-newsletter-0.8.8.tar.gz tmp/django-oscar-newsletter-0.8.9.tar.gz --markdown 20230715/d/django-oscar-newsletter/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-15 16:18:15] INFO root fetch - processPackages [cashflower]: executing diffoscope
+[2023-07-15 16:18:15] INFO root fetch - processPackages [cashflower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashflower-0.4.3.tar.gz tmp/cashflower-0.4.4.tar.gz --markdown 20230715/c/cashflower/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-15 16:18:15] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.7.4.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.8.0.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-15 16:18:15] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.4.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.5.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 16:18:15] INFO root fetch - processPackages [morecopy]: Remove: archive file [/home/abi/fetcher/tmp/morecopy-0.2.4.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - processPackages [morecopy]: Remove: archive file [/home/abi/fetcher/tmp/morecopy-0.3.0.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - main [MainThread]: End processing [morecopy]: success
+[2023-07-15 16:18:15] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev8.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev9.tar.gz]
+[2023-07-15 16:18:15] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-15 16:18:16] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.4.3.tar.gz]
+[2023-07-15 16:18:16] INFO root fetch - processPackages [cashflower]: Remove: archive file [/home/abi/fetcher/tmp/cashflower-0.4.4.tar.gz]
+[2023-07-15 16:18:16] INFO root fetch - main [MainThread]: End processing [cashflower]: success
+[2023-07-15 16:18:16] INFO root fetch - processPackages [django-oscar-newsletter]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-newsletter-0.8.8.tar.gz]
+[2023-07-15 16:18:16] INFO root fetch - processPackages [django-oscar-newsletter]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-newsletter-0.8.9.tar.gz]
+[2023-07-15 16:18:16] INFO root fetch - main [MainThread]: End processing [django-oscar-newsletter]: success
+[2023-07-15 16:18:18] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.29.tar.gz]
+[2023-07-15 16:18:18] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.30.tar.gz]
+[2023-07-15 16:18:18] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-15 16:18:18] INFO root fetch - main [MainThread]: Store serial: [18901065]
