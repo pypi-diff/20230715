@@ -6807,3 +6807,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:55:19] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl.zip]
 [2023-07-15 09:55:19] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
 [2023-07-15 09:55:19] INFO root fetch - main [MainThread]: Store serial: [18899039]
+[2023-07-15 10:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899039]
+[2023-07-15 10:00:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo
+[2023-07-15 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-15 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vios
+[2023-07-15 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-07-15 10:00:28] INFO root fetch - processPackages [adafri]: New version: [0.0.19.2] Old Version: [0.0.19.1]
+[2023-07-15 10:00:28] INFO root fetch - processPackages [vios]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-15 10:00:28] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-15 10:00:28] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/ea/8b/375aaf1a6dd907e46485041b5b96b12dbd7be8ec543fc6bd8f353d493136/adafri-0.0.19.1.tar.gz
+[2023-07-15 10:00:28] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/98/97/0b4867fe253b65752ef00b950d9bb8bb473b410a346c8154a15364ac524a/vios-1.0.7-py3-none-any.whl
+[2023-07-15 10:00:28] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-15 10:00:28] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-07-15 10:00:28] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/72/88/4d28383733947175b229a8f465d14da7d9f9038be120dcf8b480d70113ab/adafri-0.0.19.2.tar.gz
+[2023-07-15 10:00:28] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-15 10:00:28] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.1.tar.gz tmp/adafri-0.0.19.2.tar.gz --markdown 20230715/a/adafri/0.0.19.1-0.0.19.2/diff.md --exclude *.pyd
+[2023-07-15 10:00:28] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-15 10:00:28] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/db/ee/85138adf060a5c318979c9f1f0125b4aa257ef65db3c1f4265f8d689e5a3/vios-1.0.8-py3-none-any.whl
+[2023-07-15 10:00:28] INFO root fetch - processPackages [vios]: executing diffoscope
+[2023-07-15 10:00:28] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-1.0.7-py3-none-any.whl.zip tmp/vios-1.0.8-py3-none-any.whl.zip --markdown 20230715/v/vios/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-15 10:00:28] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-07-15 10:00:29] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-07-15 10:00:29] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230715/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-15 10:00:29] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-15 10:00:29] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.1.tar.gz]
+[2023-07-15 10:00:29] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.2.tar.gz]
+[2023-07-15 10:00:29] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-15 10:00:29] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.7-py3-none-any.whl.zip]
+[2023-07-15 10:00:29] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-1.0.8-py3-none-any.whl.zip]
+[2023-07-15 10:00:29] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2023-07-15 10:00:29] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-07-15 10:00:29] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-07-15 10:00:29] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-07-15 10:00:30] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-15 10:00:30] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230715/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-15 10:00:30] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 10:00:30] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 10:00:30] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-15 10:00:30] INFO root fetch - main [MainThread]: Store serial: [18899070]
