@@ -5464,3 +5464,45 @@
 [2023-07-15 07:40:04] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-15 07:40:04] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-15 07:40:04] INFO root fetch - main [MainThread]: Store serial: [18898371]
+[2023-07-15 07:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898371]
+[2023-07-15 07:45:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 07:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volvopy
+[2023-07-15 07:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krakenci-client
+[2023-07-15 07:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafri
+[2023-07-15 07:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypicorom
+[2023-07-15 07:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helicone
+[2023-07-15 07:45:13] INFO root fetch - processPackages [adafri]: New version: [0.0.19.1] Old Version: [0.0.19]
+[2023-07-15 07:45:13] INFO root fetch - processPackages [helicone]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-15 07:45:13] INFO root fetch - processPackages [krakenci-client]: New version: [1.3.24] Old Version: [1.3.21]
+[2023-07-15 07:45:13] WARNING root fetch - processPackages [volvopy]: Skipping, unable to determine old version
+[2023-07-15 07:45:13] INFO root fetch - main [MainThread]: End processing [volvopy] error
+[2023-07-15 07:45:13] INFO root fetch - processPackages [pypicorom]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 07:45:13] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/6c/2e/fda687bf524da0a45afa9011018fc4bdefb9aeb7094de1b246e59ef75a63/adafri-0.0.19.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/46/ff/6cca79446c3294b325eeacb8faaaa3fb904ebcafd0dad7a6d89df0dc1742/helicone-1.0.2.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/8b/cd/dfdac2f9f85c68e4a7b4f834bb5ebe9c50ef9fb167df75248974ce76cd61/krakenci_client-1.3.21.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [pypicorom]: Downloading https://files.pythonhosted.org/packages/c6/57/48b6e52180209d88432903c951701081f9de53d134e11eacbdb439643ff2/pypicorom-0.9.0.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/ea/8b/375aaf1a6dd907e46485041b5b96b12dbd7be8ec543fc6bd8f353d493136/adafri-0.0.19.1.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/1b/f8/6a9267313d6cea6611eac94e9bd0dbf5be32d23986ba5dad98ce55aa3e67/helicone-1.0.3.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [krakenci-client]: Downloading https://files.pythonhosted.org/packages/1b/a8/93a2c71e0e1ebc9e120529bd130aa44e138bb43fe2f6a14e89703759b9ee/krakenci_client-1.3.24.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [pypicorom]: Downloading https://files.pythonhosted.org/packages/3e/ea/269782892617e2f1556ead39c31a085e3ca4daf186afd80d0dfa0db6a089/pypicorom-0.9.1.tar.gz
+[2023-07-15 07:45:13] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-15 07:45:13] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.tar.gz tmp/adafri-0.0.19.1.tar.gz --markdown 20230715/a/adafri/0.0.19-0.0.19.1/diff.md --exclude *.pyd
+[2023-07-15 07:45:13] INFO root fetch - processPackages [krakenci-client]: executing diffoscope
+[2023-07-15 07:45:13] INFO root fetch - processPackages [krakenci-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakenci_client-1.3.21.tar.gz tmp/krakenci_client-1.3.24.tar.gz --markdown 20230715/k/krakenci-client/1.3.21-1.3.24/diff.md --exclude *.pyd
+[2023-07-15 07:45:13] INFO root fetch - processPackages [helicone]: executing diffoscope
+[2023-07-15 07:45:13] INFO root fetch - processPackages [helicone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helicone-1.0.2.tar.gz tmp/helicone-1.0.3.tar.gz --markdown 20230715/h/helicone/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-15 07:45:14] INFO root fetch - processPackages [pypicorom]: executing diffoscope
+[2023-07-15 07:45:14] INFO root fetch - processPackages [pypicorom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypicorom-0.9.0.tar.gz tmp/pypicorom-0.9.1.tar.gz --markdown 20230715/p/pypicorom/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 07:45:14] INFO root fetch - processPackages [pypicorom]: Remove: archive file [/home/abi/fetcher/tmp/pypicorom-0.9.0.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - processPackages [pypicorom]: Remove: archive file [/home/abi/fetcher/tmp/pypicorom-0.9.1.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - main [MainThread]: End processing [pypicorom]: success
+[2023-07-15 07:45:14] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.2.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.3.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - main [MainThread]: End processing [helicone]: success
+[2023-07-15 07:45:14] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.1.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-15 07:45:14] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.3.21.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - processPackages [krakenci-client]: Remove: archive file [/home/abi/fetcher/tmp/krakenci_client-1.3.24.tar.gz]
+[2023-07-15 07:45:14] INFO root fetch - main [MainThread]: End processing [krakenci-client]: success
+[2023-07-15 07:45:14] INFO root fetch - main [MainThread]: Store serial: [18898394]
