@@ -6770,3 +6770,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:50:09] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-15 09:50:09] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-15 09:50:09] INFO root fetch - main [MainThread]: Store serial: [18899026]
+[2023-07-15 09:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899026]
+[2023-07-15 09:55:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 09:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lea-pi
+[2023-07-15 09:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-07-15 09:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lea-pi
+[2023-07-15 09:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-07-15 09:55:17] INFO root fetch - processPackages [lea-pi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 09:55:17] INFO root fetch - processPackages [anyon]: New version: [3.7.6] Old Version: [3.7.5]
+[2023-07-15 09:55:17] INFO root fetch - processPackages [lea-pi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 09:55:17] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/a1/7a/ae13651a4d8ca4e9f9b1429d0b1d15c3920d6426250ed9e22b1943bcf037/anyon-3.7.5-cp311-none-win_amd64.whl
+[2023-07-15 09:55:17] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230715] Old Version: [2.14.0.dev20230714]
+[2023-07-15 09:55:17] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/0e/c4/088ee2553be658935f8c7085df14e3538889e57e64069a1de6a56d849e0f/lea_pi-0.1.3.tar.gz
+[2023-07-15 09:55:17] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/0e/c4/088ee2553be658935f8c7085df14e3538889e57e64069a1de6a56d849e0f/lea_pi-0.1.3.tar.gz
+[2023-07-15 09:55:18] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/67/97/abad1207e388bdfa832bfba0fd9a4c10f53902ffec37acf54b575fd0741d/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl
+[2023-07-15 09:55:18] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/c4/38/a81d51cefdff1902744b8c14f031edbe778a62e063e1ce03843e3f6d779e/anyon-3.7.6-cp311-none-win_amd64.whl
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/29/2b/71f7713796faedee2b304ff8164b57b2b0d2c8b03a1c6c881b3bfb073af1/lea_pi-0.1.4.tar.gz
+[2023-07-15 09:55:18] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-15 09:55:18] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.7.5-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.6-cp311-none-win_amd64.whl.zip --markdown 20230715/a/anyon/3.7.5-3.7.6/diff.md --exclude *.pyd
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: Downloading https://files.pythonhosted.org/packages/29/2b/71f7713796faedee2b304ff8164b57b2b0d2c8b03a1c6c881b3bfb073af1/lea_pi-0.1.4.tar.gz
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: executing diffoscope
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lea_pi-0.1.3.tar.gz tmp/lea_pi-0.1.4.tar.gz --markdown 20230715/l/lea-pi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: executing diffoscope
+[2023-07-15 09:55:18] INFO root fetch - processPackages [lea-pi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lea_pi-0.1.3.tar.gz tmp/lea_pi-0.1.4.tar.gz --markdown 20230715/l/lea-pi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 09:55:18] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/29/e3/5a5fbfa2e283c57243c813f7149e92289363d9b0cf0eca9ed8ac777d6eb1/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl
+[2023-07-15 09:55:18] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-15 09:55:18] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl.zip --markdown 20230715/t/tf-nightly-cpu/2.14.0.dev20230714-2.14.0.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 09:55:18] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.5-cp311-none-win_amd64.whl.zip]
+[2023-07-15 09:55:18] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.6-cp311-none-win_amd64.whl.zip]
+[2023-07-15 09:55:18] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-15 09:55:19] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.3.tar.gz]
+[2023-07-15 09:55:19] INFO root fetch - processPackages [lea-pi]: Remove: archive file [/home/abi/fetcher/tmp/lea_pi-0.1.4.tar.gz]
+[2023-07-15 09:55:19] INFO root fetch - main [MainThread]: End processing [lea-pi]: success
+[2023-07-15 09:55:19] INFO root fetch - main [MainThread]: End processing [lea-pi]: success
+[2023-07-15 09:55:19] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 09:55:19] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 09:55:19] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-15 09:55:19] INFO root fetch - main [MainThread]: Store serial: [18899039]
