@@ -14195,3 +14195,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:43:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
 [2023-07-15 21:43:57] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
 [2023-07-15 21:43:57] INFO root fetch - main [MainThread]: Store serial: [18902593]
+[2023-07-15 21:49:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902593]
+[2023-07-15 21:49:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodeToCAD
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrolog
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uniteai
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysigma-backend-carbonblack
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efrem-utils
+[2023-07-15 21:49:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cogsworth-cli
+[2023-07-15 21:49:06] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1689450180]
+[2023-07-15 21:49:06] WARNING root fetch - processPackages [pyrolog]: Skipping, unable to determine old version
+[2023-07-15 21:49:06] INFO root fetch - main [MainThread]: End processing [pyrolog] error
+[2023-07-15 21:49:06] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:49:07] INFO root fetch - processPackages [pysigma-backend-carbonblack]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 21:49:07] INFO root fetch - processPackages [efrem-utils]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-15 21:49:07] WARNING root fetch - processPackages [cogsworth-cli]: Skipping, unable to determine old version
+[2023-07-15 21:49:07] INFO root fetch - main [MainThread]: End processing [cogsworth-cli] error
+[2023-07-15 21:49:07] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/5f/44/b0989ca8b6cf2ebf01ca577e86d5eb474bb61385975a4b618d4e92b43af9/CodeToCAD-0.2.1689450180.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Downloading https://files.pythonhosted.org/packages/a2/ff/1d9288c4fb4bbde12e050308011c31f31fcf49cc4f46374a85c6cee55dfb/pysigma_backend_carbonblack-0.1.3.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/46/b6/b0272e47adc1706ca555c0ce08774260b06ffbbdc6d4558ae95e17ba49d2/efrem_utils-0.0.9.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-15 21:49:07] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1689450180.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230715/C/CodeToCAD/0.2.1689450180-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 21:49:07] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Downloading https://files.pythonhosted.org/packages/3a/d9/65f8e225512e62ad95a1bcee9308b9acab87a705bcfaf1cabcfc00f1de3a/pysigma_backend_carbonblack-0.1.4.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [efrem-utils]: Downloading https://files.pythonhosted.org/packages/c8/6f/a77844d20b6dfcae69f455cbddb62d74ba8ecc747575976f5271bd97a1b3/efrem_utils-0.1.0.tar.gz
+[2023-07-15 21:49:07] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 21:49:07] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:49:07] INFO root fetch - processPackages [pysigma-backend-carbonblack]: executing diffoscope
+[2023-07-15 21:49:07] INFO root fetch - processPackages [pysigma-backend-carbonblack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_carbonblack-0.1.3.tar.gz tmp/pysigma_backend_carbonblack-0.1.4.tar.gz --markdown 20230715/p/pysigma-backend-carbonblack/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 21:49:07] INFO root fetch - processPackages [efrem-utils]: executing diffoscope
+[2023-07-15 21:49:07] INFO root fetch - processPackages [efrem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efrem_utils-0.0.9.tar.gz tmp/efrem_utils-0.1.0.tar.gz --markdown 20230715/e/efrem-utils/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 21:49:08] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1689450180.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 21:49:08] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-15 21:49:08] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.0.9.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - processPackages [efrem-utils]: Remove: archive file [/home/abi/fetcher/tmp/efrem_utils-0.1.0.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - main [MainThread]: End processing [efrem-utils]: success
+[2023-07-15 21:49:08] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_carbonblack-0.1.3.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - processPackages [pysigma-backend-carbonblack]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_carbonblack-0.1.4.tar.gz]
+[2023-07-15 21:49:08] INFO root fetch - main [MainThread]: End processing [pysigma-backend-carbonblack]: success
+[2023-07-15 21:49:08] INFO root fetch - main [MainThread]: Store serial: [18902618]
