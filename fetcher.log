@@ -9508,3 +9508,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 14:47:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2023-07-15 14:47:14] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-07-15 14:47:14] INFO root fetch - main [MainThread]: Store serial: [18900387]
+[2023-07-15 14:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900387]
+[2023-07-15 14:52:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitcoll
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyLegendSS
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manticore
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyroza
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbo-docs
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typed-api-framework
+[2023-07-15 14:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wander
+[2023-07-15 14:52:23] INFO root fetch - processPackages [pyroza]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [turbo-docs]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [typed-api-framework]: New version: [0.2.1a0] Old Version: [0.0.1a5]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [pyLegendSS]: New version: [0.8] Old Version: [0.7]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [gitcoll]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230715] Old Version: [0.3.8.dev230714]
+[2023-07-15 14:52:23] INFO root fetch - processPackages [wander]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyroza]: Downloading https://files.pythonhosted.org/packages/ee/61/a90f39ad7876ea2b137685188cfc955aa49c787ec3b7aeadba04ab353359/pyroza-1.9.1.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [typed-api-framework]: Downloading https://files.pythonhosted.org/packages/35/50/bc51b386d32a4686d8a6fb1d7ffe3526839c351ab6a77ca8c9ca0d4a4ab6/typed-api-framework-0.0.1a5.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/38/67/f7488d0eaadfaeeb0177ca13a6f6aaee5bc6541ace792d217afb15be08fe/turbo_docs-1.0.2.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/20/86/8dce8950a21360cb88a9eed94b0e4fdf4829242a680dfe2a693d6f96e71c/pyLegendSS-0.7.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/7c/1b/76dd502b81c424fcf93aaa724d8174b79f9d1dcbad9d6abe9312b9d9eca6/gitcoll-0.0.19.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [wander]: Downloading https://files.pythonhosted.org/packages/42/fa/67abce4104fbdda9af09996944ca42f2fd836898daaaeb7a059b37dbec3e/wander-0.1.0.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/68/81/016a7da6b8d85dddfc145b3e99a84e1546c7a8e5030b12348bd794803d8f/manticore-0.3.8.dev230714.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [typed-api-framework]: Downloading https://files.pythonhosted.org/packages/33/75/cde9c720786b4be4d25b253d6870965bfed453c1b51cf80b1abb884ff22d/typed-api-framework-0.2.1a0.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyroza]: Downloading https://files.pythonhosted.org/packages/ba/23/1160407e3447091a12f4119f9c4bcb3b41359ff0ef7eea0f43bca5489c3d/pyroza-1.9.2.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [typed-api-framework]: executing diffoscope
+[2023-07-15 14:52:24] INFO root fetch - processPackages [typed-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-api-framework-0.0.1a5.tar.gz tmp/typed-api-framework-0.2.1a0.tar.gz --markdown 20230715/t/typed-api-framework/0.0.1a5-0.2.1a0/diff.md --exclude *.pyd
+[2023-07-15 14:52:24] INFO root fetch - processPackages [turbo-docs]: Downloading https://files.pythonhosted.org/packages/28/bb/b561c884f28d6b8d0a9d5e826f623452e0a5eeb9f82c63e89b009a3b9467/turbo_docs-1.0.3.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/b4/69/63d164fcafd24f64e7c2ee19ec77fde6d266b96c8879c03c9d867d07f544/pyLegendSS-0.8.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [wander]: Downloading https://files.pythonhosted.org/packages/07/d3/17ef40a9ea317b67fe383e75f27b33213fb4bd2d1ce44737d639f4eb020a/wander-0.1.1.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/4a/75/e31541d3d69cb22e4a0b900d988e0aec8f1c2b65e3a1610fd878262d90dc/gitcoll-0.0.20-py3-none-any.whl
+[2023-07-15 14:52:24] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/04/75/e07913d99208e1fc94c419170b64ba999576a84aebd97f9592cb108a165a/manticore-0.3.8.dev230715.tar.gz
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyroza]: executing diffoscope
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyroza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroza-1.9.1.tar.gz tmp/pyroza-1.9.2.tar.gz --markdown 20230715/p/pyroza/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-15 14:52:24] INFO root fetch - processPackages [turbo-docs]: executing diffoscope
+[2023-07-15 14:52:24] INFO root fetch - processPackages [turbo-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_docs-1.0.2.tar.gz tmp/turbo_docs-1.0.3.tar.gz --markdown 20230715/t/turbo-docs/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyLegendSS]: executing diffoscope
+[2023-07-15 14:52:24] INFO root fetch - processPackages [pyLegendSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLegendSS-0.7.tar.gz tmp/pyLegendSS-0.8.tar.gz --markdown 20230715/p/pyLegendSS/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-15 14:52:24] INFO root fetch - processPackages [wander]: executing diffoscope
+[2023-07-15 14:52:24] INFO root fetch - processPackages [wander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wander-0.1.0.tar.gz tmp/wander-0.1.1.tar.gz --markdown 20230715/w/wander/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 14:52:25] INFO root fetch - processPackages [gitcoll]: executing diffoscope
+[2023-07-15 14:52:25] INFO root fetch - processPackages [gitcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcoll-0.0.19.tar.gz tmp/gitcoll-0.0.20-py3-none-any.whl.zip --markdown 20230715/g/gitcoll/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-07-15 14:52:25] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-15 14:52:25] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230714.tar.gz tmp/manticore-0.3.8.dev230715.tar.gz --markdown 20230715/m/manticore/0.3.8.dev230714-0.3.8.dev230715/diff.md --exclude *.pyd
+[2023-07-15 14:52:25] INFO root fetch - processPackages [typed-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/typed-api-framework-0.0.1a5.tar.gz]
+[2023-07-15 14:52:25] INFO root fetch - processPackages [typed-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/typed-api-framework-0.2.1a0.tar.gz]
+[2023-07-15 14:52:25] INFO root fetch - main [MainThread]: End processing [typed-api-framework]: success
+[2023-07-15 14:52:25] INFO root fetch - processPackages [pyroza]: Remove: archive file [/home/abi/fetcher/tmp/pyroza-1.9.1.tar.gz]
+[2023-07-15 14:52:25] INFO root fetch - processPackages [pyroza]: Remove: archive file [/home/abi/fetcher/tmp/pyroza-1.9.2.tar.gz]
+[2023-07-15 14:52:25] INFO root fetch - main [MainThread]: End processing [pyroza]: success
+[2023-07-15 14:52:26] INFO root fetch - processPackages [wander]: Remove: archive file [/home/abi/fetcher/tmp/wander-0.1.0.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - processPackages [wander]: Remove: archive file [/home/abi/fetcher/tmp/wander-0.1.1.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: End processing [wander]: success
+[2023-07-15 14:52:26] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.2.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - processPackages [turbo-docs]: Remove: archive file [/home/abi/fetcher/tmp/turbo_docs-1.0.3.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: End processing [turbo-docs]: success
+[2023-07-15 14:52:26] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.7.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.8.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: End processing [pyLegendSS]: success
+[2023-07-15 14:52:26] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.19.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.20-py3-none-any.whl.zip]
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
+[2023-07-15 14:52:26] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230714.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230715.tar.gz]
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-15 14:52:26] INFO root fetch - main [MainThread]: Store serial: [18900415]
