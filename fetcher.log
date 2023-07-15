@@ -9936,3 +9936,149 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:15:10] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl.zip]
 [2023-07-15 15:15:10] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-07-15 15:15:10] INFO root fetch - main [MainThread]: Store serial: [18900584]
+[2023-07-15 15:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900584]
+[2023-07-15 15:20:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yet-another-wizz
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccinput
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SafoneAPI
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-sphinx
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-injection
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellar-extractor
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensesame-extension-osweb
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opensesame-core
+[2023-07-15 15:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lkmlfmt
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [ccinput]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [SafoneAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.1] Old Version: [2.0.0.0a8]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [python-injection]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [lkmlfmt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [yet-another-wizz]: New version: [2.5.post0] Old Version: [2.5.3]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/4c/56/206ce1b5d9d2f2e83969a9aa5e5e7ed470e430ace31c9b2c74bb98425421/python_injection-0.2.0.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/d2/b9/29ea7adac9b4de2ef9ab92fdb0f7a1628c3926c780fb3db0ddf88cb65147/yet_another_wizz-2.5.3.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [ccinput]: Downloading https://files.pythonhosted.org/packages/9f/c3/5b50c979b113ac840a80a5ba0a234be362c5b55705175df28fe843812b0d/ccinput-1.9.0.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/78/33/b93a2dc8a14ebbccac017c40f9ad51101fa24a5da1d305709ae16feb8282/cellar_extractor-1.0.51.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/d5/73/c75f30eb3fb7b91af16ac3dff6e6beec35ada68dcc876f9beb0ae8e36e08/opensesame_core-4.0.3.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/14/60/100f541b0714ea50eafd168a2e695f6bcf173e50ce02cdcbd13db7f6a192/SafoneAPI-1.0.8.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [lkmlfmt]: Downloading https://files.pythonhosted.org/packages/0a/39/aed58c9889ba87cc5c8aa84fc41bd44df9fc870681803696a644e2315e37/lkmlfmt-0.0.8.tar.gz
+[2023-07-15 15:20:19] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923512>=10485760
+[2023-07-15 15:20:19] INFO root fetch - processPackages [opensesame-core]: Start processing: oblv-client
+[2023-07-15 15:20:19] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [oblv-client]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-07-15 15:20:19] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/11/48/3d3f20e4c4481758ff5b3dd1643d6c9ecd76210a56a5f62f76574f4f70ee/python_injection-0.2.1.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [ccinput]: Downloading https://files.pythonhosted.org/packages/7c/89/20d480dc835069279e19a25e4a2d7dd6224c9949a1bad6cd7d0caf2c1a49/ccinput-1.9.1.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/73/9a/8329b7755adc383d52f9e137b86cc8843c9d6179fd9bda64ef05c2fe2389/cellar_extractor-1.0.52.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [yet-another-wizz]: Downloading https://files.pythonhosted.org/packages/22/77/13f66c1f947d8aa062564534678703b9c9d4a8f640323aa54a9bc8525113/yet_another_wizz-2.5.post0.tar.gz
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-15 15:20:19] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230715/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230715/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/46/96/ce59fca22c5f72595a3481a42b0fbbb9592bb412f7b0916fbee2e6fb8c5b/SafoneAPI-1.0.9.tar.gz
+[2023-07-15 15:20:20] INFO root fetch - processPackages [oblv-client]: Downloading https://files.pythonhosted.org/packages/7e/9d/19617cfd406ca8a97603cff7f05875dfd4f4737638ad6f8c0373208d6500/oblv_client-0.1.13-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 15:20:20] INFO root fetch - processPackages [python-injection]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [python-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_injection-0.2.0.tar.gz tmp/python_injection-0.2.1.tar.gz --markdown 20230715/p/python-injection/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [lkmlfmt]: Downloading https://files.pythonhosted.org/packages/6b/bf/89d3dae17c306674eb4602da8573e1c633c9bb4ca2553618845a014fd035/lkmlfmt-0.0.9.tar.gz
+[2023-07-15 15:20:20] INFO root fetch - processPackages [ccinput]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [ccinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccinput-1.9.0.tar.gz tmp/ccinput-1.9.1.tar.gz --markdown 20230715/c/ccinput/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e7/07/f70bec72d53823aef1dd3c088ee0f816dd953e0b90fba731c7b8168204c9/opensesame_extension_osweb-2.0.0.1.tar.gz
+[2023-07-15 15:20:20] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.51.tar.gz tmp/cellar_extractor-1.0.52.tar.gz --markdown 20230715/c/cellar-extractor/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [yet-another-wizz]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [yet-another-wizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz-2.5.3.tar.gz tmp/yet_another_wizz-2.5.post0.tar.gz --markdown 20230715/y/yet-another-wizz/2.5.3-2.5.post0/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [SafoneAPI]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [SafoneAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafoneAPI-1.0.8.tar.gz tmp/SafoneAPI-1.0.9.tar.gz --markdown 20230715/S/SafoneAPI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [lkmlfmt]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [lkmlfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkmlfmt-0.0.8.tar.gz tmp/lkmlfmt-0.0.9.tar.gz --markdown 20230715/l/lkmlfmt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-07-15 15:20:20] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz tmp/opensesame_extension_osweb-2.0.0.1.tar.gz --markdown 20230715/o/opensesame-extension-osweb/2.0.0.0a8-2.0.0.1/diff.md --exclude *.pyd
+[2023-07-15 15:20:20] INFO root fetch - processPackages [oblv-client]: Downloading https://files.pythonhosted.org/packages/3e/8c/6a675bf48f0215c4072fbfc6d5223ba63291f347d5e663942863cf97c96a/oblv_client-0.1.14-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-django]: Start processing: spyprot
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [spyprot]: New version: [0.8.4] Old Version: [0.8.2]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.2.0.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.2.1.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [python-injection]: Start processing: nbdev-apl
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [python-injection]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.896] Old Version: [0.0.895]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nonebot-plugin-sleep
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.51.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.52.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [cellar-extractor]: Start processing: policyengine-us
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [policyengine-us]: New version: [0.365.0] Old Version: [0.364.1]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nonebot-plugin-sleep]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1a/6f/69ce5489f378658aa7dbddf634cacce9396cee0ad1acc82b0d4959eb7c8a/nbdev-apl-0.0.895.tar.gz
+[2023-07-15 15:20:21] INFO root fetch - processPackages [spyprot]: Downloading https://files.pythonhosted.org/packages/cd/fb/86503b0e99345a9fd9504f492fff1fa6b7db30282d13f58c59dde4735170/spyprot-0.8.2-py3-none-any.whl
+[2023-07-15 15:20:21] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.8.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.9.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [SafoneAPI]: Start processing: daves-utilities
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [SafoneAPI]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [oblv-client]: executing diffoscope
+[2023-07-15 15:20:21] INFO root fetch - processPackages [oblv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblv_client-0.1.13-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/oblv_client-0.1.14-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230715/o/oblv-client/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-07-15 15:20:21] INFO root fetch - processPackages [lkmlfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkmlfmt-0.0.8.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [lkmlfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkmlfmt-0.0.9.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [lkmlfmt]: Start processing: BabitMF
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [lkmlfmt]: success
+[2023-07-15 15:20:21] INFO root fetch - processPackages [ccinput]: Remove: archive file [/home/abi/fetcher/tmp/ccinput-1.9.0.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [ccinput]: Remove: archive file [/home/abi/fetcher/tmp/ccinput-1.9.1.tar.gz]
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [ccinput]: success
+[2023-07-15 15:20:21] WARNING root fetch - processPackages [BabitMF]: Skipping, unable to determine old version
+[2023-07-15 15:20:21] INFO root fetch - main [MainThread]: End processing [BabitMF] error
+[2023-07-15 15:20:21] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e6/e7/f855522606bd941d2d0d82bb440fa45467882c2f20c8deb321b1df58e0cb/policyengine-us-0.364.1.tar.gz
+[2023-07-15 15:20:21] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 15:20:21] INFO root fetch - processPackages [nonebot-plugin-sleep]: Downloading https://files.pythonhosted.org/packages/1d/4b/441971baa1382fc0d841dbc762062020206ed831c36f7c5690ab917e8c9a/nonebot-plugin-sleep-0.0.1.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.3.tar.gz]
+[2023-07-15 15:20:22] INFO root fetch - processPackages [yet-another-wizz]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz-2.5.post0.tar.gz]
+[2023-07-15 15:20:22] INFO root fetch - main [MainThread]: End processing [yet-another-wizz]: success
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/27/85/e4b96095d358812c2e95cd19c205aedb0f2ebec912cc5fd067aff98d3c23/nbdev-apl-0.0.896.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [spyprot]: Downloading https://files.pythonhosted.org/packages/e8/30/3ee2a09e0bf5ab30ad4a8cb1ba225f25a206fff254a6bd368f7e25aa6f21/spyprot-0.8.4-py3-none-any.whl
+[2023-07-15 15:20:22] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/c8/29/37d16e8553a06006d0e79bf4c5fc6d4c1a521093020e1312ce2d44a840d3/daves_utilities-0.1.1.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nonebot-plugin-sleep]: Downloading https://files.pythonhosted.org/packages/24/ae/a3a20eaf47d0666811e30eeb9214abb97d0e7c07e8a6a69fa4e887355982/nonebot-plugin-sleep-0.0.2.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.895.tar.gz tmp/nbdev-apl-0.0.896.tar.gz --markdown 20230715/n/nbdev-apl/0.0.895-0.0.896/diff.md --exclude *.pyd
+[2023-07-15 15:20:22] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2a/a7/0ce9bb5cb156c8312cc8fecdd0220b73debc4c3a1f370a8816c14af1c6a7/policyengine-us-0.365.0.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [spyprot]: executing diffoscope
+[2023-07-15 15:20:22] INFO root fetch - processPackages [spyprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyprot-0.8.2-py3-none-any.whl.zip tmp/spyprot-0.8.4-py3-none-any.whl.zip --markdown 20230715/s/spyprot/0.8.2-0.8.4/diff.md --exclude *.pyd
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nonebot-plugin-sleep]: executing diffoscope
+[2023-07-15 15:20:22] INFO root fetch - processPackages [nonebot-plugin-sleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sleep-0.0.1.tar.gz tmp/nonebot-plugin-sleep-0.0.2.tar.gz --markdown 20230715/n/nonebot-plugin-sleep/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 15:20:22] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/df/54/e8bd825bc33da87b71e5382fe16a97909267f9ce7632bcb65e63098e3f94/daves_utilities-0.1.2.tar.gz
+[2023-07-15 15:20:22] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-15 15:20:22] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.364.1.tar.gz tmp/policyengine-us-0.365.0.tar.gz --markdown 20230715/p/policyengine-us/0.364.1-0.365.0/diff.md --exclude *.pyd
+[2023-07-15 15:20:22] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 15:20:22] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.1.tar.gz tmp/daves_utilities-0.1.2.tar.gz --markdown 20230715/d/daves-utilities/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 15:20:23] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.895.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.896.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-15 15:20:23] INFO root fetch - processPackages [spyprot]: Remove: archive file [/home/abi/fetcher/tmp/spyprot-0.8.2-py3-none-any.whl.zip]
+[2023-07-15 15:20:23] INFO root fetch - processPackages [spyprot]: Remove: archive file [/home/abi/fetcher/tmp/spyprot-0.8.4-py3-none-any.whl.zip]
+[2023-07-15 15:20:23] INFO root fetch - main [MainThread]: End processing [spyprot]: success
+[2023-07-15 15:20:23] INFO root fetch - processPackages [nonebot-plugin-sleep]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sleep-0.0.1.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - processPackages [nonebot-plugin-sleep]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sleep-0.0.2.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sleep]: success
+[2023-07-15 15:20:23] INFO root fetch - processPackages [oblv-client]: Remove: archive file [/home/abi/fetcher/tmp/oblv_client-0.1.13-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-15 15:20:23] INFO root fetch - processPackages [oblv-client]: Remove: archive file [/home/abi/fetcher/tmp/oblv_client-0.1.14-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-15 15:20:23] INFO root fetch - main [MainThread]: End processing [oblv-client]: success
+[2023-07-15 15:20:23] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.1.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.2.tar.gz]
+[2023-07-15 15:20:23] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 15:20:35] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz]
+[2023-07-15 15:20:35] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.1.tar.gz]
+[2023-07-15 15:20:35] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-07-15 15:20:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.364.1.tar.gz]
+[2023-07-15 15:20:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.365.0.tar.gz]
+[2023-07-15 15:20:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-15 15:20:48] INFO root fetch - main [MainThread]: Store serial: [18900657]
