@@ -4462,3 +4462,51 @@
 [2023-07-15 06:04:15] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230714.tar.gz]
 [2023-07-15 06:04:15] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
 [2023-07-15 06:04:15] INFO root fetch - main [MainThread]: Store serial: [18897842]
+[2023-07-15 06:09:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897842]
+[2023-07-15 06:09:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch-conda-build
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ladybug-geometry-polyskel
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noiseflow
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ec2-manager
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capsula
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ladybug-geometry-polyskel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-15 06:09:24] INFO root fetch - processPackages [noiseflow]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-15 06:09:24] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 06:09:24] INFO root fetch - processPackages [capsula]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ec2-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 06:09:24] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/c0/f9/bed403d3aff35a1e6a9a8c1ab9d94b2e53054af370e15362dd7ec5d2ed12/capsula-0.0.7.tar.gz
+[2023-07-15 06:09:24] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/0a/c1/c5fbca93c2b3007a9ab2db4c69ff617fcdee4d3d5023aa5a6d16e553650b/hatch_conda_build-0.0.4.tar.gz
+[2023-07-15 06:09:24] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/70/a4/3886c230dd5638c38bc22e301d1316c55197f4909db218feb0b686d8d0ca/ladybug-geometry-polyskel-1.4.8.tar.gz
+[2023-07-15 06:09:24] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/42/0d/0655a050c4f605e9b96d206257839be1e0e61f34f752e9464a7d38624c78/noiseflow-0.0.9.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ec2-manager]: Downloading https://files.pythonhosted.org/packages/eb/9a/b7e985ac02c50bf64b1b2ebddea98389fc4d30a94aaaa0a6f68114e392d6/ec2-manager-0.0.8.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/79/c9/12745a1f0b2a8ac816508c73451290c451f6ef8c38265ba800a381aa2575/hatch_conda_build-0.0.5.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 06:09:25] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.4.tar.gz tmp/hatch_conda_build-0.0.5.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 06:09:25] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/db/b4/b23076cbeb435f07f8cf0c44b28e70bea4db02dd38ed591fea176d5ed367/noiseflow-0.1.0-cp310-cp310-win_amd64.whl
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Downloading https://files.pythonhosted.org/packages/66/a8/40ffbd6d2853e09d79d44a42df2f0eb3ad91930a41d2879849788b686b64/ladybug-geometry-polyskel-1.4.9.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [capsula]: Downloading https://files.pythonhosted.org/packages/7d/c4/def8d08198b8a888674c564686a8cf42a4d81fc38235562ed7e76b8ca787/capsula-0.0.9.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-07-15 06:09:25] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.9.tar.gz tmp/noiseflow-0.1.0-cp310-cp310-win_amd64.whl.zip --markdown 20230715/n/noiseflow/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ladybug-geometry-polyskel]: executing diffoscope
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ladybug-geometry-polyskel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-polyskel-1.4.8.tar.gz tmp/ladybug-geometry-polyskel-1.4.9.tar.gz --markdown 20230715/l/ladybug-geometry-polyskel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-15 06:09:25] INFO root fetch - processPackages [capsula]: executing diffoscope
+[2023-07-15 06:09:25] INFO root fetch - processPackages [capsula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsula-0.0.7.tar.gz tmp/capsula-0.0.9.tar.gz --markdown 20230715/c/capsula/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ec2-manager]: Downloading https://files.pythonhosted.org/packages/4c/55/7c26bfa3f3aebcc33ddb76e4c01d21b333f5c1779085919f5a58e9ea7408/ec2-manager-0.0.9.tar.gz
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ec2-manager]: executing diffoscope
+[2023-07-15 06:09:25] INFO root fetch - processPackages [ec2-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-manager-0.0.8.tar.gz tmp/ec2-manager-0.0.9.tar.gz --markdown 20230715/e/ec2-manager/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 06:09:25] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.4.tar.gz]
+[2023-07-15 06:09:25] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.5.tar.gz]
+[2023-07-15 06:09:25] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 06:09:26] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.9.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.1.0-cp310-cp310-win_amd64.whl.zip]
+[2023-07-15 06:09:26] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-07-15 06:09:26] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.8.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - processPackages [ladybug-geometry-polyskel]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-polyskel-1.4.9.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - main [MainThread]: End processing [ladybug-geometry-polyskel]: success
+[2023-07-15 06:09:26] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.7.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - processPackages [capsula]: Remove: archive file [/home/abi/fetcher/tmp/capsula-0.0.9.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - main [MainThread]: End processing [capsula]: success
+[2023-07-15 06:09:26] INFO root fetch - processPackages [ec2-manager]: Remove: archive file [/home/abi/fetcher/tmp/ec2-manager-0.0.8.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - processPackages [ec2-manager]: Remove: archive file [/home/abi/fetcher/tmp/ec2-manager-0.0.9.tar.gz]
+[2023-07-15 06:09:26] INFO root fetch - main [MainThread]: End processing [ec2-manager]: success
+[2023-07-15 06:09:26] INFO root fetch - main [MainThread]: Store serial: [18897856]
