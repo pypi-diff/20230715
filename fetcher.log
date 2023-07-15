@@ -12996,3 +12996,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:28:54] INFO root fetch - processPackages [gallery-dl]: Remove: archive file [/home/abi/fetcher/tmp/gallery_dl-1.9.0.tar.gz]
 [2023-07-15 19:28:54] INFO root fetch - main [MainThread]: End processing [gallery-dl]: success
 [2023-07-15 19:28:54] INFO root fetch - main [MainThread]: Store serial: [18902109]
+[2023-07-15 19:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902109]
+[2023-07-15 19:34:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 19:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-07-15 19:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revealjs
+[2023-07-15 19:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysmartapp
+[2023-07-15 19:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-spy
+[2023-07-15 19:34:03] WARNING root fetch - processPackages [revealjs]: Skipping, unable to determine old version
+[2023-07-15 19:34:03] INFO root fetch - main [MainThread]: End processing [revealjs] error
+[2023-07-15 19:34:03] INFO root fetch - processPackages [pysmartapp]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-15 19:34:03] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-15 19:34:03] INFO root fetch - processPackages [aws-spy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 19:34:03] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/ac/d8/905bd848213e368f1a3b35fc042398707bec40ef118774c7b2bfcc49e6f8/aws_spy-0.2.8.tar.gz
+[2023-07-15 19:34:03] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-15 19:34:03] INFO root fetch - processPackages [pysmartapp]: Downloading https://files.pythonhosted.org/packages/f9/eb/f951fe3c00ea69a1144b6847cdad1d779957fd5f55a38a53ed6779966420/pysmartapp-0.3.4.tar.gz
+[2023-07-15 19:34:04] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-15 19:34:04] INFO root fetch - processPackages [pysmartapp]: Downloading https://files.pythonhosted.org/packages/c6/fb/75ccc9343b4f3243c4e69c671f9b8e3a67bef13ce898d90514a68023d6bd/pysmartapp-0.3.5.tar.gz
+[2023-07-15 19:34:04] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fa/fb/7264c6b32402fc2a284a39163748686d86d0b0772b9664dc2fef35d84db3/aws_spy-0.2.9.tar.gz
+[2023-07-15 19:34:04] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-15 19:34:04] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230715/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-15 19:34:04] INFO root fetch - processPackages [pysmartapp]: executing diffoscope
+[2023-07-15 19:34:04] INFO root fetch - processPackages [pysmartapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmartapp-0.3.4.tar.gz tmp/pysmartapp-0.3.5.tar.gz --markdown 20230715/p/pysmartapp/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-15 19:34:04] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-15 19:34:04] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.8.tar.gz tmp/aws_spy-0.2.9.tar.gz --markdown 20230715/a/aws-spy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 19:34:05] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-15 19:34:05] INFO root fetch - processPackages [pysmartapp]: Remove: archive file [/home/abi/fetcher/tmp/pysmartapp-0.3.4.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - processPackages [pysmartapp]: Remove: archive file [/home/abi/fetcher/tmp/pysmartapp-0.3.5.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - main [MainThread]: End processing [pysmartapp]: success
+[2023-07-15 19:34:05] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.8.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.9.tar.gz]
+[2023-07-15 19:34:05] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-15 19:34:05] INFO root fetch - main [MainThread]: Store serial: [18902125]
