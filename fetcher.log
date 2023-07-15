@@ -15246,3 +15246,60 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:17:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
 [2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-07-15 23:17:32] INFO root fetch - main [MainThread]: Store serial: [18903069]
+[2023-07-15 23:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903069]
+[2023-07-15 23:22:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiggler-studiorabota
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-lambda-env-modeler
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioesphomeapi
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terrainman
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbta-gtfs-sqlite
+[2023-07-15 23:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m23
+[2023-07-15 23:22:41] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [aws-lambda-env-modeler]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.26]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [mbta-gtfs-sqlite]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [m23]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-15 23:22:41] INFO root fetch - processPackages [aws-lambda-env-modeler]: Downloading https://files.pythonhosted.org/packages/1d/79/81fd079827d89bf590a4c2af824e0c375d465145409c87d128c36dbed0f3/aws_lambda_env_modeler-1.0.1.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/37/bb/5f51abc121151333c4657100b858fe4c0a19200c5bf9988ddf3dc5d474bb/terrainman-0.0.26.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/25/1b/1cd98c7359d0d7840ad83680e5f0bb5c3ad5d40ae326078dcec90b87590d/m23-1.9.3.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/70/a8/f415b4a818fbde0089b7a3270ce0b296e52cb63d89b2c82655d08227ce17/mbta-gtfs-sqlite-0.9.9.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [aws-lambda-env-modeler]: Downloading https://files.pythonhosted.org/packages/cf/af/ae005e3e7009d174c811f1f49cabc6df218e4d21e0096fbedd2041e2888a/aws_lambda_env_modeler-1.0.2.tar.gz
+[2023-07-15 23:22:41] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 23:22:41] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/fe/43/bf0422921a1004e9cf40162886da12e56abfd85b14bee14d0c0302891b73/terrainman-0.0.9.tar.gz
+[2023-07-15 23:22:42] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-15 23:22:42] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/9e/bc/8d777ede926cbeafd5d85328370e8444846a25cfa349da3ad4be61098f74/mbta_gtfs_sqlite-1.0.0.tar.gz
+[2023-07-15 23:22:42] INFO root fetch - processPackages [aws-lambda-env-modeler]: executing diffoscope
+[2023-07-15 23:22:42] INFO root fetch - processPackages [aws-lambda-env-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_env_modeler-1.0.1.tar.gz tmp/aws_lambda_env_modeler-1.0.2.tar.gz --markdown 20230715/a/aws-lambda-env-modeler/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-07-15 23:22:42] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.26.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230715/t/terrainman/0.0.26-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-15 23:22:42] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230715/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [mbta-gtfs-sqlite]: executing diffoscope
+[2023-07-15 23:22:42] INFO root fetch - processPackages [mbta-gtfs-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbta-gtfs-sqlite-0.9.9.tar.gz tmp/mbta_gtfs_sqlite-1.0.0.tar.gz --markdown 20230715/m/mbta-gtfs-sqlite/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/b7/73/ef1e5a9923185ad2d38db84efb87e8d93114907ae85cca94cb643e419634/m23-1.9.4.tar.gz
+[2023-07-15 23:22:42] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-07-15 23:22:42] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.9.3.tar.gz tmp/m23-1.9.4.tar.gz --markdown 20230715/m/m23/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-15 23:22:42] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 23:22:42] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 23:22:42] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 23:22:43] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.26.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.9.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-07-15 23:22:43] INFO root fetch - processPackages [aws-lambda-env-modeler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_env_modeler-1.0.1.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - processPackages [aws-lambda-env-modeler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_env_modeler-1.0.2.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - main [MainThread]: End processing [aws-lambda-env-modeler]: success
+[2023-07-15 23:22:43] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mbta-gtfs-sqlite-0.9.9.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mbta_gtfs_sqlite-1.0.0.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - main [MainThread]: End processing [mbta-gtfs-sqlite]: success
+[2023-07-15 23:22:43] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-15 23:22:43] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-15 23:22:44] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.3.tar.gz]
+[2023-07-15 23:22:44] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.9.4.tar.gz]
+[2023-07-15 23:22:44] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-07-15 23:22:44] INFO root fetch - main [MainThread]: Store serial: [18903094]
