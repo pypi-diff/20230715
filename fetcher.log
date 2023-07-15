@@ -5709,3 +5709,39 @@
 [2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
 [2023-07-15 08:06:02] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
 [2023-07-15 08:06:02] INFO root fetch - main [MainThread]: Store serial: [18898476]
+[2023-07-15 08:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898476]
+[2023-07-15 08:11:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 08:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-thumb
+[2023-07-15 08:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyutil
+[2023-07-15 08:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpesa-connect
+[2023-07-15 08:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: estela-queue-adapter
+[2023-07-15 08:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: factool
+[2023-07-15 08:11:11] INFO root fetch - processPackages [mpesa-connect]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-07-15 08:11:11] WARNING root fetch - processPackages [estela-queue-adapter]: Skipping, unable to determine old version
+[2023-07-15 08:11:11] INFO root fetch - processPackages [nb-thumb]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 08:11:11] INFO root fetch - main [MainThread]: End processing [estela-queue-adapter] error
+[2023-07-15 08:11:11] WARNING root fetch - processPackages [factool]: Skipping, unable to determine old version
+[2023-07-15 08:11:11] INFO root fetch - main [MainThread]: End processing [factool] error
+[2023-07-15 08:11:11] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-07-15 08:11:11] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/da/55/92b671257b24d5b2ea5f928309b920c865c6499450e6126e82aa8253a83e/nb-thumb-0.0.5.tar.gz
+[2023-07-15 08:11:11] INFO root fetch - processPackages [mpesa-connect]: Downloading https://files.pythonhosted.org/packages/22/9a/5399250813d33efeb64dea5255fef0c86f210df7f6819a1e624d754e2dfe/mpesa_connect-0.1.1.tar.gz
+[2023-07-15 08:11:11] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-07-15 08:11:11] INFO root fetch - processPackages [nb-thumb]: Downloading https://files.pythonhosted.org/packages/48/f8/38ee6cfa4dc47f7f620c12c66c978b5e01030a5d705c8767ad07fc8db950/nb-thumb-0.0.6.tar.gz
+[2023-07-15 08:11:11] INFO root fetch - processPackages [mpesa-connect]: Downloading https://files.pythonhosted.org/packages/e0/c6/5f295200a5f68b941a388d063cecdddb6253bad22ca36fbee22bb3d429f2/mpesa_connect-0.1.4.tar.gz
+[2023-07-15 08:11:11] INFO root fetch - processPackages [nb-thumb]: executing diffoscope
+[2023-07-15 08:11:11] INFO root fetch - processPackages [nb-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb-thumb-0.0.5.tar.gz tmp/nb-thumb-0.0.6.tar.gz --markdown 20230715/n/nb-thumb/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 08:11:11] INFO root fetch - processPackages [mpesa-connect]: executing diffoscope
+[2023-07-15 08:11:11] INFO root fetch - processPackages [mpesa-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpesa_connect-0.1.1.tar.gz tmp/mpesa_connect-0.1.4.tar.gz --markdown 20230715/m/mpesa-connect/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230715/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-07-15 08:11:12] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.5.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - processPackages [nb-thumb]: Remove: archive file [/home/abi/fetcher/tmp/nb-thumb-0.0.6.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - main [MainThread]: End processing [nb-thumb]: success
+[2023-07-15 08:11:12] INFO root fetch - processPackages [mpesa-connect]: Remove: archive file [/home/abi/fetcher/tmp/mpesa_connect-0.1.1.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - processPackages [mpesa-connect]: Remove: archive file [/home/abi/fetcher/tmp/mpesa_connect-0.1.4.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - main [MainThread]: End processing [mpesa-connect]: success
+[2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-07-15 08:11:12] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-07-15 08:11:12] INFO root fetch - main [MainThread]: Store serial: [18898499]
