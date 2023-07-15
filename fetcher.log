@@ -3226,3 +3226,66 @@
 [2023-07-15 03:47:53] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
 [2023-07-15 03:47:53] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
 [2023-07-15 03:47:53] INFO root fetch - main [MainThread]: Store serial: [18897231]
+[2023-07-15 03:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897231]
+[2023-07-15 03:53:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-graph-sdk
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autonomy-dev
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scotthsieh-projen-statemachine
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scale-llm-engine
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-vpclattice-prealpha
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diff-cover
+[2023-07-15 03:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ucdp
+[2023-07-15 03:53:01] INFO root fetch - processPackages [prompt-graph-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-15 03:53:01] WARNING root fetch - processPackages [ucdp]: Skipping, unable to determine old version
+[2023-07-15 03:53:01] INFO root fetch - main [MainThread]: End processing [ucdp] error
+[2023-07-15 03:53:01] WARNING root fetch - processPackages [scale-llm-engine]: Skipping, unable to determine old version
+[2023-07-15 03:53:01] INFO root fetch - main [MainThread]: End processing [scale-llm-engine] error
+[2023-07-15 03:53:01] INFO root fetch - processPackages [aws-vpclattice-prealpha]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-15 03:53:01] INFO root fetch - processPackages [autonomy-dev]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-15 03:53:01] INFO root fetch - processPackages [diff-cover]: New version: [7.7.0] Old Version: [7.6.1]
+[2023-07-15 03:53:01] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-15 03:53:01] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.895] Old Version: [0.0.894]
+[2023-07-15 03:53:01] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/f3/75/5cb1434f8ea202c6d6fe5b009f11f4309ef2a2ba01c83ac789dba5290fe6/prompt_graph_sdk-0.1.6.tar.gz
+[2023-07-15 03:53:01] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/3b/57/70bf757bae0f7fba92f84ebf75ec0e184cbaa18ae61b8e98639061726b73/autonomy_dev-0.2.5.tar.gz
+[2023-07-15 03:53:01] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-15 03:53:01] INFO root fetch - processPackages [diff-cover]: Downloading https://files.pythonhosted.org/packages/2d/6c/41c8d3f0780b5de55cea25453a5f2a1160f4ba2d8760c01bbf6cf2669d66/diff_cover-7.6.1.tar.gz
+[2023-07-15 03:53:01] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1b/fb/6e10a0040541035d489dc11992ebd8466a6b312596674c0717b89f18767e/nbdev-apl-0.0.894.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/e5/ac/135ec4e241c1ee3399f4990859860004c5ef9ce399df09d05d06e6d941a9/aws-vpclattice-prealpha-0.4.8.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [prompt-graph-sdk]: Downloading https://files.pythonhosted.org/packages/21/ba/774771b18667d4d7260894cc7208ca9ec44a5b4419b39912ba63e339071d/prompt_graph_sdk-0.1.7.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [autonomy-dev]: Downloading https://files.pythonhosted.org/packages/f8/35/c83912c649bd1cd2e68f855c8d80ec216005b6f3fa0d07b22591ff68c683/autonomy_dev-0.2.6.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [autonomy-dev]: executing diffoscope
+[2023-07-15 03:53:02] INFO root fetch - processPackages [autonomy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomy_dev-0.2.5.tar.gz tmp/autonomy_dev-0.2.6.tar.gz --markdown 20230715/a/autonomy-dev/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-15 03:53:02] INFO root fetch - processPackages [prompt-graph-sdk]: executing diffoscope
+[2023-07-15 03:53:02] INFO root fetch - processPackages [prompt-graph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_graph_sdk-0.1.6.tar.gz tmp/prompt_graph_sdk-0.1.7.tar.gz --markdown 20230715/p/prompt-graph-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-15 03:53:02] INFO root fetch - processPackages [diff-cover]: Downloading https://files.pythonhosted.org/packages/37/c2/f1919023fea5079b479d97793c368db8dd337170a7dbc4b5e76c1fc29d12/diff_cover-7.7.0.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Downloading https://files.pythonhosted.org/packages/d6/94/5a78b9baa62a809008186ec56f6c15eb6876d2955b1c52f45ffd7e7984b5/aws-vpclattice-prealpha-0.4.9.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [diff-cover]: executing diffoscope
+[2023-07-15 03:53:02] INFO root fetch - processPackages [diff-cover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diff_cover-7.6.1.tar.gz tmp/diff_cover-7.7.0.tar.gz --markdown 20230715/d/diff-cover/7.6.1-7.7.0/diff.md --exclude *.pyd
+[2023-07-15 03:53:02] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1a/6f/69ce5489f378658aa7dbddf634cacce9396cee0ad1acc82b0d4959eb7c8a/nbdev-apl-0.0.895.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-15 03:53:02] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.894.tar.gz tmp/nbdev-apl-0.0.895.tar.gz --markdown 20230715/n/nbdev-apl/0.0.894-0.0.895/diff.md --exclude *.pyd
+[2023-07-15 03:53:02] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-15 03:53:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: executing diffoscope
+[2023-07-15 03:53:02] INFO root fetch - processPackages [aws-vpclattice-prealpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-vpclattice-prealpha-0.4.8.tar.gz tmp/aws-vpclattice-prealpha-0.4.9.tar.gz --markdown 20230715/a/aws-vpclattice-prealpha/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-15 03:53:03] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.5.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - processPackages [autonomy-dev]: Remove: archive file [/home/abi/fetcher/tmp/autonomy_dev-0.2.6.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - main [MainThread]: End processing [autonomy-dev]: success
+[2023-07-15 03:53:03] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-15 03:53:03] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230715/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-15 03:53:03] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.894.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.895.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-15 03:53:03] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.4.8.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - processPackages [aws-vpclattice-prealpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-vpclattice-prealpha-0.4.9.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - main [MainThread]: End processing [aws-vpclattice-prealpha]: success
+[2023-07-15 03:53:03] INFO root fetch - processPackages [diff-cover]: Remove: archive file [/home/abi/fetcher/tmp/diff_cover-7.6.1.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - processPackages [diff-cover]: Remove: archive file [/home/abi/fetcher/tmp/diff_cover-7.7.0.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - main [MainThread]: End processing [diff-cover]: success
+[2023-07-15 03:53:03] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.6.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - processPackages [prompt-graph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/prompt_graph_sdk-0.1.7.tar.gz]
+[2023-07-15 03:53:03] INFO root fetch - main [MainThread]: End processing [prompt-graph-sdk]: success
+[2023-07-15 03:53:04] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-15 03:53:04] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-15 03:53:04] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-15 03:53:04] INFO root fetch - main [MainThread]: Store serial: [18897270]
