@@ -3828,3 +3828,33 @@
 [2023-07-15 05:01:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230715.tar.gz]
 [2023-07-15 05:01:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-15 05:01:07] INFO root fetch - main [MainThread]: Store serial: [18897501]
+[2023-07-15 05:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897501]
+[2023-07-15 05:06:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 05:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labml-nn
+[2023-07-15 05:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defcli
+[2023-07-15 05:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexflow
+[2023-07-15 05:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: problem-bank-scripts
+[2023-07-15 05:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htmx
+[2023-07-15 05:06:16] WARNING root fetch - processPackages [defcli]: Skipping, unable to determine old version
+[2023-07-15 05:06:16] INFO root fetch - main [MainThread]: End processing [defcli] error
+[2023-07-15 05:06:16] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-15 05:06:16] INFO root fetch - processPackages [labml-nn]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-15 05:06:16] WARNING root fetch - processPackages [flexflow]: Skipping, unable to determine old version
+[2023-07-15 05:06:16] INFO root fetch - main [MainThread]: End processing [flexflow] error
+[2023-07-15 05:06:16] WARNING root fetch - processPackages [htmx]: Skipping, unable to determine old version
+[2023-07-15 05:06:16] INFO root fetch - main [MainThread]: End processing [htmx] error
+[2023-07-15 05:06:16] INFO root fetch - processPackages [labml-nn]: Downloading https://files.pythonhosted.org/packages/00/20/64d70f44bb5a4c70ffb5beebdb0e55ec065cf5e5ce0be1eb2553ec076373/labml-nn-0.4.98.tar.gz
+[2023-07-15 05:06:16] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/be/57/e4f061603d43ac26c9319ab01f0e7ff9e0213af49d83bf3877d9759e5044/problem_bank_scripts-0.8.1.tar.gz
+[2023-07-15 05:06:16] INFO root fetch - processPackages [labml-nn]: Downloading https://files.pythonhosted.org/packages/6e/9c/cb8aae3f1718b0273e8e9adb11f0a99b8874f93c81740dd70fb0f319fce3/labml-nn-0.4.99.tar.gz
+[2023-07-15 05:06:16] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/73/e3/90cd6d47599e019a94e34876b31bc7e525068530ed1bdea7b45f2339ea7a/problem_bank_scripts-0.8.2.tar.gz
+[2023-07-15 05:06:16] INFO root fetch - processPackages [labml-nn]: executing diffoscope
+[2023-07-15 05:06:16] INFO root fetch - processPackages [labml-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml-nn-0.4.98.tar.gz tmp/labml-nn-0.4.99.tar.gz --markdown 20230715/l/labml-nn/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-15 05:06:16] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-15 05:06:16] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.8.1.tar.gz tmp/problem_bank_scripts-0.8.2.tar.gz --markdown 20230715/p/problem-bank-scripts/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-15 05:06:17] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.1.tar.gz]
+[2023-07-15 05:06:17] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.2.tar.gz]
+[2023-07-15 05:06:17] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-15 05:06:17] INFO root fetch - processPackages [labml-nn]: Remove: archive file [/home/abi/fetcher/tmp/labml-nn-0.4.98.tar.gz]
+[2023-07-15 05:06:17] INFO root fetch - processPackages [labml-nn]: Remove: archive file [/home/abi/fetcher/tmp/labml-nn-0.4.99.tar.gz]
+[2023-07-15 05:06:17] INFO root fetch - main [MainThread]: End processing [labml-nn]: success
+[2023-07-15 05:06:17] INFO root fetch - main [MainThread]: Store serial: [18897532]
