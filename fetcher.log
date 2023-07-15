@@ -7820,3 +7820,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 11:39:43] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.4.0.tar.gz]
 [2023-07-15 11:39:43] INFO root fetch - main [MainThread]: End processing [umap-project]: success
 [2023-07-15 11:39:43] INFO root fetch - main [MainThread]: Store serial: [18899529]
+[2023-07-15 11:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899529]
+[2023-07-15 11:44:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-15 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prometheus-fastapi-instrumentator
+[2023-07-15 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychoanalyze
+[2023-07-15 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyacaia-async
+[2023-07-15 11:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiggler-studiorabota
+[2023-07-15 11:44:53] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-15 11:44:53] INFO root fetch - processPackages [psychoanalyze]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-15 11:44:53] INFO root fetch - processPackages [pyacaia-async]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 11:44:53] INFO root fetch - processPackages [crypto-screening]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-07-15 11:44:53] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 11:44:53] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: Downloading https://files.pythonhosted.org/packages/28/26/2cf61a59fd24ee2c0ac964fae54b08d40de8083c316745a924aaad1576fd/prometheus_fastapi_instrumentator-6.0.0.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4c/46/d96e0d806b2dd9068b3bfbfc12d967a8be16b719567d5994cb4dcf2ee0e9/crypto-screening-5.1.3.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/05/42/34053dbc292e491a0989ad0d983b4fa12bbafd4eb8590cba518c21cb0d42/wiggler_studiorabota-0.0.3.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/3e/c3/af8ca455fc898761f645e4c1d279f98056ad7bdb3dd43d829451a6032fdb/psychoanalyze-0.5.0.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/a1/d5/9c98e66c9a45985d1036e290a8f48484fc502c740ad88efad1feb226a657/pyacaia_async-0.0.3.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/12/3f/138f129bf6cb4e33837a074a7f70ce4e1ed99f3b93177b7f4695f6138738/crypto-screening-5.1.4.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/10/b3/b08cc4da7638a09ca8a712f9043dae17384002acd051ec4ff0a1bac9d96a/wiggler_studiorabota-0.0.4.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: Downloading https://files.pythonhosted.org/packages/83/51/a1a81fe6996c6386885ec96a3027693f1ca5632f9de2dc61690de11273ce/prometheus_fastapi_instrumentator-6.1.0.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/4f/1c/ea3bad1c78abf551fc0fb84692914d3444aafcab68a60fc5fc54fe215230/psychoanalyze-0.6.0.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-15 11:44:53] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.1.3.tar.gz tmp/crypto-screening-5.1.4.tar.gz --markdown 20230715/c/crypto-screening/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-07-15 11:44:53] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 11:44:53] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.3.tar.gz tmp/wiggler_studiorabota-0.0.4.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 11:44:53] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-15 11:44:53] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.5.0.tar.gz tmp/psychoanalyze-0.6.0.tar.gz --markdown 20230715/p/psychoanalyze/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-15 11:44:53] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: executing diffoscope
+[2023-07-15 11:44:53] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_fastapi_instrumentator-6.0.0.tar.gz tmp/prometheus_fastapi_instrumentator-6.1.0.tar.gz --markdown 20230715/p/prometheus-fastapi-instrumentator/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-15 11:44:53] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/e4/5f/8f4a9adf3b155f843be08486f9c0145de8adfb9429d73f826058902ab881/pyacaia_async-0.0.4.tar.gz
+[2023-07-15 11:44:53] INFO root fetch - processPackages [pyacaia-async]: executing diffoscope
+[2023-07-15 11:44:53] INFO root fetch - processPackages [pyacaia-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacaia_async-0.0.3.tar.gz tmp/pyacaia_async-0.0.4.tar.gz --markdown 20230715/p/pyacaia-async/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 11:44:54] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.3.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.4.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 11:44:54] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_fastapi_instrumentator-6.0.0.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - processPackages [prometheus-fastapi-instrumentator]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_fastapi_instrumentator-6.1.0.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [prometheus-fastapi-instrumentator]: success
+[2023-07-15 11:44:54] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.5.0.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.0.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-15 11:44:54] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.3.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.1.4.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-15 11:44:54] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.3.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.4.tar.gz]
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
+[2023-07-15 11:44:54] INFO root fetch - main [MainThread]: Store serial: [18899545]
