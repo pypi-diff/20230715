@@ -1610,3 +1610,87 @@
 [2023-07-15 01:55:51] INFO root fetch - processPackages [geospacelab]: Remove: archive file [/home/abi/fetcher/tmp/geospacelab-0.6.4.tar.gz]
 [2023-07-15 01:55:51] INFO root fetch - main [MainThread]: End processing [geospacelab]: success
 [2023-07-15 01:55:51] INFO root fetch - main [MainThread]: Store serial: [18896574]
+[2023-07-15 02:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18896574]
+[2023-07-15 02:01:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protomodel
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pz-rail-som
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pz-rail-pzflow
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onvif-zeep-async
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fawltydeps
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: globalomnium
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honeybee-radiance-postprocess
+[2023-07-15 02:01:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autonomi-nos
+[2023-07-15 02:01:00] INFO root fetch - processPackages [pz-rail-pzflow]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [pz-rail-som]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [globalomnium]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [fawltydeps]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [autonomi-nos]: New version: [0.0.7a2] Old Version: [0.0.6a1]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [onvif-zeep-async]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-15 02:01:00] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/da/64/5859680857d9dca2b4c79d2782b30d1020d2c3ec22c76e8b328ead996dd9/globalomnium-2023.7.2.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [pz-rail-pzflow]: Downloading https://files.pythonhosted.org/packages/a9/9e/01f9d5eef14d3447a4bd34eb5f413f258d4f8ddcf4e8cfe18cc70d479895/pz-rail-pzflow-0.0.1.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [pz-rail-som]: Downloading https://files.pythonhosted.org/packages/c3/51/496c2310ac0b00fdc53528e1d2bf02a37b209e6cd1be500d73acfc5b3c8e/pz-rail-som-0.0.2.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 02:01:00] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/c5/de/86ab61374f58917aeadbad84de2bb6d3cd1ef3ad4d0764f910f00ab77ec1/onvif-zeep-async-3.1.8.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/67/33/53521db574d28623145135313acda4aababe50579e2f8441cbb035942bb8/autonomi_nos-0.0.6a1-py3-none-any.whl
+[2023-07-15 02:01:01] INFO root fetch - processPackages [fawltydeps]: Downloading https://files.pythonhosted.org/packages/7d/9a/15e241b9628884e859c3b589ee6e8562a9dd06880f12923b27712aca0a9d/fawltydeps-0.8.0.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [globalomnium]: Downloading https://files.pythonhosted.org/packages/a6/1a/81b1956e52f0b55b5ca4a53a37d7f5bad47ba052e87d5112e42e400364d0/globalomnium-2023.7.3.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [onvif-zeep-async]: Downloading https://files.pythonhosted.org/packages/8f/8c/1d7321700cb782e731903854c2b5ac90fa21838efdead7ac8b0ac29ecd7f/onvif-zeep-async-3.1.9.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-pzflow]: Downloading https://files.pythonhosted.org/packages/75/5c/a669b74f030cdd3d26e43388ab616f68a50e2ffae441dc7d8b262d4cb273/pz-rail-pzflow-0.0.2.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230715/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [globalomnium]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [globalomnium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globalomnium-2023.7.2.tar.gz tmp/globalomnium-2023.7.3.tar.gz --markdown 20230715/g/globalomnium/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-som]: Downloading https://files.pythonhosted.org/packages/3e/d8/d7d3f9600016dcb3e459710e29aea561564c4228f0166fc9ad7a331244b8/pz-rail-som-0.0.3.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [onvif-zeep-async]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [onvif-zeep-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-zeep-async-3.1.8.tar.gz tmp/onvif-zeep-async-3.1.9.tar.gz --markdown 20230715/o/onvif-zeep-async/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-pzflow]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-pzflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-pzflow-0.0.1.tar.gz tmp/pz-rail-pzflow-0.0.2.tar.gz --markdown 20230715/p/pz-rail-pzflow/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230715/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [autonomi-nos]: Downloading https://files.pythonhosted.org/packages/9d/a3/05f29b137d061022b34ef9d028c1729fb367a5a50f2f52ab1e3341aa48ad/autonomi_nos-0.0.7a2-py3-none-any.whl
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-som]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [pz-rail-som]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-som-0.0.2.tar.gz tmp/pz-rail-som-0.0.3.tar.gz --markdown 20230715/p/pz-rail-som/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 02:01:01] INFO root fetch - processPackages [fawltydeps]: Downloading https://files.pythonhosted.org/packages/d2/24/3326bfb619e855b09baee07d9e86bcd12797608ec0b91d04fb8e1b35baff/fawltydeps-0.9.0.tar.gz
+[2023-07-15 02:01:01] INFO root fetch - processPackages [autonomi-nos]: executing diffoscope
+[2023-07-15 02:01:01] INFO root fetch - processPackages [autonomi-nos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip tmp/autonomi_nos-0.0.7a2-py3-none-any.whl.zip --markdown 20230715/a/autonomi-nos/0.0.6a1-0.0.7a2/diff.md --exclude *.pyd
+[2023-07-15 02:01:02] INFO root fetch - processPackages [fawltydeps]: executing diffoscope
+[2023-07-15 02:01:02] INFO root fetch - processPackages [fawltydeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fawltydeps-0.8.0.tar.gz tmp/fawltydeps-0.9.0.tar.gz --markdown 20230715/f/fawltydeps/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 02:01:03] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-2023.7.2.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [globalomnium]: Remove: archive file [/home/abi/fetcher/tmp/globalomnium-2023.7.3.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [globalomnium]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [pz-rail-pzflow]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-pzflow-0.0.1.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [pz-rail-pzflow]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-pzflow-0.0.2.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [pz-rail-pzflow]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [pz-rail-som]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-som-0.0.2.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [pz-rail-som]: Remove: archive file [/home/abi/fetcher/tmp/pz-rail-som-0.0.3.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [pz-rail-som]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [fawltydeps]: Remove: archive file [/home/abi/fetcher/tmp/fawltydeps-0.8.0.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [fawltydeps]: Remove: archive file [/home/abi/fetcher/tmp/fawltydeps-0.9.0.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [fawltydeps]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.6a1-py3-none-any.whl.zip]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [autonomi-nos]: Remove: archive file [/home/abi/fetcher/tmp/autonomi_nos-0.0.7a2-py3-none-any.whl.zip]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [autonomi-nos]: success
+[2023-07-15 02:01:03] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-15 02:01:03] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-15 02:01:04] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.8.tar.gz]
+[2023-07-15 02:01:04] INFO root fetch - processPackages [onvif-zeep-async]: Remove: archive file [/home/abi/fetcher/tmp/onvif-zeep-async-3.1.9.tar.gz]
+[2023-07-15 02:01:04] INFO root fetch - main [MainThread]: End processing [onvif-zeep-async]: success
+[2023-07-15 02:01:04] INFO root fetch - main [MainThread]: Store serial: [18896605]
