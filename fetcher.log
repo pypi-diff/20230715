@@ -4234,3 +4234,104 @@
 [2023-07-15 05:47:49] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.9.tar.gz]
 [2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
 [2023-07-15 05:47:49] INFO root fetch - main [MainThread]: Store serial: [18897753]
+[2023-07-15 05:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897753]
+[2023-07-15 05:52:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-pos-fatturapa
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embedchain
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omgpt
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-l10n-italy
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysubcipher
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seismic-rna
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladybug-geometry
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdlocator
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: siat
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airtouch2
+[2023-07-15 05:52:58] INFO root fetch - processPackages [pysubcipher]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: New version: [14.0.20230714.0] Old Version: [14.0.20230619.0]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [seismic-rna]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [omgpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 05:52:58] WARNING root fetch - processPackages [tdlocator]: Skipping, unable to determine old version
+[2023-07-15 05:52:58] INFO root fetch - processPackages [tdlocator]: Start processing: mine
+[2023-07-15 05:52:58] INFO root fetch - main [MainThread]: End processing [tdlocator] error
+[2023-07-15 05:52:58] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [airtouch2]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [siat]: New version: [2.3.9] Old Version: [2.3.6]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [ladybug-geometry]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [mine]: New version: [3.1] Old Version: [3.0.1]
+[2023-07-15 05:52:58] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/14/2b/4e4acdf7c2e6917560e55b77c9252651c213119580383d7c76bc27abccdc/omgpt-0.0.5.tar.gz
+[2023-07-15 05:52:58] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/5a/31/3de26840e8ae069fd46ef379eb6602408403e87a2fadb5ec0c06de82eaa8/pysubcipher-2.3.1.tar.gz
+[2023-07-15 05:52:58] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-15 05:52:58] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/97/d36e27c54f4d5dc3f831fce529676d0c953a30bfdf80ce56a7748be911b1/siat-2.3.6-py3-none-any.whl
+[2023-07-15 05:52:58] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/ba/50/43e7e21f1955523b8a1b7e5a7aadfb07aae8a3b95575fcd5507c44d8435d/odoo14_addons_oca_l10n_italy-14.0.20230619.0-py3-none-any.whl
+[2023-07-15 05:52:58] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/f6/94/7643fadde6f486a0a737467944132487e0fb2b082f50ccc06459573edbe0/seismic-rna-0.1.3.tar.gz
+[2023-07-15 05:52:58] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Downloading https://files.pythonhosted.org/packages/70/3f/36c7b6d56597731a2f87ef3fac34aa61a3516c8da603a8b8cce783518038/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-15 05:52:59] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/8b/e6/2c94f87094d05e89e9223660a80aff8876714a1fc0c230a01279d78028fb/airtouch2-0.7.5.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/73/b9/eb0d232df800d6e5dfa1247520f85cfb316c1f1c0f1fa86404231a512779/ladybug-geometry-1.8.1.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/c2/67/9076db44bee37fe6e2b2a69d1d2fcf76d91406327c30deb070c2d85cbcb4/mine-3.0.1.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/8b/c0/9816308e4f1c643b46d54b384d0623e98efe552da299a8a40e54f451dcf8/pysubcipher-2.3.2.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [omgpt]: Downloading https://files.pythonhosted.org/packages/44/56/8106a59cd4d5951263c3f1a024b572a803301d168502052478dda5677bc7/omgpt-0.0.6.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/07/de/b87bec1098ce7212379f640d75ee20f835844b5156e52c61f227e82eb4e1/seismic-rna-0.2.0.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230715/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/84/92/95da96c9407ecbeead7970889f8dd65f81f343ca449ff1b018962a2b4a1b/siat-2.3.9-py3-none-any.whl
+[2023-07-15 05:52:59] INFO root fetch - processPackages [mine]: Downloading https://files.pythonhosted.org/packages/21/03/39862becfc88d1b948d5c21aca414946fb4f0a914626e4fec8a8030ec6d9/mine-3.1.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/24/c4/8f3e17d06ded9980a16cf382f8ef16df43fdea7fb5f8bd0debeb3bcfbd81/odoo14_addons_oca_l10n_italy-14.0.20230714.0-py3-none-any.whl
+[2023-07-15 05:52:59] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/bb/5e/d6b2b28eddf584dfa8381ffd0aec12f8b9cfc9df9780d18ac0916a8e7bbd/airtouch2-0.7.6.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [pysubcipher]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [pysubcipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubcipher-2.3.1.tar.gz tmp/pysubcipher-2.3.2.tar.gz --markdown 20230715/p/pysubcipher/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Downloading https://files.pythonhosted.org/packages/57/d8/9fe40c4217c74dd19de6c4cd14691fa897c7f2ab19bec76fa92c9766cd8d/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-15 05:52:59] INFO root fetch - processPackages [omgpt]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [omgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omgpt-0.0.5.tar.gz tmp/omgpt-0.0.6.tar.gz --markdown 20230715/o/omgpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [ladybug-geometry]: Downloading https://files.pythonhosted.org/packages/1d/6e/0f64e45efb187aa1304e9685bee2042ef1bd0a00daba0172bf39aadfa2b6/ladybug-geometry-1.9.0.tar.gz
+[2023-07-15 05:52:59] INFO root fetch - processPackages [seismic-rna]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [seismic-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismic-rna-0.1.3.tar.gz tmp/seismic-rna-0.2.0.tar.gz --markdown 20230715/s/seismic-rna/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [mine]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mine-3.0.1.tar.gz tmp/mine-3.1.tar.gz --markdown 20230715/m/mine/3.0.1-3.1/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_italy-14.0.20230619.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_italy-14.0.20230714.0-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addons-oca-l10n-italy/14.0.20230619.0-14.0.20230714.0/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.5.tar.gz tmp/airtouch2-0.7.6.tar.gz --markdown 20230715/a/airtouch2/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [ladybug-geometry]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [ladybug-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-geometry-1.8.1.tar.gz tmp/ladybug-geometry-1.9.0.tar.gz --markdown 20230715/l/ladybug-geometry/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: executing diffoscope
+[2023-07-15 05:52:59] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-l10n-it-pos-fatturapa/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-07-15 05:53:00] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-15 05:53:00] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.3.6-py3-none-any.whl.zip tmp/siat-2.3.9-py3-none-any.whl.zip --markdown 20230715/s/siat/2.3.6-2.3.9/diff.md --exclude *.pyd
+[2023-07-15 05:53:01] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.5.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [omgpt]: Remove: archive file [/home/abi/fetcher/tmp/omgpt-0.0.6.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [omgpt]: Start processing: opencv-python-rolling
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [omgpt]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [pysubcipher]: Remove: archive file [/home/abi/fetcher/tmp/pysubcipher-2.3.1.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [pysubcipher]: Remove: archive file [/home/abi/fetcher/tmp/pysubcipher-2.3.2.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [pysubcipher]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230619.0-py3-none-any.whl.zip]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_italy-14.0.20230714.0-py3-none-any.whl.zip]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-italy]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-3.0.1.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [mine]: Remove: archive file [/home/abi/fetcher/tmp/mine-3.1.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [mine]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-07-15 05:53:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [odoo14-addon-l10n-it-pos-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_pos_fatturapa-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-pos-fatturapa]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.5.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.6.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.1.3.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [seismic-rna]: Remove: archive file [/home/abi/fetcher/tmp/seismic-rna-0.2.0.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [seismic-rna]: success
+[2023-07-15 05:53:01] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.8.1.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - processPackages [ladybug-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-geometry-1.9.0.tar.gz]
+[2023-07-15 05:53:01] INFO root fetch - main [MainThread]: End processing [ladybug-geometry]: success
+[2023-07-15 05:53:02] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-07-15 05:53:02] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-07-15 05:53:02] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.6-py3-none-any.whl.zip]
+[2023-07-15 05:53:02] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.3.9-py3-none-any.whl.zip]
+[2023-07-15 05:53:02] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-15 05:53:02] INFO root fetch - main [MainThread]: Store serial: [18897787]
