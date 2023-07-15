@@ -14969,3 +14969,18 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 22:46:25] INFO root fetch - processPackages [dj-beatcloud]: Remove: archive file [/home/abi/fetcher/tmp/dj_beatcloud-2.6.0b0.tar.gz]
 [2023-07-15 22:46:25] INFO root fetch - main [MainThread]: End processing [dj-beatcloud]: success
 [2023-07-15 22:46:25] INFO root fetch - main [MainThread]: Store serial: [18902963]
+[2023-07-15 22:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902963]
+[2023-07-15 22:51:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 22:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: berserk
+[2023-07-15 22:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winbundle
+[2023-07-15 22:51:34] INFO root fetch - processPackages [berserk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 22:51:34] WARNING root fetch - processPackages [winbundle]: Skipping, unable to determine old version
+[2023-07-15 22:51:34] INFO root fetch - main [MainThread]: End processing [winbundle] error
+[2023-07-15 22:51:34] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/83/7d/ca6332b8aa17ff24603b5ac7c9f4432397e7bc81c59ae2097dfb33df5d03/berserk-0.8.0.tar.gz
+[2023-07-15 22:51:35] INFO root fetch - processPackages [berserk]: Downloading https://files.pythonhosted.org/packages/75/5d/9bc9866bce95ef40cd39bf641c210021beb83c2c4c3034eb543754a79767/berserk-0.9.0.tar.gz
+[2023-07-15 22:51:35] INFO root fetch - processPackages [berserk]: executing diffoscope
+[2023-07-15 22:51:35] INFO root fetch - processPackages [berserk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berserk-0.8.0.tar.gz tmp/berserk-0.9.0.tar.gz --markdown 20230715/b/berserk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 22:51:36] INFO root fetch - processPackages [berserk]: Remove: archive file [/home/abi/fetcher/tmp/berserk-0.8.0.tar.gz]
+[2023-07-15 22:51:36] INFO root fetch - processPackages [berserk]: Remove: archive file [/home/abi/fetcher/tmp/berserk-0.9.0.tar.gz]
+[2023-07-15 22:51:36] INFO root fetch - main [MainThread]: End processing [berserk]: success
+[2023-07-15 22:51:36] INFO root fetch - main [MainThread]: Store serial: [18902971]
