@@ -3858,3 +3858,78 @@
 [2023-07-15 05:06:17] INFO root fetch - processPackages [labml-nn]: Remove: archive file [/home/abi/fetcher/tmp/labml-nn-0.4.99.tar.gz]
 [2023-07-15 05:06:17] INFO root fetch - main [MainThread]: End processing [labml-nn]: success
 [2023-07-15 05:06:17] INFO root fetch - main [MainThread]: Store serial: [18897532]
+[2023-07-15 05:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897532]
+[2023-07-15 05:11:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protomodel
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhtmx
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: donfig
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zbitvector
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: problem-bank-scripts
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build.tools
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-glue
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-tools-package
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywinpty
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: midas-data-util
+[2023-07-15 05:11:26] WARNING root fetch - processPackages [pyhtmx]: Skipping, unable to determine old version
+[2023-07-15 05:11:26] INFO root fetch - main [MainThread]: End processing [pyhtmx] error
+[2023-07-15 05:11:26] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-15 05:11:26] INFO root fetch - processPackages [protomodel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 05:11:26] WARNING root fetch - processPackages [my-tools-package]: Skipping, unable to determine old version
+[2023-07-15 05:11:26] INFO root fetch - main [MainThread]: End processing [my-tools-package] error
+[2023-07-15 05:11:26] INFO root fetch - processPackages [django-glue]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-15 05:11:26] INFO root fetch - processPackages [donfig]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ork.build.tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 05:11:26] WARNING root fetch - processPackages [zbitvector]: Skipping, unable to determine old version
+[2023-07-15 05:11:26] INFO root fetch - main [MainThread]: End processing [zbitvector] error
+[2023-07-15 05:11:26] INFO root fetch - processPackages [pywinpty]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-15 05:11:26] INFO root fetch - processPackages [midas-data-util]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-15 05:11:26] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/73/e3/90cd6d47599e019a94e34876b31bc7e525068530ed1bdea7b45f2339ea7a/problem_bank_scripts-0.8.2.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/38/9c/08cae7e3accd8e6b1b9a153075393978193564b7fdd00ade1d6e2e114e21/protomodel-0.0.8.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [django-glue]: Downloading https://files.pythonhosted.org/packages/3e/27/30c0fd21b76212f1e8809278e77b70aa1ced283e5d4d923833ed43825bb4/django-glue-0.4.0.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/43/2f/569d5e55044c6b69f90fa9913c21a579ee147ea21f9d4a75acdb2d5e1fe3/ork.build.tools-0.0.6.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [pywinpty]: Downloading https://files.pythonhosted.org/packages/96/18/904410ebeff904b0039bb918e2529e8f72dd34048bf1a719abcffefc0151/pywinpty-2.0.8.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [donfig]: Downloading https://files.pythonhosted.org/packages/ee/b3/cff4a4cefc4d18dbb1c3b6b518c8eab605e97a48793c6c3788cceeed8f57/donfig-0.8.0.tar.gz
+[2023-07-15 05:11:26] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/bc/f5/f1d070a702776d053278828f551b18f5441753a566ac858203aa378a671e/midas-data-util-0.2.9.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/a1/f2/1a5ee051a734100247afdfda572ec5e3abf66d6ee6d6e6cd7c66631eb0ce/problem_bank_scripts-0.9.0.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/62/e0/fe7ea43aa4b08b433d7735628985f4a2a82dab8bf445a0077401bf814240/protomodel-0.0.9.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [django-glue]: Downloading https://files.pythonhosted.org/packages/90/a0/f9e736522dfd1e7bce4848b4ac4bbe57922fcf204e877be0dbb066b1a0dc/django-glue-0.4.1.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [midas-data-util]: Downloading https://files.pythonhosted.org/packages/75/b4/f922eafb3cc305417c182baf0bcda2b898b8bd1e80960821cfd867a25199/midas-data-util-0.3.0.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.8.2.tar.gz tmp/problem_bank_scripts-0.9.0.tar.gz --markdown 20230715/p/problem-bank-scripts/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [pywinpty]: Downloading https://files.pythonhosted.org/packages/22/77/59645ee028f410ef1d582fc2923d2cb61016ed38e6ae5022f405227ca2ad/pywinpty-2.0.9.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/9c/5a/7e50f890599c93239fd23eb2d91070d48f17afe5454620f4270cc38d9f31/ork.build.tools-0.0.7.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.8.tar.gz tmp/protomodel-0.0.9.tar.gz --markdown 20230715/p/protomodel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [donfig]: Downloading https://files.pythonhosted.org/packages/00/3e/eb3e29a1720e8a2e2a7f4a6952b1e746af4135a46469209b1b49bfc043b5/donfig-0.8.1.tar.gz
+[2023-07-15 05:11:27] INFO root fetch - processPackages [pywinpty]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [pywinpty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywinpty-2.0.8.tar.gz tmp/pywinpty-2.0.9.tar.gz --markdown 20230715/p/pywinpty/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [django-glue]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [django-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-glue-0.4.0.tar.gz tmp/django-glue-0.4.1.tar.gz --markdown 20230715/d/django-glue/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [midas-data-util]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [midas-data-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-data-util-0.2.9.tar.gz tmp/midas-data-util-0.3.0.tar.gz --markdown 20230715/m/midas-data-util/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [ork.build.tools]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [ork.build.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build.tools-0.0.6.tar.gz tmp/ork.build.tools-0.0.7.tar.gz --markdown 20230715/o/ork.build.tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 05:11:27] INFO root fetch - processPackages [donfig]: executing diffoscope
+[2023-07-15 05:11:27] INFO root fetch - processPackages [donfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donfig-0.8.0.tar.gz tmp/donfig-0.8.1.tar.gz --markdown 20230715/d/donfig/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-15 05:11:28] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.8.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.9.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-15 05:11:28] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.8.2.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.9.0.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-15 05:11:28] INFO root fetch - processPackages [donfig]: Remove: archive file [/home/abi/fetcher/tmp/donfig-0.8.0.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - processPackages [donfig]: Remove: archive file [/home/abi/fetcher/tmp/donfig-0.8.1.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - main [MainThread]: End processing [donfig]: success
+[2023-07-15 05:11:28] INFO root fetch - processPackages [pywinpty]: Remove: archive file [/home/abi/fetcher/tmp/pywinpty-2.0.8.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - processPackages [pywinpty]: Remove: archive file [/home/abi/fetcher/tmp/pywinpty-2.0.9.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - main [MainThread]: End processing [pywinpty]: success
+[2023-07-15 05:11:28] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.2.9.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - processPackages [midas-data-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-data-util-0.3.0.tar.gz]
+[2023-07-15 05:11:28] INFO root fetch - main [MainThread]: End processing [midas-data-util]: success
+[2023-07-15 05:11:29] INFO root fetch - processPackages [django-glue]: Remove: archive file [/home/abi/fetcher/tmp/django-glue-0.4.0.tar.gz]
+[2023-07-15 05:11:29] INFO root fetch - processPackages [django-glue]: Remove: archive file [/home/abi/fetcher/tmp/django-glue-0.4.1.tar.gz]
+[2023-07-15 05:11:29] INFO root fetch - main [MainThread]: End processing [django-glue]: success
+[2023-07-15 05:11:29] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.6.tar.gz]
+[2023-07-15 05:11:29] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
+[2023-07-15 05:11:29] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
+[2023-07-15 05:11:29] INFO root fetch - main [MainThread]: Store serial: [18897600]
