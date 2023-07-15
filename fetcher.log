@@ -5097,3 +5097,33 @@
 [2023-07-15 07:03:19] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-pcrjjc-0.3.0.tar.gz]
 [2023-07-15 07:03:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
 [2023-07-15 07:03:19] INFO root fetch - main [MainThread]: Store serial: [18898156]
+[2023-07-15 07:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898156]
+[2023-07-15 07:08:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 07:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-interpreter
+[2023-07-15 07:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrgrain.cdk-esbuild
+[2023-07-15 07:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-07-15 07:08:28] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.225] Old Version: [0.0.224]
+[2023-07-15 07:08:28] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230715] Old Version: [0.1.1.dev20230714]
+[2023-07-15 07:08:28] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-15 07:08:28] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/42/f2/270f97d40defd79e501752a4cdf4836f9d82297b1edb825626dd0e3b25c1/open_interpreter-0.0.224.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/34/0f/ff74fad4bcb262fc97020612bab1803bbb932fb982d4aa60d175f0c27e71/rapid_pe-0.1.1.dev20230714.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9b/9a/0c47c4ab79293b45678a710d0b7c24f58f10228691f4f7dd55b69812f5fc/rapid_pe-0.1.1.dev20230715.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/53/4f/0bd5dec43a6b6ff30acce7cd8f48d8535275d349bd8e04ebee7f4f7d0b26/open_interpreter-0.0.225.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-15 07:08:28] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230714.tar.gz tmp/rapid_pe-0.1.1.dev20230715.tar.gz --markdown 20230715/r/rapid-pe/0.1.1.dev20230714-0.1.1.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 07:08:28] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/8f/4d/f07f5f7e8663e5c3a7bdcce04614832dec7d8ce7766d77dad96f4796e451/mrgrain.cdk-esbuild-4.1.9.tar.gz
+[2023-07-15 07:08:28] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-15 07:08:28] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.224.tar.gz tmp/open_interpreter-0.0.225.tar.gz --markdown 20230715/o/open-interpreter/0.0.224-0.0.225/diff.md --exclude *.pyd
+[2023-07-15 07:08:29] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-07-15 07:08:29] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz --markdown 20230715/m/mrgrain.cdk-esbuild/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-15 07:08:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230714.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230715.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-15 07:08:29] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.224.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.225.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-15 07:08:29] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
+[2023-07-15 07:08:29] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-07-15 07:08:29] INFO root fetch - main [MainThread]: Store serial: [18898169]
