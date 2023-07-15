@@ -3961,3 +3961,21 @@
 [2023-07-15 05:16:41] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
 [2023-07-15 05:16:41] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
 [2023-07-15 05:16:41] INFO root fetch - main [MainThread]: Store serial: [18897611]
+[2023-07-15 05:21:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897611]
+[2023-07-15 05:21:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 05:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarfetch
+[2023-07-15 05:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flux-burst-local
+[2023-07-15 05:21:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: versioned
+[2023-07-15 05:21:50] WARNING root fetch - processPackages [jarfetch]: Skipping, unable to determine old version
+[2023-07-15 05:21:50] INFO root fetch - main [MainThread]: End processing [jarfetch] error
+[2023-07-15 05:21:50] INFO root fetch - processPackages [versioned]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-15 05:21:50] WARNING root fetch - processPackages [flux-burst-local]: Skipping, unable to determine old version
+[2023-07-15 05:21:50] INFO root fetch - main [MainThread]: End processing [flux-burst-local] error
+[2023-07-15 05:21:50] INFO root fetch - processPackages [versioned]: Downloading https://files.pythonhosted.org/packages/00/1a/f738aab6eb34a6b7a13f8703af5d390ea7b99d324a20524f52d4edb21009/versioned-0.5.2.tar.gz
+[2023-07-15 05:21:50] INFO root fetch - processPackages [versioned]: Downloading https://files.pythonhosted.org/packages/86/59/d10f49841231b33c9883ffcd088ce2a07d54f05959f09491f3d348cbe175/versioned-0.5.3.tar.gz
+[2023-07-15 05:21:51] INFO root fetch - processPackages [versioned]: executing diffoscope
+[2023-07-15 05:21:51] INFO root fetch - processPackages [versioned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versioned-0.5.2.tar.gz tmp/versioned-0.5.3.tar.gz --markdown 20230715/v/versioned/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-15 05:21:51] INFO root fetch - processPackages [versioned]: Remove: archive file [/home/abi/fetcher/tmp/versioned-0.5.2.tar.gz]
+[2023-07-15 05:21:51] INFO root fetch - processPackages [versioned]: Remove: archive file [/home/abi/fetcher/tmp/versioned-0.5.3.tar.gz]
+[2023-07-15 05:21:51] INFO root fetch - main [MainThread]: End processing [versioned]: success
+[2023-07-15 05:21:51] INFO root fetch - main [MainThread]: Store serial: [18897623]
