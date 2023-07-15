@@ -7224,3 +7224,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:42:07] INFO root fetch - processPackages [islpy]: Remove: archive file [/home/abi/fetcher/tmp/islpy-2023.1.1.tar.gz]
 [2023-07-15 10:42:07] INFO root fetch - main [MainThread]: End processing [islpy]: success
 [2023-07-15 10:42:07] INFO root fetch - main [MainThread]: Store serial: [18899303]
+[2023-07-15 10:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899303]
+[2023-07-15 10:47:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 10:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: starpoint
+[2023-07-15 10:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-07-15 10:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-binary-tree
+[2023-07-15 10:47:15] INFO root fetch - processPackages [starpoint]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 10:47:15] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 10:47:15] INFO root fetch - processPackages [starpoint]: Downloading https://files.pythonhosted.org/packages/3f/7c/2f52b626e01d8f2adaf4f9c0d509ea73c675eebfb54548a4ff788c0fc11c/starpoint-0.1.3.tar.gz
+[2023-07-15 10:47:15] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-15 10:47:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-15 10:47:16] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/de/69/f146fb9ae731454848d8b898c64b08304450a3297a3c9590790ad4c8665c/streamlit-binary-tree-0.2.0.tar.gz
+[2023-07-15 10:47:16] INFO root fetch - processPackages [starpoint]: Downloading https://files.pythonhosted.org/packages/0b/b1/75551521977f1b1e137a5a9edfad976f8cc8e70a5d301b98b5a4dc162ea1/starpoint-0.1.4.tar.gz
+[2023-07-15 10:47:16] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/75/3e/045fa649abc678563c7d586b08f9eb66fe1e07d3b69d1dfbe577e92124a1/streamlit-binary-tree-0.2.1.tar.gz
+[2023-07-15 10:47:16] INFO root fetch - processPackages [starpoint]: executing diffoscope
+[2023-07-15 10:47:16] INFO root fetch - processPackages [starpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starpoint-0.1.3.tar.gz tmp/starpoint-0.1.4.tar.gz --markdown 20230715/s/starpoint/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 10:47:16] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 10:47:16] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.0.tar.gz tmp/streamlit-binary-tree-0.2.1.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 10:47:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-15 10:47:17] INFO root fetch - processPackages [starpoint]: Remove: archive file [/home/abi/fetcher/tmp/starpoint-0.1.3.tar.gz]
+[2023-07-15 10:47:17] INFO root fetch - processPackages [starpoint]: Remove: archive file [/home/abi/fetcher/tmp/starpoint-0.1.4.tar.gz]
+[2023-07-15 10:47:17] INFO root fetch - main [MainThread]: End processing [starpoint]: success
+[2023-07-15 10:47:17] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.0.tar.gz]
+[2023-07-15 10:47:17] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.1.tar.gz]
+[2023-07-15 10:47:17] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 10:47:17] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-15 10:47:17] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230715/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-15 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-15 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-15 10:47:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-15 10:47:21] INFO root fetch - main [MainThread]: Store serial: [18899315]
