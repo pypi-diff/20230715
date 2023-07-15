@@ -13241,3 +13241,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:05:19] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.0.tar.gz]
 [2023-07-15 20:05:19] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
 [2023-07-15 20:05:19] INFO root fetch - main [MainThread]: Store serial: [18902209]
+[2023-07-15 20:10:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902209]
+[2023-07-15 20:10:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 20:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoCarver
+[2023-07-15 20:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medisynth
+[2023-07-15 20:10:27] INFO root fetch - processPackages [medisynth]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 20:10:27] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.8] Old Version: [5.0.7]
+[2023-07-15 20:10:27] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/1a/66/3b9c8fbb89dba186b35928fb3537b8dc2a6888c2b591d22a3bb2a0ddcf51/medisynth-0.0.1.tar.gz
+[2023-07-15 20:10:28] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/57/05/9b434beea1521de4a5e038dbc4cd78e784cb3b495dfdcc75d0a667b082c2/AutoCarver-5.0.7.tar.gz
+[2023-07-15 20:10:28] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/06/45/2e9d0f37c081d488046fc40b532c407c6fd094686d1c79af2213b93fcbd8/medisynth-0.0.2.tar.gz
+[2023-07-15 20:10:28] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/30/3c/49de77779070f39197dcc5b6923d3379358813d252f96887a389f7bc6c13/AutoCarver-5.0.8.tar.gz
+[2023-07-15 20:10:28] INFO root fetch - processPackages [medisynth]: executing diffoscope
+[2023-07-15 20:10:28] INFO root fetch - processPackages [medisynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisynth-0.0.1.tar.gz tmp/medisynth-0.0.2.tar.gz --markdown 20230715/m/medisynth/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:10:28] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-15 20:10:28] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.7.tar.gz tmp/AutoCarver-5.0.8.tar.gz --markdown 20230715/A/AutoCarver/5.0.7-5.0.8/diff.md --exclude *.pyd
+[2023-07-15 20:10:29] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.1.tar.gz]
+[2023-07-15 20:10:29] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.2.tar.gz]
+[2023-07-15 20:10:29] INFO root fetch - main [MainThread]: End processing [medisynth]: success
+[2023-07-15 20:10:29] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.7.tar.gz]
+[2023-07-15 20:10:29] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.8.tar.gz]
+[2023-07-15 20:10:29] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-15 20:10:29] INFO root fetch - main [MainThread]: Store serial: [18902215]
