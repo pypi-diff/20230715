@@ -10082,3 +10082,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:20:48] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.365.0.tar.gz]
 [2023-07-15 15:20:48] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-15 15:20:48] INFO root fetch - main [MainThread]: Store serial: [18900657]
+[2023-07-15 15:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900657]
+[2023-07-15 15:25:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BabitMF-GPU
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkit
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rechtspraak-extractor
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enocean-webthing
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator-gkukse
+[2023-07-15 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellar-extractor
+[2023-07-15 15:25:57] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 15:25:57] INFO root fetch - processPackages [enocean-webthing]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 15:25:57] INFO root fetch - processPackages [rechtspraak-extractor]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-15 15:25:57] WARNING root fetch - processPackages [calculator-gkukse]: Skipping, unable to determine old version
+[2023-07-15 15:25:57] INFO root fetch - main [MainThread]: End processing [calculator-gkukse] error
+[2023-07-15 15:25:57] INFO root fetch - processPackages [BabitMF-GPU]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 15:25:57] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.53] Old Version: [1.0.52]
+[2023-07-15 15:25:57] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/f2/7d/639d882983648342f99875b95e988060f826052398e74277537d166f07b2/rechtspraak_extractor-1.1.8.tar.gz
+[2023-07-15 15:25:57] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 15:25:57] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/73/9a/8329b7755adc383d52f9e137b86cc8843c9d6179fd9bda64ef05c2fe2389/cellar_extractor-1.0.52.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [BabitMF-GPU]: Downloading https://files.pythonhosted.org/packages/f3/13/68a61c13bed2737305e364a5fe87687d057f6765628ef5a82dd04888e753/BabitMF_GPU-0.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 15:25:58] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/ed/d0/2ee34e178dadb7ff2ea0d792717e47e752b7421c37c54bf2f55023a9fe72/enocean_webthing-0.1.2.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [rechtspraak-extractor]: Downloading https://files.pythonhosted.org/packages/a2/7d/873b87acf1d3a1f1ac72438bc3b6cb1cc02189d47185383e7e938ce13486/rechtspraak_extractor-1.1.9.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/ba/aa/6f7d45b676c3a17768df2f0b0da5efd1ed9b8cefac76a5dc0ed82e560bdd/cellar_extractor-1.0.53.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [rechtspraak-extractor]: executing diffoscope
+[2023-07-15 15:25:58] INFO root fetch - processPackages [rechtspraak-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_extractor-1.1.8.tar.gz tmp/rechtspraak_extractor-1.1.9.tar.gz --markdown 20230715/r/rechtspraak-extractor/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-15 15:25:58] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 15:25:58] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:25:58] INFO root fetch - processPackages [enocean-webthing]: Downloading https://files.pythonhosted.org/packages/92/00/d68846bb5414e450602eddaef81b85da780892fa78c7f8063ca270a75327/enocean_webthing-0.1.3.tar.gz
+[2023-07-15 15:25:58] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-07-15 15:25:58] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.52.tar.gz tmp/cellar_extractor-1.0.53.tar.gz --markdown 20230715/c/cellar-extractor/1.0.52-1.0.53/diff.md --exclude *.pyd
+[2023-07-15 15:25:58] INFO root fetch - processPackages [enocean-webthing]: executing diffoscope
+[2023-07-15 15:25:58] INFO root fetch - processPackages [enocean-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enocean_webthing-0.1.2.tar.gz tmp/enocean_webthing-0.1.3.tar.gz --markdown 20230715/e/enocean-webthing/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 15:25:59] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.8.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - processPackages [rechtspraak-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_extractor-1.1.9.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - main [MainThread]: End processing [rechtspraak-extractor]: success
+[2023-07-15 15:25:59] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.52.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.53.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-07-15 15:25:59] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 15:25:59] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-0.1.2.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - processPackages [enocean-webthing]: Remove: archive file [/home/abi/fetcher/tmp/enocean_webthing-0.1.3.tar.gz]
+[2023-07-15 15:25:59] INFO root fetch - main [MainThread]: End processing [enocean-webthing]: success
+[2023-07-15 15:26:00] INFO root fetch - processPackages [BabitMF-GPU]: Downloading https://files.pythonhosted.org/packages/a5/72/cf08ff141d763a17c7483ffa13deb0c0761f5f04e0933ba8b2b11b93f811/BabitMF_GPU-0.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 15:26:01] WARNING root fetch - processPackages [BabitMF-GPU]: Skipping package: exceeds size limit 15757862>=10485760
+[2023-07-15 15:26:01] INFO root fetch - main [MainThread]: End processing [BabitMF-GPU] error
+[2023-07-15 15:26:01] INFO root fetch - main [MainThread]: Store serial: [18900698]
