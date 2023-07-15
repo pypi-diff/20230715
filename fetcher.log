@@ -5222,3 +5222,134 @@
 [2023-07-15 07:19:15] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip]
 [2023-07-15 07:19:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
 [2023-07-15 07:19:15] INFO root fetch - main [MainThread]: Store serial: [18898258]
+[2023-07-15 07:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898258]
+[2023-07-15 07:24:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volttron-lib-boptest-integration
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volttron-boptest
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosys
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-shipment-advice
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volttron-lib-boptest-integration
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volttron-boptest
+[2023-07-15 07:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iamai
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-lib-boptest-integration]: New version: [0.1.1rc1] Old Version: [0.1.1rc0]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230715] Old Version: [0.5.4.dev20230714]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.1.5.2] Old Version: [16.0.1.1.5]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-lib-boptest-integration]: New version: [0.1.1rc1] Old Version: [0.1.1rc0]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-boptest]: New version: [0.1.1rc1] Old Version: [0.1.1rc0]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-boptest]: New version: [0.1.1rc1] Old Version: [0.1.1rc0]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [rosys]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [iamai]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-15 07:24:24] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/42/31/bfa0b95c3133e011ddf8a64646636457dca7435d056024a123450ded08b6/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/27/3d/39986b7537eeaad9661034af2a2f146fae8e1e8fe42ad08ee3005fa4baff/volttron_boptest-0.1.1rc0.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/76/55/f9176ff63a5c62533d01269dfb864bcb8cda703619c7b64a4952f491ae83/volttron_lib_boptest_integration-0.1.1rc0.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/76/55/f9176ff63a5c62533d01269dfb864bcb8cda703619c7b64a4952f491ae83/volttron_lib_boptest_integration-0.1.1rc0.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/27/3d/39986b7537eeaad9661034af2a2f146fae8e1e8fe42ad08ee3005fa4baff/volttron_boptest-0.1.1rc0.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c4/74/714704dbb053da414a1711bf94c4c8e031fd0ceff70add9e99f311043a51/rapidpe_rift_pipe-0.5.4.dev20230714.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/d1/0a/f5539653dcfa8b8fb62b57e421e960cc7e96a579bc39c0ad5a8d0c8b2e64/rosys-0.8.5.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [iamai]: Downloading https://files.pythonhosted.org/packages/76/51/7ce56dc5629b5aac2d2b71401e6842fdf27e758ee52afd97f1fa1aabb461/iamai-3.2.tar.gz
+[2023-07-15 07:24:24] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/a1/0e/ae10486fa4989bb191ca6a27ab3256125f538a55fe63c5e845c3149c9ba0/odoo_addon_shipment_advice-16.0.1.1.5.2-py3-none-any.whl
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/ab/7d/5e2f2a8bf7fbaf0d1d573cc0352c58b855adf15886ab1cd2ff2382bd6afd/volttron_lib_boptest_integration-0.1.1rc1.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/69/0c/7ab8eab7b09aee4ec5458761419841a269c12236ecd6477376ef8c418a2b/volttron_boptest-0.1.1rc1.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/69/0c/7ab8eab7b09aee4ec5458761419841a269c12236ecd6477376ef8c418a2b/volttron_boptest-0.1.1rc1.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/ab/7d/5e2f2a8bf7fbaf0d1d573cc0352c58b855adf15886ab1cd2ff2382bd6afd/volttron_lib_boptest_integration-0.1.1rc1.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/1c/a0/36cce3de3ccf20dcbe1a722db6752078bd7f36c07148da3ce7246b215239/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/b5/72/12b777f5d5640e8384cae449fd2a8450b6fc686f2fe6b3ccc48c3ade5b6a/rosys-0.9.0.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [iamai]: Downloading https://files.pythonhosted.org/packages/e9/af/20d8218657d8c0c9ffbcf72fbf934a511a5e2b0af159d10ee98d488c8c6f/iamai-3.2.1.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_boptest-0.1.1rc0.tar.gz tmp/volttron_boptest-0.1.1rc1.tar.gz --markdown 20230715/v/volttron-boptest/0.1.1rc0-0.1.1rc1/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-boptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_boptest-0.1.1rc0.tar.gz tmp/volttron_boptest-0.1.1rc1.tar.gz --markdown 20230715/v/volttron-boptest/0.1.1rc0-0.1.1rc1/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_boptest_integration-0.1.1rc0.tar.gz tmp/volttron_lib_boptest_integration-0.1.1rc1.tar.gz --markdown 20230715/v/volttron-lib-boptest-integration/0.1.1rc0-0.1.1rc1/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [volttron-lib-boptest-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_boptest_integration-0.1.1rc0.tar.gz tmp/volttron_lib_boptest_integration-0.1.1rc1.tar.gz --markdown 20230715/v/volttron-lib-boptest-integration/0.1.1rc0-0.1.1rc1/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230714.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz --markdown 20230715/r/rapidpe-rift-pipe/0.5.4.dev20230714-0.5.4.dev20230715/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.1.5.2-py3-none-any.whl.zip --markdown 20230715/o/odoo-addon-shipment-advice/16.0.1.1.5-16.0.1.1.5.2/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rosys]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [rosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosys-0.8.5.tar.gz tmp/rosys-0.9.0.tar.gz --markdown 20230715/r/rosys/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [iamai]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [iamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamai-3.2.tar.gz tmp/iamai-3.2.1.tar.gz --markdown 20230715/i/iamai/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 07:24:25] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-15 07:24:25] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230715/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-15 07:24:26] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1rc0.tar.gz]
+[2023-07-15 07:24:26] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1rc1.tar.gz]
+[2023-07-15 07:24:26] INFO root fetch - processPackages [volttron-boptest]: Start processing: iamai-adapter-apscheduler
+[2023-07-15 07:24:26] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
+[2023-07-15 07:24:26] INFO root fetch - processPackages [iamai-adapter-apscheduler]: New version: [3.2] Old Version: [0.6.0.post1]
+[2023-07-15 07:24:26] INFO root fetch - processPackages [volttron-boptest]: Start processing: iamai-adapter-cqhttp
+[2023-07-15 07:24:26] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-cqhttp]: New version: [3.2] Old Version: [0.6.1]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-cqhttp]: Downloading https://files.pythonhosted.org/packages/e2/5c/abcb1ab233661b26302694ef0ed01bcfd89658ed863c6c93049ae9c8eb3b/iamai_adapter_cqhttp-0.6.1.tar.gz
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-apscheduler]: Downloading https://files.pythonhosted.org/packages/1e/a4/41815ba21520ec8f12e9f0831900f33909ac8141701b1ce697e44bb61965/iamai_adapter_apscheduler-0.6.0.post1.tar.gz
+[2023-07-15 07:24:27] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1rc0.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1rc1.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Start processing: iamai-adapter-dingtalk
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [volttron-lib-boptest-integration]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.5-py3-none-any.whl.zip]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.5.2-py3-none-any.whl.zip]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Start processing: iamai-adapter-mirai
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai]: Remove: archive file [/home/abi/fetcher/tmp/iamai-3.2.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai]: Remove: archive file [/home/abi/fetcher/tmp/iamai-3.2.1.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai]: Start processing: iamai-adapter-kook
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [iamai]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-mirai]: New version: [3.2] Old Version: [0.6.0.post3]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230714.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [rapidpe-rift-pipe]: Start processing: iamai-adapter-console
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [volttron-lib-boptest-integration]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-cqhttp]: Downloading https://files.pythonhosted.org/packages/d4/48/9c284b74c986b41d267104c831dd1390fb84854a957a75f647d5409a11b0/iamai_adapter_cqhttp-3.2.tar.gz
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-dingtalk]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-apscheduler]: Downloading https://files.pythonhosted.org/packages/21/bc/23f9a651b77daf26c57b98559de330b8aa20f36318993fdf59430f5a97f5/iamai_adapter_apscheduler-3.2.tar.gz
+[2023-07-15 07:24:27] WARNING root fetch - processPackages [iamai-adapter-kook]: Skipping, unable to determine old version
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [iamai-adapter-kook] error
+[2023-07-15 07:24:27] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 07:24:27] WARNING root fetch - processPackages [iamai-adapter-console]: Skipping, unable to determine old version
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [iamai-adapter-console] error
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-cqhttp]: executing diffoscope
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-cqhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamai_adapter_cqhttp-0.6.1.tar.gz tmp/iamai_adapter_cqhttp-3.2.tar.gz --markdown 20230715/i/iamai-adapter-cqhttp/0.6.1-3.2/diff.md --exclude *.pyd
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-apscheduler]: executing diffoscope
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-apscheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamai_adapter_apscheduler-0.6.0.post1.tar.gz tmp/iamai_adapter_apscheduler-3.2.tar.gz --markdown 20230715/i/iamai-adapter-apscheduler/0.6.0.post1-3.2/diff.md --exclude *.pyd
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-mirai]: Downloading https://files.pythonhosted.org/packages/c7/b7/9b8b4fdf1374d8f027936284d48dde345f0c84b548650f3d68094094d06f/iamai_adapter_mirai-0.6.0.post3.tar.gz
+[2023-07-15 07:24:27] INFO root fetch - processPackages [iamai-adapter-dingtalk]: Downloading https://files.pythonhosted.org/packages/38/f8/73e2bba800da127db2ae4c19deac3ef0467303b79704cbb620d3470a984d/iamai_adapter_dingtalk-3.2.tar.gz
+[2023-07-15 07:24:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-15 07:24:27] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.8.5.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.9.0.tar.gz]
+[2023-07-15 07:24:27] INFO root fetch - main [MainThread]: End processing [rosys]: success
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-dingtalk]: Downloading https://files.pythonhosted.org/packages/0b/00/d65fdd916c1c0c6a1b9e7cd08ba16fad3c93a93481906952e21d73753938/iamai_adapter_dingtalk-3.2.1.tar.gz
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-mirai]: Downloading https://files.pythonhosted.org/packages/84/6a/f06b8b20ef9d0d902fe304811989184a921430214de0c2d5eb84faf8a678/iamai_adapter_mirai-3.2.tar.gz
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-mirai]: executing diffoscope
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-mirai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamai_adapter_mirai-0.6.0.post3.tar.gz tmp/iamai_adapter_mirai-3.2.tar.gz --markdown 20230715/i/iamai-adapter-mirai/0.6.0.post3-3.2/diff.md --exclude *.pyd
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-dingtalk]: executing diffoscope
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamai_adapter_dingtalk-3.2.tar.gz tmp/iamai_adapter_dingtalk-3.2.1.tar.gz --markdown 20230715/i/iamai-adapter-dingtalk/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-cqhttp]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_cqhttp-0.6.1.tar.gz]
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-cqhttp]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_cqhttp-3.2.tar.gz]
+[2023-07-15 07:24:28] INFO root fetch - main [MainThread]: End processing [iamai-adapter-cqhttp]: success
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-apscheduler]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_apscheduler-0.6.0.post1.tar.gz]
+[2023-07-15 07:24:28] INFO root fetch - processPackages [iamai-adapter-apscheduler]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_apscheduler-3.2.tar.gz]
+[2023-07-15 07:24:28] INFO root fetch - main [MainThread]: End processing [iamai-adapter-apscheduler]: success
+[2023-07-15 07:24:29] INFO root fetch - processPackages [iamai-adapter-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_dingtalk-3.2.tar.gz]
+[2023-07-15 07:24:29] INFO root fetch - processPackages [iamai-adapter-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_dingtalk-3.2.1.tar.gz]
+[2023-07-15 07:24:29] INFO root fetch - main [MainThread]: End processing [iamai-adapter-dingtalk]: success
+[2023-07-15 07:24:29] INFO root fetch - processPackages [iamai-adapter-mirai]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_mirai-0.6.0.post3.tar.gz]
+[2023-07-15 07:24:29] INFO root fetch - processPackages [iamai-adapter-mirai]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_mirai-3.2.tar.gz]
+[2023-07-15 07:24:29] INFO root fetch - main [MainThread]: End processing [iamai-adapter-mirai]: success
+[2023-07-15 07:24:29] INFO root fetch - main [MainThread]: Store serial: [18898305]
