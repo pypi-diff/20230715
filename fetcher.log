@@ -15557,3 +15557,24 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:54:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2023-07-15 23:54:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-07-15 23:54:03] INFO root fetch - main [MainThread]: Store serial: [18903213]
+[2023-07-15 23:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903213]
+[2023-07-15 23:59:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 23:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morbin
+[2023-07-15 23:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CrossPy
+[2023-07-15 23:59:12] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-07-15 23:59:12] INFO root fetch - processPackages [morbin]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-15 23:59:12] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-07-15 23:59:12] INFO root fetch - processPackages [morbin]: Downloading https://files.pythonhosted.org/packages/62/88/5807bf651501d3670e5a5f82152c25a3ce66ad65332be8283ae5069045ca/morbin-0.0.0.tar.gz
+[2023-07-15 23:59:12] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-07-15 23:59:12] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-07-15 23:59:12] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230715/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-07-15 23:59:12] INFO root fetch - processPackages [morbin]: Downloading https://files.pythonhosted.org/packages/97/76/292a9819b7fccdc578c7db542113fb131ecbf4d39bb9b909b1076144e8e1/morbin-0.1.0.tar.gz
+[2023-07-15 23:59:12] INFO root fetch - processPackages [morbin]: executing diffoscope
+[2023-07-15 23:59:12] INFO root fetch - processPackages [morbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morbin-0.0.0.tar.gz tmp/morbin-0.1.0.tar.gz --markdown 20230715/m/morbin/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 23:59:13] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-07-15 23:59:13] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-07-15 23:59:13] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-07-15 23:59:13] INFO root fetch - processPackages [morbin]: Remove: archive file [/home/abi/fetcher/tmp/morbin-0.0.0.tar.gz]
+[2023-07-15 23:59:13] INFO root fetch - processPackages [morbin]: Remove: archive file [/home/abi/fetcher/tmp/morbin-0.1.0.tar.gz]
+[2023-07-15 23:59:13] INFO root fetch - main [MainThread]: End processing [morbin]: success
+[2023-07-15 23:59:13] INFO root fetch - main [MainThread]: Store serial: [18903218]
