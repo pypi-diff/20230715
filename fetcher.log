@@ -6248,3 +6248,92 @@
 [2023-07-15 08:58:01] INFO root fetch - processPackages [featdist]: Remove: archive file [/home/abi/fetcher/tmp/featdist-0.1.6.tar.gz]
 [2023-07-15 08:58:01] INFO root fetch - main [MainThread]: End processing [featdist]: success
 [2023-07-15 08:58:01] INFO root fetch - main [MainThread]: Store serial: [18898721]
+[2023-07-15 09:03:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898721]
+[2023-07-15 09:03:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaoys-checkin
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ork.build]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-15 09:03:10] INFO root fetch - processPackages [yaoys-checkin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/aa/c1/fcd4ea04f49fbe7394997b140d909109e785904b4382705c57834243c35d/ork.build-0.0.16.tar.gz
+[2023-07-15 09:03:10] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-15 09:03:10] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/c3/fa/bee00a3b4d511e01146d895ed33cb9e641bd7f29010891ac2c763065ea1a/yaoys_checkin-0.1.8-py3-none-any.whl
+[2023-07-15 09:03:10] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/a3/58/ff8696f4324b94acf7bb20abb5776279e0a009bbc95a18213d839ca08158/ork.build-0.0.17.tar.gz
+[2023-07-15 09:03:10] INFO root fetch - processPackages [yaoys-checkin]: Downloading https://files.pythonhosted.org/packages/e4/59/7edb0dd5035d4ebcb5256e761e75aba618171262d9c4d93552921020b292/yaoys_checkin-0.1.9-py3-none-any.whl
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 09:03:10] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.16.tar.gz tmp/ork.build-0.0.17.tar.gz --markdown 20230715/o/ork.build/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-15 09:03:10] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-15 09:03:10] INFO root fetch - processPackages [yaoys-checkin]: executing diffoscope
+[2023-07-15 09:03:10] INFO root fetch - processPackages [yaoys-checkin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaoys_checkin-0.1.8-py3-none-any.whl.zip tmp/yaoys_checkin-0.1.9-py3-none-any.whl.zip --markdown 20230715/y/yaoys-checkin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 09:03:10] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-15 09:03:10] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230715/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-15 09:03:11] ERROR root fetch - processPackages [yaoys-checkin]: Diffoscope failed: time="2023-07-15T09:03:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid continuation byte
+
+[2023-07-15 09:03:11] INFO root fetch - main [MainThread]: End processing [yaoys-checkin] error
+[2023-07-15 09:03:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-15 09:03:12] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-15 09:03:12] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-15 09:03:12] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.16.tar.gz]
+[2023-07-15 09:03:12] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.17.tar.gz]
+[2023-07-15 09:03:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 09:03:12] INFO root fetch - main [MainThread]: Store serial: [18898731]
