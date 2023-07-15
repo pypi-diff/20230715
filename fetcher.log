@@ -9190,3 +9190,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 14:05:44] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.7.0.tar.gz]
 [2023-07-15 14:05:44] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
 [2023-07-15 14:05:44] INFO root fetch - main [MainThread]: Store serial: [18900213]
+[2023-07-15 14:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900213]
+[2023-07-15 14:10:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeinterpreterapi
+[2023-07-15 14:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pong-arcade
+[2023-07-15 14:10:53] INFO root fetch - processPackages [codeinterpreterapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 14:10:53] WARNING root fetch - processPackages [pong-arcade]: Skipping, unable to determine old version
+[2023-07-15 14:10:53] INFO root fetch - main [MainThread]: End processing [pong-arcade] error
+[2023-07-15 14:10:53] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/d5/aa/3438ee2cc46592b7d5a4caac6b5bc9e046d2b77710da9fd22d514955eb4b/codeinterpreterapi-0.0.3.tar.gz
+[2023-07-15 14:10:53] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/c1/9d/fee8d9bb5332fa332cc260dbf37870215fd5ed7c97586d625dead39f9e86/codeinterpreterapi-0.0.4.tar.gz
+[2023-07-15 14:10:54] INFO root fetch - processPackages [codeinterpreterapi]: executing diffoscope
+[2023-07-15 14:10:54] INFO root fetch - processPackages [codeinterpreterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeinterpreterapi-0.0.3.tar.gz tmp/codeinterpreterapi-0.0.4.tar.gz --markdown 20230715/c/codeinterpreterapi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 14:10:54] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.3.tar.gz]
+[2023-07-15 14:10:54] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.4.tar.gz]
+[2023-07-15 14:10:54] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi]: success
+[2023-07-15 14:10:54] INFO root fetch - main [MainThread]: Store serial: [18900265]
