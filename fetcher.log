@@ -8744,3 +8744,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 13:28:59] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-15 13:28:59] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-15 13:28:59] INFO root fetch - main [MainThread]: Store serial: [18899960]
+[2023-07-15 13:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899960]
+[2023-07-15 13:34:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrec-nightly
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExpoSeq
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vhatable
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shap
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threads-net
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hak
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audapa
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picotalk
+[2023-07-15 13:34:08] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ExpoSeq]: New version: [1.1.16] Old Version: [1.1.14]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [vhatable]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [audapa]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [shap]: New version: [0.9.1] Old Version: [0.8.9]
+[2023-07-15 13:34:08] WARNING root fetch - processPackages [picotalk]: Skipping, unable to determine old version
+[2023-07-15 13:34:08] INFO root fetch - main [MainThread]: End processing [picotalk] error
+[2023-07-15 13:34:08] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.7.15] Old Version: [2023.7.14]
+[2023-07-15 13:34:08] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/68/7d/cdd8be904f699deac8126e464ee3b173c511abbe072f8bd552fb43602e6b/ExpoSeq-1.1.14.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [vhatable]: Downloading https://files.pythonhosted.org/packages/cb/f2/9bd53757d832fd61efca401f57821c21cee23b612fb4f0a89cea78f71496/vhatable-1.0.3.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [shap]: Downloading https://files.pythonhosted.org/packages/66/6d/76127888f50fd0f986702c9ce2d4a650112cee1e4bf9237560da43da93b5/shap-0.8.9.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [audapa]: Downloading https://files.pythonhosted.org/packages/e8/da/6aad30e271da1afdc2a1ea6e55380bb2c52183925c7e72fbe29fcf9a8cbd/audapa-1.0.6.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/02/20/de9a26d2b5a5d74ed9806f59b561806384d2a7b78085e76a919c7862d761/torchrec_nightly-2023.7.14-py39-none-any.whl
+[2023-07-15 13:34:08] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-15 13:34:08] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-15 13:34:09] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230715/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 13:34:09] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230715/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 13:34:09] INFO root fetch - processPackages [vhatable]: Downloading https://files.pythonhosted.org/packages/9a/54/0a9c2cf64f66cceb31c87613544aaa0b594fc15bdd7dc907be79989f97ab/vhatable-1.1.0.tar.gz
+[2023-07-15 13:34:09] INFO root fetch - processPackages [audapa]: Downloading https://files.pythonhosted.org/packages/ee/2b/d3f8aa47d026ec1a383816c651a6aaaacf86d68a75d8d10101142f8e2d6c/audapa-1.0.8.tar.gz
+[2023-07-15 13:34:09] INFO root fetch - processPackages [vhatable]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [vhatable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vhatable-1.0.3.tar.gz tmp/vhatable-1.1.0.tar.gz --markdown 20230715/v/vhatable/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 13:34:09] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/1d/42/41485e4813d654e87a7a27345f9f4b17549a2c30aad024569a9a1b1ec140/torchrec_nightly-2023.7.15-py39-none-any.whl
+[2023-07-15 13:34:09] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/74/a3/baae50b2b6221a9996f62ccacdd22efe271ca9e1077c659eae881de83774/ExpoSeq-1.1.16.tar.gz
+[2023-07-15 13:34:09] INFO root fetch - processPackages [shap]: Downloading https://files.pythonhosted.org/packages/84/6f/0933162d611401cc47f288b08c5736a1c6eec2dcd6d16692a924b4b276f4/shap-0.9.1.tar.gz
+[2023-07-15 13:34:09] INFO root fetch - processPackages [audapa]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [audapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audapa-1.0.6.tar.gz tmp/audapa-1.0.8.tar.gz --markdown 20230715/a/audapa/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-15 13:34:09] INFO root fetch - processPackages [shap]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [shap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shap-0.8.9.tar.gz tmp/shap-0.9.1.tar.gz --markdown 20230715/s/shap/0.8.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 13:34:09] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-07-15 13:34:09] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.14-py39-none-any.whl.zip tmp/torchrec_nightly-2023.7.15-py39-none-any.whl.zip --markdown 20230715/t/torchrec-nightly/2023.7.14-2023.7.15/diff.md --exclude *.pyd
+[2023-07-15 13:34:10] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-15 13:34:10] INFO root fetch - processPackages [vhatable]: Remove: archive file [/home/abi/fetcher/tmp/vhatable-1.0.3.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - processPackages [vhatable]: Remove: archive file [/home/abi/fetcher/tmp/vhatable-1.1.0.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - main [MainThread]: End processing [vhatable]: success
+[2023-07-15 13:34:10] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-07-15 13:34:10] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-1.1.14.tar.gz tmp/ExpoSeq-1.1.16.tar.gz --markdown 20230715/E/ExpoSeq/1.1.14-1.1.16/diff.md --exclude *.pyd
+[2023-07-15 13:34:10] INFO root fetch - processPackages [shap]: Remove: archive file [/home/abi/fetcher/tmp/shap-0.8.9.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - processPackages [shap]: Remove: archive file [/home/abi/fetcher/tmp/shap-0.9.1.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - main [MainThread]: End processing [shap]: success
+[2023-07-15 13:34:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-15 13:34:10] INFO root fetch - processPackages [audapa]: Remove: archive file [/home/abi/fetcher/tmp/audapa-1.0.6.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - processPackages [audapa]: Remove: archive file [/home/abi/fetcher/tmp/audapa-1.0.8.tar.gz]
+[2023-07-15 13:34:10] INFO root fetch - main [MainThread]: End processing [audapa]: success
+[2023-07-15 13:34:11] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.14-py39-none-any.whl.zip]
+[2023-07-15 13:34:11] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.15-py39-none-any.whl.zip]
+[2023-07-15 13:34:11] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-07-15 13:34:12] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.14.tar.gz]
+[2023-07-15 13:34:12] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-1.1.16.tar.gz]
+[2023-07-15 13:34:12] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-07-15 13:34:12] INFO root fetch - main [MainThread]: Store serial: [18900009]
