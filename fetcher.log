@@ -4575,3 +4575,42 @@
 [2023-07-15 06:19:49] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.9.tar.gz]
 [2023-07-15 06:19:49] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
 [2023-07-15 06:19:49] INFO root fetch - main [MainThread]: Store serial: [18897888]
+[2023-07-15 06:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897888]
+[2023-07-15 06:24:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 06:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-07-15 06:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ducktables
+[2023-07-15 06:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: local-candles
+[2023-07-15 06:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-07-15 06:24:58] INFO root fetch - processPackages [local-candles]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 06:24:58] INFO root fetch - processPackages [ducktables]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 06:24:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-07-15 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.932156931.dev12269] Old Version: [0.2.930840603.dev12256]
+[2023-07-15 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/1a/1c/32a4d92470c13199d2b8f615f433b9ee74f8e94f1e2f78da9fc1621c7b9d/quickstart-vdk-0.2.930840603.dev12256.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [ducktables]: Downloading https://files.pythonhosted.org/packages/d5/14/2128e25c60cc33a12ddb8a22ba838bbfa0df8af22a6ca82363dd0dbdc421/ducktables-0.1.3.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [local-candles]: Downloading https://files.pythonhosted.org/packages/11/9a/4a5233e68dffe94e359de23a15f82cbb5181228a94091e596f9ed3aebf22/local_candles-0.1.0.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-07-15 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/4c/8d/41c1786bd0748f52c35fbc972b7f5ebf7cfd4454677072d68609b7bad02f/quickstart-vdk-0.2.932156931.dev12269.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [local-candles]: Downloading https://files.pythonhosted.org/packages/c3/29/41e222b4706de9d8d85a6af36f00065a5978809c7bfc0bbdd4869d9235fa/local_candles-0.1.1.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [ducktables]: Downloading https://files.pythonhosted.org/packages/8e/25/d94e4b55ecd6e9e2ff0f1f4e72a1f8a4baa56d4957d0f69e322319053551/ducktables-0.1.4.tar.gz
+[2023-07-15 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-15 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.930840603.dev12256.tar.gz tmp/quickstart-vdk-0.2.932156931.dev12269.tar.gz --markdown 20230715/q/quickstart-vdk/0.2.930840603.dev12256-0.2.932156931.dev12269/diff.md --exclude *.pyd
+[2023-07-15 06:24:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-07-15 06:24:59] INFO root fetch - processPackages [ducktables]: executing diffoscope
+[2023-07-15 06:24:59] INFO root fetch - processPackages [ducktables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducktables-0.1.3.tar.gz tmp/ducktables-0.1.4.tar.gz --markdown 20230715/d/ducktables/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 06:24:59] INFO root fetch - processPackages [local-candles]: executing diffoscope
+[2023-07-15 06:24:59] INFO root fetch - processPackages [local-candles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_candles-0.1.0.tar.gz tmp/local_candles-0.1.1.tar.gz --markdown 20230715/l/local-candles/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 06:24:59] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-07-15 06:24:59] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-07-15 06:24:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.930840603.dev12256.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.932156931.dev12269.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-15 06:24:59] INFO root fetch - processPackages [ducktables]: Remove: archive file [/home/abi/fetcher/tmp/ducktables-0.1.3.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - processPackages [ducktables]: Remove: archive file [/home/abi/fetcher/tmp/ducktables-0.1.4.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - main [MainThread]: End processing [ducktables]: success
+[2023-07-15 06:24:59] INFO root fetch - processPackages [local-candles]: Remove: archive file [/home/abi/fetcher/tmp/local_candles-0.1.0.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - processPackages [local-candles]: Remove: archive file [/home/abi/fetcher/tmp/local_candles-0.1.1.tar.gz]
+[2023-07-15 06:24:59] INFO root fetch - main [MainThread]: End processing [local-candles]: success
+[2023-07-15 06:25:02] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-07-15 06:25:02] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-07-15 06:25:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-07-15 06:25:02] INFO root fetch - main [MainThread]: Store serial: [18897899]
