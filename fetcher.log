@@ -14762,3 +14762,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:25:37] INFO root fetch - processPackages [todoist-tree]: Remove: archive file [/home/abi/fetcher/tmp/todoist_tree-0.4.0.tar.gz]
 [2023-07-15 22:25:37] INFO root fetch - main [MainThread]: End processing [todoist-tree]: success
 [2023-07-15 22:25:37] INFO root fetch - main [MainThread]: Store serial: [18902870]
+[2023-07-15 22:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902870]
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-release-downloader
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magik
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybertron-llm
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-mcstatus
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WixOS
+[2023-07-15 22:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WixOS
+[2023-07-15 22:30:45] WARNING root fetch - processPackages [cybertron-llm]: Skipping, unable to determine old version
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: End processing [cybertron-llm] error
+[2023-07-15 22:30:45] INFO root fetch - processPackages [magik]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-15 22:30:45] ERROR root fetch - processPackages [WixOS]: Unable to get metadata: No such project 'WixOS'
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: End processing [WixOS] error
+[2023-07-15 22:30:45] WARNING root fetch - processPackages [github-release-downloader]: Skipping, unable to determine old version
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: End processing [github-release-downloader] error
+[2023-07-15 22:30:45] ERROR root fetch - processPackages [WixOS]: Unable to get metadata: No such project 'WixOS'
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: End processing [WixOS] error
+[2023-07-15 22:30:45] WARNING root fetch - processPackages [python-mcstatus]: Skipping, unable to determine old version
+[2023-07-15 22:30:45] INFO root fetch - main [MainThread]: End processing [python-mcstatus] error
+[2023-07-15 22:30:45] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/28/d2/4117afd258baae024f5c1c74f914a9575acde5c16dac2ae3d8314f8b20a6/magik-0.1.3.tar.gz
+[2023-07-15 22:30:46] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/df/5f/4a54b7939ee009d4d8bee6a8d6f509b6fffdec901cbb88a25189d6548c2b/magik-0.1.4.tar.gz
+[2023-07-15 22:30:46] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-15 22:30:46] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.3.tar.gz tmp/magik-0.1.4.tar.gz --markdown 20230715/m/magik/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-15 22:30:47] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.3.tar.gz]
+[2023-07-15 22:30:47] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.4.tar.gz]
+[2023-07-15 22:30:47] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-15 22:30:47] INFO root fetch - main [MainThread]: Store serial: [18902900]
