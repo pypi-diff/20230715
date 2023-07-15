@@ -6113,3 +6113,60 @@
 [2023-07-15 08:42:28] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.3.post2.tar.gz]
 [2023-07-15 08:42:28] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
 [2023-07-15 08:42:28] INFO root fetch - main [MainThread]: Store serial: [18898664]
+[2023-07-15 08:47:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898664]
+[2023-07-15 08:47:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypy-boto3
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boto3-stubs
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boto3-stubs-lite
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-aiobotocore-dynamodb
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 04-aliyun-vpc
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-edubarse-attempt-2
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydantic-xml
+[2023-07-15 08:47:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: estela-requests
+[2023-07-15 08:47:38] INFO root fetch - processPackages [pydantic-xml]: New version: [1.0.0] Old Version: [0.7.0]
+[2023-07-15 08:47:38] WARNING root fetch - processPackages [estela-requests]: Skipping, unable to determine old version
+[2023-07-15 08:47:38] INFO root fetch - main [MainThread]: End processing [estela-requests] error
+[2023-07-15 08:47:38] WARNING root fetch - processPackages [example-package-edubarse-attempt-2]: Skipping, unable to determine old version
+[2023-07-15 08:47:38] INFO root fetch - main [MainThread]: End processing [example-package-edubarse-attempt-2] error
+[2023-07-15 08:47:38] WARNING root fetch - processPackages [04-aliyun-vpc]: Skipping, unable to determine old version
+[2023-07-15 08:47:38] INFO root fetch - main [MainThread]: End processing [04-aliyun-vpc] error
+[2023-07-15 08:47:38] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: New version: [2.5.2.post1] Old Version: [2.5.2]
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:47:38] INFO root fetch - processPackages [mypy-boto3]: New version: [1.28.3.post2] Old Version: [1.28.3.post1]
+[2023-07-15 08:47:38] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/e0/95/6985e71763974abfc8064276347b499dcdc602a84274c20860b23e765fd5/types-aiobotocore-dynamodb-2.5.2.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/39/9b/56c8024e487482f8dce122ade2b3636d7a2edb9338ee7b7151f8e12c0e37/mypy-boto3-1.28.3.post1.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/8f/7d/6bd52e409bb57cb78ec60a0e3674dee6e2cc7ae034a832eea3e12e5eeef5/boto3-stubs-1.28.3.post1.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/35/de/84f27b875e9fa3917f6881e02e22ee4184473bac3770d731bb739d4321dc/pydantic_xml-0.7.0.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/42/9b/684d34e9d57fa5aea4ec96a475d1deea6ec6ece8d190a86e79f9d6ed19c4/mypy-boto3-1.28.3.post2.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/e4/58/44487698dc1b27b0969499ac540f54af8f2da034575e3d53fac03979510e/boto3-stubs-lite-1.28.3.post1.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/6e/f4/c538a89b005d2cbe84d26afd9b6bc132ef25086032d3aa2a6c5e4207fbac/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/c1/cd/00c82296394bc0aa95cabcc1719d802a0c4382401c095f7daddd8646e09e/boto3-stubs-1.28.3.post2.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-07-15 08:47:38] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.28.3.post1.tar.gz tmp/mypy-boto3-1.28.3.post2.tar.gz --markdown 20230715/m/mypy-boto3/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:47:38] INFO root fetch - processPackages [pydantic-xml]: Downloading https://files.pythonhosted.org/packages/fa/0d/29e78f61d911bb9a672dfa5208613a8b4e14b4d83b3a5d78f60e910371ed/pydantic_xml-1.0.0.tar.gz
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-07-15 08:47:38] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.28.3.post1.tar.gz tmp/boto3-stubs-1.28.3.post2.tar.gz --markdown 20230715/b/boto3-stubs/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:47:38] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: executing diffoscope
+[2023-07-15 08:47:38] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-dynamodb-2.5.2.tar.gz tmp/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz --markdown 20230715/t/types-aiobotocore-dynamodb/2.5.2-2.5.2.post1/diff.md --exclude *.pyd
+[2023-07-15 08:47:38] INFO root fetch - processPackages [pydantic-xml]: executing diffoscope
+[2023-07-15 08:47:38] INFO root fetch - processPackages [pydantic-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_xml-0.7.0.tar.gz tmp/pydantic_xml-1.0.0.tar.gz --markdown 20230715/p/pydantic-xml/0.7.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 08:47:39] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/68/8c/4db4bd5a59617766406374c7be63ae020ee1e9f594d648d1edd0aa32b275/boto3-stubs-lite-1.28.3.post2.tar.gz
+[2023-07-15 08:47:39] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-07-15 08:47:39] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.28.3.post1.tar.gz tmp/boto3-stubs-lite-1.28.3.post2.tar.gz --markdown 20230715/b/boto3-stubs-lite/1.28.3.post1-1.28.3.post2/diff.md --exclude *.pyd
+[2023-07-15 08:47:39] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.3.post1.tar.gz]
+[2023-07-15 08:47:39] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.28.3.post2.tar.gz]
+[2023-07-15 08:47:39] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-07-15 08:47:40] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.3.post1.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.28.3.post2.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-07-15 08:47:40] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-0.7.0.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - processPackages [pydantic-xml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_xml-1.0.0.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - main [MainThread]: End processing [pydantic-xml]: success
+[2023-07-15 08:47:40] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.2.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-dynamodb]: success
+[2023-07-15 08:47:40] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.3.post1.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.28.3.post2.tar.gz]
+[2023-07-15 08:47:40] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-07-15 08:47:40] INFO root fetch - main [MainThread]: Store serial: [18898697]
