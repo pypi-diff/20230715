@@ -12366,3 +12366,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:42:06] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.38.tar.gz]
 [2023-07-15 18:42:06] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:42:06] INFO root fetch - main [MainThread]: Store serial: [18901876]
+[2023-07-15 18:47:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901876]
+[2023-07-15 18:47:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathub-nightly
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banking-api-shared
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quarter-lib
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-verbs
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morphoaap
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: move2archive
+[2023-07-15 18:47:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stream-zip
+[2023-07-15 18:47:15] INFO root fetch - processPackages [move2archive]: New version: [2023.7.15.1] Old Version: [2023.6.11.2]
+[2023-07-15 18:47:15] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 18:47:15] INFO root fetch - processPackages [banking-api-shared]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 18:47:15] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230714] Old Version: [0.1.dev20230713]
+[2023-07-15 18:47:15] WARNING root fetch - processPackages [ml-verbs]: Skipping, unable to determine old version
+[2023-07-15 18:47:15] INFO root fetch - main [MainThread]: End processing [ml-verbs] error
+[2023-07-15 18:47:15] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 18:47:15] WARNING root fetch - processPackages [morphoaap]: Skipping, unable to determine old version
+[2023-07-15 18:47:15] INFO root fetch - main [MainThread]: End processing [morphoaap] error
+[2023-07-15 18:47:15] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/9b/2c/e3bb99ac668b35c7fa2b66ee8d36052b84861b367a38bd7089b64806de1f/quarter_lib-0.0.8.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/0f/6f/ea7c33d08654160116f74788f94abf77c717589d68c111d34089a5abdf39/move2archive-2023.6.11.2-py3-none-any.whl
+[2023-07-15 18:47:16] INFO root fetch - processPackages [banking-api-shared]: Downloading https://files.pythonhosted.org/packages/23/5e/4bd70ffbd18eebb2185221d71001ed66e8456bd7a4ad95c87b7e4e32ef54/banking_api_shared-0.1.1.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d9/b0/b03e03730e35cf056ce8303171499f33fcdf6b101291eff18e5b5bd08009/feathub_nightly-0.1.dev20230713-py3-none-any.whl
+[2023-07-15 18:47:16] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12211654>=10485760
+[2023-07-15 18:47:16] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-15 18:47:16] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/de/35/0aa9b114fe985dd877df8c9134b9ee9dff07682aa29d20ca67048428916c/quarter_lib-0.0.9.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [move2archive]: Downloading https://files.pythonhosted.org/packages/4b/67/945c7cbf766d0cdcf083e9232a3f2c5b18d6079da86ea801f6cbfa35de37/move2archive-2023.7.15.1-py3-none-any.whl
+[2023-07-15 18:47:16] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-07-15 18:47:16] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230715/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:47:16] INFO root fetch - processPackages [banking-api-shared]: Downloading https://files.pythonhosted.org/packages/57/00/5b0059711233682f11a424f1ab56fb3f215aa46253532f980688e434b3e4/banking_api_shared-0.1.2.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [move2archive]: executing diffoscope
+[2023-07-15 18:47:16] INFO root fetch - processPackages [move2archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move2archive-2023.6.11.2-py3-none-any.whl.zip tmp/move2archive-2023.7.15.1-py3-none-any.whl.zip --markdown 20230715/m/move2archive/2023.6.11.2-2023.7.15.1/diff.md --exclude *.pyd
+[2023-07-15 18:47:16] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-07-15 18:47:16] INFO root fetch - processPackages [banking-api-shared]: executing diffoscope
+[2023-07-15 18:47:16] INFO root fetch - processPackages [banking-api-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_api_shared-0.1.1.tar.gz tmp/banking_api_shared-0.1.2.tar.gz --markdown 20230715/b/banking-api-shared/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 18:47:16] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-07-15 18:47:16] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230715/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:47:17] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.8.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.9.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-07-15 18:47:17] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.6.11.2-py3-none-any.whl.zip]
+[2023-07-15 18:47:17] INFO root fetch - processPackages [move2archive]: Remove: archive file [/home/abi/fetcher/tmp/move2archive-2023.7.15.1-py3-none-any.whl.zip]
+[2023-07-15 18:47:17] INFO root fetch - main [MainThread]: End processing [move2archive]: success
+[2023-07-15 18:47:17] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-07-15 18:47:17] INFO root fetch - processPackages [banking-api-shared]: Remove: archive file [/home/abi/fetcher/tmp/banking_api_shared-0.1.1.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - processPackages [banking-api-shared]: Remove: archive file [/home/abi/fetcher/tmp/banking_api_shared-0.1.2.tar.gz]
+[2023-07-15 18:47:17] INFO root fetch - main [MainThread]: End processing [banking-api-shared]: success
+[2023-07-15 18:47:17] INFO root fetch - main [MainThread]: Store serial: [18901898]
