@@ -8149,3 +8149,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:16:05] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.0.9.tar.gz]
 [2023-07-15 12:16:05] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
 [2023-07-15 12:16:05] INFO root fetch - main [MainThread]: Store serial: [18899672]
+[2023-07-15 12:21:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899672]
+[2023-07-15 12:21:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonechat
+[2023-07-15 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiosintDS
+[2023-07-15 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cicinlang
+[2023-07-15 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danbi
+[2023-07-15 12:21:13] INFO root fetch - processPackages [nonechat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 12:21:13] INFO root fetch - processPackages [apiosintDS]: New version: [2.0.1] Old Version: [2.0]
+[2023-07-15 12:21:13] WARNING root fetch - processPackages [cicinlang]: Skipping, unable to determine old version
+[2023-07-15 12:21:13] INFO root fetch - main [MainThread]: End processing [cicinlang] error
+[2023-07-15 12:21:14] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-15 12:21:14] INFO root fetch - processPackages [nonechat]: Downloading https://files.pythonhosted.org/packages/85/82/4406870cef7b70718214a3c89c91e7f5aa8bcaeafb524f2bc891ba2eb5c3/nonechat-0.1.1.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [apiosintDS]: Downloading https://files.pythonhosted.org/packages/5d/34/bba6edbc387751c078a301e98deb763a2cfda085845f543b2aa81a9dfe52/apiosintDS-2.0.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [apiosintDS]: Downloading https://files.pythonhosted.org/packages/a7/94/9df65abb26cc7971ff574d869b8aec082e62e7cdbf93e2198253a5b18816/apiosintDS-2.0.1.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [nonechat]: Downloading https://files.pythonhosted.org/packages/a1/b5/f3a0146d95cf065ce3465eeca5289da823ad5a0466004cb589af421ae937/nonechat-0.1.2.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-07-15 12:21:14] INFO root fetch - processPackages [apiosintDS]: executing diffoscope
+[2023-07-15 12:21:14] INFO root fetch - processPackages [apiosintDS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiosintDS-2.0.tar.gz tmp/apiosintDS-2.0.1.tar.gz --markdown 20230715/a/apiosintDS/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-15 12:21:14] INFO root fetch - processPackages [nonechat]: executing diffoscope
+[2023-07-15 12:21:14] INFO root fetch - processPackages [nonechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonechat-0.1.1.tar.gz tmp/nonechat-0.1.2.tar.gz --markdown 20230715/n/nonechat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 12:21:14] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-07-15 12:21:14] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230715/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-15 12:21:15] INFO root fetch - processPackages [nonechat]: Remove: archive file [/home/abi/fetcher/tmp/nonechat-0.1.1.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - processPackages [nonechat]: Remove: archive file [/home/abi/fetcher/tmp/nonechat-0.1.2.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - main [MainThread]: End processing [nonechat]: success
+[2023-07-15 12:21:15] INFO root fetch - processPackages [apiosintDS]: Remove: archive file [/home/abi/fetcher/tmp/apiosintDS-2.0.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - processPackages [apiosintDS]: Remove: archive file [/home/abi/fetcher/tmp/apiosintDS-2.0.1.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - main [MainThread]: End processing [apiosintDS]: success
+[2023-07-15 12:21:15] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-07-15 12:21:15] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-07-15 12:21:15] INFO root fetch - main [MainThread]: Store serial: [18899687]
