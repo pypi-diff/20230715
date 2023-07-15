@@ -9789,3 +9789,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:09:46] INFO root fetch - processPackages [SQLAlchemy]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-2.0.9.tar.gz]
 [2023-07-15 15:09:46] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
 [2023-07-15 15:09:46] INFO root fetch - main [MainThread]: Store serial: [18900538]
+[2023-07-15 15:14:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900538]
+[2023-07-15 15:15:00] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenbitlib
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quick-topic
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellar-extractor
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-sayoroll
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-local-backend
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-nano
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [zenbitlib]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [quick-topic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.51] Old Version: [1.0.50]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [ovos-local-backend]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:15:00] INFO root fetch - processPackages [zenbitlib]: Downloading https://files.pythonhosted.org/packages/fc/2b/bbeb13ff19b42422cb8ebb6680d47f32fa37828ac874edf48af8353ec728/zenbitlib-0.0.3.tar.gz
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-15 15:15:00] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7e/11/9cf956899dba2c1888411e15ec9f7a0a97ecd4149e693ccb1ad5b75a85ec/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-15 15:15:00] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/6f/90/73461b85d461e512f1e891c1017014ddd3aed42a19b0971e3f7465dc45b1/nonebot-plugin-sayoroll-0.2.0.tar.gz
+[2023-07-15 15:15:00] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/45/5d/10a91974b0d198657672ea8dbae8987eaac1028612cb568060218ed396bd/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-15 15:15:00] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/e1/5e/6e223904fce28a5fc11a1194392872ff43c96e2afca8daf2def4cce0aecf/cellar_extractor-1.0.50.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [quick-topic]: Downloading https://files.pythonhosted.org/packages/71/1e/f6edd382442e3c9f56e597d66ca1daff96e6883bab3d3b2f2082da93c1cc/quick-topic-1.0.0.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/aa/cb/d2765c107910f6bc1dca69dcc16c73a0986ab984fe77cf33633045941028/ovos_local_backend-0.2.0a8-py3-none-any.whl
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [zenbitlib]: Downloading https://files.pythonhosted.org/packages/d2/01/399b2351770d970ad389b774f77be549d2fad7b08a4742e5b9be984a108d/zenbitlib-0.0.5.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/bc/6a/607e6ec27a8600818730724452aa58fa9cb923b9da857d05bf94f5a468f0/nonebot-plugin-sayoroll-0.2.1.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230715/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230715/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/24/73/b5c260b66e25ac518d73c0edd6980a8d54c82532de03dffdc785bd821708/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230715/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/78/33/b93a2dc8a14ebbccac017c40f9ad51101fa24a5da1d305709ae16feb8282/cellar_extractor-1.0.51.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [quick-topic]: Downloading https://files.pythonhosted.org/packages/3b/ac/c55b78daf6764f35628649c6fdb9fba97632e40c5bb910d1ea9156961763/quick-topic-1.0.1.tar.gz
+[2023-07-15 15:15:01] INFO root fetch - processPackages [zenbitlib]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [zenbitlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenbitlib-0.0.3.tar.gz tmp/zenbitlib-0.0.5.tar.gz --markdown 20230715/z/zenbitlib/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.2.0.tar.gz tmp/nonebot-plugin-sayoroll-0.2.1.tar.gz --markdown 20230715/n/nonebot-plugin-sayoroll/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/0f/63/3ad28e2a923e3140424a7a21cec3d101b805c20f3a7b54ec81c0f2fc5170/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-15 15:15:01] INFO root fetch - processPackages [ovos-local-backend]: Downloading https://files.pythonhosted.org/packages/5f/f7/ba89e3c2dfaeb03aac975f2afbaa1980ccbe7273dcd7f5b525280a59d733/ovos_local_backend-0.2.0a9-py3-none-any.whl
+[2023-07-15 15:15:01] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.50.tar.gz tmp/cellar_extractor-1.0.51.tar.gz --markdown 20230715/c/cellar-extractor/1.0.50-1.0.51/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230715/b/bigdl-llm/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [quick-topic]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [quick-topic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick-topic-1.0.0.tar.gz tmp/quick-topic-1.0.1.tar.gz --markdown 20230715/q/quick-topic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 15:15:01] INFO root fetch - processPackages [ovos-local-backend]: executing diffoscope
+[2023-07-15 15:15:01] INFO root fetch - processPackages [ovos-local-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip --markdown 20230715/o/ovos-local-backend/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-07-15 15:15:02] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-15 15:15:02] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230715/b/bigdl-nano/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:15:02] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-15 15:15:02] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-15 15:15:02] INFO root fetch - processPackages [nbdev-pandas]: Start processing: bigdl-chronos
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.0.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.1.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Start processing: nonecorn
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonecorn]: New version: [0.14.3.dev1] Old Version: [0.14.3]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: bigdl-serving
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-numpy]: Start processing: AutoCarver
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [zenbitlib]: Remove: archive file [/home/abi/fetcher/tmp/zenbitlib-0.0.3.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [zenbitlib]: Remove: archive file [/home/abi/fetcher/tmp/zenbitlib-0.0.5.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [zenbitlib]: Start processing: nonebot-plugin-osuverify
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [zenbitlib]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.6] Old Version: [5.0.5]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/9c/d5/80ff9f600afc9c3be08a0766ae68123f498d99f5769e85c4603341874d9e/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/bc/92/02772389ebc7e1b8f41d4b3e842d20b244cc9e92ad46e11150d0f77a6914/nonecorn-0.14.3.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-osuverify]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.50.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.51.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [cellar-extractor]: Start processing: nbdev-scipy
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/d8/82/f35dd001c8a276beb38ad6d4e9a81506a522c7279a814dcdb539dbefae84/AutoCarver-5.0.5.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a8-py3-none-any.whl.zip]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [ovos-local-backend]: Remove: archive file [/home/abi/fetcher/tmp/ovos_local_backend-0.2.0a9-py3-none-any.whl.zip]
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [ovos-local-backend]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/e5/cd/a432d2f23dab9a092c4331d6b698263f9083f6bbe86b8f23cffa39792e1b/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-osuverify]: Downloading https://files.pythonhosted.org/packages/b1/56/b5e5d1c328956a968ef73a4910b0302db3ca426cd18cb87182586055c96a/nonebot-plugin-osuverify-0.0.2.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/b6/34/15e239bae6a1ee91f2b3c7132002e2a8b2a08a729e820aae78a6373381f4/AutoCarver-5.0.6.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/9e/ca/14019b7ded6981606000df694ded766b73e4ca4f7a2d620e4f5084ec4fb1/nonecorn-0.14.3.dev1.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/47/ec/e98e94b39365c526dace777e815e130dc326fe645aff9efc42e4a3948311/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-15 15:15:03] INFO root fetch - processPackages [quick-topic]: Remove: archive file [/home/abi/fetcher/tmp/quick-topic-1.0.0.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - processPackages [quick-topic]: Remove: archive file [/home/abi/fetcher/tmp/quick-topic-1.0.1.tar.gz]
+[2023-07-15 15:15:03] INFO root fetch - main [MainThread]: End processing [quick-topic]: success
+[2023-07-15 15:15:03] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-15 15:15:03] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.5.tar.gz tmp/AutoCarver-5.0.6.tar.gz --markdown 20230715/A/AutoCarver/5.0.5-5.0.6/diff.md --exclude *.pyd
+[2023-07-15 15:15:03] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/68/ae/793653c7c3b36f0406f570847135740d5e96dcd633a9b5c48c4a310a324b/bigdl_serving-2.4.0b20230715-py2.py3-none-any.whl
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonecorn]: executing diffoscope
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonecorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonecorn-0.14.3.tar.gz tmp/nonecorn-0.14.3.dev1.tar.gz --markdown 20230715/n/nonecorn/0.14.3-0.14.3.dev1/diff.md --exclude *.pyd
+[2023-07-15 15:15:03] INFO root fetch - processPackages [nonebot-plugin-osuverify]: Downloading https://files.pythonhosted.org/packages/66/84/5364a35d5acc0a2ade228612f7e2549e9ba81fe9e94dceec59e43200c018/nonebot-plugin-osuverify-0.1.0.tar.gz
+[2023-07-15 15:15:04] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-15 15:15:04] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230715/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 15:15:04] INFO root fetch - processPackages [nonebot-plugin-osuverify]: executing diffoscope
+[2023-07-15 15:15:04] INFO root fetch - processPackages [nonebot-plugin-osuverify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-osuverify-0.0.2.tar.gz tmp/nonebot-plugin-osuverify-0.1.0.tar.gz --markdown 20230715/n/nonebot-plugin-osuverify/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230715/b/bigdl-chronos/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230715-py2.py3-none-any.whl.zip --markdown 20230715/b/bigdl-serving/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:04] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:04] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.5.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.6.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.14.3.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.14.3.dev1.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [nonecorn]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230714-py2.py3-none-any.whl.zip]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230715-py2.py3-none-any.whl.zip]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nonebot-plugin-osuverify]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-osuverify-0.0.2.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [nonebot-plugin-osuverify]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-osuverify-0.1.0.tar.gz]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osuverify]: success
+[2023-07-15 15:15:05] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:05] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:05] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-15 15:15:10] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:10] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-15 15:15:10] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-15 15:15:10] INFO root fetch - main [MainThread]: Store serial: [18900584]
