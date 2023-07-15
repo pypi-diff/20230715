@@ -4549,3 +4549,29 @@
 [2023-07-15 06:14:39] INFO root fetch - processPackages [opendal]: Remove: archive file [/home/abi/fetcher/tmp/opendal-0.38.1.tar.gz]
 [2023-07-15 06:14:39] INFO root fetch - main [MainThread]: End processing [opendal]: success
 [2023-07-15 06:14:39] INFO root fetch - main [MainThread]: Store serial: [18897879]
+[2023-07-15 06:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897879]
+[2023-07-15 06:19:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 06:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spear-tts-pytorch
+[2023-07-15 06:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysubcipher
+[2023-07-15 06:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlanetProfile
+[2023-07-15 06:19:47] INFO root fetch - processPackages [spear-tts-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 06:19:47] INFO root fetch - processPackages [pysubcipher]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-15 06:19:48] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/8b/c0/9816308e4f1c643b46d54b384d0623e98efe552da299a8a40e54f451dcf8/pysubcipher-2.3.2.tar.gz
+[2023-07-15 06:19:48] INFO root fetch - processPackages [PlanetProfile]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-15 06:19:48] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/6c/0e/523bc24bbc6074743e169af3e4a33366468176732ac0d38193a8d7e0c4e6/spear-tts-pytorch-0.0.8.tar.gz
+[2023-07-15 06:19:48] INFO root fetch - processPackages [PlanetProfile]: Downloading https://files.pythonhosted.org/packages/65/29/cb2a9202508a8e95a257628e98a760d9d325bc8d3660522085c5936cd904/PlanetProfile-2.3.8.tar.gz
+[2023-07-15 06:19:48] WARNING root fetch - processPackages [PlanetProfile]: Skipping package: exceeds size limit 90531347>=10485760
+[2023-07-15 06:19:48] INFO root fetch - main [MainThread]: End processing [PlanetProfile] error
+[2023-07-15 06:19:48] INFO root fetch - processPackages [pysubcipher]: Downloading https://files.pythonhosted.org/packages/fb/b8/5b1fba02adc43937e049a1172127ef152d89d3b97ad50e178fd45afe2226/pysubcipher-2.3.3.tar.gz
+[2023-07-15 06:19:48] INFO root fetch - processPackages [spear-tts-pytorch]: Downloading https://files.pythonhosted.org/packages/29/8c/c3ba945055c388c01f69c8be13e3bcde6a3cf31f0febdd5751142dbdf9a0/spear-tts-pytorch-0.0.9.tar.gz
+[2023-07-15 06:19:48] INFO root fetch - processPackages [pysubcipher]: executing diffoscope
+[2023-07-15 06:19:48] INFO root fetch - processPackages [pysubcipher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubcipher-2.3.2.tar.gz tmp/pysubcipher-2.3.3.tar.gz --markdown 20230715/p/pysubcipher/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-15 06:19:48] INFO root fetch - processPackages [spear-tts-pytorch]: executing diffoscope
+[2023-07-15 06:19:48] INFO root fetch - processPackages [spear-tts-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spear-tts-pytorch-0.0.8.tar.gz tmp/spear-tts-pytorch-0.0.9.tar.gz --markdown 20230715/s/spear-tts-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 06:19:49] INFO root fetch - processPackages [pysubcipher]: Remove: archive file [/home/abi/fetcher/tmp/pysubcipher-2.3.2.tar.gz]
+[2023-07-15 06:19:49] INFO root fetch - processPackages [pysubcipher]: Remove: archive file [/home/abi/fetcher/tmp/pysubcipher-2.3.3.tar.gz]
+[2023-07-15 06:19:49] INFO root fetch - main [MainThread]: End processing [pysubcipher]: success
+[2023-07-15 06:19:49] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.8.tar.gz]
+[2023-07-15 06:19:49] INFO root fetch - processPackages [spear-tts-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/spear-tts-pytorch-0.0.9.tar.gz]
+[2023-07-15 06:19:49] INFO root fetch - main [MainThread]: End processing [spear-tts-pytorch]: success
+[2023-07-15 06:19:49] INFO root fetch - main [MainThread]: Store serial: [18897888]
