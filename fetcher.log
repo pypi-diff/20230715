@@ -2895,3 +2895,27 @@
 [2023-07-15 03:14:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-07-15 03:14:33] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-07-15 03:14:33] INFO root fetch - main [MainThread]: Store serial: [18897104]
+[2023-07-15 03:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897104]
+[2023-07-15 03:19:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 03:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vstutils
+[2023-07-15 03:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secret-checker
+[2023-07-15 03:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirun
+[2023-07-15 03:19:42] WARNING root fetch - processPackages [secret-checker]: Skipping, unable to determine old version
+[2023-07-15 03:19:42] INFO root fetch - main [MainThread]: End processing [secret-checker] error
+[2023-07-15 03:19:42] INFO root fetch - processPackages [cirun]: New version: [0.23] Old Version: [0.22]
+[2023-07-15 03:19:42] INFO root fetch - processPackages [vstutils]: New version: [5.6.0a1] Old Version: [5.5.9]
+[2023-07-15 03:19:42] INFO root fetch - processPackages [cirun]: Downloading https://files.pythonhosted.org/packages/93/5d/5b74453a7b32e2f4265d4dc8913dfdaaf971cf3de4d6d8ab0e8fe9657c84/cirun-0.22.tar.gz
+[2023-07-15 03:19:42] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/7d/de/5fd14fb992480bd60b3834a727cf11227fcb8ea5ae74cb50eb029de28b97/vstutils-5.5.9.tar.gz
+[2023-07-15 03:19:42] INFO root fetch - processPackages [cirun]: Downloading https://files.pythonhosted.org/packages/c9/5a/77574b66ec6a9d77842d974e8233a1361d167e783f303dbcaaeeda36b932/cirun-0.23.tar.gz
+[2023-07-15 03:19:42] INFO root fetch - processPackages [cirun]: executing diffoscope
+[2023-07-15 03:19:42] INFO root fetch - processPackages [cirun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirun-0.22.tar.gz tmp/cirun-0.23.tar.gz --markdown 20230715/c/cirun/0.22-0.23/diff.md --exclude *.pyd
+[2023-07-15 03:19:43] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/05/90/d8e708235c68f8d99352b561da1cfce75effbbe8c63c50169951205ac271/vstutils-5.6.0a1.tar.gz
+[2023-07-15 03:19:43] INFO root fetch - processPackages [cirun]: Remove: archive file [/home/abi/fetcher/tmp/cirun-0.22.tar.gz]
+[2023-07-15 03:19:43] INFO root fetch - processPackages [cirun]: Remove: archive file [/home/abi/fetcher/tmp/cirun-0.23.tar.gz]
+[2023-07-15 03:19:43] INFO root fetch - main [MainThread]: End processing [cirun]: success
+[2023-07-15 03:19:43] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-07-15 03:19:43] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.9.tar.gz tmp/vstutils-5.6.0a1.tar.gz --markdown 20230715/v/vstutils/5.5.9-5.6.0a1/diff.md --exclude *.pyd
+[2023-07-15 03:19:48] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.9.tar.gz]
+[2023-07-15 03:19:48] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.0a1.tar.gz]
+[2023-07-15 03:19:48] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-07-15 03:19:48] INFO root fetch - main [MainThread]: Store serial: [18897115]
