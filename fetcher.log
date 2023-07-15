@@ -8320,3 +8320,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:37:03] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-15 12:37:03] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-15 12:37:03] INFO root fetch - main [MainThread]: Store serial: [18899767]
+[2023-07-15 12:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899767]
+[2023-07-15 12:42:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugp100
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-oscar-pg-search
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toodaloo
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoCarver
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-binary-tree
+[2023-07-15 12:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skypilot-nightly
+[2023-07-15 12:42:12] INFO root fetch - processPackages [toodaloo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [django-oscar-pg-search]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230714] Old Version: [1.0.0.dev20230713]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.6] Old Version: [5.0.5]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [plugp100]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-15 12:42:12] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/aa/9c/334fbcd7b43c2d2ea57a292007aeb844dbffffcaa1be2b1df9868d7706d3/toodaloo-0.0.3.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/d8/82/f35dd001c8a276beb38ad6d4e9a81506a522c7279a814dcdb539dbefae84/AutoCarver-5.0.5.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/b9/81/8411e7281f46f71e69da112ff3749ba97191064623894c7dcb3b2633d4c3/streamlit-binary-tree-0.2.2.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [django-oscar-pg-search]: Downloading https://files.pythonhosted.org/packages/d5/36/81fb93240410a3fe9b5989cbe3f2ebaf33dd4bfd22e9b243db593f1b53fa/django-oscar-pg-search-0.9.4.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/83/08/bcc0acf702fe767df82d5681b6485f3675571d7dab2c38e4e08470f9a1a4/skypilot-nightly-1.0.0.dev20230713.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/fc/e9/25ffbe726f7d1b79edc9a654cbffdfeff5bd8ad8593d03a2acfea05342b7/plugp100-3.1.0.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/c9/d7/fe308253eb3f06491c5654e08db34b503ba652461b764ac8744b8a7fff49/toodaloo-0.0.4.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/b6/34/15e239bae6a1ee91f2b3c7132002e2a8b2a08a729e820aae78a6373381f4/AutoCarver-5.0.6.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [django-oscar-pg-search]: Downloading https://files.pythonhosted.org/packages/fb/14/c2ff021e1ce5f0163302c9361f1b685bb815e865c9ab10e22655ec967a57/django-oscar-pg-search-0.9.5.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [plugp100]: Downloading https://files.pythonhosted.org/packages/3f/7f/82268f6c14629ebc278fe33036a0b048fd43c5d559e98c67ff102fdb42b3/plugp100-3.1.1.tar.gz
+[2023-07-15 12:42:12] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/4f/70/a8b2a178b510dff80daa5010461696343194fb33fb41f8eb1a36902badcc/streamlit-binary-tree-0.2.3.tar.gz
+[2023-07-15 12:42:13] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.5.tar.gz tmp/AutoCarver-5.0.6.tar.gz --markdown 20230715/A/AutoCarver/5.0.5-5.0.6/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [toodaloo]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [toodaloo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toodaloo-0.0.3.tar.gz tmp/toodaloo-0.0.4.tar.gz --markdown 20230715/t/toodaloo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/c1/21/683da9cbeef7460ac997f36367f26eeb56f3d4e7502ad2769b282ebe6c3d/skypilot-nightly-1.0.0.dev20230714.tar.gz
+[2023-07-15 12:42:13] INFO root fetch - processPackages [django-oscar-pg-search]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [django-oscar-pg-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-pg-search-0.9.4.tar.gz tmp/django-oscar-pg-search-0.9.5.tar.gz --markdown 20230715/d/django-oscar-pg-search/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [plugp100]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [plugp100]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugp100-3.1.0.tar.gz tmp/plugp100-3.1.1.tar.gz --markdown 20230715/p/plugp100/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230713.tar.gz tmp/skypilot-nightly-1.0.0.dev20230714.tar.gz --markdown 20230715/s/skypilot-nightly/1.0.0.dev20230713-1.0.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 12:42:13] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.2.tar.gz tmp/streamlit-binary-tree-0.2.3.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 12:42:13] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.3.tar.gz]
+[2023-07-15 12:42:13] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.4.tar.gz]
+[2023-07-15 12:42:13] INFO root fetch - main [MainThread]: End processing [toodaloo]: success
+[2023-07-15 12:42:14] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.5.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.6.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-15 12:42:14] INFO root fetch - processPackages [django-oscar-pg-search]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-pg-search-0.9.4.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - processPackages [django-oscar-pg-search]: Remove: archive file [/home/abi/fetcher/tmp/django-oscar-pg-search-0.9.5.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [django-oscar-pg-search]: success
+[2023-07-15 12:42:14] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-3.1.0.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - processPackages [plugp100]: Remove: archive file [/home/abi/fetcher/tmp/plugp100-3.1.1.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [plugp100]: success
+[2023-07-15 12:42:14] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.2.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.3.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 12:42:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230713.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230714.tar.gz]
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-07-15 12:42:14] INFO root fetch - main [MainThread]: Store serial: [18899791]
