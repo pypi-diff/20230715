@@ -7254,3 +7254,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:47:21] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-15 10:47:21] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-15 10:47:21] INFO root fetch - main [MainThread]: Store serial: [18899315]
+[2023-07-15 10:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899315]
+[2023-07-15 10:52:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-s3-delta
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devpm
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyciy
+[2023-07-15 10:52:30] WARNING root fetch - processPackages [pyciy]: Skipping, unable to determine old version
+[2023-07-15 10:52:30] INFO root fetch - main [MainThread]: End processing [pyciy] error
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ork.build]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-07-15 10:52:30] INFO root fetch - processPackages [devpm]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-07-15 10:52:30] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/ef/70/dcec606292ef4cb52e73e57e55f2729811ba24ef249f21de19bce00db4b9/ork.build-0.0.28.tar.gz
+[2023-07-15 10:52:30] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-15 10:52:30] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/64/48/426c6299f31baa81cd6c8cad0dcee3118d7d842a54dd4f80a37e5fe9e0e9/devpm-0.0.2.tar.gz
+[2023-07-15 10:52:30] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-15 10:52:30] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/5f/c9/e3cb9917a83b5ee7d774bc3554a19d181aa5fe20590bfc225a539ea5238a/ork.build-0.0.29.tar.gz
+[2023-07-15 10:52:30] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-15 10:52:30] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230715/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 10:52:31] INFO root fetch - processPackages [devpm]: Downloading https://files.pythonhosted.org/packages/15/c7/b9d41ee0d0a248400dacf71f0f13f96506909101a18c5c7f6322e6e42d78/devpm-1.0.0.tar.gz
+[2023-07-15 10:52:31] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 10:52:31] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.28.tar.gz tmp/ork.build-0.0.29.tar.gz --markdown 20230715/o/ork.build/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-07-15 10:52:31] INFO root fetch - processPackages [devpm]: executing diffoscope
+[2023-07-15 10:52:31] INFO root fetch - processPackages [devpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpm-0.0.2.tar.gz tmp/devpm-1.0.0.tar.gz --markdown 20230715/d/devpm/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 10:52:31] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-15 10:52:31] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-15 10:52:31] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-15 10:52:31] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-0.0.2.tar.gz]
+[2023-07-15 10:52:31] INFO root fetch - processPackages [devpm]: Remove: archive file [/home/abi/fetcher/tmp/devpm-1.0.0.tar.gz]
+[2023-07-15 10:52:31] INFO root fetch - main [MainThread]: End processing [devpm]: success
+[2023-07-15 10:52:33] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.28.tar.gz]
+[2023-07-15 10:52:33] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.29.tar.gz]
+[2023-07-15 10:52:33] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 10:52:33] INFO root fetch - main [MainThread]: Store serial: [18899329]
