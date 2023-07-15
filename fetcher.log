@@ -10529,3 +10529,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:57:17] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
 [2023-07-15 15:57:17] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2023-07-15 15:57:17] INFO root fetch - main [MainThread]: Store serial: [18900918]
+[2023-07-15 16:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900918]
+[2023-07-15 16:02:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-chirux
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nrobo
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastestimator-nightly
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chdev-tool
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daves-utilities
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarkn
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: daves-utilities
+[2023-07-15 16:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: example-package-chirux
+[2023-07-15 16:02:28] WARNING root fetch - processPackages [example-package-chirux]: Skipping, unable to determine old version
+[2023-07-15 16:02:28] INFO root fetch - main [MainThread]: End processing [example-package-chirux] error
+[2023-07-15 16:02:28] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-15 16:02:28] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-15 16:02:28] WARNING root fetch - processPackages [swarkn]: Skipping, unable to determine old version
+[2023-07-15 16:02:28] INFO root fetch - main [MainThread]: End processing [swarkn] error
+[2023-07-15 16:02:28] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-15 16:02:28] WARNING root fetch - processPackages [example-package-chirux]: Skipping, unable to determine old version
+[2023-07-15 16:02:28] INFO root fetch - main [MainThread]: End processing [example-package-chirux] error
+[2023-07-15 16:02:28] INFO root fetch - processPackages [sdkit]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-15 16:02:28] WARNING root fetch - processPackages [chdev-tool]: Skipping, unable to determine old version
+[2023-07-15 16:02:28] INFO root fetch - main [MainThread]: End processing [chdev-tool] error
+[2023-07-15 16:02:28] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/d1/c1/f3e251106f7f4c022d55f8fe3a3c0eacdb5bfdf84ce4182f71368c4f3a5f/sdkit-1.0.98.tar.gz
+[2023-07-15 16:02:28] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202307151357] Old Version: [1.6.0.dev202306301354]
+[2023-07-15 16:02:28] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cc/66/af5a6dccc9550236c8ae02f9bb5e909e93f850a61b8b1f6f11cdbbdd83bb/daves_utilities-0.1.6.tar.gz
+[2023-07-15 16:02:28] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-07-15 16:02:28] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/cc/66/af5a6dccc9550236c8ae02f9bb5e909e93f850a61b8b1f6f11cdbbdd83bb/daves_utilities-0.1.6.tar.gz
+[2023-07-15 16:02:28] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-07-15 16:02:28] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-07-15 16:02:28] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/06/18/c310f460b7366c25b7eb1d959c95730800f2bb37fc463ac99ef214957770/fastestimator-nightly-1.6.0.dev202306301354.tar.gz
+[2023-07-15 16:02:28] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/7e/69/b60dd118fa3c33f9ff305ec5ce9de04303dfdfc9be5d286e20cbc1ee1e7b/sdkit-1.0.99.tar.gz
+[2023-07-15 16:02:28] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-07-15 16:02:28] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.98.tar.gz tmp/sdkit-1.0.99.tar.gz --markdown 20230715/s/sdkit/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/41/16/1467db4d90d43a602f2ac770596e59914b3bf7bb48b4d75c4a6428304347/daves_utilities-0.1.7.tar.gz
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.6.tar.gz tmp/daves_utilities-0.1.7.tar.gz --markdown 20230715/d/daves-utilities/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 16:02:29] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.6.tar.gz tmp/daves_utilities-0.1.7.tar.gz --markdown 20230715/d/daves-utilities/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-15 16:02:29] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/cb/15/7f61923deebca6df7286ce2b6a26375e6827b45df0afdf3ad01e557f8a32/fastestimator-nightly-1.6.0.dev202307151357.tar.gz
+[2023-07-15 16:02:29] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-07-15 16:02:29] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306301354.tar.gz tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz --markdown 20230715/f/fastestimator-nightly/1.6.0.dev202306301354-1.6.0.dev202307151357/diff.md --exclude *.pyd
+[2023-07-15 16:02:30] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.98.tar.gz]
+[2023-07-15 16:02:30] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-1.0.99.tar.gz]
+[2023-07-15 16:02:30] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-07-15 16:02:30] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.6.tar.gz]
+[2023-07-15 16:02:30] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.7.tar.gz]
+[2023-07-15 16:02:30] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 16:02:30] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306301354.tar.gz]
+[2023-07-15 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz]
+[2023-07-15 16:02:33] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-07-15 16:02:33] INFO root fetch - main [MainThread]: Store serial: [18900961]
