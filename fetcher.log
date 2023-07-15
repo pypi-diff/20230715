@@ -4024,3 +4024,15 @@
 [2023-07-15 05:27:02] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230715.tar.gz]
 [2023-07-15 05:27:02] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-07-15 05:27:02] INFO root fetch - main [MainThread]: Store serial: [18897646]
+[2023-07-15 05:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897646]
+[2023-07-15 05:32:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-15 05:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flux-burst
+[2023-07-15 05:32:11] INFO root fetch - processPackages [flux-burst]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-15 05:32:11] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/46/a9/ad063b9605f377c489bc1d8999666c6308e060dbed413831f5dbcf9b5603/flux-burst-0.0.13.tar.gz
+[2023-07-15 05:32:11] INFO root fetch - processPackages [flux-burst]: Downloading https://files.pythonhosted.org/packages/da/07/2d4abb19f1d8edfe598a51714cee1992c31d8c1ef2c3758358e19abe59c0/flux-burst-0.0.14.tar.gz
+[2023-07-15 05:32:11] INFO root fetch - processPackages [flux-burst]: executing diffoscope
+[2023-07-15 05:32:11] INFO root fetch - processPackages [flux-burst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-0.0.13.tar.gz tmp/flux-burst-0.0.14.tar.gz --markdown 20230715/f/flux-burst/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-15 05:32:12] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.13.tar.gz]
+[2023-07-15 05:32:12] INFO root fetch - processPackages [flux-burst]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-0.0.14.tar.gz]
+[2023-07-15 05:32:12] INFO root fetch - main [MainThread]: End processing [flux-burst]: success
+[2023-07-15 05:32:12] INFO root fetch - main [MainThread]: Store serial: [18897663]
