@@ -12596,3 +12596,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:02:53] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.39.tar.gz]
 [2023-07-15 19:02:53] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 19:02:53] INFO root fetch - main [MainThread]: Store serial: [18901965]
+[2023-07-15 19:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901965]
+[2023-07-15 19:08:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astx
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snap-saas-base
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pharindoko.cdk-internal-gateway
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skidl
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-login-form
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stream-write-ods
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: muse-maskgit-pytorch
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volumizer
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muse-maskgit-pytorch
+[2023-07-15 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dragonfly-radiance
+[2023-07-15 19:08:02] INFO root fetch - processPackages [stream-write-ods]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [snap-saas-base]: New version: [0.4.0] Old Version: [0.1.0]
+[2023-07-15 19:08:02] WARNING root fetch - processPackages [astx]: Skipping, unable to determine old version
+[2023-07-15 19:08:02] INFO root fetch - processPackages [astx]: Start processing: honeybee-radiance-postprocess
+[2023-07-15 19:08:02] INFO root fetch - main [MainThread]: End processing [astx] error
+[2023-07-15 19:08:02] INFO root fetch - processPackages [st-login-form]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [volumizer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [skidl]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [muse-maskgit-pytorch]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [muse-maskgit-pytorch]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [stream-write-ods]: Downloading https://files.pythonhosted.org/packages/d9/1c/787e23f25151fda10e41b7a945988bad38ca9652ac5c344349a86534ac93/stream-write-ods-0.0.8.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-07-15 19:08:02] INFO root fetch - processPackages [snap-saas-base]: Downloading https://files.pythonhosted.org/packages/3e/81/c8d6937afd0d9110d4281cf5f1bc143dfb4123c58e05bf947624e5676c8f/snap_saas_base-0.1.0.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/f1/0b/54498b4d63215d92f3aea48f3ff42b1347c9ebad5f4bdafdd346a7e34f03/st-login-form-0.1.1.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/75/25/34e0f7cfe9f553ab3bf820c0b8e596dcf53f9e43af27ce5b532f7ebe2da6/muse-maskgit-pytorch-0.2.0.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/75/25/34e0f7cfe9f553ab3bf820c0b8e596dcf53f9e43af27ce5b532f7ebe2da6/muse-maskgit-pytorch-0.2.0.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [skidl]: Downloading https://files.pythonhosted.org/packages/f8/6b/5f364e71d8237548ef8bc1e886cebcd7b398299d7af984d07e4f7c644a3d/skidl-1.1.0.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/5e/8a/b0564df143c04305c66fd4df9ba21d5155c32a89cdb554bac4d06a6a18e3/volumizer-0.1.0.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-07-15 19:08:02] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-07-15 19:08:02] WARNING root fetch - processPackages [skidl]: Skipping package: exceeds size limit 20705955>=10485760
+[2023-07-15 19:08:02] INFO root fetch - main [MainThread]: End processing [skidl] error
+[2023-07-15 19:08:03] INFO root fetch - processPackages [stream-write-ods]: Downloading https://files.pythonhosted.org/packages/05/40/156059478cf9952780f462c934d7bd7167e09ee56b2af833a8cdcd8bd4cc/stream-write-ods-0.0.9.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [snap-saas-base]: Downloading https://files.pythonhosted.org/packages/59/7c/adca8868b8ae37ca79f46d9ee14947a2f265b5315a7474ad2b2dc9075730/snap_saas_base-0.4.0.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [st-login-form]: Downloading https://files.pythonhosted.org/packages/d7/1f/1b0bc12f801a67dd64ac077edfcc9b3c35f5c1973549fb385d1ad8e7e4af/st-login-form-0.2.0.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/68/13/9429cc1d01b76dface0996cc13811df7f24decced65413f1ed3d086df9eb/volumizer-0.1.1.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/a5/a9/35955a068d1d49bbee903dadd28d17289abc37b5c2d6492cec330d1b361c/muse-maskgit-pytorch-0.2.1.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: Downloading https://files.pythonhosted.org/packages/a5/a9/35955a068d1d49bbee903dadd28d17289abc37b5c2d6492cec330d1b361c/muse-maskgit-pytorch-0.2.1.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [stream-write-ods]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [stream-write-ods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-write-ods-0.0.8.tar.gz tmp/stream-write-ods-0.0.9.tar.gz --markdown 20230715/s/stream-write-ods/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230715/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-07-15 19:08:03] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230715/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [snap-saas-base]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [snap-saas-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snap_saas_base-0.1.0.tar.gz tmp/snap_saas_base-0.4.0.tar.gz --markdown 20230715/s/snap-saas-base/0.1.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [st-login-form]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [st-login-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-login-form-0.1.1.tar.gz tmp/st-login-form-0.2.0.tar.gz --markdown 20230715/s/st-login-form/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [volumizer]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [volumizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volumizer-0.1.0.tar.gz tmp/volumizer-0.1.1.tar.gz --markdown 20230715/v/volumizer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muse-maskgit-pytorch-0.2.0.tar.gz tmp/muse-maskgit-pytorch-0.2.1.tar.gz --markdown 20230715/m/muse-maskgit-pytorch/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [muse-maskgit-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muse-maskgit-pytorch-0.2.0.tar.gz tmp/muse-maskgit-pytorch-0.2.1.tar.gz --markdown 20230715/m/muse-maskgit-pytorch/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-15 19:08:03] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-07-15 19:08:03] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230715/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-15 19:08:04] INFO root fetch - processPackages [stream-write-ods]: Remove: archive file [/home/abi/fetcher/tmp/stream-write-ods-0.0.8.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - processPackages [stream-write-ods]: Remove: archive file [/home/abi/fetcher/tmp/stream-write-ods-0.0.9.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - main [MainThread]: End processing [stream-write-ods]: success
+[2023-07-15 19:08:04] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-07-15 19:08:04] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.1.1.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - processPackages [st-login-form]: Remove: archive file [/home/abi/fetcher/tmp/st-login-form-0.2.0.tar.gz]
+[2023-07-15 19:08:04] INFO root fetch - main [MainThread]: End processing [st-login-form]: success
+[2023-07-15 19:08:05] INFO root fetch - processPackages [snap-saas-base]: Remove: archive file [/home/abi/fetcher/tmp/snap_saas_base-0.1.0.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - processPackages [snap-saas-base]: Remove: archive file [/home/abi/fetcher/tmp/snap_saas_base-0.4.0.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [snap-saas-base]: success
+[2023-07-15 19:08:05] INFO root fetch - processPackages [muse-maskgit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/muse-maskgit-pytorch-0.2.0.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - processPackages [muse-maskgit-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/muse-maskgit-pytorch-0.2.1.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [muse-maskgit-pytorch]: success
+[2023-07-15 19:08:05] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.0.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.1.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [volumizer]: success
+[2023-07-15 19:08:05] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-07-15 19:08:05] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [muse-maskgit-pytorch]: success
+[2023-07-15 19:08:05] INFO root fetch - main [MainThread]: Store serial: [18902000]
