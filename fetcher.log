@@ -4870,3 +4870,88 @@
 [2023-07-15 06:47:43] INFO root fetch - processPackages [lbt-ladybug]: Remove: archive file [/home/abi/fetcher/tmp/lbt-ladybug-0.9.0.tar.gz]
 [2023-07-15 06:47:43] INFO root fetch - main [MainThread]: End processing [lbt-ladybug]: success
 [2023-07-15 06:47:43] INFO root fetch - main [MainThread]: Store serial: [18898059]
+[2023-07-15 06:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898059]
+[2023-07-15 06:52:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-latex-ocr
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openssm
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbt-honeybee
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-age-python
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myFBGcommunication
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-reporting-engine
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-reporting-engine
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scale-llm-engine
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lbstanza-wrappers
+[2023-07-15 06:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hikari-core
+[2023-07-15 06:52:53] INFO root fetch - processPackages [hikari-core]: New version: [0.9.0.1] Old Version: [0.9.0]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [lbstanza-wrappers]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [openssm]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [scale-llm-engine]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [myFBGcommunication]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 06:52:53] WARNING root fetch - processPackages [rapid-latex-ocr]: Skipping, unable to determine old version
+[2023-07-15 06:52:53] INFO root fetch - main [MainThread]: End processing [rapid-latex-ocr] error
+[2023-07-15 06:52:53] INFO root fetch - processPackages [apache-age-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: New version: [16.0.20230714.0] Old Version: [16.0.20230629.0]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: New version: [16.0.20230714.0] Old Version: [16.0.20230629.0]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-15 06:52:53] INFO root fetch - processPackages [lbstanza-wrappers]: Downloading https://files.pythonhosted.org/packages/b3/0a/506b0724c2a4f576b65cedf31133db0e4e854dbeb359bf2c2577068b0b57/lbstanza-wrappers-0.2.1.tar.gz
+[2023-07-15 06:52:53] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/fa/34/3eb7fb8b554ca9f2b9bb6c5390b6d9562243bb80617c67d3f0ccbefffba6/openssm-0.1.2.tar.gz
+[2023-07-15 06:52:53] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/ca/6f/d23e405695b8a0e608d1b3866374a5c42a6ca09ee01e1900690037de09e1/hikari_core-0.9.0.tar.gz
+[2023-07-15 06:52:53] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-07-15 06:52:53] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/12/72/7d7e97df148c971ab1ea6b40445f38b1bcd458add025e65fe5754d602ef5/scale-llm-engine-1.0.0.tar.gz
+[2023-07-15 06:52:53] INFO root fetch - processPackages [myFBGcommunication]: Downloading https://files.pythonhosted.org/packages/62/4a/8145ebf5659a9805eb7a3a29f58da306e634e6bcde13dbb963a69b8c26d6/myFBGcommunication-0.0.3-py3-none-any.whl
+[2023-07-15 06:52:53] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/51/e6/d15132dd407e14df1b51186c39055a06001f77cac973420854f39d35c98a/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/51/e6/d15132dd407e14df1b51186c39055a06001f77cac973420854f39d35c98a/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [apache-age-python]: Downloading https://files.pythonhosted.org/packages/37/7e/3b2ac7008c4d488d3054ccb626e8b58d3037363eb24d6ff5411b95620f66/apache-age-python-0.0.5.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [openssm]: Downloading https://files.pythonhosted.org/packages/2c/49/4029ba4ef2edb51a37ffb2db71c183a80bb8e9bbf03408f6653d5683f27a/openssm-0.1.3.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbstanza-wrappers]: Downloading https://files.pythonhosted.org/packages/cd/64/3425cfee9484d902984a213137bdf4ec37b1db7d27b4621a20d4ae219e42/lbstanza-wrappers-0.2.2.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/d4/e0/18876b1f4ab7babc0dbe4aead0ce8c155b864a769cb1685e3a456d5c9699/scale_llm_engine-1.0.1.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/a9/d1/dc6594125ee663a56c83e25760be5921188807aa6e3f6df7c318abc67f54/hikari_core-0.9.0.1.tar.gz
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/dc/d3/4db779d2fed08e510f086f8dae153d519acd146ff81e964da0451691caa4/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/dc/d3/4db779d2fed08e510f086f8dae153d519acd146ff81e964da0451691caa4/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [myFBGcommunication]: Downloading https://files.pythonhosted.org/packages/10/ed/0ca06aed5117d4154785d429c3a594a3fea404b08f24cdcaca53d7cb5a3a/myFBGcommunication-0.0.4-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [apache-age-python]: Downloading https://files.pythonhosted.org/packages/9e/ae/506bf1e134103a32df3084e7a1ee0dc85e6a36412bfc485be23f26cfe26a/apache_age_python-0.0.6-py3-none-any.whl
+[2023-07-15 06:52:54] INFO root fetch - processPackages [openssm]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [openssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssm-0.1.2.tar.gz tmp/openssm-0.1.3.tar.gz --markdown 20230715/o/openssm/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230715/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbstanza-wrappers]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [lbstanza-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbstanza-wrappers-0.2.1.tar.gz tmp/lbstanza-wrappers-0.2.2.tar.gz --markdown 20230715/l/lbstanza-wrappers/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale-llm-engine-1.0.0.tar.gz tmp/scale_llm_engine-1.0.1.tar.gz --markdown 20230715/s/scale-llm-engine/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [apache-age-python]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [apache-age-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-age-python-0.0.5.tar.gz tmp/apache_age_python-0.0.6-py3-none-any.whl.zip --markdown 20230715/a/apache-age-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [myFBGcommunication]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl.zip --markdown 20230715/o/odoo-addons-oca-reporting-engine/16.0.20230629.0-16.0.20230714.0/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [myFBGcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myFBGcommunication-0.0.3-py3-none-any.whl.zip tmp/myFBGcommunication-0.0.4-py3-none-any.whl.zip --markdown 20230715/m/myFBGcommunication/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl.zip --markdown 20230715/o/odoo-addons-oca-reporting-engine/16.0.20230629.0-16.0.20230714.0/diff.md --exclude *.pyd
+[2023-07-15 06:52:54] INFO root fetch - processPackages [hikari-core]: executing diffoscope
+[2023-07-15 06:52:54] INFO root fetch - processPackages [hikari-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_core-0.9.0.tar.gz tmp/hikari_core-0.9.0.1.tar.gz --markdown 20230715/h/hikari-core/0.9.0-0.9.0.1/diff.md --exclude *.pyd
+[2023-07-15 06:52:55] INFO root fetch - processPackages [apache-age-python]: Remove: archive file [/home/abi/fetcher/tmp/apache-age-python-0.0.5.tar.gz]
+[2023-07-15 06:52:55] INFO root fetch - processPackages [apache-age-python]: Remove: archive file [/home/abi/fetcher/tmp/apache_age_python-0.0.6-py3-none-any.whl.zip]
+[2023-07-15 06:52:55] INFO root fetch - main [MainThread]: End processing [apache-age-python]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl.zip]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl.zip]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-reporting-engine]: success
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-reporting-engine]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [lbstanza-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/lbstanza-wrappers-0.2.1.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [lbstanza-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/lbstanza-wrappers-0.2.2.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [lbstanza-wrappers]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.2.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [openssm]: Remove: archive file [/home/abi/fetcher/tmp/openssm-0.1.3.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [openssm]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale-llm-engine-1.0.0.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-1.0.1.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.1.tar.gz]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [hikari-core]: success
+[2023-07-15 06:52:56] INFO root fetch - processPackages [myFBGcommunication]: Remove: archive file [/home/abi/fetcher/tmp/myFBGcommunication-0.0.3-py3-none-any.whl.zip]
+[2023-07-15 06:52:56] INFO root fetch - processPackages [myFBGcommunication]: Remove: archive file [/home/abi/fetcher/tmp/myFBGcommunication-0.0.4-py3-none-any.whl.zip]
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: End processing [myFBGcommunication]: success
+[2023-07-15 06:52:56] INFO root fetch - main [MainThread]: Store serial: [18898097]
