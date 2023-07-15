@@ -11159,3 +11159,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:54:55] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
 [2023-07-15 16:54:55] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-07-15 16:54:55] INFO root fetch - main [MainThread]: Store serial: [18901241]
+[2023-07-15 16:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901241]
+[2023-07-15 17:00:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyinventory
+[2023-07-15 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitcoll
+[2023-07-15 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: log21
+[2023-07-15 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conda-lock
+[2023-07-15 17:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atwiki-python
+[2023-07-15 17:00:04] INFO root fetch - processPackages [gitcoll]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-15 17:00:04] INFO root fetch - processPackages [conda-lock]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-15 17:00:04] INFO root fetch - processPackages [atwiki-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 17:00:04] INFO root fetch - processPackages [pyinventory]: New version: [0.9.4] Old Version: [0.9.3rc4]
+[2023-07-15 17:00:04] INFO root fetch - processPackages [log21]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-07-15 17:00:04] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/4a/75/e31541d3d69cb22e4a0b900d988e0aec8f1c2b65e3a1610fd878262d90dc/gitcoll-0.0.20-py3-none-any.whl
+[2023-07-15 17:00:05] INFO root fetch - processPackages [pyinventory]: Downloading https://files.pythonhosted.org/packages/38/c9/cea2cdabd2e7936d87a70bd765b74c08831534c50a8947738843163bf240/PyInventory-0.9.3rc4.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/60/b2/38ef80da0debc695da9e37b8b22449d067188e5997b351e770529bfb66d5/log21-2.5.4.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [conda-lock]: Downloading https://files.pythonhosted.org/packages/cf/2a/051d4090f1d8d26c55dfbab7975562f95b28e22b2f871fe5e1f0fda32164/conda_lock-2.1.0.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [atwiki-python]: Downloading https://files.pythonhosted.org/packages/22/6f/983341d542e01e570830e2a430e8dcc4c495c69e7c825921d39e4f5f98b9/atwiki-python-0.0.8.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/4e/0c/9bb5bfd31a053f6ad842172e6b1b4f1a9cac863de20530b5035b47bb049f/gitcoll-0.0.21-py3-none-any.whl
+[2023-07-15 17:00:05] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/e6/83/08469bf28c5738aeb470f968a130d29965f4c6d94087918e328c3eaffdbc/log21-2.5.5.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [pyinventory]: Downloading https://files.pythonhosted.org/packages/a5/a2/6c57268a7e3bd937d7019aa9e954276e1b23668ec463cd1a629655fd49d0/PyInventory-0.9.4.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [atwiki-python]: Downloading https://files.pythonhosted.org/packages/49/23/80d5efbf2adbd194e293b52cc2973dadbc235c841b612d34b3348a9e2af2/atwiki-python-0.0.9.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [gitcoll]: executing diffoscope
+[2023-07-15 17:00:05] INFO root fetch - processPackages [gitcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcoll-0.0.20-py3-none-any.whl.zip tmp/gitcoll-0.0.21-py3-none-any.whl.zip --markdown 20230715/g/gitcoll/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-15 17:00:05] INFO root fetch - processPackages [conda-lock]: Downloading https://files.pythonhosted.org/packages/58/64/e9b4414cc3c694d1116df084faf08b4b46de6ac4c32cdedce5a570b82a7e/conda_lock-2.1.1.tar.gz
+[2023-07-15 17:00:05] INFO root fetch - processPackages [atwiki-python]: executing diffoscope
+[2023-07-15 17:00:05] INFO root fetch - processPackages [atwiki-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atwiki-python-0.0.8.tar.gz tmp/atwiki-python-0.0.9.tar.gz --markdown 20230715/a/atwiki-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 17:00:05] INFO root fetch - processPackages [log21]: executing diffoscope
+[2023-07-15 17:00:05] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.5.4.tar.gz tmp/log21-2.5.5.tar.gz --markdown 20230715/l/log21/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-07-15 17:00:05] INFO root fetch - processPackages [pyinventory]: executing diffoscope
+[2023-07-15 17:00:05] INFO root fetch - processPackages [pyinventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyInventory-0.9.3rc4.tar.gz tmp/PyInventory-0.9.4.tar.gz --markdown 20230715/p/pyinventory/0.9.3rc4-0.9.4/diff.md --exclude *.pyd
+[2023-07-15 17:00:05] INFO root fetch - processPackages [conda-lock]: executing diffoscope
+[2023-07-15 17:00:05] INFO root fetch - processPackages [conda-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda_lock-2.1.0.tar.gz tmp/conda_lock-2.1.1.tar.gz --markdown 20230715/c/conda-lock/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-15 17:00:06] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.20-py3-none-any.whl.zip]
+[2023-07-15 17:00:06] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.21-py3-none-any.whl.zip]
+[2023-07-15 17:00:06] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
+[2023-07-15 17:00:06] INFO root fetch - processPackages [atwiki-python]: Remove: archive file [/home/abi/fetcher/tmp/atwiki-python-0.0.8.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - processPackages [atwiki-python]: Remove: archive file [/home/abi/fetcher/tmp/atwiki-python-0.0.9.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - main [MainThread]: End processing [atwiki-python]: success
+[2023-07-15 17:00:06] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.4.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.5.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2023-07-15 17:00:06] INFO root fetch - processPackages [pyinventory]: Remove: archive file [/home/abi/fetcher/tmp/PyInventory-0.9.3rc4.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - processPackages [pyinventory]: Remove: archive file [/home/abi/fetcher/tmp/PyInventory-0.9.4.tar.gz]
+[2023-07-15 17:00:06] INFO root fetch - main [MainThread]: End processing [pyinventory]: success
+[2023-07-15 17:00:09] INFO root fetch - processPackages [conda-lock]: Remove: archive file [/home/abi/fetcher/tmp/conda_lock-2.1.0.tar.gz]
+[2023-07-15 17:00:09] INFO root fetch - processPackages [conda-lock]: Remove: archive file [/home/abi/fetcher/tmp/conda_lock-2.1.1.tar.gz]
+[2023-07-15 17:00:09] INFO root fetch - main [MainThread]: End processing [conda-lock]: success
+[2023-07-15 17:00:09] INFO root fetch - main [MainThread]: Store serial: [18901256]
