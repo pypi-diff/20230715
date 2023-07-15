@@ -8123,3 +8123,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:10:54] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.1.tar.gz]
 [2023-07-15 12:10:54] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
 [2023-07-15 12:10:54] INFO root fetch - main [MainThread]: Store serial: [18899661]
+[2023-07-15 12:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899661]
+[2023-07-15 12:16:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 12:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalarztools
+[2023-07-15 12:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truecallerpy
+[2023-07-15 12:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolibri-explore-plugin
+[2023-07-15 12:16:03] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 12:16:03] INFO root fetch - processPackages [truecallerpy]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-15 12:16:04] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b5/68/99097e7e8ab286315bea6cc0c6648f909b981f4e2065be485528760f507d/digitalarztools-0.0.8.tar.gz
+[2023-07-15 12:16:04] INFO root fetch - processPackages [kolibri-explore-plugin]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-07-15 12:16:04] INFO root fetch - processPackages [truecallerpy]: Downloading https://files.pythonhosted.org/packages/d7/b3/ba432fcaafe6af64799efed6cf900565568f8088b6fbd332fcf2db35d739/truecallerpy-0.1.2.tar.gz
+[2023-07-15 12:16:04] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/00/25/c980e24e95c2d2aab7f7e3042a4ea7fabfcb8deb667f49e39a2c04a8a201/digitalarztools-0.0.9.tar.gz
+[2023-07-15 12:16:04] INFO root fetch - processPackages [kolibri-explore-plugin]: Downloading https://files.pythonhosted.org/packages/ce/f9/31b5cbfd9a83d09f22e7a4a1bcfe80aa5ac42dcb7177d812abc4159b1f22/kolibri_explore_plugin-6.8.0-py2.py3-none-any.whl
+[2023-07-15 12:16:04] WARNING root fetch - processPackages [kolibri-explore-plugin]: Skipping package: exceeds size limit 17418137>=10485760
+[2023-07-15 12:16:04] INFO root fetch - main [MainThread]: End processing [kolibri-explore-plugin] error
+[2023-07-15 12:16:04] INFO root fetch - processPackages [truecallerpy]: Downloading https://files.pythonhosted.org/packages/e9/e1/675a3eed2cfd230f01185f901453c88aa50ffa72a27962f67b1e5a49d6c9/truecallerpy-0.2.0.tar.gz
+[2023-07-15 12:16:04] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-07-15 12:16:04] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230715/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 12:16:04] INFO root fetch - processPackages [truecallerpy]: executing diffoscope
+[2023-07-15 12:16:04] INFO root fetch - processPackages [truecallerpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truecallerpy-0.1.2.tar.gz tmp/truecallerpy-0.2.0.tar.gz --markdown 20230715/t/truecallerpy/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-15 12:16:05] INFO root fetch - processPackages [truecallerpy]: Remove: archive file [/home/abi/fetcher/tmp/truecallerpy-0.1.2.tar.gz]
+[2023-07-15 12:16:05] INFO root fetch - processPackages [truecallerpy]: Remove: archive file [/home/abi/fetcher/tmp/truecallerpy-0.2.0.tar.gz]
+[2023-07-15 12:16:05] INFO root fetch - main [MainThread]: End processing [truecallerpy]: success
+[2023-07-15 12:16:05] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.0.8.tar.gz]
+[2023-07-15 12:16:05] INFO root fetch - processPackages [digitalarztools]: Remove: archive file [/home/abi/fetcher/tmp/digitalarztools-0.0.9.tar.gz]
+[2023-07-15 12:16:05] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-07-15 12:16:05] INFO root fetch - main [MainThread]: Store serial: [18899672]
