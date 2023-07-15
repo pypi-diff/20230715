@@ -13116,3 +13116,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:49:47] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
 [2023-07-15 19:49:47] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
 [2023-07-15 19:49:47] INFO root fetch - main [MainThread]: Store serial: [18902160]
+[2023-07-15 19:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902160]
+[2023-07-15 19:54:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waterfly
+[2023-07-15 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unqlite
+[2023-07-15 19:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snap-saas-base
+[2023-07-15 19:54:55] INFO root fetch - processPackages [unqlite]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-15 19:54:55] INFO root fetch - processPackages [waterfly]: New version: [8.7.2023] Old Version: [15.7.2023]
+[2023-07-15 19:54:55] INFO root fetch - processPackages [snap-saas-base]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-15 19:54:55] INFO root fetch - processPackages [snap-saas-base]: Downloading https://files.pythonhosted.org/packages/59/7c/adca8868b8ae37ca79f46d9ee14947a2f265b5315a7474ad2b2dc9075730/snap_saas_base-0.4.0.tar.gz
+[2023-07-15 19:54:55] INFO root fetch - processPackages [waterfly]: Downloading https://files.pythonhosted.org/packages/39/3e/959907d1905a3612122610f53c147385b01064c3351661aaf6597aec8362/waterfly-15.7.2023.tar.gz
+[2023-07-15 19:54:55] INFO root fetch - processPackages [unqlite]: Downloading https://files.pythonhosted.org/packages/b1/99/76059a6d36dd7e85c6b4c43465b79f4418b1f5346ac307552b49f6547ee7/unqlite-0.9.4.tar.gz
+[2023-07-15 19:54:56] INFO root fetch - processPackages [snap-saas-base]: Downloading https://files.pythonhosted.org/packages/93/e1/2c9cc36ad313846257c86cd1f0ebff2c349d0d767d65298928763293db6a/snap_saas_base-0.4.1.tar.gz
+[2023-07-15 19:54:56] INFO root fetch - processPackages [waterfly]: Downloading https://files.pythonhosted.org/packages/e4/c8/3b1b462f402900e4354ecf4aee741fe6ad591ceed3a82129eddb1030cef7/waterfly-8.7.2023.tar.gz
+[2023-07-15 19:54:56] INFO root fetch - processPackages [waterfly]: executing diffoscope
+[2023-07-15 19:54:56] INFO root fetch - processPackages [waterfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waterfly-15.7.2023.tar.gz tmp/waterfly-8.7.2023.tar.gz --markdown 20230715/w/waterfly/15.7.2023-8.7.2023/diff.md --exclude *.pyd
+[2023-07-15 19:54:56] INFO root fetch - processPackages [unqlite]: Downloading https://files.pythonhosted.org/packages/0e/f1/fa494172520bf8f29c2be86f18894356b7d7740ddec51c0ef90e9996f460/unqlite-0.9.5.tar.gz
+[2023-07-15 19:54:56] INFO root fetch - processPackages [snap-saas-base]: executing diffoscope
+[2023-07-15 19:54:56] INFO root fetch - processPackages [snap-saas-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snap_saas_base-0.4.0.tar.gz tmp/snap_saas_base-0.4.1.tar.gz --markdown 20230715/s/snap-saas-base/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-15 19:54:56] INFO root fetch - processPackages [unqlite]: executing diffoscope
+[2023-07-15 19:54:56] INFO root fetch - processPackages [unqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unqlite-0.9.4.tar.gz tmp/unqlite-0.9.5.tar.gz --markdown 20230715/u/unqlite/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-15 19:54:57] INFO root fetch - processPackages [waterfly]: Remove: archive file [/home/abi/fetcher/tmp/waterfly-15.7.2023.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - processPackages [waterfly]: Remove: archive file [/home/abi/fetcher/tmp/waterfly-8.7.2023.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - main [MainThread]: End processing [waterfly]: success
+[2023-07-15 19:54:57] INFO root fetch - processPackages [snap-saas-base]: Remove: archive file [/home/abi/fetcher/tmp/snap_saas_base-0.4.0.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - processPackages [snap-saas-base]: Remove: archive file [/home/abi/fetcher/tmp/snap_saas_base-0.4.1.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - main [MainThread]: End processing [snap-saas-base]: success
+[2023-07-15 19:54:57] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.4.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - processPackages [unqlite]: Remove: archive file [/home/abi/fetcher/tmp/unqlite-0.9.5.tar.gz]
+[2023-07-15 19:54:57] INFO root fetch - main [MainThread]: End processing [unqlite]: success
+[2023-07-15 19:54:57] INFO root fetch - main [MainThread]: Store serial: [18902168]
