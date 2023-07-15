@@ -13806,3 +13806,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:12:46] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
 [2023-07-15 21:12:46] INFO root fetch - main [MainThread]: End processing [oneat]: success
 [2023-07-15 21:12:46] INFO root fetch - main [MainThread]: Store serial: [18902451]
+[2023-07-15 21:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902451]
+[2023-07-15 21:17:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: banking-system
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karrio.dpdhl
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karrio
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karrio.dhl-express
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: karrio.dpd
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karrio.usps
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: karrio.ups
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: karrio.boxknight
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-07-15 21:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybbda
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.ups]: New version: [2023.5.1] Old Version: [2023.5]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [banking-system]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpd]: New version: [2023.5.1] Old Version: [2023.4.4]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpdhl]: New version: [2023.5.1] Old Version: [2023.4.4]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.boxknight]: New version: [2023.5.1] Old Version: [2023.4]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dhl-express]: New version: [2023.5.1] Old Version: [2023.5]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio]: New version: [2023.5.1] Old Version: [2023.5]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.usps]: New version: [2023.5.1] Old Version: [2023.4.4]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [pybbda]: New version: [0.4.3] Old Version: [0.3.1]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.boxknight]: Downloading https://files.pythonhosted.org/packages/24/77/79365150328924f33535427ebe0b77edc7b6c7ecfce047eb5382ab24d25a/karrio.boxknight-2023.4-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-15 21:17:56] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/e3/63/d7ad84479364b15927de06d44536652476906d28d48e0ad0c958fe05eb65/banking_system-1.0.3.tar.gz
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.ups]: Downloading https://files.pythonhosted.org/packages/ab/26/0820834d9800b0256731e8877a38a3ad70ebde9e4d018337b31fc9808d90/karrio.ups-2023.5-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpdhl]: Downloading https://files.pythonhosted.org/packages/e0/f1/94b6f613631f457ca26717b8640f6516d087b28ca564e75f346ff7ebb8f3/karrio.dpdhl-2023.4.4-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpd]: Downloading https://files.pythonhosted.org/packages/f7/8f/47539cddb6c8d9a66221a2d0f4e593e27b0f92caf24a77d672765a05c276/karrio.dpd-2023.4.4-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio]: Downloading https://files.pythonhosted.org/packages/40/2f/4f07012629bef605ba02b7f07fd4f2206f495d38d074461853e47a03bc0e/karrio-2023.5-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dhl-express]: Downloading https://files.pythonhosted.org/packages/05/01/b41860dc6766e3c282ad4f415e6ff690aa14c0714a0a3a71780bbcfc9d10/karrio.dhl_express-2023.5-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [pybbda]: Downloading https://files.pythonhosted.org/packages/6e/0e/fa655bb90dffe9428a216a1afe87c1578c05a33c0888cea3707dffe0ae29/pybbda-0.3.1.tar.gz
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.usps]: Downloading https://files.pythonhosted.org/packages/1d/b9/a5afa9734ee11367a1c30df978047ec50895f74046ceb695b1a83505f1d5/karrio.usps-2023.4.4-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-15 21:17:56] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-15 21:17:56] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230715/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.boxknight]: Downloading https://files.pythonhosted.org/packages/ad/b5/6067b9db8f15f7050eb64e007af77b7d90af880fc9f87f870d450f1d77a7/karrio.boxknight-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/58/ea/0e9f4cac83cca3b6688ec6b4863ca0ba5bcc4f7bfc6703d33584ac28ae99/banking_system-1.0.4.tar.gz
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.ups]: Downloading https://files.pythonhosted.org/packages/c3/8a/17959241612e79c466c19b50d99adf450ab06a12b6361ca681d31495070c/karrio.ups-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpdhl]: Downloading https://files.pythonhosted.org/packages/62/4b/10b6101508b227b8f070c61b4827a9dbc23f7a2809e8c5a31e230ba8cb26/karrio.dpdhl-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:56] INFO root fetch - processPackages [karrio.dpd]: Downloading https://files.pythonhosted.org/packages/ab/71/e8dafd955d77fe86821d6674f39488ee5bcb6b8c02a905ad2f5a5bd4c73a/karrio.dpd-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.boxknight]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.boxknight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.boxknight-2023.4-py3-none-any.whl.zip tmp/karrio.boxknight-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.boxknight/2023.4-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dhl-express]: Downloading https://files.pythonhosted.org/packages/bf/87/f2953f4b679e36058bbcc8714eb3afa06cab66ebd43634b7f70f8b15e672/karrio.dhl_express-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio]: Downloading https://files.pythonhosted.org/packages/00/66/f20da1bc0118e620069277e0930e65cd494e4083165f6496d85bb6ed0b47/karrio-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:57] INFO root fetch - processPackages [banking-system]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [banking-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_system-1.0.3.tar.gz tmp/banking_system-1.0.4.tar.gz --markdown 20230715/b/banking-system/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.usps]: Downloading https://files.pythonhosted.org/packages/12/ae/05df0d080c734f797cd1356b243f64343f4b3c934d8e94dbc82064ff714b/karrio.usps-2023.5.1-py3-none-any.whl
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.ups]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.ups-2023.5-py3-none-any.whl.zip tmp/karrio.ups-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.ups/2023.5-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [pybbda]: Downloading https://files.pythonhosted.org/packages/51/87/3d677068efd40d999132d62a533893363a3f48225583ded98ac31b5810f7/pybbda-0.4.3.tar.gz
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dpdhl]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dpdhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dpdhl-2023.4.4-py3-none-any.whl.zip tmp/karrio.dpdhl-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.dpdhl/2023.4.4-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dpd]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dpd-2023.4.4-py3-none-any.whl.zip tmp/karrio.dpd-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.dpd/2023.4.4-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dhl-express]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.dhl-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dhl_express-2023.5-py3-none-any.whl.zip tmp/karrio.dhl_express-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.dhl-express/2023.5-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio-2023.5-py3-none-any.whl.zip tmp/karrio-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio/2023.5-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.usps]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [karrio.usps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.usps-2023.4.4-py3-none-any.whl.zip tmp/karrio.usps-2023.5.1-py3-none-any.whl.zip --markdown 20230715/k/karrio.usps/2023.4.4-2023.5.1/diff.md --exclude *.pyd
+[2023-07-15 21:17:57] INFO root fetch - processPackages [pybbda]: executing diffoscope
+[2023-07-15 21:17:57] INFO root fetch - processPackages [pybbda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybbda-0.3.1.tar.gz tmp/pybbda-0.4.3.tar.gz --markdown 20230715/p/pybbda/0.3.1-0.4.3/diff.md --exclude *.pyd
+[2023-07-15 21:17:58] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [always-updates]: Start processing: aws-rds-database-running-scheduler
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/44/cb/1ee4997ff710d298abef37942df83e36d37a5736fd7ed67e5c0bdb50d0b1/aws-rds-database-running-scheduler-0.3.2.tar.gz
+[2023-07-15 21:17:58] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.3.tar.gz]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.4.tar.gz]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [banking-system]: Start processing: helloyahya
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [banking-system]: success
+[2023-07-15 21:17:58] WARNING root fetch - processPackages [helloyahya]: Skipping, unable to determine old version
+[2023-07-15 21:17:58] INFO root fetch - processPackages [helloyahya]: Start processing: pydoclint
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [helloyahya] error
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpd]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dpd-2023.4.4-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpd]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dpd-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpd]: Start processing: big-query-testing-xyz
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [karrio.dpd]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.boxknight]: Remove: archive file [/home/abi/fetcher/tmp/karrio.boxknight-2023.4-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.boxknight]: Remove: archive file [/home/abi/fetcher/tmp/karrio.boxknight-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.boxknight]: Start processing: aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [karrio.boxknight]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [big-query-testing-xyz]: New version: [0.3] Old Version: [0.2]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/2e/03/af5d9fb09b559dddee71e3580a52647d62864c6dd25bcd492e41a8625de2/aws-rds-database-running-scheduler-0.3.3.tar.gz
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpdhl]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dpdhl-2023.4.4-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpdhl]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dpdhl-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.dpdhl]: Start processing: sparksnake
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [karrio.dpdhl]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.ups]: Remove: archive file [/home/abi/fetcher/tmp/karrio.ups-2023.5-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.ups]: Remove: archive file [/home/abi/fetcher/tmp/karrio.ups-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [karrio.ups]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.usps]: Remove: archive file [/home/abi/fetcher/tmp/karrio.usps-2023.4.4-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - processPackages [karrio.usps]: Remove: archive file [/home/abi/fetcher/tmp/karrio.usps-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:58] INFO root fetch - main [MainThread]: End processing [karrio.usps]: success
+[2023-07-15 21:17:58] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/7b/aa/bb06e934891641ebcac7fbae49d5804340c38f1b9bf7886f0ea41522f652/aws-ec2-auto-scaling-instance-running-scheduler-0.2.2.tar.gz
+[2023-07-15 21:17:58] INFO root fetch - processPackages [sparksnake]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-rds-database-running-scheduler-0.3.2.tar.gz tmp/aws-rds-database-running-scheduler-0.3.3.tar.gz --markdown 20230715/a/aws-rds-database-running-scheduler/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-15 21:17:59] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/0f/5a/88128c2094cdf415df2f1bf2fbc6838e41ea247de1dab4f8a37d76f69f90/big_query_testing_xyz-0.2.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pybbda]: Remove: archive file [/home/abi/fetcher/tmp/pybbda-0.3.1.tar.gz]
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pybbda]: Remove: archive file [/home/abi/fetcher/tmp/pybbda-0.4.3.tar.gz]
+[2023-07-15 21:17:59] INFO root fetch - main [MainThread]: End processing [pybbda]: success
+[2023-07-15 21:17:59] INFO root fetch - processPackages [karrio]: Remove: archive file [/home/abi/fetcher/tmp/karrio-2023.5-py3-none-any.whl.zip]
+[2023-07-15 21:17:59] INFO root fetch - processPackages [karrio]: Remove: archive file [/home/abi/fetcher/tmp/karrio-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:59] INFO root fetch - main [MainThread]: End processing [karrio]: success
+[2023-07-15 21:17:59] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/00/fb/ed7a26fb6bfc2a689309ca50372574ea6b794fd1054a8284a83470bccc43/sparksnake-0.2.1.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/c6/07/897f42e62c5536f6653e1754aba5a5633d8fb29dbd66019b7dcea28a7789/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [karrio.dhl-express]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dhl_express-2023.5-py3-none-any.whl.zip]
+[2023-07-15 21:17:59] INFO root fetch - processPackages [karrio.dhl-express]: Remove: archive file [/home/abi/fetcher/tmp/karrio.dhl_express-2023.5.1-py3-none-any.whl.zip]
+[2023-07-15 21:17:59] INFO root fetch - main [MainThread]: End processing [karrio.dhl-express]: success
+[2023-07-15 21:17:59] INFO root fetch - processPackages [big-query-testing-xyz]: Downloading https://files.pythonhosted.org/packages/d0/70/2955060285d60bfcdf43980837db2fa9bf7d834489220b9499e5793880ba/big_query_testing_xyz-0.3.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.2.tar.gz tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz --markdown 20230715/a/aws-ec2-auto-scaling-instance-running-scheduler/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 21:17:59] INFO root fetch - processPackages [big-query-testing-xyz]: executing diffoscope
+[2023-07-15 21:17:59] INFO root fetch - processPackages [big-query-testing-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_query_testing_xyz-0.2.tar.gz tmp/big_query_testing_xyz-0.3.tar.gz --markdown 20230715/b/big-query-testing-xyz/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/f0/74/a51aca65fcfde4336e601059637c7a82a623cb1081dcf75ec5392384160e/sparksnake-0.2.2.tar.gz
+[2023-07-15 21:17:59] INFO root fetch - processPackages [sparksnake]: executing diffoscope
+[2023-07-15 21:17:59] INFO root fetch - processPackages [sparksnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksnake-0.2.1.tar.gz tmp/sparksnake-0.2.2.tar.gz --markdown 20230715/s/sparksnake/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-15 21:17:59] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230715/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-rds-database-running-scheduler-0.3.2.tar.gz]
+[2023-07-15 21:17:59] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-rds-database-running-scheduler-0.3.3.tar.gz]
+[2023-07-15 21:17:59] INFO root fetch - main [MainThread]: End processing [aws-rds-database-running-scheduler]: success
+[2023-07-15 21:18:00] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.2.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - main [MainThread]: End processing [aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-07-15 21:18:00] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.2.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - processPackages [big-query-testing-xyz]: Remove: archive file [/home/abi/fetcher/tmp/big_query_testing_xyz-0.3.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - main [MainThread]: End processing [big-query-testing-xyz]: success
+[2023-07-15 21:18:00] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.2.1.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.2.2.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - main [MainThread]: End processing [sparksnake]: success
+[2023-07-15 21:18:00] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-07-15 21:18:00] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-15 21:18:00] INFO root fetch - main [MainThread]: Store serial: [18902493]
