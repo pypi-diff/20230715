@@ -6456,3 +6456,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:18:55] INFO root fetch - processPackages [huawei-solar]: Remove: archive file [/home/abi/fetcher/tmp/huawei-solar-2.2.8b2.tar.gz]
 [2023-07-15 09:18:55] INFO root fetch - main [MainThread]: End processing [huawei-solar]: success
 [2023-07-15 09:18:55] INFO root fetch - main [MainThread]: Store serial: [18898830]
+[2023-07-15 09:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898830]
+[2023-07-15 09:24:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build
+[2023-07-15 09:24:05] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230715] Old Version: [0.7.3.dev20230714]
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ork.build]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/a3/58/ff8696f4324b94acf7bb20abb5776279e0a009bbc95a18213d839ca08158/ork.build-0.0.17.tar.gz
+[2023-07-15 09:24:05] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/15/8f/0dd0e7c9bfa4c8ac58a9345369c87cd620f62ebdbab5546899678becbeba/tfq_nightly-0.7.3.dev20230714-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 09:24:05] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807264>=10485760
+[2023-07-15 09:24:05] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/c3/6c/f8cb9940607173f87d4e04c29bda96f7dad49bf545b32b455d2309f01175/ork.build-0.0.18.tar.gz
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 09:24:05] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.17.tar.gz tmp/ork.build-0.0.18.tar.gz --markdown 20230715/o/ork.build/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-15 09:24:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.17.tar.gz]
+[2023-07-15 09:24:07] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.18.tar.gz]
+[2023-07-15 09:24:07] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 09:24:07] INFO root fetch - main [MainThread]: Store serial: [18898836]
