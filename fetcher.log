@@ -10355,3 +10355,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:46:49] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
 [2023-07-15 15:46:49] INFO root fetch - main [MainThread]: End processing [oneat]: success
 [2023-07-15 15:46:49] INFO root fetch - main [MainThread]: Store serial: [18900829]
+[2023-07-15 15:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900829]
+[2023-07-15 15:51:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: motti
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motti
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapy-helper
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: motti
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langroid
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llm-toys
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: figaro
+[2023-07-15 15:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Bigsansar
+[2023-07-15 15:51:58] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [scrapy-helper]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [motti]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [motti]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [figaro]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [llm-toys]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [motti]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [Bigsansar]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-07-15 15:51:58] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/50/7f/7a84baab944d9efa300ce573a47110938978a4d7b72cbb13d3a7cf13ee14/langroid-0.1.8.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/40/b0/fe364b7dca1b38b8e13e748f5fc31674f232b1ffe3f7c5ea3245e76507d3/figaro-1.1.1.tar.gz
+[2023-07-15 15:51:59] ERROR root fetch - processPackages [motti]: Unable to fetch info: No such project/version 'motti' 0.0.1
+[2023-07-15 15:51:59] INFO root fetch - main [MainThread]: End processing [motti] error
+[2023-07-15 15:51:59] ERROR root fetch - processPackages [motti]: Unable to fetch info: No such project/version 'motti' 0.0.1
+[2023-07-15 15:51:59] INFO root fetch - main [MainThread]: End processing [motti] error
+[2023-07-15 15:51:59] ERROR root fetch - processPackages [motti]: Unable to fetch info: No such project/version 'motti' 0.0.1
+[2023-07-15 15:51:59] INFO root fetch - main [MainThread]: End processing [motti] error
+[2023-07-15 15:51:59] INFO root fetch - processPackages [scrapy-helper]: Downloading https://files.pythonhosted.org/packages/6d/84/1481d9ee3851774255d4c54c80b04508ac4dc0a2635072c01226e672451e/scrapy-helper-1.5.2.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/6f/40/fa8696a1839dfb1a7854c3f89bf9483652d0380b739e1fd77414735fee08/llm-toys-0.0.1.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b5/19/e5874e4147620079e0e5bc8aa9a2715e969496ff0886e54f972eb52d1118/Bigsansar-1.8.0.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/b2/48/00e2d6a1639042a486544d5f5f9200c7e72369b7fcde95da7bc64dd92b55/langroid-0.1.9.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [scrapy-helper]: Downloading https://files.pythonhosted.org/packages/a0/32/b5021b4520476a02176d37a69fb21513affbb483dfed6871903dc6ef494c/scrapy-helper-1.5.3.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/ee/29/9b4d1aa6a7de06a0245f20e43391abb5100a6166d14e6b0739ec8c2fa595/llm-toys-0.0.4.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-15 15:51:59] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230715/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 15:51:59] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/e4/4f/0028caa1902a024ca4f351ef4562324a9831848748c77c539bd3b43adc80/figaro-1.1.2.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/87/9d/c7af9928fb6171d7e60e27dbecddcf315051e77bf920c0809ca45db3dd99/Bigsansar-1.8.1.tar.gz
+[2023-07-15 15:51:59] INFO root fetch - processPackages [scrapy-helper]: executing diffoscope
+[2023-07-15 15:51:59] INFO root fetch - processPackages [scrapy-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-helper-1.5.2.tar.gz tmp/scrapy-helper-1.5.3.tar.gz --markdown 20230715/s/scrapy-helper/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-15 15:51:59] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 15:51:59] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.1.tar.gz tmp/llm-toys-0.0.4.tar.gz --markdown 20230715/l/llm-toys/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 15:51:59] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-07-15 15:51:59] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.8.0.tar.gz tmp/Bigsansar-1.8.1.tar.gz --markdown 20230715/B/Bigsansar/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-07-15 15:51:59] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2023-07-15 15:51:59] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.1.1.tar.gz tmp/figaro-1.1.2.tar.gz --markdown 20230715/f/figaro/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-15 15:52:00] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.1.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.4.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 15:52:00] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-15 15:52:00] INFO root fetch - processPackages [scrapy-helper]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-helper-1.5.2.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - processPackages [scrapy-helper]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-helper-1.5.3.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - main [MainThread]: End processing [scrapy-helper]: success
+[2023-07-15 15:52:00] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.0.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.8.1.tar.gz]
+[2023-07-15 15:52:00] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-07-15 15:52:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.1.1.tar.gz]
+[2023-07-15 15:52:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.1.2.tar.gz]
+[2023-07-15 15:52:01] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2023-07-15 15:52:01] INFO root fetch - main [MainThread]: Store serial: [18900861]
