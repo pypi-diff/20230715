@@ -12067,3 +12067,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:21:18] INFO root fetch - processPackages [pyclipr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipr-0.1.1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-15 18:21:18] INFO root fetch - main [MainThread]: End processing [pyclipr]: success
 [2023-07-15 18:21:18] INFO root fetch - main [MainThread]: Store serial: [18901722]
+[2023-07-15 18:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901722]
+[2023-07-15 18:26:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surquest-fastapi-utils
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quarter-lib
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyacoustics
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extendable
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cached-path
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raya
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cpython-package-stepbystep
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alpaca-eval
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiggler-studiorabota
+[2023-07-15 18:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lolcatt
+[2023-07-15 18:26:26] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [raya]: New version: [3.5.3.dev0] Old Version: [3.5.2.dev0]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [cached-path]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [lolcatt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [surquest-fastapi-utils]: New version: [0.2.3] Old Version: [0.2.2rc1]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [alpaca-eval]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-15 18:26:26] INFO root fetch - processPackages [extendable]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-15 18:26:27] INFO root fetch - processPackages [pyacoustics]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-07-15 18:26:27] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 18:26:27] WARNING root fetch - processPackages [cpython-package-stepbystep]: Skipping, unable to determine old version
+[2023-07-15 18:26:27] INFO root fetch - processPackages [cpython-package-stepbystep]: Start processing: musicpy
+[2023-07-15 18:26:27] INFO root fetch - main [MainThread]: End processing [cpython-package-stepbystep] error
+[2023-07-15 18:26:27] INFO root fetch - processPackages [musicpy]: New version: [6.83] Old Version: [6.82]
+[2023-07-15 18:26:27] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/27/cc/784921d91ebc6cb3d8a8c8b543c38d966761da439e6d20232fe4dd871041/lolcatt-0.1.4.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [extendable]: Downloading https://files.pythonhosted.org/packages/45/14/83e4b75ef0ab5640aa317a9b636ebf861b4905e7cbea1fbd02817b97d0a8/extendable-1.0.0.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [surquest-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/c0/06/befb8f33cf49776e43b7d821f9ca17c6b6cf331029bbb12a68284e2f77f1/surquest_fastapi_utils-0.2.2rc1.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/9b/2c/e3bb99ac668b35c7fa2b66ee8d36052b84861b367a38bd7089b64806de1f/quarter_lib-0.0.8.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/df/28/a17f57f24362185521e6aa14ecda3966e180a33df0bb59945d189fbe3576/raya-3.5.2.dev0.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0f/f4/06eb9257dd173e5772c78ecc241e710f6c3c73f843662b36dceb31b2a8d1/wiggler_studiorabota-0.0.7.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [cached-path]: Downloading https://files.pythonhosted.org/packages/2f/fa/d068e59abde0bb132dc96521953f483b7d63323f2adab86e8021b996e4e4/cached_path-1.3.4.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [pyacoustics]: Downloading https://files.pythonhosted.org/packages/7e/ba/33a32c8c16209b8b7b481f4acf142586e04f06fd5167afe94495bcaa7199/pyacoustics-1.0.7.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [musicpy]: Downloading https://files.pythonhosted.org/packages/31/dc/d591c558a37fe8d3cf405cdbf1fc1866460c1f083ab1edd363caed7181f2/musicpy-6.82.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/9a/5c/dedf5b566629bced236f27851186c018b15a5a718a60aa2490299a15bfda/alpaca_eval-0.2.2.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/98/21/119ea677db288c9deb564210ff4570a03696a6ed491d3a59e70dfee244a6/lolcatt-0.1.5.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [extendable]: Downloading https://files.pythonhosted.org/packages/29/36/bae5dd1f18e972be22f03605e653a929bcfe73ef4cb08a27dff12462ef58/extendable-1.1.0.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [surquest-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/e9/56/4f198899079ab6145df48e1392177adb976f4626ff328c1b2d4a8363d4e7/surquest_fastapi_utils-0.2.3.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/9d/23/ded905de20591a5c817c3d6b3c8a2c4a9427c83d5dcfefc37083b946a405/raya-3.5.3.dev0.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [cached-path]: Downloading https://files.pythonhosted.org/packages/c8/c3/ce7094f0a32fa330daf7a969d77b18d732dec7f233f066bd5975b68a97cb/cached_path-1.3.5.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/de/35/0aa9b114fe985dd877df8c9134b9ee9dff07682aa29d20ca67048428916c/quarter_lib-0.0.9.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/99/29/ae64c5c752783fd05d10d0180fd7c1e69bcb08ddc0caea8d7b558835a66b/alpaca_eval-0.2.3.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [extendable]: executing diffoscope
+[2023-07-15 18:26:27] INFO root fetch - processPackages [extendable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable-1.0.0.tar.gz tmp/extendable-1.1.0.tar.gz --markdown 20230715/e/extendable/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 18:26:27] INFO root fetch - processPackages [lolcatt]: executing diffoscope
+[2023-07-15 18:26:27] INFO root fetch - processPackages [lolcatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolcatt-0.1.4.tar.gz tmp/lolcatt-0.1.5.tar.gz --markdown 20230715/l/lolcatt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-15 18:26:27] INFO root fetch - processPackages [musicpy]: Downloading https://files.pythonhosted.org/packages/e0/3a/4923f12da30f6554017daf1f22fd5a4321326ee7af25915125905a087541/musicpy-6.83.tar.gz
+[2023-07-15 18:26:27] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 18:26:27] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.7.tar.gz tmp/wiggler_studiorabota-0.0.8.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [surquest-fastapi-utils]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [surquest-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surquest_fastapi_utils-0.2.2rc1.tar.gz tmp/surquest_fastapi_utils-0.2.3.tar.gz --markdown 20230715/s/surquest-fastapi-utils/0.2.2rc1-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [pyacoustics]: Downloading https://files.pythonhosted.org/packages/8a/c3/7587965d2149467a83b69e9d2ecf2ad729950034cf74e7850aec19ce7fae/pyacoustics-2.0.0.tar.gz
+[2023-07-15 18:26:28] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.5.2.dev0.tar.gz tmp/raya-3.5.3.dev0.tar.gz --markdown 20230715/r/raya/3.5.2.dev0-3.5.3.dev0/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [cached-path]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [cached-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cached_path-1.3.4.tar.gz tmp/cached_path-1.3.5.tar.gz --markdown 20230715/c/cached-path/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230715/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [alpaca-eval]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [alpaca-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_eval-0.2.2.tar.gz tmp/alpaca_eval-0.2.3.tar.gz --markdown 20230715/a/alpaca-eval/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [musicpy]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [musicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicpy-6.82.tar.gz tmp/musicpy-6.83.tar.gz --markdown 20230715/m/musicpy/6.82-6.83/diff.md --exclude *.pyd
+[2023-07-15 18:26:28] INFO root fetch - processPackages [pyacoustics]: executing diffoscope
+[2023-07-15 18:26:28] INFO root fetch - processPackages [pyacoustics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacoustics-1.0.7.tar.gz tmp/pyacoustics-2.0.0.tar.gz --markdown 20230715/p/pyacoustics/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-07-15 18:26:29] INFO root fetch - processPackages [extendable]: Remove: archive file [/home/abi/fetcher/tmp/extendable-1.0.0.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - processPackages [extendable]: Remove: archive file [/home/abi/fetcher/tmp/extendable-1.1.0.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - main [MainThread]: End processing [extendable]: success
+[2023-07-15 18:26:29] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.7.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 18:26:29] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.4.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.5.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - main [MainThread]: End processing [lolcatt]: success
+[2023-07-15 18:26:29] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.8.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.9.tar.gz]
+[2023-07-15 18:26:29] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.5.2.dev0.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [raya]: Remove: archive file [/home/abi/fetcher/tmp/raya-3.5.3.dev0.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [surquest-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/surquest_fastapi_utils-0.2.2rc1.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [surquest-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/surquest_fastapi_utils-0.2.3.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [surquest-fastapi-utils]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [cached-path]: Remove: archive file [/home/abi/fetcher/tmp/cached_path-1.3.4.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [cached-path]: Remove: archive file [/home/abi/fetcher/tmp/cached_path-1.3.5.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [cached-path]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [pyacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pyacoustics-1.0.7.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [pyacoustics]: Remove: archive file [/home/abi/fetcher/tmp/pyacoustics-2.0.0.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [pyacoustics]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [musicpy]: Remove: archive file [/home/abi/fetcher/tmp/musicpy-6.82.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [musicpy]: Remove: archive file [/home/abi/fetcher/tmp/musicpy-6.83.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [musicpy]: success
+[2023-07-15 18:26:30] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.2.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.3.tar.gz]
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
+[2023-07-15 18:26:30] INFO root fetch - main [MainThread]: Store serial: [18901760]
