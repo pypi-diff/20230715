@@ -14517,3 +14517,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 22:09:58] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.49.tar.gz]
 [2023-07-15 22:09:58] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 22:09:58] INFO root fetch - main [MainThread]: Store serial: [18902715]
+[2023-07-15 22:15:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902715]
+[2023-07-15 22:15:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiggler-studiorabota
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aim
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cjm-yolox-pytorch
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ork.build
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosrestpy
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-starter
+[2023-07-15 22:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uniteai
+[2023-07-15 22:15:06] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 22:15:06] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ork.build]: New version: [0.0.50] Old Version: [0.0.49]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [rosrestpy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-07-15 22:15:07] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/64/0f/ae64585243ca22a0f80cf7b6130da00e0e4f48fbcb755a7b814a4d1a99db/yetl-framework-2.0.0.dev1.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/1b/8b/290e577e7c776a43256068f1c00d2107af1ddc57c1a196c0cb133ba154ab/ork.build-0.0.49.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [rosrestpy]: Downloading https://files.pythonhosted.org/packages/e7/04/316c6a93ab6ad119e9f89f2ab9ba4be53fb0fc422bd7d12f2d2b6eb58418/rosrestpy-0.8.0.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ee/90/668cdef5d777ae82570a5b95b243506790b0f53ace49feff6d50ef11e28f/aim-4.0.0a7.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/97/0b/5b61f2ed837ca28ce0a61530347494e1b1ef0202706abc1839bf9bf71c13/yetl-framework-2.0.0.dev2.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/1f/1a/ccf41c98eab2cab13e7eca7343c1d9e1271be3bfebd07a2684da9b708da4/ork.build-0.0.50.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 22:15:07] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.0.dev1.tar.gz tmp/yetl-framework-2.0.0.dev2.tar.gz --markdown 20230715/y/yetl-framework/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230715/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230715/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 22:15:07] INFO root fetch - processPackages [rosrestpy]: Downloading https://files.pythonhosted.org/packages/80/2a/785e36831e50666fc0860b314c3c85217e7be52b422b9cc3ec4deab6d2ef/rosrestpy-0.9.0.tar.gz
+[2023-07-15 22:15:07] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 22:15:07] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 22:15:08] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 22:15:08] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.49.tar.gz tmp/ork.build-0.0.50.tar.gz --markdown 20230715/o/ork.build/0.0.49-0.0.50/diff.md --exclude *.pyd
+[2023-07-15 22:15:08] INFO root fetch - processPackages [rosrestpy]: executing diffoscope
+[2023-07-15 22:15:08] INFO root fetch - processPackages [rosrestpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosrestpy-0.8.0.tar.gz tmp/rosrestpy-0.9.0.tar.gz --markdown 20230715/r/rosrestpy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 22:15:08] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/c1/52/6d631d823c78de7a69774c9cb9ea8a853c3a663c3066fb47b845adc1b869/aim-4.0.0a9.tar.gz
+[2023-07-15 22:15:08] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-07-15 22:15:08] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230715/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-07-15 22:15:09] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 22:15:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 22:15:09] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.0.dev1.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.0.dev2.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-15 22:15:09] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-15 22:15:09] INFO root fetch - processPackages [rosrestpy]: Remove: archive file [/home/abi/fetcher/tmp/rosrestpy-0.8.0.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [rosrestpy]: Remove: archive file [/home/abi/fetcher/tmp/rosrestpy-0.9.0.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [rosrestpy]: success
+[2023-07-15 22:15:09] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-15 22:15:09] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-15 22:15:10] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.49.tar.gz]
+[2023-07-15 22:15:10] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.50.tar.gz]
+[2023-07-15 22:15:10] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 22:15:13] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-07-15 22:15:13] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-07-15 22:15:13] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-07-15 22:15:13] INFO root fetch - main [MainThread]: Store serial: [18902750]
