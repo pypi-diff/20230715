@@ -7108,3 +7108,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:31:41] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 10:31:41] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 10:31:41] INFO root fetch - main [MainThread]: Store serial: [18899232]
+[2023-07-15 10:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899232]
+[2023-07-15 10:36:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dicopp
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ork.build
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltu
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-services
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hhhash
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxllib
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ork.build]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [dicopp]: New version: [1.0.37] Old Version: [1.0.36]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [mltu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230714] Old Version: [2.14.0.dev20230713]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [hhhash]: New version: [0.3] Old Version: [0.2]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/9f/ad/377aea57e8233bdb77fa06ef2bec96e15f52924c6544f027097b5238dcef/ork.build-0.0.27.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/dc/e0/f27a43065f6a9b7f75fe6587c2bfdcb66d5fc31bac8b3973b04ff4917905/dicopp-1.0.36.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/6c/7a/53267e410178b81e16179bba8681a8ec5371b61b229a6af8deb4d1ec90a5/mltu-1.0.8.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [hhhash]: Downloading https://files.pythonhosted.org/packages/fd/1d/b8100e00bdc9024aa561e22098b7139ff395888d4ffde663d86db50f08ce/hhhash-0.2.tar.gz
+[2023-07-15 10:36:50] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/3e/ee/798b6062a2cce96c529f727daa5e7d01c45500c611d167367c38b35e78e1/tf_nightly-2.14.0.dev20230714-cp39-cp39-win_amd64.whl
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/ef/70/dcec606292ef4cb52e73e57e55f2729811ba24ef249f21de19bce00db4b9/ork.build-0.0.28.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [dicopp]: Downloading https://files.pythonhosted.org/packages/6c/cb/98a1eff5dfdd51057664cb0dd2cb7664c5a452134eb3160a63e132e458af/dicopp-1.0.37.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip --markdown 20230715/t/tf-nightly/2.14.0.dev20230713-2.14.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [mltu]: Downloading https://files.pythonhosted.org/packages/57/86/b2ce47c51853a9b385f9c8565666c2836b72e7e99aaf676abd51c3f38525/mltu-1.0.9.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [hhhash]: Downloading https://files.pythonhosted.org/packages/5a/99/16cea48c22df9385a902ed48dc428191e31a4f788554a065b658e23b915e/hhhash-0.3.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [dicopp]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [dicopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicopp-1.0.36.tar.gz tmp/dicopp-1.0.37.tar.gz --markdown 20230715/d/dicopp/1.0.36-1.0.37/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [hhhash]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [hhhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhhash-0.2.tar.gz tmp/hhhash-0.3.tar.gz --markdown 20230715/h/hhhash/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.27.tar.gz tmp/ork.build-0.0.28.tar.gz --markdown 20230715/o/ork.build/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [mltu]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [mltu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltu-1.0.8.tar.gz tmp/mltu-1.0.9.tar.gz --markdown 20230715/m/mltu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230715/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-07-15 10:36:51] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230715/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-07-15 10:36:52] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230713-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 10:36:52] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230714-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 10:36:52] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-07-15 10:36:52] INFO root fetch - processPackages [hhhash]: Remove: archive file [/home/abi/fetcher/tmp/hhhash-0.2.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - processPackages [hhhash]: Remove: archive file [/home/abi/fetcher/tmp/hhhash-0.3.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - main [MainThread]: End processing [hhhash]: success
+[2023-07-15 10:36:52] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.8.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - processPackages [mltu]: Remove: archive file [/home/abi/fetcher/tmp/mltu-1.0.9.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - main [MainThread]: End processing [mltu]: success
+[2023-07-15 10:36:52] INFO root fetch - processPackages [dicopp]: Remove: archive file [/home/abi/fetcher/tmp/dicopp-1.0.36.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - processPackages [dicopp]: Remove: archive file [/home/abi/fetcher/tmp/dicopp-1.0.37.tar.gz]
+[2023-07-15 10:36:52] INFO root fetch - main [MainThread]: End processing [dicopp]: success
+[2023-07-15 10:36:53] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc8.tar.gz]
+[2023-07-15 10:36:53] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
+[2023-07-15 10:36:53] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-07-15 10:36:54] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.8.1.tar.gz]
+[2023-07-15 10:36:54] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.9.tar.gz]
+[2023-07-15 10:36:54] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-07-15 10:36:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.27.tar.gz]
+[2023-07-15 10:36:54] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.28.tar.gz]
+[2023-07-15 10:36:54] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 10:36:54] INFO root fetch - main [MainThread]: Store serial: [18899260]
