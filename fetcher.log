@@ -13421,3 +13421,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:31:11] INFO root fetch - processPackages [lavlab-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/lavlab-python-utils-1.2.0.tar.gz]
 [2023-07-15 20:31:11] INFO root fetch - main [MainThread]: End processing [lavlab-python-utils]: success
 [2023-07-15 20:31:11] INFO root fetch - main [MainThread]: Store serial: [18902291]
+[2023-07-15 20:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902291]
+[2023-07-15 20:36:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popyrous
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-auth-external
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medisynth
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: climatePy
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: WixOS
+[2023-07-15 20:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: banking-system
+[2023-07-15 20:36:20] INFO root fetch - processPackages [medisynth]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-15 20:36:20] ERROR root fetch - processPackages [WixOS]: Unable to get metadata: No such project 'WixOS'
+[2023-07-15 20:36:20] INFO root fetch - main [MainThread]: End processing [WixOS] error
+[2023-07-15 20:36:20] INFO root fetch - processPackages [dash-auth-external]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-15 20:36:20] INFO root fetch - processPackages [popyrous]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 20:36:20] INFO root fetch - processPackages [banking-system]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-15 20:36:20] INFO root fetch - processPackages [climatePy]: New version: [0.4.31] Old Version: [0.4.30]
+[2023-07-15 20:36:20] INFO root fetch - processPackages [yetl-framework]: New version: [1.7.5] Old Version: [1.7.4.dev1]
+[2023-07-15 20:36:20] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/9f/5e/5e9c34c43c0297499befe0e39f16f427c9b7253687f428eb667f8acb4e4a/yetl-framework-1.7.4.dev1.tar.gz
+[2023-07-15 20:36:20] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/f3/5a/16900f7906b5d959e9e1c0982982ca653372bfdf7dbf4f6d7c4f76537dc3/climatePy-0.4.30.tar.gz
+[2023-07-15 20:36:20] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/50/f4/ae625ac0fa86be5e8b5e18417e7a310f2d52ccb38fbb0f7049f372d9334e/dash-auth-external-1.1.0.tar.gz
+[2023-07-15 20:36:20] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/e1/7e/23543bf1392d0fbbd26c11d349d50a9ef906356b111c4707b62ca0977287/banking_system-1.0.tar.gz
+[2023-07-15 20:36:20] INFO root fetch - processPackages [popyrous]: Downloading https://files.pythonhosted.org/packages/2f/b6/ead632bfd089ede7d4143a20b83f6fe0a5f50a1cb9fa9cfa29cabafbf34a/popyrous-0.0.7.tar.gz
+[2023-07-15 20:36:20] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/1a/66/3b9c8fbb89dba186b35928fb3537b8dc2a6888c2b591d22a3bb2a0ddcf51/medisynth-0.0.1.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/fa/a5/9407b5465420587f62e3984fb5a0e22ea5d53debe8dbd7619700786dc54e/climatePy-0.4.31.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/aa/ab/bcae838261ee18ff6f6d4be437e381e9f949425fa45d17a8bb31b6178796/banking_system-1.0.1.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [dash-auth-external]: Downloading https://files.pythonhosted.org/packages/28/fb/2cfd4c53886c7d8ff89d2b18ace1a0e91f51185f6e6c2955163df4d0fd5a/dash-auth-external-1.2.0.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/3f/ac/fed0f133292136d5c49b544c3363acc948fd77de20b449a5d83f41d1e14f/yetl-framework-1.7.5.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [medisynth]: Downloading https://files.pythonhosted.org/packages/b9/4d/044115b540f13350442230b44d7f472214906f4cc99028593da21a96bdee/medisynth-0.0.3.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.30.tar.gz tmp/climatePy-0.4.31.tar.gz --markdown 20230715/c/climatePy/0.4.30-0.4.31/diff.md --exclude *.pyd
+[2023-07-15 20:36:21] INFO root fetch - processPackages [banking-system]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [banking-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_system-1.0.tar.gz tmp/banking_system-1.0.1.tar.gz --markdown 20230715/b/banking-system/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 20:36:21] INFO root fetch - processPackages [dash-auth-external]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [dash-auth-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-auth-external-1.1.0.tar.gz tmp/dash-auth-external-1.2.0.tar.gz --markdown 20230715/d/dash-auth-external/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 20:36:21] INFO root fetch - processPackages [popyrous]: Downloading https://files.pythonhosted.org/packages/98/6a/ccaa2cc3e8960ebb7a979395438e0283ac54b0d000b1951c77fd55015936/popyrous-0.0.8.tar.gz
+[2023-07-15 20:36:21] INFO root fetch - processPackages [medisynth]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [medisynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medisynth-0.0.1.tar.gz tmp/medisynth-0.0.3.tar.gz --markdown 20230715/m/medisynth/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 20:36:21] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.7.4.dev1.tar.gz tmp/yetl-framework-1.7.5.tar.gz --markdown 20230715/y/yetl-framework/1.7.4.dev1-1.7.5/diff.md --exclude *.pyd
+[2023-07-15 20:36:21] INFO root fetch - processPackages [popyrous]: executing diffoscope
+[2023-07-15 20:36:21] INFO root fetch - processPackages [popyrous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popyrous-0.0.7.tar.gz tmp/popyrous-0.0.8.tar.gz --markdown 20230715/p/popyrous/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 20:36:22] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.1.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - main [MainThread]: End processing [banking-system]: success
+[2023-07-15 20:36:22] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.1.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - processPackages [medisynth]: Remove: archive file [/home/abi/fetcher/tmp/medisynth-0.0.3.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - main [MainThread]: End processing [medisynth]: success
+[2023-07-15 20:36:22] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.1.0.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - processPackages [dash-auth-external]: Remove: archive file [/home/abi/fetcher/tmp/dash-auth-external-1.2.0.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - main [MainThread]: End processing [dash-auth-external]: success
+[2023-07-15 20:36:22] INFO root fetch - processPackages [popyrous]: Remove: archive file [/home/abi/fetcher/tmp/popyrous-0.0.7.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - processPackages [popyrous]: Remove: archive file [/home/abi/fetcher/tmp/popyrous-0.0.8.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - main [MainThread]: End processing [popyrous]: success
+[2023-07-15 20:36:22] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.4.dev1.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.5.tar.gz]
+[2023-07-15 20:36:22] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-15 20:36:24] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.30.tar.gz]
+[2023-07-15 20:36:24] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.31.tar.gz]
+[2023-07-15 20:36:24] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-15 20:36:24] INFO root fetch - main [MainThread]: Store serial: [18902316]
