@@ -10415,3 +10415,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:52:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.1.2.tar.gz]
 [2023-07-15 15:52:01] INFO root fetch - main [MainThread]: End processing [figaro]: success
 [2023-07-15 15:52:01] INFO root fetch - main [MainThread]: Store serial: [18900861]
+[2023-07-15 15:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900861]
+[2023-07-15 15:57:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesgpt
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscissor
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zimran-config
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daves-utilities
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junatum
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctrlb-heimdall
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astroid
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llm-toys
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oakvar
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graph-cordinates
+[2023-07-15 15:57:11] INFO root fetch - processPackages [graph-cordinates]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [zimran-config]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [llm-toys]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [junatum]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 15:57:11] WARNING root fetch - processPackages [ctrlb-heimdall]: Skipping, unable to determine old version
+[2023-07-15 15:57:11] INFO root fetch - processPackages [ctrlb-heimdall]: Start processing: mass-driver
+[2023-07-15 15:57:11] INFO root fetch - main [MainThread]: End processing [ctrlb-heimdall] error
+[2023-07-15 15:57:11] INFO root fetch - processPackages [oakvar]: New version: [2.9.9] Old Version: [2.9.7]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [pyscissor]: New version: [1.1.7] Old Version: [1.1.4]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [salesgpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [astroid]: New version: [3.0.0a8] Old Version: [3.0.0a7]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [mass-driver]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-15 15:57:11] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/e4/c2/69b7c1ff79a3dd17db69dff3b9c943f9532080cb799bb30dc4db234c5df9/oakvar-2.9.7.tar.gz
+[2023-07-15 15:57:11] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/28/a3/d9b6a2d27cf6e58f2c6c1f3b224d1c1fe294c9eaa9024ebed7dbd442e58e/daves_utilities-0.1.4.tar.gz
+[2023-07-15 15:57:11] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/7b/29/dfac3761a582e280aa13862ea7160637a2ee43e8a4e7f7a0757bd63b1ba2/llm-toys-0.0.2.tar.gz
+[2023-07-15 15:57:11] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/6c/2c/f67ce634f4dd545a31260389f01723ceea4396c6c236c03dc2b8298a9634/graph_cordinates-0.0.1.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [junatum]: Downloading https://files.pythonhosted.org/packages/7b/f6/43ef17f4bb255900509ad95b9f6c93f3a012f0bb2c9ab5a5b0d53ff1698b/junatum-1.0.1.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/0c/b9/b9143b95d5d50815abfebd0c5ba7d53e396c374c69abf1021a753b30a4a6/salesgpt-0.0.3.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [pyscissor]: Downloading https://files.pythonhosted.org/packages/aa/e1/c63b2246e69765143f55119962096b11299df2c91be065d451395302061f/pyscissor-1.1.4.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [zimran-config]: Downloading https://files.pythonhosted.org/packages/cd/01/85684d39a811a7f14862206db827f81eacf054804ecc119681949c7e8fae/zimran-config-1.0.6.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/21/d3/b7d2156160be2ceff493d264e55b41a584178fb53ac5b49bce588732c7ac/astroid-3.0.0a7.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [mass-driver]: Downloading https://files.pythonhosted.org/packages/8b/7a/f55a325151fbf0982528ff4927ddad601b084dc3f749787ca0a0e14e0ae7/mass_driver-0.8.0-py3-none-any.whl
+[2023-07-15 15:57:12] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/8a/8d/32d41e2635917a148446dfa6108286efea52ed004527fe00ed96c8740005/daves_utilities-0.1.5.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [llm-toys]: Downloading https://files.pythonhosted.org/packages/ee/29/9b4d1aa6a7de06a0245f20e43391abb5100a6166d14e6b0739ec8c2fa595/llm-toys-0.0.4.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [graph-cordinates]: Downloading https://files.pythonhosted.org/packages/f9/5b/3c0762aa2528d2c2ed47089fd72948e516b89e893a8515190e44aea3f3f6/graph_cordinates-0.0.2.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [pyscissor]: Downloading https://files.pythonhosted.org/packages/54/13/3f339b50256e1265971655ed2113a5b9da4876425ed88c09f802bd4d55af/pyscissor-1.1.7.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.4.tar.gz tmp/daves_utilities-0.1.5.tar.gz --markdown 20230715/d/daves-utilities/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/d4/01/b62464b2ca5fe2e05d4bd2a1587878daf9bae1b9badf71bea238e90b76db/salesgpt-0.0.4.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [llm-toys]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [llm-toys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-toys-0.0.2.tar.gz tmp/llm-toys-0.0.4.tar.gz --markdown 20230715/l/llm-toys/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [graph-cordinates]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [graph-cordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_cordinates-0.0.1.tar.gz tmp/graph_cordinates-0.0.2.tar.gz --markdown 20230715/g/graph-cordinates/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [junatum]: Downloading https://files.pythonhosted.org/packages/b9/aa/9518812cd8f4c28b1a60e376fa4178a57721408b1485af09abb8f133a377/junatum-1.0.2.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/81/b1/cae030650d743d7f39555941c1d5a841264db5f41a34381dcb915b4b6317/astroid-3.0.0a8.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [zimran-config]: Downloading https://files.pythonhosted.org/packages/16/d0/e413c6ec67005c5b42cce44a9212d42540c3a93fc821ce3e72009f6bb4d2/zimran-config-1.1.0.tar.gz
+[2023-07-15 15:57:12] INFO root fetch - processPackages [mass-driver]: Downloading https://files.pythonhosted.org/packages/04/03/7cea16d66519cbf255cbd9435888c631277812e844a88f4c137d468993c0/mass_driver-0.9.0-py3-none-any.whl
+[2023-07-15 15:57:12] INFO root fetch - processPackages [pyscissor]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [pyscissor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscissor-1.1.4.tar.gz tmp/pyscissor-1.1.7.tar.gz --markdown 20230715/p/pyscissor/1.1.4-1.1.7/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [salesgpt]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [salesgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesgpt-0.0.3.tar.gz tmp/salesgpt-0.0.4.tar.gz --markdown 20230715/s/salesgpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [zimran-config]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [zimran-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-config-1.0.6.tar.gz tmp/zimran-config-1.1.0.tar.gz --markdown 20230715/z/zimran-config/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [junatum]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [junatum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junatum-1.0.1.tar.gz tmp/junatum-1.0.2.tar.gz --markdown 20230715/j/junatum/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [mass-driver]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [mass-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_driver-0.8.0-py3-none-any.whl.zip tmp/mass_driver-0.9.0-py3-none-any.whl.zip --markdown 20230715/m/mass-driver/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-15 15:57:12] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2023-07-15 15:57:12] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-3.0.0a7.tar.gz tmp/astroid-3.0.0a8.tar.gz --markdown 20230715/a/astroid/3.0.0a7-3.0.0a8/diff.md --exclude *.pyd
+[2023-07-15 15:57:13] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/aa/b5/98830752d15a39d3fe7ee973d8ff37f1a3498ab33f56838ffd4d470de442/oakvar-2.9.9.tar.gz
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.4.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.5.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: Start processing: daves-utilities
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.2.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [llm-toys]: Remove: archive file [/home/abi/fetcher/tmp/llm-toys-0.0.4.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [llm-toys]: Start processing: tensordict-nightly
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [llm-toys]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.0.3.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.0.4.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [salesgpt]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2023-07-15 15:57:14] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.7.tar.gz tmp/oakvar-2.9.9.tar.gz --markdown 20230715/o/oakvar/2.9.7-2.9.9/diff.md --exclude *.pyd
+[2023-07-15 15:57:14] INFO root fetch - processPackages [zimran-config]: Remove: archive file [/home/abi/fetcher/tmp/zimran-config-1.0.6.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [zimran-config]: Remove: archive file [/home/abi/fetcher/tmp/zimran-config-1.1.0.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [zimran-config]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/28/a3/d9b6a2d27cf6e58f2c6c1f3b224d1c1fe294c9eaa9024ebed7dbd442e58e/daves_utilities-0.1.4.tar.gz
+[2023-07-15 15:57:14] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.1.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [graph-cordinates]: Remove: archive file [/home/abi/fetcher/tmp/graph_cordinates-0.0.2.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [graph-cordinates]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: Downloading https://files.pythonhosted.org/packages/8a/8d/32d41e2635917a148446dfa6108286efea52ed004527fe00ed96c8740005/daves_utilities-0.1.5.tar.gz
+[2023-07-15 15:57:14] INFO root fetch - processPackages [junatum]: Remove: archive file [/home/abi/fetcher/tmp/junatum-1.0.1.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [junatum]: Remove: archive file [/home/abi/fetcher/tmp/junatum-1.0.2.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [junatum]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [pyscissor]: Remove: archive file [/home/abi/fetcher/tmp/pyscissor-1.1.4.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [pyscissor]: Remove: archive file [/home/abi/fetcher/tmp/pyscissor-1.1.7.tar.gz]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [pyscissor]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [mass-driver]: Remove: archive file [/home/abi/fetcher/tmp/mass_driver-0.8.0-py3-none-any.whl.zip]
+[2023-07-15 15:57:14] INFO root fetch - processPackages [mass-driver]: Remove: archive file [/home/abi/fetcher/tmp/mass_driver-0.9.0-py3-none-any.whl.zip]
+[2023-07-15 15:57:14] INFO root fetch - main [MainThread]: End processing [mass-driver]: success
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: executing diffoscope
+[2023-07-15 15:57:14] INFO root fetch - processPackages [daves-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daves_utilities-0.1.4.tar.gz tmp/daves_utilities-0.1.5.tar.gz --markdown 20230715/d/daves-utilities/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-15 15:57:14] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-15 15:57:14] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-15 15:57:15] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a7.tar.gz]
+[2023-07-15 15:57:15] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.0.0a8.tar.gz]
+[2023-07-15 15:57:15] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2023-07-15 15:57:15] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-15 15:57:15] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230715/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-15 15:57:15] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.4.tar.gz]
+[2023-07-15 15:57:15] INFO root fetch - processPackages [daves-utilities]: Remove: archive file [/home/abi/fetcher/tmp/daves_utilities-0.1.5.tar.gz]
+[2023-07-15 15:57:15] INFO root fetch - main [MainThread]: End processing [daves-utilities]: success
+[2023-07-15 15:57:15] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 15:57:15] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-15 15:57:15] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-15 15:57:17] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.7.tar.gz]
+[2023-07-15 15:57:17] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.9.tar.gz]
+[2023-07-15 15:57:17] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2023-07-15 15:57:17] INFO root fetch - main [MainThread]: Store serial: [18900918]
