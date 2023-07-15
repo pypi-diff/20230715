@@ -5201,3 +5201,24 @@
 [2023-07-15 07:13:59] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-15 07:13:59] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-15 07:13:59] INFO root fetch - main [MainThread]: Store serial: [18898249]
+[2023-07-15 07:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898249]
+[2023-07-15 07:19:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkadw
+[2023-07-15 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-barcodes
+[2023-07-15 07:19:13] INFO root fetch - processPackages [tkadw]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-15 07:19:13] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2023-07-15 07:19:13] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f2/40/2637f2778e135f3c953f781b6e886032456ec985765d8a4f2745c6b186d8/tkadw-0.3.1.tar.gz
+[2023-07-15 07:19:13] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/a9/843e0ed992ce2f46616f9ee781677bb32d4ab1d118bdbe0179a74b8ce4e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl
+[2023-07-15 07:19:14] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f0/40/272dce892e6fe82e4f8c19efaabbc6c03cba3a689be25d04a6c1dffca599/tkadw-0.3.2.tar.gz
+[2023-07-15 07:19:14] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/81/09/40588fd0485e2fe0fa8d00730cf8d4eefea890f28a3cd287b2ed57a2687f/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl
+[2023-07-15 07:19:14] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-07-15 07:19:14] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.3.1.tar.gz tmp/tkadw-0.3.2.tar.gz --markdown 20230715/t/tkadw/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-15 07:19:14] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-07-15 07:19:14] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev8-14.0.2.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 07:19:15] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.1.tar.gz]
+[2023-07-15 07:19:15] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.2.tar.gz]
+[2023-07-15 07:19:15] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-07-15 07:19:15] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-15 07:19:15] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2023-07-15 07:19:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-07-15 07:19:15] INFO root fetch - main [MainThread]: Store serial: [18898258]
