@@ -6337,3 +6337,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 09:03:12] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.17.tar.gz]
 [2023-07-15 09:03:12] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 09:03:12] INFO root fetch - main [MainThread]: Store serial: [18898731]
+[2023-07-15 09:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898731]
+[2023-07-15 09:08:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyciy
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maco
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maco-model
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openHySim
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-hub-nightly
+[2023-07-15 09:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RoInfo
+[2023-07-15 09:08:21] INFO root fetch - processPackages [RoInfo]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 09:08:21] INFO root fetch - processPackages [pyciy]: New version: [1.1] Old Version: [1.0]
+[2023-07-15 09:08:21] INFO root fetch - processPackages [openHySim]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 09:08:21] INFO root fetch - processPackages [maco]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-15 09:08:21] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-15 09:08:21] WARNING root fetch - processPackages [maco-model]: Skipping, unable to determine old version
+[2023-07-15 09:08:21] INFO root fetch - main [MainThread]: End processing [maco-model] error
+[2023-07-15 09:08:21] INFO root fetch - processPackages [RoInfo]: Downloading https://files.pythonhosted.org/packages/7d/1b/bd924cc9e0867e92ce32478986362b4b6c7bfcdf8102148ff5429285c931/RoInfo-0.0.4.tar.gz
+[2023-07-15 09:08:21] INFO root fetch - processPackages [pyciy]: Downloading https://files.pythonhosted.org/packages/02/46/7ee71f4eec9cbbebb0e11f4189e7283062b0ddde8dfd53763501f136461e/pyciy-1.0.tar.gz
+[2023-07-15 09:08:21] INFO root fetch - processPackages [maco]: Downloading https://files.pythonhosted.org/packages/56/a0/10f0c4152a8b665c73f8a285cd406f4a9f855cef2b2bd3fde1ba0689ea5d/maco-1.0.6.tar.gz
+[2023-07-15 09:08:21] INFO root fetch - processPackages [openHySim]: Downloading https://files.pythonhosted.org/packages/95/cd/6e91f02a2680293e4f9a1825a93ee235644beb13629e0cf00ef6902a1e14/openHySim-0.0.1.tar.gz
+[2023-07-15 09:08:21] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-15 09:08:21] WARNING root fetch - processPackages [openHySim]: Skipping package: exceeds size limit 16193492>=10485760
+[2023-07-15 09:08:21] INFO root fetch - main [MainThread]: End processing [openHySim] error
+[2023-07-15 09:08:22] INFO root fetch - processPackages [pyciy]: Downloading https://files.pythonhosted.org/packages/6e/79/b38ac7ec3e053e7e170e63b96dc3a94df629b836c48fcbfc30588ffead2a/pyciy-1.1.tar.gz
+[2023-07-15 09:08:22] INFO root fetch - processPackages [maco]: Downloading https://files.pythonhosted.org/packages/07/5b/a12276f70ac7e29729d360036aa966ceb3f850b661dd51417e1a8cfdaa4c/maco-1.0.7.tar.gz
+[2023-07-15 09:08:22] INFO root fetch - processPackages [RoInfo]: Downloading https://files.pythonhosted.org/packages/a4/38/9cebe929c2cad80c5f9ecda87f19baae0ae55eafd52ac9c7db16b1b51b9f/RoInfo-0.0.5.tar.gz
+[2023-07-15 09:08:22] INFO root fetch - processPackages [pyciy]: executing diffoscope
+[2023-07-15 09:08:22] INFO root fetch - processPackages [pyciy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyciy-1.0.tar.gz tmp/pyciy-1.1.tar.gz --markdown 20230715/p/pyciy/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-15 09:08:22] INFO root fetch - processPackages [maco]: executing diffoscope
+[2023-07-15 09:08:22] INFO root fetch - processPackages [maco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maco-1.0.6.tar.gz tmp/maco-1.0.7.tar.gz --markdown 20230715/m/maco/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-15 09:08:22] INFO root fetch - processPackages [RoInfo]: executing diffoscope
+[2023-07-15 09:08:22] INFO root fetch - processPackages [RoInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RoInfo-0.0.4.tar.gz tmp/RoInfo-0.0.5.tar.gz --markdown 20230715/R/RoInfo/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 09:08:22] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-15 09:08:22] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-15 09:08:22] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230715/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-15 09:08:23] INFO root fetch - processPackages [pyciy]: Remove: archive file [/home/abi/fetcher/tmp/pyciy-1.0.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - processPackages [pyciy]: Remove: archive file [/home/abi/fetcher/tmp/pyciy-1.1.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - main [MainThread]: End processing [pyciy]: success
+[2023-07-15 09:08:23] INFO root fetch - processPackages [RoInfo]: Remove: archive file [/home/abi/fetcher/tmp/RoInfo-0.0.4.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - processPackages [RoInfo]: Remove: archive file [/home/abi/fetcher/tmp/RoInfo-0.0.5.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - main [MainThread]: End processing [RoInfo]: success
+[2023-07-15 09:08:23] INFO root fetch - processPackages [maco]: Remove: archive file [/home/abi/fetcher/tmp/maco-1.0.6.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - processPackages [maco]: Remove: archive file [/home/abi/fetcher/tmp/maco-1.0.7.tar.gz]
+[2023-07-15 09:08:23] INFO root fetch - main [MainThread]: End processing [maco]: success
+[2023-07-15 09:08:23] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-15 09:08:23] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-15 09:08:23] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-15 09:08:23] INFO root fetch - main [MainThread]: Store serial: [18898757]
