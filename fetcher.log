@@ -13598,3 +13598,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:46:48] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.2.tar.gz]
 [2023-07-15 20:46:48] INFO root fetch - main [MainThread]: End processing [qis]: success
 [2023-07-15 20:46:48] INFO root fetch - main [MainThread]: Store serial: [18902369]
+[2023-07-15 20:51:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902369]
+[2023-07-15 20:51:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 20:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: banking-system
+[2023-07-15 20:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-07-15 20:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiYahya
+[2023-07-15 20:51:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: banking-system
+[2023-07-15 20:51:57] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.0.dev1] Old Version: [1.7.5]
+[2023-07-15 20:51:57] INFO root fetch - processPackages [hiYahya]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-15 20:51:58] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/3f/ac/fed0f133292136d5c49b544c3363acc948fd77de20b449a5d83f41d1e14f/yetl-framework-1.7.5.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [hiYahya]: Downloading https://files.pythonhosted.org/packages/a1/c7/0f5117eff5bd0954bfca2615ddf88e38187daded6d89bae13238ebb5eeba/hiYahya-0.0.1.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/aa/ab/bcae838261ee18ff6f6d4be437e381e9f949425fa45d17a8bb31b6178796/banking_system-1.0.1.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/aa/ab/bcae838261ee18ff6f6d4be437e381e9f949425fa45d17a8bb31b6178796/banking_system-1.0.1.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/64/0f/ae64585243ca22a0f80cf7b6130da00e0e4f48fbcb755a7b814a4d1a99db/yetl-framework-2.0.0.dev1.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [hiYahya]: Downloading https://files.pythonhosted.org/packages/67/4a/65f9de2caafc13a98db2e43bab49be11e18e96fac9eba3d167331f7444cc/hiYahya-0.0.2.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-15 20:51:58] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.7.5.tar.gz tmp/yetl-framework-2.0.0.dev1.tar.gz --markdown 20230715/y/yetl-framework/1.7.5-2.0.0.dev1/diff.md --exclude *.pyd
+[2023-07-15 20:51:58] INFO root fetch - processPackages [hiYahya]: executing diffoscope
+[2023-07-15 20:51:58] INFO root fetch - processPackages [hiYahya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiYahya-0.0.1.tar.gz tmp/hiYahya-0.0.2.tar.gz --markdown 20230715/h/hiYahya/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/3e/0f/73ef93c862efbc064dbd660dce904a2a63b26bc89fc4ab324f07f6c62fb5/banking_system-1.0.2.tar.gz
+[2023-07-15 20:51:58] INFO root fetch - processPackages [banking-system]: Downloading https://files.pythonhosted.org/packages/3e/0f/73ef93c862efbc064dbd660dce904a2a63b26bc89fc4ab324f07f6c62fb5/banking_system-1.0.2.tar.gz
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: executing diffoscope
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_system-1.0.1.tar.gz tmp/banking_system-1.0.2.tar.gz --markdown 20230715/b/banking-system/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: executing diffoscope
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banking_system-1.0.1.tar.gz tmp/banking_system-1.0.2.tar.gz --markdown 20230715/b/banking-system/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-15 20:51:59] INFO root fetch - processPackages [hiYahya]: Remove: archive file [/home/abi/fetcher/tmp/hiYahya-0.0.1.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - processPackages [hiYahya]: Remove: archive file [/home/abi/fetcher/tmp/hiYahya-0.0.2.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [hiYahya]: success
+[2023-07-15 20:51:59] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.5.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.0.dev1.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.1.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - processPackages [banking-system]: Remove: archive file [/home/abi/fetcher/tmp/banking_system-1.0.2.tar.gz]
+[2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [banking-system]: success
+[2023-07-15 20:51:59] INFO root fetch - main [MainThread]: End processing [banking-system]: success
+[2023-07-15 20:51:59] INFO root fetch - main [MainThread]: Store serial: [18902381]
