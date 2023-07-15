@@ -10968,3 +10968,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 16:39:08] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.7.15.3.6.tar.gz]
 [2023-07-15 16:39:08] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-07-15 16:39:08] INFO root fetch - main [MainThread]: Store serial: [18901153]
+[2023-07-15 16:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901153]
+[2023-07-15 16:44:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwaslab
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChatBMS
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamic-api
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamic-llm
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamic-sh
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatllm
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cthulhucli
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-fortune
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: platformdirs
+[2023-07-15 16:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readthis
+[2023-07-15 16:44:18] WARNING root fetch - processPackages [cthulhucli]: Skipping, unable to determine old version
+[2023-07-15 16:44:18] INFO root fetch - main [MainThread]: End processing [cthulhucli] error
+[2023-07-15 16:44:18] WARNING root fetch - processPackages [ChatBMS]: Skipping, unable to determine old version
+[2023-07-15 16:44:18] INFO root fetch - main [MainThread]: End processing [ChatBMS] error
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-sh]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [nonebot-plugin-fortune]: New version: [0.4.9rc1] Old Version: [0.4.9a2]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-llm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [platformdirs]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [gwaslab]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [readthis]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/76/6f/116e2336d73479c87d588c022e81c99a3a8d81e89e8b96d111217553bc46/dynamic-sh-0.0.4.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [nonebot-plugin-fortune]: Downloading https://files.pythonhosted.org/packages/4e/20/8fc93ac82cbc777f4a70b35516b47e355884afd6ec4981bbdd8ad0254007/nonebot_plugin_fortune-0.4.9a2.tar.gz
+[2023-07-15 16:44:18] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-15 16:44:18] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/fa/bc/6804c48594898ecf372d83f37b71033e3fbdfa5631f2cd0127e524a12d9b/dynamic-llm-0.0.4.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/f8/99/a0efe3a8e92ae1bdca38b0547c67b59471d9954646a66cc61e8b21e299bf/dynamic-api-0.0.4.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/cb/10/e5478cc0c3ee5563f91ab7b9da15d16e21f3737b6286ed3fd9a8fb1a99dd/platformdirs-3.8.0.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/57/4a/4ed921d4b6c0927c23727a987f62eeb1ab91df90b0b500b48e6f96b93fb1/gwaslab-3.4.8.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/cb/7e/beb700ed5735ec93141b725f7a0ba117c01bcda9a08325629021433ccba4/readthis-0.0.9.tar.gz
+[2023-07-15 16:44:18] WARNING root fetch - processPackages [nonebot-plugin-fortune]: Skipping package: exceeds size limit 12459592>=10485760
+[2023-07-15 16:44:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fortune] error
+[2023-07-15 16:44:18] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618587>=10485760
+[2023-07-15 16:44:18] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-sh]: Downloading https://files.pythonhosted.org/packages/fb/74/f6ab0248b67c23640d34111c9225635cd36d9f654245642917a40283b8ae/dynamic-sh-0.0.5.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [platformdirs]: Downloading https://files.pythonhosted.org/packages/92/38/3dd18a282991c004851ea1f0953105a186cfc691eee2792778ac2ca060f8/platformdirs-3.8.1.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-llm]: Downloading https://files.pythonhosted.org/packages/9d/2e/b8b0a27afff74791c863a04c4261b719ba1f8d7362694c11982a6e88bee3/dynamic-llm-0.0.5.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-api]: Downloading https://files.pythonhosted.org/packages/28/28/70f97b8071564d030031ba9d631fc0c30890821d14aa09066b7632977e89/dynamic-api-0.0.5.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-sh]: executing diffoscope
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-sh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-sh-0.0.4.tar.gz tmp/dynamic-sh-0.0.5.tar.gz --markdown 20230715/d/dynamic-sh/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 16:44:18] INFO root fetch - processPackages [platformdirs]: executing diffoscope
+[2023-07-15 16:44:18] INFO root fetch - processPackages [platformdirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platformdirs-3.8.0.tar.gz tmp/platformdirs-3.8.1.tar.gz --markdown 20230715/p/platformdirs/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-07-15 16:44:18] INFO root fetch - processPackages [readthis]: Downloading https://files.pythonhosted.org/packages/f3/8b/7689a55a65655e4c19cb3540f237237f59fe8714882966c659e89c8cd545/readthis-0.1.0.tar.gz
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-llm]: executing diffoscope
+[2023-07-15 16:44:18] INFO root fetch - processPackages [dynamic-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-llm-0.0.4.tar.gz tmp/dynamic-llm-0.0.5.tar.gz --markdown 20230715/d/dynamic-llm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-api]: executing diffoscope
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic-api-0.0.4.tar.gz tmp/dynamic-api-0.0.5.tar.gz --markdown 20230715/d/dynamic-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 16:44:19] INFO root fetch - processPackages [readthis]: executing diffoscope
+[2023-07-15 16:44:19] INFO root fetch - processPackages [readthis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readthis-0.0.9.tar.gz tmp/readthis-0.1.0.tar.gz --markdown 20230715/r/readthis/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-15 16:44:19] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.8.0.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - processPackages [platformdirs]: Remove: archive file [/home/abi/fetcher/tmp/platformdirs-3.8.1.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - main [MainThread]: End processing [platformdirs]: success
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.4.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-sh]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-sh-0.0.5.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - main [MainThread]: End processing [dynamic-sh]: success
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.4.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - processPackages [dynamic-llm]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-llm-0.0.5.tar.gz]
+[2023-07-15 16:44:19] INFO root fetch - main [MainThread]: End processing [dynamic-llm]: success
+[2023-07-15 16:44:20] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.4.tar.gz]
+[2023-07-15 16:44:20] INFO root fetch - processPackages [dynamic-api]: Remove: archive file [/home/abi/fetcher/tmp/dynamic-api-0.0.5.tar.gz]
+[2023-07-15 16:44:20] INFO root fetch - main [MainThread]: End processing [dynamic-api]: success
+[2023-07-15 16:44:20] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.0.9.tar.gz]
+[2023-07-15 16:44:20] INFO root fetch - processPackages [readthis]: Remove: archive file [/home/abi/fetcher/tmp/readthis-0.1.0.tar.gz]
+[2023-07-15 16:44:20] INFO root fetch - main [MainThread]: End processing [readthis]: success
+[2023-07-15 16:44:20] INFO root fetch - main [MainThread]: Store serial: [18901180]
