@@ -11275,3 +11275,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:05:21] INFO root fetch - processPackages [PySnooper]: Remove: archive file [/home/abi/fetcher/tmp/PySnooper-1.2.0.tar.gz]
 [2023-07-15 17:05:21] INFO root fetch - main [MainThread]: End processing [PySnooper]: success
 [2023-07-15 17:05:21] INFO root fetch - main [MainThread]: Store serial: [18901284]
+[2023-07-15 17:10:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901284]
+[2023-07-15 17:10:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-rds
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motti
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FRETpredict
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pqp
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motti
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylinsql
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ContactApi
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ical
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-discord
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-15 17:10:30] WARNING root fetch - processPackages [ContactApi]: Skipping, unable to determine old version
+[2023-07-15 17:10:30] INFO root fetch - main [MainThread]: End processing [ContactApi] error
+[2023-07-15 17:10:30] ERROR root fetch - processPackages [motti]: Unable to get metadata: No such project 'motti'
+[2023-07-15 17:10:30] INFO root fetch - main [MainThread]: End processing [motti] error
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pylinsql]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [FRETpredict]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pqp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ical]: New version: [4.5.4] Old Version: [4.5.2]
+[2023-07-15 17:10:30] ERROR root fetch - processPackages [motti]: Unable to get metadata: No such project 'motti'
+[2023-07-15 17:10:30] INFO root fetch - main [MainThread]: End processing [motti] error
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pytest-discord]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-15 17:10:30] INFO root fetch - processPackages [FRETpredict]: Downloading https://files.pythonhosted.org/packages/20/1c/9d9c8211335f872754acd2c704f291de02c9096311ad8227136056c8075a/FRETpredict-0.1.2.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pylinsql]: Downloading https://files.pythonhosted.org/packages/bf/ca/3a109b1c117caf4f2400ded7501f58b68da6f1e8393410c9cffd71fe45fe/pylinsql-0.1.17.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/19/8c/a8c9ceb10c07cf5c458ab039965f7cc1132a4cf655663a7da2c475821df0/alibabacloud_rds20140815_py2-1.2.4.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/dc/67/7f45503ea2d1beedfd1cda316f77e23d831b6f39f1bd299fe32683c915d5/pqp-0.3.2.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [pytest-discord]: Downloading https://files.pythonhosted.org/packages/49/89/a1d51effa4d1bf092e8a756c234c2ebc03c6a7f0ac720df184dfabcb49b8/pytest-discord-0.1.2.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/7c/1e/c3bc2e052eb15f155f570772c64d708dae08347db22ab9d87cff2a7ac4c2/ical-4.5.2.tar.gz
+[2023-07-15 17:10:30] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pylinsql]: Downloading https://files.pythonhosted.org/packages/eb/7b/1b955d00db92f87bda28c440d3f69193a6f162b491998071b8cc65522142/pylinsql-0.1.18.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/02/77/029c512a8bd102330269dfd996db5632249172a0369ced2df4cd4f70f93b/alibabacloud_rds20140815_py2-1.2.5.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [FRETpredict]: Downloading https://files.pythonhosted.org/packages/0d/9c/438e91cb2cfac03f1c5a2c62450425578fb2b1fc171a1003cc7b4fb134b5/FRETpredict-0.1.3.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pylinsql]: executing diffoscope
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pylinsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinsql-0.1.17.tar.gz tmp/pylinsql-0.1.18.tar.gz --markdown 20230715/p/pylinsql/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pytest-discord]: Downloading https://files.pythonhosted.org/packages/80/d9/47784475017c6c5c171979106bf5b8f901c3521957c7fba41f17c0dd445a/pytest-discord-0.1.3.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [FRETpredict]: executing diffoscope
+[2023-07-15 17:10:31] INFO root fetch - processPackages [FRETpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FRETpredict-0.1.2.tar.gz tmp/FRETpredict-0.1.3.tar.gz --markdown 20230715/F/FRETpredict/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 17:10:31] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-15 17:10:31] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.2.4.tar.gz tmp/alibabacloud_rds20140815_py2-1.2.5.tar.gz --markdown 20230715/a/alibabacloud-rds20140815-py2/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-15 17:10:31] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-15 17:10:31] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230715/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pytest-discord]: executing diffoscope
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pytest-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-discord-0.1.2.tar.gz tmp/pytest-discord-0.1.3.tar.gz --markdown 20230715/p/pytest-discord/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-15 17:10:31] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/9a/d4/cf6f357ae081234b8a457ede52d5f84254eba9250a87fbce9e421f50912b/ical-4.5.4.tar.gz
+[2023-07-15 17:10:31] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/9a/3e/25fac80f306855672b07980d6943411c81c462270986dc2efca3fba31d6e/pqp-0.3.3.tar.gz
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.2.tar.gz tmp/pqp-0.3.3.tar.gz --markdown 20230715/p/pqp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-15 17:10:32] INFO root fetch - processPackages [ical]: executing diffoscope
+[2023-07-15 17:10:32] INFO root fetch - processPackages [ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ical-4.5.2.tar.gz tmp/ical-4.5.4.tar.gz --markdown 20230715/i/ical/4.5.2-4.5.4/diff.md --exclude *.pyd
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pylinsql]: Remove: archive file [/home/abi/fetcher/tmp/pylinsql-0.1.17.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pylinsql]: Remove: archive file [/home/abi/fetcher/tmp/pylinsql-0.1.18.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - main [MainThread]: End processing [pylinsql]: success
+[2023-07-15 17:10:32] INFO root fetch - processPackages [FRETpredict]: Remove: archive file [/home/abi/fetcher/tmp/FRETpredict-0.1.2.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - processPackages [FRETpredict]: Remove: archive file [/home/abi/fetcher/tmp/FRETpredict-0.1.3.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - main [MainThread]: End processing [FRETpredict]: success
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pytest-discord]: Remove: archive file [/home/abi/fetcher/tmp/pytest-discord-0.1.2.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - processPackages [pytest-discord]: Remove: archive file [/home/abi/fetcher/tmp/pytest-discord-0.1.3.tar.gz]
+[2023-07-15 17:10:32] INFO root fetch - main [MainThread]: End processing [pytest-discord]: success
+[2023-07-15 17:10:33] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-4.5.2.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-4.5.4.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - main [MainThread]: End processing [ical]: success
+[2023-07-15 17:10:33] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.4.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.2.5.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-15 17:10:33] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-15 17:10:33] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.2.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.3.tar.gz]
+[2023-07-15 17:10:33] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-07-15 17:10:33] INFO root fetch - main [MainThread]: Store serial: [18901325]
