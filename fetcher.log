@@ -12446,3 +12446,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:52:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.39.tar.gz]
 [2023-07-15 18:52:29] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 18:52:29] INFO root fetch - main [MainThread]: Store serial: [18901906]
+[2023-07-15 18:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901906]
+[2023-07-15 18:57:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-cp-broadcast
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Crackerjack
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finalynx
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yt-idefix
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clophfit
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-spy
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glmtuner
+[2023-07-15 18:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fgo-api-types
+[2023-07-15 18:57:37] INFO root fetch - processPackages [aws-spy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [glmtuner]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [yt-idefix]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [Crackerjack]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [clophfit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 18:57:37] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/ac/d8/905bd848213e368f1a3b35fc042398707bec40ef118774c7b2bfcc49e6f8/aws_spy-0.2.8.tar.gz
+[2023-07-15 18:57:37] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/c0/b8/ef8562373f7b10617252655a3bbddc18f77895a0db6c9344d94eb8435130/crackerjack-0.3.8.tar.gz
+[2023-07-15 18:57:37] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0b/ce/7d9789861d65035c37169ffa7e28f0a3236fe2e4bc410a15215629795d5b/finalynx-1.8.3.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-15 18:57:38] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/50/c6/344dd41a6180fbd538764b119b4d84a806ade6231955b808ed242214c526/clophfit-0.9.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/e0/29/685c8d7d1a1a66cb1bb61b0ce24eae433994a94672eb46191d04b97b2bf1/glmtuner-0.1.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/e7/b0/6659de9a21999bd477df337d37eda2b3cdaf3a2aca8210a452cef96f9041/yt_idefix-2.2.1.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/a0/16/ffb21af32040ee4d6ff9c9ac78e229d44844cf2abf9eeed34149ba14e49c/nonebot_plugin_cp_broadcast-1.0.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/56/39/acb6046696e941a62cd79672359e3a6d24b518146cb54cb715defa6f04ab/crackerjack-0.3.9.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fa/fb/7264c6b32402fc2a284a39163748686d86d0b0772b9664dc2fef35d84db3/aws_spy-0.2.9.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/0c/5c/6e8a803447b750bb79f53721e3b0e06cd793162448b8c0df0421fb904c71/finalynx-1.9.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/e7/3e/d6fc0e48bdfc48f4940b02f69fa62ae1ad18d92fac5a4f8350dbb47a0c26/clophfit-0.9.1.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.3.8.tar.gz tmp/crackerjack-0.3.9.tar.gz --markdown 20230715/C/Crackerjack/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.8.tar.gz tmp/aws_spy-0.2.9.tar.gz --markdown 20230715/a/aws-spy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/cd/94/2cc5db18c20a072b458a9ca99e190506d82257e87f0f063e017ae53b528d/glmtuner-0.1.1.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Downloading https://files.pythonhosted.org/packages/79/c0/bb06931b9ccb47e000fef5fa0f5ef281ef4717149e0ad556c0ce32784e25/nonebot_plugin_cp_broadcast-1.1.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.9.0.tar.gz tmp/clophfit-0.9.1.tar.gz --markdown 20230715/c/clophfit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230715/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_cp_broadcast-1.0.0.tar.gz tmp/nonebot_plugin_cp_broadcast-1.1.0.tar.gz --markdown 20230715/n/nonebot-plugin-cp-broadcast/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [glmtuner]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [glmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glmtuner-0.1.0.tar.gz tmp/glmtuner-0.1.1.tar.gz --markdown 20230715/g/glmtuner/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/7b/94/992ebb61649829541d3744c33ef91c5007feab7c4c60dd5326efcb40292c/yt_idefix-2.3.0.tar.gz
+[2023-07-15 18:57:38] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230715/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-15 18:57:38] INFO root fetch - processPackages [yt-idefix]: executing diffoscope
+[2023-07-15 18:57:38] INFO root fetch - processPackages [yt-idefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_idefix-2.2.1.tar.gz tmp/yt_idefix-2.3.0.tar.gz --markdown 20230715/y/yt-idefix/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-07-15 18:57:39] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.8.tar.gz]
+[2023-07-15 18:57:39] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.3.9.tar.gz]
+[2023-07-15 18:57:39] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-1.0.0.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-1.1.0.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.8.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.9.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [finalynx]: Remove: archive file [/home/abi/fetcher/tmp/finalynx-1.8.3.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [finalynx]: Remove: archive file [/home/abi/fetcher/tmp/finalynx-1.9.0.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [yt-idefix]: Remove: archive file [/home/abi/fetcher/tmp/yt_idefix-2.2.1.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [yt-idefix]: Remove: archive file [/home/abi/fetcher/tmp/yt_idefix-2.3.0.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [yt-idefix]: success
+[2023-07-15 18:57:40] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.0.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.1.tar.gz]
+[2023-07-15 18:57:40] INFO root fetch - main [MainThread]: End processing [glmtuner]: success
+[2023-07-15 18:57:41] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.0.tar.gz]
+[2023-07-15 18:57:41] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.1.tar.gz]
+[2023-07-15 18:57:41] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-07-15 18:57:41] INFO root fetch - main [MainThread]: Store serial: [18901927]
