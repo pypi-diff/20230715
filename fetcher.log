@@ -5353,3 +5353,30 @@
 [2023-07-15 07:24:29] INFO root fetch - processPackages [iamai-adapter-mirai]: Remove: archive file [/home/abi/fetcher/tmp/iamai_adapter_mirai-3.2.tar.gz]
 [2023-07-15 07:24:29] INFO root fetch - main [MainThread]: End processing [iamai-adapter-mirai]: success
 [2023-07-15 07:24:29] INFO root fetch - main [MainThread]: Store serial: [18898305]
+[2023-07-15 07:29:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898305]
+[2023-07-15 07:29:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iamai-adapter-console
+[2023-07-15 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbix-plus
+[2023-07-15 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volttron-lib-boptest-integration
+[2023-07-15 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: volttron-boptest
+[2023-07-15 07:29:38] WARNING root fetch - processPackages [iamai-adapter-console]: Skipping, unable to determine old version
+[2023-07-15 07:29:38] INFO root fetch - main [MainThread]: End processing [iamai-adapter-console] error
+[2023-07-15 07:29:38] WARNING root fetch - processPackages [pbix-plus]: Skipping, unable to determine old version
+[2023-07-15 07:29:38] INFO root fetch - main [MainThread]: End processing [pbix-plus] error
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: New version: [0.1.1rc2] Old Version: [0.1.1rc1]
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-boptest]: New version: [0.1.1rc2] Old Version: [0.1.1rc1]
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/ab/7d/5e2f2a8bf7fbaf0d1d573cc0352c58b855adf15886ab1cd2ff2382bd6afd/volttron_lib_boptest_integration-0.1.1rc1.tar.gz
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/69/0c/7ab8eab7b09aee4ec5458761419841a269c12236ecd6477376ef8c418a2b/volttron_boptest-0.1.1rc1.tar.gz
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Downloading https://files.pythonhosted.org/packages/91/98/75b0a40b29c3c44d3832fdd327a5697e2df7e09e32e2b273d12edb126f35/volttron_lib_boptest_integration-0.1.1rc2.tar.gz
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-boptest]: Downloading https://files.pythonhosted.org/packages/50/e9/7dc26bc00764ca8411bd2df309def7fc5cac3522454e060a5f420ccddf56/volttron_boptest-0.1.1rc2.tar.gz
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: executing diffoscope
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-lib-boptest-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_boptest_integration-0.1.1rc1.tar.gz tmp/volttron_lib_boptest_integration-0.1.1rc2.tar.gz --markdown 20230715/v/volttron-lib-boptest-integration/0.1.1rc1-0.1.1rc2/diff.md --exclude *.pyd
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-boptest]: executing diffoscope
+[2023-07-15 07:29:38] INFO root fetch - processPackages [volttron-boptest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_boptest-0.1.1rc1.tar.gz tmp/volttron_boptest-0.1.1rc2.tar.gz --markdown 20230715/v/volttron-boptest/0.1.1rc1-0.1.1rc2/diff.md --exclude *.pyd
+[2023-07-15 07:29:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1rc1.tar.gz]
+[2023-07-15 07:29:39] INFO root fetch - processPackages [volttron-lib-boptest-integration]: Remove: archive file [/home/abi/fetcher/tmp/volttron_lib_boptest_integration-0.1.1rc2.tar.gz]
+[2023-07-15 07:29:39] INFO root fetch - main [MainThread]: End processing [volttron-lib-boptest-integration]: success
+[2023-07-15 07:29:39] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1rc1.tar.gz]
+[2023-07-15 07:29:39] INFO root fetch - processPackages [volttron-boptest]: Remove: archive file [/home/abi/fetcher/tmp/volttron_boptest-0.1.1rc2.tar.gz]
+[2023-07-15 07:29:39] INFO root fetch - main [MainThread]: End processing [volttron-boptest]: success
+[2023-07-15 07:29:39] INFO root fetch - main [MainThread]: Store serial: [18898325]
