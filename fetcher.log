@@ -15156,3 +15156,42 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:07:09] INFO root fetch - processPackages [infinitode.py]: Remove: archive file [/home/abi/fetcher/tmp/infinitode.py-1.0.5.tar.gz]
 [2023-07-15 23:07:09] INFO root fetch - main [MainThread]: End processing [infinitode.py]: success
 [2023-07-15 23:07:09] INFO root fetch - main [MainThread]: Store serial: [18903031]
+[2023-07-15 23:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903031]
+[2023-07-15 23:12:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 23:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3make
+[2023-07-15 23:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bb-dirtree
+[2023-07-15 23:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Common-functions
+[2023-07-15 23:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quick-menu
+[2023-07-15 23:12:19] INFO root fetch - processPackages [quick-menu]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-15 23:12:19] INFO root fetch - processPackages [Common-functions]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 23:12:19] INFO root fetch - processPackages [py3make]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-15 23:12:19] INFO root fetch - processPackages [bb-dirtree]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-15 23:12:19] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/36/e7/7c6e0b32b1d07dda1ecfb5297ac93a45ae9eece92f5c9338518ec1f28645/quick_menu-0.2.0.tar.gz
+[2023-07-15 23:12:19] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/c0/cf/dde6bb6adb06d949fe1e9ddd6704bd58ae0e476e02e044eb34cc5c8059ab/py3make-1.0.3.tar.gz
+[2023-07-15 23:12:19] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/fc/c8/43208ac0c1df3e63fa325e359fef349aed79872234359f01735ded660e99/bb_dirtree-0.3.0.tar.gz
+[2023-07-15 23:12:19] INFO root fetch - processPackages [Common-functions]: Downloading https://files.pythonhosted.org/packages/2a/76/f12275d5b33a5de675ca4d1fa0094aeaae9d527f84d58b0983f6dce90656/Common_functions-0.0.4.tar.gz
+[2023-07-15 23:12:19] INFO root fetch - processPackages [quick-menu]: Downloading https://files.pythonhosted.org/packages/a0/b1/0c9302d76298ce20dec01ac1ed91e13b1f88c005ff2ce8e0e0ee7c896088/quick_menu-0.3.0.tar.gz
+[2023-07-15 23:12:20] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/80/67/435d4e5835248c89889f626e5f11f39a588fb3701f0f29c47e9d24d92fa9/bb_dirtree-0.3.1.tar.gz
+[2023-07-15 23:12:20] INFO root fetch - processPackages [Common-functions]: Downloading https://files.pythonhosted.org/packages/52/41/a634d346782ae6767601f0a937135e9a486fb551ae5cd8d07022e22049c3/Common_functions-0.0.5.tar.gz
+[2023-07-15 23:12:20] INFO root fetch - processPackages [py3make]: Downloading https://files.pythonhosted.org/packages/18/89/c82f64db09188a58bdd548896e43ea64687b320a4fb90838853a496b17c0/py3make-1.0.4.tar.gz
+[2023-07-15 23:12:20] INFO root fetch - processPackages [quick-menu]: executing diffoscope
+[2023-07-15 23:12:20] INFO root fetch - processPackages [quick-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_menu-0.2.0.tar.gz tmp/quick_menu-0.3.0.tar.gz --markdown 20230715/q/quick-menu/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-15 23:12:20] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-15 23:12:20] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.3.0.tar.gz tmp/bb_dirtree-0.3.1.tar.gz --markdown 20230715/b/bb-dirtree/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-15 23:12:20] INFO root fetch - processPackages [Common-functions]: executing diffoscope
+[2023-07-15 23:12:20] INFO root fetch - processPackages [Common-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Common_functions-0.0.4.tar.gz tmp/Common_functions-0.0.5.tar.gz --markdown 20230715/C/Common-functions/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 23:12:20] INFO root fetch - processPackages [py3make]: executing diffoscope
+[2023-07-15 23:12:20] INFO root fetch - processPackages [py3make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3make-1.0.3.tar.gz tmp/py3make-1.0.4.tar.gz --markdown 20230715/p/py3make/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-15 23:12:20] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.2.0.tar.gz]
+[2023-07-15 23:12:20] INFO root fetch - processPackages [quick-menu]: Remove: archive file [/home/abi/fetcher/tmp/quick_menu-0.3.0.tar.gz]
+[2023-07-15 23:12:20] INFO root fetch - main [MainThread]: End processing [quick-menu]: success
+[2023-07-15 23:12:21] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.3.0.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.3.1.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-15 23:12:21] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.3.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - processPackages [py3make]: Remove: archive file [/home/abi/fetcher/tmp/py3make-1.0.4.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - main [MainThread]: End processing [py3make]: success
+[2023-07-15 23:12:21] INFO root fetch - processPackages [Common-functions]: Remove: archive file [/home/abi/fetcher/tmp/Common_functions-0.0.4.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - processPackages [Common-functions]: Remove: archive file [/home/abi/fetcher/tmp/Common_functions-0.0.5.tar.gz]
+[2023-07-15 23:12:21] INFO root fetch - main [MainThread]: End processing [Common-functions]: success
+[2023-07-15 23:12:21] INFO root fetch - main [MainThread]: Store serial: [18903044]
