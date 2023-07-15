@@ -6999,3 +6999,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:16:06] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
 [2023-07-15 10:16:06] INFO root fetch - main [MainThread]: End processing [zrb]: success
 [2023-07-15 10:16:06] INFO root fetch - main [MainThread]: Store serial: [18899131]
+[2023-07-15 10:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899131]
+[2023-07-15 10:21:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-15 10:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cx-Freeze
+[2023-07-15 10:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeSMS
+[2023-07-15 10:21:15] INFO root fetch - processPackages [cx-Freeze]: New version: [6.9] Old Version: [6.8.4]
+[2023-07-15 10:21:15] WARNING root fetch - processPackages [afeSMS]: Skipping, unable to determine old version
+[2023-07-15 10:21:15] INFO root fetch - main [MainThread]: End processing [afeSMS] error
+[2023-07-15 10:21:15] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/7b/26/680ccf853ab4ad29d7445377fcf1b9a560cfc1a64262812f8197b5e4e4a2/cx_Freeze-6.8.4.tar.gz
+[2023-07-15 10:21:16] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/6d/18/697934627f9980f2ef688ea574841968e455349a808663e2cc67bbf56d71/cx_Freeze-6.9.tar.gz
+[2023-07-15 10:21:16] INFO root fetch - processPackages [cx-Freeze]: executing diffoscope
+[2023-07-15 10:21:16] INFO root fetch - processPackages [cx-Freeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx_Freeze-6.8.4.tar.gz tmp/cx_Freeze-6.9.tar.gz --markdown 20230715/c/cx-Freeze/6.8.4-6.9/diff.md --exclude *.pyd
+[2023-07-15 10:21:17] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.8.4.tar.gz]
+[2023-07-15 10:21:17] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.9.tar.gz]
+[2023-07-15 10:21:17] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
+[2023-07-15 10:21:17] INFO root fetch - main [MainThread]: Store serial: [18899189]
