@@ -13029,3 +13029,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:34:05] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.9.tar.gz]
 [2023-07-15 19:34:05] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
 [2023-07-15 19:34:05] INFO root fetch - main [MainThread]: Store serial: [18902125]
+[2023-07-15 19:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902125]
+[2023-07-15 19:39:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 19:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CartiMorph-vxm
+[2023-07-15 19:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dothttp-req
+[2023-07-15 19:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiggler-studiorabota
+[2023-07-15 19:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: learninghouse
+[2023-07-15 19:39:14] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:39:14] WARNING root fetch - processPackages [CartiMorph-vxm]: Skipping, unable to determine old version
+[2023-07-15 19:39:14] INFO root fetch - main [MainThread]: End processing [CartiMorph-vxm] error
+[2023-07-15 19:39:14] INFO root fetch - processPackages [dothttp-req]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:39:14] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 19:39:14] INFO root fetch - processPackages [learninghouse]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-15 19:39:14] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 19:39:14] INFO root fetch - processPackages [dothttp-req]: Downloading https://files.pythonhosted.org/packages/86/50/a3a5f08368698bf5c0be91f4d730cf835fe415599174d5f0ed2e331a74f2/dothttp_req-0.0.8-py3-none-any.whl
+[2023-07-15 19:39:14] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/53/94/265e4fa8cc69f6434b626c9a7d2150660c1cd6b3221813d4f3f535a38780/learninghouse-1.9.1.tar.gz
+[2023-07-15 19:39:14] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 19:39:14] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:39:14] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/42/ab/5e0b20df941c9cfd096abc01ed7d92b5b4c68bb15017fda807dbc434e293/learninghouse-1.9.2.tar.gz
+[2023-07-15 19:39:14] INFO root fetch - processPackages [dothttp-req]: Downloading https://files.pythonhosted.org/packages/b5/45/570daae2561a4a50ea2b1d13681a0f5bf72f739062386865c3e619de96ff/dothttp_req-0.0.9-py3-none-any.whl
+[2023-07-15 19:39:15] INFO root fetch - processPackages [dothttp-req]: executing diffoscope
+[2023-07-15 19:39:15] INFO root fetch - processPackages [dothttp-req]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dothttp_req-0.0.8-py3-none-any.whl.zip tmp/dothttp_req-0.0.9-py3-none-any.whl.zip --markdown 20230715/d/dothttp-req/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:39:15] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 19:39:15] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 19:39:15] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 19:39:15] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-07-15 19:39:15] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.9.1.tar.gz tmp/learninghouse-1.9.2.tar.gz --markdown 20230715/l/learninghouse/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-15 19:39:15] INFO root fetch - processPackages [dothttp-req]: Remove: archive file [/home/abi/fetcher/tmp/dothttp_req-0.0.8-py3-none-any.whl.zip]
+[2023-07-15 19:39:15] INFO root fetch - processPackages [dothttp-req]: Remove: archive file [/home/abi/fetcher/tmp/dothttp_req-0.0.9-py3-none-any.whl.zip]
+[2023-07-15 19:39:15] INFO root fetch - main [MainThread]: End processing [dothttp-req]: success
+[2023-07-15 19:39:22] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.1.tar.gz]
+[2023-07-15 19:39:22] INFO root fetch - processPackages [learninghouse]: Remove: archive file [/home/abi/fetcher/tmp/learninghouse-1.9.2.tar.gz]
+[2023-07-15 19:39:22] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-07-15 19:39:22] INFO root fetch - main [MainThread]: Store serial: [18902138]
