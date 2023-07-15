@@ -10248,3 +10248,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 15:41:36] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
 [2023-07-15 15:41:36] INFO root fetch - main [MainThread]: End processing [ensmallen] error
 [2023-07-15 15:41:36] INFO root fetch - main [MainThread]: Store serial: [18900774]
+[2023-07-15 15:46:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900774]
+[2023-07-15 15:46:45] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spcache
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-dllib
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-friesian
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib-spark2
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca-spark2
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian-spark2
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos-spark2
+[2023-07-15 15:46:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: granny-pliers
+[2023-07-15 15:46:45] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.18]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [spcache]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/a1/fc/535514c69a29d55cface3a1191de9982c2d4c27d05e8675a86923fca9781/bigdl-dllib-spark2-2.4.0b20230714.tar.gz
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/47/ef/7504dc77eb458bc622d006244723ba2526aca1f32a42cfb4a936a0ea5789/bigdl_friesian-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:45] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/a4/ec/3297407a728b8a331012fb6bfd722ab58e8cb5abc414ce7c80afe3abad57/bigdl_chronos_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/0c/8c/ab7e60dacc091d9a212e628d213d035c905007682268ac1cfc5c293fdd77/granny-pliers-0.0.18.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/2b/ca/1cf23b86a3acfbb902e0e3a1909fb571092f99246a2fb5c490a8b9f1e767/bigdl-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [spcache]: Downloading https://files.pythonhosted.org/packages/96/25/9232fab39dcbbbf4a53c60cd156357c80fd56450c6c5ae0feb4bb9098c7f/spcache-1.0.0.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/4a/7e/624848fe31e0d84a59364960ce8aef92e71cd38b95644226d7ad67ea4b11/bigdl_orca_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639157>=10485760
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-spark2
+[2023-07-15 15:46:46] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/b0/17/9f861789e4c8968017c5972e00eceda5e5c273afdf707ca17969c9da0bb4/bigdl_friesian_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/db/f0/d11d1199289b4f30fd1664617293464aa68f06abcdc24acc2675169af984/bigdl_orca-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/2c/06/f822779a825d43e0921141200a40ff84e376caeb0ff8401903705e9527de/bigdl-dllib-2.4.0b20230714.tar.gz
+[2023-07-15 15:46:46] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20373854>=10485760
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: oneat
+[2023-07-15 15:46:46] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-15 15:46:46] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20373774>=10485760
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-orca]: Start processing: chdev-tools
+[2023-07-15 15:46:46] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-15 15:46:46] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639162>=10485760
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-dllib]: Start processing: salesgpt
+[2023-07-15 15:46:46] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-15 15:46:46] INFO root fetch - processPackages [oneat]: New version: [6.0.0] Old Version: [5.9.9]
+[2023-07-15 15:46:46] WARNING root fetch - processPackages [chdev-tools]: Skipping, unable to determine old version
+[2023-07-15 15:46:46] INFO root fetch - main [MainThread]: End processing [chdev-tools] error
+[2023-07-15 15:46:46] INFO root fetch - processPackages [salesgpt]: New version: [0.1.5] Old Version: [0.0.3]
+[2023-07-15 15:46:46] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/a6/ce/9b1a9e89862cb1cac7fd4538f4c14600b1479800f21c808d704c2eb73a5a/oneat-5.9.9.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/43/00/8783e00465ab0c2a7427a546da4bdbc00312bdd39989c0e76c185d9d4556/bigdl_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/58/f8/9d348b64473ec7d1e8b1b0fe6fa7de427e8bbfa58e6f9b8f82be431d2502/bigdl_friesian-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [spcache]: Downloading https://files.pythonhosted.org/packages/1c/49/4afeca707fab9ba7984291b7318da52e6ec1e599785c1c8f305acfa8bf21/spcache-1.0.1.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/a9/3f/6c4782718905a6a72724cd46af033b4aaa3f1d8d09ac926875aa0fa876c0/bigdl-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/ee/65/6b1409bcf3a10ffa73b0c9f2dfcb386490f071816fbfb036e2e2de0713a0/bigdl_chronos_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/ce/92/e2938d6f5e602d31ead9b2d03885563179cf27eccbb86963d7cd00a33b1c/bigdl_friesian_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/0c/b9/b9143b95d5d50815abfebd0c5ba7d53e396c374c69abf1021a753b30a4a6/salesgpt-0.0.3.tar.gz
+[2023-07-15 15:46:46] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.18.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230715/g/granny-pliers/0.0.18-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip --markdown 20230715/b/bigdl-friesian/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:46:46] INFO root fetch - processPackages [spcache]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [spcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spcache-1.0.0.tar.gz tmp/spcache-1.0.1.tar.gz --markdown 20230715/s/spcache/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip --markdown 20230715/b/bigdl/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/30/f6/9dc79ea564409263a2c8b2b97c3f7ed3e5459c77581c18b0ea94a41be8b9/bigdl_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip --markdown 20230715/b/bigdl-friesian-spark2/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-15 15:46:46] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip --markdown 20230715/b/bigdl-chronos-spark2/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:46:47] INFO root fetch - processPackages [salesgpt]: Downloading https://files.pythonhosted.org/packages/66/41/f7c8e00f478e74f2322800cf1a6540258580d953a322119e784d6611c979/salesgpt-0.1.5.tar.gz
+[2023-07-15 15:46:47] INFO root fetch - processPackages [oneat]: Downloading https://files.pythonhosted.org/packages/9c/bf/658352546a4f2753c3f404f5fcad971e7b55375dbb6963ecccffba176b9e/oneat-6.0.0.tar.gz
+[2023-07-15 15:46:47] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-15 15:46:47] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip --markdown 20230715/b/bigdl-spark2/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-15 15:46:47] INFO root fetch - processPackages [salesgpt]: executing diffoscope
+[2023-07-15 15:46:47] INFO root fetch - processPackages [salesgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesgpt-0.0.3.tar.gz tmp/salesgpt-0.1.5.tar.gz --markdown 20230715/s/salesgpt/0.0.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-15 15:46:47] INFO root fetch - processPackages [oneat]: executing diffoscope
+[2023-07-15 15:46:47] INFO root fetch - processPackages [oneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneat-5.9.9.tar.gz tmp/oneat-6.0.0.tar.gz --markdown 20230715/o/oneat/5.9.9-6.0.0/diff.md --exclude *.pyd
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [spcache]: Remove: archive file [/home/abi/fetcher/tmp/spcache-1.0.0.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [spcache]: Remove: archive file [/home/abi/fetcher/tmp/spcache-1.0.1.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [spcache]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.18.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.0.3.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [salesgpt]: Remove: archive file [/home/abi/fetcher/tmp/salesgpt-0.1.5.tar.gz]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [salesgpt]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:48] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-15 15:46:49] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230714-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:49] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-15 15:46:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-15 15:46:49] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-5.9.9.tar.gz]
+[2023-07-15 15:46:49] INFO root fetch - processPackages [oneat]: Remove: archive file [/home/abi/fetcher/tmp/oneat-6.0.0.tar.gz]
+[2023-07-15 15:46:49] INFO root fetch - main [MainThread]: End processing [oneat]: success
+[2023-07-15 15:46:49] INFO root fetch - main [MainThread]: Store serial: [18900829]
