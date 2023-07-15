@@ -3933,3 +3933,31 @@
 [2023-07-15 05:11:29] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
 [2023-07-15 05:11:29] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
 [2023-07-15 05:11:29] INFO root fetch - main [MainThread]: Store serial: [18897600]
+[2023-07-15 05:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897600]
+[2023-07-15 05:16:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build.tools
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ork.build.tools
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lokzzpylib
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-15 05:16:39] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/43/2f/569d5e55044c6b69f90fa9913c21a579ee147ea21f9d4a75acdb2d5e1fe3/ork.build.tools-0.0.6.tar.gz
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/43/2f/569d5e55044c6b69f90fa9913c21a579ee147ea21f9d4a75acdb2d5e1fe3/ork.build.tools-0.0.6.tar.gz
+[2023-07-15 05:16:39] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/e2/59/899dd08722b859f214b6eee5335384aa5e1bb485140945e6cb65257098a5/lokzzpylib-0.2.dev8.tar.gz
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/9c/5a/7e50f890599c93239fd23eb2d91070d48f17afe5454620f4270cc38d9f31/ork.build.tools-0.0.7.tar.gz
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: Downloading https://files.pythonhosted.org/packages/9c/5a/7e50f890599c93239fd23eb2d91070d48f17afe5454620f4270cc38d9f31/ork.build.tools-0.0.7.tar.gz
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: executing diffoscope
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build.tools-0.0.6.tar.gz tmp/ork.build.tools-0.0.7.tar.gz --markdown 20230715/o/ork.build.tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: executing diffoscope
+[2023-07-15 05:16:39] INFO root fetch - processPackages [ork.build.tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build.tools-0.0.6.tar.gz tmp/ork.build.tools-0.0.7.tar.gz --markdown 20230715/o/ork.build.tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-15 05:16:40] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2023-07-15 05:16:40] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2023-07-15 05:16:40] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev8.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20230715/l/lokzzpylib/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-07-15 05:16:41] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev8.tar.gz]
+[2023-07-15 05:16:41] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2023-07-15 05:16:41] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2023-07-15 05:16:41] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.6.tar.gz]
+[2023-07-15 05:16:41] INFO root fetch - processPackages [ork.build.tools]: Remove: archive file [/home/abi/fetcher/tmp/ork.build.tools-0.0.7.tar.gz]
+[2023-07-15 05:16:41] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
+[2023-07-15 05:16:41] INFO root fetch - main [MainThread]: End processing [ork.build.tools]: success
+[2023-07-15 05:16:41] INFO root fetch - main [MainThread]: Store serial: [18897611]
