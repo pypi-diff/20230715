@@ -12686,3 +12686,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
 [2023-07-15 19:08:05] INFO root fetch - main [MainThread]: End processing [muse-maskgit-pytorch]: success
 [2023-07-15 19:08:05] INFO root fetch - main [MainThread]: Store serial: [18902000]
+[2023-07-15 19:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902000]
+[2023-07-15 19:13:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: entropyrank
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: werkit
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdfly
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niacin
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fgo-api-types
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bthome-ble
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volumizer
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wiggler-studiorabota
+[2023-07-15 19:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-ec2-instance-connect-custom-resource
+[2023-07-15 19:13:15] INFO root fetch - processPackages [niacin]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [werkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-15 19:13:15] WARNING root fetch - processPackages [entropyrank]: Skipping, unable to determine old version
+[2023-07-15 19:13:15] INFO root fetch - main [MainThread]: End processing [entropyrank] error
+[2023-07-15 19:13:15] INFO root fetch - processPackages [pdfly]: New version: [0.2.4] Old Version: [0.2.0]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [bthome-ble]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [volumizer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-15 19:13:15] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/e9/0f/9ca2cf96ba3a52a2a6b9a741ac53b57b00c27e1007839331c2f61d234930/bthome_ble-2.8.0.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/e3/51/1ea7eede424899d026571ae4cbd9c2c412a7b4424276e16a37a4900423d9/werkit-0.9.0.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/14/42/bb560fa29a9caa205865966a9375b2a509aa06905ec26bcd4a3ddd1b77c0/aws-ec2-instance-connect-custom-resource-0.3.1.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/76/8e/1c5f738553de2caa4d8e9800fad73892473ade146b94569df7409a254bed/pdfly-0.2.0.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [niacin]: Downloading https://files.pythonhosted.org/packages/63/14/9cfb47d4d6adeaac67e587d695b70d5a42e9f5dff2c6fe9d41eacb079edf/niacin-0.5.1.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/68/13/9429cc1d01b76dface0996cc13811df7f24decced65413f1ed3d086df9eb/volumizer-0.1.1.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [werkit]: Downloading https://files.pythonhosted.org/packages/aa/83/5f32832b54a73f1d771cb1ae97151534d808a1568e3c6b5e46db074f2ad5/werkit-0.9.1.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [bthome-ble]: Downloading https://files.pythonhosted.org/packages/8e/3d/5c42e5be156cd1acdd04a976aa049d2ebb9860e6d9904b9b052d0ad91263/bthome_ble-2.9.0.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/37/f3/5d9ee341701a2a34a85599bf77ed7af41c0c2197733b3e0e985bc24edf09/pdfly-0.2.4.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 19:13:15] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:13:15] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/4d/cc/db5789b0c3d0411877ecfc4e066611eb277ac5aebb768e6b790c08d4d8c2/aws-ec2-instance-connect-custom-resource-0.3.2.tar.gz
+[2023-07-15 19:13:15] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/02/d5/551f21f5328c0fb5c49724543c8f7fd646c031108d16ec73d02d30f62ca7/volumizer-0.1.2.tar.gz
+[2023-07-15 19:13:16] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230715/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [werkit]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [werkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkit-0.9.0.tar.gz tmp/werkit-0.9.1.tar.gz --markdown 20230715/w/werkit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230715/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [bthome-ble]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [bthome-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bthome_ble-2.8.0.tar.gz tmp/bthome_ble-2.9.0.tar.gz --markdown 20230715/b/bthome-ble/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ec2-instance-connect-custom-resource-0.3.1.tar.gz tmp/aws-ec2-instance-connect-custom-resource-0.3.2.tar.gz --markdown 20230715/a/aws-ec2-instance-connect-custom-resource/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [pdfly]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [pdfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfly-0.2.0.tar.gz tmp/pdfly-0.2.4.tar.gz --markdown 20230715/p/pdfly/0.2.0-0.2.4/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [volumizer]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [volumizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volumizer-0.1.1.tar.gz tmp/volumizer-0.1.2.tar.gz --markdown 20230715/v/volumizer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-15 19:13:16] INFO root fetch - processPackages [niacin]: Downloading https://files.pythonhosted.org/packages/8b/41/403ae558a2456d437558636a2439373fba30aaca7782fdc8dc0e71628bfa/niacin-0.5.2.tar.gz
+[2023-07-15 19:13:16] INFO root fetch - processPackages [niacin]: executing diffoscope
+[2023-07-15 19:13:16] INFO root fetch - processPackages [niacin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niacin-0.5.1.tar.gz tmp/niacin-0.5.2.tar.gz --markdown 20230715/n/niacin/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-15 19:13:17] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [bthome-ble]: Remove: archive file [/home/abi/fetcher/tmp/bthome_ble-2.8.0.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [bthome-ble]: Remove: archive file [/home/abi/fetcher/tmp/bthome_ble-2.9.0.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [bthome-ble]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.1.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.2.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [volumizer]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.0.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [werkit]: Remove: archive file [/home/abi/fetcher/tmp/werkit-0.9.1.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [werkit]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.0.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.4.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [pdfly]: success
+[2023-07-15 19:13:17] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-connect-custom-resource-0.3.1.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - processPackages [aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-connect-custom-resource-0.3.2.tar.gz]
+[2023-07-15 19:13:17] INFO root fetch - main [MainThread]: End processing [aws-ec2-instance-connect-custom-resource]: success
+[2023-07-15 19:13:19] INFO root fetch - processPackages [niacin]: Remove: archive file [/home/abi/fetcher/tmp/niacin-0.5.1.tar.gz]
+[2023-07-15 19:13:19] INFO root fetch - processPackages [niacin]: Remove: archive file [/home/abi/fetcher/tmp/niacin-0.5.2.tar.gz]
+[2023-07-15 19:13:19] INFO root fetch - main [MainThread]: End processing [niacin]: success
+[2023-07-15 19:13:19] INFO root fetch - main [MainThread]: Store serial: [18902033]
