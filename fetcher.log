@@ -15195,3 +15195,54 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-15 23:12:21] INFO root fetch - processPackages [Common-functions]: Remove: archive file [/home/abi/fetcher/tmp/Common_functions-0.0.5.tar.gz]
 [2023-07-15 23:12:21] INFO root fetch - main [MainThread]: End processing [Common-functions]: success
 [2023-07-15 23:12:21] INFO root fetch - main [MainThread]: Store serial: [18903044]
+[2023-07-15 23:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903044]
+[2023-07-15 23:17:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-setuptools
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: universi
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: math-utilsxxx
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-cpp-python
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrainman
+[2023-07-15 23:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2023-07-15 23:17:30] WARNING root fetch - processPackages [math-utilsxxx]: Skipping, unable to determine old version
+[2023-07-15 23:17:30] INFO root fetch - main [MainThread]: End processing [math-utilsxxx] error
+[2023-07-15 23:17:30] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.25]
+[2023-07-15 23:17:30] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 23:17:30] INFO root fetch - processPackages [universi]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-15 23:17:30] INFO root fetch - processPackages [types-setuptools]: New version: [68.0.0.2] Old Version: [68.0.0.1]
+[2023-07-15 23:17:30] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-15 23:17:30] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/d1/08/12ab8a20e92388283cb7fb7d8e87cc70d1ae14ea3b4717421a928efa35ba/universi-0.4.0.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/2e/7a/69934eef09197127e48edd17981b515bbbec4cdd880614f2523bc2e78eb0/terrainman-0.0.25.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/12/cf/0b2798b98ef1aa9009bbd03bae5fe76fd653ef99afe804db3bc16df600d2/types-setuptools-68.0.0.1.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/2d/86/fcdc22ae91d914bfa11f560d09a620789bc8ec46550beb1b5ff2e635a6c4/universi-0.5.0.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/d9/40/b59923396db03ddeec56ec27cd2fceb2377947169f5e6419f4d6183322f6/types-setuptools-68.0.0.2.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/fe/43/bf0422921a1004e9cf40162886da12e56abfd85b14bee14d0c0302891b73/terrainman-0.0.9.tar.gz
+[2023-07-15 23:17:30] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-15 23:17:30] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.4.0.tar.gz tmp/universi-0.5.0.tar.gz --markdown 20230715/u/universi/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-15 23:17:31] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-07-15 23:17:31] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-68.0.0.1.tar.gz tmp/types-setuptools-68.0.0.2.tar.gz --markdown 20230715/t/types-setuptools/68.0.0.1-68.0.0.2/diff.md --exclude *.pyd
+[2023-07-15 23:17:31] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-15 23:17:31] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230715/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-15 23:17:31] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-07-15 23:17:31] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-07-15 23:17:31] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.25.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230715/t/terrainman/0.0.25-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 23:17:31] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-07-15 23:17:31] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230715/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 23:17:32] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.25.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [terrainman]: Remove: archive file [/home/abi/fetcher/tmp/terrainman-0.0.9.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.4.0.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.5.0.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-15 23:17:32] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.1.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.2.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-07-15 23:17:32] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-15 23:17:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-07-15 23:17:32] INFO root fetch - main [MainThread]: Store serial: [18903069]
