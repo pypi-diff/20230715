@@ -9650,3 +9650,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 14:58:49] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.7.9.tar.gz]
 [2023-07-15 14:58:49] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
 [2023-07-15 14:58:49] INFO root fetch - main [MainThread]: Store serial: [18900473]
+[2023-07-15 15:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18900473]
+[2023-07-15 15:03:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miauw-base-service
+[2023-07-15 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyLegendSS
+[2023-07-15 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2023-07-15 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rechtspraak-citations-extractor
+[2023-07-15 15:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rysk-client
+[2023-07-15 15:03:59] INFO root fetch - processPackages [iamlistening]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-15 15:03:59] INFO root fetch - processPackages [rechtspraak-citations-extractor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-15 15:03:59] INFO root fetch - processPackages [pyLegendSS]: New version: [0.9] Old Version: [0.8]
+[2023-07-15 15:03:59] INFO root fetch - processPackages [miauw-base-service]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-07-15 15:03:59] INFO root fetch - processPackages [rysk-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 15:03:59] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Downloading https://files.pythonhosted.org/packages/1d/04/2bd13c195bc97b17d919d809a770e911edd161e5296b2cb36ef52da7c4a3/rechtspraak_citations_extractor-1.0.8.tar.gz
+[2023-07-15 15:03:59] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/b4/69/63d164fcafd24f64e7c2ee19ec77fde6d266b96c8879c03c9d867d07f544/pyLegendSS-0.8.tar.gz
+[2023-07-15 15:03:59] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/43/f7/e59a30797b4e564e33c552d2e71f984f5a725d4053e103ae588f85f1ff45/miauw-base-service-0.3.0.tar.gz
+[2023-07-15 15:03:59] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/fa/2b/27564aa3910e79a55f3648f8b213ed5699eef4ea34852aa86f0d84db40b4/rysk_client-0.2.1.tar.gz
+[2023-07-15 15:03:59] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/c2/50/e8bc281381664acfccb3779faaa05f3678b889a84ecd054d4c64433c19c8/iamlistening-1.0.0.tar.gz
+[2023-07-15 15:03:59] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Downloading https://files.pythonhosted.org/packages/58/c3/aead21ff8233959adf408b8f293a3dccdf17fc097c2ea5965b268fa7a08f/rechtspraak_citations_extractor-1.0.9.tar.gz
+[2023-07-15 15:04:00] INFO root fetch - processPackages [pyLegendSS]: Downloading https://files.pythonhosted.org/packages/d1/a2/905471f1d69e463eba3cc17705ac1c4c7432b8d8d426e19c8d546eeeae55/pyLegendSS-0.9.tar.gz
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rechtspraak-citations-extractor]: executing diffoscope
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rechtspraak-citations-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rechtspraak_citations_extractor-1.0.8.tar.gz tmp/rechtspraak_citations_extractor-1.0.9.tar.gz --markdown 20230715/r/rechtspraak-citations-extractor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-15 15:04:00] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/a4/47/c0dd971444af6bc6573728bd093f2a2ab20b123bcf9567da4361da8f3c65/miauw-base-service-1.0.0.tar.gz
+[2023-07-15 15:04:00] INFO root fetch - processPackages [pyLegendSS]: executing diffoscope
+[2023-07-15 15:04:00] INFO root fetch - processPackages [pyLegendSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLegendSS-0.8.tar.gz tmp/pyLegendSS-0.9.tar.gz --markdown 20230715/p/pyLegendSS/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-15 15:04:00] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/aa/d6/b1d235b866d47a09411783786e84b9a171d03a49da8d6bab72d1e9972078/iamlistening-1.0.1.tar.gz
+[2023-07-15 15:04:00] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-15 15:04:00] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-0.3.0.tar.gz tmp/miauw-base-service-1.0.0.tar.gz --markdown 20230715/m/miauw-base-service/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/bd/f3/50e8e742f888821dfbbdabb941dfbcd590816be5a747df37dd39b393b7d0/rysk_client-0.2.2.tar.gz
+[2023-07-15 15:04:00] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-15 15:04:00] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-1.0.0.tar.gz tmp/iamlistening-1.0.1.tar.gz --markdown 20230715/i/iamlistening/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.1.tar.gz tmp/rysk_client-0.2.2.tar.gz --markdown 20230715/r/rysk-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_citations_extractor-1.0.8.tar.gz]
+[2023-07-15 15:04:00] INFO root fetch - processPackages [rechtspraak-citations-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rechtspraak_citations_extractor-1.0.9.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [rechtspraak-citations-extractor]: success
+[2023-07-15 15:04:01] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-0.3.0.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.0.0.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-15 15:04:01] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.8.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - processPackages [pyLegendSS]: Remove: archive file [/home/abi/fetcher/tmp/pyLegendSS-0.9.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [pyLegendSS]: success
+[2023-07-15 15:04:01] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.0.0.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.0.1.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-15 15:04:01] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.1.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.2.tar.gz]
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-07-15 15:04:01] INFO root fetch - main [MainThread]: Store serial: [18900504]
