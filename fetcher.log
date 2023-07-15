@@ -5591,3 +5591,42 @@
 [2023-07-15 07:50:29] INFO root fetch - processPackages [trattoria-core]: Remove: archive file [/home/abi/fetcher/tmp/trattoria_core-0.4.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-15 07:50:29] INFO root fetch - main [MainThread]: End processing [trattoria-core]: success
 [2023-07-15 07:50:29] INFO root fetch - main [MainThread]: Store serial: [18898424]
+[2023-07-15 07:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18898424]
+[2023-07-15 07:55:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 07:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scenario-tree
+[2023-07-15 07:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helicone
+[2023-07-15 07:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydomotic
+[2023-07-15 07:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valcheck
+[2023-07-15 07:55:40] INFO root fetch - processPackages [helicone]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-15 07:55:40] INFO root fetch - processPackages [valcheck]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-15 07:55:40] INFO root fetch - processPackages [scenario-tree]: New version: [0.2] Old Version: [0.1]
+[2023-07-15 07:55:40] INFO root fetch - processPackages [pydomotic]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-15 07:55:40] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/b0/31/5d3710f3ccefdd2965a399b002f47db304c06cf6d2af62a3e23dedd32695/helicone-1.0.5.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [scenario-tree]: Downloading https://files.pythonhosted.org/packages/39/d8/33673c5d806dddc67a00918c0d44e411bfb983acde79b2138227f9ed8ba0/scenario_tree-0.1.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [valcheck]: Downloading https://files.pythonhosted.org/packages/5f/13/ad777729cae431d20a82ed9a726860f8fe9c942cccc6a40b72545210008d/valcheck-0.3.8.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [pydomotic]: Downloading https://files.pythonhosted.org/packages/e5/f0/ea22861cde6a84067dfb03124b9906dccc80ce966686832c370f86684ee4/pydomotic-1.1.0.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [helicone]: Downloading https://files.pythonhosted.org/packages/ec/71/83b231c7d8bcc76d47b8238332628cd285c7c56763104eedef8210f011b8/helicone-1.0.6.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [helicone]: executing diffoscope
+[2023-07-15 07:55:40] INFO root fetch - processPackages [helicone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helicone-1.0.5.tar.gz tmp/helicone-1.0.6.tar.gz --markdown 20230715/h/helicone/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-15 07:55:40] INFO root fetch - processPackages [scenario-tree]: Downloading https://files.pythonhosted.org/packages/2d/ed/ee429b503e2ebc20580ed727232411eb2c01ac4aa683d445a7667e20d65b/scenario_tree-0.2.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [pydomotic]: Downloading https://files.pythonhosted.org/packages/93/eb/445d690b6bf325d824f26348cc7fb984cdc2b4c3f4c4f78c6c210bb74133/pydomotic-1.2.0.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [valcheck]: Downloading https://files.pythonhosted.org/packages/ed/c4/60e3d2ebfcc06d6af83be56205bac46ba50e1c7400b5b2ed0b7899a7becc/valcheck-0.3.9.tar.gz
+[2023-07-15 07:55:40] INFO root fetch - processPackages [scenario-tree]: executing diffoscope
+[2023-07-15 07:55:40] INFO root fetch - processPackages [scenario-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenario_tree-0.1.tar.gz tmp/scenario_tree-0.2.tar.gz --markdown 20230715/s/scenario-tree/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-15 07:55:40] INFO root fetch - processPackages [pydomotic]: executing diffoscope
+[2023-07-15 07:55:40] INFO root fetch - processPackages [pydomotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydomotic-1.1.0.tar.gz tmp/pydomotic-1.2.0.tar.gz --markdown 20230715/p/pydomotic/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 07:55:40] INFO root fetch - processPackages [valcheck]: executing diffoscope
+[2023-07-15 07:55:40] INFO root fetch - processPackages [valcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valcheck-0.3.8.tar.gz tmp/valcheck-0.3.9.tar.gz --markdown 20230715/v/valcheck/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-15 07:55:41] INFO root fetch - processPackages [scenario-tree]: Remove: archive file [/home/abi/fetcher/tmp/scenario_tree-0.1.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - processPackages [scenario-tree]: Remove: archive file [/home/abi/fetcher/tmp/scenario_tree-0.2.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - main [MainThread]: End processing [scenario-tree]: success
+[2023-07-15 07:55:41] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.5.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - processPackages [helicone]: Remove: archive file [/home/abi/fetcher/tmp/helicone-1.0.6.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - main [MainThread]: End processing [helicone]: success
+[2023-07-15 07:55:41] INFO root fetch - processPackages [valcheck]: Remove: archive file [/home/abi/fetcher/tmp/valcheck-0.3.8.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - processPackages [valcheck]: Remove: archive file [/home/abi/fetcher/tmp/valcheck-0.3.9.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - main [MainThread]: End processing [valcheck]: success
+[2023-07-15 07:55:41] INFO root fetch - processPackages [pydomotic]: Remove: archive file [/home/abi/fetcher/tmp/pydomotic-1.1.0.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - processPackages [pydomotic]: Remove: archive file [/home/abi/fetcher/tmp/pydomotic-1.2.0.tar.gz]
+[2023-07-15 07:55:41] INFO root fetch - main [MainThread]: End processing [pydomotic]: success
+[2023-07-15 07:55:41] INFO root fetch - main [MainThread]: Store serial: [18898435]
