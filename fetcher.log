@@ -7287,3 +7287,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:52:33] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.29.tar.gz]
 [2023-07-15 10:52:33] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2023-07-15 10:52:33] INFO root fetch - main [MainThread]: Store serial: [18899329]
+[2023-07-15 10:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899329]
+[2023-07-15 10:57:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pjsua2
+[2023-07-15 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplified-automl
+[2023-07-15 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cibuildwheel
+[2023-07-15 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-binary-tree
+[2023-07-15 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ork.build
+[2023-07-15 10:57:42] INFO root fetch - processPackages [simplified-automl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 10:57:42] INFO root fetch - processPackages [streamlit-binary-tree]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-15 10:57:42] WARNING root fetch - processPackages [pjsua2]: Skipping, unable to determine old version
+[2023-07-15 10:57:42] INFO root fetch - main [MainThread]: End processing [pjsua2] error
+[2023-07-15 10:57:42] INFO root fetch - processPackages [ork.build]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-07-15 10:57:42] INFO root fetch - processPackages [cibuildwheel]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-15 10:57:42] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/75/3e/045fa649abc678563c7d586b08f9eb66fe1e07d3b69d1dfbe577e92124a1/streamlit-binary-tree-0.2.1.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/5f/c9/e3cb9917a83b5ee7d774bc3554a19d181aa5fe20590bfc225a539ea5238a/ork.build-0.0.29.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [simplified-automl]: Downloading https://files.pythonhosted.org/packages/f9/fc/8b068f9cb9daf87f67a45e4dfc2962f8b564d0cd9f56054c3f97dc5d75ec/simplified_automl-0.0.2-py3-none-any.whl
+[2023-07-15 10:57:42] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/38/cb/e51b06f669cf1270d8ff52b63a58fa70b728147520c18d5c5b1b7ae3b2e7/cibuildwheel-2.8.1.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/e3/3a/dc481bd3608f97f1a000e1f759c95edd08325e02607ea06317c5bb72b0d3/ork.build-0.0.30.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 10:57:42] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.29.tar.gz tmp/ork.build-0.0.30.tar.gz --markdown 20230715/o/ork.build/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-07-15 10:57:42] INFO root fetch - processPackages [simplified-automl]: Downloading https://files.pythonhosted.org/packages/a4/c4/d4011ad848008ee3c15e5b7f31a8fbbc2284e401985083819dcfcf7b4df4/simplified_automl-0.0.3-py3-none-any.whl
+[2023-07-15 10:57:42] INFO root fetch - processPackages [streamlit-binary-tree]: Downloading https://files.pythonhosted.org/packages/b9/81/8411e7281f46f71e69da112ff3749ba97191064623894c7dcb3b2633d4c3/streamlit-binary-tree-0.2.2.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/1b/a1/1bcea94b340d553572bbd3c11f610982abe7c36492296bc0ad16660d181c/cibuildwheel-2.9.0.tar.gz
+[2023-07-15 10:57:42] INFO root fetch - processPackages [simplified-automl]: executing diffoscope
+[2023-07-15 10:57:42] INFO root fetch - processPackages [simplified-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplified_automl-0.0.2-py3-none-any.whl.zip tmp/simplified_automl-0.0.3-py3-none-any.whl.zip --markdown 20230715/s/simplified-automl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 10:57:43] INFO root fetch - processPackages [streamlit-binary-tree]: executing diffoscope
+[2023-07-15 10:57:43] INFO root fetch - processPackages [streamlit-binary-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-binary-tree-0.2.1.tar.gz tmp/streamlit-binary-tree-0.2.2.tar.gz --markdown 20230715/s/streamlit-binary-tree/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-15 10:57:43] INFO root fetch - processPackages [cibuildwheel]: executing diffoscope
+[2023-07-15 10:57:43] INFO root fetch - processPackages [cibuildwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cibuildwheel-2.8.1.tar.gz tmp/cibuildwheel-2.9.0.tar.gz --markdown 20230715/c/cibuildwheel/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-15 10:57:43] INFO root fetch - processPackages [simplified-automl]: Remove: archive file [/home/abi/fetcher/tmp/simplified_automl-0.0.2-py3-none-any.whl.zip]
+[2023-07-15 10:57:43] INFO root fetch - processPackages [simplified-automl]: Remove: archive file [/home/abi/fetcher/tmp/simplified_automl-0.0.3-py3-none-any.whl.zip]
+[2023-07-15 10:57:43] INFO root fetch - main [MainThread]: End processing [simplified-automl]: success
+[2023-07-15 10:57:44] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.1.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - processPackages [streamlit-binary-tree]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-binary-tree-0.2.2.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - main [MainThread]: End processing [streamlit-binary-tree]: success
+[2023-07-15 10:57:44] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.8.1.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.9.0.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - main [MainThread]: End processing [cibuildwheel]: success
+[2023-07-15 10:57:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.29.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.30.tar.gz]
+[2023-07-15 10:57:44] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 10:57:44] INFO root fetch - main [MainThread]: Store serial: [18899345]
