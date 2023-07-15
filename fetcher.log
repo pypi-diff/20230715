@@ -13995,3 +13995,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 21:23:11] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
 [2023-07-15 21:23:11] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
 [2023-07-15 21:23:11] INFO root fetch - main [MainThread]: Store serial: [18902508]
+[2023-07-15 21:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902508]
+[2023-07-15 21:28:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uniteai
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uniteai
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ork.build]: New version: [0.0.47] Old Version: [0.0.46]
+[2023-07-15 21:28:20] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/4b/e4/34131100ea719fbbc950983cb4f7862434bd3c820225e3c08e37e9e53821/uniteai-0.1.8.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/dd/11/b2b143f0c24b378f0dd653cfbaecb29199b5faf0e0b375c9324a575972f7/ork.build-0.0.46.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: Downloading https://files.pythonhosted.org/packages/ee/d6/69541a4891781b255df92ded06de7ebb8bd19110ff041dc63c0f0dc01ab3/uniteai-0.1.9.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: executing diffoscope
+[2023-07-15 21:28:20] INFO root fetch - processPackages [uniteai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniteai-0.1.8.tar.gz tmp/uniteai-0.1.9.tar.gz --markdown 20230715/u/uniteai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-15 21:28:20] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-15 21:28:20] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230715/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-15 21:28:20] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/b8/77/d97ad131aef60363296e94a12005bc5aa3c3e18999b0d0636e0c3a1433fc/ork.build-0.0.47.tar.gz
+[2023-07-15 21:28:21] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 21:28:21] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.46.tar.gz tmp/ork.build-0.0.47.tar.gz --markdown 20230715/o/ork.build/0.0.46-0.0.47/diff.md --exclude *.pyd
+[2023-07-15 21:28:21] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.8.tar.gz]
+[2023-07-15 21:28:21] INFO root fetch - processPackages [uniteai]: Remove: archive file [/home/abi/fetcher/tmp/uniteai-0.1.9.tar.gz]
+[2023-07-15 21:28:21] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 21:28:21] INFO root fetch - main [MainThread]: End processing [uniteai]: success
+[2023-07-15 21:28:21] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-15 21:28:21] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-15 21:28:21] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-15 21:28:23] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.46.tar.gz]
+[2023-07-15 21:28:23] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.47.tar.gz]
+[2023-07-15 21:28:23] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 21:28:23] INFO root fetch - main [MainThread]: Store serial: [18902520]
