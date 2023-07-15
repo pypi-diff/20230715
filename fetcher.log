@@ -8182,3 +8182,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 12:21:15] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
 [2023-07-15 12:21:15] INFO root fetch - main [MainThread]: End processing [danbi]: success
 [2023-07-15 12:21:15] INFO root fetch - main [MainThread]: Store serial: [18899687]
+[2023-07-15 12:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899687]
+[2023-07-15 12:26:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-15 12:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychoanalyze
+[2023-07-15 12:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toodaloo
+[2023-07-15 12:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiggler-studiorabota
+[2023-07-15 12:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluegenes
+[2023-07-15 12:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryptocmd
+[2023-07-15 12:26:23] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-15 12:26:24] INFO root fetch - processPackages [psychoanalyze]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-15 12:26:24] INFO root fetch - processPackages [toodaloo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 12:26:24] INFO root fetch - processPackages [bluegenes]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 12:26:24] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/10/b3/b08cc4da7638a09ca8a712f9043dae17384002acd051ec4ff0a1bac9d96a/wiggler_studiorabota-0.0.4.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [cryptocmd]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-15 12:26:24] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/4f/1c/ea3bad1c78abf551fc0fb84692914d3444aafcab68a60fc5fc54fe215230/psychoanalyze-0.6.0.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/62/ad/73ec2323e0a8223eab6e1c1fbd3cc7d48cb2085eadfc957a1f68d343d26e/toodaloo-0.0.2.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [bluegenes]: Downloading https://files.pythonhosted.org/packages/5f/b2/bfab1d13cf01e86ddbeaf5a638f319c78785ee74cab616db0eb35a940110/bluegenes-0.0.1.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [cryptocmd]: Downloading https://files.pythonhosted.org/packages/93/f8/b7bdbbac6ae39f956f8d91fa624934cca6f0bd58c8ba95033f451aa2327f/cryptocmd-0.6.1.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/b1/a6/57080e144d8222c5f1cd07379751d533d78662dc1a9a329cfb2f2f1f6fdd/wiggler_studiorabota-0.0.5.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/e8/16/02c1738fa56f11bb53ad224ff86b74ebe2029a5b616ee980d3c7c937d8aa/psychoanalyze-0.6.1.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-15 12:26:24] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.4.tar.gz tmp/wiggler_studiorabota-0.0.5.tar.gz --markdown 20230715/w/wiggler-studiorabota/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-15 12:26:24] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-15 12:26:24] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.6.0.tar.gz tmp/psychoanalyze-0.6.1.tar.gz --markdown 20230715/p/psychoanalyze/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-15 12:26:24] INFO root fetch - processPackages [toodaloo]: Downloading https://files.pythonhosted.org/packages/aa/9c/334fbcd7b43c2d2ea57a292007aeb844dbffffcaa1be2b1df9868d7706d3/toodaloo-0.0.3.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [bluegenes]: Downloading https://files.pythonhosted.org/packages/71/fc/cbb0a97d0f946e6442ae2ceb2d9851c92262e24a4cbf24df13bcc7a4aef4/bluegenes-0.0.2.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [cryptocmd]: Downloading https://files.pythonhosted.org/packages/fb/89/15498a3ff482f88523bb1b78807b6a7b9350be53a07ada8d31824a551636/cryptocmd-0.6.2.tar.gz
+[2023-07-15 12:26:24] INFO root fetch - processPackages [toodaloo]: executing diffoscope
+[2023-07-15 12:26:24] INFO root fetch - processPackages [toodaloo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toodaloo-0.0.2.tar.gz tmp/toodaloo-0.0.3.tar.gz --markdown 20230715/t/toodaloo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-15 12:26:24] INFO root fetch - processPackages [bluegenes]: executing diffoscope
+[2023-07-15 12:26:24] INFO root fetch - processPackages [bluegenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluegenes-0.0.1.tar.gz tmp/bluegenes-0.0.2.tar.gz --markdown 20230715/b/bluegenes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 12:26:24] INFO root fetch - processPackages [cryptocmd]: executing diffoscope
+[2023-07-15 12:26:24] INFO root fetch - processPackages [cryptocmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptocmd-0.6.1.tar.gz tmp/cryptocmd-0.6.2.tar.gz --markdown 20230715/c/cryptocmd/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-15 12:26:25] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.0.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.1.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-15 12:26:25] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.4.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.5.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-15 12:26:25] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.2.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - processPackages [toodaloo]: Remove: archive file [/home/abi/fetcher/tmp/toodaloo-0.0.3.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: End processing [toodaloo]: success
+[2023-07-15 12:26:25] INFO root fetch - processPackages [bluegenes]: Remove: archive file [/home/abi/fetcher/tmp/bluegenes-0.0.1.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - processPackages [bluegenes]: Remove: archive file [/home/abi/fetcher/tmp/bluegenes-0.0.2.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: End processing [bluegenes]: success
+[2023-07-15 12:26:25] INFO root fetch - processPackages [cryptocmd]: Remove: archive file [/home/abi/fetcher/tmp/cryptocmd-0.6.1.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - processPackages [cryptocmd]: Remove: archive file [/home/abi/fetcher/tmp/cryptocmd-0.6.2.tar.gz]
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: End processing [cryptocmd]: success
+[2023-07-15 12:26:25] INFO root fetch - main [MainThread]: Store serial: [18899702]
