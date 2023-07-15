@@ -12521,3 +12521,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 18:57:41] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.1.tar.gz]
 [2023-07-15 18:57:41] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2023-07-15 18:57:41] INFO root fetch - main [MainThread]: Store serial: [18901927]
+[2023-07-15 19:02:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901927]
+[2023-07-15 19:02:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathgenmap
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbapy
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gddecoder
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RamseyTheoryRL
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyScannerWrapper
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: morphoaap
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ork.build
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pathgenmap
+[2023-07-15 19:02:49] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:02:49] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-15 19:02:49] INFO root fetch - processPackages [pathgenmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-15 19:02:49] WARNING root fetch - processPackages [pyScannerWrapper]: Skipping, unable to determine old version
+[2023-07-15 19:02:49] INFO root fetch - processPackages [pyScannerWrapper]: Start processing: databend
+[2023-07-15 19:02:49] INFO root fetch - main [MainThread]: End processing [pyScannerWrapper] error
+[2023-07-15 19:02:49] INFO root fetch - processPackages [morphoaap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-15 19:02:49] INFO root fetch - processPackages [RamseyTheoryRL]: New version: [0.76] Old Version: [0.75]
+[2023-07-15 19:02:49] INFO root fetch - processPackages [mbapy]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-07-15 19:02:49] INFO root fetch - processPackages [ork.build]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-15 19:02:49] WARNING root fetch - processPackages [gddecoder]: Skipping, unable to determine old version
+[2023-07-15 19:02:49] INFO root fetch - main [MainThread]: End processing [gddecoder] error
+[2023-07-15 19:02:49] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.9.5.5.49] Old Version: [2023.7.7.16.36.40]
+[2023-07-15 19:02:50] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/cd/ad/76a9fc55cdea6bc30a75d507068fd8ea7644fdda3cca81493a6783fab9a0/ork.build-0.0.38.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-15 19:02:50] ERROR root fetch - processPackages [morphoaap]: Unable to fetch info: No such project/version 'morphoaap' 0.0.2
+[2023-07-15 19:02:50] INFO root fetch - main [MainThread]: End processing [morphoaap] error
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/82/fa/d177c4c9c686fdb8d227f6ddfafaf2ea43674491d50ee4c44b5f2b53f6da/pathgenmap-0.0.8.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/02/91/8dc08842f712d02fdcbd1973789228813bbe59f413563170920687e3fe4c/mbapy-0.1.4.1.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [RamseyTheoryRL]: Downloading https://files.pythonhosted.org/packages/c7/c4/43b751f66faf68b6def81ea9abe26bf734f7fedee70e01d5e577c2ded1ac/RamseyTheoryRL-0.75.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-15 19:02:50] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/6f/90/fd22e069ca7b8453cb4912298233613f643e6a9f92b369b038a0a08f88d4/fgo_api_types-2023.7.7.16.36.40.tar.gz
+[2023-07-15 19:02:50] WARNING root fetch - processPackages [RamseyTheoryRL]: Skipping package: exceeds size limit 12028975>=10485760
+[2023-07-15 19:02:50] INFO root fetch - main [MainThread]: End processing [RamseyTheoryRL] error
+[2023-07-15 19:02:50] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-15 19:02:50] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/38/72/40bd34440b959ef97d9cf42c0c59f150806a53945228e328e6c0a94d891d/ork.build-0.0.39.tar.gz
+[2023-07-15 19:02:50] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-15 19:02:50] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-15 19:02:50] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/5d/fb/fadb499e56f4c521e9343f65ce01fc1bd440f7ac3905a585341b05ec7ff0/mbapy-0.1.4.2.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: Downloading https://files.pythonhosted.org/packages/7e/52/a62425dafaf0638317648f0fc989a63f5a255e033e7d6d3ee27a1f944a2f/pathgenmap-0.0.9.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.38.tar.gz tmp/ork.build-0.0.39.tar.gz --markdown 20230715/o/ork.build/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-15 19:02:50] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230715/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:02:50] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230715/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [pathgenmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathgenmap-0.0.8.tar.gz tmp/pathgenmap-0.0.9.tar.gz --markdown 20230715/p/pathgenmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-15 19:02:50] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.1.4.1.tar.gz tmp/mbapy-0.1.4.2.tar.gz --markdown 20230715/m/mbapy/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-07-15 19:02:50] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-15 19:02:50] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz --markdown 20230715/f/fgo-api-types/2023.7.7.16.36.40-2023.7.9.5.5.49/diff.md --exclude *.pyd
+[2023-07-15 19:02:51] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.8.tar.gz]
+[2023-07-15 19:02:51] INFO root fetch - processPackages [pathgenmap]: Remove: archive file [/home/abi/fetcher/tmp/pathgenmap-0.0.9.tar.gz]
+[2023-07-15 19:02:51] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-15 19:02:51] INFO root fetch - main [MainThread]: End processing [pathgenmap]: success
+[2023-07-15 19:02:52] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.7.16.36.40.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-15 19:02:52] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.4.1.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.1.4.2.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2023-07-15 19:02:52] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2023-07-15 19:02:52] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-07-15 19:02:53] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.38.tar.gz]
+[2023-07-15 19:02:53] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.39.tar.gz]
+[2023-07-15 19:02:53] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 19:02:53] INFO root fetch - main [MainThread]: Store serial: [18901965]
