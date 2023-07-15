@@ -4169,3 +4169,68 @@
 [2023-07-15 05:42:38] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
 [2023-07-15 05:42:38] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
 [2023-07-15 05:42:38] INFO root fetch - main [MainThread]: Store serial: [18897728]
+[2023-07-15 05:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18897728]
+[2023-07-15 05:47:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daisyfl
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-fr-account-vat-return
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simpysql
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flavius-api
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-fortune
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easytester
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osintbuddy
+[2023-07-15 05:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-conda-build
+[2023-07-15 05:47:47] INFO root fetch - processPackages [nonebot-plugin-fortune]: New version: [0.4.9rc1] Old Version: [0.4.9a2]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [flavius-api]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [daisyfl]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [osintbuddy]: New version: [0.0.4rc44.post1] Old Version: [0.0.3rc37.post1]
+[2023-07-15 05:47:47] WARNING root fetch - processPackages [easytester]: Skipping, unable to determine old version
+[2023-07-15 05:47:47] INFO root fetch - main [MainThread]: End processing [easytester] error
+[2023-07-15 05:47:47] INFO root fetch - processPackages [hatch-conda-build]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: New version: [14.0.4.0.1.dev1] Old Version: [14.0.4.0.0]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [simpysql]: New version: [0.4.7] Old Version: [0.4.5]
+[2023-07-15 05:47:47] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: Downloading https://files.pythonhosted.org/packages/27/df/7e75412b2130e3a84b8975446ba85f2a462622ea13299ebdc7571245f690/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.0-py3-none-any.whl
+[2023-07-15 05:47:47] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/ee/69/f2857e8c9874f7521acea933e26e66b23f3b077c3abd5a2bf53cdc9cbe55/daisyfl-0.4.8.tar.gz
+[2023-07-15 05:47:47] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/6f/4e/95dd01683536c29c831435aa6c7b8a1068c93815278f7805ee2355475bb4/flavius-api-1.9.3.tar.gz
+[2023-07-15 05:47:47] INFO root fetch - processPackages [nonebot-plugin-fortune]: Downloading https://files.pythonhosted.org/packages/4e/20/8fc93ac82cbc777f4a70b35516b47e355884afd6ec4981bbdd8ad0254007/nonebot_plugin_fortune-0.4.9a2.tar.gz
+[2023-07-15 05:47:47] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/26/01/e6a46b99a9c22b41ff41828ed6af260ffe44eace1bf88987fcfbc243abcb/osintbuddy-0.0.3rc37.post1.tar.gz
+[2023-07-15 05:47:47] INFO root fetch - processPackages [simpysql]: Downloading https://files.pythonhosted.org/packages/4f/fe/177b84abf41f039e76f4b2c9823bd5d9962523b1cf2877458df2d3833f5f/simpysql-0.4.5.tar.gz
+[2023-07-15 05:47:47] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/b2/d8/a2535aee5461b3d434c691e90724e93062249fcbf83db1fa3900cfb0f92f/hatch_conda_build-0.0.3.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: Downloading https://files.pythonhosted.org/packages/fa/31/1bd9eea4a1010063f3c610e745e8164040fb68fd225f00626bdbe5a51bf6/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.1.dev1-py3-none-any.whl
+[2023-07-15 05:47:48] WARNING root fetch - processPackages [nonebot-plugin-fortune]: Skipping package: exceeds size limit 12459592>=10485760
+[2023-07-15 05:47:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-fortune] error
+[2023-07-15 05:47:48] INFO root fetch - processPackages [flavius-api]: Downloading https://files.pythonhosted.org/packages/a7/4e/86a58a754af885057f27412b1a2ddc99272feb69364da3a57865fa7e38e5/flavius-api-1.9.4.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [hatch-conda-build]: Downloading https://files.pythonhosted.org/packages/0a/c1/c5fbca93c2b3007a9ab2db4c69ff617fcdee4d3d5023aa5a6d16e553650b/hatch_conda_build-0.0.4.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.1.dev1-py3-none-any.whl.zip --markdown 20230715/o/odoo14-addon-l10n-fr-account-vat-return/14.0.4.0.0-14.0.4.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-15 05:47:48] INFO root fetch - processPackages [daisyfl]: Downloading https://files.pythonhosted.org/packages/e9/eb/64b2a5b763325932b41d596eae078a290eaada0f5c6d1e86c1e0060173b3/daisyfl-0.4.9.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [hatch-conda-build]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [hatch-conda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda_build-0.0.3.tar.gz tmp/hatch_conda_build-0.0.4.tar.gz --markdown 20230715/h/hatch-conda-build/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-15 05:47:48] INFO root fetch - processPackages [flavius-api]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [flavius-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavius-api-1.9.3.tar.gz tmp/flavius-api-1.9.4.tar.gz --markdown 20230715/f/flavius-api/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-15 05:47:48] INFO root fetch - processPackages [simpysql]: Downloading https://files.pythonhosted.org/packages/2c/03/78c2d6c750eb3cfa4df265b5c9abd5a845e1a8735cec458b83ab44f48d36/simpysql-0.4.7.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [daisyfl]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [daisyfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisyfl-0.4.8.tar.gz tmp/daisyfl-0.4.9.tar.gz --markdown 20230715/d/daisyfl/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-15 05:47:48] INFO root fetch - processPackages [simpysql]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [simpysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpysql-0.4.5.tar.gz tmp/simpysql-0.4.7.tar.gz --markdown 20230715/s/simpysql/0.4.5-0.4.7/diff.md --exclude *.pyd
+[2023-07-15 05:47:48] INFO root fetch - processPackages [osintbuddy]: Downloading https://files.pythonhosted.org/packages/23/e9/698ab927678360ab1600e5ed7dddfd864befa0959d9a49d5566ea30b9d8b/osintbuddy-0.0.4rc44.post1.tar.gz
+[2023-07-15 05:47:48] INFO root fetch - processPackages [osintbuddy]: executing diffoscope
+[2023-07-15 05:47:48] INFO root fetch - processPackages [osintbuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osintbuddy-0.0.3rc37.post1.tar.gz tmp/osintbuddy-0.0.4rc44.post1.tar.gz --markdown 20230715/o/osintbuddy/0.0.3rc37.post1-0.0.4rc44.post1/diff.md --exclude *.pyd
+[2023-07-15 05:47:49] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.3.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [flavius-api]: Remove: archive file [/home/abi/fetcher/tmp/flavius-api-1.9.4.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [flavius-api]: success
+[2023-07-15 05:47:49] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.3.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [hatch-conda-build]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda_build-0.0.4.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [hatch-conda-build]: success
+[2023-07-15 05:47:49] INFO root fetch - processPackages [simpysql]: Remove: archive file [/home/abi/fetcher/tmp/simpysql-0.4.5.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [simpysql]: Remove: archive file [/home/abi/fetcher/tmp/simpysql-0.4.7.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [simpysql]: success
+[2023-07-15 05:47:49] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.0-py3-none-any.whl.zip]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [odoo14-addon-l10n-fr-account-vat-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_fr_account_vat_return-14.0.4.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-fr-account-vat-return]: success
+[2023-07-15 05:47:49] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.3rc37.post1.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [osintbuddy]: Remove: archive file [/home/abi/fetcher/tmp/osintbuddy-0.0.4rc44.post1.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [osintbuddy]: success
+[2023-07-15 05:47:49] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.8.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - processPackages [daisyfl]: Remove: archive file [/home/abi/fetcher/tmp/daisyfl-0.4.9.tar.gz]
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: End processing [daisyfl]: success
+[2023-07-15 05:47:49] INFO root fetch - main [MainThread]: Store serial: [18897753]
