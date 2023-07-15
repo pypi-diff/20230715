@@ -7014,3 +7014,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 10:21:17] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.9.tar.gz]
 [2023-07-15 10:21:17] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
 [2023-07-15 10:21:17] INFO root fetch - main [MainThread]: Store serial: [18899189]
+[2023-07-15 10:26:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18899189]
+[2023-07-15 10:26:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyserde
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-model-optimization-nightly
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LolzteamApi
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ork.build
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ork.build]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-15 10:26:26] INFO root fetch - processPackages [LolzteamApi]: New version: [1.0.19] Old Version: [1.0.18]
+[2023-07-15 10:26:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230714] Old Version: [0.7.5.dev20230713]
+[2023-07-15 10:26:26] INFO root fetch - processPackages [pyserde]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/c3/0f/1684dcb2ba51ecbeab53a485de35f9dba4982ba5bab1daf27bb0e0281e7d/ork.build-0.0.22.tar.gz
+[2023-07-15 10:26:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/4b/f9/20a193e2ae42d4bf4d763a88510a2bf6004854be9777110bd93cec2774ff/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl
+[2023-07-15 10:26:26] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/24/b9/add45d78777cf88996e365e13180249eb5462cf2f180520428ee91dea7a7/LolzteamApi-1.0.18.tar.gz
+[2023-07-15 10:26:26] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/c6/fd/8a6d9967aa1ca3450ce7bf8b1556359e7801a809e354b85682ed16481fb5/pyserde-0.9.7.tar.gz
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/0c/c9/662bb343bee9cf697e3e3687af50bc672156da69eea8e0d92f5c38c51841/ork.build-0.0.23.tar.gz
+[2023-07-15 10:26:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/52/37/0edf5bff632fc283a63aa3542b3309a089cae4c60488977f15255924fd88/tf_model_optimization_nightly-0.7.5.dev20230714-py2.py3-none-any.whl
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-15 10:26:26] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.22.tar.gz tmp/ork.build-0.0.23.tar.gz --markdown 20230715/o/ork.build/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-15 10:26:27] INFO root fetch - processPackages [LolzteamApi]: Downloading https://files.pythonhosted.org/packages/a1/7b/63bb7330d37b4e908c732e16bb1845c43cde60ba76930433444e85e4d7ea/LolzteamApi-1.0.19.tar.gz
+[2023-07-15 10:26:27] INFO root fetch - processPackages [LolzteamApi]: executing diffoscope
+[2023-07-15 10:26:27] INFO root fetch - processPackages [LolzteamApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LolzteamApi-1.0.18.tar.gz tmp/LolzteamApi-1.0.19.tar.gz --markdown 20230715/L/LolzteamApi/1.0.18-1.0.19/diff.md --exclude *.pyd
+[2023-07-15 10:26:27] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-15 10:26:27] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230714-py2.py3-none-any.whl.zip --markdown 20230715/t/tf-model-optimization-nightly/0.7.5.dev20230713-0.7.5.dev20230714/diff.md --exclude *.pyd
+[2023-07-15 10:26:27] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/08/1d/65f8f49d7df9b9326fb7de9ae0bb1dae880de85e2ae08ee6d850014f4b7d/pyserde-0.9.8.tar.gz
+[2023-07-15 10:26:27] INFO root fetch - processPackages [pyserde]: executing diffoscope
+[2023-07-15 10:26:27] INFO root fetch - processPackages [pyserde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserde-0.9.7.tar.gz tmp/pyserde-0.9.8.tar.gz --markdown 20230715/p/pyserde/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-15 10:26:28] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.18.tar.gz]
+[2023-07-15 10:26:28] INFO root fetch - processPackages [LolzteamApi]: Remove: archive file [/home/abi/fetcher/tmp/LolzteamApi-1.0.19.tar.gz]
+[2023-07-15 10:26:28] INFO root fetch - main [MainThread]: End processing [LolzteamApi]: success
+[2023-07-15 10:26:28] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.7.tar.gz]
+[2023-07-15 10:26:28] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.8.tar.gz]
+[2023-07-15 10:26:28] INFO root fetch - main [MainThread]: End processing [pyserde]: success
+[2023-07-15 10:26:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230713-py2.py3-none-any.whl.zip]
+[2023-07-15 10:26:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230714-py2.py3-none-any.whl.zip]
+[2023-07-15 10:26:28] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-15 10:26:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.22.tar.gz]
+[2023-07-15 10:26:29] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.23.tar.gz]
+[2023-07-15 10:26:29] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-15 10:26:29] INFO root fetch - main [MainThread]: Store serial: [18899199]
