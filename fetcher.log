@@ -13356,3 +13356,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 20:20:50] INFO root fetch - processPackages [aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/aws-secure-log-bucket-0.8.2.tar.gz]
 [2023-07-15 20:20:50] INFO root fetch - main [MainThread]: End processing [aws-secure-log-bucket]: success
 [2023-07-15 20:20:50] INFO root fetch - main [MainThread]: Store serial: [18902256]
+[2023-07-15 20:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18902256]
+[2023-07-15 20:25:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-15 20:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-15 20:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evopython
+[2023-07-15 20:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotPython
+[2023-07-15 20:25:58] WARNING root fetch - processPackages [evopython]: Skipping, unable to determine old version
+[2023-07-15 20:25:58] INFO root fetch - main [MainThread]: End processing [evopython] error
+[2023-07-15 20:25:58] INFO root fetch - processPackages [yetl-framework]: New version: [1.7.4.dev1] Old Version: [1.7.3]
+[2023-07-15 20:25:58] INFO root fetch - processPackages [spotPython]: New version: [0.5.7] Old Version: [0.5.5]
+[2023-07-15 20:25:59] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/f9/a8/2eeecdce23433428c0878aceb90c9b1efd7361897ab27ba8c1efb9471bc5/spotPython-0.5.5.tar.gz
+[2023-07-15 20:25:59] WARNING root fetch - processPackages [spotPython]: Skipping package: exceeds size limit 27698069>=10485760
+[2023-07-15 20:25:59] INFO root fetch - main [MainThread]: End processing [spotPython] error
+[2023-07-15 20:25:59] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/e0/b5/a022153c87e4d567da3614387185e5f33f72f7c7594b8f174bb98551700b/yetl-framework-1.7.3.tar.gz
+[2023-07-15 20:25:59] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/9f/5e/5e9c34c43c0297499befe0e39f16f427c9b7253687f428eb667f8acb4e4a/yetl-framework-1.7.4.dev1.tar.gz
+[2023-07-15 20:25:59] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-15 20:25:59] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.7.3.tar.gz tmp/yetl-framework-1.7.4.dev1.tar.gz --markdown 20230715/y/yetl-framework/1.7.3-1.7.4.dev1/diff.md --exclude *.pyd
+[2023-07-15 20:26:00] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.3.tar.gz]
+[2023-07-15 20:26:00] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.7.4.dev1.tar.gz]
+[2023-07-15 20:26:00] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-15 20:26:00] INFO root fetch - main [MainThread]: Store serial: [18902266]
