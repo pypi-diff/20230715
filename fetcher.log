@@ -11207,3 +11207,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xde in position 95: invalid
 [2023-07-15 17:00:09] INFO root fetch - processPackages [conda-lock]: Remove: archive file [/home/abi/fetcher/tmp/conda_lock-2.1.1.tar.gz]
 [2023-07-15 17:00:09] INFO root fetch - main [MainThread]: End processing [conda-lock]: success
 [2023-07-15 17:00:09] INFO root fetch - main [MainThread]: Store serial: [18901256]
+[2023-07-15 17:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18901256]
+[2023-07-15 17:05:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reprim
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MisER
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdxbasics
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-loom
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: school-sdk
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySnooper
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reprim
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zf-school-sdk
+[2023-07-15 17:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: packageAb
+[2023-07-15 17:05:18] INFO root fetch - processPackages [PySnooper]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [reprim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [zf-school-sdk]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [reprim]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [school-sdk]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [dbt-loom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [MisER]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-15 17:05:18] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-15 17:05:18] WARNING root fetch - processPackages [packageAb]: Skipping, unable to determine old version
+[2023-07-15 17:05:18] INFO root fetch - main [MainThread]: End processing [packageAb] error
+[2023-07-15 17:05:19] INFO root fetch - processPackages [PySnooper]: Downloading https://files.pythonhosted.org/packages/e9/82/3f6d0f73c9fd19bf07953d788e34d1c64c766a03e54625bf9fe98d730822/PySnooper-1.1.1.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/56/7c/85e488d46aa3f74b165ae6b0e56d64292091f15bf494be24f65f7a112f48/reprim-0.0.7.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/56/7c/85e488d46aa3f74b165ae6b0e56d64292091f15bf494be24f65f7a112f48/reprim-0.0.7.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [school-sdk]: Downloading https://files.pythonhosted.org/packages/24/65/4d1629366c78358afeaea4428e75d7010fc4c41aef16b7a0287a412f11e3/school-sdk-1.4.9.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [MisER]: Downloading https://files.pythonhosted.org/packages/b8/01/de84f232d0e4359dc3aed697e78e24b8be310328d794d51989b293b8aed4/MisER-0.0.1.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [dbt-loom]: Downloading https://files.pythonhosted.org/packages/fd/98/92eb48de9ea71879c5168f7d264fd79b28a8a0dc583b13abb4f3ea7d8c00/dbt_loom-0.1.0.tar.gz
+[2023-07-15 17:05:19] WARNING root fetch - processPackages [school-sdk]: Skipping package: exceeds size limit 38027484>=10485760
+[2023-07-15 17:05:19] INFO root fetch - main [MainThread]: End processing [school-sdk] error
+[2023-07-15 17:05:19] INFO root fetch - processPackages [zf-school-sdk]: Downloading https://files.pythonhosted.org/packages/20/25/cb48c9961afce6163b4b533bd1d02e1607e0c6ff5459f0add54e6c9fae41/zf_school_sdk-1.4.9-py3-none-any.whl
+[2023-07-15 17:05:19] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/4a/68/455ce9d5e100d1519ce65d17318933b8ef761aa9b261c455bba3127e48be/reprim-0.0.8.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: Downloading https://files.pythonhosted.org/packages/4a/68/455ce9d5e100d1519ce65d17318933b8ef761aa9b261c455bba3127e48be/reprim-0.0.8.tar.gz
+[2023-07-15 17:05:19] WARNING root fetch - processPackages [zf-school-sdk]: Skipping package: exceeds size limit 38030845>=10485760
+[2023-07-15 17:05:19] INFO root fetch - main [MainThread]: End processing [zf-school-sdk] error
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-15 17:05:19] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.0.7.tar.gz tmp/reprim-0.0.8.tar.gz --markdown 20230715/r/reprim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 17:05:19] INFO root fetch - processPackages [dbt-loom]: Downloading https://files.pythonhosted.org/packages/62/9f/922c58ba50f88fafa3b3b6884e16e9a2b6906d3448a9bc8ac6fb26fc7240/dbt_loom-0.1.1.tar.gz
+[2023-07-15 17:05:19] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-07-15 17:05:19] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230715/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-15 17:05:20] INFO root fetch - processPackages [dbt-loom]: executing diffoscope
+[2023-07-15 17:05:20] INFO root fetch - processPackages [dbt-loom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_loom-0.1.0.tar.gz tmp/dbt_loom-0.1.1.tar.gz --markdown 20230715/d/dbt-loom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-15 17:05:20] INFO root fetch - processPackages [MisER]: Downloading https://files.pythonhosted.org/packages/11/5f/3a8fe27daa78ffe2cc0c44184aa8d902ef0b081c65fac5b7949e3aed3893/MisER-0.0.2.tar.gz
+[2023-07-15 17:05:20] INFO root fetch - processPackages [PySnooper]: Downloading https://files.pythonhosted.org/packages/66/08/474e7891ff7107328404b46f42cdc9bf58b99404924d35933037cd0fb145/PySnooper-1.2.0.tar.gz
+[2023-07-15 17:05:20] INFO root fetch - processPackages [reprim]: executing diffoscope
+[2023-07-15 17:05:20] INFO root fetch - processPackages [reprim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprim-0.0.7.tar.gz tmp/reprim-0.0.8.tar.gz --markdown 20230715/r/reprim/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-15 17:05:20] INFO root fetch - processPackages [MisER]: executing diffoscope
+[2023-07-15 17:05:20] INFO root fetch - processPackages [MisER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MisER-0.0.1.tar.gz tmp/MisER-0.0.2.tar.gz --markdown 20230715/M/MisER/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-15 17:05:20] INFO root fetch - processPackages [PySnooper]: executing diffoscope
+[2023-07-15 17:05:20] INFO root fetch - processPackages [PySnooper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230715:/home/abi/fetcher/20230715:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySnooper-1.1.1.tar.gz tmp/PySnooper-1.2.0.tar.gz --markdown 20230715/P/PySnooper/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-15 17:05:20] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.7.tar.gz]
+[2023-07-15 17:05:20] INFO root fetch - processPackages [reprim]: Remove: archive file [/home/abi/fetcher/tmp/reprim-0.0.8.tar.gz]
+[2023-07-15 17:05:20] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-15 17:05:20] INFO root fetch - processPackages [dbt-loom]: Remove: archive file [/home/abi/fetcher/tmp/dbt_loom-0.1.0.tar.gz]
+[2023-07-15 17:05:20] INFO root fetch - processPackages [dbt-loom]: Remove: archive file [/home/abi/fetcher/tmp/dbt_loom-0.1.1.tar.gz]
+[2023-07-15 17:05:20] INFO root fetch - main [MainThread]: End processing [dbt-loom]: success
+[2023-07-15 17:05:21] INFO root fetch - main [MainThread]: End processing [reprim]: success
+[2023-07-15 17:05:21] INFO root fetch - processPackages [MisER]: Remove: archive file [/home/abi/fetcher/tmp/MisER-0.0.1.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - processPackages [MisER]: Remove: archive file [/home/abi/fetcher/tmp/MisER-0.0.2.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - main [MainThread]: End processing [MisER]: success
+[2023-07-15 17:05:21] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-07-15 17:05:21] INFO root fetch - processPackages [PySnooper]: Remove: archive file [/home/abi/fetcher/tmp/PySnooper-1.1.1.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - processPackages [PySnooper]: Remove: archive file [/home/abi/fetcher/tmp/PySnooper-1.2.0.tar.gz]
+[2023-07-15 17:05:21] INFO root fetch - main [MainThread]: End processing [PySnooper]: success
+[2023-07-15 17:05:21] INFO root fetch - main [MainThread]: Store serial: [18901284]
